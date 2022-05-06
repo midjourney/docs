@@ -30,7 +30,7 @@ Parameters are bot options that change how the images will be generated
 
 `--fast` — Faster images, less consistency
 
-`--vibefast` — Like `--fast` but for the old algorithm
+`--vibefast` — Faster version of the old algorithm 
 
 `--h` — Height of image. Works better as multiple of 64
 
@@ -40,7 +40,7 @@ Parameters are bot options that change how the images will be generated
 
 `--no` — Negative prompting (`--no plants` would try to remove plants)
 
-`--video` — Saves a progress video, which is sent to you in the ✉️-triggered DM
+`--video` — Saves a progress video, which is sent to you in the :envelope: reaction is triggered DM
 
 `--hd` — Uses a different algorithm that’s potentially better for abstract and landscape prompts.
 
@@ -100,7 +100,7 @@ Another gotcha is if the sum of all the prompts sum to 0, you get random junk re
 
 ### Emoji responses
 
-✉️ — Sends an image to your DMs with job and seed IDs plus image prompt
+✉️ — Sends an image to your DMs with job and seed IDs plus image prompt (:envelope: reaction)
 
 ⭐️ — Sends an image to the #favorites channel
 

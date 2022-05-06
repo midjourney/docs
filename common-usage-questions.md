@@ -65,3 +65,8 @@ A: Seed means that the random noise we add during the initialization of the gene
 Q: What exactly does the ↻ button do?
 
 A: The ↻ submits the same job again.
+
+
+Q Is there a way to save all my images at once? 
+
+A: We don't have a batch download feature yet. The fastest is to go to your web gallery feed, open an image, then click on the save icon. You can use the right arrow to move to the next image and repeat the operation.

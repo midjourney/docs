@@ -2,6 +2,11 @@
 
 Q: How can I attach an image as inspiration?	
 A: Type /imagine prompt as normal, but then put in a the web address where the image is stored online. After the link you can still add new text prompts.
+ 
+Q: I'm putting in a url but its not working, what is wrong? 
+
+A: Upload your image to discord, for example by posting it in your thread, then open the image and copy the image address
+
 
 
 Q: Any tips regarding using two image sources? The results seem quite random... Is there any way to influence what those two images are doing?	
