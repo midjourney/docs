@@ -14,7 +14,7 @@ A: Some users have great success with Topaz Gigapixel, Pixelmator Pro, BigJpg or
 
 Q: How many concurrent jobs can I run? How many can I queue?
 
-A: You can generate 3 images at once. If you start more jobs you will get a message saying "your job will start shortly". You can start 10 jobs before your queue is full.
+A: You can generate 3 images at once. If you start more jobs you will get a message saying "your job will start shortly". You can start 10 jobs before your queue is full. If you are in relax mode this decreases to 2 images at once.
 
 Q: Is there a way to use init images?
 

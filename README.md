@@ -4,7 +4,7 @@
 
 Commands are functions of the Midjourney bot to be typed in any bot channel or thread
 
-`/imagine` — Creates an image from text (4 images in 60 seconds)
+`/imagine` — Creates an image from text (4 images in 50 seconds)
 
 `/ideas` — Give some random ideas for prompts
 
@@ -14,9 +14,9 @@ Commands are functions of the Midjourney bot to be typed in any bot channel or t
 
 `/help` — Displays bot options for handy reference
 
-`/gift credits` — See how many credits you have left to use or to give. You don't need credits for yourself once you subscribe.&#x20;
+`/gift credits` — See how many credits you have left to use or to give. You don't need credits for yourself once you subscribe. (this will be removed in near future)
 
-`/gift user [user] [amount]` — Give credits to a specifc user&#x20;
+`/gift user [user] [amount]` — Give credits to a specifc user (this will be removed in near future)
 
 `/invite` — Generates an invite link and send it to your DM that you can send someone to join the server. It will give them 25 credits out of your total
 
@@ -60,7 +60,7 @@ Parameters are bot options that change how the images will be generated
 
 `--lp`: `--w 512 --h 768 --hd`
 
-#### Deprecated?
+#### Deprecated
 
 `--hq` —
 
@@ -70,7 +70,7 @@ Parameters are bot options that change how the images will be generated
 
 `--beta` —
 
-`/pixels` — Like `/imagine` but it returned pixel art, RIP
+`/pixels` — Like `/imagine` but it returned pixel art
 
 ### Image prompting
 
