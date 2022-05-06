@@ -30,7 +30,7 @@ Parameters are bot options that change how the images will be generated
 
 `--fast` — Faster images, less consistency
 
-`--vibefast` — Like `--fast` but for the old algorithm
+`--vibefast` — Faster version of the old algorithm 
 
 `--hd` — Uses a different algorithm that’s potentially better for larger images, but with less consistent composition. Best for abstract and landscape prompts.
 
