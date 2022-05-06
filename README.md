@@ -10,17 +10,17 @@ Commands are functions of the Midjourney bot to be typed in any bot channel or t
 
 `/word` — Queries a dictionary of pre-rendered images for words you type (type ! To get a random set of words)
 
-`/style` — Queries a dictionary of pre-rendered images for a style you type (type ! to get a random style, type !query to search for things similar to that query)
+`/style` — Queries a dictionary of pre-rendered images for a style you type. Available options will appear as an autocomplete list above the text area (type ! to get a random style)
 
 `/help` — Displays bot options for handy reference
 
 `/gift credits` — See how many credits you have left to use or to give. You don't need credits for yourself once you subscribe. (this will be removed in near future)
 
-`/gift user [user] [amount]` — Give credits to a specifc user (this will be removed in near future)
+`/gift user [user] [amount]` — Give credits to a specific user (this will be removed in near future)
 
 `/invite` — Generates an invite link and send it to your DM that you can send someone to join the server. It will give them 25 credits out of your total
 
-`/subscribe` — Subscribe to the 30 days plan
+`/subscribe` — Subscribe to the 30 day plan
 
 ### Parameters
 
@@ -32,17 +32,18 @@ Parameters are bot options that change how the images will be generated
 
 `--vibefast` — Faster version of the old algorithm 
 
-`--h` — Height of image. Works better as multiple of 64
+`--hd` — Uses a different algorithm that’s potentially better for larger images, but with less consistent composition. Best for abstract and landscape prompts.
 
-`--w` — Width of image. Works better as multiple of 64
+`--h` — Height of image. Works better as multiple of 64 (or 128 for `--hd`)
 
-`--seed` — Sets the random seed, which can sometimes help keep things more steady between generations
+`--w` — Width of image. Works better as multiple of 64 (or 128 for `--hd`)
+
+`--seed` — Sets the random seed, which can sometimes help keep things more steady / reproducible between generations
 
 `--no` — Negative prompting (`--no plants` would try to remove plants)
 
-`--video` — Saves a progress video, which is sent to you in the :envelope: reaction is triggered DM
+`--video` — Saves a progress video, which is sent to you in the ✉️-triggered DM
 
-`--hd` — Uses a different algorithm that’s potentially better for abstract and landscape prompts.
 
 **Size shortcuts**
 
@@ -62,56 +63,55 @@ Parameters are bot options that change how the images will be generated
 
 #### Deprecated
 
-`--hq` —
+`--hq`
 
-`--newclip` —
+`--newclip`
 
-`--stretch` —
+`--nostretch` — This adjustment is now applied automatically based on aspect ratio
 
-`--beta` —
+`--beta`
 
 `/pixels` — Like `/imagine` but it returned pixel art
 
 ### Image prompting
 
-Add one more more image URLs to your prompt and it will use those images as visual inspiration. You can mix words with images or just have images alone.
+Add one or more image URLs to your prompt and it will use those images as visual inspiration. You can mix words with images or just have images alone.
+
+**Note**: This is *not* the same as building on top of (or "initializing" from) an input image. Midjourney does not currently offer the ability to use an init image.
 
 `--iw` — Adjusts the weight of the image URLs vs the text (0.5 weights images half and 2 weighs images twice as much)
 
-#### Advanced image weights
-
-You can set weights individually for each image url in the prompt, just include a `--iw` # for each image in the same order they show up at the beginning of the prompt.
-
-An example which weights the second image higher than the first:
-
-```
-https://s.mj.run/6zsj7L https://s.mj.run/gWenzZ --iw 0.25 --iw 0.75 --w 384
-```
+**Note**: There is currently no way to apply different weights to each image prompt. This will be addressed in the future.
 
 ### Advanced text weights
 
-You can suffix any part of the prompt with `::0.5` to give that part a weight of 0.5. If the weight is not specified, it defaults to 1. Some examples: `/imagine hot dog::1 food::-1` - This sends a text prompt of `hot dog` with the weight 1 and `food` of weight -1 `/imagine hot dog::0.5 animal::-0.75` - Sends `hot dog` of weight 0.5 and `animal` of negative 0.75 `/imagine hot dog:: food::-1 animal::` - Sends `hot dog` of weight 1, `food` of weight -1 and `animal` of weight 1 (unspecified weights default to 1)
+You can suffix any part of the prompt with `::0.5` to give that part a weight of 0.5. If the weight is not specified, it defaults to 1.
+
+Some examples:
+- `/imagine hot dog::1 food::-1` — This sends a text prompt of `hot dog` with the weight 1 and `food` of weight -1
+- `/imagine hot dog::0.5 animal::-0.75` — Sends `hot dog` of weight 0.5 and `animal` of negative 0.75
+- `/imagine hot dog:: food::-1 animal` — Sends `hot dog` of weight 1, `food` of weight -1 and `animal` of weight 1
 
 Watch out for prompts such as `/imagine hot dog animal::-1`, as this will send the prompt of `hot dog animal` with weight -1.
 
-Note, negative weights are VERY strong. ex: `—no pants` \~= `pants::-0.5`
-
-Another gotcha is if the sum of all the prompts sum to 0, you get random junk responses.
+**Note**: The `--no` command is equivalent to using weight -0.5.
 
 ### Emoji responses
 
-✉️ — Sends an image to your DMs with job and seed IDs plus image prompt (:envelope: reaction)
+✉️ — Sends an image to your DMs with the seed # and job ID. If the result was a grid, it will send each individual image.
 
-⭐️ — Sends an image to the #favorites channel
+⭐️ — Sends an image to the #favorites channel.
 
-❌ — Cancels or deletes a generation at any time. Also removes it from the web gallery
+❌ — Cancels or deletes a generation at any time. It is also removed from the web gallery.
 
 ### Preferences
 
-`/prefer suffix <text>` This will automatically append this suffix after all prompts you submit. Leave empty to reset.
+`/prefer suffix <text>` — This will automatically append this suffix after all prompts you submit. Leave empty to reset.
 
-`/prefer auto_dm` Jobs will be automatically DMed to you.
+**Note:** Only --options are currently officially supported as values for the suffix option, not just any regular text.
 
-`/prefer option set <name> <value>` This creates a personal option, which then translates to specified value when you invoke it by prepending it with --. Only you can use this option. For example, `/prefer option set mine --hd --w 512` creates an option called "mine" that translates to `--hd --w 512`. So you can use `/imagine rubber ducks are awesome --mine`, and it will be the exact same as if you did `/imagine rubber ducks are awesome --hd --w 512`. Leave the value field empty to delete an option. **NOTE:** Only --options are valid values for the suffix option right now, not just any regular text.
+`/prefer auto_dm True` — Jobs will be automatically DMed to you.
 
-`/prefer option list` This will list your currently set personal options. You may keep a maximum of 20 personal options.
+`/prefer option set <name> <value>` — This creates a personal option, which then translates to specified value when you invoke it by prepending it with --. Only you can use this option. For example, `/prefer option set mine --hd --w 512` creates an option called "mine" that translates to `--hd --w 512`. So you can use `/imagine rubber ducks are awesome --mine`, and it will be the exact same as if you did `/imagine rubber ducks are awesome --hd --w 512`. Leave the value field empty to delete an option.
+
+`/prefer option list` — This will list your currently set personal options. You may keep a maximum of 20 personal options.
