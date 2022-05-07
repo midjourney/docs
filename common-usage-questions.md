@@ -4,6 +4,9 @@ Q: The upscale is adding too much details. How could I just change the resolutio
 
 A: React to your image with :envelope: and it will send you the separate images in DM. You can then change the resolution using a program on your computer. 
 
+Q: Bot should have DM'ed me because I used ✉️, but I don't see any messages.
+
+A: Right-click on the server -> Privacy settings -> Allow direct messages from server members
 
 Q: How many concurrent jobs can I run? How many can I queue?
 
