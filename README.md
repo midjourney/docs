@@ -6,6 +6,10 @@ Commands are functions of the Midjourney bot to be typed in any bot channel or t
 
 `/imagine` — Creates an image from text (4 images in 50 seconds)
 
+`/info` — Shows information about your profile
+
+`/invite` — Generates an invite link and send it to your DM that you can send someone to join the server. It will give them some credits to try out the bot.
+
 `/ideas` — Give some random ideas for prompts
 
 `/word` — Queries a dictionary of pre-rendered images for words you type (type ! To get a random set of words)
@@ -14,13 +18,11 @@ Commands are functions of the Midjourney bot to be typed in any bot channel or t
 
 `/help` — Displays bot options for handy reference
 
-`/gift credits` — See how many credits you have left to use or to give. You don't need credits for yourself once you subscribe. (this will be removed in near future)
+`/subscribe` — Get a link to the subscription page
 
-`/gift user [user] [amount]` — Give credits to a specific user (this will be removed in near future)
+`/fast` and `/relax` — Toggles between "fast" and "relax" mode. In fast mode, if you are out of credits, your jobs will be incrementally billed. In relax mode, your jobs do not cost credits, but take longer to generate.
 
-`/invite` — Generates an invite link and send it to your DM that you can send someone to join the server. It will give them 25 credits out of your total
-
-`/subscribe` — Subscribe to the 30 day plan
+`/private` and `/public` — Toggles between "private" and "public" mode. In private mode, your jobs are only visible to you. In public mode, your jobs are visible to everyone in the gallery. Access to private mode costs extra 20$ per month.
 
 ### Parameters
 
@@ -43,6 +45,8 @@ Parameters are bot options that change how the images will be generated
 `--no` — Negative prompting (`--no plants` would try to remove plants)
 
 `--video` — Saves a progress video, which is sent to you in the ✉️-triggered DM
+
+`--iw` — Sets image prompt weight
 
 
 **Size shortcuts**
@@ -81,7 +85,7 @@ Add one or more image URLs to your prompt and it will use those images as visual
 
 `--iw` — Adjusts the weight of the image URLs vs the text (0.5 weights images half and 2 weighs images twice as much)
 
-**Note**: There is currently no way to apply different weights to each image prompt. This will be addressed in the future.
+**Note**: There is currently no way to apply different weights to different image prompts. This will be addressed in the future.
 
 ### Advanced text weights
 
@@ -100,7 +104,7 @@ Watch out for prompts such as `/imagine hot dog animal::-1`, as this will send t
 
 ✉️ — Sends an image to your DMs with the seed # and job ID. If the result was a grid, it will send each individual image.
 
-⭐️ — Sends an image to the #favorites channel.
+⭐️ — Marks image as "favorite". This shows in a separate feed on the web gallery and sends the image to the #favorites channel.
 
 ❌ — Cancels or deletes a generation at any time. It is also removed from the web gallery.
 
@@ -110,7 +114,7 @@ Watch out for prompts such as `/imagine hot dog animal::-1`, as this will send t
 
 **Note:** Only --options are currently officially supported as values for the suffix option, not just any regular text.
 
-`/prefer auto_dm True` — Jobs will be automatically DMed to you.
+`/prefer auto_dm True` — Jobs will be automatically DMed to you. Set False to turn this off.
 
 `/prefer option set <name> <value>` — This creates a personal option, which then translates to specified value when you invoke it by prepending it with --. Only you can use this option. For example, `/prefer option set mine --hd --w 512` creates an option called "mine" that translates to `--hd --w 512`. So you can use `/imagine rubber ducks are awesome --mine`, and it will be the exact same as if you did `/imagine rubber ducks are awesome --hd --w 512`. Leave the value field empty to delete an option.
 

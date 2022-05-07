@@ -4,6 +4,10 @@ Q: The upscale is adding too much details. How could I just change the resolutio
 
 A: React to your image with :envelope: and it will send you the separate images in DM. You can upscale them using a seprate tool like Topaz
 
+Q: Bot should have DM'ed me because I used ✉️, but I don't see any messages.
+
+A: Right-click on the server -> Privacy settings -> Allow direct messages from server members
+
 Q: What external tools can I use for upscaling without adding details?
 
 A: Some users have great success with Topaz Gigapixel, Pixelmator Pro, BigJpg or ESRGAN\
