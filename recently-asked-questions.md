@@ -6,11 +6,11 @@ A: Use `/info`.
 
 Q: My images say "relaxed", how do I change this?
 
-A: Use `/fast`. This will enable fast generation, but you will be incrementally charged for each image.
+A: Use `/fast`. This will enable fast generation, but you will be incrementally charged for each image if you are out of fast credits.
 
 Q: My images say "metered, fast". I don't want to be charged!
 
-A: Use `/slow`. This will cost you nothing but images will take longer to generate.
+A: Use `/relax`. This will cost you nothing but images will take longer to generate.
 
 Q: I don't want anyone to see my images and prompts.
 
