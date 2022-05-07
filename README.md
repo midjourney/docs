@@ -4,50 +4,57 @@
 
 Commands are functions of the Midjourney bot to be typed in any bot channel or thread
 
-`/imagine` — Creates an image from text (4 images in 50 seconds)
+`/imagine` Creates an image from text (4 images in 50 seconds)
 
-`/info` — Shows information about your profile
+`/info` Shows information about your profile
 
-`/invite` — Generates an invite link and send it to your DM that you can send someone to join the server. It will give them some credits to try out the bot.
+`/invite` Generates an invite link and send it to your DM that you can send someone to join the server. It will give them some credits to try out the bot.
 
-`/ideas` — Give some random ideas for prompts
+`/ideas` Give some random ideas for prompts
 
-`/word` — Queries a dictionary of pre-rendered images for words you type (type ! To get a random set of words)
+`/word` Queries a dictionary of pre-rendered images for words you type (type ! To get a random set of words)
 
-`/style` — Queries a dictionary of pre-rendered images for a style you type. Available options will appear as an autocomplete list above the text area (type ! to get a random style)
+`/style` Queries a dictionary of pre-rendered images for a style you type. Available options will appear as an autocomplete list above the text area (type ! to get a random style)
 
-`/help` — Displays bot options for handy reference
+`/help` Displays bot options for handy reference
 
-`/subscribe` — Get a link to the subscription page
+`/subscribe` Get a link to the subscription page
 
-`/fast` and `/relax` — Toggles between "fast" and "relax" mode. In fast mode, if you are out of credits, your jobs will be incrementally billed. In relax mode, your jobs do not cost credits, but take longer to generate.
+`/fast` and `/relax` Toggles between "fast" and "relax" mode. In fast mode, if you are out of credits, your jobs will be incrementally billed. In relax mode, your jobs do not cost credits, but take longer to generate.
 
-`/private` and `/public` — Toggles between "private" and "public" mode. In private mode, your jobs are only visible to you. In public mode, your jobs are visible to everyone in the gallery. Access to private mode costs extra 20$ per month.
+`/private` and `/public` Toggles between "private" and "public" mode. In private mode, your jobs are only visible to you. In public mode, your jobs are visible to everyone in the gallery. Access to private mode costs extra 20$ per month.
+
+### Emoji responses
+
+✉️ — Sends an image to your DMs with the seed # and job ID. If the result was a grid, it will send each individual image.
+
+⭐️ — Marks image as "favorite". This shows in a separate feed on the web gallery and sends the image to the #favorites channel.
+
+❌ — Cancels or deletes a generation at any time. It is also removed from the web gallery.
 
 ### Parameters
 
 Parameters are bot options that change how the images will be generated
 
-`--vibe` — Uses old algorithm (more vibes, more abstract, sometimes better for macro or textures)
+`--w` Width of image. Works better as multiple of 64 (or 128 for `--hd`)
 
-`--fast` — Faster images, less consistency
+`--h` Height of image. Works better as multiple of 64 (or 128 for `--hd`)
 
-`--vibefast` — Faster version of the old algorithm 
+`--seed` Sets the random seed, which can sometimes help keep things more steady / reproducible between generations
 
-`--hd` — Uses a different algorithm that’s potentially better for larger images, but with less consistent composition. Best for abstract and landscape prompts.
+`--no` Negative prompting (`--no plants` would try to remove plants)
 
-`--h` — Height of image. Works better as multiple of 64 (or 128 for `--hd`)
+`--video` Saves a progress video, which is sent to you in the ✉️-triggered DM
 
-`--w` — Width of image. Works better as multiple of 64 (or 128 for `--hd`)
+`--iw` Sets image prompt weight
 
-`--seed` — Sets the random seed, which can sometimes help keep things more steady / reproducible between generations
+`--fast` Faster images, less consistency
 
-`--no` — Negative prompting (`--no plants` would try to remove plants)
+`--vibe` Uses old algorithm (more vibes, more abstract, sometimes better for macro or textures)
 
-`--video` — Saves a progress video, which is sent to you in the ✉️-triggered DM
+`--vibefast` Faster version of the old algorithm 
 
-`--iw` — Sets image prompt weight
-
+`--hd` Uses a different algorithm that’s potentially better for larger images, but with less consistent composition. Best for abstract and landscape prompts.
 
 **Size shortcuts**
 
@@ -64,18 +71,6 @@ Parameters are bot options that change how the images will be generated
 `--mp`: `--w 320 --h 448`
 
 `--lp`: `--w 512 --h 768 --hd`
-
-#### Deprecated
-
-`--hq`
-
-`--newclip`
-
-`--nostretch` — This adjustment is now applied automatically based on aspect ratio
-
-`--beta`
-
-`/pixels` — Like `/imagine` but it returned pixel art
 
 ### Image prompting
 
@@ -100,14 +95,6 @@ Watch out for prompts such as `/imagine hot dog animal::-1`, as this will send t
 
 **Note**: The `--no` command is equivalent to using weight -0.5.
 
-### Emoji responses
-
-✉️ — Sends an image to your DMs with the seed # and job ID. If the result was a grid, it will send each individual image.
-
-⭐️ — Marks image as "favorite". This shows in a separate feed on the web gallery and sends the image to the #favorites channel.
-
-❌ — Cancels or deletes a generation at any time. It is also removed from the web gallery.
-
 ### Preferences
 
 `/prefer suffix <text>` — This will automatically append this suffix after all prompts you submit. Leave empty to reset.
@@ -119,3 +106,7 @@ Watch out for prompts such as `/imagine hot dog animal::-1`, as this will send t
 `/prefer option set <name> <value>` — This creates a personal option, which then translates to specified value when you invoke it by prepending it with --. Only you can use this option. For example, `/prefer option set mine --hd --w 512` creates an option called "mine" that translates to `--hd --w 512`. So you can use `/imagine rubber ducks are awesome --mine`, and it will be the exact same as if you did `/imagine rubber ducks are awesome --hd --w 512`. Leave the value field empty to delete an option.
 
 `/prefer option list` — This will list your currently set personal options. You may keep a maximum of 20 personal options.
+
+#### Deprecated
+
+`--hq` `--newclip` `--nostretch` `--beta` `/pixels`
