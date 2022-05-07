@@ -4,5 +4,5 @@
 * [Usage screenshots](usage-screenshots.md)
 * [Common usage questions](common-usage-questions.md)
 * [Common process questions](common-process-questions.md)
-* [Image Prompt questions] (image-prompt-questions.md)
-* [Text Prompt Questions] (text-prompt-questions.md)
+* [Image prompt questions](image-prompt-questions.md)
+* [Text prompt questions](Text-prompt-questions.md)
