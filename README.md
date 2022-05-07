@@ -26,11 +26,11 @@ Commands are functions of the Midjourney bot to be typed in any bot channel or t
 
 ### Emoji responses
 
-✉️ — Sends an image to your DMs with the seed # and job ID. If the result was a grid, it will send each individual image.
+✉️ Sends an image to your DMs with the seed # and job ID. If the result was a grid, it will send each individual image.
 
-⭐️ — Marks image as "favorite". This shows in a separate feed on the web gallery and sends the image to the #favorites channel.
+⭐️ Marks image as "favorite". This shows in a separate feed on the web gallery and sends the image to the #favorites channel.
 
-❌ — Cancels or deletes a generation at any time. It is also removed from the web gallery.
+❌ Cancels or deletes a generation at any time. It is also removed from the web gallery.
 
 ### Parameters
 
