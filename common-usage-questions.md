@@ -2,19 +2,11 @@
 
 Q: The upscale is adding too much details. How could I just change the resolution of one of the image from the 2x2 preview grid?
 
-A: React to your image with :envelope: and it will send you the separate images in DM. You can upscale them using a seprate tool like Topaz
+A: React to your image with :envelope: and it will send you the separate images in DM. You can then change the resolution using a program on your computer. 
 
 Q: Bot should have DM'ed me because I used ✉️, but I don't see any messages.
 
 A: Right-click on the server -> Privacy settings -> Allow direct messages from server members
-
-Q: What external tools can I use for upscaling without adding details?
-
-A: Some users have great success with Topaz Gigapixel, Pixelmator Pro, BigJpg or ESRGAN\
-[https://www.topazlabs.com/gigapixel-ai](https://www.topazlabs.com/gigapixel-ai)\
-[https://www.pixelmator.com/support/guide/pixelmator-photo/797](https://www.pixelmator.com/support/guide/pixelmator-photo/797)\
-[https://bigjpg.com/](https://bigjpg.com)\
-[https://github.com/xinntao/Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN)
 
 Q: How many concurrent jobs can I run? How many can I queue?
 
@@ -56,7 +48,7 @@ A: Not yet
 
 Q: Are the 4 initial images generated with the same seed? 
 
-A: In a way yes. we use the seed to generate noise(think randomness) for all 4 images at once so the noise is different for each image. 
+A: In a way yes. We use the seed to generate noise(think randomness) for all 4 images at once so the noise is different for each image. 
 
 Q: Does submitting the job again use a different seed?
 
