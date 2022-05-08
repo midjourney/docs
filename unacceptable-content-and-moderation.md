@@ -2,11 +2,10 @@
 
 Midjourney is intended to be a community site, via both the Discord and the gallery viewable by members.  Our rules state content must be PG-13, and specifically, the **#rules** channel states, 
 
-```
-Do not create images or use text prompts that are inherently disrespectful, aggressive, or otherwise abusive. Violence or harassment of any kind will not be tolerated.
+> Do not create images or use text prompts that are inherently disrespectful, aggressive, or otherwise abusive. Violence or harassment of any kind will not be tolerated.
 
-A. No adult content or gore. Please avoid making visually shocking or disturbing content. We will block some text inputs automatically.
-```
+> A. No adult content or gore. Please avoid making visually shocking or disturbing content. We will block some text inputs automatically.
+
 
 These rules are enforced for **public content**, which is all content you produce unless you have opted into the `/private` mode. (See below). 
 
