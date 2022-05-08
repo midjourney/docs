@@ -1,13 +1,13 @@
-# Unacceptable Content and Moderation
+# Content Policy and Moderation
 
-Midjourney is intended to be a community site, via both the Discord and the gallery viewable by members.  Our rules state content must be PG-13, and specifically, the **#rules** channel states, 
+Midjourney is intended to be a open-by-default community, via both  Discord and the member gallery.  Our rules state content must be PG-13, and specifically, the **#rules** channel states, 
 
 > Do not create images or use text prompts that are inherently disrespectful, aggressive, or otherwise abusive. Violence or harassment of any kind will not be tolerated.
 
 > A. No adult content or gore. Please avoid making visually shocking or disturbing content. We will block some text inputs automatically.
 
 
-These rules are enforced for **public content**, which is all content you produce unless you have opted into the `/private` mode. (See below). 
+These rules are actively enforced for **public content**, which is all content you produce unless you have opted into the `/private` mode.
 
 Some words or phrases are blocked automatically based on their recurrence in disturbing content creation.  You won't be able to make images using them.
 
