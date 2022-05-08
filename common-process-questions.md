@@ -11,3 +11,6 @@ A: We're working on a better moderating system. For now banning words has proven
 **Q: How do I get the seed or job id that was used for an image (e.g. so I can report a bug or so I can reuse it to generate a similar image)?**
 
 A: React to your image with :envelope: and it will send it to you in DM
+
+<img width="400" alt="FileID_Step1" src="https://user-images.githubusercontent.com/105028755/167305579-1b2c461f-03d7-4aad-b14e-9ce0dd74fd9a.png">
+<img width="400" alt="FileID_Step2" src="https://user-images.githubusercontent.com/105028755/167305633-95ad0e19-0754-4b69-b305-f74a554c8d6f.png">
