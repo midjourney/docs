@@ -30,8 +30,6 @@ Public images include all images generated in bot channels on the Discord server
 
 We recognize there are horror fans using the site. They are nevertheless subject to the community content guidelines, if they produce images that are public.
 
-You can create truly private images not subject to these community guidelines if you upgrade to the `/private` plan option.
-
 ## Police Your Stuff, Too... Delete Accidental Gore/Adult Content
 
 Sometimes content from a simple prompt is nevertheless disturbing: It may be unexpectedly porny or bloody, for instance.  We are working on reducing the frequency of such output.  If you produce output that is against our content guidelines, the moderators will delete it and issue you a warning.  If you want to avoid warnings or shocking your fellow users, please delete it yourself using the emoji ❌ reaction.  This will delete the image from all public views.
