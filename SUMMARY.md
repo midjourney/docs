@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Usage docs](README.md)
+* [Unacceptable Content and Moderation](unacceptable-content-and-moderation.md)
 * [Usage screenshots](usage-screenshots.md)
 * [Questions related to recent changes](recently-asked-questions.md)
 * [Common usage questions](common-usage-questions.md)

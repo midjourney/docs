@@ -1,4 +1,8 @@
-# Usage docs
+# Usage Docs
+
+Please make sure you are familiar with the content guidelines and are aware of what is public content in the community.  You can find more detail in [Unacceptable Content and Moderation](unacceptable-content-and-moderation.md).  This document does not cover everything in the #rules, #faq, #announcements, #status channels, so make sure you check those out!
+
+That said, enjoy creating beautiful images!
 
 ### Commands
 
@@ -22,7 +26,7 @@ Commands are functions of the Midjourney bot to be typed in any bot channel or t
 
 `/fast` and `/relax` Toggles between "fast" and "relax" mode. In fast mode, if you are out of credits, your jobs will be incrementally billed. In relax mode, your jobs do not cost credits, but take longer to generate.
 
-`/private` and `/public` Toggles between "private" and "public" mode. In private mode, your jobs are only visible to you. In public mode, your jobs are visible to everyone in the gallery. Access to private mode costs extra 20$ per month.
+`/private` and `/public` Toggles between "private" and "public" mode. In private mode, your jobs are only visible to you. **In public mode, your jobs are visible to everyone in the gallery, even if you are creating them in a thread or a DM.** Access to private mode costs extra 20$ per month.
 
 ### Emoji responses
 
@@ -30,7 +34,7 @@ Commands are functions of the Midjourney bot to be typed in any bot channel or t
 
 ⭐️ Marks image as "favorite". This shows in a separate feed on the web gallery and sends the image to the #favorites channel.
 
-❌ Cancels or deletes a generation at any time. It is also removed from the web gallery.
+❌ Cancels or deletes a generation at any time. It is also removed from the web gallery.  Please help us by removing content you accidentally generated that is in violation of our PG-13 content guidelines (see [Unaccepable Content and Moderation](unacceptable-content-and-moderation.md)).
 
 ### Parameters
 

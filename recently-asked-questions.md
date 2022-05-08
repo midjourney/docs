@@ -15,3 +15,8 @@ A: Use `/relax`. This will cost you nothing but images will take longer to gener
 **Q: I don't want anyone to see my images and prompts.**
 
 A: Use `/private`. This will make your images private and hidden from the website, but costs more.
+
+**Q: I thought my DM images were private. Why are they being moderated?**
+
+They are not private unless you have paid for `/private` mode.  Images created in DM (or via sub-threads) are still viewable by others in the gallery feed unless you have specified you are `/private`.
+
