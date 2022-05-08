@@ -1,4 +1,4 @@
-# Content Policy and Moderation
+# Moderation and Content Policy
 
 Midjourney is intended to be a open-by-default community, via both  Discord and the member gallery.  Our rules state content must be PG-13, and specifically, the **#rules** channel states, 
 
