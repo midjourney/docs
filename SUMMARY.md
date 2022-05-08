@@ -7,5 +7,5 @@
 * [Common process questions](common-process-questions.md)
 * [Image Prompt questions](image-prompt-questions.md)
 * [Text Prompt Questions](text-prompt-questions.md)
-* [Unacceptable Content and Moderation](unacceptable-content-and-moderation.md)
+* [Moderation](unacceptable-content-and-moderation.md)
 
