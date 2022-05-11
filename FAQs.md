@@ -98,7 +98,7 @@ A: You can generate 3 images at once. If you start more jobs you'll get a messag
 
 A: In a bot channel, type `/invite`.  It will create a one-time use link for you to copy and send to the person you want to invite.  Don't lose it!  It's safest to do this in your DM channel with the bot, if you are a subscriber.
 
-[https://cdn.discordapp.com/attachments/961148616884506674/973955120721174538/invite2.gif](https://cdn.discordapp.com/attachments/961148616884506674/973955120721174538/invite2.gif)
+[See an invite2.gif.](https://cdn.discordapp.com/attachments/961148616884506674/973955120721174538/invite2.gif)
 
 {% embed url="https://cdn.discordapp.com/attachments/961148616884506674/973955120721174538/invite2.gif" %}
 
