@@ -1,6 +1,6 @@
 # Usage Docs
 
-Please make sure you are familiar with the content guidelines and are aware of what is public content in the community.  You can find more detail in [Content and Moderation](content_and_moderation_policy.md).  This document does not cover everything in the #rules, #faq, #announcements, #status channels, so make sure you check those out!
+Please make sure you are familiar with the content guidelines and are aware of what is public content in the community.  You can find more detail in [Content and Moderation](content-and-moderation-policy.md).  This document does not cover everything in the #rules, #faq, #announcements, #status channels, so make sure you check those out!
 
 That said, enjoy creating beautiful images!  In this page:
 
