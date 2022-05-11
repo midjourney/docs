@@ -2,7 +2,16 @@
 
 Please make sure you are familiar with the content guidelines and are aware of what is public content in the community.  You can find more detail in [Content and Moderation](content_and_moderation_policy.md).  This document does not cover everything in the #rules, #faq, #announcements, #status channels, so make sure you check those out!
 
-That said, enjoy creating beautiful images!
+That said, enjoy creating beautiful images!  In this page:
+
+- [Usage Docs](#usage-docs)
+    - [Basic Commands](#basic-commands)
+    - [Parameters to "Imagine"](#parameters-to-imagine)
+    - [Emoji Responses to Generation Output](#emoji-responses-to-generation-output)
+    - [Image Prompting with URL](#image-prompting-with-url)
+    - [Advanced Text Weights](#advanced-text-weights)
+    - [Discord Prompt Preferences](#discord-prompt-preferences)
+      - [Deprecated: May Want To Avoid](#deprecated-may-want-to-avoid)
 
 ### Basic Commands
 
@@ -30,17 +39,14 @@ Commands are functions of the Midjourney bot that can be typed in any bot channe
 
 You can find more documentation on using these in our [FAQs](FAQs.md).
 
-### Emoji Responses to Generation Output
-
-✉️ The envelope emoji response sends an image to your DMs with the seed # and job ID. If the result was a grid, it will send each individual image.
-
-⭐️ Marks image as "favorite". This shows in a separate feed on the web gallery and sends the image to the #favorites channel.
-
-❌ Cancels or deletes a generation at any time. It is also removed from the web gallery.  Please help us by removing content you accidentally generated that is in violation of our PG-13 content guidelines (see [Content and Moderation](content-and-moderation_policy.md)).
 
 ### Parameters to "Imagine"
 
-Parameters are bot options that change how the images will be generated
+Parameters are bot options that change how the images will be generated.  For instance, a full imagine
+command might contain several things, like an image URL, some weights, other switches:
+
+`/imagine prompt: http://myimageonline.jpg A forest spirit at night --iw 0.2 --no trees --hd`
+
 
 `--w` Width of image. Works better as multiple of 64 (or 128 for `--hd`)
 
@@ -78,7 +84,17 @@ Parameters are bot options that change how the images will be generated
 
 `--lp`: `--w 512 --h 768 --hd`
 
-### Image prompting
+
+### Emoji Responses to Generation Output
+
+✉️ The envelope emoji response sends an image to your DMs with the seed # and job ID. If the result was a grid, it will send each individual image.
+
+⭐️ Marks image as "favorite". This shows in a separate feed on the web gallery and sends the image to the #favorites channel.
+
+❌ Cancels or deletes a generation at any time. It is also removed from the web gallery.  Please help us by removing content you accidentally generated that is in violation of our PG-13 content guidelines (see [Content and Moderation](content-and-moderation_policy.md)).
+
+
+### Image Prompting with URL
 
 Add one or more image URLs to your prompt and it will use those images as visual inspiration. You can mix words with images or just have images alone.  See [Image Prompt Questions](image-prompt-questions.md) for more info.
 
@@ -88,9 +104,9 @@ Add one or more image URLs to your prompt and it will use those images as visual
 
 **Note**: There is currently no way to apply different weights to different image prompts. This will be addressed in the future.
 
-### Advanced text weights
+### Advanced Text Weights
 
-You can suffix any part of the prompt with `::0.5` to give that part a weight of 0.5. If the weight is not specified, it defaults to 1.
+You can suffix any part of the prompt with `::0.5` to give that part a weight of 0.5. If the weight is not specified, it defaults to 1.  See also [Text Prompt Questions](text-prompt-questions.md).
 
 Some examples:
 - `/imagine hot dog::1 food::-1` — This sends a text prompt of `hot dog` with the weight 1 and `food` of weight -1
@@ -101,8 +117,8 @@ Watch out for prompts such as `/imagine hot dog animal::-1`, as this will send t
 
 **Note**: The `--no` command is equivalent to using weight -0.5.
 
-See [Text Prompt Questions](text-prompt-questions.md) for more info.
-### Preferences
+
+### Discord Prompt Preferences
 
 `/prefer suffix <text>` — This will automatically append this suffix after all prompts you submit. Leave empty to reset.
 
@@ -114,6 +130,6 @@ See [Text Prompt Questions](text-prompt-questions.md) for more info.
 
 `/prefer option list` — This will list your currently set personal options. You may keep a maximum of 20 personal options.
 
-#### Deprecated
+#### Deprecated: May Want To Avoid
 
 `--hq` `--newclip` `--nostretch` `--beta` `/pixels`
