@@ -5,4 +5,4 @@
 * [FAQs](FAQs.md)
 * [Image Prompts](image-prompt-questions.md)
 * [Text Prompts](text-prompt-questions.md)
-* [Content and Moderation Policy](content-and-moderation_policy.md)
+* [Content and Moderation Policy](content_and_moderation_policy.md)
