@@ -101,6 +101,7 @@ Watch out for prompts such as `/imagine hot dog animal::-1`, as this will send t
 
 **Note**: The `--no` command is equivalent to using weight -0.5.
 
+See [Text Prompt Questions](text-prompt-questions.md) for more info.
 ### Preferences
 
 `/prefer suffix <text>` — This will automatically append this suffix after all prompts you submit. Leave empty to reset.
