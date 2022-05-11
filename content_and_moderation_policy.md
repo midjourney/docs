@@ -42,7 +42,7 @@ Some moderators may request people who are producing "edgy" content, especially 
 
 When we ask you to move to a thread, it usually means we're trying to let you experiment with the edges, but we will still enforce the guidelines if we think things have gone too far for the public feed.
 
-### Don't Hassle the Mods, Guides, or MJ Team by DM
+### Don't Hassle the Mods, Guides, or MJ Team by DM 
 
 No one wants to have long DM convos or arguments about the rules.  We're mostly volunteers.  Take your feedback to the feedback channels and don't send DMs to moderators unless they initiated the discussion about your content.
 
