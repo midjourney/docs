@@ -11,7 +11,7 @@ That said, enjoy creating beautiful images!  In this page:
     - [Image Prompting with URL](#image-prompting-with-url)
     - [Advanced Text Weights](#advanced-text-weights)
     - [Discord Prompt Preferences](#discord-prompt-preferences)
-      - [Deprecated: May Want To Avoid](#deprecated-may-want-to-avoid)
+    - [Deprecated: May Want To Avoid](#deprecated-may-want-to-avoid)
 
 ### Basic Commands
 
