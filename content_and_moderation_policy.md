@@ -1,4 +1,4 @@
-# Moderation and Content Policy
+# Content and Moderation Policy
 
 Midjourney is intended to be a open-by-default community, via both  Discord and the member gallery.  Our rules state content must be PG-13, and specifically, the **#rules** channel states, 
 
@@ -6,14 +6,11 @@ Midjourney is intended to be a open-by-default community, via both  Discord and 
 
 > A. No adult content or gore. Please avoid making visually shocking or disturbing content. We will block some text inputs automatically.
 
-
-These rules are actively enforced for **public content**, which is all content you produce unless you have opted into the `/private` mode.
-
-Some words or phrases are blocked automatically based on their recurrence in disturbing content creation.  You won't be able to make images using them.
+These rules are actively enforced for **public content**, which is all content you produce unless you have opted into the `/private` mode.  See below for more.
 
 ### What's Gore?
 
-Gore includes images of detached body parts of humans or animals, blood, violence (images of shooting or bombing someone, for instance), deformed bodies, pestilence, etc.
+Gore includes images of detached body parts of humans or animals, cannibalism, blood, violence (images of shooting or bombing someone, for instance), deformed bodies, pestilence, etc.
 
 ### What's Adult?
 
@@ -21,7 +18,13 @@ Try to avoid nudity, sexual organs, fixation on naked breasts, people in showers
 
 ### Other Offensive Content
 
-Other things may be deemed offensive or abusive because they are racist, homophobic, or in some way derogatory to a community. We're working on defining this further.
+Other things may be deemed offensive or abusive because they can be viewed as racist, homophobic, or in some way derogatory to a community. We're working on defining this further.
+
+### Automatically Banned Keywords
+
+Some words or phrases are blocked automatically based on their recurrence in disturbing content creation.  You won't be able to make images using them.
+
+We're working on a better moderating system. For now banning words has proven an effective way to prevent abuses. This list is under constant review. Some words sound safe but are bringing the model in unexpectedly corners in a consistent way. Trying to get around banned words for generating non-PG-13 images is a breach of our guidelines, but it is fine when the intent is compliant with the guidelines; your content may be deleted from view and you may receive a warning about self-policing, however.
 
 ### What are Public Images?
 
@@ -35,7 +38,7 @@ Sometimes content from a simple prompt is nevertheless disturbing: It may be une
 
 ### Using Threads for Edgy Stuff - Still Public!
 
-Some moderators may request people who are producing "edgy" content, especially in #newbies channels, to create or move to a thread (see [How to Create a Thread](usage-screenshots#how-to-create-a-thread.md).  If you make a thread, that content is still posted to the gallery public feed, and the thread can still be visited by anyone in the community. It is therefore still subject to our community guidelines and any adult or gore content may be removed by moderators and you may receive warnings, if you cross the rules. 
+Some moderators may request people who are producing "edgy" content, especially in #newbies channels, to create or move to a thread (see [How to Create a Thread](usage-screenshots#how-to-create-a-thread.md)).  If you make a thread, that content is still posted to the gallery public feed, and the thread can still be visited by anyone in the community. It is therefore still subject to our community guidelines and any adult or gore content may be removed by moderators and you may receive warnings, if you cross the rules. 
 
 When we ask you to move to a thread, it usually means we're trying to let you experiment with the edges, but we will still enforce the guidelines if we think things have gone too far for the public feed.
 
