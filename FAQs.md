@@ -100,7 +100,7 @@ A: In a bot channel, type `/invite`.  It will create a one-time use link for you
 
 [https://cdn.discordapp.com/attachments/961148616884506674/973955120721174538/invite2.gif](https://cdn.discordapp.com/attachments/961148616884506674/973955120721174538/invite2.gif)
 
-{% embed url="https://cdn.discordapp.com/attachments/961148616884506674/973955120721174538/invite2.gif"}
+{% embed url="https://cdn.discordapp.com/attachments/961148616884506674/973955120721174538/invite2.gif" %}
 
 
 ## Upscaling
