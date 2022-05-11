@@ -1,11 +1,8 @@
 # Table of contents
 
-* [Usage docs](README.md)
-* [Usage screenshots](usage-screenshots.md)
-* [Recent questions](recently-asked-questions.md)
-* [Common usage questions](common-usage-questions.md)
-* [Common process questions](common-process-questions.md)
-* [Image Prompt questions](image-prompt-questions.md)
-* [Text Prompt Questions](text-prompt-questions.md)
-* [Moderation and Content Policy](unacceptable-content-and-moderation.md)
-
+* [Usage Docs](README.md)
+* [Billing and License Questions](billing.md)
+* [FAQs](FAQs.md)
+* [Image Prompts](image-prompt-questions.md)
+* [Text Prompts](text-prompt-questions.md)
+* [Content and Moderation Policy](content-and-moderation_policy.md)

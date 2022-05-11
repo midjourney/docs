@@ -1,12 +1,12 @@
 # Usage Docs
 
-Please make sure you are familiar with the content guidelines and are aware of what is public content in the community.  You can find more detail in [Unacceptable Content and Moderation](unacceptable-content-and-moderation.md).  This document does not cover everything in the #rules, #faq, #announcements, #status channels, so make sure you check those out!
+Please make sure you are familiar with the content guidelines and are aware of what is public content in the community.  You can find more detail in [Content and Moderation](content_and_moderation_policy.md).  This document does not cover everything in the #rules, #faq, #announcements, #status channels, so make sure you check those out!
 
 That said, enjoy creating beautiful images!
 
-### Commands
+### Basic Commands
 
-Commands are functions of the Midjourney bot to be typed in any bot channel or thread
+Commands are functions of the Midjourney bot that can be typed in any bot channel or thread under a bot channel.  A bot channel is a channel under the "Image Generation" section on the Discord server.
 
 `/imagine` Creates an image from text (4 images in 50 seconds)
 
@@ -28,15 +28,17 @@ Commands are functions of the Midjourney bot to be typed in any bot channel or t
 
 `/private` and `/public` Toggles between "private" and "public" mode. In private mode, your jobs are only visible to you. **In public mode, your jobs are visible to everyone in the gallery, even if you are creating them in a thread or a DM.** Access to private mode costs extra 20$ per month.
 
-### Emoji responses
+You can find more documentation on using these in our [FAQs](FAQs.md).
 
-✉️ Sends an image to your DMs with the seed # and job ID. If the result was a grid, it will send each individual image.
+### Emoji Responses to Generation Output
+
+✉️ The envelope emoji response sends an image to your DMs with the seed # and job ID. If the result was a grid, it will send each individual image.
 
 ⭐️ Marks image as "favorite". This shows in a separate feed on the web gallery and sends the image to the #favorites channel.
 
-❌ Cancels or deletes a generation at any time. It is also removed from the web gallery.  Please help us by removing content you accidentally generated that is in violation of our PG-13 content guidelines (see [Unaccepable Content and Moderation](unacceptable-content-and-moderation.md)).
+❌ Cancels or deletes a generation at any time. It is also removed from the web gallery.  Please help us by removing content you accidentally generated that is in violation of our PG-13 content guidelines (see [Content and Moderation](content-and-moderation_policy.md)).
 
-### Parameters
+### Parameters to "Imagine"
 
 Parameters are bot options that change how the images will be generated
 
@@ -78,9 +80,9 @@ Parameters are bot options that change how the images will be generated
 
 ### Image prompting
 
-Add one or more image URLs to your prompt and it will use those images as visual inspiration. You can mix words with images or just have images alone.
+Add one or more image URLs to your prompt and it will use those images as visual inspiration. You can mix words with images or just have images alone.  See [Image Prompt Questions](image-prompt-questions.md) for more info.
 
-**Note**: This is *not* the same as building on top of (or "initializing" from) an input image. Midjourney does not currently offer the ability to use an init image.
+**Note**: This is *not* the same as building on top of (or "initializing" from) an input image. Midjourney does not currently offer the ability to use an init image, due to concerns about community public content.
 
 `--iw` — Adjusts the weight of the image URLs vs the text (0.5 weights images half and 2 weighs images twice as much)
 
