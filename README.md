@@ -11,7 +11,7 @@ That said, enjoy creating beautiful images!  In this page:
     - [Image Prompting with URL](#image-prompting-with-url)
     - [Advanced Text Weights](#advanced-text-weights)
     - [Discord Prompt Preferences](#discord-prompt-preferences)
-      - [Deprecated: Avoid](#deprecated-avoid)
+      - [Deprecated: May Want To Avoid](#deprecated-may-want-to-avoid)
 
 ### Basic Commands
 
@@ -117,6 +117,7 @@ Watch out for prompts such as `/imagine hot dog animal::-1`, as this will send t
 
 **Note**: The `--no` command is equivalent to using weight -0.5.
 
+
 ### Discord Prompt Preferences
 
 `/prefer suffix <text>` — This will automatically append this suffix after all prompts you submit. Leave empty to reset.
@@ -129,6 +130,6 @@ Watch out for prompts such as `/imagine hot dog animal::-1`, as this will send t
 
 `/prefer option list` — This will list your currently set personal options. You may keep a maximum of 20 personal options.
 
-#### Deprecated: Avoid
+#### Deprecated: May Want To Avoid
 
 `--hq` `--newclip` `--nostretch` `--beta` `/pixels`

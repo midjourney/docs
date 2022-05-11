@@ -1,5 +1,7 @@
 # Billing and Licensing Questions
 
+More info coming soon, please see #rules channel for more info. 
+
 
 ## Derived Art Product Sales
 
