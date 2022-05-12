@@ -29,3 +29,19 @@ A: The weight specified is applied on all image prompts given to the bot.
 **Q: Can an image prompt have a negative weight?**
 
 A: Yes with --iw -0.5
+
+**Q: How do I upload a image from my harddrive for an image prompt?**
+
+On desktop:
+1) Drag an image into Discord 
+2) Press enter to send it in the chat 
+3) Click the image in discord so that it's fullscreen
+4) Right click it and press "copy image address" 
+5) Type /imagine and then paste the address
+
+On Mobile:
+1) Push the plus in the lower left then click 'upload'
+2) Press 'send message' to send it into the chat 
+3) Click the image in discord so that it's fullscreen
+4) Push share then click 'copy url' 
+5) Type /imagine and then paste the address
