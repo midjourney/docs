@@ -50,7 +50,7 @@ Requests take a minute to generate four options based on your prompt.
 #### 4. Upscale an Image
 Two rows of buttons will appear 
 The top row of buttons: `U1` `U2` `U3` and `U4` are buttons for **upscaling** your chosen image.
-Upscaling an image generates a 1024x1024 pixel version of the selected image while adding additional details.
+Upscaling an image generates a larger roughly 1024x1024 pixel version of the selected image while adding additional details.
 
 ![Midjourney Buttons](https://user-images.githubusercontent.com/105028755/167755032-fe6935a9-b6a2-4b80-8f73-13916c170ceb.png)
 
