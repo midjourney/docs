@@ -1,63 +1,135 @@
-# Welcome to Midjourney
-Midjourney is a new research lab focused on new mediums and tools for empowering people.
+# Usage Docs
 
- ### Code of Conduct
-- Don't be a jerk
-- Don't use our tools to make images that could inflame, upset, or cause drama. That includes gore and adult content.
-- Be respectful
+Please make sure you are familiar with the content guidelines and are aware of what is public content in the community.  You can find more detail in [Content and Moderation](content-and-moderation-policy.md).  This document does not cover everything in the #rules, #faq, #announcements, #status channels, so make sure you check those out!
 
-Make sure you are familiar with the [Full Content Guidelines](unacceptable-content-and-moderation.md).  
+That said, enjoy creating beautiful images!  In this page:
 
-You can also find more detail within the Midjourney Discord server in the #rules, #faq, #announcements, and #status channels.
+- [Usage Docs](#usage-docs)
+    - [Basic Commands](#basic-commands)
+    - [Parameters to "Imagine"](#parameters-to-imagine)
+    - [Emoji Responses to Generation Output](#emoji-responses-to-generation-output)
+    - [Image Prompting with URL](#image-prompting-with-url)
+    - [Advanced Text Weights](#advanced-text-weights)
+    - [Discord Prompt Preferences](#discord-prompt-preferences)
+    - [Deprecated: May Want To Avoid](#deprecated-may-want-to-avoid)
 
-<br/>
+### Basic Commands
 
----
---- 
+Commands are functions of the Midjourney bot that can be typed in any bot channel or thread under a bot channel.  A bot channel is a channel under the "Image Generation" section on the Discord server.
 
-<br/>
+`/imagine` Creates an image from text (4 images in 50 seconds)
 
+`/info` Shows information about your profile
 
-## Create your First Image 
-Once you have joined the Discord server you will be able to create a limited number of images before needing to subscribe. 
+`/invite` Generates an invite link and send it to your DM that you can send someone to join the server. It will give them some credits to try out the bot.
 
-#### 1. Select one of the `#Newbies` channels from the sidebar.
-![Select a Newbies Channel](https://user-images.githubusercontent.com/105028755/167752981-596a4819-163b-4c4c-9241-adfd6231a1f4.jpg)
+`/ideas` Give some random ideas for prompts
 
-<br/>
+`/word` Queries a dictionary of pre-rendered images for words you type (type ! To get a random set of words)
 
+`/style` Queries a dictionary of pre-rendered images for a style you type. Available options will appear as an autocomplete list above the text area (type ! to get a random style)
 
-#### 2. Use the /Imagine command
+`/help` Displays bot options for handy reference
 
-To use the Midjourney Bot use a [Discord Slash Command](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands-FAQ) and type`/imagine`.
-Immediately after typing `/imagine` press spacebar, tab, or enter to create the **prompt** field.
-Slash Commands will only work in *Bot Channels*. Typing `/Imagine` will not work in `#Support`, `#Discussion,` and other general channels.
+`/subscribe` Get a link to the subscription page
 
-![Imagine Slash Command](https://user-images.githubusercontent.com/105028755/167753642-98315b33-64f5-4228-a2cd-e2a077743eef.gif)
+`/fast` and `/relax` Toggles between "fast" and "relax" mode. In fast mode, if you are out of credits, your jobs will be incrementally billed. In relax mode, your jobs do not cost credits, but take longer to generate.
 
+`/private` and `/public` Toggles between "private" and "public" mode. In private mode, your jobs are only visible to you. **In public mode, your jobs are visible to everyone in the gallery, even if you are creating them in a thread or a DM.** Access to private mode costs extra 20$ per month.
 
-<br/>
-
-
-#### 3. Wait as the MidJourney Bot Processes your Request
-Requests take a minute to generate four options based on your prompt. 
-
-![MJ_ImageGen](https://user-images.githubusercontent.com/105028755/167756032-0059cb74-d437-4747-8778-902c03403be6.gif)
+You can find more documentation on using these in our [FAQs](FAQs.md).
 
 
-<br/>
+### Parameters to "Imagine"
 
-#### 4. Upscale an Image
-Two rows of buttons will appear 
-The top row of buttons: `U1` `U2` `U3` and `U4` are buttons for **upscaling** your chosen image.
-Upscaling an image generates a 1024x1024 pixel version of the selected image while adding additional details.
+Parameters are bot options that change how the images will be generated.  For instance, a full imagine
+command might contain several things, like an image URL, some weights, other switches:
 
-![Midjourney Buttons](https://user-images.githubusercontent.com/105028755/167755032-fe6935a9-b6a2-4b80-8f73-13916c170ceb.png)
+`/imagine prompt: http://myimageonline.jpg A forest spirit at night --iw 0.2 --no trees --hd`
 
-<br/>
 
-#### 5. Save Your Image
-![MJ_Daisies](https://user-images.githubusercontent.com/105028755/167755159-875d58d0-12b0-4e8f-ac84-1cea75590fd8.png)
+`--w` Width of image. Works better as multiple of 64 (or 128 for `--hd`)
 
-Your upscaled image will immediately be visible on [gallery.midjourney.com](https://gallery.midjourney.com/)\
-You can also react with the ✉️ emoji to direct message your image to yourself using the Midjourney bot.
+`--h` Height of image. Works better as multiple of 64 (or 128 for `--hd`)
+
+`--seed` Sets the random seed, which can sometimes help keep things more steady / reproducible between generations
+
+`--no` Negative prompting (`--no plants` would try to remove plants)
+
+`--video` Saves a progress video, which is sent to you in the ✉️-triggered DM
+
+`--iw` Sets image prompt weight
+
+`--fast` Faster images, less consistency
+
+`--vibe` Uses old algorithm (more vibes, more abstract, sometimes better for macro or textures)
+
+`--vibefast` Faster version of the old algorithm 
+
+`--hd` Uses a different algorithm that’s potentially better for larger images, but with less consistent composition. Best for abstract and landscape prompts.
+
+**Size shortcuts**
+
+`--wallpaper`: `--w 1920 --h 1024 --hd`
+
+`--sl`: `--w 320 --h 256`
+
+`--ml`: `--w 448 --h 320`
+
+`--ll`: `--w 768 --h 512 --hd`
+
+`--sp`: `--w 256 --h 320`
+
+`--mp`: `--w 320 --h 448`
+
+`--lp`: `--w 512 --h 768 --hd`
+
+
+### Emoji Responses to Generation Output
+
+✉️ The envelope emoji response sends an image to your DMs with the seed # and job ID. If the result was a grid, it will send each individual image.
+
+⭐️ Marks image as "favorite". This shows in a separate feed on the web gallery and sends the image to the #favorites channel.
+
+❌ Cancels or deletes a generation at any time. It is also removed from the web gallery.  Please help us by removing content you accidentally generated that is in violation of our PG-13 content guidelines (see [Content and Moderation](content-and-moderation_policy.md)).
+
+
+### Image Prompting with URL
+
+Add one or more image URLs to your prompt and it will use those images as visual inspiration. You can mix words with images or just have images alone.  See [Image Prompt Questions](image-prompt-questions.md) for more info.
+
+**Note**: This is *not* the same as building on top of (or "initializing" from) an input image. Midjourney does not currently offer the ability to use an init image, due to concerns about community public content.
+
+`--iw` — Adjusts the weight of the image URLs vs the text (0.5 weights images half and 2 weighs images twice as much)
+
+**Note**: There is currently no way to apply different weights to different image prompts. This will be addressed in the future.
+
+### Advanced Text Weights
+
+You can suffix any part of the prompt with `::0.5` to give that part a weight of 0.5. If the weight is not specified, it defaults to 1.  See also [Text Prompt Questions](text-prompt-questions.md).
+
+Some examples:
+- `/imagine hot dog::1 food::-1` — This sends a text prompt of `hot dog` with the weight 1 and `food` of weight -1
+- `/imagine hot dog::0.5 animal::-0.75` — Sends `hot dog` of weight 0.5 and `animal` of negative 0.75
+- `/imagine hot dog:: food::-1 animal` — Sends `hot dog` of weight 1, `food` of weight -1 and `animal` of weight 1
+
+Watch out for prompts such as `/imagine hot dog animal::-1`, as this will send the prompt of `hot dog animal` with weight -1.
+
+**Note**: The `--no` command is equivalent to using weight -0.5.
+
+
+### Discord Prompt Preferences
+
+`/prefer suffix <text>` — This will automatically append this suffix after all prompts you submit. Leave empty to reset.
+
+**Note:** Only --options are currently officially supported as values for the suffix option, not just any regular text.
+
+`/prefer auto_dm True` — Jobs will be automatically DMed to you. Set False to turn this off.
+
+`/prefer option set <name> <value>` — This creates a personal option, which then translates to specified value when you invoke it by prepending it with --. Only you can use this option. For example, `/prefer option set mine --hd --w 512` creates an option called "mine" that translates to `--hd --w 512`. So you can use `/imagine rubber ducks are awesome --mine`, and it will be the exact same as if you did `/imagine rubber ducks are awesome --hd --w 512`. Leave the value field empty to delete an option.
+
+`/prefer option list` — This will list your currently set personal options. You may keep a maximum of 20 personal options.
+
+#### Deprecated: May Want To Avoid
+
+`--hq` `--newclip` `--nostretch` `--beta` `/pixels`
