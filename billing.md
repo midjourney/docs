@@ -27,7 +27,7 @@ Follow the link Midjourney generates to take you to your subscription page.
  - The ability to DM the bot 
  - New commercial terms (see updated rules)
  - The ability to purchase private-by-default mode by typing /private
- - New premium features like Max-Upscale and Batch mode
+ - New premium features like Max-Upscale and Batch mode (coming soon)
  - The ability to switch between /relax and /fast
 
 ### Commercial terms:
