@@ -60,4 +60,11 @@ Upscaling an image generates a larger roughly 1024x1024 pixel version of the sel
 ![MJ_Daisies](https://user-images.githubusercontent.com/105028755/167755159-875d58d0-12b0-4e8f-ac84-1cea75590fd8.png)
 
 Your upscaled image will immediately be visible on [gallery.midjourney.com](https://gallery.midjourney.com/)\
-You can also react with the ✉️ emoji to direct message your image to yourself using the Midjourney bot.
+
+#### 6 Send your results to your DMs
+
+You can also react with the ✉️ emoji to direct message your upscaled image (or 2x2 grid images) to yourself using the Midjourney bot.
+
+![envelopeReact](https://user-images.githubusercontent.com/105028755/168405903-4a039b6e-230b-4ff6-bbba-d9f732c7fb86.gif)
+
+
