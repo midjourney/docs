@@ -1,8 +1,7 @@
 # Table of contents
 
-* [Usage Docs](README.md)
-* [FAQs](FAQs.md)
-* [Image Prompts](image-prompt-questions.md)
-* [Text Prompts](text-prompt-questions.md)
-* [Content and Moderation Policy](content-and-moderation-policy.md)
-* [Billing and License Questions](billing.md)
+* [User Manual](README.md)
+* [A Guide to Text-Prompts](guide-to-prompting.md)
+* [Frequenty asked Questions](FAQs.md)
+* [Content and Moderation](content-and-moderation-policy.md)
+* [Billing and Licensing](billing.md)
