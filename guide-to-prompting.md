@@ -101,11 +101,9 @@ __________ in the style of cyberpunk noir art deco
 
 __________ in the style of glitch art
 
-biblical fantasy illustration of ______
+a biblical fantasy illustration of ______
 
 an ancient chinese painting of ______
-
-wildly futuristic clothing with glowing and colorful decoration
 
 ### Try some fun words
 
