@@ -62,7 +62,7 @@ Your upscaled image (and 2x2 grid images) will immediately be visible on [galler
 </br>
 
 
-#### 6 Send Results to Your DMs.
+#### 6. Send Results to Your DMs.
 
 You can also react with the ✉️ emoji to direct message your upscaled image (or 2x2 grid images) to yourself using the Midjourney bot.
 
@@ -72,7 +72,7 @@ You can also react with the ✉️ emoji to direct message your upscaled image (
 <br/>
 
 
-#### 7 Start a Thread.
+#### 7. Start a Thread.
 
 If you want a quieter place to work you can start your own thread in any of the bot channels. Note, they are still public and subject to content moderation guidelines.
 
@@ -82,7 +82,7 @@ If you want a quieter place to work you can start your own thread in any of the 
 <br/>
 
 
-#### 8 Have Questions?
+#### 8. Have Questions?
 
 If you have other questions you can find many answers in the `#announcements`, `#status`, `#rules`, `#faq`, and `#docs` channels.
 If you still need help post your question in the `#support` channel.
