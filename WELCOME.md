@@ -12,9 +12,6 @@ You can also find more detail within the Midjourney Discord server in the #rules
 
 --- 
 
-<br/>
-
-
 ## Create your First Image.
 Once you have joined the Discord server you will be able to create a limited number of (about 25) images before needing to subscribe. 
 
