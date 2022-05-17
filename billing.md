@@ -31,12 +31,10 @@ Follow the link Midjourney generates to take you to your subscription page.
 - you can go over the 20k$ revenue cap if you pay 20% of revenue you make beyond 20k$ or enter into an alternative agreement with Midjourney
 - If you're part of a giant company you can use the service as you want as long as it's for internal-use only
 
----
-
 ## Derived Art Product Sales
 More info coming soon, please see #rules channel for more info. 
 
-#### Can I sell a product outside of the commercial terms if it's a derived product (e.g. 3d modelling based off an image, paint-over)?
+#### Q: Can I sell a product outside of the commercial terms if it's a derived product (e.g. 3d modelling based off an image, paint-over)?
 
 It's safer to treat derived images as covered by the current commercial terms. Special projects can be discussed case-by-case.
 
