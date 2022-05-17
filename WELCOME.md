@@ -10,9 +10,6 @@ Make sure you are familiar with the [Full Content Guidelines](unacceptable-conte
 
 You can also find more detail within the Midjourney Discord server in the #rules, #faq, #announcements, and #status channels.
 
-<br/>
-
----
 --- 
 
 <br/>
