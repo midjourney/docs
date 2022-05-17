@@ -1,10 +1,7 @@
 # Subscription, Billing and Licensing Questions
 Please see #rules channel for the most current information regarding subscription, billing, and liscensing terms.
 
-<br/>
-
-## Subscribe to Midjourney
-
+## Subscribing to Midjourney
 
 #### How to Subscribe
 Type /subscribe in any bot channel to upgrade or purchase.
@@ -13,8 +10,6 @@ Subscriptions are $30/month.
 ![Subscribe](https://user-images.githubusercontent.com/105028755/167762167-deb96ca5-2e4a-44cf-acb7-bee247e92abf.gif)
 
 Follow the link Midjourney generates to take you to your subscription page.
-
-<br/>
 
 #### Important Things to Know
  - Once you've successfully upgraded you'll see a new "member" role on your name.
@@ -36,14 +31,10 @@ Follow the link Midjourney generates to take you to your subscription page.
 - you can go over the 20k$ revenue cap if you pay 20% of revenue you make beyond 20k$ or enter into an alternative agreement with Midjourney
 - If you're part of a giant company you can use the service as you want as long as it's for internal-use only
 
-<br/>
-
 ---
-<br/>
 
 ## Derived Art Product Sales
 More info coming soon, please see #rules channel for more info. 
-
 
 #### Can I sell a product outside of the commercial terms if it's a derived product (e.g. 3d modelling based off an image, paint-over)?
 
