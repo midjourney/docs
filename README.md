@@ -68,6 +68,10 @@ command might contain several things, like an image URL, some weights, other swi
 
 `--hd` Uses a different algorithm that’s potentially better for larger images, but with less consistent composition. Best for abstract and landscape prompts.
 
+`--stop` — Stop the generation at an earlier percentage. Must be between 10-100
+
+`--uplight` — Use "light" upscaler for subsequent upscales. Results are then closer to the original image
+
 **Size shortcuts**
 
 `--wallpaper`: `--w 1920 --h 1024 --hd`
