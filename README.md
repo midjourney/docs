@@ -72,6 +72,8 @@ command might contain several things, like an image URL, some weights, other swi
 
 `--uplight` — Use "light" upscaler for subsequent upscales. Results are then closer to the original image
 
+`--sameseed` — Set the same seed across all images of the resulting grid
+
 **Size shortcuts**
 
 `--wallpaper`: `--w 1920 --h 1024 --hd`
