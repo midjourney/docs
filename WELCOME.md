@@ -6,7 +6,7 @@ Midjourney is a new research lab focused on new mediums and tools for empowering
 - Don't use our tools to make images that could inflame, upset, or cause drama. That includes gore and adult content.
 - Be respectful
 
-Make sure you are familiar with the [Full Content Guidelines](unacceptable-content-and-moderation.md).  
+Make sure you are familiar with the [Full Content Guidelines](content-and-moderation-policy.md).  
 
 You can also find more detail within the Midjourney Discord server in the #rules, #faq, #announcements, and #status channels.
 
