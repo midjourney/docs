@@ -110,3 +110,8 @@ an ancient chinese painting of ______
 **Punk style list:** cyberpunk, nanopunk, biopunk, cyber noir, steampunk, clockpunk,  dieselpunk, decopunk, coalpunk, atompunk, steelpunk, islandpunk, oceanpunk, rococopunk, stonepunk, mythpunk, raypunk, nowpunk, cyberprep, postcyberpunk, solarpunk, lunarpunk, elfpunk, atompunk, neonpunk
 
 **Tarot Cards (Major Arcana):** The Fool, The Magician, The High Priestess, The Empress, The Emperor, The Hierophant, The Lovers, The Chariot, Strength, The Hermit, Wheel of Fortune, Justice, The Hanged Man, Death, Temperance, The Devil, The Tower, The Star, c, The Sun, Judgment, The World
+
+### More Resources
+
+Here is a short guide on effective text prompts: [A short guide on effective text prompts](https://docs.google.com/document/d/1XUT2G9LmkZataHFzmuOtRXnuWBfhvXDAo8DkS--8tec) 
+

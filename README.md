@@ -1,19 +1,19 @@
-# Usage Docs
+# User Manual
 
 Please make sure you are familiar with the content guidelines and are aware of what is public content in the community.  You can find more detail in [Content and Moderation](content-and-moderation-policy.md).  This document does not cover everything in the #rules, #faq, #announcements, #status channels, so make sure you check those out!
 
 That said, enjoy creating beautiful images!  In this page:
 
-- [Usage Docs](#usage-docs)
-    - [Basic Commands](#basic-commands)
-    - [Parameters to "Imagine"](#parameters-to-imagine)
+- [User Manual](#user-manual)
+    - [Basic Commands in Bot Channels](#basic-commands-in-bot-channels)
+    - [Parameters to "/imagine"](#parameters-to-imagine)
     - [Emoji Responses to Generation Output](#emoji-responses-to-generation-output)
     - [Image Prompting with URL](#image-prompting-with-url)
     - [Advanced Text Weights](#advanced-text-weights)
     - [Discord Prompt Preferences](#discord-prompt-preferences)
-    - [Deprecated: May Want To Avoid](#deprecated-may-want-to-avoid)
+      - [Deprecated: May Want To Avoid](#deprecated-may-want-to-avoid)
 
-### Basic Commands
+### Basic Commands in Bot Channels
 
 Commands are functions of the Midjourney bot that can be typed in any bot channel or thread under a bot channel.  A bot channel is a channel under the "Image Generation" section on the Discord server.
 
@@ -40,7 +40,7 @@ Commands are functions of the Midjourney bot that can be typed in any bot channe
 You can find more documentation on using these in our [FAQs](FAQs.md).
 
 
-### Parameters to "Imagine"
+### Parameters to "/imagine"
 
 Parameters are bot options that change how the images will be generated.  For instance, a full imagine
 command might contain several things, like an image URL, some weights, other switches:
@@ -102,7 +102,7 @@ command might contain several things, like an image URL, some weights, other swi
 
 ### Image Prompting with URL
 
-Add one or more image URLs to your prompt and it will use those images as visual inspiration. You can mix words with images or just have images alone.  See [Image Prompt Questions](image-prompt-questions.md) for more info.
+Add one or more image URLs to your prompt and it will use those images as visual inspiration. You can mix words with images or just have images alone.  See [Image Prompt Questions](FAQs.md#image-prompt-questions) for more info.
 
 **Note**: This is *not* the same as building on top of (or "initializing" from) an input image. Midjourney does not currently offer the ability to use an init image, due to concerns about community public content.
 
@@ -112,7 +112,7 @@ Add one or more image URLs to your prompt and it will use those images as visual
 
 ### Advanced Text Weights
 
-You can suffix any part of the prompt with `::0.5` to give that part a weight of 0.5. If the weight is not specified, it defaults to 1.  See also [Text Prompt Questions](text-prompt-questions.md).
+You can suffix any part of the prompt with `::0.5` to give that part a weight of 0.5. If the weight is not specified, it defaults to 1.  See also [Text Prompt Questions](FAQs.md#text-prompt-questions).
 
 Some examples:
 - `/imagine hot dog::1 food::-1` — This sends a text prompt of `hot dog` with the weight 1 and `food` of weight -1

@@ -1,18 +1,20 @@
-# FAQs
+# Frequently Asked Questions (FAQs)
  
-- [FAQs](#faqs)
-  - [DMing the Bot](#dming-the-bot)
+- [Frequently Asked Questions (FAQs)](#frequently-asked-questions-faqs)
+  - [DMing the Bot (Direct Messaging)](#dming-the-bot-direct-messaging)
   - [Using Discord Tools](#using-discord-tools)
   - [Bot Commands](#bot-commands)
   - [Upscaling](#upscaling)
+  - [Fast and Relaxed](#fast-and-relaxed)
   - [Seeds](#seeds)
   - [Using Dimensions](#using-dimensions)
   - [Gallery Use](#gallery-use)
   - [Image Prompt Questions](#image-prompt-questions)
   - [Text Prompt Questions](#text-prompt-questions)
+  - [Error Messages](#error-messages)
 
 
-## DMing the Bot
+## DMing the Bot (Direct Messaging)
 
 
 **Q: How do I DM the bot?**
@@ -36,9 +38,8 @@ A: Right-click on the server -> Privacy settings -> Allow direct messages from s
 
 Click on the icon with the # on top of a bot channel.  It will allow you to view and create threads.  Note, they are still public and subject to content moderation guidelines.
 
-[https://support.discord.com/hc/article\_attachments/4403200565911/create\_thread.gif](https://support.discord.com/hc/article\_attachments/4403200565911/create\_thread.gif)
+![https://support.discord.com/hc/article\_attachments/4403200565911/create\_thread.gif](https://support.discord.com/hc/article\_attachments/4403200565911/create\_thread.gif)
 
-{% embed url="https://support.discord.com/hc/article_attachments/4403200565911/create_thread.gif" %}
 
 
 **Q: What's a bot channel?**
@@ -63,9 +64,8 @@ A: The ↻ submits the same job again, which will run with a different seed. You
 
 A: When you type /imagine try clicking on the box that pops up that says "prompt".  It should say /imagine prompt then type what you want. Like this:
 
-[https://cdn.discordapp.com/attachments/961148616884506674/969225978356326470/ImaginePrompt.gif](https://cdn.discordapp.com/attachments/961148616884506674/969225978356326470/ImaginePrompt.gif)
+![https://cdn.discordapp.com/attachments/961148616884506674/969225978356326470/ImaginePrompt.gif](https://cdn.discordapp.com/attachments/961148616884506674/969225978356326470/ImaginePrompt.gif)
 
-{% embed url="https://cdn.discordapp.com/attachments/961148616884506674/969225978356326470/ImaginePrompt.gif" %}
 
 **Q: How do I see how many credits I have?**
 
@@ -96,11 +96,10 @@ A: You can generate 3 images at once. If you start more jobs you'll get a messag
 
 **Q: How do I invite someone?**
 
-A: In a bot channel, type `/invite`.  It will create a one-time use link for you to copy and send to the person you want to invite.  Don't lose it!  It's safest to do this in your DM channel with the bot, if you are a subscriber.
+A: In a bot channel, type `/invite`.  It will create a one-time use link for you to copy and send to the person you want to invite.  Don't lose it! It will expire after 24 hours.
 
-[See an invite2.gif.](https://cdn.discordapp.com/attachments/961148616884506674/973955120721174538/invite2.gif)
+![See an invite2.gif.](https://cdn.discordapp.com/attachments/961148616884506674/973955120721174538/invite2.gif)
 
-{% embed url="https://cdn.discordapp.com/attachments/961148616884506674/973955120721174538/invite2.gif" %}
 
 
 ## Upscaling
@@ -109,10 +108,32 @@ A: In a bot channel, type `/invite`.  It will create a one-time use link for you
 
 A: React to your image with :envelope: and it will send you the separate images in DM. You can then change the resolution using a program on your computer. 
 
+**Q How can I prevent preview and upscale to add too much details?**
+
+A: You can use `--stop 80` and replace `80` with the % you want to stop at. Use `--uplight` for the upscale to add less details, or redo it with the button "Light Upscale Redo" afterwards.
+
 **Q: Is there any way to upscale an image and get the video of the process/final result using the --video command**
 
 A: We don't support videos for upscaling yet.
 
+**Q: I don't see the Max upscale option.**
+
+A: This feature is only available in /fast mode and when --w and --h are under 512.
+
+**Q: What is "Light Upscale Redo"?**
+
+This option redoes the upscaling, with a different algorithm which you may prefer.
+
+
+## Fast and Relaxed
+
+We have two modes for image generation, “fast” and “relax”. Fast tries to give you a GPU instantly. It's our highest priority processing tier, and it's kinda expensive. “Relax” puts you in a queue behind others based on how much you’ve used the system.
+
+Right now, we give 15 gpu-hours/mo of ‘fast’ with the ‘Standard’ plan, 200 gpu-minutes/mo with the ‘Basic’ plan and 120 gpu-hours/yr with the ‘Corporate’ plan.
+
+One hour is roughly 60 image generation or upscale commands and roughly 200 image variation commands.
+
+These numbers are super experimental and may change at any time.
 
 ## Seeds
 
@@ -145,11 +166,15 @@ A: The gpus we use have a finite amount of memory, larger images means each one 
 
 **Q: Where is the gallery?**
 
-Go to [https://gallery.midjourney.com/](https://gallery.midjourney.com/).
+Go to [https://www.midjourney.com/app/](https://www.midjourney.com/app/).
 
 **Q: Is there a way to save all my images at once?**
 
 A: We don't have a batch download feature yet. The fastest is to go to your web gallery feed, open an image, then click on the save icon. You can use the right arrow to move to the next image and repeat the operation.
+
+**Q: What is the Feed?**
+
+The Feed (button on the upper left) is the public record of all upscaled community images.  This includes images created in DMs with the bot, and is subject to moderation review. Only if you are in Private (a higher subscription level) will your upscales not show up in the Feed.
 
 ## Image Prompt Questions
 
@@ -183,37 +208,37 @@ A: The weight specified is applied on all image prompts given to the bot.
 
 A: Yes with --iw -0.5
 
-**Q: How do I upload a image from my harddrive for an image prompt?**
+**Q: How do I upload or use an image from my harddrive for an image prompt?**
+
+It needs to be online, with a public url, which you can do using Discord.  If it's already online somewhere, right click on the image to 'copy image address' and go to step 5:
 
 On desktop:
-1) Drag an image into Discord 
+1) Drag an image into Discord
 2) Press enter to send it in the chat 
 3) Click the image in discord so that it's fullscreen
 4) Right click it and press "copy image address" 
-5) Type /imagine and then paste the address
+5) Type `/imagine` and then paste the address in the prompt area.
 
 On Mobile:
 1) Push the plus in the lower left then click 'upload'
 2) Press 'send message' to send it into the chat 
 3) Click the image in discord so that it's fullscreen
 4) Push share then click 'copy url' 
-5) Type /imagine and then paste the address
+5) Type `/imagine` and then paste the address in the prompt area.
 
 ## Text Prompt Questions
 
 **Q: Any tips for successful text prompts?**
 
-A: "Here is a short guide on effective text prompts: A short guide on effective text prompts
-https://docs.google.com/document/d/1XUT2G9LmkZataHFzmuOtRXnuWBfhvXDAo8DkS--8tec"  
+A: Here is a short guide on effective text prompts: [A short guide on effective text prompts](https://docs.google.com/document/d/1XUT2G9LmkZataHFzmuOtRXnuWBfhvXDAo8DkS--8tec). Also read this page: [Tips on Text Prompts](guide-to-prompting.md).
 
 **Q: Is letter case (caps vs lowercase) taken into consideration in producing the results to the prompt?**
 
-A: No, everything is case-insensitive.  
+A: No, everything is case-insensitive.
 
 **Q: How do you weigh text prompts?**
 
-A: "Check out the explainer over on the changelog in #status.
-https://discord.com/channels/662267976984297473/942231458918064148/960181257394868224"  
+A: Check out the explainer over on the changelog in #status: [Explainer](https://discord.com/channels/662267976984297473/942231458918064148/960181257394868224) 
 
 **Q: Do commas, pipes, or any other punctuation matter?**
 
@@ -223,3 +248,25 @@ Use `::` between prompts for a hard separator as describe in the answer above.
 **Q: What is the length limit for prompts?**
 
 A: Anything over around 60 words will not affect the output, so don't write a novel. (It must stay under 6000 characters.)
+
+
+
+## Error Messages
+
+**Q: "Job encountered an error, likely due to lack of memory"**
+
+A: Try using --w and --h as multiple of 64 and under 1024, e.g. `--w 256 --h 320`
+
+**Q: "Cannot send messages to this user" when trying to DM the bot**
+
+A: Go to Discord privacy settings for this server and toggle this on: 
+
+![privacy settings](https://cdn.discordapp.com/attachments/958069758211797092/979275401249574952/unknown.png)
+
+**Q: "Interaction Failed"**
+
+A: The job will (probably) still go through, but it will not show the intermediate images. If you get this with your DMs with the bot, make sure your security settings allow DMs.
+
+**Q: "Server has reached limit of active threads"**
+
+A: We reached the max number of thread we can create in the server. it will be possible to add new threads when older threads will archive. In the meantime, feel free to work in DM.
