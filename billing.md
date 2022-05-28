@@ -1,5 +1,5 @@
 # Subscription, Billing and Licensing Questions
-Please see Discord #rules channel for the most current information regarding subscription, billing, and liscensing terms.
+Please see Discord #rules channel for the most current information regarding subscription, billing, and licensing terms.  Also check the [Midjourney web app](https://www.midjourney.com/account/), clicking on your icon in the upper right and choosing "Manage Plan."
 
 - [Subscription, Billing and Licensing Questions](#subscription-billing-and-licensing-questions)
   - [How to Subscribe](#how-to-subscribe)
@@ -10,6 +10,7 @@ Please see Discord #rules channel for the most current information regarding sub
     - [Private Power Option](#private-power-option)
     - [Incremental Billing](#incremental-billing)
   - [Commercial Terms](#commercial-terms)
+  - [Cancellation or Changes](#cancellation-or-changes)
 
 ## How to Subscribe
 Type /subscribe in any bot channel to upgrade or purchase. 
@@ -63,3 +64,14 @@ Basically you can use unlimited images (of your own creation) for whatever you w
 3) if your project has anything to do with blockchain, you must pay a 20% royalty on revenue over $20k/mo.
 
 Please keep in mind that these terms are beta and we will continue to iterate on them as the beta progresses. Read the complete terms in the Discord #rules channel.
+
+## Cancellation or Changes
+
+**Can I cancel my subscription plan?** 
+
+You can cancel your subscription at any time but the cancellation will be effective at the end of the current billing cycle. If you change your mind, you can un-cancel your plan before the end of the cycle.
+
+**Can I change my subscription plan?**
+
+You can generally change your subscription at any time, effective immediately. Any remaining usage or time on `Private` will be credited to your new plan. Enterprise plans are not eligible for downgrades.
+

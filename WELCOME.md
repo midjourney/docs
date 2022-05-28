@@ -19,8 +19,8 @@ TOC:
       - [2. Use the /imagine Command](#2-use-the-imagine-command)
       - [3. Wait as the MidJourney Bot Processes Your Request](#3-wait-as-the-midjourney-bot-processes-your-request)
       - [4. Upscale your Image](#4-upscale-your-image)
-      - [5. Save Your Image.](#5-save-your-image)
-      - [6. Send Results to Your DMs.](#6-send-results-to-your-dms)
+      - [5. Save Your Image](#5-save-your-image)
+      - [6. Send Results to Your DMs (Direct Messages)](#6-send-results-to-your-dms-direct-messages)
       - [7. Start a Thread If You Want.](#7-start-a-thread-if-you-want)
       - [8. Have Questions?](#8-have-questions)
 
@@ -64,12 +64,12 @@ Upscaling an image generates a larger roughly 1024x1024 pixel version of the sel
 
 After you use a "U" button to upscale, you will have a few more options:
 
-![UpscaleButtons](https://cdn.discordapp.com/attachments/957317604836528208/980042376275959868/Screen_Shot_2022-05-28_at_11.37.56_AM.png)
+![UpscaleButtons](https://raw.githubusercontent.com/arnicas/MJ-Docs/main/.github/images/upscale_buttons.png)
 
 'Make Variations' does the same as the "V" buttons, generating new alternatives in a grid, and the other buttons upscale even larger, or upscale again without as much detail added.
 
 
-#### 5. Save Your Image.
+#### 5. Save Your Image
 ![MJ_Daisies](https://user-images.githubusercontent.com/105028755/167755159-875d58d0-12b0-4e8f-ac84-1cea75590fd8.png)
 
 You can click on the image to open it to full size, and then right-click and choose 'Save image' to save it to your local computer.
@@ -79,9 +79,9 @@ Your upscaled image (and 2x2 grid images) will immediately be visible on your we
 
 
 
-#### 6. Send Results to Your DMs.
+#### 6. Send Results to Your DMs (Direct Messages)
 
-You can also react with the ✉️ emoji to direct message your upscaled image (or 2x2 grid images) to yourself using the MidJourney Bot.
+You can also react with the ✉️ emoji to direct message your upscaled image (or 2x2 grid images) to yourself using the MidJourney Bot.  
 
 ![envelopeReact](https://user-images.githubusercontent.com/105028755/168405903-4a039b6e-230b-4ff6-bbba-d9f732c7fb86.gif)
 
