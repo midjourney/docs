@@ -1,42 +1,65 @@
 # Subscription, Billing and Licensing Questions
-Please see #rules channel for the most current information regarding subscription, billing, and liscensing terms.
+Please see Discord #rules channel for the most current information regarding subscription, billing, and liscensing terms.
 
-## Subscribing to Midjourney
+- [Subscription, Billing and Licensing Questions](#subscription-billing-and-licensing-questions)
+  - [How to Subscribe](#how-to-subscribe)
+  - [Plans](#plans)
+    - [Both Plans Offer:](#both-plans-offer)
+    - [Basic Membership ($10/month) Offers:](#basic-membership-10month-offers)
+    - [Standard Membership ($30/month) Offers:](#standard-membership-30month-offers)
+    - [Private Power Option](#private-power-option)
+    - [Incremental Billing](#incremental-billing)
+  - [Commercial Terms](#commercial-terms)
 
-#### How to Subscribe
-Type /subscribe in any bot channel to upgrade or purchase.
-Subscriptions are $30/month. 
-
+## How to Subscribe
+Type /subscribe in any bot channel to upgrade or purchase. 
+Follow the link Midjourney generates to take you to your subscription page.
 ![Subscribe](https://user-images.githubusercontent.com/105028755/167762167-deb96ca5-2e4a-44cf-acb7-bee247e92abf.gif)
 
-Follow the link Midjourney generates to take you to your subscription page.
+Another way is to follow that link and login with your Discord credentials at [https://www.midjourney.com/account/](https://www.midjourney.com/account/).
 
-#### Important Things to Know
- - Once you've successfully upgraded you'll see a new "member" role on your name.
- - All subscriptions get 15 gpu-hrs/month of 'fast' mode and unlimited gpu-hrs/month 'relax' mode.
- - Fast mode is enabled for new subscribers but you can switch between /relax or /fast at any time.
- - You can buy more 'fast' hours for 4$/hr by turning on incremental billing (use `/fast` to purchase fast hours).
+## Plans
 
-#### What Subscribers Get
- - 5 friend-invites (just type /invite)
- - The ability to DM the bot 
- - New commercial terms (see updated rules)
- - The ability to purchase private-by-default mode by typing /private
+There are 2 plans: Basic and Standard. Both can add a **Private** Power option for 20$.
+
+### Both Plans Offer:
+ - Monthly subscription. Will renew automatically after 30 days by default (which can be toggled off)
+ - 5 friend-invites (just type `/invite` in a bot channel or DM with the bot)
+ - The ability to DM (Direct Message) the Bot (your images will still be in the public gallery, unless you add `/private` to your subscription)
+ - New commercial terms (see updated #rules)
+ - The ability to purchase private-by-default mode by typing `/private`
  - New premium features like Max-Upscale and Batch mode (coming soon)
- - The ability to switch between /relax and /fast
+ - Fast mode. You can buy more 'fast' hours for 4$/hr by turning on incremental billing (use `/fast` to purchase fast hours).
+ - Once you've successfully upgraded you'll see a new "member" role on your Discord profile.
+ - Access to web app member gallery at [midjourney.com](https://www.midjourney.com/app/).
 
-### Commercial terms:
-- you can use images you make for commercial use up to 20k$ revenue a month
-- you can use 10 images a month with no revenue/use restriction (but must fill out a webform)
-- you can go over the 20k$ revenue cap if you pay 20% of revenue you make beyond 20k$ or enter into an alternative agreement with Midjourney
-- If you're part of a giant company you can use the service as you want as long as it's for internal-use only
+### Basic Membership ($10/month) Offers:
+ - Limited use (~200 images / month)
+ - Fast mode only
+ - You can switch plans at any time under `/subscribe`. You will only pay the difference if you didn't use all of your credits.
 
-## Derived Art Product Sales
-More info coming soon, please see #rules channel for more info. 
+### Standard Membership ($30/month) Offers:
+ - 15 gpu-hrs/month of 'fast' mode and unlimited gpu-hrs/month of 'relax' mode.
+ - Fast mode is enabled for new subscribers but you can switch between /relax or /fast at any time.
 
-#### Q: Can I sell a product outside of the commercial terms if it's a derived product (e.g. 3d modelling based off an image, paint-over)?
+### Private Power Option
+ - All plans can work in Direct Messages (DMs) with the Midjourney Bot. The Private Power option also hides your images and prompts from the gallery.
 
-It's safer to treat derived images as covered by the current commercial terms. Special projects can be discussed case-by-case.
+**If you have recently subscribed to Private Powers you will need to log out then back in on the website, to see the publish/unpublish buttons.**
 
+### Incremental Billing
+ - Both plan can pay for more fast mode with incremental billing.
+ - You can set a 'spending limit'. When you hit the spending limit it will stop you and ask you to set a new one.
+ - You can type `/info` at any time to see how much money you've spent.
 
+## Commercial Terms
 
+Basically you can use unlimited images (of your own creation) for whatever you want, as long as you meet the following conditions:
+
+1) Your account is essentially only used by you (we don't want large groups sharing single accounts).
+
+2) If you are using our service for your work as an employee of a corporation with more than $1M/yr in revenue (and you want these terms) you MUST update to the 'corporate' plan via typing `/subscribe` and clicking "enterprise" (it is $50/mo paid annually).
+
+3) if your project has anything to do with blockchain, you must pay a 20% royalty on revenue over $20k/mo.
+
+Please keep in mind that these terms are beta and we will continue to iterate on them as the beta progresses. Read the complete terms in the Discord #rules channel.
