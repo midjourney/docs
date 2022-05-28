@@ -129,7 +129,7 @@ This option redoes the upscaling, with a different algorithm which you may prefe
 
 We have two modes for image generation, “fast” and “relax”. Fast tries to give you a GPU instantly. It's our highest priority processing tier, and it's kinda expensive. “Relax” puts you in a queue behind others based on how much you’ve used the system.
 
-Right now, we give 15 gpu-hours/mo of ‘fast’ with the ‘Standard’ plan, 200 gpu-minutes/mo with the ‘Basic’ plan and 120 gpu-hours/yr with the ‘Corporate’ plan.
+Right now, we give 15 gpu-hours/mo of ‘fast’ with the ‘Standard’ plan and 200 gpu-minutes/mo with the ‘Basic’ plan.
 
 One hour is roughly 60 image generation or upscale commands and roughly 200 image variation commands.
 
