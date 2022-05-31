@@ -19,11 +19,11 @@
 
 **Q: How do I DM the bot?**
 
-A: The easiest way to initiate a DM conversation with the bot is to reply to a generation you made in a bot channel with the envelope emoji, :envelope:, and it will open a DM conversation with you in Discord.  You will have to find it in your Discord Home, where Direct Messages and listed.  Click on the **MidJourney Bot**.  Now you can use the `/imagine` command and other commands listed below.
+A: The easiest way to initiate a DM conversation with the bot is to reply to a generation you made in a bot channel with the envelope emoji, :envelope:, and it will open a DM conversation with you in Discord.  You will have to find it in your Discord Home, where Direct Messages and listed.  Click on the **MidJourney Bot**.  Now you can use the `/imagine` command and other commands listed below. Please note the images will still appear on your gallery unless you use /private
 
 **Q: I thought my DM images were private. Why are they being moderated?**
 
-They are not private unless you have paid for `/private` mode.  Images created in DM (or via sub-threads) are still viewable by others in the gallery feed unless you have specified you are `/private`.
+Images created in DMs and with /private are still viewable by moderators and the midjourney team.
 
 
 **Q: The bot should have DM'ed me because I used ✉️, but I don't see any messages.**
@@ -129,7 +129,7 @@ This option redoes the upscaling, with a different algorithm which you may prefe
 
 We have two modes for image generation, “fast” and “relax”. Fast tries to give you a GPU instantly. It's our highest priority processing tier, and it's kinda expensive. “Relax” puts you in a queue behind others based on how much you’ve used the system.
 
-Right now, we give 15 gpu-hours/mo of ‘fast’ with the ‘Standard’ plan, 200 gpu-minutes/mo with the ‘Basic’ plan and 120 gpu-hours/yr with the ‘Corporate’ plan.
+Right now, we give 15 gpu-hours/mo of ‘fast’ with the ‘Standard’ plan and 200 gpu-minutes/mo with the ‘Basic’ plan.
 
 One hour is roughly 60 image generation or upscale commands and roughly 200 image variation commands.
 
