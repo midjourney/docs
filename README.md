@@ -11,7 +11,7 @@ That said, enjoy creating beautiful images!  In this page:
     - [Image Prompting with URL](#image-prompting-with-url)
     - [Advanced Text Weights](#advanced-text-weights)
     - [Discord Prompt Preferences](#discord-prompt-preferences)
-      - [Deprecated: May Want To Avoid](#deprecated-may-want-to-avoid)
+    - [Deprecated: May Want To Avoid](#deprecated-may-want-to-avoid)
 
 ### Basic Commands in Bot Channels
 
@@ -68,11 +68,13 @@ command might contain several things, like an image URL, some weights, other swi
 
 `--hd` Uses a different algorithm that’s potentially better for larger images, but with less consistent composition. Best for abstract and landscape prompts.
 
-`--stop` — Stop the generation at an earlier percentage. Must be between 10-100
+`--stop` Stop the generation at an earlier percentage. Must be between 10-100
 
-`--uplight` — Use "light" upscaler for subsequent upscales. Results are then closer to the original image
+`--uplight` Use "light" upscaler for subsequent upscales. Results are then closer to the original image (less detail added during upscale)
 
-`--sameseed` — Set the same seed across all images of the resulting grid
+`--sameseed` Sets the same seed across all images of the resulting grid
+
+`--aspect` Sets a desired aspect ratio, instead of manually setting height and width with `--h` and `--w`. Try `--aspect 16:9` for example, to get a 16:9 aspect ratio (~448x256). (Shortcut `--ar`.)
 
 **Size shortcuts**
 
@@ -136,6 +138,6 @@ Watch out for prompts such as `/imagine hot dog animal::-1`, as this will send t
 
 `/prefer option list` — This will list your currently set personal options. You may keep a maximum of 20 personal options.
 
-#### Deprecated: May Want To Avoid
+### Deprecated: May Want To Avoid
 
 `--hq` `--newclip` `--nostretch` `--beta` `/pixels`
