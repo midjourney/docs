@@ -17,6 +17,8 @@ If you are a subscriber, you can acess it (logged in with Discord credentials) a
 
 The ["feed"](https://www.midjourney.com/app/feed/) is the community record of public upscales, which includes DMs with the bot that are not paid /private usage.  If you mouse over an image, you will see the prompt.
 
+![feed_link_on_top.png](https://raw.githubusercontent.com/arnicas/MJ-Docs/main/.github/images/feed_link_on_top.png)
+
 
 ## Image LeaderBoards and Rating
 
@@ -46,6 +48,8 @@ Available in [Styles](https://www.midjourney.com/app/library/styles/), you can f
 ## Account and Subscription Settings
 
 On the top right corner is your user icon. Click on it to find "Manage Plan."  [This page](https://www.midjourney.com/account/) is your account settings and billing options.  There are some subscription FAQs at the bottom.
+
+![profile_menu.png](https://raw.githubusercontent.com/arnicas/MJ-Docs/main/.github/images/profile_menu.png)
 
 We use Stripe for credit card processing.
 

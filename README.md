@@ -68,13 +68,13 @@ command might contain several things, like an image URL, some weights, other swi
 
 `--hd` Uses a different algorithm that’s potentially better for larger images, but with less consistent composition. Best for abstract and landscape prompts.
 
-`--stop` — Stop the generation at an earlier percentage. Must be between 10-100
+`--stop` Stop the generation at an earlier percentage. Must be between 10-100
 
-`--uplight` — Use "light" upscaler for subsequent upscales. Results are then closer to the original image
+`--uplight` Use "light" upscaler for subsequent upscales. Results are then closer to the original image (less detail added during upscale)
 
-`--sameseed` — Set the same seed across all images of the resulting grid
+`--sameseed` Sets the same seed across all images of the resulting grid
 
-`--aspect` - Set a desired aspect ratio, instead of manually setting height and width with `--h` and `--w`. Try `--aspect 16:9` for example, to get a 16:9 aspect ratio (~448x256). (Shortcut `--ar`.)
+`--aspect` Sets a desired aspect ratio, instead of manually setting height and width with `--h` and `--w`. Try `--aspect 16:9` for example, to get a 16:9 aspect ratio (~448x256). (Shortcut `--ar`.)
 
 **Size shortcuts**
 
