@@ -1,6 +1,7 @@
 # Frequently Asked Questions (FAQs)
  
 - [Frequently Asked Questions (FAQs)](#frequently-asked-questions-faqs)
+  - [General Questions](#general-questions)
   - [DMing the Bot (Direct Messaging)](#dming-the-bot-direct-messaging)
   - [Using Discord Tools](#using-discord-tools)
   - [Bot Commands](#bot-commands)
@@ -13,6 +14,45 @@
   - [Text Prompt Questions](#text-prompt-questions)
   - [Error Messages](#error-messages)
 
+
+## General Questions
+
+**Q: What is Midjourney?**
+Midjourney is a new research lab focused on new mediums and tools for empowering people
+
+**Q: Are there any rules?**
+- Don't be a jerk
+- Don't use our tools to make images that could inflame, upset, or cause drama. That includes gore and adult content.
+- Be respectful to the developers and moderators on the server
+- for more rules see [#rules](https://discord.com/channels/662267976984297473/964598182225002516/964599412460519476) 
+
+**Can I share images?**
+You can! When you do pls @midjourney on twitter or link to https://twitter.com/midjourney 
+Example post: "I made these images with tools from @midjourney, you can sign up for their private beta here http://bit.ly/3J2NNVs"
+
+**Can I invite someone to this server?**
+You can purchase a subscription plan and type /invite to generate a invite code for them or you can send them the beta application form here: http://bit.ly/3J2NNVs
+
+**Can I do detailed public reviews of the current beta? Can I post screenshots / videos of the Discord?**
+Please don't. The algorithms and experience will significantly change in the coming weeks.
+
+**Are you taking investment?**
+We are not taking equity investment at this time. Business partnerships and donations are welcome.
+
+**I'm a reporter / blogger and want to write something**
+Please reach out to david@midjourney.com 
+
+**Where does your funding come from?**
+Funding comes from business partnerships, donations, and our own savings.
+
+**What's the business model for what we're using here?**
+We're figuring things out, but our goal is to allow as many people access to these technologies as possible.
+
+**Can I help? Are you hiring?**
+Yes! Email david@midjourney.com about what you enjoy doing (twitter/linkedin/resume helps us respond faster)
+
+**Can we use images for commercial projects?**
+Check the [#rules](https://discord.com/channels/662267976984297473/964598182225002516/964599412460519476) for some basic terms and contact @DavidH if you have anything big you need something custom for 
 
 ## DMing the Bot (Direct Messaging)
 
