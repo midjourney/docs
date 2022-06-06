@@ -22,9 +22,9 @@ Parameters are bot options that change how the images will be generated. For ins
 
 \--w and --h values above 512 are unstable and may cause errors.
 
-![](<.gitbook/assets/image (8).png>) /imagine: prompt **an abstract field of flowers**
+![](<.gitbook/assets/image (9).png>) /imagine: prompt **an abstract field of flowers**
 
-![](<.gitbook/assets/image (13).png>) /imagine prompt: **an abstract field of flowers --w 448**
+![](<.gitbook/assets/image (14).png>) /imagine prompt: **an abstract field of flowers --w 448**
 
 
 
@@ -66,19 +66,19 @@ Try `--aspect 16:9` for example, to get a 16:9 aspect ratio (\~448x256).
 
 `--vibe` Uses old algorithm (more vibes, more abstract, sometimes better for macro or textures)
 
-![](<.gitbook/assets/image (11).png>) /imagine prompt: **an abstract field of flowers --vibe**
+![](<.gitbook/assets/image (12).png>) /imagine prompt: **an abstract field of flowers --vibe**
 
 
 
 `--vibefast` Faster version of the old algorithm
 
-![](<.gitbook/assets/image (21).png>) /imagine prompt: **an abstract field of flowers --vibe fast**
+![](<.gitbook/assets/image (22).png>) /imagine prompt: **an abstract field of flowers --vibe fast**
 
 ``
 
 `--hd` Uses a different algorithm that’s potentially better for larger images, but with less consistent composition. Best for abstract and landscape prompts.
 
-![](<.gitbook/assets/image (22).png>)
+![](<.gitbook/assets/image (24).png>)
 
 
 
@@ -94,7 +94,7 @@ Try `--aspect 16:9` for example, to get a 16:9 aspect ratio (\~448x256).
 
 `--stop` Stop the generation at an earlier percentage. Must be between 10-100
 
-![](<.gitbook/assets/image (7).png>) /imagine prompt: **an abstract field of flowers --stop 50**
+![](<.gitbook/assets/image (8).png>) /imagine prompt: **an abstract field of flowers --stop 50**
 
 ****
 
@@ -102,7 +102,7 @@ Try `--aspect 16:9` for example, to get a 16:9 aspect ratio (\~448x256).
 
 
 
-![](<.gitbook/assets/image (23).png>)![](<.gitbook/assets/image (19).png>)
+![](<.gitbook/assets/image (25).png>)![](<.gitbook/assets/image (20).png>)
 
 Normal upscale vs Light Upscale
 
@@ -112,13 +112,13 @@ Normal upscale vs Light Upscale
 
 `--seed` Sets the random seed, which can sometimes help keep things more steady / reproducible between generations
 
-![](<.gitbook/assets/image (16).png>) ![](<.gitbook/assets/image (4).png>)
+![](<.gitbook/assets/image (17).png>) ![](<.gitbook/assets/image (4).png>)
 
 `/imagine prompt: an abstract field of flowers` run twice without a seed
 
 
 
-![](<.gitbook/assets/image (15).png>) ![](<.gitbook/assets/image (5).png>)
+![](<.gitbook/assets/image (16).png>) ![](<.gitbook/assets/image (5).png>)
 
 `/imagine prompt: an abstract field of flowers --seed 1234` run twice&#x20;
 
@@ -127,7 +127,7 @@ Normal upscale vs Light Upscale
 `--sameseed` Sets the same seed across all images of the resulting grid. \
 The sameseed can be any positive integrer
 
-![](<.gitbook/assets/image (14).png>) /imagine prompt: **an abstract field of flowers --sameseed 1234**
+![](<.gitbook/assets/image (15).png>) /imagine prompt: **an abstract field of flowers --sameseed 1234**
 
 ``
 
@@ -135,7 +135,7 @@ The sameseed can be any positive integrer
 
 `--video` Saves a progress video. Video will be sent to you after you react to the result with the ✉️ emoji
 
-![](<.gitbook/assets/image (10).png>)
+![](<.gitbook/assets/image (11).png>)
 
 ``
 
@@ -153,7 +153,7 @@ Add one or more image URLs to your prompt and it will use those images as visual
 
 Example image prompt
 
-![](<.gitbook/assets/image (12).png>) Linked Image
+![](<.gitbook/assets/image (13).png>) Linked Image
 
 Image prompt use with no --iw modifier, --iw .5 and --iw 1
 

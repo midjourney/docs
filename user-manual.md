@@ -7,7 +7,7 @@ That said, enjoy creating beautiful images! In this page:
 * [User Manual](user-manual.md#user-manual)
   * [Basic Commands in Bot Channels](user-manual.md#basic-commands-in-bot-channels)
   * [Parameters to "/imagine"](user-manual.md#parameters-to-imagine)
-  * [Emoji Responses to Generation Output](user-manual.md#emoji-responses-to-generation-output)
+  * [Emoji Reactions to Generation Output](user-manual.md#emoji-responses-to-generation-output)
   * [Image Prompting with URL](user-manual.md#image-prompting-with-url)
   * [Advanced Text Weights](user-manual.md#advanced-text-weights)
   * [Discord Prompt Preferences](user-manual.md#discord-prompt-preferences)
@@ -45,7 +45,7 @@ Parameters are bot options that change how the images will be generated. For ins
 
 `--h` Height of image. Works better as multiple of 64 (or 128 for `--hd`)
 
-`--seed` Sets the random seed, which can sometimes help keep things more steady / reproducible between generations
+`--seed` Sets the random seed, which can sometimes help keep things more steady / reproducible between generations. Any positive integer (e.g., 2, 534, 345554).
 
 `--no` Negative prompting (`--no plants` would try to remove plants)
 
@@ -85,9 +85,13 @@ Parameters are bot options that change how the images will be generated. For ins
 
 `--lp`: `--w 512 --h 768 --hd`
 
-### Emoji Responses to Generation Output
+### Emoji Reactions to Generation Output
 
-✉️ The envelope emoji response sends an image to your DMs with the seed # and job ID. If the result was a grid, it will send each individual image.
+"React" to a generation with various emojis to trigger actions from the bot.
+
+![how to add a reaction emoji](.gitbook/assets/reaction\_editing.gif)
+
+✉️ The envelope emoji reaction sends an image to your DMs with the seed # and job ID. If the result was a grid, it will send each individual image. You may have to hunt for this emoji by typing "envelope" in your emoji list.
 
 ⭐️ Marks image as "favorite". This shows in a separate feed on the web gallery and sends the image to the #favorites channel.
 
