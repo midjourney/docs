@@ -197,21 +197,21 @@ A: React to your image with the envelope emoji :envelope: and it will send it to
 
 **Q: Are the 4 initial images generated with the same seed?**
 
-A: In a way yes. We use the seed to generate noise(think randomness) for all 4 images at once so the noise is different for each image.
+A: In a way yes. We use the seed to generate noise (think randomness) for all 4 images at once so the noise is different for each image.
 
 **Q: Does submitting the job again use a different seed?**
 
-A: Yes, unless you specify --seed
+A: Yes, unless you specify --seed with a number.
 
 **Q: What exactly does --seed stabilize?**
 
-A: Seed means that the random noise we add during the initialization of the generation will be the same each time but gpus are non-deterministic, so the images won't look exactly the same.
+A: Seed means that the random noise we add during the initialization of the generation will be the same each time but GPUs are non-deterministic, so the images won't look exactly the same.
 
 ## Using Dimensions
 
 **Q: Certain dimensions specified with —h y —w x will generate less images than the normal 4 (3 to 1), is there some reason for this?**
 
-A: The gpus we use have a finite amount of memory, larger images means each one takes up more memory so we have to generate less.
+A: The GPUs we use have a finite amount of memory; larger images means each one takes up more memory so we have to generate less.
 
 ## Gallery Use
 

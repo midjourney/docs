@@ -1,6 +1,8 @@
 # User Manual
 
-Please make sure you are familiar with the content guidelines and are aware of what is public content in the community. You can find more detail in [Content and Moderation](content-and-moderation-policy.md). This document does not cover everything in the #rules, #faq, #announcements, #status channels, so make sure you check those out!
+
+
+YPlease make sure you are familiar with the content guidelines and are aware of what is public content in the community. You can find more detail in [Content and Moderation](content-and-moderation-policy.md). This document does not cover everything in the #rules, #faq, #announcements, #status channels, so make sure you check those out!
 
 That said, enjoy creating beautiful images! In this page:
 
@@ -37,7 +39,9 @@ You can find more documentation on using these in our [FAQs](FAQs.md).
 
 ### Parameters to "/imagine"
 
-Parameters are bot options that change how the images will be generated. For instance, a full imagine command might contain several things, like an image URL, some weights, other switches:
+Parameters are bot options that change how the images will be generated.
+
+For instance, a full imagine command might contain several things, like an image URL, some weights, other switches:
 
 `/imagine prompt: http://myimageonline.jpg A forest spirit at night --iw 0.2 --no trees --hd`
 
@@ -49,7 +53,7 @@ Parameters are bot options that change how the images will be generated. For ins
 
 `--no` Negative prompting (`--no plants` would try to remove plants)
 
-`--video` Saves a progress video, which is sent to you in the ✉️-triggered DM
+`--video` Saves a progress video, which is sent to you in the ✉️-triggered DM (you must react with the envelope to get the video link)
 
 `--iw` Sets image prompt weight
 
@@ -84,6 +88,8 @@ Parameters are bot options that change how the images will be generated. For ins
 `--mp`: `--w 320 --h 448`
 
 `--lp`: `--w 512 --h 768 --hd`
+
+You can see an illustrated guide to all these parameters on [this page](imagine-parameters.md). &#x20;
 
 ### Emoji Reactions to Generation Output
 
