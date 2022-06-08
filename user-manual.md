@@ -119,11 +119,11 @@ You can suffix any part of the prompt with `::0.5` to give that part a weight of
 
 Some examples:
 
-* `/imagine hot dog::1 food::-1` — This sends a text prompt of `hot dog` with the weight 1 and `food` of weight -1
-* `/imagine hot dog::0.5 animal::-0.75` — Sends `hot dog` of weight 0.5 and `animal` of negative 0.75
+* `/imagine hot dog::1.5 food::-1` — This sends a text prompt of `hot dog` with the weight 1.5 and `food` of weight -1
+* `/imagine hot dog::1.25 animal::-0.75` — Sends `hot dog` of weight 1.25 and `animal` of negative 0.75
 * `/imagine hot dog:: food::-1 animal` — Sends `hot dog` of weight 1, `food` of weight -1 and `animal` of weight 1
 
-Watch out for prompts such as `/imagine hot dog animal::-1`, as this will send the prompt of `hot dog animal` with weight -1.
+Prompts with a negative total weight are not allowed
 
 **Note**: The `--no` command is equivalent to using weight -0.5.
 
