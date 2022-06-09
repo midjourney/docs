@@ -1,4 +1,4 @@
-# Frequenty asked Questions
+# Frequently Asked Questions
 
 * [Frequently Asked Questions (FAQs)](FAQs.md#frequently-asked-questions-faqs)
   * [General Questions](FAQs.md#general-questions)
