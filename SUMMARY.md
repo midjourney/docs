@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Quick Start Guide](README.md)
-* [Frequenty asked Questions](FAQs.md)
+* [Frequently Asked Questions](FAQs.md)
 * [User Manual](user-manual.md)
 * [Imagine Parameters](imagine-parameters.md)
 * [Tips for Text-Prompts](guide-to-prompting.md)

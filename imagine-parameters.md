@@ -24,7 +24,7 @@ Parameters are bot options that change how the images will be generated. For ins
 
 ![](<.gitbook/assets/image (9).png>) /imagine: prompt **an abstract field of flowers**
 
-![](<.gitbook/assets/image (14).png>) /imagine prompt: **an abstract field of flowers --w 448**
+![](<.gitbook/assets/image (26).png>) /imagine prompt: **an abstract field of flowers --w 448**
 
 
 
@@ -68,7 +68,7 @@ Try `--aspect 16:9` for example, to get a 16:9 aspect ratio (\~448x256).
 
 `--vibefast` Faster version of the old algorithm.
 
-![](<.gitbook/assets/image (22).png>) /imagine prompt: **an abstract field of flowers --vibe fast**
+![](.gitbook/assets/image.png) /imagine prompt: **an abstract field of flowers --vibe fast**
 
 ``
 
@@ -82,7 +82,7 @@ Try `--aspect 16:9` for example, to get a 16:9 aspect ratio (\~448x256).
 
 `--no` Negative prompting (e.g., `--no plants` would try to remove plants).
 
-![](<.gitbook/assets/image (1).png>) /imagine prompt: **an abstract field of flowers --no blue**
+![](<.gitbook/assets/image (10).png>) /imagine prompt: **an abstract field of flowers --no blue**
 
 
 
