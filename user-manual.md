@@ -21,9 +21,9 @@ Commands are functions of the Midjourney bot that can be typed in any bot channe
 
 `/imagine` Creates an image from text (4 images in 50 seconds)
 
-`/info` Shows information about your profile
+`/info` Shows information about your profile and plan and usage.
 
-`/invite` Generates an invite link and send it to your DM that you can send someone to join the server. It will give them some credits to try out the bot.
+`/invite` Generates an invite link and send it to your DM that you can send someone to join the server. It will give them some credits to try out the bot. You do not need to provide their name or address, you will give them the link it generates.
 
 `/ideas` Give some random ideas for prompt
 
@@ -55,7 +55,7 @@ For instance, a full imagine command might contain several things, like an image
 
 `--video` Saves a progress video, which is sent to you in the ✉️-triggered DM (you must react with the envelope to get the video link)
 
-`--iw` Sets image prompt weight
+`--iw` Sets image prompt weight. Default is .25.&#x20;
 
 `--fast` Faster images, less consistency
 

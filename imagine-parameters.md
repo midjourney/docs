@@ -135,7 +135,7 @@ The `sameseed` can be any positive integer.
 
 ### Image Prompting with URL
 
-`--iw` Sets image prompt weight.
+`--iw` Sets image prompt weight.  Use a decimal value or 1 (full strength).  Weights are normalized to sum up to 1.
 
 Add one or more image URLs to your prompt and it will use those images as visual inspiration. You can mix words with images or just have images alone. See [Image Prompt Questions](FAQs.md#image-prompt-questions) for more info.
 

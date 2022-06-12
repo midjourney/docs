@@ -18,7 +18,7 @@ Try to avoid nudity, sexual organs, fixation on naked breasts, people in showers
 
 ### Other Offensive Content
 
-Other things may be deemed offensive or abusive because they can be viewed as racist, homophobic, or in some way derogatory to a community. This includes naked children and offensive images of celebrities or public figures. We're working on defining this further.
+Other things may be deemed offensive or abusive because they can be viewed as racist, homophobic, disturbing, or in some way derogatory to a community. This includes naked children and offensive images of celebrities or public figures. We're working on defining this further.
 
 ### Automatically Banned Keywords
 

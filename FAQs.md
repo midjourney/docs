@@ -5,6 +5,7 @@
   * [DMing the Bot (Direct Messaging)](FAQs.md#dming-the-bot-direct-messaging)
   * [Using Discord Tools](FAQs.md#using-discord-tools)
   * [Bot Commands](FAQs.md#bot-commands)
+  * [Invites or "Friend Passes"](FAQs.md#invites-or-friend-passes)
   * [Upscaling](FAQs.md#upscaling)
   * [Fast and Relaxed](FAQs.md#fast-and-relaxed)
   * [Seeds](FAQs.md#seeds)
@@ -33,7 +34,7 @@ You can! When you do pls @midjourney on twitter or link to https://twitter.com/m
 
 **Q: Can I invite someone to this server?**
 
-You can purchase a subscription plan and type /invite to generate a invite code for them or you can send them the beta application form here: http://bit.ly/3J2NNVs
+You can purchase a subscription plan and type /invite to generate a invite code for them or you can send them the beta application form here: http://bit.ly/3J2NNVs.  The plans mention "friend passes" which are invite links.  See the [User Manual](user-manual.md#basic-commands-in-bot-channels), and also [this FAQ](FAQs.md#invites-or-friend-passes).
 
 **Q: Can I do detailed public reviews of the current beta? Can I post screenshots / videos of the Discord?**
 
@@ -86,8 +87,6 @@ A: Right-click on the server -> Privacy settings -> Allow direct messages from s
 {% embed url="https://cdn.discordapp.com/attachments/961148616884506674/981338414479712356/Discord_vCUySZbwMa.gif" %}
 How to change privacy settings
 {% endembed %}
-
-
 
 ## Using Discord Tools
 
@@ -145,9 +144,21 @@ A: You can have 3 jobs going at once (of any kind, 2x2, upscale etc). If you sub
 
 A: You can generate 3 images at once. If you start more jobs you'll get a message saying "your job will start shortly". You can start 10 jobs before your queue is full. If you are in relax mode this decreases to 2 concurrent images at once.
 
+
+
+## Invites or "Friend Passes"
+
+**Q: What is a "friend pass"?**
+
+With your subscription plan, you get a limited number of invitations you can send friends to invite them to try Midjourney.  The `/info` command should show you how many you have to give. We give out more each month. You will use the `/invite` command as shown below.
+
+**Q: How do I know how many invites I have left?**
+
+Use the `/info` command to see your plan usage including invites available.
+
 **Q: How do I invite someone?**
 
-A: In a bot channel, type `/invite`. It will create a one-time use link for you to copy and send to the person you want to invite. Don't lose it! It will expire after 24 hours.
+A: In a bot channel, type `/invite`. It will create a one-time use link for you to copy and send to the person you want to invite. You do not need to provide their email or user name. Don't lose it! It will expire after 24 hours.
 
 ![See an invite2.gif.](https://cdn.discordapp.com/attachments/961148616884506674/973955120721174538/invite2.gif)
 
@@ -165,7 +176,7 @@ A: You can use `--stop 80` and replace `80` with the % you want to stop at. Use 
 
 A: We don't support videos for upscaling right now.
 
-**Q: I don't see the Max upscale option.**
+**Q: I don't see the Max Upscale option.**
 
 A: This feature is only available in /fast mode and when --w and --h are under 512.
 
@@ -323,4 +334,4 @@ A: We reached the max number of thread we can create in the server. it will be p
 
 **Q: I don't have the /imagine option as a slash command.**
 
-A: Especially on mobile, you may need to update the app (via the app store etc) and restart it.  Then try the / prompt in a bot channel and see if the /imagine option is listed.  Otherwise, is your account subscription active?  Try /info to see your status.
+A: Especially on mobile, you may need to update the app (via the app store etc) and restart it. Then try the / prompt in a bot channel and see if the /imagine option is listed. Otherwise, is your account subscription active? Try /info to see your status.
