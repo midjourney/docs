@@ -1,18 +1,18 @@
 # Frequently Asked Questions
 
-* [Frequently Asked Questions (FAQs)](FAQs.md#frequently-asked-questions-faqs)
-  * [General Questions](FAQs.md#general-questions)
-  * [DMing the Bot (Direct Messaging)](FAQs.md#dming-the-bot-direct-messaging)
-  * [Using Discord Tools](FAQs.md#using-discord-tools)
-  * [Bot Commands](FAQs.md#bot-commands)
-  * [Upscaling](FAQs.md#upscaling)
-  * [Fast and Relaxed](FAQs.md#fast-and-relaxed)
-  * [Seeds](FAQs.md#seeds)
-  * [Using Dimensions](FAQs.md#using-dimensions)
-  * [Gallery Use](FAQs.md#gallery-use)
-  * [Image Prompt Questions](FAQs.md#image-prompt-questions)
-  * [Text Prompt Questions](FAQs.md#text-prompt-questions)
-  * [Error Messages](FAQs.md#error-messages)
+- [Frequently Asked Questions (FAQs)](FAQs.md#frequently-asked-questions-faqs)
+  - [General Questions](FAQs.md#general-questions)
+  - [DMing the Bot (Direct Messaging)](FAQs.md#dming-the-bot-direct-messaging)
+  - [Using Discord Tools](FAQs.md#using-discord-tools)
+  - [Bot Commands](FAQs.md#bot-commands)
+  - [Upscaling](FAQs.md#upscaling)
+  - [Fast and Relaxed](FAQs.md#fast-and-relaxed)
+  - [Seeds](FAQs.md#seeds)
+  - [Using Dimensions](FAQs.md#using-dimensions)
+  - [Gallery Use](FAQs.md#gallery-use)
+  - [Image Prompt Questions](FAQs.md#image-prompt-questions)
+  - [Text Prompt Questions](FAQs.md#text-prompt-questions)
+  - [Errors and Error Messages](FAQs.md#errors-and-error-messages)
 
 ## General Questions
 
@@ -22,18 +22,20 @@ Midjourney is a new research lab focused on new mediums and tools for empowering
 
 **Q: Are there any rules?**
 
-* Don't be a jerk
-* Don't use our tools to make images that could inflame, upset, or cause drama. That includes gore and adult content.
-* Be respectful to the developers and moderators on the server
-* for more rules see [#rules](https://discord.com/channels/662267976984297473/964598182225002516/964599412460519476)
+- Don't be a jerk
+- Don't use our tools to make images that could inflame, upset, or cause drama. That includes gore and adult content.
+- Be respectful to the developers and moderators on the server
+- for more rules see [#rules](https://discord.com/channels/662267976984297473/964598182225002516/964599412460519476)
 
 **Q: Can I share images?**
 
-You can! When you do pls @midjourney on twitter or link to https://twitter.com/midjourney Example post: "I made these images with tools from @midjourney, you can sign up for their private beta here http://bit.ly/3J2NNVs"
+You can! When you do pls @midjourney on twitter or link to [https://twitter.com/midjourney](https://twitter.com/midjourney)
+
+Example post: "I made these images with tools from @midjourney, you can sign up for their private beta here [http://bit.ly/3J2NNVs](http://bit.ly/3J2NNVs)"
 
 **Q: Can I invite someone to this server?**
 
-You can purchase a subscription plan and type /invite to generate a invite code for them or you can send them the beta application form here: http://bit.ly/3J2NNVs
+You can purchase a subscription plan and type `/invite` to generate a invite code for them or you can send them the beta application form here: [http://bit.ly/3J2NNVs](http://bit.ly/3J2NNVs)
 
 **Q: Can I do detailed public reviews of the current beta? Can I post screenshots / videos of the Discord?**
 
@@ -45,7 +47,7 @@ We are not taking equity investment at this time. Business partnerships and dona
 
 **Q: I'm a reporter / blogger and want to write something**
 
-Please reach out to david@midjourney.com
+Please reach out to [david@midjourney.com](mailto:david@midjourney.com)
 
 **Q: Where does your funding come from?**
 
@@ -57,11 +59,11 @@ We're figuring things out, but our goal is to allow as many people access to the
 
 **Q: Can I help? Are you hiring?**
 
-Yes! Email david@midjourney.com about what you enjoy doing (twitter/linkedin/resume helps us respond faster)
+Yes! Email [david@midjourney.com](mailto:david@midjourney.com) about what you enjoy doing (twitter/linkedin/resume helps us respond faster)
 
 **Q: Can we use images for commercial projects?**
 
-Check the [#rules](https://discord.com/channels/662267976984297473/964598182225002516/964599412460519476) for some basic terms and contact @DavidH if you have anything big you need something custom for
+Check the [#rules](https://discord.com/channels/662267976984297473/964598182225002516/964599412460519476) for some basic terms and contact [@DavidH](discord.com/users/381590592095911946) if you have anything big you need something custom for
 
 ## DMing the Bot (Direct Messaging)
 
@@ -77,7 +79,7 @@ Right-click on the bot in a bot channel (where the bot is creating images)
 
 **Q: I thought my DM images were private. Why are they being moderated?**
 
-Images created in DMs and with /private are still viewable by moderators and the midjourney team.
+Images created in DMs and with `/private` are still viewable by moderators and the midjourney team.
 
 **Q: The bot should have DM'ed me because I used ✉️, but I don't see any messages.**
 
@@ -87,15 +89,13 @@ A: Right-click on the server -> Privacy settings -> Allow direct messages from s
 How to change privacy settings
 {% endembed %}
 
-
-
 ## Using Discord Tools
 
 **Q: How do I create a thread?**
 
 Click on the icon with the # on top of a bot channel. It will allow you to view and create threads. Note, they are still public and subject to content moderation guidelines.
 
-![https://support.discord.com/hc/article\_attachments/4403200565911/create\_thread.gif](https://support.discord.com/hc/article\_attachments/4403200565911/create\_thread.gif)
+![https://support.discord.com/hc/article_attachments/4403200565911/create_thread.gif](https://support.discord.com/hc/article_attachments/4403200565911/create_thread.gif)
 
 **Q: What's a bot channel?**
 
@@ -113,11 +113,11 @@ A: The ↻ submits the same job again, which will run with a different seed. You
 
 **Q: I'm having trouble using the bot - how do I use /imagine?**
 
-A: When you type /imagine try clicking on the box that pops up that says "prompt". It should say /imagine prompt then type what you want. Like this:
+A: When you type `/imagine` try clicking on the box that pops up that says "prompt". It should say /imagine prompt then type what you want. Like this:
 
 ![https://cdn.discordapp.com/attachments/961148616884506674/969225978356326470/ImaginePrompt.gif](https://cdn.discordapp.com/attachments/961148616884506674/969225978356326470/ImaginePrompt.gif)
 
-If you don't see the /imagine option, update your Discord app, re-log-in, and check your subscription (see Errors).
+If you don't see the `/imagine` option, update your Discord app, re-log-in, and check your subscription (see Errors).
 
 **Q: How do I see how many credits I have?**
 
@@ -167,7 +167,7 @@ A: We don't support videos for upscaling right now.
 
 **Q: I don't see the Max upscale option.**
 
-A: This feature is only available in /fast mode and when --w and --h are under 512.
+A: This feature is only available in `/fast` mode and when --w and --h are under 512.
 
 **Q: What is "Light Upscale Redo"?**
 
@@ -179,7 +179,10 @@ A: 3 megapixels.
 
 ## Fast and Relaxed
 
-We have two modes for image generation, “fast” and “relax”. Fast tries to give you a GPU instantly. It's our highest priority processing tier, and it's kinda expensive. “Relax” puts you in a queue behind others based on how much you’ve used the system.
+We have two modes for image generation, “fast” and “relax”.
+
+- **Fast** tries to give you a GPU instantly. It's our highest priority processing tier, and it's kinda expensive.
+- **Relax** puts you in a queue behind others based on how much you’ve used the system.
 
 Right now, we give 15 gpu-hours/mo of ‘fast’ with the ‘Standard’ plan and 200 gpu-minutes/mo with the ‘Basic’ plan.
 
@@ -193,7 +196,7 @@ These numbers are super experimental and may change at any time.
 
 A: React to your image with the envelope emoji :envelope: and it will send it to you in DM.
 
-![FileID\_Step1](https://user-images.githubusercontent.com/105028755/167305579-1b2c461f-03d7-4aad-b14e-9ce0dd74fd9a.png) ![FileID\_Step2](https://user-images.githubusercontent.com/105028755/167305633-95ad0e19-0754-4b69-b305-f74a554c8d6f.png)
+![FileID_Step1](https://user-images.githubusercontent.com/105028755/167305579-1b2c461f-03d7-4aad-b14e-9ce0dd74fd9a.png) ![FileID_Step2](https://user-images.githubusercontent.com/105028755/167305633-95ad0e19-0754-4b69-b305-f74a554c8d6f.png)
 
 **Q: Are the 4 initial images generated with the same seed?**
 
@@ -249,7 +252,7 @@ A: Not currently. "Make variations" uses a feature called init images to basical
 
 **Q: What's the max size I can use for a image prompt? I keep getting this error "Job encountered an error, likely due to lack of memory".**
 
-A: Your problem is more likely due to not using a plain image page as the image prompt. make sure it's a public url with an ending of .png or .jpg, not an html page with an image on it somewhere
+A: Your problem is more likely due to not using a plain image page as the image prompt. make sure it's a public url with an ending of `.png` or `.jpg`, not an html page with an image on it somewhere
 
 **Q: Is it possible to choose how much weight is applied to each image using --iw?**
 
@@ -323,4 +326,4 @@ A: We reached the max number of thread we can create in the server. it will be p
 
 **Q: I don't have the /imagine option as a slash command.**
 
-A: Especially on mobile, you may need to update the app (via the app store etc) and restart it.  Then try the / prompt in a bot channel and see if the /imagine option is listed.  Otherwise, is your account subscription active?  Try /info to see your status.
+A: Especially on mobile, you may need to update the app (via the app store etc) and restart it. Then try the `/` (Slash Command) in a bot channel and see if the `/imagine` option is listed. Otherwise, is your account subscription active? Try `/info` to see your status.
