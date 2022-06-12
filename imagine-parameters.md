@@ -6,13 +6,12 @@ description: An illustrated Guide to /imagine parameters
 
 ### Basic Structure
 
-Parameters are bot options that change how the images will be generated. For instance, a full imagine command might contain several things, like an image URL, some weights, other switches. \
+Parameters are bot options that change how the images will be generated. For instance, a full imagine command might contain several things, like an image URL, some weights, other switches.
+
 \
 `/imagine` commands should follow the below order if you use them all:
 
 ![/imagine prompt: https://example/tulip.jpg  a field of tulips in the style of Mary Blair --no farms --iw .5 --ar 3:2](.gitbook/assets/ImagineStructure.jpg)
-
-
 
 ### Sizes
 
@@ -26,15 +25,11 @@ Parameters are bot options that change how the images will be generated. For ins
 
 ![](<.gitbook/assets/image (26).png>) /imagine prompt: **an abstract field of flowers --w 448**
 
+`--aspect` or `--ar` Sets a desired aspect ratio, instead of manually setting height and width with `--h` and `--w`.
 
-
-`--aspect`  or `--ar` Sets a desired aspect ratio, instead of manually setting height and width with `--h` and `--w`. &#x20;
-
-Try `--aspect 16:9` for example, to get a 16:9 aspect ratio (\~448x256).
+Try `--aspect 16:9` for example, to get a 16:9 aspect ratio (~448x256).
 
 <img src=".gitbook/assets/image (3).png" alt="" data-size="original"> /imagine prompt: **an abstract field of flowers --ar 16:9**
-
-
 
 #### Size Shortcuts
 
@@ -58,25 +53,17 @@ Try `--aspect 16:9` for example, to get a 16:9 aspect ratio (\~448x256).
 
 ![](<.gitbook/assets/image (2).png>)/imagine prompt: **an abstract field of flowers --fast**
 
-``
-
 `--vibe` Uses old algorithm (more vibes, more abstract, sometimes better for macro or textures).
 
 ![](<.gitbook/assets/image (12).png>) /imagine prompt: **an abstract field of flowers --vibe**
-
-
 
 `--vibefast` Faster version of the old algorithm.
 
 ![](.gitbook/assets/image.png) /imagine prompt: **an abstract field of flowers --vibe fast**
 
-``
-
 `--hd` Uses a different algorithm that’s potentially better for larger images, but with less consistent composition. Best for abstract and landscape prompts.
 
 ![](<.gitbook/assets/image (24).png>)/imagine prompt: **an abstract field of flowers --hd**
-
-
 
 ### Prompt Modifiers
 
@@ -84,25 +71,17 @@ Try `--aspect 16:9` for example, to get a 16:9 aspect ratio (\~448x256).
 
 ![](<.gitbook/assets/image (10).png>) /imagine prompt: **an abstract field of flowers --no blue**
 
-
-
 ### Detail Modifiers
 
 `--stop` Stop the generation at an earlier percentage. Must be between 10-100.
 
 ![](<.gitbook/assets/image (8).png>) /imagine prompt: **an abstract field of flowers --stop 50**
 
-****
-
 `--uplight` Use "light" upscaler for subsequent upscales. Light results are closer to the original image with less detail added during upscale.
-
-
 
 ![](<.gitbook/assets/image (25).png>)![](<.gitbook/assets/image (20).png>)
 
 Normal upscale (left) vs Light Upscale (right)
-
-
 
 ### Seeds
 
@@ -112,20 +91,14 @@ Normal upscale (left) vs Light Upscale (right)
 
 `/imagine prompt: an abstract field of flowers` run twice without a seed.
 
-
-
 ![](<.gitbook/assets/image (16).png>) ![](<.gitbook/assets/image (5).png>)
 
-`/imagine prompt: an abstract field of flowers --seed 1234` run twice.&#x20;
-
-
+`/imagine prompt: an abstract field of flowers --seed 1234` run twice.
 
 `--sameseed <number>` Sets the same seed across all images of the resulting grid. \
 The `sameseed` can be any positive integer.
 
 ![](<.gitbook/assets/image (15).png>) /imagine prompt: **an abstract field of flowers** **--sameseed 1234**
-
-``
 
 ### `Progress Videos`
 
@@ -152,9 +125,5 @@ Example image prompt:
 Image prompt use with no `--iw` modifier, `--iw` .5 and `--iw` 1:
 
 ![ https://example/dots.jpb abstract field of flowers
-&#x20;https://example/dots.jpb abstract field of flowers --iw .5
-&#x20;https://example/dots.jpb abstract field of flowers --iw 1](.gitbook/assets/MJ\_Imageweights.jpg)
-
-
-
-``
+ https://example/dots.jpb abstract field of flowers --iw .5
+ https://example/dots.jpb abstract field of flowers --iw 1](.gitbook/assets/MJ_Imageweights.jpg)

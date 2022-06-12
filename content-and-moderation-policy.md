@@ -14,7 +14,7 @@ Gore includes images of detached body parts of humans or animals, cannibalism, b
 
 ### What's Adult?
 
-Try to avoid nudity, sexual organs, fixation on naked breasts, people in showers or on toilets, sexual imagery, fetishes, etc.&#x20;
+Try to avoid nudity, sexual organs, fixation on naked breasts, people in showers or on toilets, sexual imagery, fetishes, etc.
 
 ### Other Offensive Content
 
@@ -30,11 +30,11 @@ We're working on a better moderating system. For now banning words has proven an
 
 Public images include all images generated in bot channels on the Discord server, in DM chanels with the bot (**unless you are paying for the /private access**), and in sub-threads.
 
-We recognize there are horror fans using the site. They are nevertheless subject to the community content guidelines, if they produce images that are public.  Please self-police the output.
+We recognize there are horror fans using the site. They are nevertheless subject to the community content guidelines, if they produce images that are public. Please self-police the output.
 
 ### What About Private Images?
 
-Even if you use the service in `/private` mode, you are still subject to the PG-13 guidelines. Your prompts that violate the terms are still visible to moderators and team members.   Private mode is most useful for artists creating work they don't want to show in public with a visible prompt, but is not a way to avoid moderation.
+Even if you use the service in `/private` mode, you are still subject to the PG-13 guidelines. Your prompts that violate the terms are still visible to moderators and team members. Private mode is most useful for artists creating work they don't want to show in public with a visible prompt, but is not a way to avoid moderation.
 
 ### Police Your Stuff, Too... Delete Accidental Gore/Adult Content
 
@@ -44,7 +44,7 @@ See more about how to do this in the [User Manual](user-manual.md#emoji-reaction
 
 ### Using Threads for Edgy Stuff - Still Public!
 
-Some moderators may request people who are producing "edgy" content, especially in #newbies channels, to create or move to a thread (see [How to Create a Thread](usage-screenshots/#how-to-create-a-thread.md)). If you make a thread, that content is still posted to the gallery public feed, and the thread can still be visited by anyone in the community. It is therefore still subject to our community guidelines and any adult or gore content may be removed by moderators and you may receive warnings, if you cross the rules.
+Some moderators may request people who are producing "edgy" content, especially in #newbies channels, to create or move to a thread (see [How do I create a thread?](FAQs.md#using-discord-tools)). If you make a thread, that content is still posted to the gallery public feed, and the thread can still be visited by anyone in the community. It is therefore still subject to our community guidelines and any adult or gore content may be removed by moderators and you may receive warnings, if you cross the rules.
 
 When we ask you to move to a thread, it usually means we're trying to let you experiment with the edges, but we will still enforce the guidelines if we think things have gone too far for the public feed.
 

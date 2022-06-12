@@ -1,23 +1,19 @@
 # The Midjourney Web App
 
-* [Using the Web App](web-app.md#using-the-web-app)
-  * [Where Is It?](web-app.md#where-is-it)
-  * [What's the Feed?](web-app.md#whats-the-feed)
-  * [Image LeaderBoards and Rating](web-app.md#image-leaderboards-and-rating)
-  * [Viewing Great Images!](web-app.md#viewing-great-images)
-  * [Dictionary](web-app.md#dictionary)
-  * [Styles and Artists](web-app.md#styles-and-artists)
-  * [Account and Subscription Settings](web-app.md#account-and-subscription-settings)
+- [Using the Web App](web-app.md#using-the-web-app)
+  - [Where Is It?](web-app.md#where-is-it)
+  - [What's the Feed?](web-app.md#whats-the-feed)
+  - [Image LeaderBoards and Rating](web-app.md#image-leaderboards-and-rating)
+  - [Viewing Great Images!](web-app.md#viewing-great-images)
+  - [Dictionary](web-app.md#dictionary)
+  - [Styles and Artists](web-app.md#styles-and-artists)
+  - [Account and Subscription Settings](web-app.md#account-and-subscription-settings)
 
 ## Where Is It?
 
 If you are a subscriber, you can acess it (logged in with Discord credentials) at [midjourney.com/app](https://www.midjourney.com/app/).
 
-
-
 ## Using Your Gallery
-
-
 
 The gallery shows your latest creations, among other things. You can filter by grids or upscales only, by channel, and change the sort order.
 
@@ -31,19 +27,15 @@ Clicking on an image will show you more details and offer more commands:
 
 ![Click on a gallery image for more info and options, such as the ... button shown.](<.gitbook/assets/image (7).png>)
 
-
-
-Another way to filter the view is by showing things you have favorited with a ❤️ reaction.  If you click the heart button in the top bar, you will see only work you have reacted to with a heart emoji, including work by other others.
+Another way to filter the view is by showing things you have favorited with a ❤️ reaction. If you click the heart button in the top bar, you will see only work you have reacted to with a heart emoji, including work by other others.
 
 ![](<.gitbook/assets/image (27).png>)
-
-
 
 ## What's the Feed?
 
 The ["feed"](https://www.midjourney.com/app/feed/) is the community record of public upscales, which includes DMs with the bot that are not paid /private usage. If you mouse over an image, you will see the prompt.
 
-![feed\_link\_on\_top.png](https://raw.githubusercontent.com/arnicas/MJ-Docs/main/.github/images/feed\_link\_on\_top.png)
+![feed_link_on_top.png](https://raw.githubusercontent.com/arnicas/MJ-Docs/main/.github/images/feed_link_on_top.png)
 
 ## Image LeaderBoards and Rating
 
@@ -73,6 +65,6 @@ Available in [Styles](https://www.midjourney.com/app/library/styles/), you can f
 
 On the top right corner is your user icon. Click on it to find "Manage Plan." [This page](https://www.midjourney.com/account/) is your account settings and billing options. There are some subscription FAQs at the bottom.
 
-![profile\_menu.png](https://raw.githubusercontent.com/arnicas/MJ-Docs/main/.github/images/profile\_menu.png)
+![profile_menu.png](https://raw.githubusercontent.com/arnicas/MJ-Docs/main/.github/images/profile_menu.png)
 
 We use Stripe for credit card processing.
