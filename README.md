@@ -46,7 +46,7 @@ Requests take a minute to generate four options based on your prompt.
 
 ![MJ\_ImageGen](https://user-images.githubusercontent.com/105028755/167756032-0059cb74-d437-4747-8778-902c03403be6.gif)
 
-#### 4. Upscale your Image
+#### 4. Upscale Your Image
 
 Two rows of buttons will appear: The top row of buttons: `U1` `U2` `U3` and `U4` are buttons for **upscaling** your chosen image. Upscaling an image generates a larger roughly 1024x1024 pixel version of the selected image while adding additional details.
 
@@ -72,9 +72,9 @@ You can also react with the ✉️ emoji to direct message your upscaled image (
 
 ![envelopeReact](https://user-images.githubusercontent.com/105028755/168405903-4a039b6e-230b-4ff6-bbba-d9f732c7fb86.gif)
 
-#### 7. Start a Thread If You Want.
+#### 7. Start a Thread If You Want Less Noise Around.
 
-If you want a quieter place to work you can start your own thread in any of the bot channels. Note, they are still public and subject to content moderation guidelines.
+If you want a quieter place to work you can start your own thread in any of the bot channels. Note, they are still public and subject to content moderation guidelines.  (You can also use t[he bot in a DM mode](FAQs.md#dming-the-bot-direct-messaging) if you are a subscriber, which will still generate public images (subject to content rules) but will not be in a loud channel.)
 
 ![create thread](https://user-images.githubusercontent.com/105028755/168845499-7f721e51-ee24-434e-97fd-856e9c883238.gif)
 

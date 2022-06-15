@@ -107,7 +107,7 @@ You can see an illustrated guide to all these parameters on [this page](imagine-
 
 Add one or more image URLs to your prompt and it will use those images as visual inspiration. You can mix words with images or just have images alone. See [Image Prompt Questions](FAQs.md#image-prompt-questions) for more info.
 
-**Note**: This is _not_ the same as building on top of (or "initializing" from) an input image. Midjourney does not currently offer the ability to use an init image, due to concerns about community public content.
+**Note**: This is _not_ the same as building on top of (or "initializing" from) a starting input image as you may see in other generation tools. Midjourney does not currently offer the ability to use a starting image, due to concerns about community public content.  Instead, we let you use an image as inspiration, usually with text, to guide the generation.
 
 `--iw` — Adjusts the weight of the image URLs vs the text (0.5 weights images half and 2 weighs images twice as much)
 

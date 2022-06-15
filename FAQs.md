@@ -23,10 +23,10 @@ Midjourney is a new research lab focused on new mediums and tools for empowering
 
 **Q: Are there any rules?**
 
-* Don't be a jerk
+* Don't be a jerk.
 * Don't use our tools to make images that could inflame, upset, or cause drama. That includes gore and adult content.
-* Be respectful to the developers and moderators on the server
-* for more rules see [#rules](https://discord.com/channels/662267976984297473/964598182225002516/964599412460519476)
+* Be respectful to the developers and moderators on the server.
+* For more rules, see [#rules](https://discord.com/channels/662267976984297473/964598182225002516/964599412460519476).
 
 **Q: Can I share images?**
 
@@ -240,27 +240,25 @@ The Feed (button on the upper left) is the public record of all upscaled communi
 
 ## Image Prompt Questions
 
-**Q: Is there a way to use "init" images for the bot to start from?**
 
-A: Inits are not supported by Midjourney at the moment. You can use a url as part of your prompt, along with text if you want, but it is more of a ""target image"" than an init. The rest of this page is about using those prompt images.
 
 **Q: How can I attach an image as inspiration?**
 
-A: Type `/imagine` prompt as normal, but then in the prompt section, paste in the web address where the image is stored online. After the link you can still add new text prompts to complement it.
+A: Type `/imagine` prompt as normal, but then in the prompt section, paste in the web address where the image is stored online. After the link you can still add new text prompts to complement it.  You can see some examples in the **Imagine Parameters** visual guide [here](imagine-parameters.md#image-prompting-with-url).
 
 An image url must be a direct link to an online image, which you can usually get by right clicking on an image somewhere and choosing `Copy Link Address`. This address will usually end in a `.png` or `.jpg` if it's a usable address.
 
 **Q: Any tips regarding using two image sources? The results seem quite random... Is there any way to influence what those two images are doing?**
 
-A: We don't currently support adding individual weights for images, so the most you can do is just set the global image weight with --iw
+A: We don't currently support adding individual weights for images, so the most you can do is just set the global image weight with --iw.
 
 **Q: Is there a way to get the "image prompt" to be closer to the initial image, just like "make variations"?**
 
-A: Not currently. "Make variations" uses a feature called init images to basically start the model with a noised image. This isn't available through the bot currently.
+A: Your best bet is to increase the weight (see above).
 
 **Q: What's the max size I can use for a image prompt? I keep getting this error "Job encountered an error, likely due to lack of memory".**
 
-A: Your problem is more likely due to not using a plain image page as the image prompt. make sure it's a public url with an ending of .png or .jpg, not an html page with an image on it somewhere
+A: Your problem is more likely due to not using a plain image page as the image prompt. Make sure it's a public url with an ending of .png or .jpg, not an html page with an image on it somewhere.  You can find the actual source image with a right-click and "Copy Image Address" (or "Copy Image Link").
 
 **Q: Is it possible to choose how much weight is applied to each image using --iw?**
 
@@ -268,11 +266,11 @@ A: The weight specified is applied on all image prompts given to the bot.
 
 **Q: Can an image prompt have a negative weight?**
 
-A: Yes with --iw -0.5
+A: Yes, with --iw -0.5.
 
-**Q: How do I upload or use an image from my harddrive for an image prompt?**
+**Q: How do I upload or use an image from my hard-drive for an image prompt?**
 
-It needs to be online, with a public url, which you can do using Discord. If it's already online somewhere, right click on the image to 'copy image address' and go to step 5:
+It needs to be online, with a public URL, which you can do using Discord. If it's already online somewhere, right click on the image to 'copy image address (or link)' and go to step 5:
 
 On desktop:
 
@@ -290,6 +288,10 @@ On Mobile:
 4. Push share then click 'copy url'
 5. Type `/imagine` and then paste the address in the prompt area.
 
+**Q: Is there a way to use "init" images for the bot to start from the way some other tools do?**
+
+A: Some image generation tools can take a starting image as the source and modify it. They often call this an "init\_image."  This is not supported by Midjourney at the moment. You can use a url as part of your prompt, along with text if you want, but it is more of a "influence image" than a true init. The details above are about using those image prompts.
+
 ## Text Prompt Questions
 
 **Q: Any tips for successful text prompts?**
@@ -302,7 +304,19 @@ A: No, everything is case-insensitive.
 
 **Q: How do you weigh text prompts?**
 
-A: Check out the explainer over on the changelog in #status: [Explainer](https://discord.com/channels/662267976984297473/942231458918064148/960181257394868224)
+A: Check out the explainer over on the changelog in #status: [Explainer](https://discord.com/channels/662267976984297473/942231458918064148/960181257394868224).  Basically, it says:
+
+You can suffix any part of the prompt with `::0.5` to give that part a weight of 0.5. If the weight is not specified, it defaults to 1.&#x20;
+
+Some examples: `/imagine hot dog::1 food::-1` - This sends a text prompt of `hot dog` with the weight 1 and `food` of weight -1.
+
+`/imagine hot dog::0.5 animal::-0.75` - Sends `hot dog` of weight 0.5 and `animal` of negative 0.75.
+
+`/imagine hot dog:: food::-1 animal::` - Sends `hot dog` of weight 1, `food` of weight -1 and `animal` of weight 1 (unspecified weights default to 1).
+
+Watch out for prompts such as `/imagine hot dog animal::-1`, as this will send the prompt of `hot dog animal` with weight -1, because of how it parses the text before the colons.
+
+
 
 **Q: Do commas, pipes, or any other punctuation matter?**
 

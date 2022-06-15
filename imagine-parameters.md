@@ -80,7 +80,7 @@ Try `--aspect 16:9` for example, to get a 16:9 aspect ratio (\~448x256).
 
 ### Prompt Modifiers
 
-`--no` Negative prompting (e.g., `--no plants` would try to remove plants).
+`--no` Negative prompting (e.g., `--no plants` would try to remove plants).  This is like giving it a weight of -0.5.
 
 ![](<.gitbook/assets/image (10).png>) /imagine prompt: **an abstract field of flowers --no blue**
 
@@ -135,25 +135,25 @@ The `sameseed` can be any positive integer.
 
 ### Image Prompting with URL
 
-`--iw` Sets image prompt weight.  Use a decimal value or 1 (full strength).  Weights are normalized to sum up to 1.
+`--iw` Sets image prompt weight.  Use a decimal value up to 1 (full strength).
 
 Add one or more image URLs to your prompt and it will use those images as visual inspiration. You can mix words with images or just have images alone. See [Image Prompt Questions](FAQs.md#image-prompt-questions) for more info.
 
-**Note**: This is _not_ the same as building on top of (or "initializing" from) an input image. Midjourney does not currently offer the ability to use an init image, due to concerns about community public content.
+**Note**: This is _not_ the same as building on top of (or "initializing" from) an input image. Midjourney does not currently offer the ability to use an "init" image as seen in some other tools, due to concerns about community public content.
 
-`--iw` — Adjusts the weight of the image URLs vs the text (0.5 weights images half and 2 weighs images twice as much). The default image weight is .25.
+`--iw` — Adjusts the weight of the image URLs vs the text. 0.25 is the default weight. As you increase it to 1, you increase the strength of the image. Experiment and see what you like.
 
 **Note**: There is currently no way to apply different weights to different image prompts. This will be addressed in the future.
 
 Example image prompt:
 
-![](<.gitbook/assets/image (13).png>) Linked Image
+![](<.gitbook/assets/image (13).png>) Linked Image (this has a long url related to github, but pretend it is "https://example/dots.jpg")
 
 Image prompt use with no `--iw` modifier, `--iw` .5 and `--iw` 1:
 
-![ https://example/dots.jpb abstract field of flowers
-&#x20;https://example/dots.jpb abstract field of flowers --iw .5
-&#x20;https://example/dots.jpb abstract field of flowers --iw 1](.gitbook/assets/MJ\_Imageweights.jpg)
+![ https://example/dots.jpg abstract field of flowers (left)
+&#x20;https://example/dots.jpg abstract field of flowers --iw .5 (center)
+&#x20;https://example/dots.jpg abstract field of flowers --iw 1 (right)](.gitbook/assets/MJ\_Imageweights.jpg)
 
 
 
