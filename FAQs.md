@@ -308,9 +308,9 @@ A: Check out the explainer over on the changelog in #status: [Explainer](https:/
 
 You can suffix any part of the prompt with `::0.5` to give that part a weight of 0.5. If the weight is not specified, it defaults to 1.&#x20;
 
-Some examples: `/imagine hot dog::1 food::-1` - This sends a text prompt of `hot dog` with the weight 1 and `food` of weight -1.
+Some examples: `/imagine hot dog::2 food::-1` - This sends a text prompt of `hot dog` with the weight 2 and `food` of weight -1.
 
-`/imagine hot dog::0.5 animal::-0.75` - Sends `hot dog` of weight 0.5 and `animal` of negative 0.75.
+`/imagine hot dog::0.5 animal::-0.25` - Sends `hot dog` of weight 0.5 and `animal` of negative 0.25.
 
 `/imagine hot dog:: food::-1 animal::` - Sends `hot dog` of weight 1, `food` of weight -1 and `animal` of weight 1 (unspecified weights default to 1).
 
