@@ -25,7 +25,7 @@ The gallery shows your latest creations, among other things. You can filter by g
 
 If you mouse over an image, you will see the prompt:
 
-![Mouse over an image to see the prompt](<.gitbook/assets/image (23).png>)
+![Mouse over an image to see the prompt](<.gitbook/assets/image (23) (1).png>)
 
 Clicking on an image will show you more details and offer more commands:
 

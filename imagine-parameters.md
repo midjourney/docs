@@ -68,7 +68,7 @@ Try `--aspect 16:9` for example, to get a 16:9 aspect ratio (\~448x256).
 
 `--vibefast` Faster version of the old algorithm.
 
-![](.gitbook/assets/image.png) /imagine prompt: **an abstract field of flowers --vibe fast**
+![](<.gitbook/assets/image (23).png>) /imagine prompt: **an abstract field of flowers --vibe fast**
 
 ``
 

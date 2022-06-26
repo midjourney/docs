@@ -8,3 +8,4 @@
 * [The Midjourney Web App](web-app.md)
 * [Content and Moderation](content-and-moderation-policy.md)
 * [Billing and Licensing](billing.md)
+* [Understanding Image Size](understanding-image-size.md)
