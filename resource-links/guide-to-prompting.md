@@ -108,4 +108,4 @@ an ancient chinese painting of \_\_\_\_\_\_
 
 ### More Resources
 
-Here is a short guide on effective text prompts: [A short guide on effective text prompts](https://docs.google.com/document/d/1XUT2G9LmkZataHFzmuOtRXnuWBfhvXDAo8DkS--8tec).
+See the [Resource Links page](./#press).

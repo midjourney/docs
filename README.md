@@ -72,12 +72,10 @@ You can also react with the ✉️ emoji to direct message your upscaled image (
 
 ![envelopeReact](https://user-images.githubusercontent.com/105028755/168405903-4a039b6e-230b-4ff6-bbba-d9f732c7fb86.gif)
 
-#### 7. Start a Thread If You Want Less Noise Around.
+#### 7. DM the Bot If You Want Less Noise Around and Are a Subscriber
 
-If you want a quieter place to work you can start your own thread in any of the bot channels. Note, they are still public and subject to content moderation guidelines.  (You can also use t[he bot in a DM mode](FAQs.md#dming-the-bot-direct-messaging) if you are a subscriber, which will still generate public images (subject to content rules) but will not be in a loud channel.)
-
-![create thread](https://user-images.githubusercontent.com/105028755/168845499-7f721e51-ee24-434e-97fd-856e9c883238.gif)
+You can also use t[he bot in a DM mode](FAQs.md#dming-the-bot-direct-messaging) if you are a subscriber, which will still generate public images (subject to content rules) but will not be in a loud channel.)
 
 #### 8. Have Questions?
 
-If you have other questions you can find many answers in the `#announcements`, `#status`, `#rules`, `#faq` channels. If you still need help post your question in the `#support` channel.
+If you have other questions you can find many answers in the `#announcements`, `#status`, `#rules`, `#faq` channels. If you still need help post your question in the `#support` channels.

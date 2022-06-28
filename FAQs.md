@@ -3,14 +3,14 @@
 * [Frequently Asked Questions (FAQs)](FAQs.md#frequently-asked-questions-faqs)
   * [General Questions](FAQs.md#general-questions)
   * [DMing the Bot (Direct Messaging)](FAQs.md#dming-the-bot-direct-messaging)
-  * [Using Discord Tools](FAQs.md#using-discord-tools)
+  * [Using Discord Channels](FAQs.md#using-discord-channels)
   * [Bot Commands](FAQs.md#bot-commands)
   * [Invites or "Friend Passes"](FAQs.md#invites-or-friend-passes)
   * [Upscaling](FAQs.md#upscaling)
   * [Fast and Relaxed](FAQs.md#fast-and-relaxed)
   * [Seeds](FAQs.md#seeds)
   * [Using Dimensions](FAQs.md#using-dimensions)
-  * [Gallery Use](FAQs.md#gallery-use)
+  * [Web Gallery Use](FAQs.md#gallery-use)
   * [Image Prompt Questions](FAQs.md#image-prompt-questions)
   * [Text Prompt Questions](FAQs.md#text-prompt-questions)
   * [Error Messages](FAQs.md#error-messages)
@@ -78,7 +78,7 @@ Right-click on the bot in a bot channel (where the bot is creating images)
 
 **Q: I thought my DM images were private. Why are they being moderated?**
 
-Images created in DMs and with /private are still viewable by moderators and the midjourney team.
+Images created in DMs and with /private are still viewable by moderators and the Midjourney team.
 
 **Q: The bot should have DM'ed me because I used ✉️, but I don't see any messages.**
 
@@ -88,7 +88,7 @@ A: Right-click on the server -> Privacy settings -> Allow direct messages from s
 How to change privacy settings
 {% endembed %}
 
-## Using Discord Tools
+## Using Discord Channels
 
 **Q: How do I create a thread?**
 
@@ -104,6 +104,16 @@ A: Any channel where you can use the `/imagine` command and make images. On the 
 
 A: No, the bot is the same in all of them.
 
+**Q: I've been kicked out of #newbies-534, or want to move channels but still have access to my work. What can I do?**
+
+A:  You can move your image grids to another channel using the `/show` command.  You can now use the `/show <jobid>` command to produce the resulting image and upscale+variation buttons, based on a job id.&#x20;
+
+This allows you to take a job into a different channel, upscale a job from an archived thread, or other similar situations.&#x20;
+
+**Q: How do I find this job id?**&#x20;
+
+A: Job ids look like this:`e8913dc8-75fa-4b7e-8b61-028b8f43c792`. It can be found in the first part of all image filenames, in the URLs on the website, and other places. It's a unique identifier, and you can only use `/show` on jobs that you are the author of. This will also work on "refreshing" old jobs, so if your button click fails on something you made two months ago, you can use `/show` on this job and continue prompting!
+
 ## Bot Commands
 
 **Q: What exactly does the ↻ button do?**
@@ -118,13 +128,13 @@ A: When you type /imagine try clicking on the box that pops up that says "prompt
 
 If you don't see the /imagine option, update your Discord app, re-log-in, and check your subscription (see Errors).
 
-**Q: How do I see how many credits I have?**
+**Q: How do I see how many jobs I have left?**
 
 A: Use `/info` in a bot channel to check your subscription status and usage.
 
 **Q: My images say "relaxed", how do I change this?**
 
-A: Use `/fast` in a bot channel. This will enable fast generation, but you will be incrementally charged for each image if you are out of fast credits.
+A: Use `/fast` in a bot channel. This will enable fast generation, but you will be incrementally charged for each image if you are out of fast jobs.
 
 **Q: My images say "metered, fast". I don't want to be charged!**
 
@@ -142,7 +152,7 @@ A: You can have 3 jobs going at once (of any kind, 2x2, upscale etc). If you sub
 
 **Q: How many concurrent jobs can I run? How many can I queue?**
 
-A: You can generate 3 images at once. If you start more jobs you'll get a message saying "your job will start shortly". You can start 10 jobs before your queue is full. If you are in relax mode this decreases to 2 concurrent images at once.
+A: You can generate 3 images at once. If you start more jobs you'll get a message saying "your job will start shortly." You can start 10 jobs before your queue is full. If you are in relax mode this decreases to 2 concurrent images at once.
 
 
 
@@ -224,7 +234,7 @@ A: Seed means that the random noise we add during the initialization of the gene
 
 A: The GPUs we use have a finite amount of memory; larger images means each one takes up more memory so we have to generate less.
 
-## Gallery Use
+## Web Gallery Use
 
 **Q: Where is the gallery?**
 
@@ -246,7 +256,7 @@ The Feed (button on the upper left) is the public record of all upscaled communi
 
 A: Type `/imagine` prompt as normal, but then in the prompt section, paste in the web address where the image is stored online. After the link you can still add new text prompts to complement it.  You can see some examples in the **Imagine Parameters** visual guide [here](imagine-parameters.md#image-prompting-with-url).
 
-An image url must be a direct link to an online image, which you can usually get by right clicking on an image somewhere and choosing `Copy Link Address`. This address will usually end in a `.png` or `.jpg` if it's a usable address.
+An image URL must be a direct link to an online image, which you can usually get by right clicking on an image somewhere and choosing `Copy Link Address`. This address will usually end in a `.png` or `.jpg` if it's a usable address.
 
 **Q: Any tips regarding using two image sources? The results seem quite random... Is there any way to influence what those two images are doing?**
 
@@ -258,7 +268,7 @@ A: Your best bet is to increase the weight (see above).
 
 **Q: What's the max size I can use for a image prompt? I keep getting this error "Job encountered an error, likely due to lack of memory".**
 
-A: Your problem is more likely due to not using a plain image page as the image prompt. Make sure it's a public url with an ending of .png or .jpg, not an html page with an image on it somewhere.  You can find the actual source image with a right-click and "Copy Image Address" (or "Copy Image Link").
+A: Your problem is more likely due to not using a plain image page as the image prompt. Make sure it's a public URL with an ending of .png or .jpg, not an html page with an image on it somewhere.  You can find the actual source image with a right-click and "Copy Image Address" (or "Copy Image Link").
 
 **Q: Is it possible to choose how much weight is applied to each image using --iw?**
 
@@ -296,7 +306,7 @@ A: Some image generation tools can take a starting image as the source and modif
 
 **Q: Any tips for successful text prompts?**
 
-A: Here is a short guide on effective text prompts: [A short guide on effective text prompts](https://docs.google.com/document/d/1XUT2G9LmkZataHFzmuOtRXnuWBfhvXDAo8DkS--8tec). Also read this page: [Tips on Text Prompts](guide-to-prompting.md).
+A: Here is a short guide on effective text prompts: [A short guide on effective text prompts](https://docs.google.com/document/d/1XUT2G9LmkZataHFzmuOtRXnuWBfhvXDAo8DkS--8tec). Also read this page: [Tips on Text Prompts](resource-links/guide-to-prompting.md).
 
 **Q: Is letter case (caps vs lowercase) taken into consideration in producing the results to the prompt?**
 
@@ -304,9 +314,7 @@ A: No, everything is case-insensitive.
 
 **Q: How do you weigh text prompts?**
 
-A: Check out the explainer over on the changelog in #status: [Explainer](https://discord.com/channels/662267976984297473/942231458918064148/960181257394868224).  Basically, it says:
-
-You can suffix any part of the prompt with `::0.5` to give that part a weight of 0.5. If the weight is not specified, it defaults to 1.&#x20;
+A:  You can suffix any part of the prompt with `::0.5` to give that part a weight of 0.5. If the weight is not specified, it defaults to 1.&#x20;
 
 Some examples: `/imagine hot dog::2 food::-1` - This sends a text prompt of `hot dog` with the weight 2 and `food` of weight -1.
 
@@ -316,7 +324,13 @@ Some examples: `/imagine hot dog::2 food::-1` - This sends a text prompt of `hot
 
 Watch out for prompts such as `/imagine hot dog animal::-1`, as this will send the prompt of `hot dog animal` with weight -1, because of how it parses the text before the colons.
 
+**Q: What happens if I combine image and text weights?**
 
+A: Here are some recipes from a tricky guide:
+
+* `[image URL] [text prompt 1]` with no weights specified results in a 25% image(s) / 75% text generation.
+* `[image URL] [text prompt 1] --iw 1` Results in a 50% image(s) / 50% text generation.
+* `[image URL] [text prompt 1]::2 [text prompt 2]::3 --iw1` results in a 1/6=17% image(s) , 2/6= 33% text1 , 3/6 = 50% text2.
 
 **Q: Do commas, pipes, or any other punctuation matter?**
 

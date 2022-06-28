@@ -1,7 +1,5 @@
 # Billing and Licensing
 
-Please see Discord #rules channel for the most current information regarding subscription, billing, and licensing terms. Also check the [Midjourney web app](https://www.midjourney.com/account/), clicking on your icon in the upper right and choosing "Manage Plan."
-
 * [Subscription, Billing and Licensing Questions](billing.md#subscription-billing-and-licensing-questions)
   * [How to Subscribe](billing.md#how-to-subscribe)
   * [Plans](billing.md#plans)
@@ -21,9 +19,13 @@ Another way is to follow that link and login with your Discord credentials at [h
 
 ## Plans
 
-There are 2 plans: Basic and Standard. Both can add a **Private** Power option for 20$.
 
-### Both Plans Offer:
+
+![Plan grid](.gitbook/assets/grid\_2.png)
+
+There are 2 mainstream plans: Basic and Standard. Both can add a **Private** Power option for 20$. There is also a Corporate option for special cases.
+
+### Both Basic and Standard Plans Offer
 
 * Monthly subscription. Will renew automatically after 30 days by default (which can be toggled off)
 * 5 friend-invites (just type `/invite` in a bot channel or DM with the bot)
@@ -35,13 +37,13 @@ There are 2 plans: Basic and Standard. Both can add a **Private** Power option f
 * Once you've successfully upgraded you'll see a new "member" role on your Discord profile.
 * Access to web app member gallery at [midjourney.com](https://www.midjourney.com/app/).
 
-### Basic Membership ($10/month) Offers:
+### Basic Membership ($10/month) Offers
 
 * Limited use (\~200 images / month)
 * Fast mode only
-* You can switch plans at any time under `/subscribe`. You will only pay the difference if you didn't use all of your credits.
+* You can switch plans at any time under `/subscribe`. You will only pay the difference if you didn't use all of your jobs.
 
-### Standard Membership ($30/month) Offers:
+### Standard Membership ($30/month) Offers
 
 * 15 gpu-hrs/month of 'fast' mode and unlimited gpu-hrs/month of 'relax' mode.
 * Fast mode is enabled for new subscribers but you can switch between /relax or /fast at any time.

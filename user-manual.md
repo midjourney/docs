@@ -2,7 +2,7 @@
 
 
 
-YPlease make sure you are familiar with the content guidelines and are aware of what is public content in the community. You can find more detail in [Content and Moderation](content-and-moderation-policy.md). This document does not cover everything in the #rules, #faq, #announcements, #status channels, so make sure you check those out!
+Please make sure you are familiar with the content guidelines and are aware of what is public content in the community. You can find more detail in [Content and Moderation](content-and-moderation-policy.md). This document does not cover everything in the #rules, #faq, #announcements, #status channels, so make sure you check those out!
 
 That said, enjoy creating beautiful images! In this page:
 
@@ -23,7 +23,7 @@ Commands are functions of the Midjourney bot that can be typed in any bot channe
 
 `/info` Shows information about your profile and plan and usage.
 
-`/invite` Generates an invite link and send it to your DM that you can send someone to join the server. It will give them some credits to try out the bot. You do not need to provide their name or address, you will give them the link it generates.
+`/invite` Generates an invite link and send it to your DM that you can send someone to join the server. It will give them some job time to try out the bot. You do not need to provide their name or address, you will give them the link it generates.
 
 `/ideas` Give some random ideas for prompt
 
@@ -31,7 +31,9 @@ Commands are functions of the Midjourney bot that can be typed in any bot channe
 
 `/subscribe` Get a link to the subscription page
 
-`/fast` and `/relax` Toggles between "fast" and "relax" mode. In fast mode, if you are out of credits, your jobs will be incrementally billed. In relax mode, your jobs do not cost credits, but take longer to generate.
+`/fast` and `/relax` Toggles between "fast" and "relax" mode. In fast mode, if you are out of jobs, your jobs will be incrementally billed. In relax mode, your jobs do not cost, but take longer to generate.
+
+`/show` You can now use the \``` /show <jobid>` `` command to produce the resulting image and upscale+variation buttons, based on a job id. This allows you to take a job into a different channel, upscale a job from an archived thread, or other similar situations (like being moved from a newbies channel).
 
 `/private` and `/public` Toggles between "private" and "public" mode. In private mode, your jobs are only visible to you. **In public mode, your jobs are visible to everyone in the gallery, even if you are creating them in a thread or a DM.** Access to private mode costs extra 20$ per month.
 
@@ -109,7 +111,7 @@ Add one or more image URLs to your prompt and it will use those images as visual
 
 **Note**: This is _not_ the same as building on top of (or "initializing" from) a starting input image as you may see in other generation tools. Midjourney does not currently offer the ability to use a starting image, due to concerns about community public content.  Instead, we let you use an image as inspiration, usually with text, to guide the generation.
 
-`--iw` — Adjusts the weight of the image URLs vs the text (0.5 weights images half and 2 weighs images twice as much)
+`--iw` — Adjusts the weight of the image URLs vs the text. They default to 0.25.  0.5 weights images half and 1 is even more weight. You can also use a negative weight to tell it to try to avoid something like the image altogether (neat trick).
 
 **Note**: There is currently no way to apply different weights to different image prompts. This will be addressed in the future.
 
@@ -123,7 +125,7 @@ Some examples:
 * `/imagine hot dog::1.25 animal::-0.75` — Sends `hot dog` of weight 1.25 and `animal` of negative 0.75
 * `/imagine hot dog:: food::-1 animal` — Sends `hot dog` of weight 1, `food` of weight -1 and `animal` of weight 1
 
-Prompts with a negative total weight are not allowed
+Prompts with a negative total weight are not allowed.
 
 **Note**: The `--no` command is equivalent to using weight -0.5.
 
