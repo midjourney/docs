@@ -11,13 +11,13 @@ Q: Are there any rules?
 * Don't be a jerk.
 * Don't use our tools to make images that could inflame, upset, or cause drama. That includes gore and adult content.
 * Be respectful to the developers and moderators on the server.
-* For more rules, see <#975905321975431188>.
+* For more rules, see <#975905321975431188>
 
 ---
 
 Q: Can I share images?
 
-You can! When you do pls @midjourney on twitter or link to https://twitter.com/midjourney Example post: "I made these images with tools from @midjourney, you can sign up for their private beta [here](http://bit.ly/3J2NNVs)"
+You can! When you do pls @midjourney on twitter or link to https://twitter.com/midjourney Example post: "I made these images with tools from @midjourney, you can sign up for their private beta here http://bit.ly/3J2NNVs"
 
 ---
 
@@ -59,7 +59,7 @@ We're figuring things out, but our goal is to allow as many people access to the
 
 Q: Can I help? Are you hiring?
 
-Yes! Email david@midjourney.com about what you enjoy doing (twitter/linkedin/resume helps us respond faster)
+Yes! Email careers@midjourney.com about what you enjoy doing (twitter/linkedin/resume helps us respond faster)
 
 ---
 
@@ -76,6 +76,7 @@ The easiest way to initiate a DM conversation with the bot is to reply to a gene
 You can also right-click on the bot in any bot channel, and you should see the option to message the bot.
 
 %image=https://cdn.discordapp.com/attachments/961148616884506674/981338414194507776/Discord_fzI0SoDLV8.gif
+
 
 ---
 
@@ -95,7 +96,7 @@ Right-click on the server -> Privacy settings -> Allow direct messages from serv
 
 Q: How do I create a thread?
 
-Click on the icon with the # on top of a bot channel. It will allow you to view and create threads. Note, they are still public and subject to content moderation guidelines.
+Click on the icon with the # on top of a bot channel. It will allow you to view and create threads. Note, they are still public and subject to content moderation guidelines.Discord has a limit on the number of threads per server, so you may need to try again later to get an open spot.
 
 %image=https://support.discord.com/hc/article\_attachments/4403200565911/create\_thread.gif
 
@@ -125,16 +126,21 @@ When you type `/imagine` try clicking on the box that pops up that says "prompt"
 
 %image=https://cdn.discordapp.com/attachments/961148616884506674/969225978356326470/ImaginePrompt.gif
 
-If you don't see the /imagine option, update your Discord app, re-log-in, and check your subscription (see Errors).
+If you don't see the /imagine option, update your Discord app, re-log-in, and check your subscription. 
 
 ---
 
-Q: How do I see how many credits I have?
+Q: How do I see how many gpu hours I have left?
 
 Use `/info` in a bot channel to check your subscription status and usage.
 
 ---
 
+Q: How do I see how many images I have left?
+
+Use `/info` in a bot channel to check your subscription status and usage.
+
+---
 Q: My images say "relaxed", how do I change this?
 
 Use `/fast` in a bot channel. This will enable fast generation, but you will be incrementally charged for each image if you are out of fast credits.
@@ -149,7 +155,7 @@ Use `/relax` in a bot channel. This will cost you nothing but images will take l
 
 Q: I don't want anyone to see my images and prompts.
 
-Use `/private` in a bot channel. This will make your images private and hidden from the website, but costs more. It's a subscription upgrade.
+Use `/private` and work in your DMs. This will make your images private and hidden from the website, but costs more. It's a subscription upgrade.
 
 ---
 
@@ -211,7 +217,7 @@ This feature is only available in /fast mode and when --w and --h are under 512.
 
 Q: What is "Light Upscale Redo"?
 
-This option redoes the upscaling, with a different algorithm which you may prefer.
+This option redoes the upscaling, with a different algorithm that adds less detail, which you may prefer.
 
 ---
 
@@ -243,7 +249,7 @@ React to your image with the envelope emoji :envelope: and it will send it to yo
 
 Q: Are the 4 initial images generated with the same seed?
 
-In a way yes. We use the seed to generate noise (think randomness) for all 4 images at once so the noise is different for each image.
+In a way, yes. We use the seed to generate noise (think randomness) for all 4 images at once so the noise is different for each image.
 
 ---
 
@@ -279,7 +285,7 @@ We don't have a batch download feature yet. The fastest is to go to your web gal
 
 Q: What is the Feed?
 
-The Feed (button on the upper left) is the public record of all upscaled community images. This includes images created in DMs with the bot, and is subject to moderation review. Only if you are in Private (a higher subscription level) will your upscales not show up in the Feed.
+The Feed is the public record of all upscaled community images. This includes images created in DMs with the bot, and is subject to moderation review. Only if you are in Private (a higher subscription level) will your upscales not show up in the Feed.
 
 ---
 
@@ -299,11 +305,11 @@ We don't currently support adding individual weights for images, so the most you
 
 Q: Is there a way to get the "image prompt" to be closer to the initial image, just like "make variations"?
 
-Your best bet is to increase the weight (see above).
+Your best bet is to increase the image weight. Check https://midjourney.gitbook.io/docs/faqs#image-prompt-questions for more details.
 
 ---
 
-Q: What's the max size I can use for a image prompt? I keep getting this error "Job encountered an error, likely due to lack of memory".
+Q: What's the max size I can use for an image prompt? I keep getting this error "Job encountered an error, likely due to lack of memory".
 
 Your problem is more likely due to not using a plain image page as the image prompt. Make sure it's a public url with an ending of .png or .jpg, not an html page with an image on it somewhere.  You can find the actual source image with a right-click and "Copy Image Address" (or "Copy Image Link").
 
@@ -341,19 +347,16 @@ On Mobile:
 4. Push share then click 'copy url'
 5. Type `/imagine` and then paste the address in the prompt area.
 
-%image=https://cdn.discordapp.com/attachments/958069758211797092/976902017182232596/n9Ldjf57Pz.gif
-
 ---
 
 Q: Is there a way to use "init" images for the bot to start from the way some other tools do?
 
-Some image generation tools can take a starting image as the source and modify it. They often call this an "init\_image."  This is not supported by Midjourney at the moment. You can use a url as part of your prompt, along with text if you want, but it is more of a "influence image" than a true init. The details above are about using those image prompts.
-
+Some image generation tools can take a starting image as the source and modify it. They often call this an "init\_image."  This is not supported by Midjourney at the moment. You can use a url as part of your prompt, along with text if you want, but it is more of an "influence image" than a true init.. [Here is a short guide on using image prompts](https://midjourney.gitbook.io/docs/faqs#image-prompt-questions)
 ---
 
 Q: Any tips for successful text prompts? How do I write better prompts?
 
-Here is a short guide on effective text prompts: [A short guide on effective text prompts](https://docs.google.com/document/d/1XUT2G9LmkZataHFzmuOtRXnuWBfhvXDAo8DkS--8tec). Also read this page: [Tips on Text Prompts](https://midjourney.gitbook.io/docs/resource-links/guide-to-prompting).
+Here is a short guide on effective text prompts: [Tips on Text Prompts](https://midjourney.gitbook.io/docs/resource-links/guide-to-prompting).
 
 ---
 
@@ -367,23 +370,21 @@ Q: How do you weigh text prompts?
 
 Check out the explainer over on the changelog in #status: [Explainer](https://discord.com/channels/662267976984297473/942231458918064148/960181257394868224).  Basically, it says:
 
-You can suffix any part of the prompt with `::0.5` to give that part a weight of 0.5. If the weight is not specified, it defaults to 1.&#x20;
+You can suffix any part of the prompt with `::0.5` to give that part a weight of 0.5. If the weight is not specified, it defaults to 1;
 
 Some examples: `/imagine hot dog::2 food::-1` - This sends a text prompt of `hot dog` with the weight 2 and `food` of weight -1.
 
-`/imagine hot dog::0.5 animal::-0.25` - Sends `hot dog` of weight 0.5 and `animal` of negative 0.25.
+`/imagine hot dog::0.5 animal::-0.25` - This sends `hot dog` of weight 0.5 and `animal` of negative 0.25.
 
 `/imagine hot dog:: food::-1 animal::` - Sends `hot dog` of weight 1, `food` of weight -1 and `animal` of weight 1 (unspecified weights default to 1).
 
 Watch out for prompts such as `/imagine hot dog animal::0.5`, as this will send the prompt of `hot dog animal` with weight 0.5, because of how it parses the text before the colons.
 
-Additionally, the sum of weights has to be higher than 0.
-
 ---
 
 Q: Do commas, pipes, or any other punctuation matter?
 
-Yes, the model considers them like a break in the prompt, but it's not always clear what impact this will have. Use `::` between prompts for a hard separator as describe in the answer above.
+Yes, the model considers them like a break in the prompt, but it's not always clear what impact this will have. Use `::` between prompts for a hard separator.
 
 ---
 
@@ -415,10 +416,61 @@ The job will (probably) still go through, but it will not show the intermediate 
 
 Q: Why did I get a message that said "Server has reached limit of active threads"?
 
-We reached the max number of thread we can create in the server. it will be possible to add new threads when older threads will archive. In the meantime, feel free to work in DM.
+We reached the max number of threads we can create on the server. it will be possible to add new threads when older threads will archive. In the meantime, feel free to work in Direct Messages with the bot.
 
 ---
 
 Q: Why can't I see the /imagine option as a slash command?
 
 Especially on mobile, you may need to update the app (via the app store etc) and restart it. Then try the / prompt in a bot channel and see if the /imagine option is listed. Otherwise, is your account subscription active? Try /info to see your status.
+
+---
+
+Q: Is there a roadmap?
+
+There is currently no published roadmap
+
+---
+
+Q: How do I change my aspect ratio?
+
+Use the --ar 3:4 parameter (or your desired aspect ratio).  It should look like this:
+/Imagen prompt: cyberpunk cats --ar 2:3
+
+---
+
+Q: Is there a roadmap?
+
+Is there a way to add more parameters to a generated image AFTER you've been generated different versions
+
+It is not currently possible to modify a prompt after it has been used
+
+---
+
+Q. Do fast hours roll over?
+
+Fast hours do not roll over month to month
+
+---
+Q. Is there a list of banned words
+
+The banned word list is not publicly available.
+
+
+---
+
+Q. Can I pay with Paypal?
+
+Only payment methods that work with Stripe are currently supported
+
+---
+
+Q. Does my free trial ever renew?
+
+No, trial time does not renew.
+
+---
+
+Q. Do subscriptions renew on the first of the month?
+
+Subscriptions renew every 30 days.
