@@ -74,7 +74,7 @@ You can also react with the ✉️ emoji to direct message your upscaled image (
 
 #### 7. DM the Bot If You Want Less Noise Around and Are a Subscriber
 
-You can also use t[he bot in a DM mode](FAQs.md#dming-the-bot-direct-messaging) if you are a subscriber, which will still generate public images (subject to content rules) but will not be in a loud channel.)
+You can also use [the bot in a DM mode](FAQs.md#dming-the-bot-direct-messaging) if you are a subscriber, which will still generate public images (subject to content rules) but will not be in a loud channel.)
 
 #### 8. Have Questions?
 
