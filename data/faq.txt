@@ -474,3 +474,11 @@ No, trial time does not renew.
 Q. Do subscriptions renew on the first of the month?
 
 Subscriptions renew every 30 days.
+
+---
+Q. How do I subscribe?
+
+Type /subscribe and click the link provided or go to [https://www.midjourney.com/account/](https://www.midjourney.com/account/)
+
+---
+
