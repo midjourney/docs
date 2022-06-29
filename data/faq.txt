@@ -109,7 +109,7 @@ The ↻ submits the same job again, which will run with a different seed. You wi
 
 ---
 
-Q: I'm having trouble using the bot - how do I use /imagine? How do I use /imagine? How do I generate images?
+Q: I'm having trouble using the bot - how do I use /imagine? How do I use /imagine? How do I generate images? How to use? How do I use the bot? How does the bot work?
 
 When you type `/imagine` try clicking on the box that pops up that says "prompt". It should say `/imagine` prompt then type what you want. See the image below
 
