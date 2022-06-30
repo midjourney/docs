@@ -64,7 +64,7 @@ Check the <#975905321975431188> for some basic terms and contact @DavidH if you 
 
 ---
 
-Q: How do I DM the bot? Where can I DM bot? Where is my private channel? How can I make a solo room?
+Q: How do I DM the bot? Where can I DM bot? Where is my private channel? How can I make a solo room? How do I open a private chat with the bot?
 
 Subscribers can use commands in DMs with bot. The easiest way to initiate a DM conversation with the bot is to reply to a generation you made in a bot channel with the envelope emoji, :envelope:, and it will open a DM conversation with you in Discord. You will have to find it in your Discord Home, where Direct Messages and listed. Click on the MidJourney Bot. Now you can use the `/imagine` command and other commands listed below. Please note the images will still appear on the public gallery unless you use /private.
 
@@ -234,12 +234,6 @@ Yes, unless you specify --seed with a number.
 Q: What exactly does --seed stabilize? What does –seed do?
 
 Seed means that the random noise we add during the initialization of the generation will be the same each time but GPUs are non-deterministic, so the images won't look exactly the same.
-
----
-
-Q: Where is the gallery? Where can I see my images?
-
-Go to [https://www.midjourney.com/app/](https://www.midjourney.com/app/). You can also read more about the web app here [Midjourney Web App](https://midjourney.gitbook.io/docs/web-app). 
 
 ---
 
@@ -538,10 +532,10 @@ When you run out of fast credits, you will be prompted to either set a spending 
 
 ---
 
-Q: How can I find my images? It’s moving too fast, how can I see only my images? How to search for my images?
+Q: How can I find my images? It’s moving too fast, how can I see only my images? How to search for my images? Where is the gallery? Where can I see my images?
 
 You can use @ button on mobile. Or the inbox button (top right corner) on pc.
-https://media.discordapp.net/attachments/984460137475497985/992116136219000943/unknown.png
+%image=https://media.discordapp.net/attachments/984460137475497985/992116136219000943/unknown.png
 Another way is to open your gallery https://www.midjourney.com/app/
 
 ---
