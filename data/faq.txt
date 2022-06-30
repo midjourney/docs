@@ -122,7 +122,7 @@ Q: How do I see how many gpu hours I have left? How do I see how much I have use
 
 Use `/info` in a bot channel to check your subscription status and usage.
 
-—
+---
 
 Q: My images say "relaxed", how do I change this? Why are my images relaxed? All my submissions are "relaxed", when can I have fast uploads again?
 
@@ -413,7 +413,7 @@ Q. Do fast hours roll over?
 
 Fast hours do not roll over month to month
 
-—
+---
 
 Q. Is there a list of banned words? Where can I see the banned words?
 
@@ -421,7 +421,7 @@ The banned word list is not publicly available.
 
 ---
 
-Q. Can I pay with Paypal? Can I use PayPal? Do you have other payment methods?
+Q. Can I pay with PayPal? Can I use PayPal? Do you have other payment methods? Paypal PayPal?
 
 Only payment methods that work with Stripe are currently supported
 
@@ -437,7 +437,7 @@ Q. Do subscriptions renew on the first of the month? When does my subscription r
 
 Subscriptions renew every 30 days. You can check when this is by using `/info`
 
-—
+---
 
 Q. How do I subscribe? How to subscribe? How do I become a member? /subscribe? How does one become a member? How can I be a full member?  How can I subscribe to it? how to get paid version?
 
@@ -499,7 +499,7 @@ And so on
 
 ---
 
-Q: Is it — or - - ?
+Q: Is it --- or - - ?
 
 It is a double hyphen with no space(--) or an em-dash.
 
@@ -548,7 +548,7 @@ Another way is to open your gallery https://www.midjourney.com/app/
 
 Q: Can i sell my images? What’s the license for my images? Commercial use for images?
 
-If you are paying member, you can use your images pretty much how you want, with some exceptions, (check <#975905321975431188> paragraph 4). Even if you are no longer subscribed.
+If you are paying member, you can use your images pretty much how you want, with some exceptions, (check <#964598182225002516> paragraph 4). Even if you are no longer subscribed.
 If you are a trial user, you can use your images only in non-commercial ways.
 
 ---
