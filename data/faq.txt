@@ -439,7 +439,7 @@ Subscriptions renew every 30 days. You can check when this is by using `/info`
 
 —
 
-Q. How do I subscribe? How to subscribe? How do I become a member? /subscribe? How does one become a member? How can I be a full member?  How can I subscribe to it?
+Q. How do I subscribe? How to subscribe? How do I become a member? /subscribe? How does one become a member? How can I be a full member?  How can I subscribe to it? how to get paid version?
 
 Type `/subscribe` and click the link provided or go to [https://www.midjourney.com/account/](https://www.midjourney.com/account/)
 
@@ -485,8 +485,8 @@ In-progress images are sometimes disabled for jobs in relax mode that are taking
 
 Q: How much for a subscription? Where i can see plans? What’s the difference between Basic and Standard? How much does an unlimited plan cost?
 
-https://media.discordapp.net/attachments/958069758211797092/990262133654696026/unknown.png
-https://www.midjourney.com/account/
+%image=https://media.discordapp.net/attachments/958069758211797092/990262133654696026/unknown.png
+[Subscription page on a website](https://www.midjourney.com/account/)
 
 
 ---
@@ -548,7 +548,7 @@ Another way is to open your gallery https://www.midjourney.com/app/
 
 Q: Can i sell my images? What’s the license for my images? Commercial use for images?
 
-If you are paying member, you can use your images pretty much how you want, with some exceptions, (check #rules paragraph 4). Even if you are no longer subscribed.
+If you are paying member, you can use your images pretty much how you want, with some exceptions, (check <#975905321975431188> paragraph 4). Even if you are no longer subscribed.
 If you are a trial user, you can use your images only in non-commercial ways.
 
 ---
