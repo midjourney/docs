@@ -499,7 +499,7 @@ And so on
 
 ---
 
-Q: Is it --- or - - ?
+Q: Is it - or - - ?
 
 It is a double hyphen with no space(--) or an em-dash.
 
