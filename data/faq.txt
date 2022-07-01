@@ -677,3 +677,56 @@ This will make your images private and hidden from the website.
 
 ---
 
+Q: What is relax mode?
+
+We have two modes for image generation, “fast” and “relax”. Fast tries to give you a GPU instantly. It's our highest priority processing tier, and it's kinda expensive. “Relax” puts you in a queue behind others based on how much you’ve used the system.
+
+Right now, we give 15 gpu-hours/mo of ‘fast’ with the ‘Standard’ plan, 200 gpu-minutes/mo with the ‘Basic’ plan and 120 gpu-hours/yr with the ‘Corporate’ plan.
+
+One hour is roughly 60 image generation or upscale commands and roughly 200 image variation commands.
+
+---
+
+Q: How do I go into Relax mode?
+
+At any time you can type /relax to enter relax mode, or /fast to toggle out of it. Remember, in relax mode your image generations don't count towards your monthly quota of ‘fast’ images.
+
+Please note: The ‘Basic’ plan does not include relax mode. Relax mode also doesn't support max-upscample commands.
+
+---
+
+Q: What if I run out of fast-gpu hours? What if I run out of fast time?
+
+You can set a spending limit and buy it at $4/gpu-hour. 
+
+This cost will be billed incrementally and charged either at the end of the month or every time you hit a billing threshold (the monthly price of your base plan). 
+
+Hourly prices are experimental and subject to change.
+
+---
+
+Q: Why do I have to pay for private mode? What if I don’t want my images to appear in the gallery?
+
+We are building a open-by-default community focused on collective exploration and fun. If you have a need to opt-out of this and be private-by-default you can upgrade to a $50/mo private plan at any time by typing /private or purchase a ‘Corporate’ plan.
+
+---
+
+Q: How does commercial use work? Can I use images commercially?
+
+You’re pretty free to use the images in just about any way you want as long as it doesn’t hit one of our current two special-case restrictions.
+
+1) If you’re using the images as an employee of a company that makes more than 1M/yr USD in revenue, you need to purchase a ‘Corporate’ plan.
+
+2) If you’re using images in anything related to blockchain technologies, you need to pay a 20% royalty on any revenue over $20k/mo.
+
+For complete details please see our terms of service.
+
+---
+
+Q: How can I cancel? How can I cancel my plan? Can I change my plan?
+
+Just type /subscribe, click the button and then click 'edit my plan' on the website.
+
+You are free to cancel your subscription at any time but the cancellation will be effective at the end of the current billing cycle. If you change your mind, you can un-cancel your plan before the end of the cycle.
+
+---
