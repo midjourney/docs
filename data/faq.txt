@@ -20,11 +20,17 @@ You can! When you do please @midjourney on twitter or link to https://twitter.co
 
 ---
 
-Q: Can I invite someone to this server? How do I generate an invite? How can I invite someone? How can I use friend pass?
+Q: Can I invite someone to this server? How do I generate an invite? How can I invite someone? How can I use friend pass? Do I have an invite code?
 
 You can purchase a subscription plan and type `/invite` to generate a invite code for them or you can send them the beta application form [here](http://bit.ly/3J2NNVs).  The plans mention "friend passes" which are invite links.  See the [User Manual](https://midjourney.gitbook.io/docs/user-manual#basic-commands-in-bot-channels), and also [this FAQ](https://midjourney.gitbook.io/docs/faqs#invites-or-friend-passes).
 
 %image=https://cdn.discordapp.com/attachments/961148616884506674/973955120721174538/invite2.gif
+
+---
+
+Q: Are the payments lifetime or monthly? Is the subscription price paid per month?
+
+Subscription prices are monthly. Any benefit of the membership (ie: X images a month) are replenished monthly.
 
 ---
 
@@ -249,7 +255,7 @@ The Feed is the public record of all upscaled community images. This includes im
 
 ---
 
-Q: How can I attach an image? Can I use an image as a starting point? Can i use my images?
+Q: How can I attach an image? Can I use an image as a starting point? Can i use my images? Can I send images to the AI?
 
 You can use your images as an inspiration for the AI.
 Type `/imagine` prompt as normal, but then in the prompt section, paste in the web address where the image is stored online. After the link you can still add new text prompts to complement it.  You can see some examples in the Imagine Parameters visual guide [here](https://midjourney.gitbook.io/docs/imagine-parameters#image-prompting-with-url).
@@ -403,44 +409,90 @@ It is not currently possible to modify a prompt after it has been used.
 
 ---
 
-Q. Do fast hours roll over?
+Q: Do fast hours roll over?
 
 Fast hours do not roll over month to month
 
 ---
 
-Q. Is there a list of banned words? Where can I see the banned words?
+Q: Is there a list of banned words? Where can I see the banned words?
 
 The banned word list is not publicly available.
 
 ---
 
-Q. Can I pay with PayPal? Can I use PayPal? Do you have other payment methods? Paypal PayPal?
+Q: Can I pay with PayPal? Can I use PayPal? Do you have other payment methods? Paypal PayPal?
 
 Only payment methods that work with Stripe are currently supported
 
 ---
 
-Q. Does my free trial renew? Is my trial a limited number per day or overall? How long is the trial?
+Q: Does my free trial renew? Is my trial a limited number per day or overall? How long is the trial?
 
-The free trial is around 25 images and does not renew. It is also not currently limited to a certain amount of days just images
+To expand the community sustainably, we're giving everyone a limited trial, and then several options to buy a full membership.
+
+Each new user gets a free-trial of around 25 images. This trial can be used over multiple days and doesn't presently expire.
 
 ---
 
-Q. Do subscriptions renew on the first of the month? When does my subscription renew?
+Q: Can I use imagine in DMs? 
+
+Paid members can message the bot directly in DMs and create images there.
+
+---
+
+Q: Is it paid to make images? Aw I need to pay?
+
+We give new guests a free trial of roughly 25 images. After that they can purchase a paid membership for more.
+
+---
+
+Q: If I want to switch plans will I be charged the full amount? What if I go from basic plan to standard?
+
+If you go from basic to standard, your percentage of remaining gpu-time / images will be deducated from your 30$ upgrade.
+
+---
+
+Q: How does upgrading from private work? How much does it cost to upgrapde to private?
+
+Private costs 20$ extra per month. If you upgrade to /private the cost may be reduced for the first month depending on how far you are through your billing cycle (if you are 50% of the way through it will cost 50% as much)
+
+---
+
+Q: What does :: do? What does double colons do?
+
+Double colons allows you to do multiple prompts with weights.
+
+For more information check out our documentation https://midjourney.gitbook.io/docs/faqs#image-prompt-questions
+
+--- 
+
+Q: How can I see the quota left in my account? How can I see how many images I have left? How can I see how much fast-hours I have?
+
+You can type /info to see more information about your account.
+
+---
+
+Q: What is GPU time? What is a gpu minute?
+
+We try to track usage in terms of compute-time. One GPU-minute is roughly the amount it takes to do 1 /imagine query, 4 variations, one upscale, or 0.7 max-upscales.
+
+---
+
+Q: Do subscriptions renew on the first of the month? When does my subscription renew?
 
 Subscriptions renew every 30 days. You can check when this is by using `/info`
 
 ---
 
-Q. How do I subscribe? How to subscribe? How do I become a member? /subscribe? How does one become a member? How can I be a full member?  How can I subscribe to it? how to get paid version?
+Q: How do I subscribe? How to subscribe? How do I become a member? /subscribe? How does one become a member? How can I be a full member?  How can I subscribe to it? how to get paid version?
 
 Type `/subscribe` and click the link provided or go to [https://www.midjourney.com/account/](https://www.midjourney.com/account/)
 
 ---
 
 
-Q. How do I upload an image? How do I get image link?
+Q: How do I upload an image? How do I get image link?
 
 The image needs to be online, with a public URL, which you can do using Discord. If it's already online somewhere, right click on the image to 'copy image address (or link)' and go to step 5:
 
@@ -464,7 +516,7 @@ On Mobile:
 
 ---
 
-Q. How can I cancel my subscription? How to cancel a subscription?
+Q: How can I cancel my subscription? How to cancel a subscription? 
 
 You can cancel your subscription by heading over to [our website](https://midjourney.com/account), click “Edit plan” where you can cancel your plan. Your access will remain until the end of your billing month.
 
@@ -525,10 +577,33 @@ We don’t currently transfer subscriptions between accounts, but what we can do
 ---
 
 
-Q: if we go over our limit of fast hours does it let us know? or just start billing for the extra hourly time with no warning? 
+Q: if we go over our limit of fast hours does it let us know? or just start billing for the extra hourly time with no warning? If I use up minutes, can I get more without paying?
 
-When you run out of fast credits, you will be prompted to either set a spending limit or move to relax mode. You will not be able to use incremental billing without first setting a spending limit. 
+When you run out of fast credits, you will be prompted to either set a spending limit or move to relax mode. You will not be able to use incremental billing without first setting a spending limit. If you have a standard membership you can continue to make images in relax-mode by typing /relax.
 
+---
+
+Q: Can you accidently get a big bill?
+
+Incremental billing is optional and is only enabled if you explicitly set a spending limit.
+
+---
+
+Q: Do trials reset monthly? Do I get more free images every month? Do I get free images every day? How many images do I get as a free user? Do trials reset monthly?
+
+Right now the free trial is roughly 25 images, one-time.
+
+---
+
+Q: How do I search for someone on the website? 
+
+Type their name in the search bar on top under 'Community Feed'
+
+---
+
+Q: Do I need a subscription for the community feed? Do I need a subscription to see the member gallery?
+
+Yes you need a subscription to see the member gallery or community feeds.
 
 ---
 
