@@ -730,3 +730,9 @@ Just type /subscribe, click the button and then click 'edit my plan' on the webs
 You are free to cancel your subscription at any time but the cancellation will be effective at the end of the current billing cycle. If you change your mind, you can un-cancel your plan before the end of the cycle.
 
 ---
+
+Q: When I eventually unsubscribe, will I still have access to my website gallery? If I cancel will I still be able to see my images on the gallery?
+
+Yes you can continue to access your online gallery of images even if you're not currently a paid member.
+
+---
