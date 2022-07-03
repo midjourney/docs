@@ -22,7 +22,7 @@ You can! When you do please @midjourney on twitter or link to https://twitter.co
 
 Q: Can I invite someone to this server? How do I generate an invite? How can I invite someone? How can I use friend pass? Do I have an invite code?
 
-You can purchase a subscription plan and type `/invite` to generate a invite code for them or you can send them the beta application form [here](http://bit.ly/3J2NNVs).  The plans mention "friend passes" which are invite links.  See the [User Manual](https://midjourney.gitbook.io/docs/user-manual#basic-commands-in-bot-channels), and also [this FAQ](https://midjourney.gitbook.io/docs/faqs#invites-or-friend-passes).
+If you are subscribed you can type `/invite` to generate a invite code for them or you can send them the beta application form [here](http://bit.ly/3J2NNVs).  The plans mention "friend passes" which are invite links.  See the [User Manual](https://midjourney.gitbook.io/docs/user-manual#basic-commands-in-bot-channels), and also [this FAQ](https://midjourney.gitbook.io/docs/faqs#invites-or-friend-passes).
 
 %image=https://cdn.discordapp.com/attachments/961148616884506674/973955120721174538/invite2.gif
 
@@ -557,7 +557,7 @@ You can delete a generation by reacting with :x: emoji to it. You can jump to an
 
 ---
 
-Q: Is there an exhaustive list of arguments somewhere we can look at?
+Q: Is there an exhaustive list of arguments somewhere we can look at? Where can I find a reference of the various parameters for imagine?
 
 Yes there is checkout our documentation [here](https://midjourney.gitbook.io/docs/imagine-parameters)
 
@@ -648,11 +648,7 @@ Yes each action counts as a generation but each type of action takes a different
 ---
 Q: How to transfer an image to another channel? Can i work with my old generations? My old generation is not responding to buttons? Can i upscale my old image from newbies channel? How to use /show?
 
-You can use /show commands to transfer the image to another channel. Or even ‘revive’ job that is not working anymore for some reason. You will need the jobId for that, it can be found in the link of the image in the discord or in a link of it in the gallery.
-Copy link of you **image** (not the message)
-Example:
-https://media.discordapp.net/attachments/981697533858414652/991640208640581652/ ** b052e414-a9f7-4f14-94fe-1a43e0aa656b** _XanderTheDev_pixel_perfect_pixel_art_of_jacksepticeye. png
-You will need the bold part of the link. It's job Id.
+You can use /show commands to transfer the image to another channel. Or even ‘revive’ job that is not working anymore for some reason. You will need the jobId for that, it can be copied by pressing the “copy job ID” button in the gallery (from the … menu).
 Use `/show jobid` in any channel or DM.
 Like `/show b052e414-a9f7-4f14-94fe-1a43e0aa656b`
 
@@ -670,7 +666,7 @@ Yes please check it out [here](https://midjourney.gitbook.io/docs/user-manual)
 
 ---
 
-Q: There is no $50 monthly plan though?
+Q: What's the 50$ plan? How do i hide my images? What's private mode? Private powers badge?
 
 Use `/private` to purchase private.  It's a subscription upgrade that is available to either plan.
 This will make your images private and hidden from the website.
@@ -727,7 +723,7 @@ Q: How can I cancel? How can I cancel my plan? Can I change my plan?
 
 Just type /subscribe, click the button and then click 'edit my plan' on the website.
 
-You are free to cancel your subscription at any time but the cancellation will be effective at the end of the current billing cycle. If you change your mind, you can un-cancel your plan before the end of the cycle.
+You are free to cancel your subscription at any time but the cancellation will be effective at the end of the current billing cycle. So all the benefits and fast time will remain until the end of this cycle. If you change your mind, you can un-cancel your plan before the end of the cycle.
 
 ---
 
@@ -736,3 +732,12 @@ Q: When I eventually unsubscribe, will I still have access to my website gallery
 Yes you can continue to access your online gallery of images even if you're not currently a paid member.
 
 ---
+
+Q: What do the U1, V1, etc. buttons do? U, V buttons?
+
+U is upscale, V is variation (compositionally similar image)
+1  2
+3  4
+
+---
+
