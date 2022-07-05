@@ -1,111 +1,39 @@
+# TOC
 
-Q: What is Midjourney?
-
-Midjourney is a new research lab focused on new mediums and tools for empowering people.
-
----
-
-Q: Are there any rules?
-
-* Don't be a jerk.
-* Don't use our tools to make images that could inflame, upset, or cause drama. That includes gore and adult content.
-* Be respectful to the developers and moderators on the server.
-* For more rules, see <#975905321975431188>
-
----
-
-Q: Can I share images? Are we allowed to post the pictures created on instagram? Are we allowed to post the pictures created on twitter?
-
-You can! When you do please @midjourney on twitter or link to https://twitter.com/midjourney Example post: "I made these images with tools from @midjourney, you can sign up for their private beta [here](http://bit.ly/3J2NNVs)"
-
----
-
-Q: Can I invite someone to this server? How do I generate an invite? How can I invite someone? How can I use friend pass? Do I have an invite code?
-
-If you are subscribed you can type `/invite` to generate a invite code for them or you can send them the beta application form [here](http://bit.ly/3J2NNVs).  The plans mention "friend passes" which are invite links.  See the [User Manual](https://midjourney.gitbook.io/docs/user-manual#basic-commands-in-bot-channels), and also [this FAQ](https://midjourney.gitbook.io/docs/faqs#invites-or-friend-passes).
-
-%image=https://cdn.discordapp.com/attachments/961148616884506674/973955120721174538/invite2.gif
-
----
-
-Q: Are the payments lifetime or monthly? Is the subscription price paid per month?
-
-Subscription prices are monthly. Any benefit of the membership (ie: X images a month) are replenished monthly.
-
----
-
-Q: Are you taking investment? Are you taking investors?
-
-We are not taking equity investment at this time. Business partnerships and donations are welcome.
-
----
-
-Q: I'm a reporter / blogger / journalist where can I reach out to at Midjourney?
-
-Please reach out to press@midjourney.com
-
----
-
-Q: Where does your funding come from? How are you funded?
-
-Funding comes from business partnerships, donations, and our own savings.
-
----
-
-Q: What's the business model for what we're using here?
-
-We're figuring things out, but our goal is to allow as many people access to these technologies as possible.
-
----
-
-Q: Are you hiring? Can I apply for a job?
-
-Yes! Email careers@midjourney.com about what you enjoy doing (twitter/linkedin/resume helps us respond faster)
-
----
-
-Q: Can we use images for commercial projects? What are the commercial terms?
-
-Check the <#975905321975431188> for some basic terms and contact @DavidH if you have anything big you need something custom for
-
----
-
-Q: How do I DM the bot? Where can I DM bot? Where is my private channel? How can I make a solo room? How do I open a private chat with the bot?
-
-Subscribers can use commands in DMs with bot. The easiest way to initiate a DM conversation with the bot is to reply to a generation you made in a bot channel with the envelope emoji, :envelope:, and it will open a DM conversation with you in Discord. You will have to find it in your Discord Home, where Direct Messages and listed. Click on the MidJourney Bot. Now you can use the `/imagine` command and other commands listed below. Please note the images will still appear on the public gallery unless you use /private.
-
-You can also right-click on the bot in any bot channel, and you should see the option to message the bot.
-
-%image=https://cdn.discordapp.com/attachments/961148616884506674/981338414194507776/Discord_fzI0SoDLV8.gif
+# Basics
+# GPU
+# Fast / Relax
+# Invites
+# Trial
+# Subscription
+# Private
+# Upscale / Size
+# Parameters
+# Commands
+# Website
+# DMs
+# About
+# Usage rights
+# Errors
+# Where are my Images?
 
 
----
 
-Q: I thought my DM images were private. Why are they being moderated?
 
-Images created in DMs and with `/private` are still viewable by moderators and the midjourney team.
 
----
+# -------------------- -------------------- --------------------
+# -------------------- ----BASICS----- --------------------
+# -------------------- -------------------- --------------------
 
-Q: Why don't I see any messages from the bot? I used used ✉️ on one of my images, why don't I see any messages from the bot? Why can't I message the bot? 
 
-Right-click on the server -> Privacy settings -> Allow direct messages from server members.
+# -------------------- --INTERFACE- --------------------
 
-%image=https://cdn.discordapp.com/attachments/961148616884506674/981338414479712356/Discord_vCUySZbwMa.gif
+Q: What do the U1, V1, etc. buttons do? U, V buttons?
 
----
+U is upscale, V is variation (compositionally similar image)
+1  2
+3  4
 
-Q: How do I create a thread? How do I make a thread?
-
-Click on the icon with the # on top of a bot channel. It will allow you to view and create threads. Note, they are still public and subject to content moderation guidelines.Discord has a limit on the number of threads per server, so you may need to try again later to get an open spot.
-
-%image=https://support.discord.com/hc/article\_attachments/4403200565911/create\_thread.gif
-
----
-
-Q: What's a bot channel? Where can I use imagine? Where can I use /subscribe? Where can I use /info, Where can I make an image?
-
-A bot channel is any channel where you can use a Midjourney bot command like /imagine /subscribe or /info. You can generate images with the /imagine command in any channel marked as "Image Generation" channels. 
 ---
 
 Q: What does the ↻ button do? How can I submit the same job again?
@@ -114,7 +42,10 @@ The ↻ submits the same job again, which will run with a different seed. You wi
 
 ---
 
-Q: I'm having trouble using the bot - how do I use /imagine? How do I use /imagine? How do I generate images? How to use? How do I use the bot? How does the bot work? So just /imagine [prompt] ?
+
+# -------------------- ---IMAGINE----- --------------------
+
+Q: I'm having trouble using the bot - how do I use /imagine? How do I use /imagine? How do I generate images? How to use? How do I use the bot? How does the bot work? So just /imagine [prompt] ? I type the prompts and nothing appears. How I use? I type the prompts and nothing appears?
 
 When you type `/imagine` try clicking on the box that pops up that says "prompt". It should say `/imagine` prompt then type what you want. See the image below
 
@@ -124,9 +55,79 @@ If you don't see the `/imagine` option, update your Discord app, re-log-in, and 
 
 ---
 
-Q: How do I see how many gpu hours I have left? How do I see how much I have used? How do I see how many hours do I have left? Where can I check how many prompts I have left? How many images i can make?
+Q: Why don’t I see the /imagine option as a slash command? I don’t see /imagine in my slash commands? My commands don’t work? Imagine doesn't work for me? I type the prompts and nothing appears. I type /imagine and nothing happens.
+
+Especially on mobile, you may need to update the app (via the app store etc) and restart it. Then try the / prompt in a bot channel and see if the `/imagine` option is listed. Otherwise, is your account subscription active? Try `/info` to see your status.
+
+---
+
+Q: What's a bot channel? Where can I use imagine? Where can I use /subscribe? Where can I use /info, Where can I make an image?
+
+A bot channel is any channel where you can use a Midjourney bot command like /imagine /subscribe or /info. You can generate images with the /imagine command in any channel marked as "Image Generation" channels. 
+
+---
+
+Q: Does the reroll/variation/upscale each count as a generation in terms for the limits? 4 small images count as 1 job?
+
+Yes each action counts as a generation but each type of action takes a different amount of time so can cost more or less. With the default size, variations take around 20 seconds, upscales take around 70 seconds and rerolls/imagines take 60 seconds.
+
+---
+
+Q: How do I trial the program? How do I get started? how can i start using the midjourny as a free user?
+
+Read this [Quick Start Guide](https://midjourney.gitbook.io/docs/) to get started.
+
+
+
+
+
+# -------------------- -------------------- --------------------
+# -------------------- -------GPU------- --------------------
+# -------------------- -------------------- --------------------
+
+Q: What is GPU time? What is a gpu minute?
+
+We try to track usage in terms of compute-time. One GPU-minute is roughly the amount it takes to do 1 /imagine query, 4 variations, one upscale, or 0.7 max-upscales.
+
+---
+
+Q: How do I see how many gpu hours I have left? How do I see how much I have used? How do I see how many hours I have left? Where can I check how many prompts I have left? How many images can I make?
 
 Use `/info` in a bot channel to check your subscription status and usage.
+---
+
+
+
+
+
+# -------------------- -------------------- --------------------
+# -------------------- FAST / RELAX --------------------
+# -------------------- -------------------- --------------------
+
+
+# -------------------- -----RELAX----- --------------------
+
+Q: What is relax mode? Why was it faster before? In the plan it never said that I have limited fast hours.
+
+We have two modes for image generation, “fast” and “relax”. Fast tries to give you a GPU instantly. It's our highest priority processing tier, and it's kinda expensive. “Relax” puts you in a queue behind others based on how much you’ve used the system.
+
+Right now, we give 15 gpu-hours/mo of ‘fast’ with the ‘Standard’ plan, 200 gpu-minutes/mo with the ‘Basic’ plan and 120 gpu-hours/yr with the ‘Corporate’ plan.
+
+One hour is roughly 60 image generation or upscale commands and roughly 200 image variation commands.
+
+---
+
+Q: How do I go into Relax mode? How do I turn on Relax mode? How do I start Relax?
+
+At any time you can type /relax to enter relax mode, or /fast to toggle out of it. Remember, in relax mode your image generations don't count towards your monthly quota of ‘fast’ images.
+
+Please note: The ‘Basic’ plan does not include relax mode. Relax mode also doesn't support max-upscample commands.
+
+---
+
+Q: Does relax mode get faster at the beginning of a billing cycle?
+
+Yes it does, relax mode is based on a dynamic queueing system that resets every time your subscription renews. 
 
 ---
 
@@ -136,31 +137,61 @@ Use `/fast` in a bot channel. This will enable fast generation, but you will be 
 
 ---
 
+Q: Relaxed mode seems slow tonight. Upscaling in relaxed mode seems to be on "Waiting to Start..." for a while. 
+
+Relaxed times vary based on a number of factors. Relaxed times are generally under 5 minutes but sometimes can be under a minute or closer to 15 minutes.
+
+---
+
+
+# -------------------- ------FAST------ --------------------
+
+Q: What is fast mode? What does fast-hours mean?
+
+We have two modes for image generation, “fast” and “relax”. Fast tries to give you a GPU instantly. It's our highest priority processing tier. “Relax” puts you in a queue behind others based on how much you’ve used the system.
+
+Right now, we give 15 gpu-hours/mo of ‘fast’ with the ‘Standard’ plan and 200 gpu-minutes/mo with the ‘Basic’ plan.
+
+One hour is roughly 60 image generation or upscale commands and roughly 200 image variation commands.
+
+These numbers are experimental and may change at any time.
+
+---
+
+Q: What if I run out of fast-gpu hours? What if I run out of fast time? 
+
+You can set a spending limit and buy it at $4/gpu-hour. 
+
+This cost will be billed incrementally and charged either at the end of the month or every time you hit a billing threshold (the monthly price of your base plan). 
+
+Hourly prices are experimental and subject to change.
+
+---
+
+Q: Do fast hours roll over? Do I keep my unused fast hours? 
+
+Fast hours do not roll over month to month
+
+---
+
 Q: My images say "metered, fast"?
 
 Use `/relax` in a bot channel. This will cost you nothing but images will take longer to generate.
 
 ---
 
-Q: I don't want anyone to see my images and prompts. How do I go private? There is no $50 monthly plan though?
+Q: How do I enable the additional fast time? 
 
-Use `/private` to either activate or purchase private and work in your DMs . This will make your images private and hidden from the website, but costs more. It's a subscription upgrade that is available to either plan.
+Use the /fast command after running out of your monthly fast hours to approve metered billing and set a spending limit for additional fast hours at $4/gpu-hour. 
 
----
 
-Q: How many jobs can be generating at once?
 
-You can have 3 jobs going at once (of any kind, 2x2, upscale etc). If you submit a 4th job or more, you will get a message and your job will be started as soon as another one finishes
 
----
+# -------------------- -------------------- --------------------
+# -------------------- ----INVITES----- --------------------
+# -------------------- -------------------- --------------------
 
-Q: How many concurrent jobs can I run? How many can I queue?
-
-You can generate 3 images at once. If you start more jobs you'll get a message saying "your job will start shortly". You can start 10 jobs before your queue is full. If you are in relax mode this decreases to 2 concurrent images at once.
-
----
-
-Q: What is a "friend pass"? How many invites do I have? How do I see my invites? How can I get more invitations?
+Q: What is a "friend pass"? How many invites do I have? How do I see my invites? How can I get more invitations? When do I get more invites?
 
 With your subscription plan, you get a limited number of invitations you can send friends to invite them to try Midjourney.  The `/info` command will show you how many you have to give. We give out more each month. Use the `/invite` command as shown below. See the [User Manual](https://midjourney.gitbook.io/docs/user-manual#basic-commands-in-bot-channels), and also [this FAQ](https://midjourney.gitbook.io/docs/faqs#invites-or-friend-passes) for more information.
 
@@ -174,19 +205,213 @@ Invites generated with the /invite command expire after 24 hours.  Invites that 
 
 ---
 
+Q: Can I invite someone to this server? How do I generate an invite? How can I invite someone? How can I use friend pass? Do I have an invite code? How can I use one of the invitations? 
+
+If you are subscribed you can type `/invite` to generate a invite code for them or you can send them the beta application form [here](http://bit.ly/3J2NNVs).  The plans mention "friend passes" which are invite links.  See the [User Manual](https://midjourney.gitbook.io/docs/user-manual#basic-commands-in-bot-channels), and also [this FAQ](https://midjourney.gitbook.io/docs/faqs#invites-or-friend-passes).
+
+%image=https://cdn.discordapp.com/attachments/961148616884506674/973955120721174538/invite2.gif
+
+---
+
+
+
+
+
+
+# -------------------- -------------------- --------------------
+# -------------------- ------TRIAL----- --------------------
+# -------------------- -------------------- --------------------
+
+Q: Even if the trial expires, do we remain in the discord? Even if the trial expires, do we remain part of the discord server?
+
+Yes, you will remain in the discord server.
+
+---
+
+Q: Do trials reset monthly? Do I get more free images every month? Do I get free images every day? How many images do I get as a free user? Do trials reset monthly? Does my free trial renew? Is my trial a limited number per day or overall? How long is the trial? How many images can we do with the Trial Version? How many images can you generate with the basic trial?
+
+To expand the community sustainably, we're giving everyone a limited trial, and then several options to buy a full membership.
+
+Each new user gets a free-trial of around 25 images. This trial can be used over multiple days and doesn't presently expire.
+
+---
+
+
+
+
+
+# -------------------- -------------------- --------------------
+# -------------------- SUBSCRIPTION --------------------
+# -------------------- -------------------- --------------------
+
+Q: Do subscriptions renew on the first of the month? When does my subscription renew?
+
+Subscriptions renew every 30 days. You can check when this is by using `/info`
+
+---
+
+Q: How do I subscribe? How to subscribe? How do I become a member? /subscribe? How does one become a member? How can I be a full member?  How can I subscribe to it? how to get paid version? How do you get a subscription?
+
+Type `/subscribe` and click the link provided or go to [https://www.midjourney.com/account/](https://www.midjourney.com/account/)
+
+---
+
+Q: How much for a subscription? Where can I see plans? What’s the difference between Basic and Standard? How much does an unlimited plan cost? 
+
+%image=https://media.discordapp.net/attachments/958069758211797092/990262133654696026/unknown.png
+[Subscription page on a website](https://www.midjourney.com/account/)
+
+---
+
+Q: Can I pay with PayPal? Can I use PayPal? Do you have other payment methods? Paypal PayPal? Do I have to use a credit card? Are there other ways to pay? Is there another way to pay for a subscription other than with a credit card? 
+
+Only payment methods that work with Stripe are currently supported
+
+---
+
+Q: Are the payments lifetime or monthly? Is the subscription price paid per month?
+
+Subscription prices are monthly. Any benefit of the membership (ie: X images a month) are replenished monthly.
+
+---
+
+Q: Will a yearly subscription become available? 
+
+There are no current plans for yearly basic or standard subscriptions
+
+---
+
+
+
+# -------------------- METERED --------------------
+Q: if we go over our limit of fast hours does it let us know? or just start billing for the extra hourly time with no warning? If I use up minutes, can I get more without paying? Can you accidently get a big bill?
+
+When you run out of fast credits, you will be prompted to either set a spending limit or move to relax mode. Incremental billing is optional and is only enabled if you explicitly set a spending limit. You will not be able to use incremental billing without first setting a spending limit. If you have a standard membership you can continue to make images in relax-mode by typing /relax.
+
+---
+
+Q: Where do we set a billing limit? Where do we set a spending limit?
+
+You can only set a billing limit after you run out of fast time. Once you do you will be prompted to set a spending limit. If that prompt doesn’t come up you can use `/fast` to receive it. You will not be able to use incremental billing without first setting a spending limit. 
+
+---
+
+
+# -------------------- CANCELATION --------------------
+
+Q: How can I cancel? How can I cancel my plan? How do I unsubscribe? How can I cancel my subscription? How to cancel a subscription? 
+
+You can cancel your subscription by heading over to [our 
+website](https://midjourney.com/account), or by typing “/subscribe” and following the link
+
+On the website click 'Edit My Plan' where you can cancel your plan. 
+
+You are free to cancel your subscription at any time but the cancellation will be effective at the end of the current billing cycle. So all the benefits and fast time will remain until the end of this cycle. If you change your mind, you can un-cancel your plan before the end of the cycle.
+
+---
+
+Q: When I unsubscribe will I still have access to my website gallery? If I cancel will I still be able to see my images on the gallery? If I cancel my subscription can I still see my images?
+
+Yes you can continue to access your online gallery of images even if you're not currently a paid member.
+
+---
+
+
+# -------------------- PRIVATE --------------------
+
+Q: How does upgrading to private work? How much does it cost to upgrade to private?
+
+Private costs 20$ extra per month. If you upgrade to /private the cost may be reduced for the first month depending on how far you are through your billing cycle (if you are 50% of the way through it will cost 50% as much)
+
+---
+
+
+# -------------------- SWITCH PLANS --------------------
+
+Q: If I want to switch plans will I be charged the full amount? What if I go from basic plan to standard? Can I change my plan? Can I get the $10 sub and if I run out upgrade and just pay the difference? Can I get the $10 sub and if I run out upgrade and just pay the difference?
+
+If you go from basic to standard, your percentage of remaining gpu-time / images will be deducted from your 30$ upgrade.
+
+---
+
+
+# -------------------- TRANSFER --------------------
+
+Q: Can I transfer my subscription to another account? I used the wrong account? I subscribed with the wrong account?
+
+We don’t currently transfer subscriptions between accounts, but what we can do is once you subscribe on the correct account we can cancel your other subscription and add a credit for 1 month on your new account.
+
+---
+
+Q: Can I switch plans? If I switch to Standard it will be 20$ or 30$ ?
+
+If you used all your time in Basic -> Standard still will cost you 30$.
+If you used half of the Basic time -> it will be 25$
+And so on 
+
+---
+
+Q: Is it paid to make images? Aw I need to pay? Do I need to pay?
+
+We give new guests a free trial of roughly 25 images. After that they can purchase a paid membership for more.
+
+---
+
+
+# -------------------- QUEUE --------------------
+
+Q: How many jobs can be generating at once? How many jobs can I line up? How long is the queue? How many concurrent jobs can I run? How many can I queue?
+
+You can have 3 jobs going at once (of any kind, 2x2, upscale etc). If you submit a 4th job or more, you will get a message and your job will be started as soon as another one finishes
+
+You can start 10 jobs before your queue is full. If you are in relax mode this decreases to 2 concurrent images at once.
+
+---
+
+
+
+
+
+# -------------------- -------------------- --------------------
+# -------------------- ----PRIVATE---- --------------------
+# -------------------- -------------------- --------------------
+
+Q: Why do I have to pay for private mode? What if I don’t want my images to appear in the gallery?
+
+We are building a open-by-default community focused on collective exploration and fun. If you have a need to opt-out of this and be private-by-default you can upgrade your plan for an additional $20/mo at any time by typing /private or by purchasing a ‘Corporate’ plan if you are part of a larger company.
+
+---
+
+Q: What's the 50$ plan? How do I hide my images? What's private mode? Private powers badge? I don't want people to see my images. How can I work privately? I don't want anyone to see my images and prompts. How do I go private? There is no $50 monthly plan though?
+
+Use `/private` to either activate or purchase private powers and work in your DMs . This will make your images private and hidden from the website, but costs more. It's a subscription upgrade that is available to either plan.
+
+Even with /private mode enabled images you generate in public channels will be visible to other users of that channel.
+
+---
+
+
+
+
+
+# -------------------- -------------------- --------------------
+# -------------------- UPSCALE & SIZE --------------------
+# -------------------- -------------------- --------------------
+
+Q: How do I change my aspect ratio? How can I specify image width? How can I specify image height? How can I change the dimensions? How to make not square images? What is the prompt for width and height?
+
+To change the aspect ratio of your image use the --ar 3:4 parameter (or your desired aspect ratio).  It should look like this:
+/imagine prompt: cyberpunk cats --ar 2:3 See the [User Manual](https://midjourney.gitbook.io/docs/imagine-parameters#sizes), for more information.
+
+---
+
 Q How can I prevent preview and upscale to add too much details? The upscale adds too much detail? How do I remove the noise from an upscaled image?
 
 You can use `--stop 80` and replace `80` with the % you want to stop at. Use `--uplight` for the upscale to add less details, or redo it with the button "Light Upscale Redo" afterwards. Or you can react to your image with :envelope: and it will send you the separate images in DM. Then change the resolution using a program on your computer.
 
 ---
 
-Q: Can I use –video on an upscale?
-
-We don't support videos for upscaling right now. Only for grids.
-
----
-
-Q: I don't see the Max Upscale option?
+Q: I don't see the Max Upscale option? 
 
 This feature is only available in /fast mode and when --w and --h are under 512. And sometimes it’s already at almost max resolution after the first one.
 
@@ -198,99 +423,42 @@ Light upscale uses a different algorithm that adds less detail, which may be bet
 
 ---
 
-Q: What is the maximum upscale resolution? What is the maximum resolution?
+Q: What is the maximum upscale resolution? What is the maximum resolution?  How can I set the resolution? Can I make a 4K image? Can I make a 300 DPI image? Can I make the resolution higher? Can I print my image? Is it possible to save my creations in high resolution, so I can print it out as posters? Is there a way to set the resolution to 2k and higher?
 
 Upscale is about 1024x1024 and max is about 1664x1664. Assuming square images. The max file size is ~3.3m
 for a 16:9 or 9:16 aspect ratio image, regular upscale is 1024x1792, max upscale is 1152x2048. Maximum you can get around 2.8 megapixels.
 
----
-
-Q: What is fast mode? What does fast-hours mean?
-
-We have two modes for image generation, “fast” and “relax”. Fast tries to give you a GPU instantly. It's our highest priority processing tier, and it's kinda expensive. “Relax” puts you in a queue behind others based on how much you’ve used the system.
-
-Right now, we give 15 gpu-hours/mo of ‘fast’ with the ‘Standard’ plan and 200 gpu-minutes/mo with the ‘Basic’ plan.
-
-One hour is roughly 60 image generation or upscale commands and roughly 200 image variation commands.
-
-These numbers are super experimental and may change at any time.
+More information about image size and resolution is available [on this page](https://midjourney.gitbook.io/docs/understanding-image-size)
 
 ---
 
-Q: How do I get the seed or job id that was used for an image? How do I DM myself the job results?
 
-React to your image with the envelope emoji :envelope: and it will send it to you in DM.
 
-%image=https://user-images.githubusercontent.com/105028755/167305579-1b2c461f-03d7-4aad-b14e-9ce0dd74fd9a.png
 
----
 
-Q: Are the 4 initial images generated using the same seed?
+# -------------------- -------------------- --------------------
+# -------------------- PARAMETERS --------------------
+# -------------------- -------------------- --------------------
 
-In a way, yes. We use the seed to generate noise (think randomness) for all 4 images at once so the noise is different for each image.
+Q: Is there documentation? Where can I find all the commands? Is there documentation? Is there an exhaustive list of arguments somewhere we can look at? Where can I find a reference of the various parameters for imagine? What are all the suffixes I can use? Can anyone help me with the commands syntax please?
 
----
-
-Q: Does submitting the job again use a different seed?
-
-Yes, unless you specify --seed with a number.
+Yes please check it out [here](https://midjourney.gitbook.io/docs/user-manual)
 
 ---
 
-Q: What exactly does --seed stabilize? What does –seed do?
 
-Seed means that the random noise we add during the initialization of the generation will be the same each time but GPUs are non-deterministic, so the images won't look exactly the same.
 
----
+# -------------------- IMAGE PROMPTS  --------------------
 
-Q: Is there a way to save all my images at once?
+Q: What does the --iw 5 argument do? What does the --iw 5 comment do? What does --iw do?
 
-We don't have a batch download feature yet. The fastest is to go to your web gallery feed, open an image, then click on the save icon. You can use the right arrow to move to the next image and repeat the operation.
+The --iw 5 applies an image weight of 5. Read more [here](https://midjourney.gitbook.io/docs/user-manual#image-prompting-with-url) 
 
 ---
 
-Q: What is the Feed?
+Q: How do I upload an image? How do I get image link? How do I use my own image? How do I upload or use an image from my hard-drive for an image prompt?
 
-The Feed is the public record of all upscaled community images. This includes images created in DMs with the bot, and is subject to moderation review. Only if you are in Private (a higher subscription level) will your upscales not show up in the Feed.
-
----
-
-Q: How can I attach an image? Can I use an image as a starting point? Can i use my images? Can I send images to the AI?
-
-You can use your images as an inspiration for the AI.
-Type `/imagine` prompt as normal, but then in the prompt section, paste in the web address where the image is stored online. After the link you can still add new text prompts to complement it.  You can see some examples in the Imagine Parameters visual guide [here](https://midjourney.gitbook.io/docs/imagine-parameters#image-prompting-with-url).
-
-An image url must be a direct link to an online image, which you can usually get by right clicking on an image somewhere and choosing `Copy Link Address`. This address will usually end in a `.png` or `.jpg` if it's a usable address.
-
----
-
-Q: Any tips regarding using two image sources?
-
-We don't currently support adding individual weights for images, so the most you can do is just set the global image weight with --iw.
-
----
-
-Q: Is there a way to get the "image prompt" to be closer to the initial image?
-
-Your best bet is to increase the image weight. Check https://midjourney.gitbook.io/docs/faqs#image-prompt-questions for more details.
-
----
-
-Q: Is it possible to choose how much weight is applied to each image using --iw?
-
-The weight specified is applied on all image prompts given to the bot.
-
----
-
-Q: Can an image prompt have a negative weight?
-
-Yes, with --iw -0.5.
-
----
-
-Q: How do I upload or use an image from my hard-drive for an image prompt? 
-
-It needs to be online, with a public URL, which you can do using Discord. If it's already online somewhere, right click on the image to 'copy image address (or link)' and go to step 5:
+The image needs to be online, with a public URL, which you can do using Discord. If it's already online somewhere, right click on the image to 'copy image address (or link)' and go to step 5:
 
 On desktop:
 
@@ -312,9 +480,66 @@ On Mobile:
 
 ---
 
+Q: How can I attach an image? Can I use an image as a starting point? Can I use my images? Can I send images to the AI? I've seen a few people using source images, how does this work?
+
+You can use your images as an inspiration for the AI.
+Type `/imagine` prompt as normal, but then in the prompt section, paste in the web address where the image is stored online. After the link you can still add new text prompts to complement it.  You can see some examples in the Imagine Parameters visual guide [here](https://midjourney.gitbook.io/docs/imagine-parameters#image-prompting-with-url).
+
+An image url must be a direct link to an online image, which you can usually get by right clicking on an image somewhere and choosing `Copy Link Address`. This address will usually end in a `.png` or `.jpg` if it's a usable address.
+
+---
+
+Q: Any tips regarding using two image sources? Can I use two images?
+
+We don't currently support adding individual weights for images, so the most you can do is just set the global image weight with --iw.
+
+---
+
+Q: Is there a way to get the "image prompt" to be closer to the initial image? My result doesnt look like the image I uploaded.
+
+Your best bet is to increase the image weight. Check https://midjourney.gitbook.io/docs/faqs#image-prompt-questions for more details.
+
+---
+
+Q: Is it possible to choose how much weight is applied to each image using --iw?
+
+The weight specified is applied on all image prompts given to the bot.
+
+---
+
+Q: Can an image prompt have a negative weight?
+
+Yes, with --iw -0.5.
+
+---
+
 Q: Is there a way to use "init" images for the bot to start from? Can I use an init image?
 
 Some image generation tools can take a starting image as the source and modify it. They often call this an "init\_image."  This is not supported by Midjourney at the moment. You can use a url as part of your prompt, along with text if you want, but it is more of an "influence image" than a true init.. [Here is a short guide on using image prompts](https://midjourney.gitbook.io/docs/faqs#image-prompt-questions)
+
+---
+
+
+# -------------------- TEXT PROMPTS --------------------
+
+Q: Is it — or -- ? Is it - or - -?
+
+It is a double hyphen with no space(--) or an em-dash.
+
+---
+
+Q: What does :: do? What does double colons do? What does the + on the website do?
+
+Double colons allows you to do multiple prompts with weights (shown as a + on the website).
+
+For more information check out our documentation https://midjourney.gitbook.io/docs/faqs#image-prompt-questions
+
+--- 
+
+Q: Is there a way to add more parameters to a generated image after I have generated different versions? Can I change the prompt after?
+
+It is not currently possible to modify a prompt after it has been used.
+
 ---
 
 Q: Any tips for successful text prompts? How do I write better prompts?
@@ -323,7 +548,7 @@ Here is a short guide on effective text prompts: [Tips on Text Prompts](https://
 
 ---
 
-Q: Is letter case taken into consideration in producing the results to the prompt? Is the bot case sensitive?
+Q: Is letter case taken into consideration in producing the results to the prompt? Is the bot case sensitive? Does capitalization matter?
 
 No, everything is case-insensitive.
 
@@ -351,15 +576,159 @@ Yes, the model considers them like a break in the prompt, but it's not always cl
 
 ---
 
+Q: Do commas, pipes, or any other punctuation matter? Does punctuation matter?
+
+Yes, the model considers them like a break in the prompt, but it's not always clear what impact this will have. Use `::` between prompts for a hard separator.
+
+---
+
+Q: This :: 2 that :: 3” or this : : that
+
+Make sure that there is no space between colons and the weight. Your prompt should look like “phrase one::2 phrase two::1” 
+
+---
+
 Q: What is the length limit for prompts? How long of a prompt can I write? Is there a character limit to prompts?
 
 Anything over around 60 words will not affect the output, so don't write a novel. (It must stay under 6000 characters.)
 
 ---
 
-Q: Why am I getting a message that says "Job encountered an error, likely due to lack of memory"?
 
-Try using --w and --h as multiple of 64 and under 1024, e.g. `--w 256 --h 320`
+# -------------------- ----SEEDS----- --------------------
+
+Q: How do I get the seed or job id that was used for an image? How do I DM myself the job results?
+
+React to your image with the envelope emoji :envelope: and it will send it to you in DM.
+
+%image=https://user-images.githubusercontent.com/105028755/167305579-1b2c461f-03d7-4aad-b14e-9ce0dd74fd9a.png
+
+---
+
+Q: Are the 4 initial images generated using the same seed?
+
+In a way, yes. We use the seed to generate noise (think randomness) for all 4 images at once so the noise is different for each image.
+
+---
+
+Q: Does submitting the job again use a different seed?
+
+Yes, unless you specify --seed with a number.
+
+---
+
+Q: What exactly does --seed stabilize? What does –seed do?
+
+Seed means that the random noise we add during the initialization of the generation will be the same each time but GPUs are non-deterministic, so the images won't look exactly the same.
+
+---
+
+
+# -------------------- ------SHOW----- --------------------
+
+Q: How to transfer an image to another channel? Can I move my image out of the newbies channel? Can I work with my old generations? My old generation is not responding to buttons? Can i upscale my old image from newbies channel? How to use /show?
+
+You can use /show commands to transfer the image to another channel. Or even ‘revive’ a  job that is not working anymore for some reason. You will need the job Id for that, it can be copied by pressing the “copy job ID” button in the gallery (from the … menu).
+Use `/show jobid` in any channel or DM.
+Like `/show b052e414-a9f7-4f14-94fe-1a43e0aa656b`
+
+---
+
+
+# -------------------- ------VIDEO----- --------------------
+
+Q: Can I use –video on an upscale?
+
+We don't support videos for upscaling right now. Only for grids.
+
+---
+
+Q: How do I get a video of my grid generating?
+
+Add --video to the end of your prompt.  Once your image has rendered react to it with the :envelope: emoji.
+
+---
+
+
+
+
+
+# -------------------- -------------------- --------------------
+# -------------------- COMMANDS --------------------
+# -------------------- -------------------- --------------------
+
+
+# -------------------- ------INFO------- --------------------
+
+Q: How can I see the quota left in my account? How can I see how many images I have left? How can I see how much fast-hours I have? Where can I see how many images I have generated?
+
+
+You can type /info to see more information about your account.
+
+---
+
+
+# -------------------- --CANCEL X--------- --------------------
+
+Q: How can I delete an image? How to delete images from my feed?
+
+You can delete a generation by reacting with :x: emoji to it. 
+
+---
+
+
+
+
+
+
+# -------------------- -------------------- --------------------
+# -------------------- ---WEBSITE--- --------------------
+# -------------------- -------------------- --------------------
+
+Q: How do I search for someone on the website? 
+
+Type their name in the search bar on top under 'Community Feed'
+
+---
+
+Q: Do I need a subscription for the community feed? Do I need a subscription to see the member gallery?
+
+Yes you need a subscription to see the member gallery or community feeds.
+
+---
+
+Q: Is there a way to save all my images at once?
+
+We don't have a batch download feature yet. The fastest is to go to your web gallery feed, open an image, then click on the save icon. You can use the right arrow to move to the next image and repeat the operation.
+
+---
+
+Q: What is the Feed?
+
+The Feed is the public record of all upscaled community images. This includes images created in DMs with the bot, and is subject to moderation review. Only if you are in Private (a higher subscription level) will your upscales not show up in the Feed.
+
+---
+
+
+
+
+
+# -------------------- -------------------- --------------------
+# -------------------- DIRECT MESSAGES -----------
+# -------------------- -------------------- --------------------
+
+Q: Can I use imagine in DMs? Is it possible to DM the bot and not be in a very crowded busy channel?
+
+Paid members can message the bot directly in DMs and create images there.
+
+---
+
+
+Q: Why don't I see any messages from the bot? I used used ✉️ on one of my images, why don't I see any messages from the bot? Why can't I message the bot? 
+
+Right-click on the server -> Privacy settings -> Allow direct messages from server members.
+
+%image=https://cdn.discordapp.com/attachments/961148616884506674/981338414479712356/Discord_vCUySZbwMa.gif
 
 ---
 
@@ -369,6 +738,145 @@ Only subscribers can use commands in DMs with bot.
 Go to Discord privacy settings for this server and toggle this on:
 
 %image=https://cdn.discordapp.com/attachments/958069758211797092/979275401249574952/unknown.png
+
+---
+
+Q: How do I DM the bot? Where can I DM bot? Where is my private channel? How can I make a solo room? How do I open a private chat with the bot?
+
+Subscribers can use commands in DMs with bot. The easiest way to initiate a DM conversation with the bot is to reply to a generation you made in a bot channel with the envelope emoji, :envelope:, and it will open a DM conversation with you in Discord. You will have to find it in your Discord Home, where Direct Messages and listed. Click on the MidJourney Bot. Now you can use the `/imagine` command and other commands listed below. Please note the images will still appear on the public gallery unless you use /private.
+
+You can also right-click on the bot in any bot channel, and you should see the option to message the bot.
+
+%image=https://cdn.discordapp.com/attachments/961148616884506674/981338414194507776/Discord_fzI0SoDLV8.gif
+
+---
+
+Q: I thought my DM images were private. Why are they being moderated?
+
+Images created in DMs and with `/private` are still viewable by moderators and the midjourney team.
+
+---
+
+Q: How do I create a thread? How do I make a thread?
+
+Click on the icon with the # on top of a bot channel. It will allow you to view and create threads. Note, they are still public and subject to content moderation guidelines.Discord has a limit on the number of threads per server, so you may need to try again later to get an open spot.
+
+%image=https://support.discord.com/hc/article\_attachments/4403200565911/create\_thread.gif
+
+---
+
+
+
+
+
+# -------------------- -------------------- --------------------
+# -------------------- ABOUT MIDJOURNEY----------
+# -------------------- -------------------- --------------------
+
+Q: What is Midjourney?
+
+Midjourney is a new research lab focused on new mediums and tools for empowering people.
+
+---
+
+Q: Are there any rules?
+
+* Don't be a jerk.
+* Don't use our tools to make images that could inflame, upset, or cause drama. 
+  That includes gore and adult content.
+* Be respectful to the developers and moderators on the server.
+* For more rules, see <#975905321975431188>
+
+---
+
+Q: Are you taking investment? Are you taking investors?
+
+We are not taking equity investment at this time. Business partnerships and donations are welcome.
+
+---
+
+Q: I'm a reporter / blogger / journalist where can I reach out to at Midjourney?
+
+Please reach out to press@midjourney.com
+
+---
+
+Q: Where does your funding come from? How are you funded?
+
+Funding comes from business partnerships, donations, and our own savings.
+
+---
+
+Q: What's the business model for what we're using here?
+
+We're figuring things out, but our goal is to allow as many people access to these technologies as possible.
+
+---
+
+Q: Are you hiring? Can I apply for a job? Who/where can I contact for jobs at Midjourney? Can I apply for a job?
+
+Yes! Email careers@midjourney.com about what you enjoy doing (twitter/linkedin/resume helps us respond faster)
+
+---
+
+Q: Can we use images for commercial projects? What are the commercial terms?
+
+Check the <#964598182225002516> for some basic terms and contact @DavidH if you have anything big you need something custom for
+
+---
+
+Q: Is there a roadmap? What are your plans for the future?
+
+There is currently no published roadmap
+
+---
+
+Q: Are there any plans to make this into its own software/application? Another question, does this plan to be a stand-alone software? any plans to expose API endpoint so we can plug in into other stuff? Will MJ ever go for stand-alone platform, without Discord? 
+
+Not currently, the plan now is to stay on discord. 
+
+---
+
+# -------------------- -------------------- --------------------
+# -------------------- USAGE RIGHTS --------------------
+# -------------------- -------------------- --------------------
+
+Q: How does commercial use work? Can I use images commercially?
+
+You’re pretty free to use the images in just about any way you want as long as it doesn’t hit one of our current two special-case restrictions.
+
+1) If you’re using the images as an employee of a company that makes more than 1M/yr USD in revenue, you need to purchase a ‘Corporate’ plan.
+
+2) If you’re using images in anything related to blockchain technologies, you need to pay a 20% royalty on any revenue over $20k/mo.
+
+For complete details please see our terms of service.
+
+---
+
+Q: Can I share images? Are we allowed to post the pictures created on instagram? Are we allowed to post the pictures created on twitter?
+
+You can! When you do please @midjourney on twitter or link to https://twitter.com/midjourney Example post: "I made these images with tools from @midjourney, you can sign up for their private beta [here](http://bit.ly/3J2NNVs)"
+
+---
+
+Q: Can i sell my images? What’s the license for my images? Commercial use for images?
+
+If you are paying member, you can use your images pretty much how you want, with some exceptions, (check <#964598182225002516> paragraph 4). Even if you are no longer subscribed.
+If you are a trial user, you can use your images only in non-commercial ways.
+
+---
+
+
+
+
+
+# -------------------- -------------------- --------------------
+# -------------------- ERRORS --------------------
+# -------------------- -------------------- --------------------
+
+Q: Why am I getting a message that says "Job encountered an error, likely due to lack of memory"?
+
+Try using --w and --h as multiple of 64 and under 1024, e.g. `--w 256 --h 320`
 
 ---
 
@@ -384,141 +892,9 @@ We reached the max number of threads we can create on the server. it will be pos
 
 ---
 
-Q: Why don’t I see the /imagine option as a slash command? I don’t see /imagine in my slash commands? My commands don’t work? Imagine doesn't work for me?
-
-Especially on mobile, you may need to update the app (via the app store etc) and restart it. Then try the / prompt in a bot channel and see if the `/imagine` option is listed. Otherwise, is your account subscription active? Try `/info` to see your status.
-
----
-
-Q: Is there a roadmap? What are your plans for the future?
-
-There is currently no published roadmap
-
----
-
-Q: How do I change my aspect ratio? How can I specify image width? How can I specify image height? How can I set the resolution? How can I change the dimensions? How to make not square images?
-
-Use the --ar 3:4 parameter (or your desired aspect ratio).  It should look like this:
-/imagine prompt: cyberpunk cats --ar 2:3 See the [User Manual](https://midjourney.gitbook.io/docs/imagine-parameters#sizes), for more information.
-
----
-
-Q: Is there a way to add more parameters to a generated image after I have generated different versions? Can I change the prompt after?
-
-It is not currently possible to modify a prompt after it has been used.
-
----
-
-Q: Do fast hours roll over?
-
-Fast hours do not roll over month to month
-
----
-
 Q: Is there a list of banned words? Where can I see the banned words?
 
 The banned word list is not publicly available.
-
----
-
-Q: Can I pay with PayPal? Can I use PayPal? Do you have other payment methods? Paypal PayPal?
-
-Only payment methods that work with Stripe are currently supported
-
----
-
-Q: Does my free trial renew? Is my trial a limited number per day or overall? How long is the trial?
-
-To expand the community sustainably, we're giving everyone a limited trial, and then several options to buy a full membership.
-
-Each new user gets a free-trial of around 25 images. This trial can be used over multiple days and doesn't presently expire.
-
----
-
-Q: Can I use imagine in DMs? 
-
-Paid members can message the bot directly in DMs and create images there.
-
----
-
-Q: Is it paid to make images? Aw I need to pay?
-
-We give new guests a free trial of roughly 25 images. After that they can purchase a paid membership for more.
-
----
-
-Q: If I want to switch plans will I be charged the full amount? What if I go from basic plan to standard?
-
-If you go from basic to standard, your percentage of remaining gpu-time / images will be deducated from your 30$ upgrade.
-
----
-
-Q: How does upgrading from private work? How much does it cost to upgrapde to private?
-
-Private costs 20$ extra per month. If you upgrade to /private the cost may be reduced for the first month depending on how far you are through your billing cycle (if you are 50% of the way through it will cost 50% as much)
-
----
-
-Q: What does :: do? What does double colons do?
-
-Double colons allows you to do multiple prompts with weights.
-
-For more information check out our documentation https://midjourney.gitbook.io/docs/faqs#image-prompt-questions
-
---- 
-
-Q: How can I see the quota left in my account? How can I see how many images I have left? How can I see how much fast-hours I have?
-
-You can type /info to see more information about your account.
-
----
-
-Q: What is GPU time? What is a gpu minute?
-
-We try to track usage in terms of compute-time. One GPU-minute is roughly the amount it takes to do 1 /imagine query, 4 variations, one upscale, or 0.7 max-upscales.
-
----
-
-Q: Do subscriptions renew on the first of the month? When does my subscription renew?
-
-Subscriptions renew every 30 days. You can check when this is by using `/info`
-
----
-
-Q: How do I subscribe? How to subscribe? How do I become a member? /subscribe? How does one become a member? How can I be a full member?  How can I subscribe to it? how to get paid version?
-
-Type `/subscribe` and click the link provided or go to [https://www.midjourney.com/account/](https://www.midjourney.com/account/)
-
----
-
-
-Q: How do I upload an image? How do I get image link?
-
-The image needs to be online, with a public URL, which you can do using Discord. If it's already online somewhere, right click on the image to 'copy image address (or link)' and go to step 5:
-
-On desktop:
-
-1. Drag an image into Discord
-2. Press enter to send it in the chat
-3. Click the image in discord so that it's fullscreen
-4. Right click it and press "copy image address"
-5. Type `/imagine` and then paste the address in the prompt area.
-
-On Mobile:
-
-1. Push the plus in the lower left then click 'upload'
-2. Press 'send message' to send it into the chat
-3. Click the image in discord so that it's fullscreen
-4. Push share then click 'copy url'
-5. Type `/imagine` and then paste the address in the prompt area.
-
-%image=https://cdn.discordapp.com/attachments/958069758211797092/976902017182232596/n9Ldjf57Pz.gif
-
----
-
-Q: How can I cancel my subscription? How to cancel a subscription? 
-
-You can cancel your subscription by heading over to [our website](https://midjourney.com/account), click “Edit plan” where you can cancel your plan. Your access will remain until the end of your billing month.
 
 ---
 
@@ -529,85 +905,15 @@ In-progress images are sometimes disabled for jobs in relax mode that are taking
 
 ---
 
-Q: How much for a subscription? Where i can see plans? What’s the difference between Basic and Standard? How much does an unlimited plan cost?
-
-%image=https://media.discordapp.net/attachments/958069758211797092/990262133654696026/unknown.png
-[Subscription page on a website](https://www.midjourney.com/account/)
 
 
----
-
-Q: Can I switch plans? If I switch to Standard it will be 20$ or 30$ ?
-
-If you used all your time in Basic - Standard still will cost you 30$.
-If you used half of the Basic time - it will be 25$
-And so on 
-
----
-
-Q: Is it - or - - ?
-
-It is a double hyphen with no space(--) or an em-dash.
-
----
-
-Q: How can I delete an image? How to delete images from my feed?
-
-You can delete a generation by reacting with :x: emoji to it. You can jump to an image in discord from your gallery.
-
----
-
-Q: Is there an exhaustive list of arguments somewhere we can look at? Where can I find a reference of the various parameters for imagine?
-
-Yes there is checkout our documentation [here](https://midjourney.gitbook.io/docs/imagine-parameters)
 
 
----
+# -------------------- -------------------- --------------------
+# -------------------- WHERE ARE MY IMAGES?! --------------------
+# -------------------- -------------------- --------------------
 
-Q: Does relax mode get faster at the beginning of a billing cycle?
-
-Yes it does, relax mode is based on a dynamic queueing system that resets every time your subscription renews. 
-
----
-
-Q: Can I transfer my subscription to another account? I used wrong account? I subscribed with the wrong account? 
-
-We don’t currently transfer subscriptions between accounts, but what we can do is once you subscribe on the correct account we can cancel your other subscription and add a credit for 1 month on your new account.
-
----
-
-
-Q: if we go over our limit of fast hours does it let us know? or just start billing for the extra hourly time with no warning? If I use up minutes, can I get more without paying?
-
-When you run out of fast credits, you will be prompted to either set a spending limit or move to relax mode. You will not be able to use incremental billing without first setting a spending limit. If you have a standard membership you can continue to make images in relax-mode by typing /relax.
-
----
-
-Q: Can you accidently get a big bill?
-
-Incremental billing is optional and is only enabled if you explicitly set a spending limit.
-
----
-
-Q: Do trials reset monthly? Do I get more free images every month? Do I get free images every day? How many images do I get as a free user? Do trials reset monthly?
-
-Right now the free trial is roughly 25 images, one-time.
-
----
-
-Q: How do I search for someone on the website? 
-
-Type their name in the search bar on top under 'Community Feed'
-
----
-
-Q: Do I need a subscription for the community feed? Do I need a subscription to see the member gallery?
-
-Yes you need a subscription to see the member gallery or community feeds.
-
----
-
-Q: How can I find my images? It’s moving too fast, how can I see only my images? How to search for my images? Where is the gallery? Where can I see my images?
+Q: How can I find my images? It’s moving too fast, how can I see only my images? How to search for my images? Where is the gallery? Where can I see my images? How do I search for my creations? 
 
 You can use @ button on mobile. Or the inbox button (top right corner) on pc.
 %image=https://media.discordapp.net/attachments/984460137475497985/992116136219000943/unknown.png
@@ -615,129 +921,5 @@ Another way is to open your gallery https://www.midjourney.com/app/
 
 ---
 
-Q: Can i sell my images? What’s the license for my images? Commercial use for images?
 
-If you are paying member, you can use your images pretty much how you want, with some exceptions, (check <#964598182225002516> paragraph 4). Even if you are no longer subscribed.
-If you are a trial user, you can use your images only in non-commercial ways.
-
----
-Q: Where do we set a billing limit? Where do we set a spending limit?
-
-You can only set a billing limit after you run out of fast time. Once you do you will be prompted to set a spending limit. If that prompt doesn’t come up you can use `/fast` to receive it. You will not be able to use incremental billing without first setting a spending limit. 
-
----
-
-Q: Are there any plans to make this into its own software/application? Another question, does this plan to be a stand-alone software?
-
-Not currently, the plan now is to stay on discord. 
-
----
-
-Q: Even if the trial expires, do we remain in the discord? Even if the trial expires, do we remain part of the discord server?
-
-
-Yes, you will remain in the discord server.
-
----
-
-Q: Does the reroll/variation/upscale each count as a generation in terms for the limits? 4 small images count as 1 job?
-
-
-Yes each action counts as a generation but each type of action takes a different amount of time so can cost more or less. With the default size, variations take around 20 seconds, upscales take around 70 seconds and rerolls/imagines take 60 seconds.
-
----
-Q: How to transfer an image to another channel? Can i work with my old generations? My old generation is not responding to buttons? Can i upscale my old image from newbies channel? How to use /show?
-
-You can use /show commands to transfer the image to another channel. Or even ‘revive’ job that is not working anymore for some reason. You will need the jobId for that, it can be copied by pressing the “copy job ID” button in the gallery (from the … menu).
-Use `/show jobid` in any channel or DM.
-Like `/show b052e414-a9f7-4f14-94fe-1a43e0aa656b`
-
----
-
-Q: What does the --iw 5 argument do? What does the --iw 5 comment do?
-
-The --iw 5 applies an image weight of 5. Read more [here](https://midjourney.gitbook.io/docs/user-manual#image-prompting-with-url) 
-
----
-
-Q: Is there documentation? Where can I find all the commands?
-
-Yes please check it out [here](https://midjourney.gitbook.io/docs/user-manual)
-
----
-
-Q: What's the 50$ plan? How do i hide my images? What's private mode? Private powers badge?
-
-Use `/private` to purchase private.  It's a subscription upgrade that is available to either plan.
-This will make your images private and hidden from the website.
-
----
-
-Q: What is relax mode?
-
-We have two modes for image generation, “fast” and “relax”. Fast tries to give you a GPU instantly. It's our highest priority processing tier, and it's kinda expensive. “Relax” puts you in a queue behind others based on how much you’ve used the system.
-
-Right now, we give 15 gpu-hours/mo of ‘fast’ with the ‘Standard’ plan, 200 gpu-minutes/mo with the ‘Basic’ plan and 120 gpu-hours/yr with the ‘Corporate’ plan.
-
-One hour is roughly 60 image generation or upscale commands and roughly 200 image variation commands.
-
----
-
-Q: How do I go into Relax mode?
-
-At any time you can type /relax to enter relax mode, or /fast to toggle out of it. Remember, in relax mode your image generations don't count towards your monthly quota of ‘fast’ images.
-
-Please note: The ‘Basic’ plan does not include relax mode. Relax mode also doesn't support max-upscample commands.
-
----
-
-Q: What if I run out of fast-gpu hours? What if I run out of fast time?
-
-You can set a spending limit and buy it at $4/gpu-hour. 
-
-This cost will be billed incrementally and charged either at the end of the month or every time you hit a billing threshold (the monthly price of your base plan). 
-
-Hourly prices are experimental and subject to change.
-
----
-
-Q: Why do I have to pay for private mode? What if I don’t want my images to appear in the gallery?
-
-We are building a open-by-default community focused on collective exploration and fun. If you have a need to opt-out of this and be private-by-default you can upgrade to a $50/mo private plan at any time by typing /private or purchase a ‘Corporate’ plan.
-
----
-
-Q: How does commercial use work? Can I use images commercially?
-
-You’re pretty free to use the images in just about any way you want as long as it doesn’t hit one of our current two special-case restrictions.
-
-1) If you’re using the images as an employee of a company that makes more than 1M/yr USD in revenue, you need to purchase a ‘Corporate’ plan.
-
-2) If you’re using images in anything related to blockchain technologies, you need to pay a 20% royalty on any revenue over $20k/mo.
-
-For complete details please see our terms of service.
-
----
-
-Q: How can I cancel? How can I cancel my plan? Can I change my plan?
-
-Just type /subscribe, click the button and then click 'edit my plan' on the website.
-
-You are free to cancel your subscription at any time but the cancellation will be effective at the end of the current billing cycle. So all the benefits and fast time will remain until the end of this cycle. If you change your mind, you can un-cancel your plan before the end of the cycle.
-
----
-
-Q: When I eventually unsubscribe, will I still have access to my website gallery? If I cancel will I still be able to see my images on the gallery?
-
-Yes you can continue to access your online gallery of images even if you're not currently a paid member.
-
----
-
-Q: What do the U1, V1, etc. buttons do? U, V buttons?
-
-U is upscale, V is variation (compositionally similar image)
-1  2
-3  4
-
----
 
