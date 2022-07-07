@@ -16,7 +16,7 @@
 # Usage rights
 # Errors
 # Where are my Images?
-
+#Threads
 
 
 
@@ -45,7 +45,7 @@ The ↻ submits the same job again, which will run with a different seed. You wi
 
 # -------------------- ---IMAGINE----- --------------------
 
-Q: I'm having trouble using the bot - how do I use /imagine? How do I use /imagine? How do I generate images? How to use? How do I use the bot? How does the bot work? So just /imagine [prompt] ? I type the prompts and nothing appears. How I use? I type the prompts and nothing appears?
+Q: I'm having trouble using the bot - how do I use /imagine? How do I use /imagine? How do I generate images? How to use? How do I use the bot? How does the bot work? So just /imagine [prompt] ? I type the prompts and nothing appears. How I use? I type the prompts and nothing appears? imagine?
 
 When you type `/imagine` try clicking on the box that pops up that says "prompt". It should say `/imagine` prompt then type what you want. See the image below
 
@@ -91,7 +91,7 @@ We try to track usage in terms of compute-time. One GPU-minute is roughly the am
 
 ---
 
-Q: How do I see how many gpu hours I have left? How do I see how much I have used? How do I see how many hours I have left? Where can I check how many prompts I have left? How many images can I make?
+Q: How do I see how many gpu hours I have left? How do I see how much I have used? How do I see how many hours I have left? Where can I check how many prompts I have left? How many images can I make? How can I see my queue? Where do I check my jobs? 
 
 Use `/info` in a bot channel to check your subscription status and usage.
 ---
@@ -250,7 +250,7 @@ Subscriptions renew every 30 days. You can check when this is by using `/info`
 
 ---
 
-Q: How do I subscribe? How to subscribe? How do I become a member? /subscribe? How does one become a member? How can I be a full member?  How can I subscribe to it? how to get paid version? How do you get a subscription?
+Q: How do I subscribe? How to subscribe? How do I become a member? /subscribe? How does one become a member? How can I be a full member?  How can I subscribe to it? how to get paid version? How do you get a subscription? How can I upgrade from the trial version?
 
 Type `/subscribe` and click the link provided or go to [https://www.midjourney.com/account/](https://www.midjourney.com/account/)
 
@@ -918,6 +918,31 @@ Q: How can I find my images? It’s moving too fast, how can I see only my image
 You can use @ button on mobile. Or the inbox button (top right corner) on pc.
 %image=https://media.discordapp.net/attachments/984460137475497985/992116136219000943/unknown.png
 Another way is to open your gallery https://www.midjourney.com/app/
+
+---
+
+
+# -------------------- -------------------- --------------------
+# -------------------- THREADS --------------------
+# -------------------- -------------------- --------------------
+
+Q: Where did my thread go? Where is my thread? Why can’t I see newbie channels? Can you move threads? Can you help me move threads? Can you add me to newbie channel? Will my work disappear if I can’t find the thread? How can I find thread? Where is thread? Can you move my thread? Can I change roles? What is my group role? What is this role? Where did channel go? Where did my channel go? Channel disappeared? Thread disappeared? Thread gone? Channel gone? Can’t see thread? Can’t see channel? Where is channel? Where is thread? Is my thread deleted? Channel deleted? Work gone? Work deleted? Creations gone? Channel not working?
+
+In order to move towards open-beta while still playing nice with Discord backend infrastructure we have had to make some changes with how newbie and general channels are structured. 
+This means that we have assigned new roles which will limit the newbie/general channels you are able to see. Because of this, we have also had to limit the creation of new threads in those channels, and you may lose access to threads you’ve created. 
+
+Unfortunately, we are unable to move these threads, or change your role permissions to go back into another newbie/general channel.
+To make this change easier we've added a /show command that lets you move 'any' job you've made into a new thread, DM or channel. 
+
+To use this command:
+1) Go to your gallery at https://www.midjourney.com/app/
+2) Find your image you want to move to a new place
+3) Click the ... button then "copy job id"
+4) Go to discord and type /show job_id and your job will appear in the new channel/thread/dm
+
+You can also make a new thread in #misc-threads and #jam-threads to continue collaborating with your friends.
+
+We're very sorry if this causes anyone inconvenience but it's necessary for us to continue to take this wonderful community into the next phase. 
 
 ---
 
