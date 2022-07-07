@@ -9,7 +9,6 @@
   * [Upscaling](FAQs.md#upscaling)
   * [Fast and Relaxed](FAQs.md#fast-and-relaxed)
   * [Seeds](FAQs.md#seeds)
-  * [Using Dimensions](FAQs.md#using-dimensions)
   * [Web Gallery Use](FAQs.md#gallery-use)
   * [Image Prompt Questions](FAQs.md#image-prompt-questions)
   * [Text Prompt Questions](FAQs.md#text-prompt-questions)
@@ -198,6 +197,10 @@ This option redoes the upscaling, with a different algorithm which you may prefe
 
 A: 3 megapixels.
 
+
+
+You might also find the page [Understanding Image Size](resource-links/understanding-image-size.md) useful.
+
 ## Fast and Relaxed
 
 We have two modes for image generation, “fast” and “relax”. Fast tries to give you a GPU instantly. It's our highest priority processing tier, and it's kinda expensive. “Relax” puts you in a queue behind others based on how much you’ve used the system.
@@ -228,11 +231,7 @@ A: Yes, unless you specify --seed with a number.
 
 A: Seed means that the random noise we add during the initialization of the generation will be the same each time but GPUs are non-deterministic, so the images won't look exactly the same.
 
-## Using Dimensions
 
-**Q: Certain dimensions specified with —h y —w x will generate less images than the normal 4 (3 to 1), is there some reason for this?**
-
-A: The GPUs we use have a finite amount of memory; larger images means each one takes up more memory so we have to generate less.
 
 ## Web Gallery Use
 

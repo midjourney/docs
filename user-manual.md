@@ -57,7 +57,7 @@ For instance, a full imagine command might contain several things, like an image
 
 `--video` Saves a progress video, which is sent to you in the ✉️-triggered DM (you must react with the envelope to get the video link)
 
-`--iw` Sets image prompt weight. Default is .25.&#x20;
+`--iw` Sets image prompt weight relative to text weight. Default is 0.25.&#x20;
 
 `--fast` Faster images, less consistency
 
@@ -91,7 +91,7 @@ For instance, a full imagine command might contain several things, like an image
 
 `--lp`: `--w 512 --h 768 --hd`
 
-You can see an illustrated guide to all these parameters on [this page](imagine-parameters.md). &#x20;
+You can see an illustrated guide to all these parameters on [this page](imagine-parameters.md).  You can read more about image sizes and how to interpret them on [Understanding Image Size](resource-links/understanding-image-size.md).
 
 ### Emoji Reactions to Generation Output
 
@@ -111,7 +111,7 @@ Add one or more image URLs to your prompt and it will use those images as visual
 
 **Note**: This is _not_ the same as building on top of (or "initializing" from) a starting input image as you may see in other generation tools. Midjourney does not currently offer the ability to use a starting image, due to concerns about community public content.  Instead, we let you use an image as inspiration, usually with text, to guide the generation.
 
-`--iw` — Adjusts the weight of the image URLs vs the text. They default to 0.25.  0.5 weights images half and 1 is even more weight. You can also use a negative weight to tell it to try to avoid something like the image altogether (neat trick).
+`--iw` — Adjusts the weight of the image URLs vs the text. They default to 0.25.  Experiment and see what you like. Also see [FAQ here](FAQs.md#image-prompt-questions).
 
 **Note**: There is currently no way to apply different weights to different image prompts. This will be addressed in the future.
 

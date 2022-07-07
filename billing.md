@@ -19,9 +19,7 @@ Another way is to follow that link and login with your Discord credentials at [h
 
 ## Plans
 
-
-
-![Plan grid](.gitbook/assets/grid\_2.png)
+![Plan Grid](.gitbook/assets/grid3.png)
 
 There are 2 mainstream plans: Basic and Standard. Both can add a **Private** Power option for 20$. There is also a Corporate option for special cases.
 

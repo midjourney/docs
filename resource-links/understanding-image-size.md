@@ -16,7 +16,7 @@ _This guide is a simplified non-technical way of approaching each concept._
 
 #### Examples will use this simple sailboat picture
 
-![](.gitbook/assets/Resolution\_MJBoat.png)
+![](../.gitbook/assets/Resolution\_MJBoat.png)
 
 
 
@@ -25,7 +25,7 @@ _This guide is a simplified non-technical way of approaching each concept._
 Image files like .jpg, .png, or .gif are instructions for how to create an image. \
 Each image is a mosaic of small colored tiles (**pixels**) that form the picture.&#x20;
 
-![Think about image files as a set of instructions on how to arrange colored pixels to create an image.](.gitbook/assets/Resolution\_Instructions.png)
+![Think about image files as a set of instructions on how to arrange colored pixels to create an image.](../.gitbook/assets/Resolution\_Instructions.png)
 
 ### What is File Size?
 
@@ -45,7 +45,7 @@ There are no "high-res" image files when working on a monitors, phones, TVs or o
 
 The boat.jpg image might be a great size on a vintage flip phone, fine on your tablet, and not enough on your brand-new monitor.
 
-![The same image dimension seen on multiple screens](.gitbook/assets/Resolution\_screenSize.png)
+![The same image dimension seen on multiple screens](../.gitbook/assets/Resolution\_screenSize.png)
 
 ### DPI Dots Per Inch
 
@@ -59,7 +59,7 @@ It depends! Knowing that your file only contains instructions on how to make an 
 
 Think about building the file with Legos.  You can take the same set of instructions and if you have a pile of small 1x1 bricks you pack your information into a smaller space than if you start with a pile of 2x2 bricks
 
-![The same "file instructions" using two sizes of tiles ](.gitbook/assets/Resolution\_TileSize.png)
+![The same "file instructions" using two sizes of tiles ](../.gitbook/assets/Resolution\_TileSize.png)
 
 #### A Simplified Example of the Math
 
@@ -79,11 +79,11 @@ For this example, you have a 1200x1200 pixel image.  What DPI is that image? It 
 
 The default size of the initial 2x2 grid is 512x512 pixels.
 
-The default upscale size is 1024 x 1024 pixels
+The default upscale size is 1024 x 1024 pixels.
 
-The default upscale to max size is 1664 x 1664 pixels
+The default upscale to max size is 1664 x 1664 pixels.
 
-![](<.gitbook/assets/Image Comparisson.png>)
+![](<../.gitbook/assets/Image Comparisson.png>)
 
 Lots of other aspect ratios can be generated, but **the maximum file size Midjourney can generate is about 3 megabytes.**
 
@@ -93,7 +93,7 @@ An upscaled default square image at 1664x1664 has 2,768,896 pixels. Let's round 
 
 the --w and --h (width and height) modifiers only affect the initial 2x2 grid.  Adding --w 448 will make the initial 2x2 grid produce individual grid images are 448 pixels wide
 
-![/imagine sailboat --w 448  produces a 896 x 512 begining grid.](<.gitbook/assets/image (1) (1).png>)
+![/imagine sailboat --w 448  produces a 896 x 512 begining grid.](<../.gitbook/assets/image (1) (1) (1).png>)
 
 When you upscale one of these images it will no longer be 448 pixels wide, but it will maintain the original aspect ratio of your 2x2 grid.
 
@@ -115,15 +115,15 @@ It depends. When you upscale an image you are asking the computer to take a gues
 
 If you have two bricks (pixels) that are very similar in color and try to double the size of the image a new brick will be added between each existing pair of bricks.&#x20;
 
-![Easy to guess what color should be inserted](.gitbook/assets/Upscale2x.jpg)
+![Easy to guess what color should be inserted](../.gitbook/assets/Upscale2x.jpg)
 
 The issue with upscaling an image happens when lots of guesses have to be made about what new information is added (you want an image 4 or 6 times larger than the original). Recent AI advancements in upscale technology are really good, but the more guesses you ask the program to make the more errors will be made and the worse the result. &#x20;
 
-![Harder to guess what color should be inserted](<.gitbook/assets/MJ\_Upscales (1).jpg>)
+![Harder to guess what color should be inserted](<../.gitbook/assets/MJ\_Upscales (1).jpg>)
 
 
 
-![Really hard to guess what color should be inserted](.gitbook/assets/MJ\_Upscales\_4X.jpg)
+![Really hard to guess what color should be inserted](../.gitbook/assets/MJ\_Upscales\_4X.jpg)
 
 
 

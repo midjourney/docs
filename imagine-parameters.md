@@ -2,7 +2,7 @@
 description: An illustrated Guide to /imagine parameters
 ---
 
-# Imagine Parameters
+# Imagine Parameters Illustrated
 
 ### Basic Structure
 
@@ -32,9 +32,9 @@ Parameters are bot options that change how the images will be generated. For ins
 
 Try `--aspect 16:9` for example, to get a 16:9 aspect ratio (\~448x256).
 
-<img src=".gitbook/assets/image (3).png" alt="" data-size="original"> /imagine prompt: **an abstract field of flowers --ar 16:9**
+<img src=".gitbook/assets/image (3) (1).png" alt="" data-size="original"> /imagine prompt: **an abstract field of flowers --ar 16:9**
 
-
+Also see [Understanding Image Sizes](resource-links/understanding-image-size.md).
 
 #### Size Shortcuts
 
@@ -56,7 +56,7 @@ Try `--aspect 16:9` for example, to get a 16:9 aspect ratio (\~448x256).
 
 `--fast` Faster images, less consistency.
 
-![](<.gitbook/assets/image (2).png>)/imagine prompt: **an abstract field of flowers --fast**
+![](<.gitbook/assets/image (2) (1).png>)/imagine prompt: **an abstract field of flowers --fast**
 
 ``
 
@@ -68,7 +68,7 @@ Try `--aspect 16:9` for example, to get a 16:9 aspect ratio (\~448x256).
 
 `--vibefast` Faster version of the old algorithm.
 
-![](<.gitbook/assets/image (23).png>) /imagine prompt: **an abstract field of flowers --vibe fast**
+![](<.gitbook/assets/image (23) (1).png>) /imagine prompt: **an abstract field of flowers --vibe fast**
 
 ``
 
@@ -98,7 +98,7 @@ Try `--aspect 16:9` for example, to get a 16:9 aspect ratio (\~448x256).
 
 
 
-![](<.gitbook/assets/image (25).png>)![](<.gitbook/assets/image (20).png>)
+![](<.gitbook/assets/image (25) (1).png>)![](<.gitbook/assets/image (20) (1).png>)
 
 Normal upscale (left) vs Light Upscale (right)
 
@@ -108,13 +108,13 @@ Normal upscale (left) vs Light Upscale (right)
 
 `--seed` Sets the random seed (an integer), which can sometimes help keep things more steady / reproducible between generations.
 
-![](<.gitbook/assets/image (17).png>) ![](<.gitbook/assets/image (4).png>)
+![](<.gitbook/assets/image (17).png>) ![](<.gitbook/assets/image (4) (1).png>)
 
 `/imagine prompt: an abstract field of flowers` run twice without a seed.
 
 
 
-![](<.gitbook/assets/image (16).png>) ![](<.gitbook/assets/image (5).png>)
+![](<.gitbook/assets/image (16).png>) ![](<.gitbook/assets/image (5) (1).png>)
 
 `/imagine prompt: an abstract field of flowers --seed 1234` run twice.&#x20;
 
@@ -123,7 +123,7 @@ Normal upscale (left) vs Light Upscale (right)
 `--sameseed <number>` Sets the same seed across all images of the resulting grid. \
 The `sameseed` can be any positive integer.
 
-![](<.gitbook/assets/image (15).png>) /imagine prompt: **an abstract field of flowers** **--sameseed 1234**
+![](<.gitbook/assets/image (15) (1).png>) /imagine prompt: **an abstract field of flowers** **--sameseed 1234**
 
 ``
 
@@ -135,7 +135,7 @@ The `sameseed` can be any positive integer.
 
 ### Image Prompting with URL
 
-`--iw` Sets image prompt weight.  Use a decimal value up to 1 (full strength).
+`--iw` Sets image prompt weight proportional to the text weight. Use a decimal value (default 0.25). Experiment till you see what you like and also check [FAQs](FAQs.md#image-prompt-questions).
 
 Add one or more image URLs to your prompt and it will use those images as visual inspiration. You can mix words with images or just have images alone. See [Image Prompt Questions](FAQs.md#image-prompt-questions) for more info.
 

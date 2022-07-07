@@ -78,4 +78,4 @@ You can also use [the bot in a DM mode](FAQs.md#dming-the-bot-direct-messaging) 
 
 #### 8. Have Questions?
 
-If you have other questions you can find many answers in the `#announcements`, `#status`, `#rules`, `#faq` channels. If you still need help post your question in the `#support` channels.
+If you have other questions you can find many answers in the `#announcements`, `#status`, `#rules`, `#faq` channels. If you still need help post your question in the `#support` channels. There are also more pages with image creation help, including [Resource Links](resource-links/).
