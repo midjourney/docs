@@ -45,7 +45,7 @@ The ↻ submits the same job again, which will run with a different seed. You wi
 
 # -------------------- ---IMAGINE----- --------------------
 
-Q: I'm having trouble using the bot - how do I use /imagine? How do I use /imagine? How do I generate images? How to use? How do I use the bot? How does the bot work? So just /imagine [prompt] ? I type the prompts and nothing appears. How I use? I type the prompts and nothing appears? imagine?
+Q: I'm having trouble using the bot - how do I use /imagine? How do I use /imagine? How do I generate images? How to use? How do I use the bot? How does the bot work? So just /imagine [prompt] ? I type the prompts and nothing appears. How I use? I type the prompts and nothing appears? Imagine? How do I make art?
 
 When you type `/imagine` try clicking on the box that pops up that says "prompt". It should say `/imagine` prompt then type what you want. See the image below
 
@@ -61,7 +61,7 @@ Especially on mobile, you may need to update the app (via the app store etc) and
 
 ---
 
-Q: What's a bot channel? Where can I use imagine? Where can I use /subscribe? Where can I use /info, Where can I make an image?
+Q: What's a bot channel? Where can I use imagine? Where can I use /subscribe? Where can I use /info? Where can I make an image?
 
 A bot channel is any channel where you can use a Midjourney bot command like /imagine /subscribe or /info. You can generate images with the /imagine command in any channel marked as "Image Generation" channels. 
 
@@ -250,7 +250,7 @@ Subscriptions renew every 30 days. You can check when this is by using `/info`
 
 ---
 
-Q: How do I subscribe? How to subscribe? How do I become a member? /subscribe? How does one become a member? How can I be a full member?  How can I subscribe to it? how to get paid version? How do you get a subscription? How can I upgrade from the trial version?
+Q: How do I subscribe? How to subscribe? How do I become a member? /subscribe? How does one become a member? How can I be a full member?  How can I subscribe to it? how to get paid version? How do you get a subscription? How can I upgrade from the trial version? hello, where can I can make the payment for the Standard plan? And how do i buy the 10$ plan? How do I buy?
 
 Type `/subscribe` and click the link provided or go to [https://www.midjourney.com/account/](https://www.midjourney.com/account/)
 
@@ -299,7 +299,7 @@ You can only set a billing limit after you run out of fast time. Once you do you
 
 # -------------------- CANCELATION --------------------
 
-Q: How can I cancel? How can I cancel my plan? How do I unsubscribe? How can I cancel my subscription? How to cancel a subscription? 
+Q: How can I cancel? How can I cancel my plan? How do I unsubscribe? How can I cancel my subscription? How to cancel a subscription? Where do I cancel my subsription?
 
 You can cancel your subscription by heading over to [our 
 website](https://midjourney.com/account), or by typing “/subscribe” and following the link
@@ -837,6 +837,12 @@ Not currently, the plan now is to stay on discord.
 
 ---
 
+Q: Do you have any API? Is there a way to use the app via an API?
+
+We do not currently have an API.
+
+---
+
 # -------------------- -------------------- --------------------
 # -------------------- USAGE RIGHTS --------------------
 # -------------------- -------------------- --------------------
@@ -882,7 +888,7 @@ Try using --w and --h as multiple of 64 and under 1024, e.g. `--w 256 --h 320`
 
 Q: Why did I get a message that said "Interaction Failed"? I am getting “interaction failed”? I am getting “application did not respond”?
 
-The job will (probably) still go through, but it will not show the intermediate images. If you get this with your DMs with the bot, make sure your security settings allow DMs. It is also possible there is a maintenance going on, check the #status channel for updates.
+Make sure your discord app is updated and try restarting it. If you get this with your DMs with the bot, make sure your security settings allow DMs. It is also possible there is a maintenance going on, check the #status channel for updates.
 
 ---
 
@@ -926,7 +932,7 @@ Another way is to open your gallery https://www.midjourney.com/app/
 # -------------------- THREADS --------------------
 # -------------------- -------------------- --------------------
 
-Q: Where did my thread go? Where is my thread? Why can’t I see newbie channels? Can you move threads? Can you help me move threads? Can you add me to newbie channel? Will my work disappear if I can’t find the thread? How can I find thread? Where is thread? Can you move my thread? Can I change roles? What is my group role? What is this role? Where did channel go? Where did my channel go? Channel disappeared? Thread disappeared? Thread gone? Channel gone? Can’t see thread? Can’t see channel? Where is channel? Where is thread? Is my thread deleted? Channel deleted? Work gone? Work deleted? Creations gone? Channel not working?
+Q: Where did my thread go? Where is my thread? Why can’t I see newbie channels? Can you move threads? Can you help me move threads? Can you add me to newbie channel? Will my work disappear if I can’t find the thread? How can I find thread? Where is thread? Can you move my thread? Can I change roles? What is my group role? What is this role? Where did channel go? Where did my channel go? Channel disappeared? Thread disappeared? Thread gone? 
 
 In order to move towards open-beta while still playing nice with Discord backend infrastructure we have had to make some changes with how newbie and general channels are structured. 
 This means that we have assigned new roles which will limit the newbie/general channels you are able to see. Because of this, we have also had to limit the creation of new threads in those channels, and you may lose access to threads you’ve created. 
@@ -946,5 +952,24 @@ We're very sorry if this causes anyone inconvenience but it's necessary for us t
 
 ---
 
+# -------------------- -------------------- --------------------
+# -------------------- UNCATAGORIZED --------------------
+# -------------------- -------------------- --------------------
 
+Q: Can I change the prompt after I’ve made it? Can I change the prompt?
 
+Right now, once you’ve made an image you cannot change the prompt. You can, however, create new images with new prompts from scratch at anytime.
+
+---
+
+Q: Can I have the user manual? Where do I find documentation? 
+
+Yes you can see detailed documentation here. https://midjourney.gitbook.io/docs/
+
+---
+
+Q: Can I use other people’s images for commercial projects? 
+
+Please ask them first.
+
+---
