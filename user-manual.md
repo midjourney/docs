@@ -9,7 +9,7 @@ That said, enjoy creating beautiful images! In this page:
 * [User Manual](user-manual.md#user-manual)
   * [Basic Commands in Bot Channels](user-manual.md#basic-commands-in-bot-channels)
   * [Parameters to "/imagine"](user-manual.md#parameters-to-imagine)
-  * [Emoji Reactions to Generation Output](user-manual.md#emoji-responses-to-generation-output)
+  * [Emoji Reactions to Generation Output](user-manual.md#emoji-reactions-to-generation-output)
   * [Image Prompting with URL](user-manual.md#image-prompting-with-url)
   * [Advanced Text Weights](user-manual.md#advanced-text-weights)
   * [Discord Prompt Preferences](user-manual.md#discord-prompt-preferences)
@@ -41,11 +41,13 @@ You can find more documentation on using these in our [FAQs](FAQs.md).
 
 ### Parameters to "/imagine"
 
-Parameters are bot options that change how the images will be generated.
+Parameters are "inputs" to the command.  Some are required, like a prompt, others are optional and will change how the prompt is interpreted and the image is created.
 
 For instance, a full imagine command might contain several things, like an image URL, some weights, other switches:
 
 `/imagine prompt: http://myimageonline.jpg A forest spirit at night --iw 0.2 --no trees --hd`
+
+Below are some of the "switches" you can add at the end of the command, using the "--" delimiter.
 
 `--w` Width of image. Works better as multiple of 64 (or 128 for `--hd`)
 
@@ -76,6 +78,8 @@ For instance, a full imagine command might contain several things, like an image
 `--aspect` Sets a desired aspect ratio, instead of manually setting height and width with `--h` and `--w`. Try `--aspect 16:9` for example, to get a 16:9 aspect ratio (\~448x256). (Shortcut `--ar`.)
 
 **Size shortcuts**
+
+These are synonyms for longer commands.  In other words, using `--wallpaper` is the same as saying   `--w1920 --h 1024 --hd`.
 
 `--wallpaper`: `--w 1920 --h 1024 --hd`
 
@@ -111,7 +115,7 @@ Add one or more image URLs to your prompt and it will use those images as visual
 
 **Note**: This is _not_ the same as building on top of (or "initializing" from) a starting input image as you may see in other generation tools. Midjourney does not currently offer the ability to use a starting image, due to concerns about community public content.  Instead, we let you use an image as inspiration, usually with text, to guide the generation.
 
-`--iw` — Adjusts the weight of the image URLs vs the text. They default to 0.25.  Experiment and see what you like. Also see [FAQ here](FAQs.md#image-prompt-questions).
+`--iw:` Adjusts the weight of the image URLs vs the text. They default to 0.25.  Experiment and see what you like. Also see [FAQ here](FAQs.md#image-prompt-questions).
 
 **Note**: There is currently no way to apply different weights to different image prompts. This will be addressed in the future.
 
@@ -127,7 +131,9 @@ Some examples:
 
 Prompts with a negative total weight are not allowed.
 
-**Note**: The `--no` command is equivalent to using weight -0.5.
+**Note**: The `--no` command is equivalent to using weight -0.5.  For instance, `--no farms` means don't include farms in the output, same as `farms::-.5`
+
+``
 
 ### Discord Prompt Preferences
 

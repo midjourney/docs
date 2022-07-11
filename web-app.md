@@ -3,10 +3,12 @@
 * [Using the Web App](web-app.md#using-the-web-app)
   * [Where Is It?](web-app.md#where-is-it)
   * [The Nav Bar](web-app.md#the-nav-bar)
+  * [Using Your Gallery](web-app.md#using-your-gallery)
+  * [Deleting Your Own Images](web-app.md#undefined)
   * [What's the Feed?](web-app.md#whats-the-feed)
   * [Image LeaderBoards and Rating](web-app.md#image-leaderboards-and-rating)
-  * [The Map](web-app.md#undefined)
-  * [Following People's Work](web-app.md#undefined)
+  * [The Map](web-app.md#the-map)
+  * [Following People's Work](web-app.md#following-peoples-work)
   * [Viewing Great Images!](web-app.md#viewing-great-images)
   * [Dictionary](web-app.md#dictionary)
   * [Styles and Artists](web-app.md#styles-and-artists)
@@ -49,6 +51,14 @@ Clicking on an image will show you more details and offer more commands:
 Another way to filter the view is by showing things you have liked (bookmarked) with a ❤️ reaction.  If you click the heart button in the top bar, you will see only work you have reacted to with a heart emoji, including work by other others.
 
 ![Bookmarks are things you liked](<.gitbook/assets/image (19).png>)
+
+## Deleting Your Own Images
+
+
+
+There is currently no way to delete your images via the gallery.  The best way to do it is to follow the link to the image output in Discord, and use the red ❌ reaction there to delete it.
+
+![Click on an image in your gallery, and use the ... menu to find "Open in discord"](<.gitbook/assets/Screen Shot 2022-07-11 at 10.35.22 AM.png>)
 
 
 

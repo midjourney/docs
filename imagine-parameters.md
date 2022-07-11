@@ -10,9 +10,9 @@ Parameters are bot options that change how the images will be generated. For ins
 \
 `/imagine` commands should follow the below order if you use them all:
 
-![/imagine prompt: https://example/tulip.jpg  a field of tulips in the style of Mary Blair --no farms --iw .5 --ar 3:2](.gitbook/assets/ImagineStructure.jpg)
+![/imagine prompt: https://example/tulip.jpg  a field of tulips in the style of Mary Blair --no farms --iw .5 --ar 3:2"](.gitbook/assets/ImagineStructure.jpg)
 
-
+"Switches" in this context means controls passed to the bot using a "--" parameter.  For instance, the command `/imagine hi there --w 448` has a text prompt, and a parameter for the width, using the "--w" instruction.
 
 ### Sizes
 
@@ -37,6 +37,18 @@ Try `--aspect 16:9` for example, to get a 16:9 aspect ratio (\~448x256).
 Also see [Understanding Image Sizes](resource-links/understanding-image-size.md).
 
 #### Size Shortcuts
+
+These "shortcuts" are command that do the same as the forms following the ":" in the list below.  For instance, if you type:
+
+`/imagine my heart is a lonely hunter --wallpaper`
+
+It would be the same as typing the longer form:
+
+`/imagine my heart is a lonely hunger --w 1920 --h 2024 --hd`
+
+``
+
+`Shortcut equivalences:`
 
 `--wallpaper`: `--w 1920 --h 1024 --hd`
 

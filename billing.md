@@ -3,9 +3,9 @@
 * [Subscription, Billing and Licensing Questions](billing.md#subscription-billing-and-licensing-questions)
   * [How to Subscribe](billing.md#how-to-subscribe)
   * [Plans](billing.md#plans)
-    * [Both Plans Offer:](billing.md#both-plans-offer)
-    * [Basic Membership ($10/month) Offers:](billing.md#basic-membership-10month-offers)
-    * [Standard Membership ($30/month) Offers:](billing.md#standard-membership-30month-offers)
+    * [Both Plans Offer:](billing.md#both-basic-and-standard-plans-offer)
+    * [Basic Membership ($10/month) Offers:](billing.md#basic-membership-usd10-month-offers)
+    * [Standard Membership ($30/month) Offers:](billing.md#standard-membership-usd30-month-offers)
     * [Private Power Option](billing.md#private-power-option)
     * [Incremental Billing](billing.md#incremental-billing)
   * [Commercial Terms](billing.md#commercial-terms)
@@ -13,7 +13,9 @@
 
 ## How to Subscribe
 
-Type /subscribe in any bot channel to upgrade or purchase. Follow the link Midjourney generates to take you to your subscription page. ![Subscribe](https://user-images.githubusercontent.com/105028755/167762167-deb96ca5-2e4a-44cf-acb7-bee247e92abf.gif)
+Type /subscribe in any bot channel to upgrade or purchase. Follow the link Midjourney generates to take you to your subscription page.
+
+&#x20;![Subscribe](https://user-images.githubusercontent.com/105028755/167762167-deb96ca5-2e4a-44cf-acb7-bee247e92abf.gif)
 
 Another way is to follow that link and login with your Discord credentials at [https://www.midjourney.com/account/](https://www.midjourney.com/account/).
 

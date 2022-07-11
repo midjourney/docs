@@ -9,10 +9,10 @@
   * [Upscaling](FAQs.md#upscaling)
   * [Fast and Relaxed](FAQs.md#fast-and-relaxed)
   * [Seeds](FAQs.md#seeds)
-  * [Web Gallery Use](FAQs.md#gallery-use)
+  * [Web Gallery Use](FAQs.md#web-gallery-use)
   * [Image Prompt Questions](FAQs.md#image-prompt-questions)
   * [Text Prompt Questions](FAQs.md#text-prompt-questions)
-  * [Error Messages](FAQs.md#error-messages)
+  * [Error Messages](FAQs.md#errors-and-error-messages)
 
 ## General Questions
 
@@ -329,7 +329,7 @@ A: Here are some recipes from a tricky guide:
 
 * `[image URL] [text prompt 1]` with no weights specified results in a 25% image(s) / 75% text generation.
 * `[image URL] [text prompt 1] --iw 1` Results in a 50% image(s) / 50% text generation.
-* `[image URL] [text prompt 1]::2 [text prompt 2]::3 --iw1` results in a 1/6=17% image(s) , 2/6= 33% text1 , 3/6 = 50% text2.
+* `[image URL] [text prompt 1]::2 [text prompt 2]::3 --iw` results in a 1/6=17% image(s) , 2/6= 33% text1 , 3/6 = 50% text2.
 
 **Q: Do commas, pipes, or any other punctuation matter?**
 
