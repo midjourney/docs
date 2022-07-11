@@ -45,7 +45,13 @@ The ↻ submits the same job again, which will run with a different seed. You wi
 
 # -------------------- ---IMAGINE----- --------------------
 
-Q: I'm having trouble using the bot - how do I use /imagine? How do I use /imagine? How do I generate images? How to use? How do I use the bot? How does the bot work? So just /imagine [prompt] ? I type the prompts and nothing appears. How I use? I type the prompts and nothing appears? Imagine? How do I make art?
+Q: I'm having trouble using the bot - how do I use /imagine? How do I use /imagine? How do I generate images? How to use? How do I use the bot? How does the bot work? So just /imagine [prompt] ? I type the prompts and nothing appears. How I use? I type the prompts and nothing appears? Imagine? How do I make art? How do I use midjourney? How do I prompt? how can i ask the ai to creat img? How do I trial the program? How do I get started? how can i start using the midjourny as a free user?
+
+Read this [Quick Start Guide](https://midjourney.gitbook.io/docs/) to get started.
+
+---
+
+See the [Quick Start Guidel](https://midjourney.gitbook.io/docs/) for the basics.
 
 When you type `/imagine` try clicking on the box that pops up that says "prompt". It should say `/imagine` prompt then type what you want. See the image below
 
@@ -73,11 +79,11 @@ Yes each action counts as a generation but each type of action takes a different
 
 ---
 
-Q: How do I trial the program? How do I get started? how can i start using the midjourny as a free user?
+Q: Is it possible to edit a prompt without restarting? 
 
-Read this [Quick Start Guide](https://midjourney.gitbook.io/docs/) to get started.
+It is not possible to edit or change a prompt at this time.
 
-
+---
 
 
 
@@ -91,7 +97,7 @@ We try to track usage in terms of compute-time. One GPU-minute is roughly the am
 
 ---
 
-Q: How do I see how many gpu hours I have left? How do I see how much I have used? How do I see how many hours I have left? Where can I check how many prompts I have left? How many images can I make? How can I see my queue? Where do I check my jobs? 
+Q: How do I see how many gpu hours I have left? How do I see how much I have used? How do I see how many hours I have left? Where can I check how many prompts I have left? How many images can I make? How can I see my queue? Where do I check my jobs? How do I check how many jobs I have left?
 
 Use `/info` in a bot channel to check your subscription status and usage.
 ---
@@ -137,7 +143,7 @@ Use `/fast` in a bot channel. This will enable fast generation, but you will be 
 
 ---
 
-Q: Relaxed mode seems slow tonight. Upscaling in relaxed mode seems to be on "Waiting to Start..." for a while. 
+Q: Relaxed mode seems slow tonight. Upscaling in relaxed mode seems to be on "Waiting to Start..." for a while.  What is the average wait time?
 
 Relaxed times vary based on a number of factors. Relaxed times are generally under 5 minutes but sometimes can be under a minute or closer to 15 minutes.
 
@@ -228,7 +234,7 @@ Yes, you will remain in the discord server.
 
 ---
 
-Q: Do trials reset monthly? Do I get more free images every month? Do I get free images every day? How many images do I get as a free user? Do trials reset monthly? Does my free trial renew? Is my trial a limited number per day or overall? How long is the trial? How many images can we do with the Trial Version? How many images can you generate with the basic trial?
+Q: Do trials reset monthly? Do I get more free images every month? Do I get free images every day? How many images do I get as a free user? Do trials reset monthly? Does my free trial renew? Is my trial a limited number per day or overall? How long is the trial? How many images can we do with the Trial Version? How many images can you generate with the basic trial? How many images does trial have? How many images does trial have?
 
 To expand the community sustainably, we're giving everyone a limited trial, and then several options to buy a full membership.
 
@@ -440,7 +446,7 @@ More information about image size and resolution is available [on this page](htt
 # -------------------- PARAMETERS --------------------
 # -------------------- -------------------- --------------------
 
-Q: Is there documentation? Where can I find all the commands? Is there documentation? Is there an exhaustive list of arguments somewhere we can look at? Where can I find a reference of the various parameters for imagine? What are all the suffixes I can use? Can anyone help me with the commands syntax please?
+Q: Is there documentation? Where can I find all the commands? Is there documentation? Is there an exhaustive list of arguments somewhere we can look at? Where can I find a reference of the various parameters for imagine? What are all the suffixes I can use? Can anyone help me with the commands syntax please? Can I have the user manual? Where do I find documentation? 
 
 Yes please check it out [here](https://midjourney.gitbook.io/docs/user-manual)
 
@@ -717,9 +723,15 @@ The Feed is the public record of all upscaled community images. This includes im
 # -------------------- DIRECT MESSAGES -----------
 # -------------------- -------------------- --------------------
 
-Q: Can I use imagine in DMs? Is it possible to DM the bot and not be in a very crowded busy channel?
+Q: Can I use imagine in DMs? Is it possible to DM the bot and not be in a very crowded busy channel? Can I generate my images privately? How do I start my own room for creating photos?
+
 
 Paid members can message the bot directly in DMs and create images there.
+Message/tap on this @MidJourney Bot
+
+And don't forget to Right click on Midjourney server icon, click privacy settings, enable DMs from server members
+
+Remember that images generated in your DMs are still visible to everyone on Midjourney.com.
 
 ---
 
@@ -861,18 +873,20 @@ For complete details please see our terms of service.
 
 Q: Can I share images? Are we allowed to post the pictures created on instagram? Are we allowed to post the pictures created on twitter?
 
-You can! When you do please @midjourney on twitter or link to https://twitter.com/midjourney Example post: "I made these images with tools from @midjourney, you can sign up for their private beta [here](http://bit.ly/3J2NNVs)"
+You can! If you want, you can mention @midjourney on twitter or link to https://twitter.com/midjourney Example post: "I made these images with tools from @midjourney, you can sign up for their private beta [here](http://bit.ly/3J2NNVs)"  Crediting Midjourney is not required.
 
 ---
 
-Q: Can i sell my images? What’s the license for my images? Commercial use for images?
+Q: Can I sell my images? What’s the license for my images? Commercial use for images?
 
 If you are paying member, you can use your images pretty much how you want, with some exceptions, (check <#964598182225002516> paragraph 4). Even if you are no longer subscribed.
 If you are a trial user, you can use your images only in non-commercial ways.
 
 ---
 
+Q: If I am a trial member but become a paid member, can I relicense already generated images done while I was a trial member?
 
+As a member you have the rights to use any image you have made, even the ones from your trial.
 
 
 
@@ -906,10 +920,14 @@ The banned word list is not publicly available.
 
 Q: What does project images have been disabled mean?
 
-In-progress images are sometimes disabled for jobs in relax mode that are taking awhile to generate. Don’t worry your final result will still be sent when it completes.
+In-progress images are sometimes disabled for jobs in relax mode that are taking a while to generate. Don’t worry your final result will still be sent when it completes.
 
 
 ---
+
+Q: Bot down?
+
+Check  <#942231458918064148> 
 
 
 
@@ -919,7 +937,7 @@ In-progress images are sometimes disabled for jobs in relax mode that are taking
 # -------------------- WHERE ARE MY IMAGES?! --------------------
 # -------------------- -------------------- --------------------
 
-Q: How can I find my images? It’s moving too fast, how can I see only my images? How to search for my images? Where is the gallery? Where can I see my images? How do I search for my creations? 
+Q: How can I find my images? It’s moving too fast, how can I see only my images? How to search for my images? Where is the gallery? Where can I see my images? How do I search for my creations? How do you find your previous prompts? Where are my images? How can i find image that I generated?
 
 You can use @ button on mobile. Or the inbox button (top right corner) on pc.
 %image=https://media.discordapp.net/attachments/984460137475497985/992116136219000943/unknown.png
@@ -953,23 +971,42 @@ We're very sorry if this causes anyone inconvenience but it's necessary for us t
 ---
 
 # -------------------- -------------------- --------------------
-# -------------------- UNCATAGORIZED --------------------
+# -------------------- UNCATEGORIZED --------------------
 # -------------------- -------------------- --------------------
 
 Q: Can I change the prompt after I’ve made it? Can I change the prompt?
 
-Right now, once you’ve made an image you cannot change the prompt. You can, however, create new images with new prompts from scratch at anytime.
+Right now, once you’ve made an image you cannot change the prompt. You can, however, create new images with new prompts from scratch at any time.
 
 ---
 
-Q: Can I have the user manual? Where do I find documentation? 
-
-Yes you can see detailed documentation here. https://midjourney.gitbook.io/docs/
-
----
 
 Q: Can I use other people’s images for commercial projects? 
 
 Please ask them first.
 
 ---
+
+Q: /image. /imagine
+
+See the [Quick Start Guidel](https://midjourney.gitbook.io/docs/)
+
+---
+
+
+
+
+# -------------------- -------------------- --------------------
+# -------------------- GUIDE KEYBINDS --------------------
+# -------------------- -------------------- --------------------
+
+Q: guideStop
+
+Adding the --stop parameter will stop your generation at an earlier percentage. 
+
+
+In this example: /imagine prompt: an abstract field of flowers --stop 50
+The grid will stop generating 50% of the way through resulting in softer less detailed images. 
+The stop parameter does not work when upscaling an image. 
+
+See [the documentation](https://midjourney.gitbook.io/docs/imagine-parameters#detail-modifiers), for more information.
