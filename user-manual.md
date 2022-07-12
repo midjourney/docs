@@ -79,7 +79,7 @@ Below are some of the "switches" you can add at the end of the command, using th
 
 **Size shortcuts**
 
-These are synonyms for longer commands.  In other words, using `--wallpaper` is the same as saying   `--w1920 --h 1024 --hd`.
+These are synonyms for longer commands.  In other words, using `--wallpaper` is the same as saying   `--w 1920 --h 1024 --hd`.
 
 `--wallpaper`: `--w 1920 --h 1024 --hd`
 

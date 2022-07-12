@@ -44,7 +44,7 @@ These "shortcuts" are command that do the same as the forms following the ":" in
 
 It would be the same as typing the longer form:
 
-`/imagine my heart is a lonely hunger --w 1920 --h 2024 --hd`
+`/imagine my heart is a lonely hunter --w 1920 --h 1024 --hd`
 
 ``
 
