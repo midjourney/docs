@@ -45,8 +45,11 @@ The ↻ submits the same job again, which will run with a different seed. You wi
 
 # -------------------- ---IMAGINE----- --------------------
 
-Q: I'm having trouble using the bot - how do I use /imagine? How do I use /imagine? How do I generate images? How to use? How do I use the bot? How does the bot work? So just /imagine [prompt] ? I type the prompts and nothing appears. How I use? I type the prompts and nothing appears? Imagine? How do I make art?
+Q: I'm having trouble using the bot - how do I use /imagine? How do I use /imagine? How do I generate images? How to use it? How do I use the bot? How does the bot work? So just /imagine [prompt] ? I type the prompts and nothing appears. How I use? I type the prompts and nothing appears? Imagine? How do I make art? How do I use midjourney? How do I prompt? how can i ask the ai to creaet img? How do I trial the program? How do I get started? how can i start using the midjourny as a free user?
 
+See the [Quick Start Guidel](https://midjourney.gitbook.io/docs/) for the basics.
+
+In any #newbies channel you can see, type /imagine and then your prompt:
 When you type `/imagine` try clicking on the box that pops up that says "prompt". It should say `/imagine` prompt then type what you want. See the image below
 
 %image=https://cdn.discordapp.com/attachments/961148616884506674/969225978356326470/ImaginePrompt.gif
@@ -73,11 +76,11 @@ Yes each action counts as a generation but each type of action takes a different
 
 ---
 
-Q: How do I trial the program? How do I get started? how can i start using the midjourny as a free user?
+Q: Is it possible to edit a prompt without restarting? 
 
-Read this [Quick Start Guide](https://midjourney.gitbook.io/docs/) to get started.
+It is not possible to edit or change a prompt at this time.
 
-
+---
 
 
 
@@ -91,7 +94,7 @@ We try to track usage in terms of compute-time. One GPU-minute is roughly the am
 
 ---
 
-Q: How do I see how many gpu hours I have left? How do I see how much I have used? How do I see how many hours I have left? Where can I check how many prompts I have left? How many images can I make? How can I see my queue? Where do I check my jobs? 
+Q: How do I see how many gpu hours I have left? How do I see how much I have used? How do I see how many hours I have left? Where can I check how many prompts I have left? How many images can I make? How can I see my queue? Where do I check my jobs? How do I check how many jobs I have left?
 
 Use `/info` in a bot channel to check your subscription status and usage.
 ---
@@ -137,7 +140,7 @@ Use `/fast` in a bot channel. This will enable fast generation, but you will be 
 
 ---
 
-Q: Relaxed mode seems slow tonight. Upscaling in relaxed mode seems to be on "Waiting to Start..." for a while. 
+Q: Relaxed mode seems slow tonight. Upscaling in relaxed mode seems to be on "Waiting to Start..." for a while.  What is the average wait time?
 
 Relaxed times vary based on a number of factors. Relaxed times are generally under 5 minutes but sometimes can be under a minute or closer to 15 minutes.
 
@@ -193,23 +196,22 @@ Use the /fast command after running out of your monthly fast hours to approve me
 
 Q: What is a "friend pass"? How many invites do I have? How do I see my invites? How can I get more invitations? When do I get more invites?
 
-With your subscription plan, you get a limited number of invitations you can send friends to invite them to try Midjourney.  The `/info` command will show you how many you have to give. We give out more each month. Use the `/invite` command as shown below. See the [User Manual](https://midjourney.gitbook.io/docs/user-manual#basic-commands-in-bot-channels), and also [this FAQ](https://midjourney.gitbook.io/docs/faqs#invites-or-friend-passes) for more information.
-
-%image=https://cdn.discordapp.com/attachments/961148616884506674/973955120721174538/invite2.gif
+Invites were a part of the closed beta. We are now in open beta and you can use this link to invite someone:
+https://discord.gg/midjourney
 
 ---
 
 Q: Do invites expire? My invite link was invalid.
 
-Invites generated with the /invite command expire after 24 hours.  Invites that are not used cannot be credited back to your account.
+Invites were a part of the closed beta. We are now in open beta and you can use this link to invite someone:
+https://discord.gg/midjourney
 
 ---
 
 Q: Can I invite someone to this server? How do I generate an invite? How can I invite someone? How can I use friend pass? Do I have an invite code? How can I use one of the invitations? 
 
-If you are subscribed you can type `/invite` to generate a invite code for them or you can send them the beta application form [here](http://bit.ly/3J2NNVs).  The plans mention "friend passes" which are invite links.  See the [User Manual](https://midjourney.gitbook.io/docs/user-manual#basic-commands-in-bot-channels), and also [this FAQ](https://midjourney.gitbook.io/docs/faqs#invites-or-friend-passes).
-
-%image=https://cdn.discordapp.com/attachments/961148616884506674/973955120721174538/invite2.gif
+Use this link to invite someone:
+https://discord.gg/midjourney
 
 ---
 
@@ -228,7 +230,7 @@ Yes, you will remain in the discord server.
 
 ---
 
-Q: Do trials reset monthly? Do I get more free images every month? Do I get free images every day? How many images do I get as a free user? Do trials reset monthly? Does my free trial renew? Is my trial a limited number per day or overall? How long is the trial? How many images can we do with the Trial Version? How many images can you generate with the basic trial?
+Q: Do trials reset monthly? Do I get more free images every month? Do I get free images every day? How many images do I get as a free user? Do trials reset monthly? Does my free trial renew? Is my trial a limited number per day or overall? How long is the trial? How many images can we do with the Trial Version? How many images can you generate with the basic trial? How many images does trial have? How many images does trial have?
 
 To expand the community sustainably, we're giving everyone a limited trial, and then several options to buy a full membership.
 
@@ -258,7 +260,7 @@ Type `/subscribe` and click the link provided or go to [https://www.midjourney.c
 
 Q: How much for a subscription? Where can I see plans? What’s the difference between Basic and Standard? How much does an unlimited plan cost? 
 
-%image=https://media.discordapp.net/attachments/958069758211797092/990262133654696026/unknown.png
+%image=https://cdn.discordapp.com/attachments/984460137475497985/996112315684491354/plans.png
 [Subscription page on a website](https://www.midjourney.com/account/)
 
 ---
@@ -304,7 +306,7 @@ Q: How can I cancel? How can I cancel my plan? How do I unsubscribe? How can I c
 You can cancel your subscription by heading over to [our 
 website](https://midjourney.com/account), or by typing “/subscribe” and following the link
 
-On the website click 'Edit My Plan' where you can cancel your plan. 
+On the website click 'View details & invoices' where you can cancel your plan. 
 
 You are free to cancel your subscription at any time but the cancellation will be effective at the end of the current billing cycle. So all the benefits and fast time will remain until the end of this cycle. If you change your mind, you can un-cancel your plan before the end of the cycle.
 
@@ -384,9 +386,9 @@ We are building a open-by-default community focused on collective exploration an
 
 Q: What's the 50$ plan? How do I hide my images? What's private mode? Private powers badge? I don't want people to see my images. How can I work privately? I don't want anyone to see my images and prompts. How do I go private? There is no $50 monthly plan though?
 
-Use `/private` to either activate or purchase private powers and work in your DMs . This will make your images private and hidden from the website, but costs more. It's a subscription upgrade that is available to either plan.
+Use `/private` to either activate or purchase private powers. This will make your images private and hidden from the website, but costs more. It's a subscription upgrade that is available to either plan.
 
-Even with /private mode enabled images you generate in public channels will be visible to other users of that channel.
+You must generate in DMs for your images to be completely private. Even with `/private` enabled, images you generate in public channels will be visible to other users of that channel.
 
 ---
 
@@ -440,7 +442,7 @@ More information about image size and resolution is available [on this page](htt
 # -------------------- PARAMETERS --------------------
 # -------------------- -------------------- --------------------
 
-Q: Is there documentation? Where can I find all the commands? Is there documentation? Is there an exhaustive list of arguments somewhere we can look at? Where can I find a reference of the various parameters for imagine? What are all the suffixes I can use? Can anyone help me with the commands syntax please?
+Q: Is there documentation? Where can I find all the commands? Is there documentation? Is there an exhaustive list of arguments somewhere we can look at? Where can I find a reference of the various parameters for imagine? What are all the suffixes I can use? Can anyone help me with the commands syntax please? Can I have the user manual? Where do I find documentation? 
 
 Yes please check it out [here](https://midjourney.gitbook.io/docs/user-manual)
 
@@ -717,9 +719,15 @@ The Feed is the public record of all upscaled community images. This includes im
 # -------------------- DIRECT MESSAGES -----------
 # -------------------- -------------------- --------------------
 
-Q: Can I use imagine in DMs? Is it possible to DM the bot and not be in a very crowded busy channel?
+Q: Can I use imagine in DMs? Is it possible to DM the bot and not be in a very crowded busy channel? Can I generate my images privately? How do I start my own room for creating photos?
+
 
 Paid members can message the bot directly in DMs and create images there.
+Message/tap on this @MidJourney Bot
+
+And don't forget to Right click on Midjourney server icon, click privacy settings, enable DMs from server members
+
+Remember that images generated in your DMs are still visible to everyone on Midjourney.com.
 
 ---
 
@@ -743,9 +751,7 @@ Go to Discord privacy settings for this server and toggle this on:
 
 Q: How do I DM the bot? Where can I DM bot? Where is my private channel? How can I make a solo room? How do I open a private chat with the bot?
 
-Subscribers can use commands in DMs with bot. The easiest way to initiate a DM conversation with the bot is to reply to a generation you made in a bot channel with the envelope emoji, :envelope:, and it will open a DM conversation with you in Discord. You will have to find it in your Discord Home, where Direct Messages and listed. Click on the MidJourney Bot. Now you can use the `/imagine` command and other commands listed below. Please note the images will still appear on the public gallery unless you use /private.
-
-You can also right-click on the bot in any bot channel, and you should see the option to message the bot.
+Subscribers can use commands in DMs with bot. You can right-click on the bot <@MidJourney Bot#9282> in any bot channel, and you should see the option to message the bot.Also you can  find it in your Discord Home, where Direct Messages are listed. Click on the MidJourney Bot. Now you can use the `/imagine` command and other commands listed below. Another way to initiate a DM conversation with the bot is to reply to a generation you made in a bot channel with the envelope emoji, :envelope:, and it will open a DM conversation with you in Discord. Please note the images created in DMs  will still appear in the public gallery unless you use /private.
 
 %image=https://cdn.discordapp.com/attachments/961148616884506674/981338414194507776/Discord_fzI0SoDLV8.gif
 
@@ -861,18 +867,20 @@ For complete details please see our terms of service.
 
 Q: Can I share images? Are we allowed to post the pictures created on instagram? Are we allowed to post the pictures created on twitter?
 
-You can! When you do please @midjourney on twitter or link to https://twitter.com/midjourney Example post: "I made these images with tools from @midjourney, you can sign up for their private beta [here](http://bit.ly/3J2NNVs)"
+You can! If you want, you can mention @midjourney on twitter or link to https://twitter.com/midjourney Example post: "I made these images with tools from @midjourney, you can sign up for their private beta [here](http://bit.ly/3J2NNVs)"  Crediting Midjourney is not required.
 
 ---
 
-Q: Can i sell my images? What’s the license for my images? Commercial use for images?
+Q: Can I sell my images? What’s the license for my images? Commercial use for images?
 
 If you are paying member, you can use your images pretty much how you want, with some exceptions, (check <#964598182225002516> paragraph 4). Even if you are no longer subscribed.
 If you are a trial user, you can use your images only in non-commercial ways.
 
 ---
 
+Q: If I am a trial member but become a paid member, can I relicense already generated images done while I was a trial member?
 
+As a member you have the rights to use any image you have made, even the ones from your trial.
 
 
 
@@ -906,10 +914,14 @@ The banned word list is not publicly available.
 
 Q: What does project images have been disabled mean?
 
-In-progress images are sometimes disabled for jobs in relax mode that are taking awhile to generate. Don’t worry your final result will still be sent when it completes.
+In-progress images are sometimes disabled for jobs in relax mode that are taking a while to generate. Don’t worry your final result will still be sent when it completes.
 
 
 ---
+
+Q: Bot down?
+
+Check  <#942231458918064148> 
 
 
 
@@ -919,7 +931,7 @@ In-progress images are sometimes disabled for jobs in relax mode that are taking
 # -------------------- WHERE ARE MY IMAGES?! --------------------
 # -------------------- -------------------- --------------------
 
-Q: How can I find my images? It’s moving too fast, how can I see only my images? How to search for my images? Where is the gallery? Where can I see my images? How do I search for my creations? 
+Q: How can I find my images? It’s moving too fast, how can I see only my images? How to search for my images? Where is the gallery? Where can I see my images? How do I search for my creations? How do you find your previous prompts? Where are my images? How can i find image that I generated?
 
 You can use @ button on mobile. Or the inbox button (top right corner) on pc.
 %image=https://media.discordapp.net/attachments/984460137475497985/992116136219000943/unknown.png
@@ -953,23 +965,43 @@ We're very sorry if this causes anyone inconvenience but it's necessary for us t
 ---
 
 # -------------------- -------------------- --------------------
-# -------------------- UNCATAGORIZED --------------------
+# -------------------- UNCATEGORIZED --------------------
 # -------------------- -------------------- --------------------
 
 Q: Can I change the prompt after I’ve made it? Can I change the prompt?
 
-Right now, once you’ve made an image you cannot change the prompt. You can, however, create new images with new prompts from scratch at anytime.
+Right now, once you’ve made an image you cannot change the prompt. You can, however, create new images with new prompts from scratch at any time.
 
 ---
 
-Q: Can I have the user manual? Where do I find documentation? 
-
-Yes you can see detailed documentation here. https://midjourney.gitbook.io/docs/
-
----
 
 Q: Can I use other people’s images for commercial projects? 
 
 Please ask them first.
 
 ---
+
+Q: /image. /imagine
+
+See the [Quick Start Guidel](https://midjourney.gitbook.io/docs/)
+
+---
+
+
+
+
+# -------------------- -------------------- --------------------
+# -------------------- GUIDE KEYBINDS --------------------
+# -------------------- -------------------- --------------------
+
+Q: guideStop
+
+Adding the --stop parameter will stop your generation at an earlier percentage. 
+
+
+In this example: /imagine prompt: an abstract field of flowers --stop 50
+The grid will stop generating 50% of the way through resulting in softer less detailed images. 
+The stop parameter does not work when upscaling an image. 
+
+See [the documentation](https://midjourney.gitbook.io/docs/imagine-parameters#detail-modifiers), for more information.
+
