@@ -50,11 +50,11 @@ Requests take a minute to generate four options based on your prompt.
 
 Two rows of buttons will appear: The top row of buttons: `U1` `U2` `U3` and `U4` are buttons for **upscaling** your chosen image. Upscaling an image generates a larger roughly 1024x1024 pixel version of the selected image while adding additional details.
 
-![Midjourney Buttons](https://user-images.githubusercontent.com/105028755/167755032-fe6935a9-b6a2-4b80-8f73-13916c170ceb.png)
+![](.gitbook/assets/167755032-fe6935a9-b6a2-4b80-8f73-13916c170ceb.png)
 
 After you use a "U" button to upscale, you will have a few more options:
 
-![UpscaleButtons](https://raw.githubusercontent.com/arnicas/MJ-Docs/main/.github/images/upscale\_buttons.png)
+![](.gitbook/assets/upscale\_buttons.png)
 
 'Make Variations' does the same as the "V" buttons, generating new alternatives in a grid, and the other buttons upscale even larger, or upscale again without as much detail added.
 

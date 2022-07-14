@@ -28,6 +28,8 @@ A list of links via the community that may or may not be entirely technically ac
 
 ["\~200 CLIP+VQGAN keywords on 4 subjects, by @kingdomakrillic"](https://imgur.com/a/SALxbQm)
 
+[Aesthetics Wiki](https://aesthetics.fandom.com/wiki/Special:AllPages) an extensive list of different aesthetic styles.
+
 
 
 ## Press
