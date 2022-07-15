@@ -4,7 +4,7 @@
   * [Where Is It?](web-app.md#where-is-it)
   * [The Nav Bar](web-app.md#the-nav-bar)
   * [Using Your Gallery](web-app.md#using-your-gallery)
-  * [Archive Timeline View](web-app.md#undefined)
+  * [Archive Timeline View](web-app.md#archive-timeline-view)
   * [Deleting Your Own Images](web-app.md#undefined)
   * [What's the Feed?](web-app.md#whats-the-feed)
   * [Image LeaderBoards and Rating](web-app.md#image-leaderboards-and-rating)

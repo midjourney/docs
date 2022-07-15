@@ -17,14 +17,14 @@ TOC:
 * [Welcome to Midjourney: Quick Start!](./#welcome-to-midjourney-quick-start)
   * [Code of Conduct](./#code-of-conduct)
   * [Create your First Image](./#create-your-first-image)
-    * [1. Select one of the `#Newbies` channels from the sidebar](./#1-select-one-of-the-newbies-channels-from-the-sidebar)
-    * [2. Use the /imagine Command](./#2-use-the-imagine-command)
-    * [3. Wait as the MidJourney Bot Processes Your Request](./#3-wait-as-the-midjourney-bot-processes-your-request)
-    * [4. Upscale your Image](./#4-upscale-your-image)
-    * [5. Save Your Image](./#5-save-your-image)
-    * [6. Send Results to Your DMs (Direct Messages)](./#6-send-results-to-your-dms-direct-messages)
-    * [7. Start a Thread If You Want.](./#7-start-a-thread-if-you-want)
-    * [8. Have Questions?](./#8-have-questions)
+    * [1. Select one of the `#Newbies` channels from the sidebar](./#1.-select-one-of-the-newbies-channels-from-the-sidebar)
+    * [2. Use the /imagine Command](./#2.-use-the-imagine-command)
+    * [3. Wait as the MidJourney Bot Processes Your Request](./#3.-wait-as-the-midjourney-bot-processes-your-request)
+    * [4. Upscale your Image](./#4.-upscale-your-image)
+    * [5. Save Your Image](./#5.-save-your-image)
+    * [6. Send Results to Your DMs (Direct Messages)](./#6.-send-results-to-your-dms-direct-messages)
+    * [7. ](./#7.-dm-the-bot-if-you-want-less-noise-around-and-are-a-subscriber)[DM the Bot Directly](./#7.-dm-the-bot-if-you-want-less-noise-around-and-are-a-subscriber)
+    * [8. Have Questions?](./#8.-have-questions)
 
 ## Create your First Image
 

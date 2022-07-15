@@ -5,7 +5,7 @@
   * [DMing the Bot (Direct Messaging)](FAQs.md#dming-the-bot-direct-messaging)
   * [Using Discord Channels](FAQs.md#using-discord-channels)
   * [Bot Commands](FAQs.md#bot-commands)
-  * [Inviting Friends](FAQs.md#invites-or-friend-passes)
+  * [Inviting Friends](FAQs.md#inviting-friends)
   * [Upscaling](FAQs.md#upscaling)
   * [Fast and Relaxed](FAQs.md#fast-and-relaxed)
   * [Seeds](FAQs.md#seeds)
@@ -157,7 +157,7 @@ A: You can generate 3 images at once. If you start more jobs you'll get a messag
 
 ## Inviting Friends
 
-Midjourney is now in open beta, which means anyone can join to try the service using the Discord link. Type /invite to see the Discord link they can use.
+Midjourney is now in open beta, which means anyone can join to try the service using the [Discord link](https://discord.gg/midjourney). Type /invite to see the Discord link (`https://discord.gg/midjourney`) they can use.
 
 ## Upscaling
 
