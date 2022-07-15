@@ -18,6 +18,8 @@ A list of links via the community that may or may not be entirely technically ac
 
 [How to make original characters in MJ using sketches (tweet from @shambibble)](https://twitter.com/shambibble/status/1537499258554925059)
 
+[A Chinese Midjourney resources doc made by user](https://sites.google.com/view/midjourney-resource-tips/%E9%A6%96%E9%A0%81) Reiko
+
 ## Broadly Applicable Tips
 
 [A guide to writing text prompts for AI art](https://docs.google.com/document/d/1XUT2G9LmkZataHFzmuOtRXnuWBfhvXDAo8DkS--8tec/edit)
@@ -28,7 +30,7 @@ A list of links via the community that may or may not be entirely technically ac
 
 ["\~200 CLIP+VQGAN keywords on 4 subjects, by @kingdomakrillic"](https://imgur.com/a/SALxbQm)
 
-[Aesthetics Wiki](https://aesthetics.fandom.com/wiki/Special:AllPages) an extensive list of different aesthetic styles.
+[Aesthetics Wiki](https://aesthetics.fandom.com/wiki/Special:AllPages) is an extensive list of different aesthetic styles.
 
 
 

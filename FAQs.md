@@ -5,7 +5,7 @@
   * [DMing the Bot (Direct Messaging)](FAQs.md#dming-the-bot-direct-messaging)
   * [Using Discord Channels](FAQs.md#using-discord-channels)
   * [Bot Commands](FAQs.md#bot-commands)
-  * [Invites or "Friend Passes"](FAQs.md#invites-or-friend-passes)
+  * [Inviting Friends](FAQs.md#invites-or-friend-passes)
   * [Upscaling](FAQs.md#upscaling)
   * [Fast and Relaxed](FAQs.md#fast-and-relaxed)
   * [Seeds](FAQs.md#seeds)
@@ -155,21 +155,9 @@ A: You can generate 3 images at once. If you start more jobs you'll get a messag
 
 
 
-## Invites or "Friend Passes"
+## Inviting Friends
 
-**Q: What is a "friend pass"?**
-
-With your subscription plan, you get a limited number of invitations you can send friends to invite them to try Midjourney.  The `/info` command should show you how many you have to give. We give out more each month. You will use the `/invite` command as shown below.
-
-**Q: How do I know how many invites I have left?**
-
-Use the `/info` command to see your plan usage including invites available.
-
-**Q: How do I invite someone?**
-
-A: In a bot channel, type `/invite`. It will create a one-time use link for you to copy and send to the person you want to invite. You do not need to provide their email or user name. Don't lose it! It will expire after 24 hours.
-
-![See an invite2.gif.](https://cdn.discordapp.com/attachments/961148616884506674/973955120721174538/invite2.gif)
+Midjourney is now in open beta, which means anyone can join to try the service using the Discord link. Type /invite to see the Discord link they can use.
 
 ## Upscaling
 
@@ -255,7 +243,7 @@ The Feed (button on the upper left) is the public record of all upscaled communi
 
 A: Type `/imagine` prompt as normal, but then in the prompt section, paste in the web address where the image is stored online. After the link you can still add new text prompts to complement it.  You can see some examples in the **Imagine Parameters** visual guide [here](imagine-parameters.md#image-prompting-with-url).
 
-An image URL must be a direct link to an online image, which you can usually get by right clicking on an image somewhere and choosing `Copy Link Address`. This address will usually end in a `.png` or `.jpg` if it's a usable address.
+An image URL must be a direct link to an online image, which you can usually get by right clicking on an image somewhere and choosing `Copy Link Address`. This address will usually end in a `.png` or `.jpg` if it's a usable address. See the gif [here](user-manual.md#image-prompting-with-url) for using one on Discord.
 
 **Q: Any tips regarding using two image sources? The results seem quite random... Is there any way to influence what those two images are doing?**
 
@@ -279,7 +267,7 @@ A: Yes, with --iw -0.5.
 
 **Q: How do I upload or use an image from my hard-drive for an image prompt?**
 
-It needs to be online, with a public URL, which you can do using Discord. If it's already online somewhere, right click on the image to 'copy image address (or link)' and go to step 5:
+It needs to be online, with a public URL, which you can do using Discord (see [demo gif](user-manual.md#image-prompting-with-url) here). If it's already online somewhere, right click on the image to 'copy image address (or link)' and go to step 5:
 
 On desktop:
 

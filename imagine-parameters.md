@@ -110,7 +110,7 @@ It would be the same as typing the longer form:
 
 
 
-![](<.gitbook/assets/image (25) (1).png>)![](<.gitbook/assets/image (20) (1).png>)
+![](<.gitbook/assets/image (25) (1).png>)![](<.gitbook/assets/image (20) (1) (1).png>)
 
 Normal upscale (left) vs Light Upscale (right)
 
@@ -120,13 +120,13 @@ Normal upscale (left) vs Light Upscale (right)
 
 `--seed` Sets the random seed (an integer), which can sometimes help keep things more steady / reproducible between generations.
 
-![](<.gitbook/assets/image (17).png>) ![](<.gitbook/assets/image (4) (1).png>)
+![](<.gitbook/assets/image (17).png>) ![](<.gitbook/assets/image (4) (1) (1).png>)
 
 `/imagine prompt: an abstract field of flowers` run twice without a seed.
 
 
 
-![](<.gitbook/assets/image (16).png>) ![](<.gitbook/assets/image (5) (1).png>)
+![](<.gitbook/assets/image (16).png>) ![](<.gitbook/assets/image (5) (1) (1).png>)
 
 `/imagine prompt: an abstract field of flowers --seed 1234` run twice.&#x20;
 

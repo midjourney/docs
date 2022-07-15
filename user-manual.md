@@ -33,7 +33,7 @@ Commands are functions of the Midjourney bot that can be typed in any bot channe
 
 `/fast` and `/relax` Toggles between "fast" and "relax" mode. In fast mode, if you are out of jobs, your jobs will be incrementally billed. In relax mode, your jobs do not cost, but take longer to generate.
 
-`/show` You can now use the \``` /show <jobid>` `` command to produce the resulting image and upscale+variation buttons, based on a job id. This allows you to take a job into a different channel, upscale a job from an archived thread, or other similar situations (like being moved from a newbies channel).
+`/show` You can now use the `/show <jobid>` command to produce the resulting image and upscale+variation buttons, based on a job id. This allows you to take a job into a different channel, upscale a job from an archived thread, or other similar situations (like being moved from a newbies channel).
 
 `/private` and `/public` Toggles between "private" and "public" mode. In private mode, your jobs are only visible to you. **In public mode, your jobs are visible to everyone in the gallery, even if you are creating them in a thread or a DM.** Access to private mode costs extra 20$ per month.
 
@@ -111,13 +111,15 @@ You can see an illustrated guide to all these parameters on [this page](imagine-
 
 ### Image Prompting with URL
 
-Add one or more image URLs to your prompt and it will use those images as visual inspiration. You can mix words with images or just have images alone. See [Image Prompt Questions](FAQs.md#image-prompt-questions) for more info.
+Add one or more image URLs to your prompt and it will use those images as visual inspiration. You can mix words with images or just have images alone. See [Image Prompt Questions](FAQs.md#image-prompt-questions) for more info and an animated gif below showing how to upload and use an image.
 
-**Note**: This is _not_ the same as building on top of (or "initializing" from) a starting input image as you may see in other generation tools. Midjourney does not currently offer the ability to use a starting image, due to concerns about community public content.  Instead, we let you use an image as inspiration, usually with text, to guide the generation.
+![Uploading an image to use with an image prompt](.gitbook/assets/Discord\_FHZfwDLhLY.gif)
 
 `--iw:` Adjusts the weight of the image URLs vs the text. They default to 0.25.  Experiment and see what you like. Also see [FAQ here](FAQs.md#image-prompt-questions).
 
 **Note**: There is currently no way to apply different weights to different image prompts. This will be addressed in the future.
+
+**Also Note**: This is _not_ the same as building on top of (or "initializing" from) a starting input image as you may see in other generation tools. Midjourney does not currently offer the ability to use a starting image, due to concerns about community public content.  Instead, we let you use an image as inspiration, usually with text, to guide the generation.
 
 ### Advanced Text Weights
 

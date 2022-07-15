@@ -4,6 +4,7 @@
   * [Where Is It?](web-app.md#where-is-it)
   * [The Nav Bar](web-app.md#the-nav-bar)
   * [Using Your Gallery](web-app.md#using-your-gallery)
+  * [Archive Timeline View](web-app.md#undefined)
   * [Deleting Your Own Images](web-app.md#undefined)
   * [What's the Feed?](web-app.md#whats-the-feed)
   * [Image LeaderBoards and Rating](web-app.md#image-leaderboards-and-rating)
@@ -22,13 +23,9 @@ If you are a subscriber, you can acess it (logged in with Discord credentials) a
 
 ## The Nav Bar
 
-
-
 The navigation menu is on the left side and can be reduced to just icons if you prefer, using the arrow on the top.
 
-![Nav Bar](<.gitbook/assets/image (5).png>)
-
-
+![Nav bar showing labels](<.gitbook/assets/Screen Shot 2022-07-15 at 4.48.03 PM (1).png>)
 
 ## Using Your Gallery
 
@@ -51,6 +48,16 @@ Clicking on an image will show you more details and offer more commands:
 Another way to filter the view is by showing things you have liked (bookmarked) with a ❤️ reaction.  If you click the heart button in the top bar, you will see only work you have reacted to with a heart emoji, including work by other others.
 
 ![Bookmarks are things you liked](<.gitbook/assets/image (19).png>)
+
+## Archive Timeline View
+
+If you use the Archive button on the top right of your gallery, or in the nav bar on the left, you will find a timeline organization of your images. (It will not "archive" any of you work, it's just a display.)
+
+![Upper right of your gallery page or in nav bar](<.gitbook/assets/image (5).png>)
+
+In this view, the right side contains a clickable timeline that will take you to the images you made on that date.
+
+![Clickable navigation calendar for your images](<.gitbook/assets/image (18).png>)
 
 ## Deleting Your Own Images
 
@@ -88,7 +95,7 @@ We will use these ratings to improve our AI so ratings are 'serious'.
 
 The map is a visualization of users of Midjourney by their prompts and similarity to other users.  You can use it to search for people to follow.
 
-![the Map (don't judge, I play a telephone game on MJ)](<.gitbook/assets/image (4).png>)
+![the Map (don't judge, I play a telephone game on MJ)](<.gitbook/assets/image (4) (1).png>)
 
 If you click on a dot, you can get more info about their work and view their feed.
 
@@ -118,12 +125,12 @@ Available under the Help section of the sidebar, the dictionary shows the output
 
 Available in [Styles](https://www.midjourney.com/app/library/styles/), you can find examples of artist and style applications. Styles that aren't shown here will still probably work for you, though.
 
-![Styles icon on left side](<.gitbook/assets/image (20).png>)
+![Styles icon on left side](<.gitbook/assets/image (20) (1).png>)
 
 ## Account and Subscription Settings
 
-On the lower left corner is your user icon. Click on it to find "Manage Plan." [This page](https://www.midjourney.com/account/) (if you are logged in) is your account settings and billing options. There are some subscription FAQs at the bottom.
+On the lower left corner is your user icon. Click on it to find "Manage Sub." [This page](https://www.midjourney.com/account/) (if you are logged in) is your account settings and billing options. There are some subscription FAQs at the bottom.
 
-![](<.gitbook/assets/image (2).png>)
+![Lower part of nav bar](<.gitbook/assets/image (20).png>)
 
 We use Stripe for credit card processing.
