@@ -45,7 +45,7 @@ The ↻ submits the same job again, which will run with a different seed. You wi
 
 # -------------------- ---IMAGINE----- --------------------
 
-Q: I'm having trouble using the bot - how do I use /imagine? How do I use /imagine? How do I generate images? How to use it? How do I use the bot? How does the bot work? So just /imagine [prompt] ? I type the prompts and nothing appears. How I use? I type the prompts and nothing appears? Imagine? How do I make art? How do I use midjourney? How do I prompt? how can i ask the ai to creaet img? How do I trial the program? How do I get started? how can i start using the midjourny as a free user?
+Q: I'm having trouble using the bot - how do I use /imagine? How do I use /imagine? How do I generate images? How to use it? How do I use the bot? How does the bot work? So just /imagine [prompt] ? I type the prompts and nothing appears. How I use? I type the prompts and nothing appears? Imagine? How do I make art? How do I use midjourney? How do I prompt? how can i ask the ai to create img? How do I trial the program? How do I get started? how can i start using the midjourny as a free user? /image? /imagine?
 
 See the [Quick Start Guidel](https://midjourney.gitbook.io/docs/) for the basics.
 
@@ -751,7 +751,7 @@ Go to Discord privacy settings for this server and toggle this on:
 
 Q: How do I DM the bot? Where can I DM bot? Where is my private channel? How can I make a solo room? How do I open a private chat with the bot?
 
-Subscribers can use commands in DMs with bot. You can right-click on the bot <@MidJourney Bot#9282> in any bot channel, and you should see the option to message the bot.Also you can  find it in your Discord Home, where Direct Messages are listed. Click on the MidJourney Bot. Now you can use the `/imagine` command and other commands listed below. Another way to initiate a DM conversation with the bot is to reply to a generation you made in a bot channel with the envelope emoji, :envelope:, and it will open a DM conversation with you in Discord. Please note the images created in DMs  will still appear in the public gallery unless you use /private.
+Subscribers can use commands in DMs with bot. You can right-click on the bot <@936929561302675456> in any bot channel, and you should see the option to message the bot.Also you can  find it in your Discord Home, where Direct Messages are listed. Click on the MidJourney Bot. Now you can use the `/imagine` command and other commands listed below. Another way to initiate a DM conversation with the bot is to reply to a generation you made in a bot channel with the envelope emoji, :envelope:, and it will open a DM conversation with you in Discord. Please note the images created in DMs  will still appear in the public gallery unless you use /private.
 
 %image=https://cdn.discordapp.com/attachments/961148616884506674/981338414194507776/Discord_fzI0SoDLV8.gif
 
@@ -980,13 +980,6 @@ Q: Can I use other people’s images for commercial projects?
 Please ask them first.
 
 ---
-
-Q: /image. /imagine
-
-See the [Quick Start Guidel](https://midjourney.gitbook.io/docs/)
-
----
-
 
 
 
