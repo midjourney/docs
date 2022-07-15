@@ -73,11 +73,11 @@ We may share Your personal information in the following situations:
 * **With Your consent**: We may disclose Your personal information for any other purpose with Your consent.
 * **With Law Enforcement**: Under certain circumstances, Midjourney may be required to disclose Your Personal Data if required to do so by law or in response to valid requests by public authorities (e.g. a court or a government agency). To the extent we receive a request from Law Enforcement for Your personal data, we will promptly notify You and provide You with a copy of the request, unless we are legally prohibited from doing so.
 * **With Other Parties in order to**: 
-* Comply with a legal obligation
-* Protect and defend the rights or property of the Company
-* Prevent or investigate possible wrongdoing in connection with the Service
-* Protect the personal safety of Users of the Service or the public
-* Protect against legal liability
+   - Comply with a legal obligation
+   - Protect and defend the rights or property of the Company
+   - Prevent or investigate possible wrongdoing in connection with the Service
+   - Protect the personal safety of Users of the Service or the public
+   - Protect against legal liability
 
 
 ## **2.4 Retention of Your Personal Data**
