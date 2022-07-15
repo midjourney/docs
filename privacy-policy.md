@@ -128,7 +128,7 @@ You are advised to review this Privacy Policy periodically for any changes. Chan
 
 # 6 Supplemental Terms and Conditions for Certain Regions 
 
-<span style="text-decoration:underline;">Europe</span>
+### **Europe**
 
 If You are located in the European Economic Area (the “EEA”), Switzerland, or the United Kingdom (the “UK”) Our legal basis for collecting and using the Personal Data described in this Policy will depend on the personal data concerned and the specific context in which we collect it. However, we will normally collect personal data from you only where we have your consent to do so, where we need the personal data to perform a contract with you, or where the processing is in our legitimate interests and not overridden by your data protection interests or fundamental rights and freedoms. In some cases, we may also have a legal obligation to collect personal data from you.
 
@@ -145,11 +145,11 @@ Additionally You have the following data protection rights:
 
 In order to exercise Your rights please contact [privacy@midjourney.com](mailto:Privacy@midjourney.com). 
 
-<span style="text-decoration:underline;">California</span>
+### **California**
 
 This Statement applies solely to residents of California or individuals whose information has been collected in California. Midjourney has adopted and included this notice to comply with the California Consumer Privacy Act of 2018 (“CCPA”). Any terms used in this Statement that are defined in the CCPA have the same meaning given therein.
 
-<span style="text-decoration:underline;">INFORMATION WE COLLECT</span>
+### **INFORMATION WE COLLECT**
 
 In the past twelve (12) months, Midjourney has collected the categories of personal information set forth below. We may disclose each of these categories of personal information to our service providers for our business purposes (to enable the service providers to provide their services) and as otherwise described in Section 2.3 “Sharing of Your Personal Data.”:
 
@@ -302,33 +302,33 @@ Conclusions that could be used to create a profile reflecting an individual’s 
 </table>
 
 
-<span style="text-decoration:underline;">SELLING INFORMATION</span>
+### **SELLING INFORMATION**
 
 Midjourney does not sell Your Personal Information, as defined under CCPA. If in the future we do sell your personal information, we will notify you and you may have the right to opt-out of such sale. 
 
-<span style="text-decoration:underline;">YOUR RIGHTS AND CHOICES</span>
+### **YOUR RIGHTS AND CHOICES**
 
 The CCPA provides individuals residing in California or whose Personal Information was collected in California with specific rights regarding their Personal information. The below describes your rights and how you may exercise them.
 
-<span style="text-decoration:underline;">Access to Specific Information and Data Portability Rights</span>
+### **Access to Specific Information and Data Portability Rights**
 
 You have the right to request that Midjourney disclose certain information to you about our collection and use of your Personal Information over the past twelve (12) months. Once Midjourney receives and confirms your verifiable information access request, Midjourney must disclose to you: (i) the categories of Personal Information we collected about you; (ii) the categories of sources for the Personal Information we collected about you; (iii) our business or commercial purpose for collecting or, if applicable, selling that Personal Information; (iv) the categories of third parties with whom we share that Personal Information; (v) the specific data points or pieces of Personal Information we collected about you. If we disclosed for a business purpose or sold your Personal Information, Midjourney must also provide separate lists that: (x) identify the personal information categories that were sold to each category of recipient in connection with sales of your Personal Information; and (y) identify the personal information categories that were provided to each category of recipient in connection with business purposes disclosures of your Personal Information..
 
-<span style="text-decoration:underline;">Deletion Request Rights</span>
+### **Deletion Request Rights**
 
 You have the right to request that Midjourney delete any of your Personal Information that we collected from you and/or retained. Unless subject to a certain limited exception, once Midjourney receives and confirms your verifiable data deletion request, we will delete (and direct our service providers to delete) your personal information from our records. Midjourney will notify you promptly if it determines it must deny your deletion request.
 
-<span style="text-decoration:underline;">Do Not Sell Opt-Out Rights</span>
+### **Do Not Sell Opt-Out Rights**
 
 You have the right to opt-out of any sales, as defined by the CCPA, of Personal Information by Midjourney. However, Midjourney does not sell your information.
 
-<span style="text-decoration:underline;">EXERCISING YOUR RIGHTS</span>
+### **EXERCISING YOUR RIGHTS**
 
 To exercise your access, data portability, and deletion or do not sell opt-out rights described above, you may submit a verifiable consumer request by any of the following means: By email to privacy@midjourney.com.
 
 You may only make a verifiable consumer request for access or data portability up to two times within a 12-month period. You may make a verifiable do not sell opt-out request at any time. Any such request must: (i) provide sufficient information that allows Us to reasonably verify that you are the person about whom we collected personal information or an authorized representative thereof; and (ii) describe your request with sufficient detail such that we may understand, evaluate, and respond to it. Midjourney cannot respond to your request or provide you with personal information if we cannot verify your identity or authority to make the request and confirm the personal information relates to you. Making a verifiable consumer request does not require you to create an account with Midjourney. Midjourney will only use personal information provided in a verifiable consumer request to verify the requestor’s identity or authority to make the request. Only you or a person registered with the California Secretary of State that you authorize to act on your behalf may make a verifiable consumer request related to your Personal Information. You may also make a verifiable consumer request on behalf of your minor child.
 
-<span style="text-decoration:underline;">Response Timing and Format</span>
+### **Response Timing and Format**
 
 We endeavor to respond to a verifiable consumer request within 45 days of its receipt. If we require more time (up to 90 days), we will inform you in writing of the extension period and the reason for it. Midjourney will deliver any required or requested responses or other communications in writing to you by email. Any disclosures we provide will only cover the 12-month period preceding the verifiable consumer request’s receipt. If applicable, the response we provide will also explain any reasons we cannot comply with a request. For data portability requests, Midjourney will provide your personal information in a format that is readily usable and transferable. Midjourney does not charge a fee to process or respond to your verifiable consumer request unless such requests become excessive, repetitive, or manifestly unfounded or as otherwise permitted by the CCPA. If we determine that a request warrants charging a fee, we will notify you and provide you with a cost estimate before completing your request.
 
