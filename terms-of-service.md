@@ -68,7 +68,7 @@ Corporate membership plans involve an upfront, non-refundable deposit for up to 
 
 # 5. DMCA and Takedowns Policy
 
-Midjourney uses an artificial intelligence system trained on public datasets to produce its Assets. Such Assets may be unintentionally similar to copyright protected material or trademarks you hold. We respect rights holders internationally. If you believe your copyright or trademark is being infringed by the Service, please write to [takedown@midjourney.com](mailto:takedown@midjourney.com) and we will process your request.
+Midjourney uses an artificial intelligence system trained on public datasets to produce its Assets. Such Assets may be unintentionally similar to copyright protected material or trademarks you hold. We respect rights holders internationally. If you believe your copyright or trademark is being infringed by the Service, please write to takedown@midjourney.com and we will process your request.
 
 
 

@@ -141,7 +141,7 @@ Additionally You have the following data protection rights:
 * If we have collected and processed your Personal Data with your consent, then you can withdraw your consent at any time. Withdrawing your consent will not affect the lawfulness of any processing we conducted prior to your withdrawal, nor will it affect processing of your Personal Data conducted in reliance on lawful processing grounds other than consent.
 * You have the right to complain to a data protection authority about our collection and use of your Personal Data.
 
-In order to exercise Your rights please contact [privacy@midjourney.com](mailto:Privacy@midjourney.com). 
+In order to exercise Your rights please contact privacy@midjourney.com. 
 
 ### **California**
 
