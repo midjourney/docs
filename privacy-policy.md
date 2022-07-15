@@ -1,6 +1,4 @@
 
-# **Privacy Policy for Midjourney**
-
 **Last updated: July 15, 2022**
 
 
