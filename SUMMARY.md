@@ -10,5 +10,7 @@
 * [Resource Links](resource-links/README.md)
   * [Tips for Text-Prompts](resource-links/guide-to-prompting.md)
   * [Understanding Image Size](resource-links/understanding-image-size.md)
+* [Terms of Service](terms-of-service.md)
+* [Privacy Policy](privacy-policy.md)
 * [Go to Midjourney Discord](http://discord.gg/midjourney)
 * [Go to Midjourney Website](https://www.midjourney.com/app/)
