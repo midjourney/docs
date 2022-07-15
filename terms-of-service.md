@@ -58,7 +58,7 @@ If you are not a Paid Member, Midjourney grants you a license to the Assets unde
 
 The full text is accessible as of the Effective Date here: [https://creativecommons.org/licenses/by-nc/4.0/legalcode](https://creativecommons.org/licenses/by-nc/4.0/legalcode). 
 
-## _Exception 2: Corporate-User License Terms_**
+## _Exception 2: Corporate-User License Terms_
 
 If you are an employee of a company with more than $1,000,000 USD a year in gross revenue, you must purchase a corporate membership plan to use the Services or copy the Assets for your company. 
 
