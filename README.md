@@ -1,6 +1,6 @@
 # Quick Start Guide
 
-Midjourney is a new research lab focused on new mediums and tools for empowering people. There are two ways to experience the tools: the Discord server, where you will generate images, and the web app at [https://www.midjourney.com/](https://www.midjourney.com/app/), where you can find a gallery of your own work and other users' creations.
+Midjourney is a new research lab focused on new mediums and tools for empowering people. There are two ways to experience the tools: the Discord server ([https://discord.gg/midjourney](https://discord.gg/midjourney)), where you will generate images, and the web app at [https://www.midjourney.com/](https://www.midjourney.com/app/), where you can find a gallery of your own work and other users' creations.
 
 ### Code of Conduct
 
@@ -28,7 +28,7 @@ TOC:
 
 ## Create your First Image
 
-Once you have joined the Discord server you will be able to create a limited number of (about 25) images before needing to subscribe.
+First join the discord server with this link: [https://discord.gg/midjourney](https://discord.gg/midjourney) Once you have joined the Discord server you will be able to create a limited number of (about 25) images before needing to subscribe.
 
 #### 1. Select one of the `#Newbies` channels from the sidebar
 
