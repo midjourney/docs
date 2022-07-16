@@ -60,11 +60,9 @@ The full text is accessible as of the Effective Date here: [https://creativecomm
 
 ## _Exception 2: Corporate-User License Terms_
 
-If you are an employee of a company with more than $1,000,000 USD a year in gross revenue, you must purchase a corporate membership plan to use the Services or copy the Assets for your company. 
+If you are an employee or owner of a company with more than $1,000,000 USD a year in gross revenue, and you are using the Services to benefit your Employer or company you must purchase a corporate membership plan to use the Services or copy the Assets for your company. 
 
 Corporate membership plans involve an upfront, non-refundable deposit for up to 12 months of service. 
-
-
 
 # 5. DMCA and Takedowns Policy
 
