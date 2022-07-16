@@ -1,4 +1,4 @@
-**Version Effective Date: Jul 15, 2021**
+**Version Effective Date: Jul 15, 2022**
 
 Thank you for using Midjourney’s image generation and chat services (the “Services”). These Terms of Service (the “Agreement”) spell out what rights you have with respect to the Service generated images, and other assets, which you generate (the “Assets”), your use of the Services, and other important topics like arbitration. Please read it carefully.  We have a privacy policy which outlines how we handle your data [here](privacy-policy.md). 
 
