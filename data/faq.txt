@@ -47,7 +47,7 @@ The ↻ submits the same job again, which will run with a different seed. You wi
 
 Q: I'm having trouble using the bot - how do I use /imagine? How do I use /imagine? How do I generate images? How to use it? How do I use the bot? How does the bot work? So just /imagine [prompt] ? I type the prompts and nothing appears. How I use? I type the prompts and nothing appears? Imagine? How do I make art? How do I use midjourney? How do I prompt? how can i ask the ai to create img? How do I trial the program? How do I get started? how can i start using the midjourny as a free user? /image? /imagine?
 
-See the [Quick Start Guidel](https://midjourney.gitbook.io/docs/) for the basics.
+See the [Quick Start Guide](https://midjourney.gitbook.io/docs/) for the basics.
 
 In any #newbies channel you can see, type /imagine and then your prompt:
 When you type `/imagine` try clicking on the box that pops up that says "prompt". It should say `/imagine` prompt then type what you want. See the image below
