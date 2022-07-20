@@ -107,7 +107,7 @@ You can see an illustrated guide to all these parameters on [this page](imagine-
 
 ⭐️ Marks image as "favorite". This shows in a separate feed on the web gallery and sends the image to the #favorites channel.
 
-❌ Cancels or deletes a generation at any time. It is also removed from the web gallery. Please help us by removing content you accidentally generated that is in violation of our PG-13 content guidelines (see [Content and Moderation](content-and-moderation\_policy.md)).
+❌ Cancels or deletes a generation at any time. It is also removed from the web gallery. Please help us by removing content you accidentally generated that is in violation of our PG-13 content guidelines (see [Content and Moderation](content-and-moderation-policy.md)).
 
 ### Image Prompting with URL
 
@@ -146,6 +146,8 @@ Prompts with a negative total weight are not allowed.
 `/prefer auto_dm True` — Jobs will be automatically DMed to you. Set False to turn this off.
 
 `/prefer option set <name> <value>` — This creates a personal option, which then translates to specified value when you invoke it by prepending it with --. Only you can use this option. For example, `/prefer option set mine --hd --w 512` creates an option called "mine" that translates to `--hd --w 512`. So you can use `/imagine rubber ducks are awesome --mine`, and it will be the exact same as if you did `/imagine rubber ducks are awesome --hd --w 512`. Leave the value field empty to delete an option.
+
+![/prefer option set has two fields that must be entered](<.gitbook/assets/image (26).png>)
 
 `/prefer option list` — This will list your currently set personal options. You may keep a maximum of 20 personal options.
 

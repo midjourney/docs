@@ -24,7 +24,7 @@ Parameters are bot options that change how the images will be generated. For ins
 
 ![](<.gitbook/assets/image (9).png>) /imagine: prompt **an abstract field of flowers**
 
-![](<.gitbook/assets/image (26).png>) /imagine prompt: **an abstract field of flowers --w 448**
+![](<.gitbook/assets/image (14) (1) (1).png>) /imagine prompt: **an abstract field of flowers --w 448**
 
 
 
@@ -80,7 +80,7 @@ It would be the same as typing the longer form:
 
 `--vibefast` Faster version of the old algorithm.
 
-![](<.gitbook/assets/image (23) (1).png>) /imagine prompt: **an abstract field of flowers --vibe fast**
+![](<.gitbook/assets/image (22).png>) /imagine prompt: **an abstract field of flowers --vibe fast**
 
 ``
 
@@ -94,7 +94,7 @@ It would be the same as typing the longer form:
 
 `--no` Negative prompting (e.g., `--no plants` would try to remove plants).  This is like giving it a weight of -0.5.
 
-![](<.gitbook/assets/image (10).png>) /imagine prompt: **an abstract field of flowers --no blue**
+![](<.gitbook/assets/image (1) (2).png>) /imagine prompt: **an abstract field of flowers --no blue**
 
 
 
@@ -135,7 +135,11 @@ Normal upscale (left) vs Light Upscale (right)
 `--sameseed <number>` Sets the same seed across all images of the resulting grid. \
 The `sameseed` can be any positive integer.
 
-![](<.gitbook/assets/image (15) (1).png>) /imagine prompt: **an abstract field of flowers** **--sameseed 1234**
+![](<.gitbook/assets/image (15) (1).png>)&#x20;
+
+`/imagine prompt:`` `**`an abstract field of flowers --sameseed 1234`**
+
+
 
 ``
 

@@ -65,13 +65,20 @@ There are 2 mainstream plans: Basic and Standard. Both can add a **Private** Pow
 
 ## Commercial Terms
 
-Basically you can use unlimited images (of your own creation) for whatever you want, as long as you meet the following conditions:
+Basically you own all Assets you create with the Services. This does not apply if you fall under the exceptions below. See [Terms of Service](terms-of-service.md) for full details.
 
-1. Your account is essentially only used by you (we don't want large groups sharing single accounts).
-2. If you are using our service for your work as an employee of a corporation with more than $1M/yr in revenue (and you want these terms) you MUST update to the 'corporate' plan via typing `/subscribe` and clicking "enterprise" (it is $50/mo paid annually).
-3. if your project has anything to do with blockchain, you must pay a 20% royalty on revenue over $20k/mo.
+1.  _**Exception 1: Non-Paid Members License Terms**_
 
-Please keep in mind that these terms are beta and we will continue to iterate on them as the beta progresses. Read the complete terms in the Discord #rules channel.
+    If you are not a Paid Member, Midjourney grants you a license to the Assets under the Creative Commons Noncommercial 4.0 Attribution International License (the “Asset License”).
+
+    The full text is accessible as of the Effective Date here: [https://creativecommons.org/licenses/by-nc/4.0/legalcode](https://creativecommons.org/licenses/by-nc/4.0/legalcode).
+2.  _**Exception 2: Corporate-User License Terms**_
+
+    If you are an employee or owner of a company with more than $1,000,000 USD a year in gross revenue, and you are using the Services to benefit your Employer or company you must purchase a corporate membership plan to use the Services or copy the Assets for your company. Corporate membership plans involve an upfront, non-refundable deposit for up to 12 months of service.
+
+Please note: These terms are beta and we will continue to iterate on them as the beta progresses.&#x20;
+
+Please note: Midjourney is an open community which allows others to use and remix your images and prompts whenever they are posted in a public setting. By default, your images are publically viewable and remixable. As described above, you grant Midjourney a license to allow this. If you purchase a private plan, you may bypass some of these public sharing defaults.
 
 ## Cancellation or Changes
 

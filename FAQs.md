@@ -33,11 +33,11 @@ You can! When you do pls @midjourney on twitter or link to https://twitter.com/m
 
 **Q: Can I invite someone to this server?**
 
-You can purchase a subscription plan and type /invite to generate a invite code for them or you can send them the beta application form here: http://bit.ly/3J2NNVs.  The plans mention "friend passes" which are invite links.  See the [User Manual](user-manual.md#basic-commands-in-bot-channels), and also [this FAQ](FAQs.md#invites-or-friend-passes).
+Midjourney is now in open beta, which means anyone can join to try the service using the [Discord link](https://discord.gg/midjourney). Type /invite to see the Discord link (`https://discord.gg/midjourney`) they can use.
 
 **Q: Can I do detailed public reviews of the current beta? Can I post screenshots / videos of the Discord?**
 
-Please don't. The algorithms and experience will significantly change in the coming weeks.
+Yes! But please specify the date in your review and say the experience is still changing signifigantly.
 
 **Q: Are you taking investment?**
 
@@ -45,7 +45,7 @@ We are not taking equity investment at this time. Business partnerships and dona
 
 **Q: I'm a reporter / blogger and want to write something**
 
-Please reach out to david@midjourney.com
+Please reach out to press@midjourney.com
 
 **Q: Where does your funding come from?**
 
@@ -57,11 +57,11 @@ We're figuring things out, but our goal is to allow as many people access to the
 
 **Q: Can I help? Are you hiring?**
 
-Yes! Email david@midjourney.com about what you enjoy doing (twitter/linkedin/resume helps us respond faster)
+Yes! Email careers@midjourney.com about what you enjoy doing (twitter/linkedin/resume helps us respond faster) ﻿
 
 **Q: Can we use images for commercial projects?**
 
-Check the [#rules](https://discord.com/channels/662267976984297473/964598182225002516/964599412460519476) for some basic terms and contact @DavidH if you have anything big you need something custom for
+Check the [Terms of Service](terms-of-service.md) for some basic terms and contact @DavidH if you have anything big you need something custom for
 
 ## DMing the Bot (Direct Messaging)
 

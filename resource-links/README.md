@@ -20,6 +20,8 @@ A list of links via the community that may or may not be entirely technically ac
 
 [A Chinese Midjourney resources doc made by user](https://sites.google.com/view/midjourney-resource-tips/%E9%A6%96%E9%A0%81) Reiko
 
+[https://github.com/willwulfken/MidJourney-Styles-and-Keywords-Reference](https://github.com/willwulfken/MidJourney-Styles-and-Keywords-Reference) by willwulfken
+
 ## Broadly Applicable Tips
 
 [A guide to writing text prompts for AI art](https://docs.google.com/document/d/1XUT2G9LmkZataHFzmuOtRXnuWBfhvXDAo8DkS--8tec/edit)
