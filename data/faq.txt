@@ -47,7 +47,7 @@ The ↻ submits the same job again, which will run with a different seed. You wi
 
 Q: I'm having trouble using the bot - how do I use /imagine? How do I use /imagine? How do I generate images? How to use it? How do I use the bot? How does the bot work? So just /imagine [prompt] ? I type the prompts and nothing appears. How I use? I type the prompts and nothing appears? Imagine? How do I make art? How do I use midjourney? How do I prompt? how can i ask the ai to create img? How do I trial the program? How do I get started? how can i start using the midjourny as a free user? /image? /imagine?
 
-See the [Quick Start Guide](https://midjourney.gitbook.io/docs/) for the basics.
+See the [Quick Start Guidel](https://midjourney.gitbook.io/docs/) for the basics.
 
 In any #newbies channel you can see, type /imagine and then your prompt:
 When you type `/imagine` try clicking on the box that pops up that says "prompt". It should say `/imagine` prompt then type what you want. See the image below
@@ -110,7 +110,7 @@ Use `/info` in a bot channel to check your subscription status and usage.
 
 # -------------------- -----RELAX----- --------------------
 
-Q: What is relax mode? Why was it faster before? In the plan it never said that I have limited fast hours.
+Q: What is relax mode? Why was it faster before? In the plan it never said that I have limited fast hours? Relax Time?
 
 We have two modes for image generation, “fast” and “relax”. Fast tries to give you a GPU instantly. It's our highest priority processing tier, and it's kinda expensive. “Relax” puts you in a queue behind others based on how much you’ve used the system.
 
@@ -149,9 +149,9 @@ Relaxed times vary based on a number of factors. Relaxed times are generally und
 
 # -------------------- ------FAST------ --------------------
 
-Q: What is fast mode? What does fast-hours mean?
+Q: What is fast mode? What does fast-hours mean? Fast time?
 
-We have two modes for image generation, “fast” and “relax”. Fast tries to give you a GPU instantly. It's our highest priority processing tier. “Relax” puts you in a queue behind others based on how much you’ve used the system.
+We have two modes for image generation, “fast” and “relax”. Fast tries to give you a GPU instantly. It's our highest priority processing tier. “Relax” puts you in a queue behind others based on how much you’ve used the system. 
 
 Right now, we give 15 gpu-hours/mo of ‘fast’ with the ‘Standard’ plan and 200 gpu-minutes/mo with the ‘Basic’ plan.
 
@@ -238,8 +238,11 @@ Each new user gets a free-trial of around 25 images. This trial can be used over
 
 ---
 
+Q: Why isn’t this free? Do I really have to pay for this? Can you give me free access? No free?
 
+Midjourney does not provide a free tier because of the sheer cost involved with using farms of hundreds to thousands of GPUs. As it is, we don’t make much profit on our paid plans, and we cannot afford to provide a free tier to users at this time because we don’t have the resources to do so. Please note that the free trial is a one-time allocation of 25 GPU minutes, and creating alternate accounts to take advantage of the trial multiple times **WILL** result in a ban.
 
+---
 
 
 # -------------------- -------------------- --------------------
@@ -306,7 +309,7 @@ Q: How can I cancel? How can I cancel my plan? How do I unsubscribe? How can I c
 You can cancel your subscription by heading over to [our 
 website](https://midjourney.com/account), or by typing “/subscribe” and following the link
 
-On the website click 'View details & invoices' where you can cancel your plan. 
+On the website underneath 'View details & invoices' you can click `Cancel Plan`
 
 You are free to cancel your subscription at any time but the cancellation will be effective at the end of the current billing cycle. So all the benefits and fast time will remain until the end of this cycle. If you change your mind, you can un-cancel your plan before the end of the cycle.
 
@@ -350,7 +353,7 @@ Q: Can I switch plans? If I switch to Standard it will be 20$ or 30$ ?
 If you used all your time in Basic -> Standard still will cost you 30$.
 If you used half of the Basic time -> it will be 25$
 And so on 
-
+If you used none of the Basic time -> it will be 20$
 ---
 
 Q: Is it paid to make images? Aw I need to pay? Do I need to pay?
@@ -444,7 +447,7 @@ More information about image size and resolution is available [on this page](htt
 
 Q: Is there documentation? Where can I find all the commands? Is there documentation? Is there an exhaustive list of arguments somewhere we can look at? Where can I find a reference of the various parameters for imagine? What are all the suffixes I can use? Can anyone help me with the commands syntax please? Can I have the user manual? Where do I find documentation? 
 
-Yes please check it out [here](https://midjourney.gitbook.io/docs/user-manual)
+Yes, you are definitely should check out our [documentation](https://midjourney.gitbook.io/docs/user-manual)
 
 ---
 
@@ -934,7 +937,7 @@ Check  <#942231458918064148>
 Q: How can I find my images? It’s moving too fast, how can I see only my images? How to search for my images? Where is the gallery? Where can I see my images? How do I search for my creations? How do you find your previous prompts? Where are my images? How can i find image that I generated?
 
 You can use @ button on mobile. Or the inbox button (top right corner) on pc.
-%image=https://media.discordapp.net/attachments/984460137475497985/992116136219000943/unknown.png
+%image=https://media.discordapp.net/attachments/978364411662196776/997829253238358107/How_To_Access_Mentions_v1.png
 Another way is to open your gallery https://www.midjourney.com/app/
 
 ---
