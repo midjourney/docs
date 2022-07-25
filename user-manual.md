@@ -9,10 +9,12 @@ That said, enjoy creating beautiful images! In this page:
 * [User Manual](user-manual.md#user-manual)
   * [Basic Commands in Bot Channels](user-manual.md#basic-commands-in-bot-channels)
   * [Parameters to "/imagine"](user-manual.md#parameters-to-imagine)
+  * [Stylize Values](user-manual.md#stylize-values)
+  * [Quality Values](user-manual.md#undefined)
   * [Emoji Reactions to Generation Output](user-manual.md#emoji-reactions-to-generation-output)
   * [Image Prompting with URL](user-manual.md#image-prompting-with-url)
   * [Advanced Text Weights](user-manual.md#advanced-text-weights)
-  * [Discord Prompt Preferences](user-manual.md#discord-prompt-preferences)
+  * [Prompt Preferences and Settings](user-manual.md#prompt-preferences-and-settings)
   * [Deprecated: May Want To Avoid](user-manual.md#deprecated-may-want-to-avoid)
 
 ### Basic Commands in Bot Channels
@@ -63,9 +65,11 @@ Below are some of the "switches" you can add at the end of the command, using th
 
 `--fast` Faster images, less consistency
 
-`--vibe` Uses old algorithm (more vibes, more abstract, sometimes better for macro or textures)
+`--version <1 or 2>` or `--v <1 or 2>`  Uses old algorithms 1 (which was formerly the "vibe" option, sometimes better for macro or textures) or 2, the last improvement.  We are at 3 now, which you do not need to specify.  So specify `--version 2` to use the previous older model, or `--version 1` for the one before.
 
-`--vibefast` Faster version of the old algorithm
+`--stylize <number>`, or `--s <number>` The stylize argument sets how strong of a 'stylization' your images have, the higher you set it, the more opinionated it will be. Default number is 2500. [See below](user-manual.md#undefined) for more info.
+
+`--quality <number>` , or `--q <number>` How much rendering quality time you want to spend. Default number is 1. Higher values cost more, [see below](user-manual.md#undefined).
 
 `--hd` Uses a different algorithm that’s potentially better for larger images, but with less consistent composition. Best for abstract and landscape prompts.
 
@@ -96,6 +100,34 @@ These are synonyms for longer commands.  In other words, using `--wallpaper` is 
 `--lp`: `--w 512 --h 768 --hd`
 
 You can see an illustrated guide to all these parameters on [this page](imagine-parameters.md).  You can read more about image sizes and how to interpret them on [Understanding Image Size](resource-links/understanding-image-size.md).
+
+### Stylize Values
+
+These can all be used with the shortcut version `--s` instead.
+
+`--stylize 625` If you basically want to turn it off and be less artistic.
+
+`--stylize 1250` Good for when you want it to be 'less strict' but still 'pretty' (this is probably recommended for skilled users).
+
+`--stylize 2500` The **default value**, so you don't have to specify this.
+
+`--stylize 20000` If you want it to 'take over' and start drifting from your text, but not go crazy.&#x20;
+
+`--stylize 60000` Hands off the wheels, who knows what will happen. It may look nothing like your prompt.
+
+### Quality Values
+
+The shortcut version is `--q`.
+
+`--quality 0.25` Rough results, 4x faster / cheaper.&#x20;
+
+`--quality 0.5` Less detailed results but 2x faster / cheaper.
+
+`--quality 1` The **default value**, you do not need to specify it.
+
+`--quality 2` More detailed results, but 2x slower and 2x the price (2 minutes per image).&#x20;
+
+`--quality 5` kind of experimental, 'might' be more creative or detailed (also might be worse!) (5 minutes per image).
 
 ### Emoji Reactions to Generation Output
 
@@ -135,9 +167,11 @@ Prompts with a negative total weight are not allowed.
 
 **Note**: The `--no` command is equivalent to using weight -0.5.  For instance, `--no farms` means don't include farms in the output, same as `farms::-.5`
 
-``
+### Prompt Preferences and Settings
 
-### Discord Prompt Preferences
+`/settings` will give you some buttons to choose your preferences, like the `/prefer` command but visually.  Each row is a toggle button, meaning turning one on will turn the others off.&#x20;
+
+![/settings options](<.gitbook/assets/image (6).png>)
 
 `/prefer suffix <text>` — This will automatically append this suffix after all prompts you submit. Leave empty to reset.
 
@@ -147,7 +181,7 @@ Prompts with a negative total weight are not allowed.
 
 `/prefer option set <name> <value>` — This creates a personal option, which then translates to specified value when you invoke it by prepending it with --. Only you can use this option. For example, `/prefer option set mine --hd --w 512` creates an option called "mine" that translates to `--hd --w 512`. So you can use `/imagine rubber ducks are awesome --mine`, and it will be the exact same as if you did `/imagine rubber ducks are awesome --hd --w 512`. Leave the value field empty to delete an option.
 
-![/prefer option set has two fields that must be entered](<.gitbook/assets/image (26).png>)
+![the /prefer option and value input](.gitbook/assets/prefer\_image.png)
 
 `/prefer option list` — This will list your currently set personal options. You may keep a maximum of 20 personal options.
 

@@ -22,6 +22,12 @@ A list of links via the community that may or may not be entirely technically ac
 
 [https://github.com/willwulfken/MidJourney-Styles-and-Keywords-Reference](https://github.com/willwulfken/MidJourney-Styles-and-Keywords-Reference) by willwulfken
 
+[Artistic Visual Style Encyclopedia by Sincarnate](https://docs.google.com/spreadsheets/d/10i9Ip8tVSERAuMWbc6-H6BUFCoUGOQ91YzDvX--c4bk/edit#gid=0)
+
+[Prompt Styles and Weights ](https://sites.google.com/view/understanding-mj-prompts/home)huge doc from Tallath with other resource links too
+
+[Understanding Midjourney Through Teapots](https://rexwang8.github.io/resource/ai/teapot), a guide by bob#1236
+
 ## Broadly Applicable Tips
 
 [A guide to writing text prompts for AI art](https://docs.google.com/document/d/1XUT2G9LmkZataHFzmuOtRXnuWBfhvXDAo8DkS--8tec/edit)

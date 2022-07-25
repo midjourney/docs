@@ -109,7 +109,7 @@ If you click on a dot, you can get more info about their work and view their fee
 
 If you want to follow people's work, you can do that from the menu on their images in the feed. They will appear in your Personal Feed page.
 
-![Where you can see the work of Great Artists on MJ](<.gitbook/assets/image (6).png>)
+![Where you can see the work of Great Artists on MJ](<.gitbook/assets/image (6) (1).png>)
 
 ## Viewing Great Images!
 

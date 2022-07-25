@@ -72,15 +72,9 @@ It would be the same as typing the longer form:
 
 ``
 
-`--vibe` Uses old algorithm (more vibes, more abstract, sometimes better for macro or textures).
+`--version 1` Uses old algorithm (more vibes, more abstract, sometimes better for macro or textures).
 
-![](<.gitbook/assets/image (12).png>) /imagine prompt: **an abstract field of flowers --vibe**
-
-
-
-`--vibefast` Faster version of the old algorithm.
-
-![](<.gitbook/assets/image (22).png>) /imagine prompt: **an abstract field of flowers --vibe fast**
+![](<.gitbook/assets/image (12).png>) /imagine prompt: **an abstract field of flowers --version 1**
 
 ``
 
