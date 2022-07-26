@@ -67,9 +67,9 @@ Below are some of the "switches" you can add at the end of the command, using th
 
 `--version <1 or 2>` or `--v <1 or 2>`  Uses old algorithms 1 (which was formerly the "vibe" option, sometimes better for macro or textures) or 2, the last improvement.  We are at 3 now, which you do not need to specify.  So specify `--version 2` to use the previous older model, or `--version 1` for the one before.
 
-`--stylize <number>`, or `--s <number>` The stylize argument sets how strong of a 'stylization' your images have, the higher you set it, the more opinionated it will be. Default number is 2500. [See below](user-manual.md#undefined) for more info.
+`--stylize <number>`, or `--s <number>` The stylize argument sets how strong of a 'stylization' your images have, the higher you set it, the more opinionated it will be. Default number is 2500. [See below](user-manual.md#stylize-values) for more info.
 
-`--quality <number>` , or `--q <number>` How much rendering quality time you want to spend. Default number is 1. Higher values cost more, [see below](user-manual.md#undefined).
+`--quality <number>` , or `--q <number>` How much rendering quality time you want to spend. Default number is 1. Higher values cost more, [see below](user-manual.md#quality-values).
 
 `--hd` Uses a different algorithm that’s potentially better for larger images, but with less consistent composition. Best for abstract and landscape prompts.
 
