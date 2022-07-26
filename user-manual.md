@@ -33,11 +33,9 @@ Commands are functions of the Midjourney bot that can be typed in any bot channe
 
 `/subscribe` Get a link to the subscription page
 
-`/fast` and `/relax` Toggles between "fast" and "relax" mode. In fast mode, if you are out of jobs, your jobs will be incrementally billed. In relax mode, your jobs do not cost, but take longer to generate.
+`/settings` View and edit your personal settings
 
 `/show` You can now use the `/show <jobid>` command to produce the resulting image and upscale+variation buttons, based on a job id. This allows you to take a job into a different channel, upscale a job from an archived thread, or other similar situations (like being moved from a newbies channel).
-
-`/private` and `/public` Toggles between "private" and "public" mode. In private mode, your jobs are only visible to you. **In public mode, your jobs are visible to everyone in the gallery, even if you are creating them in a thread or a DM.** Access to private mode costs extra 20$ per month.
 
 You can find more documentation on using these in our [FAQs](FAQs.md).
 

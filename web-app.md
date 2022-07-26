@@ -71,7 +71,7 @@ There is currently no way to delete your images via the gallery.  The best way t
 
 ## What's the Feed?
 
-The ["feed"](https://www.midjourney.com/app/feed/) is the community record of public upscales, which includes DMs with the bot that are not paid /private usage. If you mouse over an image, you will see the prompt.
+The ["feed"](https://www.midjourney.com/app/feed/) is the community record of public upscales, which includes DMs with the bot that are not paid `/private` usage. If you mouse over an image, you will see the prompt.
 
 
 

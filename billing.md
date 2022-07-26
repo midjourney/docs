@@ -54,7 +54,7 @@ Are you using MidJourney as an employee for a company with over $1Million/year i
 
 * Your available ['fast' time](https://midjourney.gitbook.io/docs/faqs#fast-and-relaxed) is set to 15 GPU hours (900 GPU minutes) every time you purchase or renew this plan. This is 4.5 times as much GPU time when compared to Basic.
 * You now have access to 'relax' mode, which allows you to run unlimited jobs in exchange for longer wait times. While in 'relax' mode, you won't be able to run 'Upscale to Max' jobs.
-* 'Fast' mode is enabled by default for new subscribers but you can switch between 'relax' or 'fast' at any time by using the `/relax` and `/fast` commands.
+* 'Fast' mode is enabled by default for new subscribers but you can switch between 'relax' or 'fast' at any time by using the `/settings` command.
 
 ### Private Visibility Option (+$20/month)
 

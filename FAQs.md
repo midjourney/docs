@@ -67,7 +67,7 @@ Check the [Terms of Service](terms-of-service.md) for some basic terms and conta
 
 **Q: How do I DM the bot?**
 
-A: The easiest way to initiate a DM conversation with the bot is to reply to a generation you made in a bot channel with the envelope emoji, :envelope:, and it will open a DM conversation with you in Discord. You will have to find it in your Discord Home, where Direct Messages and listed. Click on the **MidJourney Bot**. Now you can use the `/imagine` command and other commands listed below. Please note the images will still appear on your gallery unless you use /private.
+A: The easiest way to initiate a DM conversation with the bot is to reply to a generation you made in a bot channel with the envelope emoji, :envelope:, and it will open a DM conversation with you in Discord. You will have to find it in your Discord Home, where Direct Messages and listed. Click on the **MidJourney Bot**. Now you can use the `/imagine` command and other commands listed below. Please note the images will still appear on your gallery unless you use `/private`.
 
 You can also right-click on the bot in any bot channel, and you should see the option to message the bot.
 
@@ -77,7 +77,7 @@ Right-click on the bot in a bot channel (where the bot is creating images)
 
 **Q: I thought my DM images were private. Why are they being moderated?**
 
-Images created in DMs and with /private are still viewable by moderators and the Midjourney team.
+Images created in DMs and with `/private` are still viewable by moderators and the Midjourney team.
 
 **Q: The bot should have DM'ed me because I used ✉️, but I don't see any messages.**
 
