@@ -93,7 +93,7 @@ An upscaled default square image at 1664x1664 has 2,768,896 pixels. Let's round 
 
 the --w and --h (width and height) modifiers only affect the initial 2x2 grid.  Adding --w 448 will make the initial 2x2 grid produce individual grid images are 448 pixels wide
 
-![/imagine sailboat --w 448  produces a 896 x 512 begining grid.](../.gitbook/assets/image.png)
+![/imagine sailboat --w 448  produces a 896 x 512 begining grid.](<../.gitbook/assets/image (29).png>)
 
 When you upscale one of these images it will no longer be 448 pixels wide, but it will maintain the original aspect ratio of your 2x2 grid.
 

@@ -171,7 +171,7 @@ Prompts with a negative total weight are not allowed.
 
 `/settings` will give you some buttons to choose your preferences, like the `/prefer` command but visually.  Each row is a toggle button, meaning turning one on will turn the others off.&#x20;
 
-![/settings options](<.gitbook/assets/image (6).png>)
+![](.gitbook/assets/settings.png)
 
 `/prefer suffix <text>` — This will automatically append this suffix after all prompts you submit. Leave empty to reset.
 

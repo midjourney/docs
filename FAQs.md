@@ -315,9 +315,9 @@ Watch out for prompts such as `/imagine hot dog animal::-1`, as this will send t
 
 A: Here are some recipes from a tricky guide:
 
-* `[image URL] [text prompt 1]` with no weights specified results in a 25% image(s) / 75% text generation.
+* `[image URL] [text prompt]` with no weights specified results in a 20% image(s) / 80% text generation.
 * `[image URL] [text prompt 1] --iw 1` Results in a 50% image(s) / 50% text generation.
-* `[image URL] [text prompt 1]::2 [text prompt 2]::3 --iw` results in a 1/6=17% image(s) , 2/6= 33% text1 , 3/6 = 50% text2.
+* `[image URL] [text prompt 1]::2 [text prompt 2]::3 --iw 1` results in a 1/6=17% image(s) , 2/6= 33% text1 , 3/6 = 50% text2.
 
 **Q: Do commas, pipes, or any other punctuation matter?**
 
