@@ -10,7 +10,7 @@ That said, enjoy creating beautiful images! In this page:
   * [Basic Commands in Bot Channels](user-manual.md#basic-commands-in-bot-channels)
   * [Parameters to "/imagine"](user-manual.md#parameters-to-imagine)
   * [Stylize Values](user-manual.md#stylize-values)
-  * [Quality Values](user-manual.md#undefined)
+  * [Quality Values](user-manual.md#quality-values)
   * [Emoji Reactions to Generation Output](user-manual.md#emoji-reactions-to-generation-output)
   * [Image Prompting with URL](user-manual.md#image-prompting-with-url)
   * [Advanced Text Weights](user-manual.md#advanced-text-weights)

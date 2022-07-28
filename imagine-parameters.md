@@ -56,7 +56,7 @@ It would be the same as typing the longer form:
 
 ``
 
-`Shortcut equivalences:`
+Shortcut equivalences:
 
 `--wallpaper`: `--w 1920 --h 1024 --hd`
 
@@ -84,7 +84,7 @@ It would be the same as typing the longer form:
 
 #### Version **2**
 
-`--version 2` or `--v 2` uses the original Midjourney algorithm in use before July 25th 2022. \
+`--version 2` or `--v 2` uses the original Midjourney algorithm in use before July 25th, 2022. \
 `--v 2` corresponds to the <img src=".gitbook/assets/MJ_v2_btn.png" alt="" data-size="line">button in `/settings.`
 
 ![](<.gitbook/assets/image (10).png>) prompt: **`vibrant california poppies` --v 2**
@@ -108,7 +108,7 @@ It would be the same as typing the longer form:
 
 ### Prompt Modifiers
 
-#### No
+#### --No
 
 `--no` Negative prompting (e.g., `--no plants` would try to remove plants).  This is like giving it a weight of -0.5.
 
@@ -118,13 +118,13 @@ It would be the same as typing the longer form:
 
 ### Detail Modifiers
 
-#### Stop
+#### --Stop
 
 `--stop` Stop the generation at an earlier percentage. Must be between 10-100.
 
 ![](.gitbook/assets/image.png) prompt: **`vibrant california poppies --stop 50`**
 
-#### Uplight
+#### --Uplight
 
 `--uplight` Use "lighter" upscaler for upscales. Light results are closer to the original image with less detail added during upscale.`--uplight` corresonds to the `in /settings`.
 
@@ -142,7 +142,7 @@ Regular upscale <img src=".gitbook/assets/MJ_regUpscale_btn.png" alt="" data-siz
 
 A seed number generate the random starting noise used in the begining of image generation. Using the same number across multiple prompts will use the same starting noise.
 
-#### Seed
+#### --Seed
 
 `--seed` Sets the random seed (an integer), which can sometimes help keep things more steady / reproducible between generations.
 
@@ -156,7 +156,7 @@ A seed number generate the random starting noise used in the begining of image g
 
 `prompt:`**`vibrant california poppies`**` ``--seed 0987` run twice.&#x20;
 
-#### Sameseed
+#### --Sameseed
 
 `--sameseed <number>` Sets the same seed across all images of the resulting grid, resulting in minimal changes within the initial grid. The `sameseed` can be any positive integer.
 
@@ -164,9 +164,7 @@ A seed number generate the random starting noise used in the begining of image g
 
 `prompt:`**`vibrant california poppies`**` ``--sameseed 0987`
 
-
-
-### Stylize
+### --Stylize
 
 `--stylize <number>`, or `--s <number>` The stylize argument sets how strong of a 'stylization' your images have, the higher you set it, the more opinionated it will be. Default number is 2500.&#x20;
 
@@ -193,9 +191,9 @@ See the [User Manual](user-manual.md#stylize-values) for more detailed informati
 `--s 20000` If you want it to 'take over' and start drifting from your text, but not go crazy. \
 `--s 20000` corresponds to the <img src=".gitbook/assets/MJ_v1_StyleVeryHigh.png" alt="" data-size="line"> button in `/settings.`
 
-###
 
-### Quality
+
+### --Quality
 
 `--quality <number>` , or `--q <number>` Sets how much rendering quality time you want to spend. Default number is 1. Higher values take more time and cost more\
 See the [User Manual](user-manual.md#quality-values) for more detailed information.

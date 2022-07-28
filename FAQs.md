@@ -293,7 +293,7 @@ A: Some image generation tools can take a starting image as the source and modif
 
 **Q: Any tips for successful text prompts?**
 
-A: Here is a short guide on effective text prompts: [A short guide on effective text prompts](https://docs.google.com/document/d/1XUT2G9LmkZataHFzmuOtRXnuWBfhvXDAo8DkS--8tec). Also read this page: [Tips on Text Prompts](resource-links/guide-to-prompting.md).
+A: Here is a short guide on effective text prompts: [A short guide on effective text prompts](https://docs.google.com/document/d/1XUT2G9LmkZataHFzmuOtRXnuWBfhvXDAo8DkS--8tec). Also read this page: [Tips on Text Prompts](resource-links/guide-to-prompting.md#try-visually-well-defined-objects).
 
 **Q: Is letter case (caps vs lowercase) taken into consideration in producing the results to the prompt?**
 
