@@ -17,7 +17,7 @@
 
 ## Where Is It?
 
-If you are a subscriber, you can acess it (logged in with Discord credentials) at [midjourney.com/app](https://www.midjourney.com/app/).
+If you are a subscriber, you can access it (logged in with Discord credentials) at [midjourney.com/app](https://www.midjourney.com/app/).
 
 
 
