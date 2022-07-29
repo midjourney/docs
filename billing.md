@@ -67,7 +67,7 @@ Are you using MidJourney as an employee for a company with over $1Million/year i
 * All paid plans can purchase more 'fast' minutes with incremental billing, which is also known as metered fast time. Once you have exhausted the 'fast' time on your plan, you'll be given the option to activate incremental billing at a rate of $4 per GPU hour. You can use the `/fast` command to have this option appear once again.
 * Before activating fast time you have to set a '**spending limit**'. When you hit the spending limit, MidJourney will stop you and ask you to set a new one before continuing.
 * You will only be charged for the time you've actually used. For example, if you set a spending limit of $20 but you only use $17.32 in metered GPU minutes, you'll only be billed for $17.32.
-* You can use `/info` at any time to see how many metered fast minutes you've used, along with their cost in USD.
+* You can use `/info` at any time to see how many metered fast minutes you've used this billing cycle, along with their cost in USD.
 * Incremental billing will be charged either at the end of the month for your subscription or every time you hit the billing threshold. This threshold is equal to the renewal price of your current plan, such as $30 for the Standard plan.
 
 ### Corporate Membership ($600/year) offers:
