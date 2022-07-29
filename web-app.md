@@ -5,7 +5,7 @@
   * [The Nav Bar](web-app.md#the-nav-bar)
   * [Using Your Gallery](web-app.md#using-your-gallery)
   * [Archive Timeline View](web-app.md#archive-timeline-view)
-  * [Deleting Your Own Images](web-app.md#undefined)
+  * [Deleting Your Own Images](web-app.md#deleting-your-own-images)
   * [What's the Feed?](web-app.md#whats-the-feed)
   * [Image LeaderBoards and Rating](web-app.md#image-leaderboards-and-rating)
   * [The Map](web-app.md#the-map)

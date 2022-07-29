@@ -126,7 +126,7 @@ Shortcut equivalences:
 
 #### --Uplight
 
-`--uplight` Use "lighter" upscaler for upscales. Light results are closer to the original image with less detail added during upscale.`--uplight` corresonds to the `in /settings`.
+`--uplight` Use "lighter" upscaler for upscales. Light results are closer to the original image with less detail added during upscale. `--uplight` corresponds to the <img src=".gitbook/assets/MJ_uplight_btn.png" alt="" data-size="line"> button in `/settings`.
 
 
 
