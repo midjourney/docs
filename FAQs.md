@@ -63,6 +63,36 @@ Yes! Email careers@midjourney.com about what you enjoy doing (twitter/linkedin/r
 
 Check the [Terms of Service](terms-of-service.md) for some basic terms and contact @DavidH if you have anything big you need something custom for
 
+**Q: Does my fast time rollover if it goes unused?**
+
+No, time does not carry over month-to-month. Any unused time at the end of a pay period is lost.
+
+**Q: Why does fast time not rollover?**
+
+No rollover is the cheapest and fairest billing structure. Due to variations in the cost of compute time combined with usage month-to-month.
+
+Current usage and projections into a known sample of time are what decides billing.
+The rates per hour can lower as usage is higher.
+Sustained usage throughout a longer timespan can also lower the cost to operate.
+People drive usage and we are not constant.
+Over time, the provider of the compute resources may also raise their prices.
+
+In a basic example, if someone were to rollover all their time for 12 months they'd have 180 fast hours.
+Those hours would are now paid at the previous time's cost estimates.
+At the end of this, the cost could see two things happen.
+First, an AI upgrade that improves quality but costs more to run.
+Second, the cloud GPU provider could have replaced the tier of service used with a more expensive one.
+Both of these lead to an increase in cost to operate those tasks going forward.
+If the person who rolled-over all their compute time now uses it all, it could result in a big loss on the company's end.
+
+Now imagine this rollover situation multiplied by a few hundred or thousand people.
+The cost to run their tasks goes up while no extra income happens to pay for those resources.
+Companies compensate for rollover fluctuation by charging everyone with these plans more.
+They also limit how long rollover usage is able to accumulate.
+This means whether you use rollover or not, you are paying for it.
+Very few people benefit financially from rollover billing structures.
+Almost always it is only the company charging for service.
+
 ## DMing the Bot (Direct Messaging)
 
 **Q: How do I DM the bot?**
