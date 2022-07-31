@@ -24,7 +24,7 @@ Other things may be deemed offensive or abusive because they can be viewed as ra
 
 Some words or phrases are blocked automatically based on their recurrence in disturbing content creation. You won't be able to make images using them.
 
-We're working on a better moderating system. For now banning words has proven an effective way to prevent abuses. This list is under constant review. Some words sound safe but are bringing the model in unexpectedly corners in a consistent way. Trying to get around banned words for generating non-PG-13 images is a breach of our guidelines, but it is fine when the intent is compliant with the guidelines; your content may be deleted from view and you may receive a warning about self-policing by using the ❌ emoji reaction, however.
+We're working on a better moderating system. For now banning words has proven an effective way to prevent abuses. This list is under constant review. Some words sound safe but are bringing the model into unexpected corners in a consistent way. Trying to get around banned words for generating non-PG-13 images is a breach of our guidelines, but it is fine when the intent is compliant with the guidelines; your content may be deleted from view and you may receive a warning about self-policing by using the ❌ emoji reaction, however.
 
 ### What are Public Images?
 
