@@ -151,7 +151,7 @@ A: You can have 3 jobs going at once (of any kind, 2x2, upscale etc). If you sub
 
 **Q: How many concurrent jobs can I run? How many can I queue?**
 
-A: You can generate 3 images at once. If you start more jobs you'll get a message saying "your job will start shortly." You can start 10 jobs before your queue is full. If you are in relax mode this decreases to 2 concurrent images at once.
+A: You can generate 3 images at once. If you start more jobs you'll get a message saying "your job will start shortly." You can start 10 jobs before your queue is full.
 
 
 
