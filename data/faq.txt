@@ -47,9 +47,9 @@ The ↻ submits the same job again, which will run with a different seed without
 
 # -------------------- ---IMAGINE----- --------------------
 
-Q: I'm having trouble using the bot - how do I use /imagine? How do I use /imagine? How do I generate images? How to use it? How do I use the bot? How does the bot work? So just /imagine [prompt] ? I type the prompts and nothing appears. How I use? I type the prompts and nothing appears? Imagine? How do I make art? How do I use midjourney? How do I prompt? how can i ask the ai to create img? How do I trial the program? How do I get started? how can i start using the midjourny as a free user? /image? /imagine?
+Q: I'm having trouble using the bot - how do I use /imagine? How do I use /imagine? How do I generate images? How to use it? How do I use the bot? How does the bot work? So just /imagine [prompt] ? I type the prompts and nothing appears. How I use? I type the prompts and nothing appears? Imagine? How do I make art? How do I use midjourney? How do I prompt? how can i ask the ai to create img? How do I trial the program? How do I get started? how can i start using the midjourney as a free user? /image? /imagine?
 
-See the [Quick Start Guidel](https://midjourney.gitbook.io/docs/) for the basics.
+See the [Quick Start Guide](https://midjourney.gitbook.io/docs/) for the basics.
 
 In any #newbies channel you can see, type `/imagine` and then your prompt.
 When you start typing `/imagine`, **click on the option that pops up that says /imagine**. Your text box should update and say `/imagine prompt`: you can now type what you want. See the video below:
@@ -57,6 +57,18 @@ When you start typing `/imagine`, **click on the option that pops up that says /
 %image=https://media.discordapp.net/attachments/989981349777637446/995353172518375444/Imagine_popup.gif
 
 **If you don't see the `/imagine` option, update and restart your Discord app, re-install it, re-login, or check your subscription.** 
+
+---
+
+Q: What newbie room am I in? What group am I in? What’s my group? Newbie rooms aren’t loading? Can’t find my newbie room? What group am I? Newbie channel not loading? Newbie room not loading? Which newbie room? Which channel? Which group? How can I access the newbie channels? Why can’t I find any of the newbie channels? I can’t see any newbie room? I can't see any newbie channels? I don’t see a newbies channel?
+
+Click on your profile to find your group number. For example, if you’re part of group-3, you can access #newbies-3 and a few other newbie channels ending in 3.
+
+If you don’t see them yet then restart/refresh Discord first.
+
+You will see the newbies rooms on the left sidebar with the other channels under the “Newcomer Rooms” headers.
+
+%image=https://cdn.discordapp.com/attachments/991532068897042452/1003603694937460767/unknown.png
 
 ---
 
@@ -199,11 +211,11 @@ Use the /fast command after running out of your monthly fast hours to approve me
 
 # -------------------- ------PERSONAL USE------ --------------------
 
-Q: Can I invite MidJourney to my server? Can I add this bot to another server? How to add MidJourney to a different server? Can I add the bot to my Discord server?
+Q: Can I invite Midjourney to my server? Can I add this bot to another server? How to add Midjourney to a different server? Can I add the bot to my Discord server?
 
-While planned, it’s currently not possible to add MidJourney to other Discord servers and use its commands there.
+While planned, it’s currently not possible to add Midjourney to other Discord servers and use its commands there.
 
-Paid subscribers, however, can already use MidJourney via DMs (Direct Messages).
+Paid subscribers, however, can already use Midjourney via DMs (Direct Messages).
 
 ---
 
@@ -211,7 +223,7 @@ Q: Can I get my own private channel? How do I get a private channel? Does a subs
 
 In the Midjourney Discord server there are no private channels for subscribers of any tier.
 
-Paid subscribers, however, can use MidJourney in public threads, which are less chaotic and great for collaborating. They can also use its commands via DMs (Direct Messages), although images generated in DMs will still appear on the website. You can hide them on the website as well either by using the `/private` command, purchasing the addon for an additional $20 per month, or by having a Corporate membership.
+Paid subscribers, however, can use Midjourney in public threads, which are less chaotic and great for collaborating. They can also use its commands via DMs (Direct Messages), although images generated in DMs will still appear on the website. You can hide them on the website as well either by using the `/private` command, purchasing the addon for an additional $20 per month, or by having a Corporate membership.
 
 
 ---
@@ -262,7 +274,7 @@ Q: Do trials reset monthly? Do I get more free images every month? Do I get free
 
 To expand the community sustainably, we're giving everyone a limited trial, and then several options to buy a full membership.
 
-Each new user gets a free trial of around 25 images. This trial doesn’t renew but can be used over multiple days and doesn't presently expire.
+Each new user gets a free trial of around 25 jobs (25 GPU minutes to be exact). This trial doesn’t renew but can be used over multiple days and doesn't presently expire.
 
 ---
 
@@ -283,9 +295,9 @@ Subscriptions renew every 30 days. You can check when this is by using `/info`
 
 ---
 
-Q: How do I subscribe? How to subscribe? How do I become a member? /subscribe? How does one become a member? How can I be a full member?  How can I subscribe to it? how to get paid version? How do you get a subscription? How can I upgrade from the trial version? hello, where can I can make the payment for the Standard plan? And how do i buy the 10$ plan? How do I buy?
+Q: How do I subscribe? How to subscribe? How do I become a member? /subscribe? How does one become a member? How can I be a full member?  How can I subscribe to it? how to get paid version? How do you get a subscription? How can I upgrade from the trial version? hello, where can I can make the payment for the Standard plan? And how do i buy the 10$ plan? How do I buy? How can I subscribe to Midjourney?
 
-Type `/subscribe` and click the link provided or simply go to [https://www.midjourney.com/account/](https://www.midjourney.com/account/) (you’ll need to "Sign in with Discord" in either case)
+Type `/subscribe` and click the link provided or simply go to [https://www.midjourney.com/account/](https://www.midjourney.com/account/) (you’ll need to "Sign in with Discord" in this last case)
 
 ---
 
@@ -396,7 +408,7 @@ If you used none of the Basic time -> it will be 20$
 
 Q: Is it paid to make images? Aw I need to pay? Do I need to pay?
 
-We give new guests a free trial of roughly 25 images. After that they can purchase a paid membership for more.
+We give new guests a free trial of roughly  25 jobs (25 GPU minutes to be exact). After that they can purchase a paid membership for more.
 
 ---
 
@@ -452,9 +464,9 @@ See the [User Manual](https://midjourney.gitbook.io/docs/imagine-parameters#size
 
 Q How can I prevent preview and upscale to add too much details? The upscale adds too much detail? How do I remove the noise from an upscaled image?
 
-When using `/imagine`, you can add `--stop 80` at the end of your prompt in order to stop the generation at 80% progress, for example. You can replace `80` with the % you want MidJourney to stop at.
+When using `/imagine`, you can add `--stop 80` at the end of your prompt in order to stop the generation at 80% progress, for example. You can replace `80` with the % you want Midjourney to stop at.
 
-The `--stop` command doesn’t presently work with upscaling. Instead, you can use `--uplight` for the upscale to add less details, redo it with the button "Light Upscale Redo" afterwards, or you can click on the ↻ button to “Reroll” the upscale. Alternatively, you can add the :envelope: emoji to the message containing your non-upscaled set of 4 images: MidJourney will send you each of the images as a DM, separately. Once you have the image, you can change its resolution using external software - [check the messages pinned in this thread for more info](https://discord.com/channels/662267976984297473/985676384707936276/998792091670953984)
+The `--stop` command doesn’t presently work with upscaling. Instead, you can use `--uplight` for the upscale to add less details, redo it with the button "Light Upscale Redo" afterwards, or you can click on the ↻ button to “Reroll” the upscale. Alternatively, you can add the :envelope: emoji to the message containing your non-upscaled set of 4 images: Midjourney will send you each of the images as a DM, separately. Once you have the image, you can change its resolution using external software - [check the messages pinned in this thread for more info](https://discord.com/channels/662267976984297473/985676384707936276/998792091670953984)
 
 ---
 
@@ -773,18 +785,18 @@ Q: Can I use imagine in DMs? Is it possible to DM the bot and not be in a very c
 
 
 Paid members can message the bot directly in DMs and create images there.
-Message/tap on this @MidJourney Bot
+Message/tap on this: <@936929561302675456>
 
-And don't forget to Right click on Midjourney server icon, click privacy settings, enable DMs from server members
+And don't forget to right click the server icon > Privacy Settings > enable  "Allow direct messages from server members."
 
-Remember that images generated in your DMs are still visible to everyone on Midjourney.com.
+Remember that images generated in your DMs are still visible to everyone on [midjourney.com](https://www.midjourney.com/)
 
 ---
 
 
 Q: Why don't I see any messages from the bot? I used used ✉️ on one of my images, why don't I see any messages from the bot? Why can't I message the bot? 
 
-Right-click on the server -> Privacy settings -> Allow direct messages from server members.
+Right click the server icon > Privacy Settings > make sure "Allow direct messages from server members." is turned on and green. Try disabling it and re-enabling it again if you’re still having issues.
 
 %image=https://cdn.discordapp.com/attachments/961148616884506674/981338414479712356/Discord_vCUySZbwMa.gif
 
@@ -793,7 +805,9 @@ Right-click on the server -> Privacy settings -> Allow direct messages from serv
 Q: "Cannot send messages to this user" when trying to DM the bot? I can’t DM the bot?
 
 Only subscribers can use commands in DMs with bot.
-Go to Discord privacy settings for this server and toggle this on:
+
+
+Right click the server icon > Privacy Settings > make sure "Allow direct messages from server members." is turned on and green.
 
 %image=https://cdn.discordapp.com/attachments/958069758211797092/979275401249574952/unknown.png
 
@@ -807,15 +821,15 @@ Subscribers can use commands in DMs with bot. You can right-click on the bot <@9
 
 ---
 
-Q: I thought my DM images were private. Why are they being moderated?
+Q: I thought my DM images were private. Why are private images being moderated?
 
-Images created in DMs and with `/private` are still viewable by moderators and the midjourney team.
+Images created in DMs and with `/private` are still viewable by moderators and the Midjourney team.
 
 ---
 
 Q: How do I create a thread? How do I make a thread?
 
-Click on the icon with the # on top of a bot channel. It will allow you to view and create threads. Note, they are still public and subject to content moderation guidelines.Discord has a limit on the number of threads per server, so you may need to try again later to get an open spot.
+Click on the icon with the # on top of a bot channel. It will allow you to view and create threads. Note, they are still public and subject to content moderation guidelines. Discord has a limit on the number of threads per server, so you may need to try again later to get an open spot.
 
 %image=https://support.discord.com/hc/article\_attachments/4403200565911/create\_thread.gif
 
@@ -910,11 +924,11 @@ Feel free to contact commercial@midjourney.com if you are a business and want to
 
 Q: How does commercial use work? Can I use images commercially? Can I sell images I generated? Are there royalties? Can we use images for commercial projects? What are the commercial terms?
 
-As a member, you’re pretty free to use the images you generated yourself in just about any way you want: you own all assets you create with MidJourney, even after your subscription is over.
+As a member, you’re pretty free to use the images you generated yourself in just about any way you want: you own all assets you create with Midjourney, even after your subscription is over.
 
 We currently have only two special-case restriction: 
 
-1) If you have never paid for a subscription, MidJourney has instead ownership of the images you created and you’re only allowed to use those images noncommercially.
+1) If you have never paid for a subscription, Midjourney has instead ownership of the images you created and you’re only allowed to use those images noncommercially.
 
 2) If you’re using the images as an employee of a company that makes more than 1M/yr USD in revenue, you need to purchase a ‘Corporate’ plan.
 
@@ -1014,7 +1028,7 @@ Check  <#942231458918064148>
 
 Q: How can I find my images? It’s moving too fast, how can I see only my images? How to search for my images? Where is the gallery? Where can I see my images? How do I search for my creations? How do you find your previous prompts? Where are my images? How can i find image that I generated?
 
-You can use @ button on mobile. Or the inbox button (top right corner) on desktop.
+You can use the @ button on mobile. Or the inbox button (top right corner) on desktop.
 
 %image=https://media.discordapp.net/attachments/978364411662196776/997829253238358107/How_To_Access_Mentions_v1.png
 
@@ -1027,7 +1041,7 @@ Another way is to open your gallery: https://www.midjourney.com/app/ (you need t
 # -------------------- THREADS --------------------
 # -------------------- -------------------- --------------------
 
-Q: Where did my thread go? Where is my thread? Why can’t I see newbie channels? Can you move threads? Can you help me move threads? Can you add me to newbie channel? Will my work disappear if I can’t find the thread? How can I find thread? Where is thread? Can you move my thread? Can I change roles? What is my group role? What is this role? Where did channel go? Where did my channel go? Channel disappeared? Thread disappeared? Thread gone? 
+Q: Where did my thread go? Where is my thread? Can you move threads? Can you help me move threads? Will my work disappear if I can’t find the thread? How can I find thread? Where is thread? Can you move my thread? Can I change roles? What is my group role? What is this role? Where did channel go? Where did my channel go? Channel disappeared? Thread disappeared? Thread gone? 
 
 In order to move towards open-beta while still playing nice with Discord backend infrastructure we have had to make some changes with how newbie and general channels are structured. 
 This means that we have assigned new roles which will limit the newbie/general channels you are able to see. Because of this, we have also had to limit the creation of new threads in those channels, and you may lose access to threads you’ve created. 
