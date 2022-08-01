@@ -19,8 +19,6 @@
 
 If you are a subscriber, you can access it (logged in with Discord credentials) at [midjourney.com/app](https://www.midjourney.com/app/).
 
-
-
 ## The Nav Bar
 
 The navigation menu is on the left side and can be reduced to just icons if you prefer, using the arrow on the top.
@@ -28,8 +26,6 @@ The navigation menu is on the left side and can be reduced to just icons if you 
 ![Nav bar showing labels](<.gitbook/assets/Screen Shot 2022-07-15 at 4.48.03 PM (1).png>)
 
 ## Using Your Gallery
-
-
 
 The home button for your gallery shows your latest creations, among other things. You can filter by grids or upscales only, by channel, and change the sort order.
 
@@ -43,9 +39,7 @@ Clicking on an image will show you more details and offer more commands:
 
 ![Click on a gallery image for more info and options, such as the ... button shown.](<.gitbook/assets/image (7).png>)
 
-
-
-Another way to filter the view is by showing things you have liked (bookmarked) with a ❤️ reaction.  If you click the heart button in the top bar, you will see only work you have reacted to with a heart emoji, including work by other others.
+Another way to filter the view is by showing things you have liked (bookmarked) with a ❤️ reaction. If you click the heart button in the top bar, you will see only work you have reacted to with a heart emoji, including work by other others.
 
 ![Bookmarks are things you liked](<.gitbook/assets/image (19).png>)
 
@@ -61,19 +55,13 @@ In this view, the right side contains a clickable timeline that will take you to
 
 ## Deleting Your Own Images
 
-
-
-There is currently no way to delete your images via the gallery.  The best way to do it is to follow the link to the image output in Discord, and use the red ❌ reaction there to delete it.
+There is currently no way to delete your images via the gallery. The best way to do it is to follow the link to the image output in Discord, and use the red ❌ reaction there to delete it.
 
 ![Click on an image in your gallery, and use the ... menu to find "Open in discord"](<.gitbook/assets/Screen Shot 2022-07-11 at 10.35.22 AM.png>)
-
-
 
 ## What's the Feed?
 
 The ["feed"](https://www.midjourney.com/app/feed/) is the community record of public upscales, which includes DMs with the bot that are not paid /private usage. If you mouse over an image, you will see the prompt.
-
-
 
 ![The Feed](<.gitbook/assets/image (15).png>)
 
@@ -81,7 +69,7 @@ The ["feed"](https://www.midjourney.com/app/feed/) is the community record of pu
 
 Nominate your own images (by rating them) or rate other people's images at: [https://midjourney.com/app/ranking/](https://midjourney.com/app/ranking/)
 
-![Ranking in the menu (no, I haven't done a lot)](<.gitbook/assets/image (1).png>)
+![Ranking in the menu (no, I haven't done a lot)](<.gitbook/assets/image (1) (2).png>)
 
 There will be prizes for winning images and members who rate large numbers of images. (WARNING: Random button mashing on ratings will be considered 'hostile' and may get you banned (don't worry otherwise, though!)
 
@@ -89,19 +77,15 @@ Prizes will include $40 packs of fast-gpu hours.
 
 We will use these ratings to improve our AI so ratings are 'serious'.
 
-
-
 ## The "Map"
 
-The map is a visualization of users of Midjourney by their prompts and similarity to other users.  You can use it to search for people to follow.
+The map is a visualization of users of Midjourney by their prompts and similarity to other users. You can use it to search for people to follow.
 
 ![the Map (don't judge, I play a telephone game on MJ)](<.gitbook/assets/image (4) (1).png>)
 
 If you click on a dot, you can get more info about their work and view their feed.
 
 ![Clicking on someone's dot in the Map shows some info about their work](<.gitbook/assets/image (25).png>)
-
-
 
 ## Following People's Work
 

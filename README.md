@@ -1,9 +1,11 @@
 # Quick Start Guide
 
-Midjourney is a new research lab focused on new mediums and tools for empowering people. There are two ways to experience the tools:&#x20;
+Midjourney is an independent research lab exploring new mediums of thought and expanding the imaginative powers of the human species.
 
-1. The Discord server at [https://discord.gg/midjourney](https://discord.gg/midjourney), where you will generate images.&#x20;
-2. The web app at [https://www.midjourney.com/](https://www.midjourney.com/app/), where you will find a gallery of your own work and browse other users' creations.
+There are two ways to experience the tools: the Discord server ([https://discord.gg/midjourney](https://discord.gg/midjourney)), where you will generate images, and the web app at [https://www.midjourney.com/](https://www.midjourney.com/app/), where you can find a gallery of your own work and other users' creations.
+
+1. The Discord server at&#x20;
+2. The web app at&#x20;
 
 Table of Contents:
 

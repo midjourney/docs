@@ -127,7 +127,7 @@ The shortcut version is `--q`.
 
 `--quality 2` More detailed results, but 2x slower and 2x the price (2 minutes per image).&#x20;
 
-`--quality 5` kind of experimental, 'might' be more creative or detailed (also might be worse!) (5 minutes per image).
+~~`--quality 5` kind of experimental, 'might' be more creative or detailed (also might be worse!) (5 minutes per image).~~ Temporarily Disabled
 
 ### Emoji Reactions to Generation Output
 

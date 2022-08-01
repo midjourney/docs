@@ -86,7 +86,7 @@ Shortcut equivalences:
 `--version 2` or `--v 2` uses the original Midjourney algorithm in use before July 25th, 2022.\
 `--v 2` corresponds to the <img src=".gitbook/assets/MJ_v2_btn.png" alt="" data-size="line">button in `/settings.`
 
-![](<.gitbook/assets/image (10).png>) prompt: **`vibrant california poppies` --v 2**
+![](.gitbook/assets/mj--v2.png) prompt: **`vibrant california poppies` --v 2**
 
 #### Version **3**
 
@@ -115,7 +115,7 @@ Shortcut equivalences:
 
 `--stop` Stop the generation at an earlier percentage. Must be between 10-100.
 
-![](.gitbook/assets/image.png) prompt: **`vibrant california poppies --stop 50`**
+![](<.gitbook/assets/image (1).png>) prompt: **`vibrant california poppies --stop 50`**
 
 #### --Uplight
 
@@ -162,8 +162,8 @@ See the [User Manual](user-manual.md#stylize-values) for more detailed informati
 
 \`\`![](.gitbook/assets/MJ--s2500.png)
 
-`--s 2500` Good for when you want it to be 'less strict' but still 'pretty' (this is probably recommended for skilled users).\
-`--s 2500` corresponds to the <img src=".gitbook/assets/MJ_v1_StyleMed (1).png" alt="" data-size="line"> button in `/settings.`
+`--s 2500` The default style level.\
+`--s 2500` corresponds to the <img src=".gitbook/assets/MJ_v1_StyleMed.png" alt="" data-size="line"> button in `/settings.`
 
 `![](.gitbook/assets/mj--5000.png)`
 
@@ -200,8 +200,9 @@ See the [User Manual](user-manual.md#quality-values) for more detailed informati
 
 `![](.gitbook/assets/mj--q2.png)`
 
-`--q 2` The **default value**, you do not need to specify it.\
-**``**`prompt:`**`vibrant california poppies --q 2`**\ **``**`--q 2` corresponds to the <img src=".gitbook/assets/MJ_Qual2X.png" alt="" data-size="line"> button in `/settings.`
+`--q 2` More detailed results, 2x slower / more expensive\
+**``**`prompt:`**`vibrant california poppies --q 2`**\
+**``**`--q 2` corresponds to the <img src=".gitbook/assets/MJ_Qual2X.png" alt="" data-size="line"> button in `/settings.`
 
 ### \`\`
 
