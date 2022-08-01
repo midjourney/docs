@@ -9,7 +9,7 @@ When a community member is credited as "Username#1234", that refers to their Dis
 #### For Beginners
 
 * [Tips for Text-Prompts](guide-to-prompting.md), official documentation by MidJourney
-* [Understanding Image Size](understanding-image-size.md#image-dimensions), official documentation by MidJourney
+* [Understanding Image Size](understanding-image-size.md#image-dimensions), official documentation by schofe
 * [Using Midjourney in Private Mode](https://weirdwonderfulai.art/resources/midjourney-private-mode/), article by Weird Wonderful AI Art
 * [promptoMANIA prompt builder](https://promptomania.com/prompt-builder/), online tool by WSzP#7328
 
