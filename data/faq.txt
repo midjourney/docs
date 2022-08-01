@@ -213,17 +213,15 @@ Use the /fast command after running out of your monthly fast hours to approve me
 
 Q: Can I invite Midjourney to my server? Can I add this bot to another server? How to add Midjourney to a different server? Can I add the bot to my Discord server?
 
-While planned, it’s currently not possible to add Midjourney to other Discord servers and use its commands there.
+To add the bot to your server, you can follow [this guide](https://midjourney.gitbook.io/docs/use-midjourney-on-your-own-discord-server)
 
-Paid subscribers, however, can already use Midjourney via DMs (Direct Messages).
+Paid subscribers, can also use Midjourney via DMs (Direct Messages).
 
 ---
 
 Q: Can I get my own private channel? How do I get a private channel? Does a subscriber have its own private channel not viewed by the public? Will I have a private channel if I subscribe? Can I generate images in a private channel?
 
-In the Midjourney Discord server there are no private channels for subscribers of any tier.
-
-Paid subscribers, however, can use Midjourney in public threads, which are less chaotic and great for collaborating. They can also use its commands via DMs (Direct Messages), although images generated in DMs will still appear on the website. You can hide them on the website as well either by using the `/private` command, purchasing the addon for an additional $20 per month, or by having a Corporate membership.
+You can invite the bot to your own server, using [this guide](https://midjourney.gitbook.io/docs/use-midjourney-on-your-own-discord-server). Note that your images will still appear in the community feed, on the website. You can prevent this by using the `/private` command for an additional $20 per month, or by having a Corporate membership.
 
 
 ---
@@ -266,7 +264,7 @@ https://discord.gg/midjourney
 
 Q: Even if the trial expires, do we remain in the discord? Even if the trial expires, do we remain part of the discord server?
 
-Yes, you will remain in the discord server.
+Due to the amount of members in our server, we are unfortunately occasionally forced to remove inactive users that are not subscribed. You can of course always rejoin with the link https://discord.gg/midjourney
 
 ---
 
