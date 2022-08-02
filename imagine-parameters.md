@@ -39,7 +39,7 @@ Parameters options that change how the images generate. A full `/imagine` comman
 
 Try `--ar 16:9` for example, to get a 9:16 aspect ratio (\~256x448).
 
-![](<.gitbook/assets/mj--ar (1).png>)`prompt`**`vibrant california poppies --ar 9:16`**
+![](.gitbook/assets/mj--ar.png)`prompt`**`vibrant california poppies --ar 9:16`**
 
 Also see [Understanding Image Sizes](resource-links/understanding-image-size.md).
 
@@ -107,7 +107,7 @@ Shortcut equivalences:
 
 `--no` Negative prompting (e.g., `--no plants` would try to remove plants). This is like giving it a weight of -0.5.
 
-![](.gitbook/assets/mj--no.png) prompt: \*\*`vibrant california poppies --no grass` \*\*
+![](<.gitbook/assets/mj--no (1).png>) prompt: \*\*`vibrant california poppies --no grass` \*\*
 
 ### Detail Modifiers
 
@@ -163,7 +163,7 @@ See the [User Manual](user-manual.md#stylize-values) for more detailed informati
 \`\`![](.gitbook/assets/MJ--s2500.png)
 
 `--s 2500` The default style level.\
-`--s 2500` corresponds to the <img src=".gitbook/assets/MJ_v1_StyleMed.png" alt="" data-size="line"> button in `/settings.`
+`--s 2500` corresponds to the <img src=".gitbook/assets/MJ_v1_StyleMed (1).png" alt="" data-size="line"> button in `/settings.`
 
 `![](.gitbook/assets/mj--5000.png)`
 

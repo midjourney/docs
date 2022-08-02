@@ -4,23 +4,6 @@ Midjourney is an independent research lab exploring new mediums of thought and e
 
 There are two ways to experience the tools: the Discord server ([https://discord.gg/midjourney](https://discord.gg/midjourney)), where you will generate images, and the web app at [https://www.midjourney.com/](https://www.midjourney.com/app/), where you can find a gallery of your own work and other users' creations.
 
-1. The Discord server at&#x20;
-2. The web app at&#x20;
-
-Table of Contents:
-
-* [Code of Conduct](./#code-of-conduct)
-* [Create your First Image](./#create-your-first-image)
-  * [1. Select one of the `#newbies` channels from the sidebar](./#1.-select-one-of-the-newbies-channels-from-the-sidebar)
-  * [2. Use the /imagine Command](./#2.-use-the-imagine-command)
-  * [3. Wait as the MidJourney Bot Processes Your Request](./#3.-wait-as-the-midjourney-bot-processes-your-request)
-  * [4. Upscale your Image or Create Variations](./#4.-upscale-your-image-or-create-variations)&#x20;
-  * [5. Save Your Image](./#5.-save-your-image)
-  * [6. Send Results to Your DMs (Direct Messages)](./#6.-send-results-to-your-dms-direct-messages)
-  * [7. Become a Paid Subscriber if you Want to Generate More](./#7.-become-a-paid-subscriber-if-you-want-to-generate-more)
-  * [8. As a Subscriber, DM the Bot If You Want Less Noise Around](./#8.-as-a-subscriber-dm-the-bot-if-you-want-less-noise-around)
-* [Any Questions?](./#any-questions)
-
 ## Code of Conduct
 
 * Don't be a jerk.
@@ -43,7 +26,7 @@ Once you have joined the Discord server you will be able to create a limited num
 
 ### 2. Use the /imagine Command
 
-To use the MidJourney Bot, use a [Discord Slash Command](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands-FAQ) in a Bot channel, like #newbies-1. Start typing `/imagine` and you will notice something pop up above your text.&#x20;
+To use the Midjourney Bot, use a [Discord Slash Command](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands-FAQ) in a Bot channel, like #newbies-1. Start typing `/imagine` and you will notice something pop up above your text.&#x20;
 
 **Click or tap on the `/imagine` option**: the `prompt` field will be created and now you can add whatever you want the bot to generate, as you can see in the video below. Make sure to respect our [Content and Moderation policy](content-and-moderation-policy.md): keep it PG-13 and avoid upsetting imagery.
 
@@ -51,13 +34,13 @@ To use the MidJourney Bot, use a [Discord Slash Command](https://support.discord
 
 You can also try to press the Spacebar, Tab, or Enter to create the `prompt` field. Bot slash commands will only work in Bot channels. Typing `/imagine` will not work in regular channels, such as `#trial-support`.
 
-Once you're satisfied with the prompt you just wrote, press Enter or send your message. That will deliver your request to the MidJourney Bot, which will soon start generating your images.
+Once you're satisfied with the prompt you just wrote, press Enter or send your message. That will deliver your request to the Midjourney Bot, which will soon start generating your images.
 
-### 3. Wait as the MidJourney Bot Processes Your Request
+### 3. Wait as the Midjourney Bot Processes Your Request
 
 Requests take a minute to generate four options based on your prompt.
 
-![What you see while MidJourney generates your prompt](https://user-images.githubusercontent.com/105028755/167756032-0059cb74-d437-4747-8778-902c03403be6.gif)
+![What you see while Midjourney generates your prompt](https://user-images.githubusercontent.com/105028755/167756032-0059cb74-d437-4747-8778-902c03403be6.gif)
 
 ### 4. Upscale Your Image or Create Variations
 
@@ -90,31 +73,29 @@ Your upscaled image (and 2x2 grid images) will immediately be visible on your we
 
 ### 6. Send Results to Your DMs (Direct Messages)
 
-You can ask the MidJourney Bot to send you a Discord direct message containing your final results. To do so, react with the envelope emoji (:envelope:) to one of the bot's messages that contains a finished generation. This works with both single upscaled images and 2x2 grids, as shown below.
+You can ask the Midjourney Bot to send you a Discord direct message containing your final results. To do so, react with the envelope emoji (:envelope:) to one of the bot's messages that contains a finished generation. This works with both single upscaled images and 2x2 grids, as shown below.
 
 ![Here we add the  emoji to the generation we want to receive as a Direct Message](https://user-images.githubusercontent.com/105028755/168405903-4a039b6e-230b-4ff6-bbba-d9f732c7fb86.gif)
 
 ### 7. Become a Paid Subscriber if you Want to Generate More
 
-Your 25 free jobs do not presently expire but will also not renew. Once you have used all of them, you can use `/subscribe` in any bot channel to purchase a membership. Follow the link MidJourney generates to go to your subscription page.
+Your 25 free jobs do not presently expire but will also not renew. Once you have used all of them, you can use `/subscribe` in any bot channel to purchase a membership. Follow the link Midjourney generates to go to your subscription page.
 
 For prices and more information, you can visit [Billing and Licensing](billing.md).
 
-### 8. As a Subscriber, DM the Bot If You Want Less Noise Around
+### 8. As a Subscriber, Direct Message the Bot to work one-on-one with the Bot.
 
-If you are a paid subscriber, you can also use [the bot in your Direct Messages](FAQs.md#dming-the-bot-direct-messaging) instead of in a public bot channel. This will still be subject to content rules and generate images that will be visible in your gallery on the website.&#x20;
+If you are a paid subscriber, you can use [the bot in your Direct Messages](FAQs.md#dming-the-bot-direct-messaging) instead of public channel with other people. Images made within your direct messages are still be subject to content and moderation rules and will be visible on your midjourney website gallery.&#x20;
 
-## Any Questions?
+## Questions?
 
-If you still have questions or doubts, these pages can also be helpful:
+If you still have questions, these pages can also be helpful:
 
-* [The User Manual](user-manual.md), to learn how to unlock MidJourney's full potential.
+* [The User Manual](user-manual.md), for a full list of Midjourney features and commands.
 * [Resource Links](resource-links/), for tips, tricks, and experiments by our community of creatives.
-* [Copyright and Trademark](https://midjourney.gitbook.io/docs/terms-of-service#4.-copyright-and-trademark), to see what you are allowed to do with the images you generate. If you're a paid subscriber, they may be yours to do as you please, even commercially.
 
 Don't forget about our Discord server:
 
 * The `#rules` and `#faq` channels contain more information about our services.
 * In `#announcements` and `#status` you will find all important updates and news.
-* `#micro-polls` is where we ask about your preferences and experiences with our tools.
-* Still need help? Ask your question in either `#trial-support` or `#member-support`.&#x20;
+* Have additional questions? Visit `#trial-support` or `#member-support`.&#x20;

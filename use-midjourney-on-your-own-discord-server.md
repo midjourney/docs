@@ -9,8 +9,13 @@ description: How to invite and use the Midjourney bot on other servers.
 
 ## Invite the Midjourney Bot <a href="#step5" id="step5"></a>
 
-1. Select the Midjourney Bot, and then click "Add to Server": ![](.gitbook/assets/image.png)
-2. Select the server you want to add it to, then follow the directions in discord.&#x20;
+1. Select the **Midjourney Bo**t from the **User List**, and then click **"Add to Server"**:&#x20;
+
+![](.gitbook/assets/MJ\_BotInvite.png)
+
+
+
+1. Select the server you want to add it to, then follow the directions in discord.
 
 ![Authorize and confirm you are adding an external application.](.gitbook/assets/MJ\_AuthorizeBot.png)
 
@@ -18,10 +23,9 @@ If you don't see your server listed, follow the instructions in [#step5-1](use-m
 
 ## Use the Midjourney Bot
 
-Once the Midjourney Bot has joined your server you can begin interacting with it using the `/imagine` command.&#x20;
+Once the Midjourney Bot has joined your server you can begin interacting with it using the `/imagine` command.
 
-If this is your first time using Midjourney, refer to othe [Quick Start Guide](./) for help making your first images.\
-
+If this is your first time using Midjourney, refer to othe [Quick Start Guide](./) for help making your first images.
 
 ## Notes
 
@@ -39,15 +43,33 @@ To use the Midjourney Bot in any server users must have an active Midjourney tri
 
 ## Restrict the Bot to Specific Channels
 
-If you do not want the Midjourney Bot to be usable in specific channels go to **Edit Channel**, select the **Permissions tab**, select **@everyone** under **Roles/Members** and ** **_**Uncheck**_** "Use Application Commands".**
+If you do not want the Midjourney Bot to be usable in specific channels go to **Edit Channel**, select the **Permissions tab**, select **@everyone** under **Roles/Members** and  **\_Uncheck\_ "Use Application Commands"**.
 
-\
 Users who try to use the Midjourney Bot in a channel with these permissions disabled will not see the command
+
+![](.gitbook/assets/MJ\_RestrictChannel.png)
+
+
+
+For more granular control go to **Settings**, select **Integrations**, select the **Permissions tab**, select the **+ for the Midjourney Bot**, and select **Manage Integration.** \
+****\
+****/Command permissions can then be set for individual roles and channels.
+
+![](.gitbook/assets/MJ\_Integrations.png) ![](.gitbook/assets/image.png)
+
+****\
+**Get Midjourney Bot Status Updates and Announcements on Your Own Server**
+--------------------------------------------------------------------------
+
+Follow the **`#announcements`** and **`#status`** on your own server to stay up-to-date with Midjourney.
+
+![](.gitbook/assets/MJ\_StatusFollow.png)
 
 ## Create an Administrator Role <a href="#step5" id="step5"></a>
 
-**Only individuals with the "Manage server" permissions can add the Midjourney Bot to that server. If you do not see your server in the list, make sure you have this permission.**\
-****
+**Only individuals with the "Manage server" permissions can add the Midjourney Bot to that server. If you do not see your server in the list, make sure you have this permission.**\\
+
+***
 
 1. From your Discord Server's home page select the **Roles** tab in the **Server Settings** menu.
 
