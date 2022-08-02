@@ -71,9 +71,7 @@ A: The easiest way to initiate a DM conversation with the bot is to reply to a g
 
 You can also right-click on the bot in any bot channel, and you should see the option to message the bot.
 
-{% embed url="https://cdn.discordapp.com/attachments/961148616884506674/981338414194507776/Discord_fzI0SoDLV8.gif" %}
-Right-click on the bot in a bot channel (where the bot is creating images)
-{% endembed %}
+![Right-click on the bot in a bot channel (where the bot is creating images)](https://cdn.discordapp.com/attachments/961148616884506674/981338414194507776/Discord_fzI0SoDLV8.gif)
 
 **Q: I thought my DM images were private. Why are they being moderated?**
 
@@ -83,9 +81,7 @@ Images created in DMs and with /private are still viewable by moderators and the
 
 A: Right-click on the server -> Privacy settings -> Allow direct messages from server members.
 
-{% embed url="https://cdn.discordapp.com/attachments/961148616884506674/981338414479712356/Discord_vCUySZbwMa.gif" %}
-How to change privacy settings
-{% endembed %}
+![How to change privacy settings](https://cdn.discordapp.com/attachments/961148616884506674/981338414479712356/Discord_vCUySZbwMa.gif)
 
 ## Using Discord Channels
 
