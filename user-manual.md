@@ -127,7 +127,7 @@ The shortcut version is `--q`.
 
 `--quality 2` More detailed results, but 2x slower and 2x the price (2 minutes per image).&#x20;
 
-~~`--quality 5` kind of experimental, 'might' be more creative or detailed (also might be worse!) (5 minutes per image).~~ Temporarily Disabled
+~~`--quality 5` kind of experimental, 'might' be more creative or detailed (also might be worse!) (5 minutes per image).~~    **Temporarily Disabled!**
 
 ### Emoji Reactions to Generation Output
 
@@ -165,7 +165,7 @@ Some examples:
 
 Prompts with a negative total weight are not allowed.
 
-**Note**: The `--no` command is equivalent to using weight -0.5.  For instance, `--no farms` means don't include farms in the output, same as `farms::-.5`
+**Note**: The `--no` command is equivalent to using `weight -0.5`.  For instance, `--no farms` means don't include farms in the output, same as `farms::-.5`
 
 ### Prompt Preferences and Settings
 

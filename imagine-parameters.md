@@ -12,8 +12,7 @@ Parameters options that change how the images generate. A full `/imagine` comman
 
 ![/imagine prompt: https://example/tulip.jpg  a field of tulips in the style of Mary Blair --no farms --iw .5 --ar 3:2"](.gitbook/assets/ImagineStructure.jpg)
 
-"Switches" in this context means controls passed to the bot using a "--" parameter. For instance, the command `/imagine hi there --w 448` has a text prompt, and a parameter for the width, using the "--w" instruction.\
-\\
+"Switches" in this context means controls passed to the bot using a "--" parameter. For instance, the command `/imagine hi there --w 448` has a text prompt, and a parameter for the width, using the "--w" instruction.
 
 ### Sizes
 
@@ -25,21 +24,19 @@ Parameters options that change how the images generate. A full `/imagine` comman
 
 `--w` and `--h` values above 512 are unstable and may cause errors.
 
-<img src=".gitbook/assets/MJ_Imagine.png" alt="" data-size="original"> \*\*\*\*
+![/imagine: promptvibrant california poppies](.gitbook/assets/MJ\_Imagine.png)
 
-**/imagine:** `prompt`**`vibrant california poppies`**
+&#x20;
 
-`![](.gitbook/assets/MJ--w.png)`
+![/imagine:promptvibrant california poppies --w 448](.gitbook/assets/MJ--w.png)
 
-**/imagine:**`prompt`**`vibrant california poppies --w 448`**
 
-**\`\`**
 
 `--aspect` or `--ar` Sets a desired aspect ratio, instead of manually setting height and width with `--h` and `--w`.
 
 Try `--ar 16:9` for example, to get a 9:16 aspect ratio (\~256x448).
 
-![](.gitbook/assets/mj--ar.png)`prompt`**`vibrant california poppies --ar 9:16`**
+![promptvibrant california poppies --ar 9:16](.gitbook/assets/mj--ar.png)
 
 Also see [Understanding Image Sizes](resource-links/understanding-image-size.md).
 
@@ -52,8 +49,6 @@ These "shortcuts" are command that do the same as the forms following the ":" in
 It would be the same as typing the longer form:
 
 **/imagine:** `prompt`**`vibrant california poppies`**`--w 1920 --h 1024 --hd`
-
-\`\`
 
 Shortcut equivalences:
 
@@ -79,7 +74,7 @@ Shortcut equivalences:
 
 `--version 1` or `--v 1` uses the original Midjourney algorithm (more abstract, sometimes better for macro or textures). `--v 1` corresponds to the <img src=".gitbook/assets/MJ_v1_btn.png" alt="" data-size="line">button in `/settings.`
 
-\`\`![](<.gitbook/assets/image (10).png>) prompt: **`vibrant california poppies` --version 1**
+![](<.gitbook/assets/image (10).png>) prompt: **`vibrant california poppies` --version 1**
 
 #### Version **2**
 
@@ -99,7 +94,7 @@ Shortcut equivalences:
 
 `--hd` Uses a different algorithm that’s potentially better for larger images, but with less consistent compositions.
 
-![](.gitbook/assets/mj--hd.png)prompt: **`vibrant california poppies --hd`**
+![prompt: vibrant california poppies --hd](.gitbook/assets/mj--hd.png)
 
 ### Prompt Modifiers
 
@@ -107,7 +102,7 @@ Shortcut equivalences:
 
 `--no` Negative prompting (e.g., `--no plants` would try to remove plants). This is like giving it a weight of -0.5.
 
-![](<.gitbook/assets/mj--no (1).png>) prompt: \*\*`vibrant california poppies --no grass` \*\*
+![](<.gitbook/assets/mj--no (1).png>) prompt: **`vibrant california poppies --no grass`**
 
 ### Detail Modifiers
 
@@ -121,9 +116,11 @@ Shortcut equivalences:
 
 `--uplight` Use "lighter" upscaler for upscales. Light results are closer to the original image with less detail added during upscale. `--uplight` corresponds to the <img src=".gitbook/assets/MJ_uplight_btn.png" alt="" data-size="line"> button in `/settings`.
 
-![](.gitbook/assets/mj\_upscale.png) ![](.gitbook/assets/Mj\_uplight.png)
-
 Regular upscale <img src=".gitbook/assets/MJ_regUpscale_btn.png" alt="" data-size="line"> (left) vs Light Upscale <img src=".gitbook/assets/MJ_uplight_btn.png" alt="" data-size="line"> (right)
+
+![Regular upscale](.gitbook/assets/mj\_upscale.png) ![Light upscale](.gitbook/assets/Mj\_uplight.png)
+
+
 
 ### Seeds
 
@@ -133,21 +130,21 @@ A seed number generate the random starting noise used in the begining of image g
 
 `--seed` Sets the random seed (an integer), which can sometimes help keep things more steady / reproducible between generations.
 
-![](.gitbook/assets/MJ\_Imagine.png) ![](.gitbook/assets/mj\_seed.png)
+For instance: the same prompt run twice, with no seed specified:
 
-`/imagine prompt: an abstract field of flowers` run twice without a seed.
+![prompt: an abstract field of flowers](.gitbook/assets/MJ\_Imagine.png) ![prompt: an abstract field of flowers](.gitbook/assets/mj\_seed.png)
 
-![](.gitbook/assets/MJ\_Imagine.png) ![](.gitbook/assets/mj\_seedtwice.png)
+Versus specifying the seed and running it twice:
 
-`prompt:`**`vibrant california poppies`**` `` ``--seed 0987 ` run twice.
+![prompt:vibrant california poppies--seed 0987](.gitbook/assets/MJ\_Imagine.png) ![prompt:vibrant california poppies--seed 0987](.gitbook/assets/mj\_seedtwice.png)
+
+``
 
 #### --Sameseed
 
 `--sameseed <number>` Sets the same seed across all images of the resulting grid, resulting in minimal changes within the initial grid. The `sameseed` can be any positive integer.
 
-![](.gitbook/assets/mj\_sameseed.png)
-
-`prompt:`**`vibrant california poppies`**` `` ``--sameseed 0987 `
+![prompt:vibrant california poppies--sameseed 0987](.gitbook/assets/mj\_sameseed.png)
 
 ### --Stylize
 
@@ -155,56 +152,41 @@ A seed number generate the random starting noise used in the begining of image g
 
 See the [User Manual](user-manual.md#stylize-values) for more detailed information.
 
-![](.gitbook/assets/mj--s1250.png)
+The default is 2500, but you can set it lower too. For instance, `--s 1250` is good for when you want it to be 'less strict' but still 'pretty' (this is probably recommended for skilled users). `--s 1250` corresponds to the <img src=".gitbook/assets/MJ_v1_StyleLow.png" alt="" data-size="line"> button in `/settings.`
 
-`--s 1250` Good for when you want it to be 'less strict' but still 'pretty' (this is probably recommended for skilled users).\
-`--s 1250` corresponds to the <img src=".gitbook/assets/MJ_v1_StyleLow.png" alt="" data-size="line"> button in `/settings.`
+![using --s 1250. --s 1250 corresponds to the  button in /settings](.gitbook/assets/mj--s1250.png)
 
-\`\`![](.gitbook/assets/MJ--s2500.png)
+``
 
-`--s 2500` The default style level.\
-`--s 2500` corresponds to the <img src=".gitbook/assets/MJ_v1_StyleMed (1).png" alt="" data-size="line"> button in `/settings.`
+![The default, --s 2500 (which doesn't need to be specified in your prompt)
+\--s 2500 corresponds to the  button in /settings.](.gitbook/assets/MJ--s2500.png)
 
-`![](.gitbook/assets/mj--5000.png)`
+![--s 5000 corresponds to the  button in /settings.](.gitbook/assets/mj--5000.png)
 
-`--s 5000` corresponds to the <img src=".gitbook/assets/MJ_v1_StyleHigh.png" alt="" data-size="line"> button in `/settings.`
+![--s 20000 If you want it to 'take over' and start drifting from your text, but not go crazy.
+\--s 20000 corresponds to the  button in /settings.](.gitbook/assets/mj--s20000.png)
 
-\`\`
-
-`![](.gitbook/assets/mj--s20000.png)`
-
-`--s 20000` If you want it to 'take over' and start drifting from your text, but not go crazy.\
-`--s 20000` corresponds to the <img src=".gitbook/assets/MJ_v1_StyleVeryHigh.png" alt="" data-size="line"> button in `/settings.`
+``
 
 ### --Quality
 
-`--quality <number>` , or `--q <number>` Sets how much rendering quality time you want to spend. Default number is 1. Higher values take more time and cost more\
-See the [User Manual](user-manual.md#quality-values) for more detailed information.
+`--quality <number>` , or `--q <number>` Sets how much rendering quality time you want to spend. Default number is 1. Higher values take more time and cost more. See the [User Manual](user-manual.md#quality-values) for more detailed information.
 
-\`\`
+Specifying a quality of .5 will reduce your cost and image quality:
 
-`![](.gitbook/assets/mj--q05.png)`
+![prompt:vibrant california poppies --q .5 (2x faster/cheaper) --q .5 corresponds to the  button in /settings.](.gitbook/assets/mj--q05.png)
 
-`--q .5` Rougher results, 2x faster / cheaper.\
-`prompt:`**`vibrant california poppies --q .5`**\
-**\`\`**`--q .5` corresponds to the <img src=".gitbook/assets/MJ_QualHalf.png" alt="" data-size="line"> button in `/settings.`
+`--q 1`  is the **default value**, you do not need to specify it.\
 
-\`\`
 
-**`**![](.gitbook/assets/MJ\_Imagine.png)**`**
+![prompt: vibrant california poppies--q 1 corresponds to the  button in /settings.](.gitbook/assets/MJ\_Imagine.png)
 
-`--q 1` The **default value**, you do not need to specify it.\
-**``**`prompt:`**`vibrant california poppies`**\ **``**`--q 1` corresponds to the <img src=".gitbook/assets/MJ_Qual1.png" alt="" data-size="line"> button in `/settings.`
+`--q 2` will give you more detailed results, but is 2x slower / more expensive:
 
-\`\`
+![prompt:vibrant california poppies --q 2
+\--q 2 corresponds to the  button in /settings.](.gitbook/assets/mj--q2.png)
 
-`![](.gitbook/assets/mj--q2.png)`
 
-`--q 2` More detailed results, 2x slower / more expensive\
-**``**`prompt:`**`vibrant california poppies --q 2`**\
-**``**`--q 2` corresponds to the <img src=".gitbook/assets/MJ_Qual2X.png" alt="" data-size="line"> button in `/settings.`
-
-### \`\`
 
 ### `Progress Videos`
 
@@ -234,11 +216,11 @@ Image prompt use with no `--iw` parameter, `--iw .5` `--iw 1` `--iw 2` and `--iw
 
 **From left to right:**
 
-* ` prompt`` `` `**`https://dots.jpg vibrant california poppies`** (default image weight is .25)
-* ` prompt`` `` `**`https://dots.jpg vibrant california poppies --iw .5`**
-* ` prompt`` `` `**`https://dots.jpg vibrant california poppies --iw 1`**
-* ` prompt`` `` `**`https://dots.jpg vibrant california poppies --iw 2`**
-* ` prompt`` `` `**`https://dots.jpg vibrant california poppies --iw 5`**
+* `prompt`` `**`https://dots.jpg vibrant california poppies`** (default image weight is .25)
+* `prompt`` `**`https://dots.jpg vibrant california poppies --iw .5`**
+* `prompt`` `**`https://dots.jpg vibrant california poppies --iw 1`**
+* `prompt`` `**`https://dots.jpg vibrant california poppies --iw 2`**
+* `prompt`` `**`https://dots.jpg vibrant california poppies --iw 5`**
 
 ### Settings
 

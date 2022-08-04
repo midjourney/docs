@@ -1,3 +1,7 @@
+---
+description: Some tips from the MJ Team
+---
+
 # Tips for Text-Prompts
 
 ### Anything left unsaid may surprise you

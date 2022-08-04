@@ -1,7 +1,7 @@
 ---
 description: >-
   An easy to understand explanation of image size, dimensions, resolutions, and
-  DPI
+  DPI, by schofe.
 ---
 
 # Understanding Image Size
