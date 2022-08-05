@@ -59,7 +59,7 @@ Requests take a minute to generate four options based on your prompt.
 After a 2x2 grid of images has finished generating, two rows of buttons will appear:&#x20;
 
 * In the top row: `U1`, `U2`, `U3`, and `U4` are buttons for **Upscaling** your chosen image. Upscaling an image generates a larger roughly 1024x1024 pixel version of the selected image. By default, this will also generate additional details.
-* In the bottom row: `V1`, `V2`, `V3`, and `V4` are buttons for creating **Variations** of your chosen image. Creating variations will generate four new images, similar in overall style and composition to the image you selected.
+* In the bottom row: `V1`, `U2`, `V3`, and `V4` are buttons for creating **Variations** of your chosen image. Creating variations will generate four new images, similar in overall style and composition to the image you selected.
 
 ![The order used by the numbered buttons (U,V) to select an image](.gitbook/assets/167755032-fe6935a9-b6a2-4b80-8f73-13916c170ceb.png)
 
