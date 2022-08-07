@@ -47,7 +47,15 @@ The ↻ submits the same job again, which will run with a different seed without
 
 # -------------------- ---IMAGINE----- --------------------
 
-Q: I'm having trouble using the bot - how do I use /imagine? /image? /imagine? Imagine? /imagine prompt:? How do I use /imagine? Why don’t I see the /imagine option as a slash command? I don’t see /imagine in my slash commands? My commands don’t work? Imagine doesn't work for me? I type the prompts and nothing appears? I type /imagine and nothing happens? It does not let me use /imagine? How do I generate images? How to use it? How do I use the bot? How does the bot work? So just /imagine [prompt]? I type the prompts and nothing appears. How do I use it? I type the prompts and nothing appears? How do I make art? How do I use midjourney? How do I prompt? How can I ask the AI to create an image? How do I trial the program? How do I get started? How can I start using the midjourney as a free user? Can I try it? Where can I start? How do I use the AI? Can I have free trial?
+Q:  /image? /imagine? Imagine? /imagine prompt:? #imagine?
+
+**Do not use /imagine in <#989981349777637446>. If you keep doing so, your messages will be deleted and you might get timed out. Read <#999550150705954856> or the [Quick Start Guide](https://midjourney.gitbook.io/docs/) for the basics.**
+
+Click on your name in the chat (or tap on your profile picture if on mobile) and take note of which Group you’re a part of. This will tell you what newbies channel to use /imagine in. For example, if you are in Group 12, you need to go to #newbies-12.
+
+---
+
+Q: I'm having trouble using the bot - how do I use /imagine? How do I use /imagine? Why don’t I see the /imagine option as a slash command? I don’t see /imagine in my slash commands? My commands don’t work? Imagine doesn't work for me? I type the prompts and nothing appears? I type /imagine and nothing happens? It does not let me use /imagine? How do I generate images? How to use it? How do I use the bot? How does the bot work? So just /imagine [prompt]? I type the prompts and nothing appears. How do I use it? I type the prompts and nothing appears? How do I make art? How do I use midjourney? How do I prompt? How can I ask the AI to create an image? How do I trial the program? How do I get started? How can I start using the midjourney as a free user? Can I try it? Where can I start? How do I use the AI? Can I have free trial? Register?
 
 See the [Quick Start Guide](https://midjourney.gitbook.io/docs/) for the basics.
 
@@ -103,6 +111,10 @@ Note: custom aspect ratio/resolution, --hd, and quality >1 will use more GPU-min
 Q: How do I see how many gpu hours I have left? How do I see how much I have used? How do I see how many hours I have left? Where can I check how many prompts I have left? How many images can I make? How can I see my queue? Where do I check my jobs? How do I check how many jobs I have left? /info? Info?
 
 Use `/info` in a bot channel to check your subscription status and usage.
+
+Once you’re in a bot channel, like one of the #newbies channels, select the command that pops up from the menu above the textbox when you start typing /info - like this: 
+
+%image=https://media.discordapp.net/attachments/995112753880649808/998939274147795066/unknown.png
 
 ---
 
@@ -217,12 +229,6 @@ Note that, no matter where you use the bot, your images will still appear in the
 
 ---
 
-Q: Is there a web version? Can I generate online? Do I have to use Discord?
-
-At this time, there is no support for generating images outside of Discord. You can, however, invite the bot to your own server, or DM it directly if you are a subscribed member.
-
----
-
 # -------------------- -------------------- --------------------
 # -------------------- ----INVITES----- --------------------
 # -------------------- -------------------- --------------------
@@ -271,7 +277,7 @@ Each new user gets a free trial of around 25 jobs (25 GPU minutes to be exact). 
 
 ---
 
-Q: Why isn’t this free? Do I really have to pay for this? Can you give me free access? No free? Do I have to pay? Why do I have to pay? Is there a free version? Can I use the program for free?
+Q: Why isn’t this free? Do I really have to pay for this? Can you give me free access? No free? Do I have to pay? Why do I have to pay? Is there a free version? Can I use the program for free? Refresh?
 
 Midjourney does not provide a free tier because of the sheer cost involved with using farms of hundreds to thousands of GPUs. As it is, we don’t make much profit on our paid plans, and we cannot afford to provide a free tier to users at this time because we don’t have the resources to do so. Please note that the free trial is a one-time allocation of 25 GPU minutes, and creating alternate accounts to take advantage of the trial multiple times **WILL** result in a ban.
 
@@ -288,7 +294,7 @@ Subscriptions renew every 30 days. You can check when this is by using `/info`
 
 ---
 
-Q: How do I subscribe? How to subscribe? How do I become a member? /subscribe? How does one become a member? How can I be a full member?  How can I subscribe to it? how to get paid version? How do you get a subscription? How can I upgrade from the trial version? hello, where can I can make the payment for the Standard plan? And how do i buy the 10$ plan? How do I buy? How can I subscribe to Midjourney?
+Q: How do I subscribe? How to subscribe? How do I become a member? /subscribe? How does one become a member? How can I be a full member?  How can I subscribe to it? how to get paid version? How do you get a subscription? How can I upgrade from the trial version? hello, where can I can make the payment for the Standard plan? And how do i buy the 10$ plan? How do I buy? How can I subscribe to Midjourney? Premium?
 
 Type `/subscribe` and click the link provided or simply go to [https://www.midjourney.com/account/](https://www.midjourney.com/account/) (you’ll need to "Sign in with Discord" in this last case)
 
@@ -377,13 +383,13 @@ Q: Is private permanent? If I cancel are my images still private?
 
 Any images marked private during your subscription will remain private even after your subscription ends.
 
-—
+---
 
 Q: I can’t see the eye icon. I can’t unpublish on the website.
 
 If the icon doesn’t appear, try using the /info command, logging out, and then re-logging into the website.
 
-—
+---
 
 Q: Are all my images private automatically? Will my gallery become private? Why can users still interact even though I bought private?
 
@@ -391,7 +397,7 @@ In order to use your private membership, you’ll need to enter private mode wit
 
 In order to make sure your private generations are actually private, make sure to generate them inside a DM to the bot or in a private server. Generating in a public channel will show the image to everyone.
 
-—
+---
 
 # -------------------- SWITCH PLANS --------------------
 
@@ -498,7 +504,7 @@ Q: What is the maximum upscale resolution? What is the maximum resolution?  How 
 
 For a square image, regular upscale is 1024x1024 and maximum upscale is 1664x1664.
 
-For an image with a 16:9 or 9:16 aspect ratio, regular upscale is 1792x1024 and max upscale is 2048x1152. 
+For an image with a 16:9 or 9:16 aspect ratio, regular upscale is 1792x1024 and max upscale is 2048x1152. Custom resolutions can be set with --w and --h.
 
 The maximum resolution you can get is around 2.8 megapixels, for the moment.
 
@@ -530,36 +536,11 @@ The --iw 5 applies an image weight of 5. Read more [here](https://midjourney.git
 
 ---
 
-Q: How do I upload an image? How do I get image link? How do I use my own image? How do I upload or use an image from my hard-drive for an image prompt?
+Q: How do I upload an image? How do I get image link? How do I use my own image? How do I upload or use an image from my hard-drive for an image prompt? Image prompt? How can I attach an image? Can I use an image as a starting point? Can I use my images? Can I send images to the AI? Can I give an image to the AI? I've seen a few people using source images, how does this work? Can I use an image? Reference image?
 
-The image needs to be online, with a public URL, which you can do using Discord. If it's already online somewhere, right click on the image to 'copy image address (or link)' and go to step 5:
-
-On desktop:
-
-1. Drag an image into Discord
-2. Press enter to send it in the chat
-3. Click the image in discord so that it's fullscreen
-4. Right click it and press "copy image address"
-5. Type `/imagine` and then paste the address in the prompt area.
-
-On Mobile:
-
-1. Push the plus in the lower left then click 'upload'
-2. Press 'send message' to send it into the chat
-3. Click the image in discord so that it's fullscreen
-4. Push share then click 'copy url'
-5. Type `/imagine` and then paste the address in the prompt area.
+You can use your images as an inspiration for the AI. Detailed information can be found in the documentation [here](https://midjourney.gitbook.io/docs/imagine-parameters#image-prompting-with-url). You can either copy a URL from an image online, or upload one to discord and copy the link.
 
 %image=https://cdn.discordapp.com/attachments/958069758211797092/976902017182232596/n9Ldjf57Pz.gif
-
----
-
-Q: How can I attach an image? Can I use an image as a starting point? Can I use my images? Can I send images to the AI? Can I give an image to the AI? I've seen a few people using source images, how does this work? Can I use an image? Reference image?
-
-You can use your images as an inspiration for the AI.
-Type `/imagine` prompt as normal, but then in the prompt section, paste in the web address where the image is stored online. After the link you can still add new text prompts to complement it.  You can see some examples in the Imagine Parameters visual guide [here](https://midjourney.gitbook.io/docs/imagine-parameters#image-prompting-with-url).
-
-An image url must be a direct link to an online image, which you can usually get by right clicking on an image somewhere and choosing `Copy Link Address`. This address will usually end in a `.png` or `.jpg` if it's a usable address.
 
 ---
 
@@ -673,11 +654,11 @@ Anything over around 60 words will not affect the output, so don't write a novel
 
 ---
 
-Q: Why are my images the same color? Why does it ignore my prompt? Why is the image so different from my prompt? Why do I keep seeing the same woman/man?
+Q: Why are my images the same color? Why teal and orange? Why does it ignore my prompt? Why is the image so different from my prompt? Why do I keep seeing the same woman/man? Why are my generations always so similar?
 
 Your stylize value might be too high for your liking. High stylize values will result in “pretty” but less nuanced results. Try lowering it in the /settings menu, or by manually adding a stylize argument (e.g. --s 625).
 
-—
+---
 
 Q: What about “Unreal engine”? What about “Artstation”? What about “Octane render”?
 
@@ -747,9 +728,9 @@ We don't support videos for upscaling right now. Only for grids.
 
 ---
 
-Q: How do I get a video of my grid generating?
+Q: How do I get a video of my grid generating? Video? --video?
 
-Add --video to the end of your prompt.  Once your image has rendered react to it with the :envelope: emoji.
+Add --video to the end of your prompt.  Once your image has rendered, react to it with the :envelope: emoji.
 
 ---
 
@@ -851,7 +832,7 @@ Q: "Cannot send messages to this user" when trying to DM the bot? I can’t DM t
 Only subscribers can use commands in DMs with bot.
 
 
-Right click the server icon > Privacy Settings > make sure "Allow direct messages from server members." is turned on and green.
+Right click the server icon > Privacy Settings > make sure "Allow direct messages from server members." is turned on and green. Try disabling it and re-enabling it again if you’re still having issues.
 
 %image=https://cdn.discordapp.com/attachments/958069758211797092/979275401249574952/unknown.png
 
@@ -935,29 +916,21 @@ Yes! Email careers@midjourney.com about what you enjoy doing (twitter/linkedin/r
 
 Q: Is there a roadmap? What are your plans for the future?
 
-There is currently no published roadmap
+There is currently no published roadmap.
 
 ---
 
-Q: Are there any plans to make this into its own software/application? Another question, does this plan to be a stand-alone software? any plans to expose API endpoint so we can plug in into other stuff? Will MJ ever go for stand-alone platform, without Discord? 
+Q: Are there any plans to make this into its own software/application? Are there plans for a stand-alone application? Will MJ ever go for stand-alone platform, without Discord? Is there a web version? Can I generate online? Do I have to use Discord?
 
-Not currently, the plan now is to stay on discord. 
+At this time, there is no support for generating images outside of Discord. You can, however, invite the bot to your own server, or DM it directly if you are a subscribed member.
 
 ---
 
-Q: Do you have any API? Is there a way to use the app via an API? API?
+Q: Do you have any API? Is there a way to use the app via an API? API? Plans to expose API?
 
 We do not currently have an API and we do not plan to have one in the near future.
 
-—
-
-Q: Is there an app? Is discord the only way? Do I have to use discord?
-
-Discord is currently the only way to interface with the AI
-
---
-
-
+---
 
 Q: Are you interested in collaborating? I have a business proposal, how do I reach you? Can you make a custom feature for us? How can I write a business enquiry? How we contact you for a partnership?
 
