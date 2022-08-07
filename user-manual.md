@@ -2,42 +2,37 @@
 
 
 
-Please make sure you are familiar with the content guidelines and are aware of what is public content in the community. You can find more detail in [Content and Moderation](content-and-moderation-policy.md). This document does not cover everything in the #rules, #faq, #announcements, #status channels, so make sure you check those out!
+Please make sure you are familiar with the content guidelines and are aware of what is public content in the community. You can find more detail in [Content and Moderation](content-and-moderation-policy.md). This document does not cover everything in the[ official Midjourney Discord server](https://discord.gg/midjourney) (#rules, #faq, #announcements, #status channels), so make sure you check it out along with the other pages in this documentation, such as [Frequently Asked Questions](FAQs.md) and [Resource Links](resource-links/).
 
 That said, enjoy creating beautiful images! In this page:
 
-* [User Manual](user-manual.md#user-manual)
-  * [Basic Commands in Bot Channels](user-manual.md#basic-commands-in-bot-channels)
-  * [Parameters to "/imagine"](user-manual.md#parameters-to-imagine)
-  * [Stylize Values](user-manual.md#stylize-values)
-  * [Quality Values](user-manual.md#quality-values)
-  * [Emoji Reactions to Generation Output](user-manual.md#emoji-reactions-to-generation-output)
-  * [Image Prompting with URL](user-manual.md#image-prompting-with-url)
-  * [Advanced Text Weights](user-manual.md#advanced-text-weights)
-  * [Prompt Preferences and Settings](user-manual.md#prompt-preferences-and-settings)
-  * [Deprecated: May Want To Avoid](user-manual.md#deprecated-may-want-to-avoid)
+* [Basic Commands in Bot Channels](user-manual.md#basic-commands-in-bot-channels)
+* [Parameters to "/imagine"](user-manual.md#parameters-to-imagine)
+* [Stylize Values](user-manual.md#stylize-values)
+* [Quality Values](user-manual.md#quality-values)
+* [Emoji Reactions to Generation Output](user-manual.md#emoji-reactions-to-generation-output)
+* [Image Prompting with URL](user-manual.md#image-prompting-with-url)
+* [Advanced Text Weights](user-manual.md#advanced-text-weights)
+* [Prompt Preferences and Settings](user-manual.md#prompt-preferences-and-settings)
+* [Deprecated: May Want To Avoid](user-manual.md#deprecated-may-want-to-avoid)
 
 ### Basic Commands in Bot Channels
 
 Commands are functions of the Midjourney bot that can be typed in any bot channel or thread under a bot channel. A bot channel is a channel under the "Image Generation" section on the Discord server.
 
-`/imagine` Creates an image from text (4 images in 50 seconds)
+`/imagine` creates an image based on the `prompt` text you provided. It produces a grid of 4 images, taking around 50 seconds with default settings.
 
-`/info` Shows information about your profile and plan and usage.
+`/help` displays universally helpful information and tips about the Midjourney bot.
 
-`/invite` Generates an invite link and send it to your DM that you can send someone to join the server. It will give them some job time to try out the bot. You do not need to provide their name or address, you will give them the link it generates.
+`/info` shows information about your profile, plan, usage, and currently running jobs.
 
-`/ideas` Give some random ideas for prompt
+`/subscribe` creates a unique link to the subscription page of your current Discord account, without needing to sign in on the website.
 
-`/help` Displays bot options for handy reference
+`/fast` and `/relax` toggles between "fast" and "relax" mode. In fast mode, if you are out of jobs, your jobs will be incrementally billed. In relax mode, your jobs do not cost, but take longer to generate. Only active Standard and Corporate plans have access to relax mode.
 
-`/subscribe` Get a link to the subscription page
+`/show <jobid>` after recovering the ID of a job in your gallery, you can summon that job again in the chat, producing the resulting image and upscale+variation buttons. This allows you to essentially revive any job you generated yourself, bringing it into any bot channel to generate upscales and variations there, even if you have lost access to the original message.
 
-`/fast` and `/relax` Toggles between "fast" and "relax" mode. In fast mode, if you are out of jobs, your jobs will be incrementally billed. In relax mode, your jobs do not cost, but take longer to generate.
-
-`/show` You can now use the `/show <jobid>` command to produce the resulting image and upscale+variation buttons, based on a job id. This allows you to take a job into a different channel, upscale a job from an archived thread, or other similar situations (like being moved from a newbies channel).
-
-`/private` and `/public` Toggles between "private" and "public" mode. In private mode, your jobs are only visible to you. **In public mode, your jobs are visible to everyone in the gallery, even if you are creating them in a thread or a DM.** Access to private mode costs extra 20$ per month.
+`/private` and `/public` toggle between "private" and "public" mode. In private mode, your jobs are only visible to you. **In public mode, your jobs are visible to everyone in the gallery, even if you are creating them in a thread or a DM.** Access to private mode costs an extra 20$ per month.
 
 You can find more documentation on using these in our [FAQs](FAQs.md).
 
@@ -51,37 +46,17 @@ For instance, a full imagine command might contain several things, like an image
 
 Below are some of the "switches" you can add at the end of the command, using the "--" delimiter.
 
-`--w` Width of image. Works better as multiple of 64 (or 128 for `--hd`)
+`--hd` Uses a different algorithm that’s potentially better for larger images, but with less consistent composition. Best for abstract and landscape prompts. This also generates images at higher resolutions without the need to upscale.
 
-`--h` Height of image. Works better as multiple of 64 (or 128 for `--hd`)
+`--w` Width of image. Works better as multiples of 64 (or 128 for `--hd`)
 
-`--seed` Sets the random seed, which can sometimes help keep things more steady / reproducible between generations. Any positive integer (e.g., 2, 534, 345554).
+`--h` Height of image. Works better as multiples of 64 (or 128 for `--hd`)
 
-`--no` Negative prompting (`--no plants` would try to remove plants)
+`--aspect`, or `--ar` Sets the desired aspect ratio, instead of manually setting height and width with `--h` and `--w`. Try `--ar 16:9` for example, to get a 16:9 aspect ratio (\~448x256).
 
-`--video` Saves a progress video, which is sent to you in the ✉️-triggered DM (you must react with the envelope to get the video link)
+<details>
 
-`--iw` Sets image prompt weight relative to text weight. Default is 0.25.&#x20;
-
-`--fast` Faster images, less consistency
-
-`--version <1 or 2>` or `--v <1 or 2>`  Uses old algorithms 1 (which was formerly the "vibe" option, sometimes better for macro or textures) or 2, the last improvement.  We are at 3 now, which you do not need to specify.  So specify `--version 2` to use the previous older model, or `--version 1` for the one before.
-
-`--stylize <number>`, or `--s <number>` The stylize argument sets how strong of a 'stylization' your images have, the higher you set it, the more opinionated it will be. Default number is 2500. [See below](user-manual.md#stylize-values) for more info.
-
-`--quality <number>` , or `--q <number>` How much rendering quality time you want to spend. Default number is 1. Higher values cost more, [see below](user-manual.md#quality-values).
-
-`--hd` Uses a different algorithm that’s potentially better for larger images, but with less consistent composition. Best for abstract and landscape prompts.
-
-`--stop` Stop the generation at an earlier percentage. Must be between 10-100
-
-`--uplight` Use "light" upscaler for subsequent upscales. Results are then closer to the original image (less detail added during upscale)
-
-`--sameseed` Sets the same seed across all images of the resulting grid
-
-`--aspect` Sets a desired aspect ratio, instead of manually setting height and width with `--h` and `--w`. Try `--aspect 16:9` for example, to get a 16:9 aspect ratio (\~448x256). (Shortcut `--ar`.)
-
-**Size shortcuts**
+<summary>Size shortcuts for common resolutions</summary>
 
 These are synonyms for longer commands.  In other words, using `--wallpaper` is the same as saying   `--w 1920 --h 1024 --hd`.
 
@@ -100,6 +75,30 @@ These are synonyms for longer commands.  In other words, using `--wallpaper` is 
 `--lp`: `--w 512 --h 768 --hd`
 
 You can see an illustrated guide to all these parameters on [this page](imagine-parameters.md).  You can read more about image sizes and how to interpret them on [Understanding Image Size](resource-links/understanding-image-size.md).
+
+</details>
+
+`--seed` Sets the seed, which can sometimes help keep things more steady and reproducible when trying to generate a similar prompt again. It must be a positive integer (e.g. 2, 534, 345554). If not used, a random seed will be chosen instead, behind the scenes. You can react with :envelope: to a job's message to know what seed value was used.
+
+`--sameseed` Makes it so the seed affects all images of the resulting grid in the same way. If not used, each image in the grid will use a different "slice" of the seed, providing higher variety.
+
+`--no` Negative prompting (`--no plants` would try to remove plants). Equivalent to using an [advanced text weight](user-manual.md#advanced-text-weights) of `::-0.5`
+
+`--iw` Sets image prompt weight relative to text weight. Default value is `--iw 0.25`
+
+`--stylize <number>`, or `--s <number>` The stylize argument sets how strong of a 'stylization' your images have, the higher you set it, the more opinionated it will be. Default value is 2500. [See below](user-manual.md#stylize-values) for more info.
+
+`--quality <number>` , or `--q <number>` How much rendering quality time you want to spend. Default value is 1. Higher values cost more and lower values cost less, [see below](user-manual.md#quality-values).
+
+`--fast` Faster images, less consistency, less expensive. You can also use `--q 0.5` and `--q 0.25` for a similar result, [see below](user-manual.md#quality-values).
+
+`--stop` Stop the generation at an earlier percentage. Must be between 10-100. This currently does not work with upscales.
+
+`--video` Saves a progress video, which is sent to you in the ✉️-triggered DM (you must react with the envelope to get the video link). This currently does not work with upscales.
+
+`--version <1 or 2>` or `--v <1 or 2>`  Uses old algorithms 1 (which was formerly the "vibe" option, sometimes better for macro or textures) or 2, the last improvement.  We are at 3 now, which you do not need to specify.  So specify `--version 2` to use the previous older model, or `--version 1` for the one before.
+
+`--uplight` Uses the "light" upscaler when selecting the `U` **** buttons. Results are then closer to the original image, with less detail added during upscale. Ideal for faces and smooth surfaces.
 
 ### Stylize Values
 
@@ -135,23 +134,27 @@ The shortcut version is `--q`.
 
 ![how to add a reaction emoji](.gitbook/assets/reaction\_editing.gif)
 
-✉️ The envelope emoji reaction sends an image to your DMs with the seed # and job ID. If the result was a grid, it will send each individual image. You may have to hunt for this emoji by typing "envelope" in your emoji list.
+✉️ `:envelope:` The envelope emoji reaction sends an image to your DMs with the seed # and job ID. If the result was a grid, it will send each individual image. You may have to hunt for this emoji by typing "envelope" in your emoji list.
 
-⭐️ Marks image as "favorite". This shows in a separate feed on the web gallery and sends the image to the #favorites channel.
+⭐️ `:star:` Marks image as "favorite". This shows in a separate feed on the web gallery and sends the image to the #favorites channel.
 
-❌ Cancels or deletes a generation at any time. It is also removed from the web gallery. Please help us by removing content you accidentally generated that is in violation of our PG-13 content guidelines (see [Content and Moderation](content-and-moderation-policy.md)).
+❌  `:x:` Cancels or deletes a generation at any time. It is also removed from the web gallery. Please help us by removing content you accidentally generated that is in violation of our PG-13 content guidelines (see [Content and Moderation](content-and-moderation-policy.md)).
 
 ### Image Prompting with URL
 
-Add one or more image URLs to your prompt and it will use those images as visual inspiration. You can mix words with images or just have images alone. See [Image Prompt Questions](FAQs.md#image-prompt-questions) for more info and an animated gif below showing how to upload and use an image.
+Add one or more image URLs to your prompt and it will use those images as visual inspiration. You can mix words with images or just have images alone. For more info see [Image Prompt Questions](FAQs.md#image-prompt-questions) and watch the video below for a demonstration on how to upload and use an image.
 
-![Uploading an image to use with an image prompt](.gitbook/assets/Discord\_FHZfwDLhLY.gif)
+![Uploading an image to use with an image prompt on Discord, copying its URL, and using it with /imagine ](.gitbook/assets/Discord\_FHZfwDLhLY.gif)
 
-`--iw:` Adjusts the weight of the image URLs vs the text. They default to 0.25.  Experiment and see what you like. Also see [FAQ here](FAQs.md#image-prompt-questions).
+`--iw <value>` Adjusts the weight of the image URLs vs the text. They default to 0.25.  Experiment and see what you like. For example, `--iw 1` makes your image URL just as important, for the generation, as your default-weight prompt text. Also see [FAQ here](FAQs.md#image-prompt-questions).
 
-**Note**: There is currently no way to apply different weights to different image prompts. This will be addressed in the future.
+{% hint style="warning" %}
+There is currently no way to apply different weights to different image prompts. This will be addressed in the future.
+{% endhint %}
 
-**Also Note**: This is _not_ the same as building on top of (or "initializing" from) a starting input image as you may see in other generation tools. Midjourney does not currently offer the ability to use a starting image, due to concerns about community public content.  Instead, we let you use an image as inspiration, usually with text, to guide the generation.
+#### Is there a way to edit my images with Midjourney?
+
+Image Prompting is _not_ the same as building on top of (or "initializing" from) a starting input image as you may see in other generation tools. Midjourney does not currently offer the ability to use a starting image, due to concerns about community public content. Instead, we let you use an image as inspiration, usually with text, to guide the generation.
 
 ### Advanced Text Weights
 
@@ -165,27 +168,80 @@ Some examples:
 
 Prompts with a negative total weight are not allowed.
 
-**Note**: The `--no` command is equivalent to using `weight -0.5`.  For instance, `--no farms` means don't include farms in the output, same as `farms::-.5`
+{% hint style="info" %}
+The "--no" command is equivalent to using a text weight of "-0.5".  For instance, "--no farms" means don't include farms in the output, same as "farms::-.5"
+{% endhint %}
 
 ### Prompt Preferences and Settings
 
-`/settings` will give you some buttons to choose your preferences, like the `/prefer` command but visually.  Each row is a toggle button, meaning turning one on will turn the others off.&#x20;
+`/settings` — This will give you some buttons to view and change your current preferences, like the `/prefer suffix` command but visually.  Each set of preferences is a toggle, meaning turning one on will turn the others off.&#x20;
 
-![](.gitbook/assets/settings.png)
+![open the expandable section below for an explanation of each button here](.gitbook/assets/settings.png)
 
-`/prefer suffix <text>` — This will automatically append this suffix after all prompts you submit. Leave empty to reset.
+<details>
 
-**Note:** Only --options are currently officially supported as values for the suffix option, not just any regular text.
+<summary>What each <code>/settings</code> button means</summary>
+
+#### Older versions of the Midjourney algorithm:
+
+* _MJ version 1_ sets the `--v 1` suffix&#x20;
+* _MJ version 2_ sets the `--v 2` suffix&#x20;
+* _MJ version 3_ doesn't set any suffix: this is the default value and the current version of our tool
+
+#### How much stylistic control you want to hand over to Midjourney:
+
+* _Style low_ sets the `--s 1250` suffix. If you want even less, set `--s 625` with `/prefer suffix` instead
+* _Style med_ doesn't set any suffix: this is the default value
+* _Style high_ sets the `--s 5000` suffix&#x20;
+* _Style very high_ sets the `--s 20000` suffix. If you want even more, set `--s 60000` with `/prefer suffix` instead
+
+#### How much more or less detailed and expensive you want your jobs to be:
+
+* _Half quality_ sets the `--q 0.5` suffix. This is less detailed 1/2 as expensive
+* _Base quality_ doesn't set any suffix: this is the default value
+* _High quality_ sets the `--q 2` suffix. This is more detailed and 2x as expensive
+
+#### Switching between `/fast` and `/relax` mode ([more info](https://midjourney.gitbook.io/docs/faqs#fast-and-relaxed)):
+
+* _Fast mode_ is equivalent to using the `/fast` command
+* _Relax mode_ is equivalent to using the `/relax` command
+
+#### Upscaling images with or without added detail:
+
+* _Regular upscale_ doesn't set any suffix: this is the default value
+* _Light upscale_ sets the `--uplight` suffix. This causes the **U** buttons to upscale your image while keeping the original detail mostly intact
+
+#### Switching between `/public` and `/private` mode ([more info](https://midjourney.gitbook.io/docs/billing#private-visibility-option-+usd20-month)):
+
+* _Public mode_ is equivalent to using the `/prublic` command
+* _Private mode_ is equivalent to using the `/private` command
+
+</details>
+
+
+
+`/prefer suffix <text>` — This will automatically append the specified suffix after all prompts you submit. Leave empty to reset.
+
+{% hint style="info" %}
+Only "--" options are currently officially supported as values for prefer suffix, not just any regular text. For example, you can use "--uplight" and "--no golden hour", while "soft" or "golden hour::-0.5" will not work.
+{% endhint %}
+
+
 
 `/prefer auto_dm True` — Jobs will be automatically DMed to you. Set False to turn this off.
 
-`/prefer option set <name> <value>` — This creates a personal option, which then translates to specified value when you invoke it by prepending it with --. Only you can use this option. For example, `/prefer option set mine --hd --w 512` creates an option called "mine" that translates to `--hd --w 512`. So you can use `/imagine rubber ducks are awesome --mine`, and it will be the exact same as if you did `/imagine rubber ducks are awesome --hd --w 512`. Leave the value field empty to delete an option.
 
-![the /prefer option and value input](.gitbook/assets/prefer\_image.png)
 
-`/prefer option list` — This will list your currently set personal options. You may keep a maximum of 20 personal options.
+`/prefer option set <name> <value>` — This creates a personal option, which then translates to the value you have set when you invoke it by prepending it with `--`. Only you can use this option. For example, `/prefer option set mine --hd --w 512` creates an option called "mine" that translates to `--hd --w 512`. So you can use `/imagine rubber ducks are awesome --mine`, and it will be the exact same as if you did `/imagine rubber ducks are awesome --hd --w 512`. Leave the "value" field empty to delete an option.
+
+![how /prefer option set should look when creating or overriding an option](.gitbook/assets/prefer\_image.png)
+
+
+
+`/prefer option list` — This will list the personal options you've currently set with the `/prefer option set` command. You may keep a maximum of 20 personal options.
+
+
 
 ### Deprecated: May Want To Avoid
 
-`--hq` `--newclip` `--nostretch` `--beta` `/pixels`\
-``
+`--hq` `--newclip` `--nostretch` `--beta` `--old` `/pixels` `/idea`

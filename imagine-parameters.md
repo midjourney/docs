@@ -192,7 +192,7 @@ Specifying a quality of .5 will reduce your cost and image quality:
 
 `--video` Saves a progress video. Video will be sent to you in DM by the bot (private message) after you react to the result with the ✉️ emoji.
 
-![prompt:vibrant california poppies--video](.gitbook/assets/mj--video.png)
+![prompt:vibrant california poppies --video](.gitbook/assets/mj--video.png)
 
 ### Image Prompting with URL
 
