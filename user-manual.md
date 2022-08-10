@@ -78,7 +78,7 @@ You can see an illustrated guide to all these parameters on [this page](imagine-
 
 </details>
 
-`--seed` Sets the seed, which can sometimes help keep things more steady and reproducible when trying to generate a similar prompt again. It must be a positive integer (e.g. 2, 534, 345554). If not used, a random seed will be chosen instead, behind the scenes. You can react with :envelope: to a job's message to know what seed value was used.
+`--seed` Sets the seed, which can sometimes help keep things more steady and reproducible when trying to generate a similar prompt again. It must be a positive integer (any whole number between `0` and `4294967295`). If not used, a random seed will be chosen instead, behind the scenes. You can react with :envelope: to a job's message to know what seed value was used.
 
 `--sameseed` Makes it so the seed affects all images of the resulting grid in the same way. If not used, each image in the grid will use a different "slice" of the seed, providing higher variety.
 
@@ -89,6 +89,8 @@ You can see an illustrated guide to all these parameters on [this page](imagine-
 `--stylize <number>`, or `--s <number>` The stylize argument sets how strong of a 'stylization' your images have, the higher you set it, the more opinionated it will be. Default value is 2500. [See below](user-manual.md#stylize-values) for more info.
 
 `--quality <number>` , or `--q <number>` How much rendering quality time you want to spend. Default value is 1. Higher values cost more and lower values cost less, [see below](user-manual.md#quality-values).
+
+`--chaos <number>` How much more varied, random, and different the results will be. Must be between 0-100. Higher values will favor more interesting and unusual generations in exchange for less reliable compositions.
 
 `--fast` Faster images, less consistency, less expensive. You can also use `--q 0.5` and `--q 0.25` for a similar result, [see below](user-manual.md#quality-values).
 
