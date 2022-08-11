@@ -34,7 +34,7 @@ Parameters options that change how the images generate. A full `/imagine` comman
 
 `--aspect` or `--ar` Sets a desired aspect ratio, instead of manually setting height and width with `--h` and `--w`.
 
-Try `--ar 16:9` for example, to get a 9:16 aspect ratio (\~256x448).
+Try `--ar 9:16` for example, to get a 9:16 aspect ratio (\~256x448).
 
 ![promptvibrant california poppies --ar 9:16](.gitbook/assets/mj--ar.png)
 
