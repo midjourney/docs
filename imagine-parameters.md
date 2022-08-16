@@ -26,17 +26,13 @@ Parameters options that change how the images generate. A full `/imagine` comman
 
 ![/imagine: promptvibrant california poppies](.gitbook/assets/MJ\_Imagine.png)
 
-&#x20;
-
 ![/imagine:promptvibrant california poppies --w 448](.gitbook/assets/MJ--w.png)
-
-
 
 `--aspect` or `--ar` Sets a desired aspect ratio, instead of manually setting height and width with `--h` and `--w`.
 
 Try `--ar 9:16` for example, to get a 9:16 aspect ratio (\~256x448).
 
-![promptvibrant california poppies --ar 9:16](.gitbook/assets/mj--ar.png)
+![promptvibrant california poppies --ar 9:16](<.gitbook/assets/mj--ar (1).png>)
 
 Also see [Understanding Image Sizes](resource-links/understanding-image-size.md).
 
@@ -65,6 +61,10 @@ Shortcut equivalences:
 `--mp`: `--w 320 --h 448`
 
 `--lp`: `--w 512 --h 768 --hd`
+
+{% hint style="info" %}
+Generating images while using `--wallpaper` and other shortcuts that contain `--hd` will use a different algorithm that is better suited for higher resolution images while having a less consistent composition. [See below for a visual example](imagine-parameters.md#high-definition).
+{% endhint %}
 
 ###
 
@@ -102,7 +102,7 @@ Shortcut equivalences:
 
 `--no` Negative prompting (e.g., `--no plants` would try to remove plants). This is like giving it a weight of -0.5.
 
-![](<.gitbook/assets/mj--no (1).png>) prompt: **`vibrant california poppies --no grass`**
+![](.gitbook/assets/mj--no.png) prompt: **`vibrant california poppies --no grass`**
 
 ### Detail Modifiers
 
@@ -120,8 +120,6 @@ Regular upscale <img src=".gitbook/assets/MJ_regUpscale_btn.png" alt="" data-siz
 
 ![Regular upscale](.gitbook/assets/mj\_upscale.png) ![Light upscale](.gitbook/assets/Mj\_uplight.png)
 
-
-
 ### Seeds
 
 A seed number generate the random starting noise used in the begining of image generation. Using the same number across multiple prompts will use the same starting noise.
@@ -138,7 +136,7 @@ Versus specifying the seed and running it twice:
 
 ![prompt:vibrant california poppies--seed 0987](.gitbook/assets/MJ\_Imagine.png) ![prompt:vibrant california poppies--seed 0987](.gitbook/assets/mj\_seedtwice.png)
 
-``
+\`\`
 
 #### --Sameseed
 
@@ -156,7 +154,7 @@ The default is 2500, but you can set it lower too. For instance, `--s 1250` is g
 
 ![using --s 1250. --s 1250 corresponds to the  button in /settings](.gitbook/assets/mj--s1250.png)
 
-``
+\`\`
 
 ![The default, --s 2500 (which doesn't need to be specified in your prompt)
 \--s 2500 corresponds to the  button in /settings.](.gitbook/assets/MJ--s2500.png)
@@ -166,7 +164,7 @@ The default is 2500, but you can set it lower too. For instance, `--s 1250` is g
 ![--s 20000 If you want it to 'take over' and start drifting from your text, but not go crazy.
 \--s 20000 corresponds to the  button in /settings.](.gitbook/assets/mj--s20000.png)
 
-``
+\`\`
 
 ### --Quality
 
@@ -176,8 +174,7 @@ Specifying a quality of .5 will reduce your cost and image quality:
 
 ![prompt:vibrant california poppies --q .5 (2x faster/cheaper) --q .5 corresponds to the  button in /settings.](.gitbook/assets/mj--q05.png)
 
-`--q 1`  is the **default value**, you do not need to specify it.\
-
+`--q 1` is the **default value**, you do not need to specify it.\\
 
 ![prompt: vibrant california poppies--q 1 corresponds to the  button in /settings.](.gitbook/assets/MJ\_Imagine.png)
 
@@ -185,8 +182,6 @@ Specifying a quality of .5 will reduce your cost and image quality:
 
 ![prompt:vibrant california poppies --q 2
 \--q 2 corresponds to the  button in /settings.](.gitbook/assets/mj--q2.png)
-
-
 
 ### `Progress Videos`
 
@@ -216,11 +211,11 @@ Image prompt use with no `--iw` parameter, `--iw .5` `--iw 1` `--iw 2` and `--iw
 
 **From left to right:**
 
-* `prompt`` `**`https://dots.jpg vibrant california poppies`** (default image weight is .25)
-* `prompt`` `**`https://dots.jpg vibrant california poppies --iw .5`**
-* `prompt`` `**`https://dots.jpg vibrant california poppies --iw 1`**
-* `prompt`` `**`https://dots.jpg vibrant california poppies --iw 2`**
-* `prompt`` `**`https://dots.jpg vibrant california poppies --iw 5`**
+* ` prompt`` `` `**`https://dots.jpg vibrant california poppies`** (default image weight is .25)
+* ` prompt`` `` `**`https://dots.jpg vibrant california poppies --iw .5`**
+* ` prompt`` `` `**`https://dots.jpg vibrant california poppies --iw 1`**
+* ` prompt`` `` `**`https://dots.jpg vibrant california poppies --iw 2`**
+* ` prompt`` `` `**`https://dots.jpg vibrant california poppies --iw 5`**
 
 ### Settings
 

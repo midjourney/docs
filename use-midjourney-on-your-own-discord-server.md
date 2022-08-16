@@ -4,8 +4,7 @@ description: How to invite and use the Midjourney bot on other servers.
 
 # Use Midjourney on your own Discord Server
 
-\
-**Currently the Midjourney Bot can only be used in servers with less than 1000 members.**
+**Currently the Midjourney Bot can only be used in servers with less than 10,000 members.**
 
 ## Invite the Midjourney Bot <a href="#step5" id="step5"></a>
 
@@ -34,11 +33,11 @@ Midjourney images generated on private servers are still subject to the [content
 {% endhint %}
 
 {% hint style="info" %}
-Images generated on private servers are still visible to other users on [midjourney.com](https://www.midjourney.com/app/feed/all/) (unless users have the private powers add-on enabled. )
+Images generated on private servers are still visible to other users on [midjourney.com](https://www.midjourney.com/app/feed/all/) (unless users have the Private Powers add-on enabled)
 {% endhint %}
 
 {% hint style="info" %}
-To use the Midjourney Bot in any server users must have an active Midjourney trial or subscription. Using the /imagine command for the first time command will automatically begin a trial membership for new users.
+To use the Midjourney Bot in any server users must have an active Midjourney trial or subscription. Using the `/imagine` command for the first time command will automatically begin a trial membership for new users.
 {% endhint %}
 
 ## Restrict the Bot to Specific Channels
@@ -67,7 +66,7 @@ Follow the **`#announcements`** and **`#status`** on your own server to stay up-
 
 ## Create an Administrator Role <a href="#step5" id="step5"></a>
 
-**Only individuals with the "Manage server" permissions can add the Midjourney Bot to that server. If you do not see your server in the list, make sure you have this permission.**\\
+**Only individuals with the "Manage server" permissions can add the Midjourney Bot to that server. If you do not see your server in the list, make sure you have this permission.**
 
 ***
 
