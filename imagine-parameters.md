@@ -10,63 +10,37 @@ Parameters options that change how the images generate. A full `/imagine` comman
 \
 `/imagine` parameters should follow the below order:
 
-![/imagine prompt: https://example/tulip.jpg  a field of tulips in the style of Mary Blair --no farms --iw .5 --ar 3:2"](.gitbook/assets/ImagineStructure.jpg)
+![/imagine prompt: https://example/tulip.jpg  a field of tulips in the style of Mary Blair --no farms --iw .5 --ar 3:2](.gitbook/assets/ImagineStructure.jpg)
 
-"Switches" in this context means controls passed to the bot using a "--" parameter. For instance, the command `/imagine hi there --w 448` has a text prompt, and a parameter for the width, using the "--w" instruction.
+"Switches" in this context means controls passed to the bot using a "--" parameter. For instance, the command `/imagine hi there --ar 3:2` has a text prompt, and a parameter for the aspect ratio using the "--ar" instruction with a "3:2" value.
 
 ### Sizes
 
 #### **Width and Height**
 
-`--w` Width of image. Works better as multiple of 64 (or 128 for `--hd`)
+`--aspect` or `--ar` Makes it so the generation will have an aspect ratio as close as possible to the desired one. It can be a reduced ratio, such as `3:2`, or it can be reducible, such as `1920:1280`. If not specified, images will have a square aspect ratio, equivalent to `--ar 1:1`.
 
-`--h` Height of image. Works better as multiple of 64 (or 128 for `--hd`)
+![/imagine prompt: vibrant california poppies;
+equivalent to /imagine prompt: vibrant california poppies --ar 1:1](.gitbook/assets/MJ\_Imagine.png)
 
-`--w` and `--h` values above 512 are unstable and may cause errors.
+If we want our image to have a 3 by 2 aspect ratio, we should write `--ar 3:2` at the end of our prompt.
 
-![/imagine: promptvibrant california poppies](.gitbook/assets/MJ\_Imagine.png)
+![/imagine prompt: vibrant california poppies --ar 3:2;
+equivalent to /imagine prompt: vibrant california poppies --ar 1920:1280](.gitbook/assets/3by2\_vibrant\_california\_poppies.png)
 
-![/imagine:promptvibrant california poppies --w 448](.gitbook/assets/MJ--w.png)
+Please note that the ratio gets normalized, e.g. `--ar 3:2` is the same as `--ar 1920:1280`. In both cases the resolution will be 384 x 256 for the generation, 1536 x 1024 for the first upscale, and 1920 x 1280 for the upscale to max.
 
-`--aspect` or `--ar` Sets a desired aspect ratio, instead of manually setting height and width with `--h` and `--w`.
+Only certain ratios are currently supported, while others are only supported when upscaling to maximum. If the chosen aspect ratio is not valid, the closest supported ratio will be used instead.
 
-Try `--ar 9:16` for example, to get a 9:16 aspect ratio (\~256x448).
+For more information, see [Understanding Image Sizes](resource-links/understanding-image-size.md).
 
-![promptvibrant california poppies --ar 9:16](<.gitbook/assets/mj--ar (1).png>)
 
-Also see [Understanding Image Sizes](resource-links/understanding-image-size.md).
 
-#### Size Shortcuts
 
-These "shortcuts" are command that do the same as the forms following the ":" in the list below. For instance, if you type:
-
-**/imagine:** `prompt`**`vibrant california poppies`**`--wallpaper`
-
-It would be the same as typing the longer form:
-
-**/imagine:** `prompt`**`vibrant california poppies`**`--w 1920 --h 1024 --hd`
-
-Shortcut equivalences:
-
-`--wallpaper`: `--w 1920 --h 1024 --hd`
-
-`--sl`: `--w 320 --h 256`
-
-`--ml`: `--w 448 --h 320`
-
-`--ll`: `--w 768 --h 512 --hd`
-
-`--sp`: `--w 256 --h 320`
-
-`--mp`: `--w 320 --h 448`
-
-`--lp`: `--w 512 --h 768 --hd`
 
 {% hint style="info" %}
 Generating images while using `--wallpaper` and other shortcuts that contain `--hd` will use a different algorithm that is better suited for higher resolution images while having a less consistent composition. [See below for a visual example](imagine-parameters.md#high-definition).
 {% endhint %}
-
-###
 
 ### Algorithm Modifiers
 
@@ -102,7 +76,7 @@ Generating images while using `--wallpaper` and other shortcuts that contain `--
 
 `--no` Negative prompting (e.g., `--no plants` would try to remove plants). This is like giving it a weight of -0.5.
 
-![](.gitbook/assets/mj--no.png) prompt: **`vibrant california poppies --no grass`**
+![](<.gitbook/assets/mj--no (1).png>) prompt: **`vibrant california poppies --no grass`**
 
 ### Detail Modifiers
 

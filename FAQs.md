@@ -71,7 +71,7 @@ A: The easiest way to initiate a DM conversation with the bot is to reply to a g
 
 You can also right-click on the bot in any bot channel, and you should see the option to message the bot.
 
-![Right-click on the bot in a bot channel (where the bot is creating images)](https://cdn.discordapp.com/attachments/961148616884506674/981338414194507776/Discord_fzI0SoDLV8.gif)
+![Right-click on the bot in a bot channel (where the bot is creating images)](https://cdn.discordapp.com/attachments/961148616884506674/981338414194507776/Discord\_fzI0SoDLV8.gif)
 
 **Q: I thought my DM images were private. Why are they being moderated?**
 
@@ -81,7 +81,7 @@ Images created in DMs and with /private are still viewable by moderators and the
 
 A: Right-click on the server -> Privacy settings -> Allow direct messages from server members.
 
-![How to change privacy settings](https://cdn.discordapp.com/attachments/961148616884506674/981338414479712356/Discord_vCUySZbwMa.gif)
+![How to change privacy settings](https://cdn.discordapp.com/attachments/961148616884506674/981338414479712356/Discord\_vCUySZbwMa.gif)
 
 ## Using Discord Channels
 
@@ -101,11 +101,11 @@ A: No, the bot is the same in all of them.
 
 **Q: I've been kicked out of #newbies-534, or want to move channels but still have access to my work. What can I do?**
 
-A:  You can move your image grids to another channel using the `/show` command.  You can now use the `/show <jobid>` command to produce the resulting image and upscale+variation buttons, based on a job id.&#x20;
+A: You can move your image grids to another channel using the `/show` command. You can now use the `/show <jobid>` command to produce the resulting image and upscale+variation buttons, based on a job id.
 
-This allows you to take a job into a different channel, upscale a job from an archived thread, or other similar situations.&#x20;
+This allows you to take a job into a different channel, upscale a job from an archived thread, or other similar situations.
 
-**Q: How do I find this job id?**&#x20;
+**Q: How do I find this job id?**
 
 A: Job ids look like this:`e8913dc8-75fa-4b7e-8b61-028b8f43c792`. It can be found in the first part of all image filenames, in the URLs on the website, and other places. It's a unique identifier, and you can only use `/show` on jobs that you are the author of. This will also work on "refreshing" old jobs, so if your button click fails on something you made two months ago, you can use `/show` on this job and continue prompting!
 
@@ -149,8 +149,6 @@ A: You can have 3 jobs going at once (of any kind, 2x2, upscale etc). If you sub
 
 A: You can generate 3 images at once. If you start more jobs you'll get a message saying "your job will start shortly." You can start 10 jobs before your queue is full.
 
-
-
 ## Inviting Friends
 
 Midjourney is now in open beta, which means anyone can join to try the service using the [Discord link](https://discord.gg/midjourney). Type /invite to see the Discord link (`https://discord.gg/midjourney`) they can use.
@@ -171,7 +169,7 @@ A: We don't support videos for upscaling right now.
 
 **Q: I don't see the Max Upscale option.**
 
-A: This feature is only available in /fast mode and when --w and --h are under 512.
+A: This feature is only available in /fast mode and when `--w` and `--h` are under 512. Keep in mind that  `--ar` is better supported and should be used instead. `--hd` can also cause the Max Upscale option not to be present. Check your upscaled image’s resolution: sometimes it’s already at almost max resolution after the first upscale.
 
 **Q: What is "Light Upscale Redo"?**
 
@@ -180,8 +178,6 @@ This option redoes the upscaling, with a different algorithm which you may prefe
 **Q: What is the maximum upscale resolution?**
 
 A: 3 megapixels.
-
-
 
 You might also find the page [Understanding Image Size](resource-links/understanding-image-size.md) useful.
 
@@ -215,8 +211,6 @@ A: Yes, unless you specify --seed with a number.
 
 A: Seed means that the random noise we add during the initialization of the generation will be the same each time but GPUs are non-deterministic, so the images won't look exactly the same.
 
-
-
 ## Web Gallery Use
 
 **Q: Where is the gallery?**
@@ -233,11 +227,9 @@ The Feed (button on the upper left) is the public record of all upscaled communi
 
 ## Image Prompt Questions
 
-
-
 **Q: How can I attach an image as inspiration?**
 
-A: Type `/imagine` prompt as normal, but then in the prompt section, paste in the web address where the image is stored online. After the link you can still add new text prompts to complement it.  You can see some examples in the **Imagine Parameters** visual guide [here](imagine-parameters.md#image-prompting-with-url).
+A: Type `/imagine` prompt as normal, but then in the prompt section, paste in the web address where the image is stored online. After the link you can still add new text prompts to complement it. You can see some examples in the **Imagine Parameters** visual guide [here](imagine-parameters.md#image-prompting-with-url).
 
 An image URL must be a direct link to an online image, which you can usually get by right clicking on an image somewhere and choosing `Copy Link Address`. This address will usually end in a `.png` or `.jpg` if it's a usable address. See the gif [here](user-manual.md#image-prompting-with-url) for using one on Discord.
 
@@ -251,7 +243,7 @@ A: Your best bet is to increase the weight (see above).
 
 **Q: What's the max size I can use for a image prompt? I keep getting this error "Job encountered an error, likely due to lack of memory".**
 
-A: Your problem is more likely due to not using a plain image page as the image prompt. Make sure it's a public URL with an ending of .png or .jpg, not an html page with an image on it somewhere.  You can find the actual source image with a right-click and "Copy Image Address" (or "Copy Image Link").
+A: Your problem is more likely due to not using a plain image page as the image prompt. Make sure it's a public URL with an ending of .png or .jpg, not an html page with an image on it somewhere. You can find the actual source image with a right-click and "Copy Image Address" (or "Copy Image Link").
 
 **Q: Is it possible to choose how much weight is applied to each image using --iw?**
 
@@ -283,7 +275,7 @@ On Mobile:
 
 **Q: Is there a way to use "init" images for the bot to start from the way some other tools do?**
 
-A: Some image generation tools can take a starting image as the source and modify it. They often call this an "init\_image."  This is not supported by Midjourney at the moment. You can use a url as part of your prompt, along with text if you want, but it is more of a "influence image" than a true init. The details above are about using those image prompts.
+A: Some image generation tools can take a starting image as the source and modify it. They often call this an "init\_image." This is not supported by Midjourney at the moment. You can use a url as part of your prompt, along with text if you want, but it is more of a "influence image" than a true init. The details above are about using those image prompts.
 
 ## Text Prompt Questions
 
@@ -297,7 +289,7 @@ A: No, everything is case-insensitive.
 
 **Q: How do you weigh text prompts?**
 
-A:  You can suffix any part of the prompt with `::0.5` to give that part a weight of 0.5. If the weight is not specified, it defaults to 1.&#x20;
+A: You can suffix any part of the prompt with `::0.5` to give that part a weight of 0.5. If the weight is not specified, it defaults to 1.
 
 Some examples: `/imagine hot dog::2 food::-1` - This sends a text prompt of `hot dog` with the weight 2 and `food` of weight -1.
 
@@ -327,7 +319,7 @@ A: Anything over around 60 words will not affect the output, so don't write a no
 
 **Q: "Job encountered an error, likely due to lack of memory"**
 
-A: Try using --w and --h as multiple of 64 and under 1024, e.g. `--w 256 --h 320`
+A: Try using `--w` and `--h` as multiple of 64 and under 1024, e.g. `--w 256 --h 320`. Keep in mind that  `--ar` is better supported and should be used instead.
 
 **Q: "Cannot send messages to this user" when trying to DM the bot**
 

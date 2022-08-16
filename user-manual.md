@@ -48,15 +48,15 @@ Below are some of the "switches" you can add at the end of the command, using th
 
 `--hd` Uses a different algorithm that’s potentially better for larger images, but with less consistent composition. Best for abstract and landscape prompts. This also generates images at higher resolutions without the need to upscale.
 
-`--w` Width of image. Works better as multiples of 64 (or 128 for `--hd`)
+`--aspect`, or `--ar` Generates images with the desired aspect ratio. Try `--ar 16:9` for example, to get a 16:9 aspect ratio (\~448x256).
 
-`--h` Height of image. Works better as multiples of 64 (or 128 for `--hd`)
-
-`--aspect`, or `--ar` Sets the desired aspect ratio, instead of manually setting height and width with `--h` and `--w`. Try `--ar 16:9` for example, to get a 16:9 aspect ratio (\~448x256).
+`--w <number>` and `--h <number>` Sets width and height of the image, respectively. `--ar` is better supported and should be used instead. The values used by `--h` and `--w` should be between 256 and 2034, while keeping in mind that the maximum upscale resolution is around 3 Megapixels. These values work better as multiples of 64 (or 128 for `--hd`).&#x20;
 
 <details>
 
 <summary>Size shortcuts for common resolutions</summary>
+
+**⚠️ Warning: `--ar` is better supported and should be used instead ⚠️**
 
 These are synonyms for longer commands.  In other words, using `--wallpaper` is the same as saying   `--w 1920 --h 1024 --hd`.
 
@@ -74,7 +74,7 @@ These are synonyms for longer commands.  In other words, using `--wallpaper` is 
 
 `--lp`: `--w 512 --h 768 --hd`
 
-You can see an illustrated guide to all these parameters on [this page](imagine-parameters.md).  You can read more about image sizes and how to interpret them on [Understanding Image Size](resource-links/understanding-image-size.md).
+You can read more about image sizes and how to interpret them on [Understanding Image Size](resource-links/understanding-image-size.md).
 
 </details>
 
@@ -234,7 +234,7 @@ Only "--" options are currently officially supported as values for prefer suffix
 
 
 
-`/prefer option set <name> <value>` — This creates a personal option, which then translates to the value you have set when you invoke it by prepending it with `--`. Only you can use this option. For example, `/prefer option set mine --hd --w 512` creates an option called "mine" that translates to `--hd --w 512`. So you can use `/imagine rubber ducks are awesome --mine`, and it will be the exact same as if you did `/imagine rubber ducks are awesome --hd --w 512`. Leave the "value" field empty to delete an option.
+`/prefer option set <name> <value>` — This creates a personal option, which then translates to the value you have set when you invoke it by prepending it with `--`. Only you can use this option. For example, `/prefer option set mine --hd --ar 16:9` creates an option called "mine" that translates to `--hd --ar 16:9`. So you can use `/imagine rubber ducks are awesome --mine`, and it will be the exact same as if you did `/imagine rubber ducks are awesome --hd --ar 16:9`. Leave the "value" field empty to delete an option.
 
 ![how /prefer option set should look when creating or overriding an option](.gitbook/assets/prefer\_image.png)
 
