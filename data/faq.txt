@@ -35,6 +35,7 @@ Q: What do the U1, V1, etc. buttons do? U, V buttons? How do I upscale? How do I
 These buttons refer to the 2x2 grid of images like so:
 1  2
 3  4
+Please note that using these buttons will also count towards your limited jobs (GPU minutes).
 
 ---
 
@@ -55,7 +56,7 @@ Click on your name in the chat (or tap on your profile picture if on mobile) and
 
 ---
 
-Q: I'm having trouble using the bot - how do I use /imagine? How do I use /imagine? Why don’t I see the /imagine option as a slash command? I don’t see /imagine in my slash commands? My commands don’t work? Imagine doesn't work for me? I type the prompts and nothing appears? I type /imagine and nothing happens? It does not let me use /imagine? How do I generate images? How to use it? How do I use the bot? How does the bot work? So just /imagine [prompt]? I type the prompts and nothing appears. How do I use it? I type the prompts and nothing appears? How do I make art? How do I use midjourney? How do I prompt? How can I ask the AI to create an image? How do I trial the program? How do I get started? How can I start using the midjourney as a free user? Can I try it? Where can I start? How do I use the AI? Can I have free trial? Register?
+Q: I'm having trouble using the bot - how do I use /imagine? How do I use /imagine? Why don’t I see the /imagine option as a slash command? I don’t see /imagine in my slash commands? My commands don’t work? Imagine doesn't work for me? I type the prompts and nothing appears? I type /imagine and nothing happens? It does not let me use /imagine? How do I generate images? How to use it? How do I use the bot? How does the bot work? So just /imagine [prompt]? I type the prompts and nothing appears. How do I use it? I type the prompts and nothing appears? How do I make art? How do I use midjourney? How do I prompt? How can I ask the AI to create an image? How do I trial the program? How do I get started? How can I start using the midjourney as a free user? Can I try it? Where can I start? How do I use the AI? Can I have free trial? Register? How do I use this?
 
 See the [Quick Start Guide](https://midjourney.gitbook.io/docs/) for the basics.
 
@@ -75,8 +76,6 @@ Click on your profile to find your group number. For example, if you’re part o
 If you don’t see them yet then restart/refresh Discord first.
 
 You will see the newbies rooms on the left sidebar with the other channels under the “Newcomer Rooms” headers.
-
-%image=https://cdn.discordapp.com/attachments/991532068897042452/1003603694937460767/unknown.png
 
 ---
 
@@ -122,7 +121,7 @@ Q: Can I use my GPU? Can I run this locally? Can I run this on my computer?
 
 No, this is not offered at this time, the AI runs on datacenter grade graphics cards.
 
---
+---
 
 # -------------------- -------------------- --------------------
 # -------------------- FAST / RELAX --------------------
@@ -131,7 +130,7 @@ No, this is not offered at this time, the AI runs on datacenter grade graphics c
 
 # -------------------- -----RELAX----- --------------------
 
-Q: What is relax mode? Why was it faster before? In the plan it never said that I have limited fast hours? Relax Time?
+Q: What is relax mode? Why was it faster before? In the plan it never said that I have limited fast hours?
 
 We have two modes for image generation, “fast” and “relax”. Fast tries to give you a GPU instantly. It's our highest priority processing tier, and it's kinda expensive. “Relax” puts you in a queue behind others based on how much you’ve used the system. “Relax” also doesn't support max-upscale commands.
 
@@ -192,6 +191,22 @@ Hourly prices are experimental and subject to change.
 
 ---
 
+
+
+
+
+Q: $0.01? per unit? Unit price?
+
+If you run out of your Fast GPU time (200 minutes for Basic and 15 hours for Standard), you'll be offered an option to buy more time at $4/hour, billed precisely to the cent. This is called [incremental billing](https://midjourney.gitbook.io/docs/billing#incremental-billing-usd4-for-60-gpu-minutes). 
+
+That's what the "$0.01 per unit" line in the checkout is for. For example, if you use $3.54 in metered usage, you'll be billed 354 "units" at $0.01 each. You will not get charged this if you do not opt into metered billing and set a spending limit.
+
+%image=https://media.discordapp.net/attachments/958069758211797092/1004590281682858124/unknown.png
+
+Hourly prices are experimental and subject to change.
+
+---
+
 Q: Do fast hours roll over? Do I keep my unused fast hours? Will my time get added to the next month? Does the subscription reset my hours? Do I keep my minutes?
 
 Fast hours do not roll over month to month.
@@ -213,7 +228,7 @@ Use the /fast command after running out of your monthly fast hours to approve me
 
 # -------------------- ------PERSONAL USE------ --------------------
 
-Q: Can I invite Midjourney to my server? Can I add this bot to another server? How to add Midjourney to a different server? Can I add the bot to my Discord server?
+Q: Can I invite Midjourney to my server? Can I add this bot to another server? How to add Midjourney to a different server? Can I add the bot to my Discord server? Can I use the bot in my server?
 
 To add the bot to your server, you can follow [this guide](https://midjourney.gitbook.io/docs/use-midjourney-on-your-own-discord-server)
 
@@ -412,7 +427,7 @@ If you go from basic to standard, your percentage of remaining gpu-time / images
 
 Q: Can I transfer my subscription to another account? I used the wrong account? I subscribed with the wrong account?
 
-We don’t currently transfer subscriptions between accounts, but what we can do is once you subscribe on the correct account we can cancel your other subscription and add a credit for 1 month on your new account.
+While we can transfer subscriptions between accounts, we do it only in cases where the owner is the same for both. In any case, we will need you to provide proof of ownership for the subscription that needs to be transferred.
 
 ---
 
@@ -471,7 +486,7 @@ You must generate in DMs for your images to be completely private. Even with `/p
 # -------------------- UPSCALE & SIZE --------------------
 # -------------------- -------------------- --------------------
 
-Q: How do I change my aspect ratio? How to change aspect ratio? How can I specify image width? How can I specify image height? How can I change the dimensions? How to make not square images? What is the prompt for width and height? Can I adjust the width and height? What is --ar?
+Q: How do I change my aspect ratio? How to change aspect ratio? How can I specify image width? How can I specify image height? How can I change the dimensions? How to make not square images? What is the prompt for width and height? Can I adjust the width and height? What is --ar? How do I make a desktop background? How do I make 16:9?
 
 To change the aspect ratio of your image use the `--ar 3:4` parameter (replace `3:4` with your desired aspect ratio). It should look like this:
 `/imagine prompt: cyberpunk cats --ar 2:3` 
@@ -500,7 +515,7 @@ Light upscale uses a different algorithm that adds less detail, which may be bet
 
 ---
 
-Q: What is the maximum upscale resolution? What is the maximum resolution?  How can I set the resolution? Can I make a 4K image? Can I make a 300 DPI image? Can I make the resolution higher? Can I print my image? Is it possible to save my creations in high resolution, so I can print it out as posters? Is there a way to set the resolution to 2k and higher?
+Q: What is the maximum upscale resolution? What is the maximum resolution?  How can I set the resolution? Can I make a 4K image? Can I make a 300 DPI image? Can I make the resolution higher? Can I print my image? Is it possible to save my creations in high resolution, so I can print it out as posters? Is there a way to set the resolution to 2k and higher? How do I choose a resolution?
 
 For a square image, regular upscale is 1024x1024 and maximum upscale is 1664x1664.
 
@@ -1100,6 +1115,11 @@ Right now, once you’ve made an image you cannot change the prompt. You can, ho
 
 ---
 
+Q: What is the answer to life, the universe, and everything?
+
+42
+
+---
 
 # -------------------- -------------------- --------------------
 # -------------------- GUIDE KEYBINDS --------------------
@@ -1115,4 +1135,5 @@ The grid will stop generating 50% of the way through resulting in softer less de
 The stop parameter does not work when upscaling an image. 
 
 See [the documentation](https://midjourney.gitbook.io/docs/imagine-parameters#detail-modifiers), for more information.
+
 
