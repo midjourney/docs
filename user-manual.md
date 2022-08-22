@@ -46,8 +46,6 @@ For instance, a full imagine command might contain several things, like an image
 
 Below are some of the "switches" you can add at the end of the command, using the "--" delimiter.
 
-`--beta` Uses a new an experimental algorithm. This model takes significantly longer to run and only produces 2 outputs (1 for non square resolutions). It also does not work with `--hd`, `--stylize`, and `--q 5`
-
 ``\
 `--hd` Uses a different algorithm that’s potentially better for larger images, but with less consistent composition. Best for abstract and landscape prompts. This also generates images at higher resolutions without the need to upscale.
 
