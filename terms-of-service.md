@@ -124,3 +124,4 @@ If you knowingly infringe someone else’s intellectual property, and that costs
 3. Severability. If any part of this Agreement is invalid, illegal, or unenforceable, the rest of the Agreement will remain in effect.
 4. No Third-Party Beneficiaries. This Agreement does not confer any benefits on any third party unless it expressly states that it does.
 5. Survival. The sections and obligations in this Agreement that a reasonable person would expect to survive this agreement, will. Particularly the IP and privacy stuff. 
+
