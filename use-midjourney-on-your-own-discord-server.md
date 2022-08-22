@@ -4,7 +4,7 @@ description: How to invite and use the Midjourney bot on other servers.
 
 # Use Midjourney on your own Discord Server
 
-**Currently the Midjourney Bot can only be used in servers with less than 10,000 members.**
+**Currently the Midjourney Bot can only be used in servers with less than 15,000 members.**
 
 ## Invite the Midjourney Bot <a href="#step5" id="step5"></a>
 

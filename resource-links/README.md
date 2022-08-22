@@ -26,6 +26,7 @@ When a community member is credited as "Username#1234", that refers to their Dis
 
 * [Midjourney Styles and Keywords Reference](https://github.com/willwulfken/MidJourney-Styles-and-Keywords-Reference), github repository by willwulfken#3963
 * [Understanding Midjourney Through Teapots](https://rexwang8.github.io/resource/ai/teapot), website by bob#1236
+* [Open Library of Artist Styles by MJ Community](https://docs.google.com/spreadsheets/d/1cm6239gw1XvvDMRtazV6txa9pnejpKkM5z24wRhhFz0/edit#gid=438712621), google sheets file by MariusJuston#8245
 * [Artistic Visual Style Encyclopedia](https://docs.google.com/spreadsheets/d/10i9Ip8tVSERAuMWbc6-H6BUFCoUGOQ91YzDvX--c4bk/edit#gid=0), google sheets file by Sincarnate#1121
 * [Prompt Styles and Weights](https://sites.google.com/view/understanding-mj-prompts/home), website by Tallath#0627
 
