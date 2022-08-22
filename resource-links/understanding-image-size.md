@@ -125,7 +125,7 @@ If you have two bricks (pixels) that are very similar in color and try to double
 
 The issue with upscaling an image happens when lots of guesses have to be made about what new information is added (you want an image 4 or 6 times larger than the original). Recent AI advancements in upscale technology are really good, but the more guesses you ask the program to make the more errors will be made and the worse the result. &#x20;
 
-![Harder to guess what color should be inserted](<../.gitbook/assets/MJ\_Upscales (1) (1) (1) (2).jpg>)
+![Harder to guess what color should be inserted](<../.gitbook/assets/MJ\_Upscales (1) (1) (1) (2) (1) (2).jpg>)
 
 
 
