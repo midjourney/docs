@@ -38,17 +38,21 @@ You can find more documentation on using these in our [FAQs](FAQs.md).
 
 ### Parameters to "/imagine"
 
-Parameters are "inputs" to the command.  Some are required, like a prompt, others are optional and will change how the prompt is interpreted and the image is created.
+Parameters are "inputs" to the command.  Some are required, like a prompt, others are optional and will change how the prompt is interpreted and the image is created. They're sometimes also called "switches" or "flags".
 
-For instance, a full imagine command might contain several things, like an image URL, some weights, other switches:
+For instance, a full imagine command might contain several things, like an image URL, some weights, and other parameters:
 
 `/imagine prompt: http://myimageonline.jpg A forest spirit at night --iw 0.2 --no trees --hd`
 
-Below are some of the "switches" you can add at the end of the command, using the "--" delimiter.
+Below are some of the parameters you can add at the end of the command, using the "--" delimiter.
+
+{% hint style="warning" %}
+All parameters should always be added at the end of your command. Failure to do so might make your jobs partially or completely unusable.
+{% endhint %}
 
 `--beta` Uses a new an experimental algorithm. This model takes significantly longer to run and only produces 2 outputs (1 for non square resolutions). It also does not work with `--hd`, `--stylize`, and `--q 5`.
 
-`--hd` Uses a different algorithm that’s potentially better for larger images, but with less consistent composition. Best for abstract and landscape prompts. This also generates images at higher resolutions without the need to upscale.
+`--hd` Uses a different, older algorithm that’s potentially better for larger images, but with less consistent composition. Best for abstract and landscape prompts. This also generates images at higher resolutions without the need to upscale.
 
 `--aspect`, or `--ar` Generates images with the desired aspect ratio. Try `--ar 16:9` for example, to get a 16:9 aspect ratio (\~448x256).
 
@@ -106,7 +110,7 @@ You can read more about image sizes and how to interpret them on [Understanding 
 
 ### Stylize Values
 
-These can all be used with the shortcut version `--s` instead.
+`--stylize` changes how artistic you want your generation to be. It can be used also with the shortened version  `--s`, and can be followed by any integer between 625 and 60000. Here are some example values:
 
 `--stylize 625` If you basically want to turn it off and be less artistic.
 
@@ -120,7 +124,7 @@ These can all be used with the shortcut version `--s` instead.
 
 ### Quality Values
 
-The shortcut version is `--q`.
+`--quality` changes how much time is spent generating your image. The shortcut version is `--q`. Please only use one of the values below. Any other value will be rounded to a valid value instead.
 
 `--quality 0.25` Rough results, 4x faster / cheaper.&#x20;
 
@@ -128,9 +132,9 @@ The shortcut version is `--q`.
 
 `--quality 1` The **default value**, you do not need to specify it.
 
-`--quality 2` More detailed results, but 2x slower and 2x the price (2 minutes per image).&#x20;
+`--quality 2` More detailed results, but 2x slower and 2x the price (2 GPU minutes per /imagine).&#x20;
 
-~~`--quality 5` kind of experimental, 'might' be more creative or detailed (also might be worse!) (5 minutes per image).~~    **Temporarily Disabled!**
+`--quality 5` Kind of experimental, _might_ be more creative or detailed... also might be worse! (5 GPU minutes per /imagine).
 
 ### Emoji Reactions to Generation Output
 

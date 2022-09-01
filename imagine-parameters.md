@@ -76,7 +76,7 @@ Generating images while using `--wallpaper` and other shortcuts that contain `--
 
 `--no` Negative prompting (e.g., `--no plants` would try to remove plants). This is like giving it a weight of -0.5.
 
-![](<.gitbook/assets/mj--no (1).png>) prompt: **`vibrant california poppies --no grass`**
+![](.gitbook/assets/mj--no.png) prompt: **`vibrant california poppies --no grass`**
 
 ### Detail Modifiers
 

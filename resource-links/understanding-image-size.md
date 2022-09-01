@@ -95,7 +95,7 @@ Keep in mind that  `--ar` is better supported and should be used in place of `--
 
 The `--w` and `--h` (width and height) modifiers only affect the initial 2x2 grid.  Adding `--w 448` will make the initial 2x2 grid produce individual grid images are 448 pixels wide
 
-![/imagine sailboat --w 448 produces a 896 x 512 beginning grid. Equivalent to using /imagine sailboat --ar 7:4, which is better supported and should be used instead](<../.gitbook/assets/image (29).png>)
+![/imagine sailboat --w 448 produces a 896 x 512 beginning grid. Equivalent to using /imagine sailboat --ar 7:4, which is better supported and should be used instead](<../.gitbook/assets/image (1) (1) (1).png>)
 
 When you upscale one of these images it will no longer be 448 pixels wide, but it will maintain the original aspect ratio of your 2x2 grid.
 
@@ -125,7 +125,7 @@ If you have two bricks (pixels) that are very similar in color and try to double
 
 The issue with upscaling an image happens when lots of guesses have to be made about what new information is added (you want an image 4 or 6 times larger than the original). Recent AI advancements in upscale technology are really good, but the more guesses you ask the program to make the more errors will be made and the worse the result. &#x20;
 
-![Harder to guess what color should be inserted](<../.gitbook/assets/MJ\_Upscales (1) (1) (1) (2) (1) (2).jpg>)
+![Harder to guess what color should be inserted](<../.gitbook/assets/MJ\_Upscales (1) (1) (1) (1).jpg>)
 
 
 
