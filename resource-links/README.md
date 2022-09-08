@@ -15,7 +15,7 @@ When a community member is credited as "Username#1234", that refers to their Dis
 
 #### Social Media Links:
 
-Facebook group: [https://www.facebook.com/groups/midjourneyofficial](https://www.facebook.com/groups/midjourneyofficial)\
+Facebook group: [https://www.facebook.com/groups/officialmidjourney/](https://www.facebook.com/groups/officialmidjourney/)\
 Reddit page: [https://www.reddit.com/r/midjourney/](https://www.reddit.com/r/midjourney/)
 
 #### Getting Started
