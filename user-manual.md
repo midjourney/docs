@@ -136,6 +136,22 @@ You can read more about image sizes and how to interpret them on [Understanding 
 
 `--quality 5` Kind of experimental, _might_ be more creative or detailed... also might be worse! (5 GPU minutes per /imagine).
 
+### Discord Job Buttons
+
+After a job has concluded in a Discord chatroom, you will notice buttons appearing under your generation. These buttons allow you to request specific kinds of operations that are usually not available through commands alone. Please note that using these buttons to generate or upscaling images will still cost some of your limited fast GPU minutes.
+
+* **1**, **2**, **3**, **4** is for 🔢. Whenever you produce a grid with two or more images, you might see that some buttons also have numbers. Each number corresponds to an image, in the same order as if you were reading a comic book.
+
+![The order used by the numbered buttons (U,V) to select an image](.gitbook/assets/167755032-fe6935a9-b6a2-4b80-8f73-13916c170ceb.png)
+
+* **U** is for Upscale. The selected image will have its resolution increased, usually to something equivalent to 1024x1024. After upscaling an image, the following buttons might appear:
+  * **Upscale to Max** further increases the resolution of the upscaled image.
+  * **Light Upscale Redo** will redo the upscaling using a different method that tries not to add as much detail to the image. If you want this method to be your default upscale, add `--uplight` at the end of your `/imagine` command.
+  * (experimental) **Beta Upscale Redo** will redo the upscaling using a more efficient method that creates a much higher resolution image from the start. If you want this method to be your default upscale, add `--upbeta` at the end of your `/imagine` command. Please be aware that this feature might be removed or changed substantially in the future.
+  * (experimental) **Remaster** will generate variations while also using `--test --creative`, very powerful but experimental parameters that can increase the quality and coherence of the image... or could also make it worse! You will generate just one image (or two with square resolutions) instead of four. Please be aware that this feature might be removed or changed substantially in the future.
+* **V** is for Variations. The selected image will be used as a base to generate new but similar images, trying to maintain overall style and composition.
+* 🔄 is for Redo. Whichever operation was carried out in the current job, it will be run again. This can produce very different results, especially when rerunning an `/imagine` command.
+
 ### Emoji Reactions to Generation Output
 
 "React" to a generation with various emojis to trigger actions from the bot.

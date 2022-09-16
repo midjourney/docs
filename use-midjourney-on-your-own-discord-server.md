@@ -6,6 +6,22 @@ description: How to invite and use the Midjourney bot on other servers.
 
 **Currently the Midjourney Bot can only be used in servers with less than 30,000 members.**
 
+## Important Notes
+
+{% hint style="info" %}
+There is no plan currently that allows users to share their subscription with others, even if they are on the same server.
+
+To use the Midjourney Bot in any server, users must have an active personal Midjourney trial or subscription. Using the `/imagine` command for the first time will automatically begin a trial membership for new users.
+{% endhint %}
+
+{% hint style="info" %}
+Images generated with Midjourney are always subject to the [content moderation policies](content-and-moderation-policy.md), even if they're generated on private servers.
+{% endhint %}
+
+{% hint style="info" %}
+Images generated on private servers are still visible to other users on [midjourney.com](https://www.midjourney.com/app/feed/all/). Users can prevent this by purchasing the [Private Visibility option](https://midjourney.gitbook.io/docs/billing#private-visibility-option-+usd20-month) add-on.
+{% endhint %}
+
 ## Invite the Midjourney Bot <a href="#step5" id="step5"></a>
 
 1. Select the **Midjourney Bo**t from the **User List**, and then click **"Add to Server"**:&#x20;
@@ -25,20 +41,6 @@ If you don't see your server listed, follow the instructions in [#step5-1](use-m
 Once the Midjourney Bot has joined your server you can begin interacting with it using the `/imagine` command.
 
 If this is your first time using Midjourney, refer to othe [Quick Start Guide](./) for help making your first images.
-
-## Notes
-
-{% hint style="info" %}
-Midjourney images generated on private servers are still subject to the [content moderation policies](content-and-moderation-policy.md).
-{% endhint %}
-
-{% hint style="info" %}
-Images generated on private servers are still visible to other users on [midjourney.com](https://www.midjourney.com/app/feed/all/) (unless users have the Private Powers add-on enabled)
-{% endhint %}
-
-{% hint style="info" %}
-To use the Midjourney Bot in any server users must have an active Midjourney trial or subscription. Using the `/imagine` command for the first time command will automatically begin a trial membership for new users.
-{% endhint %}
 
 ## Restrict the Bot to Specific Channels
 
