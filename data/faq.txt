@@ -39,7 +39,7 @@ Q: What do the U1, V1, etc. buttons do? U, V buttons? How do I upscale? How do I
 
 %image=https://cdn.discordapp.com/attachments/958191534208061450/1017592980053438494/1234.png
 
-**U** UPSCALE: Increases the size of the selected image, giving it a higher resolution of around 1024×1024. See [the documentation] (https://midjourney.gitbook.io/docs/faqs#upscaling).
+**U** UPSCALE: Increases the size of the selected image, giving it a higher resolution of around 1024×1024. See [the documentation](https://midjourney.gitbook.io/docs/faqs#upscaling).
 
 **V** VARIATION: Creates 4 variations of the selected image, trying to maintain style and composition.
 
@@ -60,7 +60,7 @@ Q:  /image? /imagine? Imagine? /imagine prompt:? #imagine?
 
 ⚠️ ⚠️This is trial-support. `/imagine` will not work here. ⚠️ ⚠️
 
-Read[#getting-started](https://discord.com/channels/662267976984297473/999550150705954856) or the [Quick Start Guide](https://midjourney.gitbook.io/docs/) for the basics.
+Read [#getting-started](https://discord.com/channels/662267976984297473/999550150705954856) or the [Quick Start Guide](https://midjourney.gitbook.io/docs/) for the basics.
 
 Use the `/imagine` command in #newbies channels.
 If you don’t see any newbie channels yet, restart/refresh Discord.
@@ -83,11 +83,14 @@ A Bot channel is any channel where you can use a Midjourney Bot command like `/i
 
 ---
 
-Q: Is it possible to edit a prompt without restarting? 
+Q: Is it possible to edit a prompt without restarting? How to edit my prompt? What is remix? 
 
-It is not possible to edit or change a prompt at this time.
+You can edit your prompt using the remix feature, toggle it on or off using `/prefer remix`. Once enabled clicking on the make variation (V) buttons will bring up a text box, allowing you to make changes to your prompt. 
 
+Here is our help article:
+<https://discord.com/channels/662267976984297473/1029507753389084692>
 ---
+
 
 
 
@@ -133,7 +136,7 @@ No, this is not offered at this time. The AI runs on datacenter grade graphics c
 Q: How do I go into Relax mode? How do I turn on Relax mode? How do I start Relax?
 
 Use `/relax` and `/fast` to toggle between Relax and Fast mode. In Relax mode, image generations don't count towards your monthly quota of Fast images. Relax mode doesn't support max-upscale commands but does support Beta upscale.
-Please note: The `Basic` plan does not include Relax mode. 
+Please note: Relax mode is not available for the `Basic` plan and trial users. 
 
 ---
 
@@ -145,7 +148,7 @@ Yes, `Relax` mode is based on a dynamic queueing system that resets every time y
 
 Q: My images say "relaxed", how do I change this? Why are my images relaxed? All my submissions are "relaxed", when can I have fast uploads again?
 
-Use `/fast` in a bot channel to enable metered fast generation. You will be incrementally charged for each image if you are out of monthly Fast credits. You will need to set a spending limit before using metered Fast mode. Your plans' Fast time automatically renews every 30 days with your subscription.
+Use `/fast` in a bot channel to enable metered fast generation. You will be incrementally charged for each image if you are out of monthly Fast credits. You will need to set a spending limit before using metered Fast mode. Your plans' Fast time automatically renews on the same day of the month you started your current subscription.
 
 ---
 
@@ -264,7 +267,7 @@ Midjourney does not provide a free tier because of the cost involved with using 
 
 Q: Do subscriptions renew on the first of the month? When does my subscription renew?
 
-Subscriptions renew every 30 days. You can check when your subscription will renew by using `/info`.
+Your subscription renews roughly every 30 days, on the same day of the month it was started. You can check when your subscription will renew by using `/info`.
 
 ---
 
@@ -344,7 +347,7 @@ You can continue to access your online images gallery even if you're not current
 
 Q: If I want to switch plans will I be charged the full amount? What if I go from basic plan to standard? Can I change my plan? Can I get the $10 sub and if I run out upgrade and just pay the difference? Can I get the $10 sub and if I run out upgrade and just pay the difference? Can I switch plans? If I switch to Standard it will be 20$ or 30$ ? Can I upgrade from basic to standard?
 
-If you swithc from Basic to Standard, your percentage of remaining GPU-time / images will be deducted from your 30$ upgrade.
+If you switch from Basic to Standard, your percentage of remaining GPU-time / images will be deducted from your 30$ upgrade.
 
 If you used all of the Basic time -> Standard will cost 30$.
 If you used half of the Basic time -> Standard will cost 25$
@@ -451,9 +454,16 @@ This feature is only available in `/fast` mode. You may not see an upscale optio
 
 ---
 
-Q: What is "Light Upscale Redo"? What is a light upscale? How do I use light upscale? What is "beta Upscale Redo"? What is a beta upscale? How do I use beta upscale? What is upbeta?
+Q: What is "Light Upscale Redo"? What is a light upscale? How do I use light upscale? What is uplight?
 
 Light upscale uses a different algorithm that adds less detail, which may be better in some cases. You can use the `--uplight` switch in a prompt, or hit the “Light Upscale Redo” button under upscaled images.
+
+---
+
+Q: What is "Beta Upscale Redo"? What is a beta upscale? How do I use beta upscale? What is "beta Upscale Redo"? What is a beta upscale? How do I use beta upscale? What is upbeta?
+
+Beta upscale uses a different algorithm that adds flat textured smooth detail, which may be better in some cases. You can use the `--upbeta` switch in a prompt, or hit the “Beta Upscale Redo” button under upscaled images.
+
 
 ---
 
@@ -478,6 +488,7 @@ Custom aspect ratios set using `--ar` will change the width and height of the im
 Q: Is there documentation? Where can I find all the commands? Is there documentation? Is there an exhaustive list of arguments somewhere we can look at? Where can I find a reference of the various parameters for imagine? What are all the suffixes I can use? Can anyone help me with the commands syntax please? Can I have the user manual? Where do I find documentation? 
 
 [Midjourney Documentation](https://midjourney.gitbook.io/docs/user-manual)
+
 
 ---
 
@@ -510,6 +521,8 @@ Multiple image weights are currently not supported. You can set a single global 
 Q: Is there a way to get the "image prompt" to be closer to the initial image? My result doesnt look like the image I uploaded.
 
 Your best bet is to increase the image weight. [See here for more details]( https://midjourney.gitbook.io/docs/faqs#image-prompt-questions)
+See our help article:
+<https://discord.com/channels/662267976984297473/1026944423692619878>
 
 ---
 
@@ -560,9 +573,8 @@ Commas or other types of punctuation don’t usually have a noticeable effect on
 
 Q: Is there a way to add more parameters to a generated image after I have generated different versions? Can I change the prompt after?
 
-It is not currently possible to modify a prompt after it has been used.
-
----
+See our help article:
+<https://discord.com/channels/662267976984297473/1029507753389084692>
 
 Q: Any tips for successful text prompts? How do I write better prompts?
 
@@ -596,17 +608,27 @@ Q: Do commas, pipes, or any other punctuation matter? Does punctuation matter?
 
 Yes, the model considers them like a break in the prompt, but it's not always clear what impact this will have. Use `::` between prompts for a hard separator.
 
+See our help article:
+<https://discord.com/channels/662267976984297473/1020733204283535401>
+
+
 ---
 
 Q: This :: 2 that :: 3” or this : : that
 
 Make sure that there is no space between colons and the weight. Your prompt should look like `phrase one::2 phrase two::1`
 
+See our help article:
+<https://discord.com/channels/662267976984297473/1020578042285920327>
+
 ---
 
 Q: What is the length limit for prompts? How long of a prompt can I write? Is there a character limit to prompts?
 
 Anything over ~60 words will not affect the output, so don't write a novel. (Prompts must stay under 6000 characters.)
+
+See our help article:
+<https://discord.com/channels/662267976984297473/1023119880976867368>
 
 ---
 
@@ -620,6 +642,9 @@ Q: What about “Unreal engine”? What about “Artstation”? What about “Oc
 
 The AI responds to these phrases the same way it does with other words. However, they may give the Bot a hint to generate the style of image you want.
 
+See our help article:
+<https://discord.com/channels/662267976984297473/1029786943141191700>
+
 ---
 
 Q: What does quality do? How do you use  --q? How do you use --s? How do you use stylize? How do you use quality? What does stylize do? What is --s? What is --q?
@@ -630,6 +655,9 @@ Q: What does quality do? How do you use  --q? How do you use --s? How do you use
 
 [Stylize](https://midjourney.gitbook.io/docs/user-manual#stylize-values) 
 [Quality](https://midjourney.gitbook.io/docs/user-manual#quality-values)
+
+See our help article:
+<https://discord.com/channels/662267976984297473/1020577470795235358> 
 
 ---
 
@@ -654,6 +682,10 @@ Q: How does --seed work? What does –seed do? Does submitting the job again use
 
 *Seed* refers to the random noise added during the initialization of a generation. The same seed number can be used on different prompts using the `--seed` command. However, GPUs are non-deterministic, so images won't look exactly the same.
 
+See our help article:
+<https://discord.com/channels/662267976984297473/1022698154170253363>
+
+
 ---
 
 
@@ -675,9 +707,10 @@ Example: `/show b052e414-a9f7-4f14-94fe-1a43e0aa656b`
 
 Q: How do I get a video of my grid generating? Video? --video? Can I use –video on an upscale?
 
-Add `--video` to the end of your prompt. Once the image has been rendered, react to it with the :envelope: emoji.
+Add `--video` to the end of your prompt. Once the image has been rendered, react to it with the :envelope: emoji. Videos only work on the initial grid, not upscaled images.
 
-Videos only work on the initial grid, not upscaled images.
+See our help article:
+<https://discord.com/channels/662267976984297473/1026637202882564126>
 
 ---
 
@@ -691,7 +724,7 @@ Videos only work on the initial grid, not upscaled images.
 
 # -------------------- ------INFO------- --------------------
 
-Q: How can I see the quota left in my account? How can I see how many images I have left? How can I see how much fast-hours I have? Where can I see how many images I have generated? How many queries do I have left? Is there a place where I can find my prompt count?
+Q: How can I see the quota left in my account? How can I see how many images I have left? How can I see how many fast-hours I have? Where can I see how many images I have generated? How many queries do I have left? Is there a place where I can find my prompt count?
 
 
 Use `/info` to see information about your account.
@@ -721,6 +754,9 @@ If you cannot find your image on Discord, this same process will work with after
 Q: How do I search for someone on the website? How do I find a user’s page?
 
 Type their name in the search bar while on the 'Community Feed' page.
+
+See our help article:
+<https://discord.com/channels/662267976984297473/1026637202882564126>
 
 ---
 
@@ -984,7 +1020,8 @@ To use `/show`:
 
 Q: Can I change the prompt after I’ve made it? Can I change the prompt?
 
-Right now, once you’ve made an image you cannot change the prompt. You can, however, create new images with new prompts from scratch at any time.
+See our help article:
+<https://discord.com/channels/662267976984297473/1029507753389084692>
 
 ---
 
@@ -1011,6 +1048,20 @@ See [the documentation](https://midjourney.gitbook.io/docs/imagine-parameters#de
 
 ---
 
+Q: SSX2Test
+
+Test 1
+%image=https://cdn.discordapp.com/attachments/420465245593665540/1020083700794409030/cd2.gif
+
+---
+
+Q:SSX2Test2
+
+
+Test 2
+%image=https://cdn.discordapp.com/attachments/420465245593665540/1020084088071266335/yrpflejgpr511.gif
+
+---
 
 
 
@@ -1020,189 +1071,147 @@ See [the documentation](https://midjourney.gitbook.io/docs/imagine-parameters#de
 
 Q: How should I write my prompts?  What’s the best way to write prompts? Do prompts have an order? Does word order matter? Does word sequence matter? Is there a template for prompts?
 
-Yes, word order matters. Words appearing first typically have more influence on the image than those appearing last.
-
-%image=https://cdn.discordapp.com/attachments/996170079102312468/1016206847193124985/midjourney-prompt-templates-v3-test-testp-by-clarinet.png
-
-%image=https://cdn.discordapp.com/attachments/996170079102312468/1013667292145516604/unknown.png 
-
-%image=https://cdn.discordapp.com/attachments/996170079102312468/1013945848905871470/unknown.png
+See our help article:
+<https://discord.com/channels/662267976984297473/1020572050898813029>
 
 ---
 
 Q: What is –test? What is –testp? What is test? What is testp? What is –creative? What is remaster?
 
-_There are different versions of the Midjourney algorithm:_
-**v1, v2** = older rough artsy 
-**v3** = high vibe, blended
-**test** = (beta) coherent digital painting style
-**testp** = (beta) coherent digital photography style
-
-You can choose these algorithms by typing `` /settings`` and clicking the corresponding buttons.
-
-You can also specify these algorithms in the body of the prompt by adding ``--v 1`` or ``--v 2`` or ``--v 3`` or ``--test`` or ``--testp`` to the end of the prompt.
-
-Test/TestP can be strict. You can soften the style by adding ``--creative`` to the end of the prompt.
-
-Some images generated in V3 can be remastered in test/testp by using the [Remaster] button found at the bottom of V3 upscales.
-
-[Read more in #announcements.](https://discord.com/channels/662267976984297473/952771221915840552/1013642611472478268)
+See our help article: 
+<https://discord.com/channels/662267976984297473/1021457377964339233>
 
 ---
 
 Q: How do I make my image more clear?  Why did Midjourney leave out things from my prompt? Why are parts of my prompt left out? Why did some parts of my prompt get skipped? Why did Midjourney ignore my prompt? Why am I getting nightmare fuel? Why does my image not look right? Why does my image look wrong? 
 
- If your image doesn't look quite right, you may need to…
-
-vroll or reroll to give the prompt a good chance to express itself
-reorganize the order of your prompt 
-choose different terms 
-remove words (words lose power the more of them there are)
-
-%image=https://cdn.discordapp.com/attachments/996170079102312468/1016206847193124985/midjourney-prompt-templates-v3-test-testp-by-clarinet.png
-
----
-
-Q: Why do my vrolls look worse? Why do my images degrade when I roll them again? How come vrolls make everything worse? Why do rerolls make my images look bad?
-
-In V3, if you aren't using an image prompt, you can use ``--iw`` to help lock in (or keep intact) some characteristics of your grid selection once you've found something you like.  You can play with this in your workflow:
-
-
- 🦋** #1 - Temper the chaos.** Higher values of ``--c`` (chaos) create increasingly random compositions for your grid. Higher values of ``--iw`` (image weight) tell Midjourney to use the selected image from the grid as a model from which to make variations. Using a combination of values like ``--c 10 --iw 4`` tells Midjourney you want a lot of choices on your first grid, but then you want it to "settle down" and stick to your selection.
-
- 🦥* #2 -  Slow down v-roll degradation.**  If you suffer from prompts that "look worse" each v-roll, adding an ``--iw`` value could help. If the grid selection is good, what’s good may carry over to the next roll. What’s bad may also carry over to the next roll.
+See our help article:
+<https://discord.com/channels/662267976984297473/1020580578766102531>
 
 ---
 
 Q: Does Midjourney know about this style, artist, movie, game, or media?
 
-To check if Midjourney understands your sourcing reference, you can `/imagine` something in that style that's commonly found in that style. If the output looks like it's adopting the style you named, you're golden. In V3, if the output looks generic with lots of orange and teal colors, it’s possible that Midjourney doesn’t know the style.
+See our list of resources:
+<https://discord.com/channels/662267976984297473/1020538944024223794>
 
 ---
 
 Q: What is the Three Basket Problem?
- 
-**The Three Basket Problem: **
-`There are three baskets. The first one is filled with blueberries, the second one is filled with apples, the last one is filled with strawberries.`
 
-MJ can’t currently compose this collage, even if you replace baskets and fruit with other objects (coins, buttons, candies) or containers (bags, boxes, jars).
-
- Here is a good challenge summary from a community member:
-`Find a way to reliably sort and separate three different types of objects. Not through rerolls or variants, but by using a prompt structure that can indicate to MJ you want three different items in three different piles. Use baskets, jars, shelves, anything goes as long as you can get a structure that does this consistently.`
+See our help article:
+<https://discord.com/channels/662267976984297473/1020533278354182225>
 
 --- 
 
-Q: How do I recreate one of my images with a small change? Can I edit one of my prompts? Can I add, remove, or change just one word in my prompt?
+Q: How do I recreate one of my images with a small change? Can I edit my prompt? Can I edit one of my prompts? Can I add, remove, or change just one word in my prompt? What is remix?
 
-Imagine you've made an image of a cyberpunk bee in a meadow, but now you want the very same picture with a cyberpunk wasp. You can take that prompt and replace the word ``bee`` with `wasp` and roll the prompt again with the same `--seed` value to attempt to reproduce the composition. Since you are using the same `--seed` you may get roughly the same output: but with a wasp instead of a bee. This method is helpful but not completely reliable. Changing anything in the original prompt or parameters, even with the same seed in play, will cause Midjourney to produce fresh new output – and that may lose its resemblance to the original. 
+See our help article:
+<https://discord.com/channels/662267976984297473/1029507753389084692>
 
-To find the `--seed` for a current composition, react to it in Discord with an :envelope: envelope. To find the `--seed` for a past composition, copy the job ID from the website details menu and use the ``/show`` command with that ID, then react to the display that appears with an :envelope: envelope. The parameter to use the seed is ``--seed N`` at the end of the prompt.
 
 --- 
 
 Q: How can I make a weapon like a sword, gun, bow and arrow?
 
-_For an increased chance of rendering a weapon, follow these guidelines:_
-**1.** Use an aspect ratio that suits the most common orientation of the weapon. Swords are vertical, rifles are horizontal.
-**2.** Google the weapon in question and find its specific terms. Don't say ``bow`` - say ``recurve bow``. Don't say ``sword in a lake`` - say ``the sword Excalibur``.
-**3.** Find artists and other style cues that correspond to the weapon you're after. What media, games, movies, comics, artists, genres, etc represent your weapon well? Include these in your prompt. Some of them might work. Others will be dead weight.
-**4.** Finally, if you want an action pose, then VERB  your weapon. Do not say ``an orc with a sword`` - say ``a Warhammer 40k orc fighting the wind with a broadsword`` or ``a 16th century samurai warrior striking a wooden dummy with the sword Excalibur``
+See our help article:
+<https://discord.com/channels/662267976984297473/1025152459011801230>
+
 
 ---
 
 Q: What are weights? How do weights work? What does :: mean?
 
-When you see ``::`` in a prompt, you’re seeing someone using the magic of weighted averages to change the composition of the output.  Very roughly speaking, weighted averages work a little like this:
-
-``yellow:: blue::`` = yellow (once), blue (once), averaged
-``yellow::2 blue::2`` = yellow yellow (twice now) blue blue (twice now), averaged
-``yellow::4 blue:1`` = yellow yellow yellow yellow blue, averaged
-``yellow::1 blue:3`` = yellow blue blue blue, averaged
-
-You can play with these values to influence how they appear in a composition:
-``Definitely This::2``
-``This::1``
-``Only Lightly This::0.8``
-``Eliminate This::-0.5``
-
-Phrases are grouped from the ``::`` symbol backward to the previous ``::`` symbol, as shown here. Note that if there is no number following the ``::`` symbol, its value defaults to one. 
-
-``This phrase has a weight of two::2 This phrase has a weight of three::3 This phrase has a weight of negative one::-1 This phrase has a weight of one:: This phrase has a weight of two::2``
-
-image%=https://cdn.discordapp.com/attachments/996170079102312468/1000424208389656656/IMG_1456.jpg
+See our help article:
+<https://discord.com/channels/662267976984297473/1020578042285920327> 
 
 ---
 
 Q: Can I use a reference image? Can I give Midjourney an image to work with? Can I start with one of my own images? Can I use my own picture?
 
-You can use your own pictures with Midjourney, but, if you have a vision in mind for the output, it is recommended that you (still) write a complete prompt to go with it that describes the entire output you want to see, including the main subject, background, details, and styles. 
+See our help article: 
+<https://discord.com/channels/662267976984297473/1026944423692619878>
 
-:white_check_mark: **Recommended:** 
-``/imagine http://imagehost.com/your-image-of-brad-pitt.png A blonde man dressed as a mage, fantasy watercolor`` 
-:x: **Not recommended:** 
-``/imagine http://imagehost.com/your-image-of-brad-pitt.png fantasy watercolor``
-
-When you supply a reference image, the URL must end in an image filename extension such as png, jpg, gif.
 
 ---
 
 
 Q: Why is Midjourney so bad at hands? Why is it so hard to create animals? Why can’t I make a good dragon? Why can’t I make an airplane or helicopter?
 
-Midjourney may struggle to render objects that have no one dominant standard appearance. If Midjourney couldn’t create an archetype for the thing during training, then Midjourney will cobble together all its guesses instead. You can help Midjourney land on a stronger archetypal (standard) appearance by making sure your prompt includes particular artists, media, games, contexts, activities, circumstances, etc.
+See our help article:
+<https://discord.com/channels/662267976984297473/1020577705823043585>
 
 ---
 
-Q: How do I get a human with blue skin? How do I get a ship in a bottle? How do I get an upside down face? Why is it so hard to get a wine bottle on its side? Why can’t I make a broken wine glass?
+Q: How do I get a human with blue skin? How do I get a ship in a bottle? How do I get an upside down face? Why is it so hard to get a wine bottle on its side? Why can’t I make a broken wine glass? Why is it so hard to make a three-eyed cat?
 
-Midjourney defines things in terms of their most dominant standard characteristics. Departures from the standard mean Midjourney doesn’t recognize it anymore. One method to invoke an object that breaks its archetype is to figure out what tokens allow for it.  For example, you can’t get “a woman with green skin” but you can get “a humanoid woman with green skin” because, to Midjourney, “a woman” can not have green skin per the archetype for humans, but a _humanoid_ can have green skin per the archetype for non-humans. Another excellent way to break out of archetypes is to use negative weights. For example, you could try to create a three-eyed cat by giving two eyes a negative weight, e.g.  ``two eyes::-0.5`` 
+See our help article:
+<https://discord.com/channels/662267976984297473/1020564333413027892>
+
+
 
 ---
 
 Q: What is chaos? What is stylize? What is –c? What is –s? Why do I see prompts with s and c in them? What does c do? What does s do? 
 
- C is “CHAOS” = The higher the value, the more dramatic differences you’ll see among grid images and rerolls (values 0 - 100)
- S is “STYLIZE” = The higher the value, the more you’ll see Midjourney’s signature house style present in grid images and rerolls, including some restorative effects  (values 625 - 60000)
+See our help article:
+<https://discord.com/channels/662267976984297473/1020577470795235358>
 
 ---
 
-Q: What is a reroll? What is a vroll? What is a uroll? What does rerolling do? What’s does the button with the arrows mean?
+Q: What is a reroll? What is a vroll? What is a uroll? What does rerolling do? What does the button with the arrows mean?
 
-**🔄  REROLL -** Runs the ``/imagine`` command again for you, fresh new ticket, fresh new results.
-**V1, V2, etc -** Keeps the grid selection somewhat intact but shows you variations of it, so you can play a game of "warm, warm, cold, warm" with Midjourney to get closer to the image you want.
-**U1, U2, etc -** This will upscale (embiggen) the image using the algorithm you've specified in the prompt parameters (``--upbeta`` or ``--uplight`` for example). If you did NOT use prompt parameters to specify the upscale algorithm, that's ok, you will get buttons to choose from.
+See our help article:
+<https://discord.com/channels/662267976984297473/1020577302033207306>
 
 ---
 
 Q: How do I make realistic photographs? How do I get a clear photographic style image? How do I make my image look like a photo?
 
-The quickest route to photographic quality is to cite real sources of photography, such as magazines (e.g. ``by Vogue``), famous photographers (e.g. ``by Robert Frank``), and photography types such as ``cinematic still shot`` or ``portrait photography`` or ``stock photography``. The best algorithm for photography is ``--testp`` which you can set as a parameter at the end of the prompt, or select in ``/settings``.
-
-:x: Avoid style phrases like ``hyperrealistic, hyperrealism, realism, photorealistic, photorealism,`` which are used by artists to describe _painterly_ styles of art that mimic photos.
-:x: Avoid style phrases like ``rendered, Octane Render, Unreal Engine, hd, 4k, 6k, 8k`` and other terms from CGI unless you want your photo to have a waxy look with depth-of-field and/or tilt-shift effects.
+See our help article:
+<https://discord.com/channels/662267976984297473/1020577073930190919>
 
 ---
 
-Q: What’s the difference between detailed upscale, regular upscale, light upscale, beta upscale, max upscale?
+Q: What effects do I get from the different kinds of upscales? What are the different upscales? What is beta upscale? What is light upscale? What is max upscale? What is detailed upscale?
 
-All upscales embiggen your image, and add a layer of detail/style.
-
-**Detailed** - Lots of cool grungy artifacts and oil painterly effects, won’t look exactly like grid
-**Light** - More like the grid image, much lighter touch on the grunge and painterly effects
-**Beta** - Much more like the grid, flatly textured and smooth
-**Max** - Brings it to maximum canvas size
+See our help article:
+<https://discord.com/channels/662267976984297473/1020574515622842498>
 
 ---
 
 Q: How can I reliably get two people in one image? How do I get two people in a prompt? How do I get three people in a prompt? How do I get a group of people?
+
+See our help article:
+<https://discord.com/channels/662267976984297473/1020528647678996531>
 
 ---
 
 
 Q: How do I get text or words in an image?
 
+See our help article:
+<https://discord.com/channels/662267976984297473/1025600359563001886 >
+
 ---
 
 Q: What is a seed? What do seeds do? What is sameseed?
 
+See our help article:
+<https://discord.com/channels/662267976984297473/1022698154170253363 >
+
 ---
+
+Q: How do I get a full body picture? How do I get the whole person in the image? How do I get a full body shot? 
+
+See our help article:
+<https://discord.com/channels/662267976984297473/1020576538745389057 >
+
+--- 
+
+Q: How do I specify a color in my prompt? Can I control color? Can I use CYMK? Can I use RGB? Can I use Pantone codes for colors? Can I use hexcodes for color?
+
+See our help article:
+<https://discord.com/channels/662267976984297473/1026204064574361651>
+
+--- 
