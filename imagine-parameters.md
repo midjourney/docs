@@ -96,7 +96,7 @@ Regular upscale <img src=".gitbook/assets/MJ_regUpscale_btn.png" alt="" data-siz
 
 ### Seeds
 
-A seed number generate the random starting noise used in the begining of image generation. Using the same number across multiple prompts will use the same starting noise.
+A seed number generate the random starting noise used in the beginning of image generation. Using the same number across multiple prompts will use the same starting noise.
 
 #### --Seed
 
