@@ -709,8 +709,8 @@ Q: How do I get a video of my grid generating? Video? --video? Can I use –vide
 
 Add `--video` to the end of your prompt. Once the image has been rendered, react to it with the :envelope: emoji. Videos only work on the initial grid, not upscaled images.
 
-See our help article:
-<https://discord.com/channels/662267976984297473/1026637202882564126>
+See our help article: **Can I get a video of my render? How do I get a video?**
+<https://discord.com/channels/662267976984297473/1020703741432827934/1020703741432827934>
 
 ---
 
@@ -1211,7 +1211,7 @@ See our help article:
 
 Q: How do I specify a color in my prompt? Can I control color? Can I use CYMK? Can I use RGB? Can I use Pantone codes for colors? Can I use hexcodes for color?
 
-See our help article:
+See our help article: **How do I get the colors I want? (palettes, hues, tones)**
 <https://discord.com/channels/662267976984297473/1026204064574361651/1026204064574361651>
 
 --- 
