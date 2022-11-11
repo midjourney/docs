@@ -698,7 +698,7 @@ You can use `/show` to transfer an image to another channel or your DMs. `/show`
 Use `/show jobid` in any channel or your Direct Messages.
 Example: `/show b052e414-a9f7-4f14-94fe-1a43e0aa656b`
 
-%image=https://cdn.discordapp.com/attachments/958191534208061450/1010666609708388362/MJ_CopyJobID.png
+%image=https://cdn.discordapp.com/attachments/978364411662196776/1040185786169040936/Screen_Shot_2022-11-10_at_3.45.05_AM.png
 
 ---
 
