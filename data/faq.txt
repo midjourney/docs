@@ -506,29 +506,11 @@ Q: How do I upload an image? How do I get image link? How do I use my own image?
 
 You can use your images as an inspiration for the AI by copying a URL from an image online, or by uploading one to discord and copying the link.
 
-[Image Prompting Documentation](https://midjourney.gitbook.io/docs/imagine-parameters#image-prompting-with-url). 
+1. Locate the URL of each image (must end in .jpg or .png) or [ Upload each image to Discord.](https://cdn.discordapp.com/attachments/958191534208061450/1043729831696797786/MJ_FileUpload.png)
 
-%image=https://cdn.discordapp.com/attachments/958069758211797092/976902017182232596/n9Ldjf57Pz.gif
+2. Right click (desktop) or long-press (mobile) [and select Copy Link](https://cdn.discordapp.com/attachments/958191534208061450/1043731538367479880/MJ_CopyImageLink.png)
 
----
-
-Q: Any tips regarding using two image sources? Can I use two images?
-
-Multiple image weights are currently not supported. You can set a single global image weight with `--iw`.
-
----
-
-Q: Is there a way to get the "image prompt" to be closer to the initial image? My result doesnt look like the image I uploaded.
-
-Your best bet is to increase the image weight. [See here for more details]( https://midjourney.gitbook.io/docs/faqs#image-prompt-questions)
-See our help article:
-<https://discord.com/channels/662267976984297473/1026944423692619878>
-
----
-
-Q: Is it possible to choose how much weight is applied to each image using --iw?
-
-The weight specified is applied on all image prompts given to the bot.
+3. Begin typing `/imagine` and paste the image URLs into the `prompt` container. [example:](https://cdn.discordapp.com/attachments/958191534208061450/1043734607759167558/MJ_ImagePrompt.png)
 
 ---
 
@@ -547,9 +529,27 @@ Some image generation tools can take a starting image and modify it. Images used
 
 Q: Is there a max iw? What’s the max iw? What is the max image weight? Is there a maximum image weight?
 
-Yes, the maximum image weight is 10000, but weights are relative to other weights in the prompt. Extreme weights will give diminishing returns. [Aa short guide on using image prompts](https://midjourney.gitbook.io/docs/faqs#image-prompt-questions)
+Yes, the maximum image weight is 10000, but weights are relative to other weights in the prompt. Extreme weights will give diminishing returns. [A short guide on using image prompts](https://midjourney.gitbook.io/docs/faqs#image-prompt-questions)
 
 ---
+
+Q: Is there a way to Mix two images. Can I combine images? Can I blend images?
+
+**Use Midjourney Version 4 to blend two or more images together.**
+
+1. Locate the URL of each image (must end in .jpg or .png) or [ Upload each image to Discord.](https://cdn.discordapp.com/attachments/958191534208061450/1043731538367479880/MJ_CopyImageLink.png)
+
+2. Right click (desktop) or long-press (mobile) [and select Copy Link](https://cdn.discordapp.com/attachments/958191534208061450/1043731538367479880/MJ_CopyImageLink.png)
+
+3. Begin typing `/imagine` and paste the image URLs into the `prompt` container. [example:](https://cdn.discordapp.com/attachments/958191534208061450/1043734607759167558/MJ_ImagePrompt.png)
+
+4. Add `--v 4` to the end of the prompt.
+
+---
+
+
+
+
 
 
 
