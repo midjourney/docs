@@ -56,18 +56,23 @@ The ↻ submits the same job again, which will run with a different seed without
 
 # -------------------- ---IMAGINE----- --------------------
 
-Q:  /image? /imagine? Imagine? /imagine prompt:? #imagine?
+Q:  /image? /imagine? Imagine? /imagine prompt:? #imagine? /imagin? how do I use /imagine? How do I use /imagine? How do I generate images? How to use it? How do I use the bot? How does the bot work? How do I use it? How do I make art? How do I use midjourney? How do I prompt? How can I ask the AI to create an image? How do I trial the program? How do I get started? How can I start using the midjourney as a free user? Can I try it? Where can I start? How do I use the AI? Can I have free trial? Register? How do I use this?
 
-⚠️ ⚠️This is trial-support. `/imagine` will not work here. ⚠️ ⚠️
+⚠️ ⚠️ This is trial-support. DO NOT use `/imagine` here. ⚠️ ⚠️
 
-Read [#getting-started](https://discord.com/channels/662267976984297473/999550150705954856) or the [Quick Start Guide](https://midjourney.gitbook.io/docs/) for the basics.
+Read the guide below and follow it step-by-step in a Newbie channel. If you don’t see any newbie channels yet, restart/refresh Discord.
 
-Use the `/imagine` command in #newbies channels.
-If you don’t see any newbie channels yet, restart/refresh Discord.
+%image=https://cdn.discordapp.com/attachments/989981349777637446/1047854554399641663/unknown.png
+
+( `--v 4` allows for more realistic and coherent results. If you want a more painterly and imaginative style, you can remove `--v 4` to use the default V3 mode instead.)
+
+If you want to learn more details before you start, read [#getting-started](https://discord.com/channels/662267976984297473/999550150705954856) or the [Quick Start Guide](https://midjourney.gitbook.io/docs/) for the basics.
+
+
 
 ---
 
-Q: I'm having trouble using the bot - how do I use /imagine? How do I use /imagine? Why don’t I see the /imagine option as a slash command? I don’t see /imagine in my slash commands? My commands don’t work? Imagine doesn't work for me? I type the prompts and nothing appears? I type /imagine and nothing happens? It does not let me use /imagine? How do I generate images? How to use it? How do I use the bot? How does the bot work? So just /imagine [prompt]? I type the prompts and nothing appears. How do I use it? I type the prompts and nothing appears? How do I make art? How do I use midjourney? How do I prompt? How can I ask the AI to create an image? How do I trial the program? How do I get started? How can I start using the midjourney as a free user? Can I try it? Where can I start? How do I use the AI? Can I have free trial? Register? How do I use this?
+Q: I'm having trouble using the bot - Why don’t I see the /imagine option as a slash command? I don’t see /imagine in my slash commands? My commands don’t work? Imagine doesn't work for me? I type the prompts and nothing appears? I type /imagine and nothing happens? It does not let me use /imagine? So just /imagine [prompt]? I type the prompts and nothing appears. I type the prompts and nothing appears? 
 
 Please read this channel --> [#getting-started](https://discord.com/channels/662267976984297473/999550150705954856)
 
@@ -79,7 +84,7 @@ If you have followed the instructions above and still don’t see the newbie cha
 
 Q: What's a bot channel? Where can I use imagine? Where can I use /subscribe? Where can I use /info? Where can I make an image?
 
-A Bot channel is any channel where you can use a Midjourney Bot command like `/imagine` `/subscribe` or `/info`. All Newbie channels are Bot channels.
+A Bot channel is any channel where you can use a Midjourney Bot command like `/imagine` `/subscribe` or `/info`. All Newbie channels are Bot channels. (#Trial-support is NOT a bot channel!)
 
 ---
 
@@ -171,36 +176,16 @@ One hour is roughly 60 image generation or upscale commands and approximately 20
 
 ---
 
-Q: What if I run out of fast-gpu hours? What if I run out of fast time? 
+Q: What if I run out of fast-gpu hours? What if I run out of fast time? How do I enable the additional fast time? 
 
-You can set a spending limit and buy it at $4/GPU-hour. 
+You can purchase additional fast hours through your Manage Sub page [on the Midjourney website](https://www.midjourney.com/account/), or by using `/fast` and following the prompts from the bot. Purchased hours, unlike the hours that come with your subscription, do not expire, though you must have an active subscription to use them.
 
-This cost will be billed incrementally (you only pay what you use) and charged at the end of the month, or every time you hit a billing threshold (the monthly price of your base plan). Hourly prices are experimental and subject to change.
-
----
-
-
-Q: $0.01? per unit? Unit price?
-
-If you run out of your Fast GPU time (200 minutes for Basic and 15 hours for Standard), you'll be offered an option to buy more time at $4/hour, billed to the cent. This is called [incremental billing](https://midjourney.gitbook.io/docs/billing#incremental-billing-usd4-for-60-gpu-minutes). 
-
-The "$0.01 per unit" line in the checkout screen allows for incremental billing. For example, if you use $3.54 in metered usage, you'll be billed 354 "units" at $0.01 each. You will not be charged if you do not opt into metered billing and set a spending limit.
-
-%image=https://media.discordapp.net/attachments/958069758211797092/1004590281682858124/unknown.png
-
-Hourly prices are experimental and subject to change.
 
 ---
 
 Q: Do fast hours roll over? Do I keep my unused fast hours? Will my time get added to the next month? Does the subscription reset my hours? Do I keep my minutes?
 
-Fast hours do not roll over month to month.
-
----
-
-Q: How do I enable the additional fast time? 
-
-Use `/fast` after running out of your monthly fast hours to approve metered billing and set a spending limit for additional fast hours at $4/GPU-hour. 
+Subscription hours do not rollover. If you purchased additional fast hours (through the website or by following the bot prompts), they do not expire. Hours earned from rating images on the website expire 30 days after they were awarded, regardless of when your subscription renews.
 
 ---
 
@@ -242,11 +227,7 @@ Use this link to invite someone: https://discord.gg/midjourney
 # -------------------- ------TRIAL----- --------------------
 # -------------------- -------------------- --------------------
 
-Q: Even if the trial expires, do we remain in the Discord server? Even if the trial expires, do we remain part of the discord server?
 
-Due to the number of members on our server, we are occasionally forced to remove inactive users who are not subscribed. You are always welcome to rejoin the server with the link https://discord.gg/midjourney
-
----
 
 Q: Do trials reset monthly? Do I get more free images every month? Do I get free images every day? How many images do I get as a free user? Do trials reset monthly? Does my free trial renew? Is my trial a limited number per day or overall? How long is the trial? How many images can we do with the Trial Version? How many images can you generate with the basic trial? How many images does the trial have? How many images does the trial have? How long does the free trial last? How do I refresh my trial?
 
@@ -267,7 +248,7 @@ Midjourney does not provide a free tier because of the cost involved with using 
 
 Q: Do subscriptions renew on the first of the month? When does my subscription renew?
 
-Your subscription renews roughly every 30 days, on the same day of the month it was started. You can check when your subscription will renew by using `/info`.
+Your subscription renews every month on the same day of the month and time of day it was started. You can check when your subscription will renew by using `/info`. Hover over the date in your info panel, or long press on mobile, to see the time. (Note that your subscription may renew an hour earlier or later than you expect following daylight saving time changes.)
 
 ---
 
@@ -279,7 +260,7 @@ Type `/subscribe` and click the link provided or go to [https://www.midjourney.c
 
 Q: How much for a subscription? Where can I see plans? What’s the difference between Basic and Standard? How much does an unlimited plan cost? What's the price of Midjourney? Plan prices? Price?
 
-%image=https://cdn.discordapp.com/attachments/984460137475497985/996112315684491354/plans.png
+%image=https://cdn.discordapp.com/attachments/978364411662196776/1052623095162216508/MJ_PricingGraph2.png
 [Subscription page on a website](https://www.midjourney.com/account/) (you need to "Sign in with Discord" first)
 
 ---
@@ -296,7 +277,7 @@ PayPal, Google Pay, Apple Pay, wire transfer, and similar methods are not suppor
 Q: Will a yearly subscription become available? Are the payments lifetime or monthly? Is the subscription price paid per month?
 
 
-Standard and Basic plans are on a monthly cycle. There are no current plans for yearly Basic or Standard subscriptions. All membership benefits replenished monthly.
+Plans can be purchased on a month-to-month basis, or as an annual commitment. Annual commitments are charged upfront, at a 20% discount from the month-to-month price, but otherwise function the same way (i.e. your fast hours will still refresh on the same day every month).
 
 ---
 
@@ -311,15 +292,10 @@ We give new users a free trial of roughly 25 jobs (25 GPU minutes). After the fr
 # -------------------- METERED --------------------
 Q: if we go over our limit of fast hours does it let us know? or just start billing for the extra hourly time with no warning? If I use up minutes, can I get more without paying? Can you accidently get a big bill?
 
-When you run out of fast credits, you will be prompted to either set a spending limit or move to relax mode. Incremental billing is optional and is only enabled if you explicitly set a spending limit. You will not be able to use incremental billing without first setting a spending limit. If you have a standard membership you can continue to make images in relax-mode by typing /relax.
+When you run out of fast time, you will be prompted to either purchase additional GPU hours or, for Standard and Pro subscribers, move to relax mode. These additional GPU hours must be purchased before they can be used, so you can’t accidentally incur additional charges. If you have a Standard or Pro subscription, you can use `/relax` to switch to relaxed mode.
 
 ---
 
-Q: Where do we set a billing limit? Where do we set a spending limit?
-
-You can only set a billing limit after running out of `fast` time. You will be prompted automatically to set a spending limit for additional `fast` time. If the opt-in prompt does not automatically appear use`/fast` to send it again. You cannot use incremental billing without first setting a spending limit. 
-
----
 
 
 # -------------------- CANCELATION --------------------
@@ -329,7 +305,7 @@ Q: How can I cancel? How can I cancel my plan? How do I unsubscribe? How can I c
 You can cancel your subscription on [the Midjourney 
 website](https://midjourney.com/account), or by using `/subscribe` and following the link
 
-On the website underneath `View details & invoices` click `Cancel Plan`
+On the website next to `Plan Details` click `Manage` and then `Cancel Plan`
 
 You may cancel your subscription anytime, but the cancellation will be effective at the end of the current billing cycle. All the benefits and `/fast` time will remain until the end of this cycle. If you change your mind, you can un-cancel your plan before the end of the cycle.
 
@@ -352,6 +328,10 @@ If you switch from Basic to Standard, your percentage of remaining GPU-time / im
 If you used all of the Basic time -> Standard will cost 30$.
 If you used half of the Basic time -> Standard will cost 25$
 If you used no Basic time -> Standard will cost $20
+
+Likewise, if you switch from Standard to Pro, your upgrade will be prorated based on your remaining fast time.
+
+When switching plans, you can decide to have the change go into effect immediately, or at the end of your current billing cycle. If you choose to have the change go into effect immediately, your current fast time will convert into a discount on your new plan, or account credit if you’re swapping to a smaller plan. If you choose to swap from the Standard or Pro plan to Basic and have it go into effect immediately, you will immediately lose access to relax mode.
 
 ---
 
@@ -387,23 +367,18 @@ We are building an open-by-default community focused on collective exploration a
 
 ---
 
-Q: What's the 50$ plan? How do I hide my images? What's private mode? Private powers badge? I don't want people to see my images. How can I work privately? I don't want anyone to see my images and prompts. How do I go private? There is no $50 monthly plan though?
+Q: How do I hide my images? What's private mode? What’s stealth mode? Private powers badge? I don't want people to see my images. How can I work privately? I don't want anyone to see my images and prompts. How do I go private? How do I go stealth? How much does private cost? How much does stealth cost?
 
-Use `/private` to activate or purchase private powers. Private powers prevents other users from seeing your images on Midjourney.com and allows you to hide previously generated images. Private powers is available for $20 / month for basic and standard subscribers.
+Stealth (formerly private) generation mode is a feature of the Pro plan. It prevents other users from seeing your images on Midjourney.com and allows you to hide previously generated images.
 
 You must generate in your Direct Messages for your images to be completely private. Images generated in public channels are still visible to other users.
 
----
-
-Q: How does upgrading to private work? How much does it cost to upgrade to private? 
-
-Private powers cost $20/mo. Use `/private` to upgrade. If you upgrade midway through a billing cycle, your cost will be prorated based on your remaining subscription days.
-
-While you are paying for private powers, you can hide or show previously generated images in your personal gallery by clicking on the “eye” icon. do If the iconesn’t appear, try using the /info command, logging out, and then re-logging into the website.
+While you are subscribed to the Pro plan, you can hide or show previously generated images in your personal gallery by clicking on the “eye” icon. do If the iconesn’t appear, try using the /info command, logging out, and then re-logging into the website.
 
 ---
 
-Q: Is private permanent? If I cancel are my images still private?
+
+Q: Is private permanent? If I cancel are my images still private? Is stealth permanent? If I cancel switch plans are my images still stealth?
 
 Any images marked private during your subscription will remain private even after your subscription ends.
 
@@ -415,11 +390,11 @@ If the eye icon doesn’t appear, try using the /info command, logging out, and 
 
 ---
 
-Q: Are all my images private automatically? Will my gallery become private? Why can users still interact even though I bought private?
+Q: Are all my images private automatically? Will my gallery become private? Why can users still interact even though I bought private? Are all my images stealth automatically? Will my gallery be stealth? Why can users interact even though I have stealth mode enabled?
 
-In order to use your private membership, you’ll need to enter private mode with `/private` Any previously made images will need to have their visibility toggled on the website with the unpublish button (an eye icon).
+In order to use stealth generation mode, you’ll need to enable it with `/private` Any previously made images will need to have their visibility toggled on the website with the unpublish button (an eye icon).
 
-In order to make sure your private generations are actually private, make sure to generate them inside a DM to the bot or in a private server. Generating in a public channel will show the image to everyone.
+In order to make sure your stealth generations are actually private, make sure to generate them inside a DM to the bot or in a private server. Generating in a public channel will show the image to everyone.
 
 ---
 
@@ -533,7 +508,7 @@ Yes, the maximum image weight is 10000, but weights are relative to other weight
 
 ---
 
-Q: Is there a way to Mix two images. Can I combine images? Can I blend images?
+Q: Is there a way to mix two images. Can I combine images? Can I blend images?
 
 **Use Midjourney Version 4 to blend two or more images together.**
 
@@ -812,7 +787,7 @@ If you get an error saying that you can’t DM the bot, right-click the server i
 ---
 
 Q: I thought my DM images were private. Why are private images being moderated?
-`/private`
+`/private` I thought my DM images were stealth. Why are stealth images being moderated?
 
 Images created in DMs with ‘/private’ are still viewable by moderators and the team and are still subject to the TOS.
 
@@ -966,7 +941,7 @@ The banned word list is not publicly available.
 
 ---
 
-Q: What does project images have been disabled mean?
+Q: What does process images have been disabled mean?
 
 In-progress images are sometimes disabled for jobs in relax mode that take a while to generate. Final results are sent when the generation is complete.
 
@@ -1060,6 +1035,14 @@ Q:SSX2Test2
 
 Test 2
 %image=https://cdn.discordapp.com/attachments/420465245593665540/1020084088071266335/yrpflejgpr511.gif
+
+---
+
+Q: Ephemeral
+
+Some words will occasionally produce bad images but are not severe enough to be banned, these words are ephemeral meaning that jobs containing them can only be seen by you and will disappear from discord after some time. 
+
+You can bring these jobs back into discord to work on them again using the `/show` command. 
 
 ---
 
