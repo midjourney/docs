@@ -198,7 +198,7 @@ You can invite the Bot to your own server using [this guide](https://midjourney.
 
 Subscribers can also create images in their direct messages with the Bot. Tap here to DM the Bot: <@936929561302675456>
 
-No matter where you use the Bot, your images will still appear in the community feed, on the website. You can prevent this by using the `/private` command for an additional $20 per month.
+No matter where you use the Bot, your images will still appear in the community feed, on the website. Pro plan subscribers can prevent this by enabling stealth mode with `/private`
 
 ---
 
@@ -373,7 +373,7 @@ Stealth (formerly private) generation mode is a feature of the Pro plan. It prev
 
 You must generate in your Direct Messages for your images to be completely private. Images generated in public channels are still visible to other users.
 
-While you are subscribed to the Pro plan, you can hide or show previously generated images in your personal gallery by clicking on the “eye” icon. do If the iconesn’t appear, try using the /info command, logging out, and then re-logging into the website.
+While you are subscribed to the Pro plan, you can hide or show previously generated images in your personal gallery by clicking on the “eye” icon. If the icon doesn’t appear, try using the /info command, logging out, and then re-logging into the website.
 
 ---
 
@@ -875,8 +875,6 @@ Q: How does commercial use work? Can I use images commercially? Can I sell image
 Paying members have commercial rights to all images they have made, even trial images, and may use them commercially even if they no longer have an active subscription.
 
 Trial users may use images non-commercially.
-
-Employees of companies making over 1M/yr USD in revenue must purchase a corporate plan to use Midjourney created images.
 
 For complete details, see [our Terms of Service](https://midjourney.gitbook.io/docs/terms-of-service#4.-copyright-and-trademark)
 
