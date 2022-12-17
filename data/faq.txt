@@ -56,17 +56,15 @@ The ↻ submits the same job again, which will run with a different seed without
 
 # -------------------- ---IMAGINE----- --------------------
 
-Q:  /image? /imagine? Imagine? /imagine prompt:? #imagine? /imagin? how do I use /imagine? How do I use /imagine? How do I generate images? How to use it? How do I use the bot? How does the bot work? How do I use it? How do I make art? How do I use midjourney? How do I prompt? How can I ask the AI to create an image? How do I trial the program? How do I get started? How can I start using the midjourney as a free user? Can I try it? Where can I start? How do I use the AI? Can I have free trial? Register? How do I use this?
+Q:  /image? /imagine? Imagine? /imagine prompt:? #imagine? /imagin? how do I use /imagine? How do I use /imagine? How do I generate images? How to use it? How do I use the bot? How does the bot work? How do I use it? How do I make art? How do I use Midjourney? How do I prompt? How can I ask the AI to create an image? How do I trial the program? How do I get started? How can I start using the Midjourney as a free user? Can I try it? Where can I start? How do I use the AI? Can I have free trial? Register? How do I use this?
 
-⚠️ ⚠️ This is trial-support. DO NOT use `/imagine` here. ⚠️ ⚠️
+⚠️ ⚠️ This is a support channel. `/imagine` will not work here. ⚠️ ⚠️
 
-Read the guide below and follow it step-by-step in a Newbie channel. If you don’t see any newbie channels yet, restart/refresh Discord.
+Go to a **#newbies** channel to create images with `/imagine`.
+Please read [#getting-started](https://discord.com/channels/662267976984297473/999550150705954856) or the [Quick Start Guide](https://midjourney.gitbook.io/docs/).
 
-%image=https://cdn.discordapp.com/attachments/989981349777637446/1047854554399641663/unknown.png
-
-( `--v 4` allows for more realistic and coherent results. If you want a more painterly and imaginative style, you can remove `--v 4` to use the default V3 mode instead.)
-
-If you want to learn more details before you start, read [#getting-started](https://discord.com/channels/662267976984297473/999550150705954856) or the [Quick Start Guide](https://midjourney.gitbook.io/docs/) for the basics.
+🖥️ PC: Look at the left side of discord to see your channel list. 
+📱 Mobile: Swipe from the left to see your channel list. 
 
 
 
@@ -92,8 +90,8 @@ Q: Is it possible to edit a prompt without restarting? How to edit my prompt? Wh
 
 You can edit your prompt using the remix feature, toggle it on or off using `/prefer remix`. Once enabled clicking on the make variation (V) buttons will bring up a text box, allowing you to make changes to your prompt. 
 
-Here is our help article:
-<https://discord.com/channels/662267976984297473/1029507753389084692/1029507753389084692>
+[What is Remix?]
+(https://discord.com/channels/662267976984297473/1029507753389084692/1029507753389084692)
 ---
 
 
@@ -300,7 +298,7 @@ When you run out of fast time, you will be prompted to either purchase additiona
 
 # -------------------- CANCELATION --------------------
 
-Q: How can I cancel? How can I cancel my plan? How do I unsubscribe? How can I cancel my subscription? How to cancel a subscription? Where do I cancel my subsription? How do I unsub? Where do I unsub? Where do I cancel?
+Q: How can I cancel? How can I cancel my plan? How do I unsubscribe? How can I cancel my subscription? How to cancel a subscription? Where do I cancel my subscription? How do I unsub? Where do I unsub? Where do I cancel?
 
 You can cancel your subscription on [the Midjourney 
 website](https://midjourney.com/account), or by using `/subscribe` and following the link
@@ -548,8 +546,10 @@ Commas or other types of punctuation don’t usually have a noticeable effect on
 
 Q: Is there a way to add more parameters to a generated image after I have generated different versions? Can I change the prompt after?
 
-See our help article:
-<https://discord.com/channels/662267976984297473/1029507753389084692/1029507753389084692>
+[Read more about Remix]
+(https://discord.com/channels/662267976984297473/1029507753389084692/1029507753389084692)
+
+—
 
 Q: Any tips for successful text prompts? How do I write better prompts?
 
@@ -583,8 +583,8 @@ Q: Do commas, pipes, or any other punctuation matter? Does punctuation matter?
 
 Yes, the model considers them like a break in the prompt, but it's not always clear what impact this will have. Use `::` between prompts for a hard separator.
 
-See our help article:
-<https://discord.com/channels/662267976984297473/1020733204283535401/1020733204283535401>
+[Read more about punctuation]
+(https://discord.com/channels/662267976984297473/1020733204283535401/1020733204283535401)
 
 
 ---
@@ -593,8 +593,8 @@ Q: This :: 2 that :: 3” or this : : that
 
 Make sure that there is no space between colons and the weight. Your prompt should look like `phrase one::2 phrase two::1`
 
-See our help article:
-<https://discord.com/channels/662267976984297473/1020578042285920327/1020578042285920327>
+[Read more about weights]
+(https://discord.com/channels/662267976984297473/1020578042285920327/1020578042285920327)
 
 ---
 
@@ -602,8 +602,8 @@ Q: What is the length limit for prompts? How long of a prompt can I write? Is th
 
 Anything over ~60 words will not affect the output, so don't write a novel. (Prompts must stay under 6000 characters.)
 
-See our help article:
-<https://discord.com/channels/662267976984297473/1023119880976867368/1023119880976867368>
+[Read more about prompt lengths]
+(https://discord.com/channels/662267976984297473/1023119880976867368/1023119880976867368)
 
 ---
 
@@ -617,8 +617,8 @@ Q: What about “Unreal engine”? What about “Artstation”? What about “Oc
 
 The AI responds to these phrases the same way it does with other words. However, they may give the Bot a hint to generate the style of image you want.
 
-See our help article:
-<https://discord.com/channels/662267976984297473/1029786943141191700/1029786943141191700>
+[Read about rendering words]
+(https://discord.com/channels/662267976984297473/1029786943141191700/1029786943141191700)
 
 ---
 
@@ -631,8 +631,8 @@ Q: What does quality do? How do you use  --q? How do you use --s? How do you use
 [Stylize](https://midjourney.gitbook.io/docs/user-manual#stylize-values) 
 [Quality](https://midjourney.gitbook.io/docs/user-manual#quality-values)
 
-See our help article:
-<https://discord.com/channels/662267976984297473/1020577470795235358/1020577470795235358> 
+[Read more about chaos, stylize and style]
+(https://discord.com/channels/662267976984297473/1020577470795235358/1020577470795235358) 
 
 ---
 
@@ -657,8 +657,8 @@ Q: How does --seed work? What does –seed do? Does submitting the job again use
 
 *Seed* refers to the random noise added during the initialization of a generation. The same seed number can be used on different prompts using the `--seed` command. However, GPUs are non-deterministic, so images won't look exactly the same.
 
-See our help article:
-<https://discord.com/channels/662267976984297473/1022698154170253363/1022698154170253363>
+[Read more about seeds]
+(https://discord.com/channels/662267976984297473/1022698154170253363/1022698154170253363)
 
 
 ---
@@ -684,8 +684,8 @@ Q: How do I get a video of my grid generating? Video? --video? Can I use –vide
 
 Add `--video` to the end of your prompt. Once the image has been rendered, react to it with the :envelope: emoji. Videos only work on the initial grid, not upscaled images.
 
-See our help article: **Can I get a video of my render? How do I get a video?**
-<https://discord.com/channels/662267976984297473/1020703741432827934/1020703741432827934>
+[Read more about video]
+(https://discord.com/channels/662267976984297473/1020703741432827934/1020703741432827934)
 
 ---
 
@@ -730,8 +730,8 @@ Q: How do I search for someone on the website? How do I find a user’s page?
 
 Type their name in the search bar while on the 'Community Feed' page.
 
-See our help article:
-<https://discord.com/channels/662267976984297473/1026637202882564126/1026637202882564126>
+[Read more about the web gallery]
+(https://discord.com/channels/662267976984297473/1026637202882564126/1026637202882564126)
 
 ---
 
@@ -964,7 +964,7 @@ Q: How can I find my images? It’s moving too fast, how can I see only my image
 
 Or, open your [webpage gallery](https://www.midjourney.com/app/) and **Sign in with Discord.**
 
-%image=https://media.discordapp.net/attachments/978364411662196776/1008556157197107220/MJ_Mentions.png
+%image=https://cdn.discordapp.com/attachments/978364411662196776/1053406611756027984/Mentions.png
 
 ---
 
@@ -1052,66 +1052,66 @@ You can bring these jobs back into discord to work on them again using the `/sho
 
 Q: How should I write my prompts?  What’s the best way to write prompts? Do prompts have an order? Does word order matter? Does word sequence matter? Is there a template for prompts?
 
-See our help article:
-<https://discord.com/channels/662267976984297473/1020572050898813029/1020572050898813029>
+[Read about word order]
+(https://discord.com/channels/662267976984297473/1020572050898813029/1020572050898813029)
 
 ---
 
 Q: What is –test? What is –testp? What is test? What is testp? What is –creative? What is remaster?
 
-See our help article: 
-<https://discord.com/channels/662267976984297473/1021457377964339233/1021457377964339233>
+[Read about test, testp, creative and remaster]
+(https://discord.com/channels/662267976984297473/1021457377964339233/1021457377964339233)
 
 ---
 
 Q: How do I make my image more clear?  Why did Midjourney leave out things from my prompt? Why are parts of my prompt left out? Why did some parts of my prompt get skipped? Why did Midjourney ignore my prompt? Why am I getting nightmare fuel? Why does my image not look right? Why does my image look wrong? 
 
-See our help article:
-<https://discord.com/channels/662267976984297473/1020580578766102531/1020580578766102531>
+[Read prompt tips for clearer images]
+(https://discord.com/channels/662267976984297473/1020580578766102531/1020580578766102531)
 
 ---
 
 Q: Does Midjourney know about this style, artist, movie, game, or media?
 
-See our list of resources:
-<https://discord.com/channels/662267976984297473/1020538944024223794/1020538944024223794>
+[Community list of resources]
+(https://discord.com/channels/662267976984297473/1020538944024223794/1020538944024223794)
 
 ---
 
 Q: What is the Three Basket Problem?
 
-See our help article:
-<https://discord.com/channels/662267976984297473/1020533278354182225/1020533278354182225>
+[Three Basket Problem]
+(https://discord.com/channels/662267976984297473/1020533278354182225/1020533278354182225)
 
 --- 
 
 Q: How do I recreate one of my images with a small change? Can I edit my prompt? Can I edit one of my prompts? Can I add, remove, or change just one word in my prompt? What is remix?
 
-See our help article:
-<https://discord.com/channels/662267976984297473/1029507753389084692/1029507753389084692>
+[Read about Remix]
+(https://discord.com/channels/662267976984297473/1029507753389084692/1029507753389084692)
 
 
 --- 
 
 Q: How can I make a weapon like a sword, gun, bow and arrow?
 
-See our help article:
-<https://discord.com/channels/662267976984297473/1025152459011801230/1025152459011801230>
+[Read about making weapons]
+(https://discord.com/channels/662267976984297473/1025152459011801230/1025152459011801230)
 
 
 ---
 
 Q: What are weights? How do weights work? What does :: mean?
 
-See our help article:
-<https://discord.com/channels/662267976984297473/1020578042285920327/1020578042285920327> 
+[Read about weights]
+(https://discord.com/channels/662267976984297473/1020578042285920327/1020578042285920327)
 
 ---
 
 Q: Can I use a reference image? Can I give Midjourney an image to work with? Can I start with one of my own images? Can I use my own picture?
 
-See our help article: 
-<https://discord.com/channels/662267976984297473/1026944423692619878/1026944423692619878>
+[Read about using reference images]
+(https://discord.com/channels/662267976984297473/1026944423692619878/1026944423692619878)
 
 
 ---
@@ -1119,15 +1119,15 @@ See our help article:
 
 Q: Why is Midjourney so bad at hands? Why is it so hard to create animals? Why can’t I make a good dragon? Why can’t I make an airplane or helicopter?
 
-See our help article:
-<https://discord.com/channels/662267976984297473/1020577705823043585/1020577705823043585>
+[Read the FAQ about hands and animals]
+(https://discord.com/channels/662267976984297473/1020577705823043585/1020577705823043585)
 
 ---
 
 Q: How do I get a human with blue skin? How do I get a ship in a bottle? How do I get an upside down face? Why is it so hard to get a wine bottle on its side? Why can’t I make a broken wine glass? Why is it so hard to make a three-eyed cat?
 
-See our help article:
-<https://discord.com/channels/662267976984297473/1020564333413027892/1020564333413027892>
+[Read the FAQ about difficult prompts]
+(https://discord.com/channels/662267976984297473/1020564333413027892/1020564333413027892)
 
 
 
@@ -1135,64 +1135,64 @@ See our help article:
 
 Q: What is chaos? What is stylize? What is –c? What is –s? Why do I see prompts with s and c in them? What does c do? What does s do? 
 
-See our help article:
-<https://discord.com/channels/662267976984297473/1020577470795235358/1020577470795235358>
+[Read about chaos and stylize]
+(https://discord.com/channels/662267976984297473/1020577470795235358/1020577470795235358)
 
 ---
 
 Q: What is a reroll? What is a vroll? What is a uroll? What does rerolling do? What does the button with the arrows mean?
 
-See our help article:
-<https://discord.com/channels/662267976984297473/1020577302033207306/1020577302033207306>
+[Read about rerolls and vrolls]
+(https://discord.com/channels/662267976984297473/1020577302033207306/1020577302033207306)
 
 ---
 
 Q: How do I make realistic photographs? How do I get a clear photographic style image? How do I make my image look like a photo?
 
-See our help article:
-<https://discord.com/channels/662267976984297473/1020577073930190919/1020577073930190919>
+[Read about realistic photographs]
+(https://discord.com/channels/662267976984297473/1020577073930190919/1020577073930190919)
 
 ---
 
 Q: What effects do I get from the different kinds of upscales? What are the different upscales? What is beta upscale? What is light upscale? What is max upscale? What is detailed upscale?
 
-See our help article:
-<https://discord.com/channels/662267976984297473/1020574515622842498/1020574515622842498>
+[Read about the different upscales]
+(https://discord.com/channels/662267976984297473/1020574515622842498/1020574515622842498)
 
 ---
 
 Q: How can I reliably get two people in one image? How do I get two people in a prompt? How do I get three people in a prompt? How do I get a group of people?
 
-See our help article:
-<https://discord.com/channels/662267976984297473/1020528647678996531/1020528647678996531>
+[Read about multiple subjects]
+(https://discord.com/channels/662267976984297473/1020528647678996531/1020528647678996531)
 
 ---
 
 
 Q: How do I get text or words in an image?
 
-See our help article:
-<https://discord.com/channels/662267976984297473/1025600359563001886/1025600359563001886>
+[Read about getting text or words]
+(https://discord.com/channels/662267976984297473/1025600359563001886/1025600359563001886)
 
 ---
 
 Q: What is a seed? What do seeds do? What is sameseed?
 
-See our help article:
-<https://discord.com/channels/662267976984297473/1022698154170253363/1022698154170253363>
+[Read about seeds]
+(https://discord.com/channels/662267976984297473/1022698154170253363/1022698154170253363)
 
 ---
 
 Q: How do I get a full body picture? How do I get the whole person in the image? How do I get a full body shot? 
 
-See our help article:
-<https://discord.com/channels/662267976984297473/1020576538745389057/1020576538745389057>
+[Read about full body shots]
+(https://discord.com/channels/662267976984297473/1020576538745389057/1020576538745389057)
 
 --- 
 
 Q: How do I specify a color in my prompt? Can I control color? Can I use CYMK? Can I use RGB? Can I use Pantone codes for colors? Can I use hexcodes for color?
 
-See our help article: **How do I get the colors I want? (palettes, hues, tones)**
-<https://discord.com/channels/662267976984297473/1026204064574361651/1026204064574361651>
+[Read about controlling color]
+(https://discord.com/channels/662267976984297473/1026204064574361651/1026204064574361651)
 
 --- 
