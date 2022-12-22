@@ -7,7 +7,6 @@
 * [The Midjourney Web App](web-app.md)
 * [Use Midjourney on your own Discord Server](use-midjourney-on-your-own-discord-server.md)
 * [Content and Moderation](content-and-moderation-policy.md)
-* [Billing and Licensing](billing.md)
 * [Resource Links](resource-links/README.md)
   * [Tips for Text-Prompts](resource-links/guide-to-prompting.md)
   * [Understanding Image Size](resource-links/understanding-image-size.md)

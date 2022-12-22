@@ -95,7 +95,7 @@ You can ask the Midjourney Bot to send you a Discord direct message containing y
 
 Your 25 free jobs do not presently expire but will also not renew. Once you have used all of them, you can use `/subscribe` in any Bot channel to purchase a membership. Follow the link Midjourney generates to go to your subscription page.
 
-For prices and more information, you can visit [Billing and Licensing](billing.md).
+For prices and more information, you can visit [Billing and Licensing](broken-reference).
 
 ### 8. As a Subscriber, Direct Message the Bot to work one-on-one with the Bot.
 
