@@ -75,15 +75,7 @@ Welcome to Midjourney!
 Click here to learn how to use the AI: [#getting-started](https://discord.com/channels/662267976984297473/999550150705954856) [Quick Start Guide](https://midjourney.gitbook.io/docs/) 
 
 Or if you prefer a visual guide:
-%image=https://media.discordapp.net/attachments/981975130840391711/1057008208889249882/GS_imagine_fl.gifQ:  /image? /imagine? Imagine? /imagine prompt:? #imagine? /imagin? how do I use /imagine? How do I use /imagine? How do I generate images? How to use it? How do I use the bot? How does the bot work? How do I use it? How do I make art? How do I use Midjourney? How do I prompt? How can I ask the AI to create an image? How do I trial the program? How do I get started? How can I start using the Midjourney as a free user? Can I try it? Where can I start? How do I use the AI? Can I have free trial? Register? How do I use this?
-
-⚠️ ⚠️ This is a support channel. `/imagine` will not work here. ⚠️ ⚠️
-
-Go to a **#newbies** channel to create images with `/imagine`.
-Please read [#getting-started](https://discord.com/channels/662267976984297473/999550150705954856) or the [Quick Start Guide](https://midjourney.gitbook.io/docs/).
-
-🖥️ PC: Look at the left side of discord to see your channel list. 
-📱 Mobile: Swipe from the left to see your channel list. 
+%image=https://media.discordapp.net/attachments/981975130840391711/1057008208889249882/GS_imagine_fl.gif
 
 
 
@@ -175,7 +167,7 @@ Use `/fast` in a bot channel to enable metered fast generation. You will be incr
 
 Q: Relaxed mode seems slow tonight. Upscaling in relaxed mode seems to be on "Waiting to Start..." for a while.  What is the average wait time? How much slower is relax mode? How slow is relax mode? Relax mode speed? Why was it faster before?
 
-`Relax` mode is based on a dynamic queueing system that tries to make sure all relax users have an equal chance to share the relax queue resources. The times to generate in relaxed mode change and can be anywhere from 5 minutes to 30 minutes depending on factors like personal usage, collective usage, and resources available.Relaxed times vary based on several factors. Relaxed times are generally under 5 minutes but sometimes can be under a minute or closer to 15 minutes.
+`Relax` mode is based on a dynamic queueing system that tries to make sure all relax users have an equal chance to share the relax queue resources. The times to generate in relaxed mode change and can be anywhere from 5 minutes to 30 minutes depending on factors like personal usage, collective usage, and resources available.
 
 ---
 
@@ -272,7 +264,7 @@ Q: How do I subscribe? How to subscribe? How do I become a member? /subscribe? H
 
 Type `/subscribe` to get a personal link to your account page.
 
-You can also and click the link provided or go to [https://www.midjourney.com/account/](https://www.midjourney.com/account/) and  "Sign in with Discord.”
+You can also go to [https://www.midjourney.com/account/](https://www.midjourney.com/account/) and  "Sign in with Discord.”
 
 ---
 
@@ -285,9 +277,9 @@ Q: How much for a subscription? Where can I see plans? What’s the difference b
 
 Q: Can I pay with PayPal? Can I use PayPal? Do you have other payment methods? Paypal PayPal? Do I have to use a credit card? Are there other ways to pay? Is there another way to pay for a subscription other than with a credit card? Can I pay with ETH? Do you take crypto?
 
-Only payment methods that work with Stripe are currently supported.: credit or debit cards issued by services like Mastercard, VISA, American Express, or Discover & Diners. Wallets like Apple Pay, Google Pay, and Alipay may work in specific regions. regions [More info on card brands supported by Stripe](https://stripe.com/docs/payments/cards/supported-card-brands)
+Only payment methods that work with Stripe are currently supported.: credit or debit cards issued by services like Mastercard, VISA, American Express, or Discover & Diners. Wallets like Apple Pay, Google Pay, and Alipay may work in specific regions. [More info on card brands supported by Stripe](https://stripe.com/docs/payments/cards/supported-card-brands)
 
-PayPal, Google Pay, Apple Pay, wire transfer, and similar methods are not supported. There is currently no estimate on supporting more payment options.
+PayPal, wire transfer, and similar methods are not supported. There is currently no estimate on supporting more payment options.
 
 ---
 
@@ -301,7 +293,7 @@ Plans can be purchased on a month-to-month basis, or as an annual commitment. An
 
 Q: Is it paid to make images? Aw I need to pay? Do I need to pay? Trial has ended?
 
-We give new users a free trial of roughly 25 jobs (25 GPU minutes). After the free trial, you can purchase additional jobs by subscribing to the Basic, or Standard, or Pro plan.
+We give new users a free trial of roughly 25 jobs (25 GPU minutes). After the free trial, you can purchase additional jobs by subscribing to the Basic, Standard, or Pro plan.
 
 ---
 
@@ -382,7 +374,7 @@ When using `/fast` you can have three jobs running at once. (2x2 grids, upscales
 
 Q: Why do I have to pay for private mode? What if I don’t want my images to appear in the gallery?
 
-Midjourney strives to be a community for mutual sharing and exploration. If for any reason you prefer not to participate in Midjourney's open community, you can subscribe to the Pro plan at any time. The Pro plan has a 'Stealth' feature that allows you to selectively publish and unpublish your creations from your public Gallery and the community feed.We are building an open-by-default community focused on collective exploration and fun. If you need to opt out and be private-by-default, you can upgrade your plan for an additional $20/mo at any time by typing /private.
+Midjourney strives to be a community for mutual sharing and exploration. If for any reason you prefer not to participate in Midjourney's open community, you can subscribe to the Pro plan at any time. The Pro plan has a 'Stealth' feature that allows you to selectively publish and unpublish your creations from your public Gallery and the community feed.
 
 ---
 
@@ -493,9 +485,9 @@ Q: Is there documentation? Where can I find all the commands? Is there documenta
 
 # -------------------- IMAGE PROMPTS  --------------------
 
-Q: What does the --iw 5 argument do? What does the --iw 5 comment do? What does --iw do?
+Q: What does the --iw argument do? What does the --iw comment do? What does --iw do?
 
-The --iw argument allows you to adjust how much the image prompt will be considered in the final result. This command is for Version 3 and will not work in Version 4.5 applies an image weight of 5. Read more [here](https://midjourney.gitbook.io/docs/user-manual#image-prompting-with-url) 
+The --iw argument allows you to adjust how much the image prompt will be considered in the final result. This command is for Version 3 and will not work in Version 4.. Read more [here](https://midjourney.gitbook.io/docs/user-manual#image-prompting-with-url) 
 
 ---
 
@@ -517,7 +509,7 @@ Yes, with --iw -0.5.
 
 ---
 
-Q: Is there a way to use "init" images for the bot to start from? Can I use an init image? Can I edit an image?
+Q: Is there a way to use "init" images for the bot to start from? Can I use an init image? 
 
 Some image generation tools can take a starting image and modify it. Images used this way are often called `init` images. `Init` images are not currently supported. You can use an image URL as part of your prompt, but it is more of an "influence image" than a true init.
 [Image Prompt Guide](https://midjourney.gitbook.io/docs/faqs#image-prompt-questions)
@@ -945,14 +937,6 @@ This error most often means you need to update or reinstall your Discord app. We
 2️⃣ Update the Discord app.
 3️⃣ Uninstall and reinstall the Discord app.
 
-If you get an error working in your Direct Messages, ensure your security settings allow DMs.Q: Why did I get a message that said "Interaction Failed"? I am getting “interaction failed”? I am getting “application did not respond”? Bot interaction is failing?
-
-Try the following:
-Check the <#942231458918064148> channel for known issues.
-Restart Discord.
-Update the Discord app.
-Uninstall and reinstall the Discord app.
-
 If you get an error working in your Direct Messages, ensure your security settings allow DMs.
 
 ---
@@ -1006,12 +990,6 @@ Q: How can I find my images? It’s moving too fast, how can I see only my image
 
 🖥️ PC: Use the *inbox button* (top right corner) 
 📱 Mobile: Swipe from the left to see your channel list and the bottom menu. Look for the @-symbol (Android) or bell icon (IOS)
-
-Or, open your [webpage gallery](https://www.midjourney.com/app/) and **Sign in with Discord.**
-
-%image=https://cdn.discordapp.com/attachments/978364411662196776/1053406611756027984/Mentions.pngQ: How can I find my images? It’s moving too fast, how can I see only my images? How to search for my images? Where is the gallery? Where can I see my images? How do I search for my creations? How do you find your previous prompts? Where are my images? How can I find images that I generated? Mentions? Mention? How do I see my mentions? Where are my mentions? How can I find my image in discord? I lost my image? Mentions? I can’t find my mentions? I can’t find my image? Where is my artwork?
-
- Use the *inbox button* (top right corner) on desktop, or the **@ button** on mobile.
 
 Or, open your [webpage gallery](https://www.midjourney.com/app/) and **Sign in with Discord.**
 
@@ -1185,9 +1163,7 @@ Q: What is a reroll? What is a vroll? What is a uroll? What does rerolling do? W
 
 ---
 
-Q: How do I make realistic photographs? How do I get a clear photographic style image? How do I make my image look like a photo?
 
-[Read about realistic photographs](https://discord.com/channels/662267976984297473/1020577073930190919/1020577073930190919)
 
 ---
 
