@@ -770,6 +770,7 @@ To solve this bug, go to your [account page](https://www.midjourney.com/account)
 
 When you get to the new page, look for the `...` [button](https://cdn.discordapp.com/attachments/958069758211797092/1055907774971773068/image.png) and click it, then press make default.
 
+---
 
 
 # -------------------- -------------------- --------------------
@@ -981,6 +982,7 @@ Type `/settings` to open your Settings Menu, and select `Style Med`. [Pic](https
 
 You can read more about stylize [here](https://discord.com/channels/662267976984297473/1020577470795235358/1020577470795235358).
 
+---
 
 # -------------------- -------------------- --------------------
 # -------------------- WHERE ARE MY IMAGES?! --------------------
@@ -1160,10 +1162,6 @@ Q: What is chaos? What is stylize? What is –c? What is –s? Why do I see prom
 Q: What is a reroll? What is a vroll? What is a uroll? What does rerolling do? What does the button with the arrows mean?
 
 [Read about rerolls and vrolls](https://discord.com/channels/662267976984297473/1020577302033207306/1020577302033207306)
-
----
-
-
 
 ---
 
