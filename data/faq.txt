@@ -113,11 +113,11 @@ You can edit your prompt using the remix feature, toggle it on or off using `/pr
 
 Q: What is GPU time? What is a gpu minute? Does the reroll/variation/upscale each count as a generation in terms for the limits? 4 small images count as 1 job? How many images is one query? What is a query?
 
-All generative actions are called queries. We try to track usage in terms of compute-time, which we call “GPU-minutes”. One GPU-minute is roughly the amount it takes to do 1 `/imagine`, 3 variations, 1 upscale, or 0.7 max-upscales. See the image below to see how many GPU-minutes are used on each query, on average:
+Midjourney measures each job using a resource called GPU time. GPU time is the amount of time it takes our servers to process your request. 
 
-%image=https://media.discordapp.net/attachments/958069758211797092/1004203349278724166/unknown.png
+Each job takes roughly a GPU-minute. Upscales are slower, variations are quicker. Other factors (such as setting high quality parameters, the test modes, or using high aspect ratios) may increase the amount of time a job takes to complete. 
 
-Note: custom aspect ratio/resolution, --hd, and quality >1 will use more GPU-minutes.
+After each job completes, the amount of time it used is subtracted from your plan's remaining fast time unless you are in Relax Mode.[What is Relax Mode?](https://midjourney.gitbook.io/docs/faqs#fast-and-relaxed)
 
 ---
 
@@ -167,7 +167,7 @@ Use `/fast` in a bot channel to enable metered fast generation. You will be incr
 
 Q: Relaxed mode seems slow tonight. Upscaling in relaxed mode seems to be on "Waiting to Start..." for a while.  What is the average wait time? How much slower is relax mode? How slow is relax mode? Relax mode speed? Why was it faster before?
 
-`Relax` mode is based on a dynamic queueing system that tries to make sure all relax users have an equal chance to share the relax queue resources. The times to generate in relaxed mode change and can be anywhere from 5 minutes to 30 minutes depending on factors like personal usage, collective usage, and resources available.
+`Relax` mode is based on a dynamic queueing system that tries to make sure all relax users have an equal chance to share the relax queue resources. The times to generate in relaxed mode change and can be anywhere from 0 to 5 minutes depending on factors like personal usage, collective usage, and resources available.
 
 ---
 
@@ -178,7 +178,7 @@ Q: What is fast mode? What does fast-hours mean? Fast time? What is relax mode? 
 
 We have two modes for image generation, `Fast` and `Relax`. `Fast` assigns your job to a GPU as quickly as possible. `Relax` adds your job to a queue behind others users based on how much you've used the system. `Relax` also doesn't support max-upscale commands.
 
-Right now, we give 15 GPU-hours/mo of `Fast` with the `Standard` plan and 200 GPU-minutes/mo with the `Basic` plan.
+Right now, we give 30 GPU-hours/mo of `Fast` with the `Pro` plan, 15 GPU-hours/mo with the `Standard` plan and 200 GPU-minutes/mo with the `Basic` plan.
 
 One hour is roughly 60 image generation or upscale commands and approximately 200 image variation commands. These numbers are experimental and may change at any time.
 
@@ -193,7 +193,7 @@ You can purchase additional fast hours through your Manage Sub page [on the Midj
 
 Q: Do fast hours roll over? Do I keep my unused fast hours? Will my time get added to the next month? Does the subscription reset my hours? Do I keep my minutes?
 
-Subscription hours do not rollover. If you purchased additional fast hours (through the website or by following the bot prompts), they do not expire. Hours earned from rating images on the website expire 30 days after they were awarded, regardless of when your subscription renews.
+Monthly hours do not rollover. If you purchased additional fast hours (through the website or by following the bot prompts), they do not expire. Hours earned from rating images on the website expire 30 days after they were awarded, regardless of when your subscription renews.
 
 ---
 
@@ -260,7 +260,7 @@ Your subscription renews every month on the same day of the month and time of da
 
 ---
 
-Q: How do I subscribe? How to subscribe? How do I become a member? /subscribe? How does one become a member? How can I be a full member?  How can I subscribe to it? how to get paid version? How do you get a subscription? How can I upgrade from the trial version? hello, where can I can make the payment for the Standard plan? And how do i buy the 10$ plan? How do I buy? How can I subscribe to Midjourney? Premium? How to subscribe to this bot?
+Q: How do I subscribe? How to subscribe? How do I become a member? /subscribe? How does one become a member? How can I be a full member?  How can I subscribe to it? how to get paid version? How do you get a subscription? How can I upgrade from the trial version? hello, where can I can make the payment for the Standard plan? And how do i buy the 10$ plan? How do I buy? How can I subscribe to Midjourney? Premium? How to subscribe to this bot? Suscribe? /suscribe?
 
 Type `/subscribe` to get a personal link to your account page.
 
@@ -310,7 +310,7 @@ When you run out of fast time, you will be prompted to either purchase additiona
 
 # -------------------- CANCELATION --------------------
 
-Q: How can I cancel? How can I cancel my plan? How do I unsubscribe? How can I cancel my subscription? How to cancel a subscription? Where do I cancel my subscription? How do I unsub? Where do I unsub? Where do I cancel?
+Q: How can I cancel? How can I cancel my plan? How do I unsubscribe? How can I cancel my subscription? How to cancel a subscription? Where do I cancel my subscription? How do I unsub? Where do I unsub? Where do I cancel? How can I cancle? How can I cancle my plan? How can I cancle my subscription? How to cancle a subscription? Where do I cancle my subscription? Where do I cancle?
 
 You can cancel your subscription on [the Midjourney 
 website](https://midjourney.com/account), or by using `/subscribe` and following the link
@@ -360,7 +360,9 @@ We can transfer subscriptions between accounts only when both accounts have the 
 
 Q: How many jobs can be generating at once? How many jobs can I line up? How long is the queue? How many concurrent jobs can I run? How many can I queue?
 
-When using `/fast` you can have three jobs running at once. (2x2 grids, upscales, etc.) Additional jobs will be added to your queue (up to ten total jobs), and you will see the message, "your job will be started as soon as another one finishes."
+Trial, `Basic`, and `Standard` subscribers can have **3 jobs** running at once. Additional jobs will be added to a queue of up to **10 jobs**.
+
+`Pro` subscribers can run **12 jobs** at once with `/fast`, **3 jobs** at once with `/relax`, and an additional **10 jobs** in the queue. 
 
 ---
 
@@ -491,13 +493,13 @@ The --iw argument allows you to adjust how much the image prompt will be conside
 
 ---
 
-Q: How do I upload an image? How do I get image link? How do I use my own image? How do I upload or use an image from my hard-drive for an image prompt? Image prompt? How can I attach an image? Can I use an image as a starting point? Can I use my images? Can I send images to the AI? Can I give an image to the AI? I've seen a few people using source images, how does this work? Can I use an image? Reference image?
+Q: How do I upload an image? How do I get image link? How do I use my own image? How do I upload or use an image from my hard-drive for an image prompt? Image prompt? How can I attach an image? Can I use an image as a starting point? Can I use my images? Can I send images to the AI? Can I give an image to the AI? I've seen a few people using source images, how does this work? Can I use an image? Reference image? My own photo? My own personal photo?
 
 You can use your images as an inspiration for the AI by copying a URL from an image online, or by uploading one to discord and copying the link.
 
 1. Locate the URL of each image (must end in .jpg or .png) or [Upload each image to Discord.](https://cdn.discordapp.com/attachments/958191534208061450/1043729831696797786/MJ_FileUpload.png)
 
-2. Right click (desktop) or long-press (mobile) [and select Copy Link](https://cdn.discordapp.com/attachments/958191534208061450/1043731538367479880/MJ_CopyImageLink.png)
+2. Right click (desktop) or long-press (mobile) [and select Copy Link](https://cdn.discordapp.com/attachments/958191534208061450/1043731538367479880/MJ_CopyImageLink.png) or `Copy Media Link`.
 
 3. Begin typing `/imagine` and paste the image URLs into the `prompt` container. [example:](https://cdn.discordapp.com/attachments/958191534208061450/1043734607759167558/MJ_ImagePrompt.png)
 
@@ -750,9 +752,9 @@ You need a subscription to have full access to the member gallery or community f
 
 ---
 
-Q: Is there a way to save all my images at once? Can I batch download all of my images? How do I save my gallery? How do I download everything I generated? How do I download images?
+Q: Is there a way to save all my images at once? Can I batch download all of my images? How do I save my gallery? How do I download everything I generated? 
 
-You can download images quickly with Select Mode. You can enable this by clicking on the mouse icon at the top right corner of the website.
+You can batch download images quickly on the website with Select Mode. You can enable this by clicking on the mouse icon at the top right corner of the website.
 
 %image=https://media.discordapp.net/attachments/996185104755994715/1005247726696534066/Screen_Shot_2022-08-05_at_3.55.25_PM.png
 
@@ -972,7 +974,8 @@ In --v 4, if you want to use just one image reference, you must include a text p
 
 `https://pic1.png a cool person flying like superman`
 
-`https://pic1.png https://pic2.png`
+
+
 
 ---
 
@@ -1131,7 +1134,7 @@ Q: What are weights? How do weights work? What does :: mean?
 
 ---
 
-Q: Can I use a reference image? Can I give Midjourney an image to work with? Can I start with one of my own images? Can I use my own picture?
+Q: Can I use a reference image? Can I give Midjourney an image to work with? Can I start with one of my own images? Can I use my own picture? My own photo?
 
 [Read about using reference images](https://discord.com/channels/662267976984297473/1026944423692619878/1026944423692619878)
 
