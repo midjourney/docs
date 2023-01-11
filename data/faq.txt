@@ -946,6 +946,22 @@ Discord allows this server a maximum number of active threads. When older thread
 
 ---
 
+
+Q: I can’t accept ToS? Can’t accept ToS? How to accept ToS? I can’t accept Terms? How to accept Terms? How to accept ToS? I can’t accept terms of service? How do I accept the terms? How do I accept terms? How do I accept ToS?
+
+The terms of service should appear when you use your first `/imagine` command, along with a button to accept the terms. Here are solutions for if you can not see the button, or get an error when clicking accept.
+
+:one: Use the official Discord app, not a browser.
+
+:two: If you are already using the Discord app and still get error:
+:desktop: **PC/Mac**  Do a hard restart of Discord with `Alt+F4` or `⌘+Q`. 
+:mobile_phone: **Mobile** `Update` the Discord app. If that doesn’t work, `reinstall` the Discord app.
+
+:three: There are rare situations where you might need to try several times due to heavy server load. 
+
+
+---
+
 Q: Is there a list of banned words? Where can I see the banned words?
 
 The banned word list is not publicly available.
