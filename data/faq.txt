@@ -58,7 +58,7 @@ The ↻ submits the same job again, which will run with a different seed without
 
 Q:  /image? /imagine? Imagine? /imagine prompt:? #imagine? /imagin? 
 
-⚠️ ⚠️ This is a support channel. `/imagine` will not work here. ⚠️ ⚠️
+__`/imagine` will not work in this channel!__
 
 Go to a **#newbies** channel to create images with `/imagine`.
 
@@ -93,7 +93,7 @@ If you have followed the instructions above and still don’t see the newbie cha
 
 Q: What's a bot channel? Where can I use imagine? Where can I use /subscribe? Where can I use /info? Where can I make an image?
 
-A Bot channel is any channel where you can use a Midjourney Bot command like `/imagine` `/subscribe` or `/info`. All Newbie channels are Bot channels. (#Trial-support is NOT a bot channel!)
+A Bot channel is any channel where you can use a Midjourney Bot command like `/imagine` `/subscribe` or `/info`. All **#Newbies** channels are Bot channels. (#Trial-support is NOT a bot channel!)
 
 ---
 
@@ -117,17 +117,15 @@ Midjourney measures each job using a resource called GPU time. GPU time is the a
 
 Each job takes roughly a GPU-minute. Upscales are slower, variations are quicker. Other factors (such as setting high quality parameters, the test modes, or using high aspect ratios) may increase the amount of time a job takes to complete. 
 
-After each job completes, the amount of time it used is subtracted from your plan's remaining fast time unless you are in Relax Mode.[What is Relax Mode?](https://midjourney.gitbook.io/docs/faqs#fast-and-relaxed)
+After each job completes, the amount of time it used is subtracted from your plan's remaining fast time.
 
 ---
 
-Q: How do I see how many gpu hours I have left? How do I see how much I have used? How do I see how many hours I have left? Where can I check how many prompts I have left? How many images can I make? How can I see my queue? Where do I check my jobs? How do I check how many jobs I have left? /info? Info?
+Q: How do I see how many gpu hours I have left? How do I see how much I have used? How do I see how many hours I have left? Where can I check how many prompts I have left? How many images can I make? How can I see my queue? Where do I check my jobs? How do I check how many jobs I have left? /info? 
 
 Use `/info` in a bot channel to check your subscription status and usage.
 
-Once you’re in a bot channel, like one of the #newbies channels, select the command that pops up from the menu above the textbox when you start typing /info - like this: 
-
-%image=https://media.discordapp.net/attachments/995112753880649808/998939274147795066/unknown.png
+`Fast Time Remaining` shows the amount of image generation resources you still have access to. [What is GPU time?](https://media.discordapp.net/attachments/1032868548072185927/1062651515120128100/gpu_time.png)
 
 ---
 
@@ -391,7 +389,7 @@ While you are subscribed to the Pro plan, you can hide or show previously genera
 ---
 
 
-Q: Is private permanent? If I cancel are my images still private? Is stealth permanent? If I cancel switch plans are my images still stealth?
+Q: Is private permanent? If I cancel, are my images still private? Is stealth permanent? If I cancel switch plans are my images still stealth?
 
 Any images marked private during your subscription will remain private even after your subscription ends.
 
@@ -460,10 +458,11 @@ Beta upscale uses a different algorithm that adds flat textured smooth detail, w
 
 Q: What is the maximum upscale resolution? What is the maximum resolution?  How can I set the resolution? Can I make a 4K image? Can I make a 300 DPI image? Can I make the resolution higher? Can I print my image? Is it possible to save my creations in high resolution, so I can print it out as posters? Is there a way to set the resolution to 2k and higher? How do I choose a resolution?
 
-For square images, `Regular` and `Light` upscale produces 1024x1024 px and `Maximum Upscale` is 1664x1664 px (~3MB). `Beta Upscale` is 2048 x 2048 px (~4MB). 
+For square images, `Regular` and `Light`* upscale produces 1024x1024 px and `Maximum Upscale`* is 1664x1664 px (~3MB). `Beta Upscale` is 2048 x 2048 px (~4MB). 
 
 Custom aspect ratios set using `--ar` will change the width and height of the image, but not the max file size.
 
+* *Light and Max upscale are for Version 3 of Midjourney.*
 [Image Size Documentation](https://midjourney.gitbook.io/docs/understanding-image-size)
 
 ---
@@ -489,20 +488,21 @@ Q: Is there documentation? Where can I find all the commands? Is there documenta
 
 Q: What does the --iw argument do? What does the --iw comment do? What does --iw do?
 
-The --iw argument allows you to adjust how much the image prompt will be considered in the final result. This command is for Version 3 and will not work in Version 4.. Read more [here](https://midjourney.gitbook.io/docs/user-manual#image-prompting-with-url) 
+The --iw argument allows you to adjust how much the image prompt will be considered in the final result. **This command is for Version 3 and will not work in Version 4**. Read more [here](https://midjourney.gitbook.io/docs/user-manual#image-prompting-with-url) 
 
 ---
 
-Q: How do I upload an image? How do I get image link? How do I use my own image? How do I upload or use an image from my hard-drive for an image prompt? Image prompt? How can I attach an image? Can I use an image as a starting point? Can I use my images? Can I send images to the AI? Can I give an image to the AI? I've seen a few people using source images, how does this work? Can I use an image? Reference image? My own photo? My own personal photo?
+Q: How do I upload an image? How do I get image link? How do I use my own image? How do I upload or use an image from my hard-drive for an image prompt? Image prompt? How can I attach an image? Can I use an image as a starting point? Can I use my images? Can I send images to the AI? Can I give an image to the AI? I've seen a few people using source images, how does this work? Can I use an image? Reference image? My own photo? My own personal photo? Edit my image?
 
 You can use your images as an inspiration for the AI by copying a URL from an image online, or by uploading one to discord and copying the link.
 
-1. Locate the URL of each image (must end in .jpg or .png) or [Upload each image to Discord.](https://cdn.discordapp.com/attachments/958191534208061450/1043729831696797786/MJ_FileUpload.png)
+1️⃣ Locate the URL of each image (must end in .jpg or .png) or [Upload each image to Discord.](https://cdn.discordapp.com/attachments/958191534208061450/1043729831696797786/MJ_FileUpload.png)
 
-2. Right click (desktop) or long-press (mobile) [and select Copy Link](https://cdn.discordapp.com/attachments/958191534208061450/1043731538367479880/MJ_CopyImageLink.png) or `Copy Media Link`.
+2️⃣ Right click (desktop) or long-press (mobile) [and select Copy Link](https://cdn.discordapp.com/attachments/958191534208061450/1043731538367479880/MJ_CopyImageLink.png) or `Copy Media Link`.
 
-3. Begin typing `/imagine` and paste the image URLs into the `prompt` container. [example:](https://cdn.discordapp.com/attachments/958191534208061450/1043734607759167558/MJ_ImagePrompt.png)
+3️⃣ Begin typing `/imagine` and paste the image URLs into the `prompt` container. [example:](https://cdn.discordapp.com/attachments/958191534208061450/1043734607759167558/MJ_ImagePrompt.png)
 
+[Read more about using a reference image](https://discord.com/channels/662267976984297473/1026944423692619878/1026944423692619878)
 ---
 
 Q: Can an image prompt have a negative weight?
@@ -694,6 +694,8 @@ Example: `/show b052e414-a9f7-4f14-94fe-1a43e0aa656b`
 
 Q: How do I get a video of my grid generating? Video? --video? Can I use –video on an upscale?
 
+With **Version 3** and **Test/p** you can ask the AI to record the creation of the image you prompted. This __does not work with version 4__.
+
 Add `--video` to the end of your prompt. Once the image has been rendered, react to it with the :envelope: emoji. Videos only work on the initial grid, not upscaled images.
 
 [Read more about video](https://discord.com/channels/662267976984297473/1020703741432827934/1020703741432827934)
@@ -710,12 +712,6 @@ Add `--video` to the end of your prompt. Once the image has been rendered, react
 
 # -------------------- ------INFO------- --------------------
 
-Q: How can I see the quota left in my account? How can I see how many images I have left? How can I see how many fast-hours I have? Where can I see how many images I have generated? How many queries do I have left? Is there a place where I can find my prompt count?
-
-
-Use `/info` to see information about your account.
-
----
 
 
 # -------------------- --DELETE X--------- --------------------
