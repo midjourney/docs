@@ -115,9 +115,7 @@ Q: What is GPU time? What is a gpu minute? Does the reroll/variation/upscale eac
 
 Midjourney measures each job using a resource called GPU time. GPU time is the amount of time it takes our servers to process your request. 
 
-Each job takes roughly a GPU-minute. Upscales are slower, variations are quicker. Other factors (such as setting high quality parameters, the test modes, or using high aspect ratios) may increase the amount of time a job takes to complete. 
-
-After each job completes, the amount of time it used is subtracted from your plan's remaining fast time.
+Each job takes roughly one GPU minute. Upscales use more time, variations use less. Specific parameters may also impact the amount of GPU time a job takes, especially the quality parameter (--q) and non-square aspect ratios (--ar 3:2, for example).
 
 ---
 
@@ -132,6 +130,14 @@ Use `/info` in a bot channel to check your subscription status and usage.
 Q: Can I use my GPU? Can I run this locally? Can I run this on my computer?
 
 No, this is not offered at this time. The AI runs on datacenter grade graphics cards.
+
+—
+
+Q: What are optional credit top-ups? Top-ups? What does optional credit pop-ups mean in plan details?
+
+Optional credit-top ups allow you to purchase additional fast GPU time above what comes with your monthly subscription. This GPU time rolls over through subscription periods, unlike the time that comes with your plan, though you must have an active subscription in order to use it. Additional time purchased this way is used after your subscription and bonus fast time has been used.
+
+The current rate for optional credit top-ups is $4/GPU hour, though these rates may change at any time. You can buy additional time by using /fast while you have no fast time available, or through your [account page on the website](https://www.midjourney.com/account/)
 
 ---
 
@@ -314,7 +320,8 @@ You can cancel your subscription on [the Midjourney
 website](https://midjourney.com/account), or by using `/subscribe` and following the link
 
 On the website next to `Plan Details` click `Manage` and then `Cancel Plan` 
-[Can’t find it?](https://media.discordapp.net/attachments/981975130840391711/1055331067168555008/MJ_CancelPlan.png)
+
+%image=https://cdn.discordapp.com/attachments/1023057817155944519/1063046121989095454/Screenshot_2023-01-12_at_5.43.52_AM.png
 
 You may cancel your subscription anytime, but the cancellation will be effective at the end of the current billing cycle. All the benefits and `/fast` time will remain until the end of this cycle. If you change your mind, you can un-cancel your plan before the end of the cycle.
 
@@ -382,7 +389,7 @@ Q: How do I hide my images? What's private mode? What’s stealth mode? Private 
 
 Stealth (formerly private) generation mode is a feature of the Pro plan. It prevents other users from seeing your images on Midjourney.com and allows you to hide previously generated images.
 
-You must generate in your Direct Messages for your images to be completely private. Images generated in public channels are still visible to other users.
+You must generate in your Direct Messages or on a private Discord server for your images to be completely private. Images generated in public channels are still visible to other users.
 
 While you are subscribed to the Pro plan, you can hide or show previously generated images in your personal gallery by clicking on the “eye” icon. If the icon doesn’t appear, try using the /info command, logging out, and then re-logging into the website.
 
@@ -409,7 +416,13 @@ In order to make sure your stealth generations are actually private, make sure t
 
 ---
 
+Q: How do I hide my images on the website? How do I unpublish my images? Unpublish old images? Bulk unpublish? Bulk hide? Hide old images? Hide already made images? Unpublish already made images? Batch hide? Batch unpublish?
 
+Subscribers to the Pro plan can use bulk actions on the website to unpublish (hide) their images–from either the archive page or the gallery with select mode enabled, select the images you’d like to unpublish. On the green “Open Downloader” button that appears at the bottom of the screen, click the down arrow to change the functionality to “Unpublish”, then click the button to unpublish those images. 
+
+%image=https://media.discordapp.net/attachments/1023057817155944519/1063036497802043432/Screenshot_2022-11-19_at_5.29.48_AM.png?width=2300&height=598
+
+---
 
 
 
@@ -467,7 +480,11 @@ Custom aspect ratios set using `--ar` will change the width and height of the im
 
 ---
 
+Q: Why does my upscale look different? Why is my upscale messed up? Upscale is different from the grid. Why does the V4 upscaler suck? Is the V4 upscaler broken? Why are my upscales coming out different?
 
+The default upscaler for V4 takes the prompt into account, unlike previous upscalers. This means it sometimes makes changes to the grid image as part of the process–for better or for worse. If you don’t like the results, try the “Beta Upscale Redo” button. The beta upscaler tends to stick closer to the grid image than the Version 4 default upscaler :)
+
+---
 
 
 
@@ -709,6 +726,10 @@ Add `--video` to the end of your prompt. Once the image has been rendered, react
 # -------------------- COMMANDS --------------------
 # -------------------- -------------------- --------------------
 
+Q: Why do I keep getting daily theme pings? How do I turn off daily theme pings? How do I mute daily theme notifications? How do I mute daily theme pings? How do I silence daily theme pings? Daily theme
+
+You can opt-out of #daily-theme pings by using the `/daily_theme` command in a bot channel and setting your participation to “no”.
+
 
 # -------------------- ------INFO------- --------------------
 
@@ -753,6 +774,8 @@ Q: Is there a way to save all my images at once? Can I batch download all of my 
 You can batch download images quickly on the website with Select Mode. You can enable this by clicking on the mouse icon at the top right corner of the website.
 
 %image=https://media.discordapp.net/attachments/996185104755994715/1005247726696534066/Screen_Shot_2022-08-05_at_3.55.25_PM.png
+
+
 
 ---
 
@@ -1082,11 +1105,9 @@ Test 2
 
 ---
 
-Q: Ephemeral
+Q: Ephemeral? What are ephemeral jobs? Why do my jobs disappear from Discord? My images are disappearing.
 
-Some words will occasionally produce bad images but are not severe enough to be banned, these words are ephemeral meaning that jobs containing them can only be seen by you and will disappear from discord after some time. 
-
-You can bring these jobs back into discord to work on them again using the `/show` command. 
+Some words and phrases in prompts cause them to become ephemeral in Discord. This means only you can see those images, and they disappear from Discord when you restart or refresh. Ephemeral jobs can be identified by a “Only you can see this” note at the bottom of the completed image. Once these jobs have disappeared, you can recall them to Discord using the `/show` command.
 
 ---
 
