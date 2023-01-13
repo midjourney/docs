@@ -730,6 +730,8 @@ Q: Why do I keep getting daily theme pings? How do I turn off daily theme pings?
 
 You can opt-out of #daily-theme pings by using the `/daily_theme` command in a bot channel and setting your participation to “no”.
 
+---
+
 
 # -------------------- ------INFO------- --------------------
 
