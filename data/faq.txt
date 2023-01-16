@@ -793,7 +793,7 @@ To solve this bug, go to your [account page](https://www.midjourney.com/account)
 
 When you get to the new page, look for the `...` [button](https://cdn.discordapp.com/attachments/958069758211797092/1055907774971773068/image.png) and click it, then press make default.
 
-—
+---
 
 Q: Error: The PaymentMethod provided (link) is not allowed for this PaymentIntent. Link payment error.
 
