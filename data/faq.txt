@@ -793,6 +793,16 @@ To solve this bug, go to your [account page](https://www.midjourney.com/account)
 
 When you get to the new page, look for the `...` [button](https://cdn.discordapp.com/attachments/958069758211797092/1055907774971773068/image.png) and click it, then press make default.
 
+—
+
+Q: Error: The PaymentMethod provided (link) is not allowed for this PaymentIntent. Link payment error.
+
+This error occurs when your default payment method has been linked from Stripe instead of entered manually. To fix it, go to your [account page](https://www.midjourney.com/account) and click on the "Edit Billing" button.
+
+When you get to the new page, look for the “Add a payment method and re-enter your card details manually, without using any auto-fill. Once you see your card information with an expiration date instead of the stylized “link” text, click the … next to it and click “Make default”
+
+%image=https://media.discordapp.net/attachments/1023057817155944519/1064690300276199486/Screenshot_20230111_204217_Chrome.png
+
 ---
 
 
