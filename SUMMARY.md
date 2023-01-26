@@ -1,16 +1,5 @@
 # Table of contents
 
-* [Quick Start Guide](README.md)
-* [User Manual](user-manual.md)
-* [Frequently Asked Questions](FAQs.md)
-* [Imagine Parameters Illustrated](imagine-parameters.md)
-* [The Midjourney Web App](web-app.md)
-* [Use Midjourney on your own Discord Server](use-midjourney-on-your-own-discord-server.md)
-* [Content and Moderation](content-and-moderation-policy.md)
-* [Resource Links](resource-links/README.md)
-  * [Tips for Text-Prompts](resource-links/guide-to-prompting.md)
-  * [Understanding Image Size](resource-links/understanding-image-size.md)
-* [Terms of Service](terms-of-service.md)
-* [Privacy Policy](privacy-policy.md)
+* [The Documentation has Moved](README.md)
 * [Go to Midjourney Discord](http://discord.gg/midjourney)
 * [Go to Midjourney Website](https://www.midjourney.com/app/)
