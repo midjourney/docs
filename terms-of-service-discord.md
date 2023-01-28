@@ -38,7 +38,7 @@ In this section, Paid Member shall refer to a Customer who has subscribed to the
 
 By using the Services, you grant to Midjourney, its successors, and assigns a perpetual, worldwide, non-exclusive, sublicensable no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute text, and image prompts you input into the Services, or Assets produced by the service at your direction. This license survives termination of this Agreement by any party, for any reason.
 
-**Your Rights**
+**_Your Rights_**
 
 Subject to the above license, you own all Assets you create with the Services. This does not apply if you fall under the exceptions below.
 
