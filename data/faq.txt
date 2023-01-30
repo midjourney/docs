@@ -21,7 +21,7 @@
 # ---------- Basic Markdown ----------
 # `code block`
 # **bold**
-# [Link Text](https://midjourney.gitbook.io/docs/)
+# [Link Text](https://docs.midjourney.com/)
 # :emoji:      ex: :envelope:
 # <@userIDnumber>
 
@@ -39,7 +39,7 @@ Q: What do the U1, V1, etc. buttons do? U, V buttons? How do I upscale? How do I
 
 %image=https://cdn.discordapp.com/attachments/958191534208061450/1017592980053438494/1234.png
 
-**U** UPSCALE: Increases the size of the selected image, giving it a higher resolution of around 1024×1024. See [the documentation](https://midjourney.gitbook.io/docs/faqs#upscaling).
+**U** UPSCALE: Increases the size of the selected image, giving it a higher resolution of around 1024×1024. See [the documentation](https://docs.midjourney.com/docs/upscalers).
 
 **V** VARIATION: Creates 4 variations of the selected image, trying to maintain style and composition.
 
@@ -72,7 +72,7 @@ Q: how do I use /imagine? How do I use /imagine? How do I generate images? How t
 
 Welcome to Midjourney! 
 
-Click here to learn how to use the AI: [#getting-started](https://discord.com/channels/662267976984297473/999550150705954856) [Quick Start Guide](https://midjourney.gitbook.io/docs/) 
+Click here to learn how to use the AI: [#getting-started](https://discord.com/channels/662267976984297473/999550150705954856) [Quick Start Guide](https://docs.midjourney.com/docs/quick-start/) 
 
 Or if you prefer a visual guide:
 %image=https://media.discordapp.net/attachments/981975130840391711/1057008208889249882/GS_imagine_fl.gif
@@ -85,7 +85,7 @@ Q: I'm having trouble using the bot - Why don’t I see the /imagine option as a
 
 Please read this channel --> [#getting-started](https://discord.com/channels/662267976984297473/999550150705954856)
 
-Or, see the [Quick Start Guide](https://midjourney.gitbook.io/docs/).
+Or, see the [Quick Start Guide](https://docs.midjourney.com/docs/quick-start).
 
 If you have followed the instructions above and still don’t see the newbie channels or  the `/imagine` option, update and restart your Discord app, re-install it, or re-login.
 
@@ -206,7 +206,7 @@ Monthly hours do not rollover. If you purchased additional fast hours (through t
 
 Q: Can I invite Midjourney to my server? Can I add this bot to another server? How to add Midjourney to a different server? Can I add the bot to my Discord server? Can I use the bot in my server? Q: Can I get my own private channel? How do I get a private channel? Does a subscriber have its own private channel not viewed by the public? Will I have a private channel if I subscribe? Can I generate images in a private channel?
 
-You can invite the Bot to your own server using [this guide](https://midjourney.gitbook.io/docs/use-midjourney-on-your-own-discord-server). 
+You can invite the Bot to your own server using [this guide](https://docs.midjourney.com/docs/invite-the-bot). 
 
 Subscribers can also create images in their direct messages with the Bot. Tap here to DM the Bot: <@936929561302675456>
 
@@ -437,7 +437,7 @@ Ex: `/imagine prompt: cyberpunk cats --ar 2:3`
 
 Version 4 of Midjourney currently supports `2:3` and `3:2`. For wider aspect ratios like 16:9, you can use Version 3 with the `/settings` command.
 
-[Aspect Ratio Documentation](https://midjourney.gitbook.io/docs/imagine-parameters#sizes) for more information.
+[Aspect Ratio Documentation](https://docs.midjourney.com/docs/aspect-ratios) for more information.
 
 ---
 
@@ -476,7 +476,7 @@ For square images, `Regular` and `Light`* upscale produces 1024x1024 px and `Max
 Custom aspect ratios set using `--ar` will change the width and height of the image, but not the max file size.
 
 * *Light and Max upscale are for Version 3 of Midjourney.*
-[Image Size Documentation](https://midjourney.gitbook.io/docs/understanding-image-size)
+[Image Size Documentation](https://docs.midjourney.com/docs/upscalers)
 
 ---
 
@@ -494,7 +494,7 @@ The default upscaler for V4 takes the prompt into account, unlike previous upsca
 
 Q: Is there documentation? Where can I find all the commands? Is there documentation? Is there an exhaustive list of arguments somewhere we can look at? Where can I find a reference of the various parameters for imagine? What are all the suffixes I can use? Can anyone help me with the commands syntax please? Can I have the user manual? Where do I find documentation? 
 
-[Midjourney Documentation](https://midjourney.gitbook.io/docs/user-manual)
+[Midjourney Documentation](https://docs.midjourney.com/)
 
 
 ---
@@ -505,7 +505,7 @@ Q: Is there documentation? Where can I find all the commands? Is there documenta
 
 Q: What does the --iw argument do? What does the --iw comment do? What does --iw do?
 
-The --iw argument allows you to adjust how much the image prompt will be considered in the final result. **This command is for Version 3 and will not work in Version 4**. Read more [here](https://midjourney.gitbook.io/docs/user-manual#image-prompting-with-url) 
+The --iw argument allows you to adjust how much the image prompt will be considered in the final result. **This command is for Version 3 and will not work in Version 4**. Read more [here](https://docs.midjourney.com/docs/image-prompts) 
 
 ---
 
@@ -531,13 +531,13 @@ Yes, with --iw -0.5.
 Q: Is there a way to use "init" images for the bot to start from? Can I use an init image? 
 
 Some image generation tools can take a starting image and modify it. Images used this way are often called `init` images. `Init` images are not currently supported. You can use an image URL as part of your prompt, but it is more of an "influence image" than a true init.
-[Image Prompt Guide](https://midjourney.gitbook.io/docs/faqs#image-prompt-questions)
+[Image Prompt Guide](https://docs.midjourney.com/docs/image-prompts)
 
 ---
 
 Q: Is there a max iw? What’s the max iw? What is the max image weight? Is there a maximum image weight?
 
-Yes, the maximum image weight is 10000, but weights are relative to other weights in the prompt. Extreme weights will give diminishing returns. [A short guide on using image prompts](https://midjourney.gitbook.io/docs/faqs#image-prompt-questions)
+Yes, the maximum image weight is 10000, but weights are relative to other weights in the prompt. Extreme weights will give diminishing returns. [A short guide on using image prompts](https://docs.midjourney.com/docs/image-prompts)
 
 ---
 
@@ -573,7 +573,7 @@ Q: What does :: do? What does double colons do? What does the + on the website d
 
 Double colons allow you to do multiple prompts (shown as a + on the website). You can give each prompt a different weight to fine-tune your result.
 
-More information here: [Advanced Text Weights](https://midjourney.gitbook.io/docs/user-manual#advanced-text-weights).
+More information here: [Multi Prompts](https://docs.midjourney.com/docs/multi-prompts).
 
 Commas or other types of punctuation don’t usually have a noticeable effect on the final result. They’re mainly used to make the prompt more human-readable.
 
@@ -587,7 +587,7 @@ Q: Is there a way to add more parameters to a generated image after I have gener
 
 Q: Any tips for successful text prompts? How do I write better prompts?
 
-Here is a short guide on effective text prompts: [Tips on Text Prompts](https://midjourney.gitbook.io/docs/resource-links/guide-to-prompting).
+Here is a short guide on effective text prompts: [Prompts](https://docs.midjourney.com/docs/prompts).
 
 ---
 
@@ -658,8 +658,8 @@ Q: What does quality do? How do you use  --q? How do you use --s? How do you use
 
 *Stylization* Adjust how closely the Bot follows your prompt by changing the stylization value. Append `--s` and a value between 0-1000. Lower values will follow your prompt closely. Higher values are more will have more variability. The default is value is 100.
 
-[Stylize](https://midjourney.gitbook.io/docs/user-manual#stylize-values) 
-[Quality](https://midjourney.gitbook.io/docs/user-manual#quality-values)
+[Stylize](https://docs.midjourney.com/docs/stylize 
+[Quality](https://docs.midjourney.com/docs/quality)
 
 [More about chaos, stylize and style](https://discord.com/channels/662267976984297473/1020577470795235358/1020577470795235358) 
 
@@ -923,7 +923,7 @@ Paying members have commercial rights to all images they have made, even trial i
 
 Trial users may use images non-commercially.
 
-For complete details, see [our Terms of Service](https://midjourney.gitbook.io/docs/terms-of-service#4.-copyright-and-trademark)
+For complete details, see section 4 of [our Terms of Service](https://docs.midjourney.com/docs/terms-of-service
 
 ---
 
@@ -1098,7 +1098,7 @@ In this example: `/imagine prompt: a field of flowers --stop 50`
 The grid will stop generating 50% of the way through resulting in a softer less detailed image. 
 The stop parameter does not work when upscaling an image. 
 
-See [the documentation](https://midjourney.gitbook.io/docs/imagine-parameters#detail-modifiers), for more information.
+See [the documentation](https://docs.midjourney.com/docs/stop), for more information.
 
 ---
 
@@ -1179,7 +1179,7 @@ Q: What are weights? How do weights work? What does :: mean?
 
 ---
 
-Q: Can I use a reference image? Can I give Midjourney an image to work with? Can I start with one of my own images? Can I use my own picture? My own photo?
+Q: Can I use a reference image? Can I give Midjourney an image to work with? Can I start with one of my own images? Can I use my own picture? My own photo? Own picture?
 
 [Read about using reference images](https://discord.com/channels/662267976984297473/1026944423692619878/1026944423692619878)
 
