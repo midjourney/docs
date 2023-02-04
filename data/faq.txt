@@ -432,10 +432,10 @@ Subscribers to the Pro plan can use bulk actions on the website to unpublish (hi
 
 Q: How do I change my aspect ratio? How to change aspect ratio? How can I specify image width? How can I specify image height? How can I change the dimensions? How to make not square images? What is the prompt for width and height? Can I adjust the width and height? What is --ar? How do I make a desktop background? How do I make 16:9?
 
-Change the aspect ratio of your image with the `--ar` parameter. 
-Ex: `/imagine prompt: cyberpunk cats --ar 2:3` 
+Change the aspect ratio of your image with the `--ar` parameter at the end of your promp. 
 
-Version 4 of Midjourney currently supports `2:3` and `3:2`. For wider aspect ratios like 16:9, you can use Version 3 with the `/settings` command.
+Ex: `/imagine prompt: cyberpunk cats --ar 16:9` 
+
 
 [Aspect Ratio Documentation](https://docs.midjourney.com/docs/aspect-ratios) for more information.
 
