@@ -210,7 +210,7 @@ You can invite the Bot to your own server using [this guide](https://docs.midjou
 
 Subscribers can also create images in their direct messages with the Bot. Tap here to DM the Bot: <@936929561302675456>
 
-No matter where you use the Bot, your images will still appear in the community feed, on the website. Pro plan subscribers can prevent this by enabling stealth mode with `/private`
+No matter where you use the Bot, your images will still appear in the community feed, on the website. Pro plan subscribers can prevent this by enabling stealth mode with `/stealth`
 
 ---
 
@@ -379,7 +379,7 @@ Trial, `Basic`, and `Standard` subscribers can have **3 jobs** running at once. 
 # -------------------- ----PRIVATE---- --------------------
 # -------------------- -------------------- --------------------
 
-Q: Why do I have to pay for private mode? What if I don’t want my images to appear in the gallery?
+Q: Why do I have to pay for private mode? Pay for stealth mode? What if I don’t want my images to appear in the gallery?
 
 Midjourney strives to be a community for mutual sharing and exploration. If for any reason you prefer not to participate in Midjourney's open community, you can subscribe to the Pro plan at any time. The Pro plan has a 'Stealth' feature that allows you to selectively publish and unpublish your creations from your public Gallery and the community feed.
 
@@ -389,16 +389,16 @@ Q: How do I hide my images? What's private mode? What’s stealth mode? Private 
 
 Stealth (formerly private) generation mode is a feature of the Pro plan. It prevents other users from seeing your images on Midjourney.com and allows you to hide previously generated images.
 
-You must generate in your Direct Messages or on a private Discord server for your images to be completely private. Images generated in public channels are still visible to other users.
+You must generate in your Direct Messages or on a private Discord server for your images to be completely hidden. Images generated in public channels are still visible to other users.
 
 While you are subscribed to the Pro plan, you can hide or show previously generated images in your personal gallery by clicking on the “eye” icon. If the icon doesn’t appear, try using the /info command, logging out, and then re-logging into the website.
 
 ---
 
 
-Q: Is private permanent? If I cancel, are my images still private? Is stealth permanent? If I cancel switch plans are my images still stealth?
+Q: Is private permanent? Does stealth last forever? If I cancel, are my images still private? Is stealth permanent? If I cancel switch plans are my images still stealth?
 
-Any images marked private during your subscription will remain private even after your subscription ends.
+Any images hidden using stealth mode during your subscription will remain unpublished even after your subscription ends.
 
 ---
 
@@ -410,9 +410,9 @@ If the eye icon doesn’t appear, try using the /info command, logging out, and 
 
 Q: Are all my images private automatically? Will my gallery become private? Why can users still interact even though I bought private? Are all my images stealth automatically? Will my gallery be stealth? Why can users interact even though I have stealth mode enabled?
 
-In order to use stealth generation mode, you’ll need to enable it with `/private` Any previously made images will need to have their visibility toggled on the website with the unpublish button (an eye icon).
+In order to use stealth generation mode, you’ll need to enable it with `/stealth` Any previously made images will need to have their visibility toggled on the website with the unpublish button (an eye icon).
 
-In order to make sure your stealth generations are actually private, make sure to generate them inside a DM to the bot or in a private server. Generating in a public channel will show the image to everyone.
+In order to make sure your stealth generations are actually hidden, make sure to generate them inside a DM to the bot or in a private server. Generating in a public channel will show the image to everyone.
 
 ---
 
@@ -697,7 +697,7 @@ Q: How does --seed work? What does –seed do? Does submitting the job again use
 
 Q: How to transfer an image to another channel? Can I move my image out of the newbies channel? Can I work with my old generations? My old generation is not responding to buttons? Can i upscale my old image from newbies channel? How to use /show?
 
-You can use `/show` to transfer an image to another channel or your DMs. `/show` can also ‘revive’ a job that has stopped working. You will need the Job Id to use '/show'. Copy a job ID from the website by pressing the `copy job ID` button in the gallery under the menu.
+You can use `/show` to transfer an image to another channel or your DMs. `/show` can also ‘revive’ a job that has stopped working. You will need the Job Id to use `/show`. Copy a job ID from the website by pressing the `copy job ID` button in the gallery under the menu.
 
 Use `/show jobid` in any channel or your Direct Messages.
 Example: `/show b052e414-a9f7-4f14-94fe-1a43e0aa656b`
@@ -783,7 +783,7 @@ You can batch download images quickly on the website with Select Mode. You can e
 
 Q: What is the Feed?
 
-The Feed is the public collection of all upscaled community images. This includes images created in DMs with the bot, and is subject to moderation review. Only if you are in Private (a higher subscription level) will your upscales not show up in the Feed.
+The Feed is the public collection of all upscaled community images. This includes images created in DMs with the bot, and is subject to moderation review. Only if you are in Stealth mode (included with the Pro subscription level) will your upscales not show up in the Feed.
 
 ---
 
@@ -836,7 +836,7 @@ If you get an error saying that you can’t DM the bot, right-click the server i
 Q: I thought my DM images were private. Why are private images being moderated?
 `/private` I thought my DM images were stealth. Why are stealth images being moderated?
 
-Images created in DMs with ‘/private’ are still viewable by moderators and the team and are still subject to the TOS.
+Images created in DMs with `/stealth` are still viewable by moderators and the team and are still subject to the TOS.
 
 ---
 
@@ -1058,7 +1058,7 @@ Q: Where did my thread go? Where is my thread? Can you move threads? Can you hel
 
 Group roles are assigned to distribute users across channels and limit the number of channels each user sees. 
 
-We cannot change role assignments or move threads. Use the */show* command to move your work to a new location.
+We cannot change role assignments or move threads. Use the `/show` command to move your work to a new location.
 
 To use `/show`:
 1) Go to your gallery at https://www.midjourney.com/app/ 
