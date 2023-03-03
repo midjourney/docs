@@ -81,9 +81,9 @@ Make sure to give our [Quick Start Guide](https://docs.midjourney.com/docs/quick
 Q: I'm having trouble using the bot - Why don’t I see the /imagine option as a slash command? I don’t see /imagine in my slash commands? My commands don’t work? Imagine doesn't work for me? I type the prompts and nothing appears? I type /imagine and nothing happens? It does not let me use /imagine? So just /imagine [prompt]? I type the prompts and nothing appears. I type the prompts and nothing appears? Where can I use /imagine?
 
 
-1️⃣Head to a #newbies channel.
-2️⃣Type `/imagine`.
-3️⃣Click the popup and type your prompt.
+1️⃣ Head to a #newbies channel.
+2️⃣ Type `/imagine`.
+3️⃣ Click the popup and type your prompt.
 
 ---
 
@@ -229,11 +229,11 @@ Use this link to invite someone: https://discord.gg/midjourney
 
 
 
-Q: Do trials reset monthly? Do I get more free images every month? Do I get free images every day? How many images do I get as a free user? Do trials reset monthly? Does my free trial renew? Is my trial a limited number per day or overall? How long is the trial? How many images can we do with the Trial Version? How many images can you generate with the basic trial? How many images does the trial have? How many images does the trial have? How long does the free trial last? How do I refresh my trial?
+Q: Do trials reset monthly? Do I get more free images every month? Do I get free images every day? How many images do I get as a free user? Do trials reset monthly? Does my free trial renew? Is my trial a limited number per day or overall? How long is the trial? How many images can we do with the Trial Version? How many images can you generate with the basic trial? How many images does the trial have? How many images does the trial have? How long does the free trial last? How do I refresh my trial? Trial has ended?
 
 Each new user gets a free trial of around 25 jobs (25 GPU minutes). This trial doesn’t renew, can be used over multiple days and doesn’t presently expire. Use `/info` to track your usage.
 
-After the free trial, you can continue using the bot by subscribing to the Basic, Standard, or Pro plans. Type `/subscribe`or sign in at [https://www.midjourney.com/account/](https://www.midjourney.com/account/) 
+After the free trial, you can continue using the bot by subscribing to the Basic, Standard, or Pro plans. Type `/subscribe` or sign in at [https://www.midjourney.com/account/](https://www.midjourney.com/account/) 
 
 ---
 
@@ -287,7 +287,7 @@ You've got options! You can choose to purchase a plan month-to-month or make a y
 
 ---
 
-Q: Is it paid to make images? I need to pay? Do I need to pay? Trial has ended?
+Q: Is it paid to make images? I need to pay? Do I need to pay?
 
 Welcome! As a new user, you'll get to try out the bot with a free trial of around 25 jobs (25 GPU minutes).
 To keep using the bot, you can choose from one of our Basic, Standard, or Pro plans and type `/subscribe`or `Sign in with Discord` at [https://www.midjourney.com/account/](https://www.midjourney.com/account/)
@@ -516,10 +516,11 @@ The --iw argument allows you to adjust how much the image prompt will be conside
 Q: How do I upload an image? How do I get image link? How do I use my own image? How do I upload or use an image from my hard-drive for an image prompt? Image prompt? How can I attach an image? Can I use an image as a starting point? Can I use my images? Can I send images to the AI? Can I give an image to the AI? I've seen a few people using source images, how does this work? Can I use an image? Reference image? My own photo? My own personal photo? Edit my image?
 
 To add images to text prompts:
-1️⃣Copy the links to the images (ending in jpg,png, or webp)
-2️⃣Start typing `/imagine` and click the popup
-3️⃣Paste the image links separated by spaces
-4️⃣Add a text prompt and any parameters
+1️⃣ [Copy the links](https://cdn.discordapp.com/attachments/958191534208061450/1043731538367479880/MJ_CopyImageLink.png)
+ to the images (ending in jpg,png, or webp)
+2️⃣ Start typing `/imagine` and click the popup
+3️⃣ [Paste the image links](https://cdn.discordapp.com/attachments/958191534208061450/1043734607759167558/MJ_ImagePrompt.png) separated by spaces
+4️⃣ Add a text prompt and any parameters
 
 [Read more about prompting with images](https://discord.com/channels/662267976984297473/1026944423692619878/1026944423692619878)
 Or for a visual guide: [Adding Images](https://gamma.app/public/cjwbwz2efibw8hf)
@@ -656,10 +657,10 @@ Q: How do you use --s? How do you use stylize? What does stylize do? What is --s
 
 *Stylization* Adjust how closely the Bot follows your prompt by changing the stylization value. Append `--s` and a value between 0-1000. Lower values will follow your prompt closely. Higher values are more will have more variability. The default is value is 100.
 
-[Stylize](https://docs.midjourney.com/docs/stylize 
+[Stylize](https://docs.midjourney.com/docs/stylize) 
 [More about chaos, stylize and style](https://discord.com/channels/662267976984297473/1020577470795235358/1020577470795235358) 
 
-
+---
 # -------------------- ----SEEDS----- --------------------
 
 Q: How do I get the seed or job id that was used for an image? How can I get an individual image without upscaling?
