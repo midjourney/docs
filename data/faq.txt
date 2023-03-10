@@ -239,7 +239,7 @@ After the free trial, you can continue using the bot by subscribing to the Basic
 
 Q: Why isn’t this free? Do I really have to pay for this? Can you give me free access? No free? Do I have to pay? Why do I have to pay? Is there a free version? Can I use the program for free? Refresh?
 
-Midjourney does not currently provide a free tier because of the cost involved with using farms of hundreds of GPUs. The free trial of 25 GPU minutes is one-time only and creating multiple accounts to use it repeatedly **WILL** result in a ban.
+Midjourney does not currently provide a free tier because of the cost involved with using farms of hundreds of GPUs. The free trial of 25 GPU minutes is one-time only.
 
 ---
 
@@ -516,8 +516,7 @@ The --iw argument allows you to adjust how much the image prompt will be conside
 Q: How do I upload an image? How do I get image link? How do I use my own image? How do I upload or use an image from my hard-drive for an image prompt? Image prompt? How can I attach an image? Can I use an image as a starting point? Can I use my images? Can I send images to the AI? Can I give an image to the AI? I've seen a few people using source images, how does this work? Can I use an image? Reference image? My own photo? My own personal photo? Edit my image?
 
 To add images to text prompts:
-1️⃣ [Copy the links](https://cdn.discordapp.com/attachments/958191534208061450/1043731538367479880/MJ_CopyImageLink.png)
- to the images (ending in jpg,png, or webp)
+1️⃣ [Copy the links](https://cdn.discordapp.com/attachments/958191534208061450/1043731538367479880/MJ_CopyImageLink.png) to the images (ending in jpg,png, or webp)
 2️⃣ Start typing `/imagine` and click the popup
 3️⃣ [Paste the image links](https://cdn.discordapp.com/attachments/958191534208061450/1043734607759167558/MJ_ImagePrompt.png) separated by spaces
 4️⃣ Add a text prompt and any parameters
