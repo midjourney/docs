@@ -1183,5 +1183,11 @@ Q: How do I specify a color in my prompt? Can I control color? Can I use CYMK? C
 [Read about controlling color](https://discord.com/channels/662267976984297473/1026204064574361651/1026204064574361651)
 
 ---
+
+Q: Is it FOSS ?
+
+No
+
+---
  
 
