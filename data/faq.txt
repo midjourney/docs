@@ -437,7 +437,7 @@ Use `/settings` before submitting a prompt to choose the amount of detail that i
 
 Q: I don't see the Max Upscale option? No Max Upscale? Where is Max Upscale?
 
-The Max Upscaler is an upscaler for Version 3. If you are using Version 4, this option will not be available. This feature is only available in `/fast` mode. You may not see an upscale option for some aspect ratios that would produce a file over the maximum size the bot can create. Check your upscaled image’s resolution: it may already be at the maximum resolution.
+The Max Upscaler is an upscaler for Version 3. If you are using Version 4 or 5, this option will not be available. This feature is only available in `/fast` mode. You may not see an upscale option for some aspect ratios that would produce a file over the maximum size the bot can create. Check your upscaled image’s resolution: it may already be at the maximum resolution.
 [Read about the different upscales](https://discord.com/channels/662267976984297473/1020574515622842498/1020574515622842498)
 
 ---
@@ -458,13 +458,16 @@ Beta upscale uses a different algorithm that adds flat textured smooth detail, w
 
 Q: What is the maximum upscale resolution? What is the maximum resolution?  How can I set the resolution? Can I make a 4K image? Can I make a 300 DPI image? Can I make the resolution higher? Can I print my image? Is it possible to save my creations in high resolution, so I can print it out as posters? Is there a way to set the resolution to 2k and higher? How do I choose a resolution?
 
-For square images, `Regular` and `Light` upscale produces 1024x1024 px and `Maximum Upscale`¹ is 1664x1664 px (~3MB). `Beta Upscale` is 2048 x 2048 px (~4MB). 
+**For square images, the upscalers will produce the following:**
+`Regular` v4 upscaler: 1024x1024 px
+`V5 Alpha`¹: 1024x1024 px
+`Beta Upscale`: 2048 x 2048 px 
 
 Custom aspect ratios set using `--ar` will change the width and height of the image, but not the max file size.
 
-¹ *Max upscale is only for Version 3 of Midjourney.*
-[Image Size Documentation](https://docs.midjourney.com/docs/upscalers)
+¹ *V5 images are “pre-upscaled” in the grid, and upscaling with a U-button simply separates that image from the grid.*
 
+[Read more about resolution and upscalers here](https://docs.midjourney.com/docs/upscalers)
 ---
 
 Q: Why does my upscale look different? Why is my upscale messed up? Upscale is different from the grid. Why does the V4 upscaler suck? Is the V4 upscaler broken? Why are my upscales coming out different?
