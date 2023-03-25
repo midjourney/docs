@@ -89,7 +89,7 @@ Q: I'm having trouble using the bot - Why don’t I see the /imagine option as a
 
 Q: I can’t see the newbie rooms? Where are the newbie channels? 
 
-Look at the list of channels on the left. If you don't see the #newbie rooms below the support section, restart Discord. If you don't have a group role, leave the server and come back to see the #newbie channels.
+Look at the list of channels on the left. If you don't see the #newbie rooms below the support section, restart Discord. If you don't have a group role, try doing `/info` to sync your roles. If that still doesn’t work, leave the server and come back to see the #newbie channels.
 
 For more info, read the [Quick Start Guide](https://docs.midjourney.com/docs/quick-start).
 
@@ -150,28 +150,11 @@ Buy via your [account page on the website](https://www.midjourney.com/account/) 
 # -------------------- -----RELAX----- --------------------
 
 ---
+Q: Relax? Why is relaxed mode slow?
 
-Q: How do I go into Relax mode? How do I turn on Relax mode? How do I start Relax?  My images say "relaxed", how do I change this? Why are my images relaxed?
-
-Members on the Standard or Pro plans can toggle between Relax and Fast mode using the commands `/relax` and `/fast`. Images made in `relax` mode take longer to complete but are unlimited. 
-
-🔹Relax mode is not available for Basic/trial users and does not support max-upscales.
+We are currently experiencing technical issues. You can read more about this in [#Status](https://discord.com/channels/662267976984297473/942231458918064148) .
 
 ---
-
-Q: Does relax mode get faster at the beginning of a billing cycle?
-
-Yes, `Relax` mode uses a dynamic queueing system that resets each time your subscription is renewed.
-
-
----
-
-Q: Relaxed mode seems slow tonight. Upscaling in relaxed mode seems to be on "Waiting to Start..." for a while.  What is the average wait time? How much slower is relax mode? How slow is relax mode? Relax mode speed? Why was it faster before?
-
-Relax mode uses a dynamic queue to ensure equal resource access for everyone. The time it takes to generate in this mode can vary from 0 to 5 minutes, depending on usage and available resources.
-
----
-
 
 # -------------------- ------FAST------ --------------------
 
