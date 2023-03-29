@@ -243,7 +243,7 @@ Midjourney does not currently provide a free tier because of the cost involved w
 
 Q: Channel verification level is too high? Channel verification? Verification too high? Email verification? Verification error?
 
-We require that you verify the email address attached to your Discord account in order to use Midjourney. You can learn how to do that [here](https://support.discord.com/hc/en-us/articles/213219267).
+We require that you verify the email address attached to your Discord account in order to use Midjourney. You can learn how to do that [here](https://support.discord.com/hc/en-us/articles/6181726888215).
 
 ---
 
