@@ -149,10 +149,25 @@ Buy via your [account page on the website](https://www.midjourney.com/account/) 
 
 # -------------------- -----RELAX----- --------------------
 
----
-Q: Relax? Why is relaxed mode slow?
 
-We are currently experiencing technical issues. You can read more about this in [#Status](https://discord.com/channels/662267976984297473/942231458918064148) .
+Q: How do I go into Relax mode? How do I turn on Relax mode? How do I start Relax?  My images say "relaxed", how do I change this? Why are my images relaxed?
+
+Members on the Standard or Pro plans can toggle between Relax and Fast mode using the commands `/relax` and `/fast`. Images made in `relax` mode take longer to complete but are unlimited. 
+
+🔹Relax mode is not available for Basic/trial users and does not support max-upscales.
+
+---
+
+Q: Does relax mode get faster at the beginning of a billing cycle?
+
+Yes, `Relax` mode uses a dynamic queueing system that resets each time your subscription is renewed.
+
+
+---
+
+Q: Relaxed mode seems slow tonight. Upscaling in relaxed mode seems to be on "Waiting to Start..." for a while.  What is the average wait time? How much slower is relax mode? How slow is relax mode? Relax mode speed? Why was it faster before?
+
+Relax mode uses a dynamic queue to ensure equal resource access for everyone. The time it takes to generate in this mode can vary from 0 to 5 minutes, depending on usage and available resources.
 
 ---
 
@@ -226,6 +241,11 @@ Midjourney does not currently provide a free tier because of the cost involved w
 
 ---
 
+Q: Channel verification level is too high? Channel verification? Verification too high? Email verification? Verification error?
+
+We require that you verify the email address attached to your Discord account in order to use Midjourney. You can learn how to do that [here](https://support.discord.com/hc/en-us/articles/213219267).
+
+---
 
 # -------------------- -------------------- --------------------
 # -------------------- SUBSCRIPTION --------------------
