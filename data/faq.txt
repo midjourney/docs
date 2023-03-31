@@ -676,6 +676,16 @@ React to your image with the envelope emoji :envelope: and it will send it to yo
 
 ---
 
+Q: No seed? Seed on upscale? Only grid seed? Can’t get seed? V5 seed?
+
+In V5, upscales currently have no seeds. You can react to your initial grid with the envelope emoji :envelope: and it will send it to you in DM.
+
+%image=https://user-images.githubusercontent.com/105028755/167305579-1b2c461f-03d7-4aad-b14e-9ce0dd74fd9a.png
+
+[Learn more about seeds](https://discord.com/channels/662267976984297473/1022698154170253363/1022698154170253363)
+
+---
+
 Q: Are the 4 initial images generated using the same seed?
 
 In a way, yes. The seed is used to generate noise (think randomness) for all four images at once, so the noise is different for each image.
