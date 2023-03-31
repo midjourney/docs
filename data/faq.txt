@@ -979,9 +979,11 @@ In-progress images are sometimes disabled temporarily for performance reasons. D
 
 ---
 
-Q: Bot down?
+Q: Bot down? Status?
 
-Check  <#942231458918064148> 
+You can check our [**status page**](https://status.midjourney.com/) and read the  <#942231458918064148> channel for updates.
+
+If you’re experiencing an issue not covered on the status page or channel, please describe your issue here. Include the full error message, if one exists. 
 
 ---
 
