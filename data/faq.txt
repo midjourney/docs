@@ -668,31 +668,20 @@ Q: How do you use --s? How do you use stylize? What does stylize do? What is --s
 ---
 # -------------------- ----SEEDS----- --------------------
 
-Q: How do I get the seed or job id that was used for an image? How can I get an individual image without upscaling?
+Q: How do I get the seed or job id that was used for an image? How can I get an individual image without upscaling? No seed? Seed on upscale? Only grid seed? V5 seed? I can not get the seed? Can’t get the seed number? When I react with the envelope nothing happens, I don’t get the seed? How can I find the seed? How do I retrieve the seed number of an image? How do I get the seed of an image?
 
-React to your image with the envelope emoji :envelope: and it will send it to you in DM.
-
-%image=https://user-images.githubusercontent.com/105028755/167305579-1b2c461f-03d7-4aad-b14e-9ce0dd74fd9a.png
-
----
-
-Q: No seed? Seed on upscale? Only grid seed? Can’t get seed? V5 seed?
-
-In V5, upscales currently have no seeds. You can react to your initial grid with the envelope emoji :envelope: and it will send it to you in DM.
-
-%image=https://user-images.githubusercontent.com/105028755/167305579-1b2c461f-03d7-4aad-b14e-9ce0dd74fd9a.png
+React to your grid (4 images) job with the envelope emoji :envelope: and it will send it to you in DM. **The seed of upscaled individual images has no use**, it is used to generate noise (think randomness) for *all four images at once*. V5 individual images are simply separated from the grid, so you can not react to them with the envelope emoji.
 
 [Learn more about seeds](https://discord.com/channels/662267976984297473/1022698154170253363/1022698154170253363)
 
+If you react to your grid and do not receive a private message, right-click the server icon > Privacy Settings > make sure `“Allow direct messages from server members.”` is turned on and green.
+
+%image=https://user-images.githubusercontent.com/105028755/167305579-1b2c461f-03d7-4aad-b14e-9ce0dd74fd9a.png
+
+
 ---
 
-Q: Are the 4 initial images generated using the same seed?
-
-In a way, yes. The seed is used to generate noise (think randomness) for all four images at once, so the noise is different for each image.
-
----
-
-Q: How does --seed work? What does –seed do? Does submitting the job again use a different seed? What is a seed? What do seeds do? What is sameseed?
+Q: What does –seed do? Does submitting the job again use a different seed? What is a seed? What do seeds do? What is sameseed?
 
 *Seed* refers to the random noise added during the initialization of a generation. The same seed number can be used on different prompts using the `--seed` command. However, GPUs are non-deterministic, so images won't look exactly the same.
 
