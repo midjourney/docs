@@ -922,6 +922,22 @@ Currently, all subscription plans are linked to a single user.
 # -------------------- ERRORS --------------------
 # -------------------- -------------------- --------------------
 
+
+
+Q: Prefer suffix. How do I reset my settings? How do I reset my suffix? How do I clear my settings? There’s something in my prompt I didn’t add, how do I remove it? Stylize must be between error?
+
+Use `/prefer suffix` as a standalone command to reset your Midjourney /settings to the system defaults. Remember to use `/settings` again afterward to choose your preferred versions and parameters, such as “Midjourney Version 5” :)
+
+---
+
+Q: payment Error: zip code doesn’t match. Zip code error. Saying my zip code is wrong. My zip code is right. Saying my zip code is wrong but it’s not
+
+Try this first: Go to your [account page on the Midjourney website](https://www.midjourney.com/account) and click on the "Edit Billing" button. Add your card details as an *entirely new* payment method, and use the `…` [button](https://cdn.discordapp.com/attachments/958069758211797092/1055907774971773068/image.png) to set it as your new default payment method. This resolves this error for many users.
+
+If you continue to get this error and after trying the above and you’re certain that your billing information matches what’s on file with your bank, ask a Guide or Moderator (users with green or red names) to forward your case to billing for a manual fix.
+
+---
+
 Q: payment Error: user missing a default payment method in stripe? Default payment? Default payment method?
 
 To solve this bug, go to your [account page](https://www.midjourney.com/account) and click on the "Edit Billing" button.
