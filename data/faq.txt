@@ -507,7 +507,7 @@ Q: Is there documentation? Where can I find all the commands? Is there documenta
 [Midjourney Documentation](https://docs.midjourney.com/)
 
 
-—
+---
 
 Q: How do you reset custom suffix? How do you reset your parameters? Can I reset my settings? Why am I getting this message about an unrecognized argument? Invalid argument unrecognized argument? I can't remove the option –upbeta or –uplight in settings?
 
@@ -515,7 +515,7 @@ To reset your suffixes automatically added to your prompts, you can run the comm
 You can also use the command `/settings` and click on `reset settings`
 %image=https://cdn.discordapp.com/attachments/978364411662196776/1095156654242287617/image.png
 
-—
+---
 
 
 
@@ -686,7 +686,8 @@ Note: When using seeds, images may not look identical due to non-deterministic G
 [Learn more about seeds](https://discord.com/channels/662267976984297473/1022698154170253363/1022698154170253363)
 
 
-%image=​​https://cdn.discordapp.com/attachments/1061319354081357924/1095315931749683311/grid_envelope_1.png
+%image=​​https://cdn.discordapp.com/attachments/981975130840391711/1095466288077361192/grid_envelope_seed.png
+
 
 ---
 
