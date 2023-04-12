@@ -686,8 +686,6 @@ Note: When using seeds, images may not look identical due to non-deterministic G
 [Learn more about seeds](https://discord.com/channels/662267976984297473/1022698154170253363/1022698154170253363)
 
 
-%image=​​https://cdn.discordapp.com/attachments/981975130840391711/1095466288077361192/grid_envelope_seed.png
-
 
 ---
 
