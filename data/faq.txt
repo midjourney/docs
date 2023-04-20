@@ -297,7 +297,11 @@ To keep using the bot, you can choose from one of our Basic, Standard, or Pro pl
 
 ---
 
+Q: How do I cancel the Midjourney Magazine? Cancel the magazine subscription? Cancel magazine?
 
+You can cancel your Midjourney Magazine subscription by using [this link](https://billing.stripe.com/p/login/aEUdRA5Wc8t25a03cc), or by pressing the "Edit Magazine Subscription" button on the Manage Sub page of our website.
+
+---
 # -------------------- VAT --------------------
 
 Q: How do I add VAT to my invoice? Why was I charged for VAT? Can I add VAT?
@@ -323,11 +327,18 @@ When you run out of fast time, you will be prompted to either purchase additiona
 
 Q: How can I cancel? How can I cancel my plan? How do I unsubscribe? How can I cancel my subscription? How to cancel a subscription? Where do I cancel my subscription? How do I unsub? Where do I unsub? Where do I cancel? How can I cancle? How can I cancle my plan? How can I cancle my subscription? How to cancle a subscription? Where do I cancle my subscription? Where do I cancle?
 
-On the [Midjourney account page ](https://midjourney.com/account), next to `Plan Details` click `Manage` and then `Cancel Plan`. 
+On the [Midjourney account page ](https://midjourney.com/account), click `Cancel Plan`. 
 
-%image=https://cdn.discordapp.com/attachments/1023057817155944519/1063046121989095454/Screenshot_2023-01-12_at_5.43.52_AM.png
+%image=https://cdn.discordapp.com/attachments/981975130840391711/1097926056566071296/Mjsub_cancel.png
 
 You may cancel your subscription anytime, but the cancellation will be effective at the end of the current billing cycle. All the benefits and `/fast` time will remain until the end of this cycle. If you change your mind, you can un-cancel your plan before the end of the cycle.
+---
+
+Q: Can I switch from the yearly plan to the monthly? How can I change from the yearly plan to the monthly plan? How do I switch from yearly to monthly? I accidentally subscribed to yearly? 
+
+If you accidentally chose the yearly plan instead of the monthly plan, you can try to cancel the yearly plan with a refund and then subscribe to the monthly plan.  On the [Midjourney account page ](https://midjourney.com/account), click `Cancel Plan`. 
+
+%image=https://cdn.discordapp.com/attachments/981975130840391711/1097926056566071296/Mjsub_cancel.png
 
 
 ---
