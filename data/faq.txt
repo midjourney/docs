@@ -306,7 +306,7 @@ You can cancel your Midjourney Magazine subscription by using [this link](https:
 
 Q: How do I add VAT to my invoice? Why was I charged for VAT? Can I add VAT?
 
-Already issued invoices cannot be amended. To add VAT to future invoices, on the [Midjourney Account Page](https://www.midjourney.com/account/), select `Edit Billing`, then add your country and Tax ID.
+Already issued invoices cannot be amended. To add VAT to future invoices, on the [Midjourney Account Page](https://www.midjourney.com/account/), select `Billing and Invoice Details`, then add your country and Tax ID.
 
 
 %image=https://cdn.discordapp.com/attachments/981975130840391711/1075398993284190238/VAT_tax_ID.png
@@ -329,7 +329,7 @@ Q: How can I cancel? How can I cancel my plan? How do I unsubscribe? How can I c
 
 On the [Midjourney account page ](https://midjourney.com/account), click `Cancel Plan`. 
 
-%image=https://cdn.discordapp.com/attachments/981975130840391711/1097926056566071296/Mjsub_cancel.png
+%image=https://cdn.discordapp.com/attachments/981975130840391711/1099008773974134845/MJ-cancelling.jpg
 
 You may cancel your subscription anytime, but the cancellation will be effective at the end of the current billing cycle. All the benefits and `/fast` time will remain until the end of this cycle. If you change your mind, you can un-cancel your plan before the end of the cycle.
 ---
@@ -338,7 +338,7 @@ Q: Can I switch from the yearly plan to the monthly? How can I change from the y
 
 If you accidentally chose the yearly plan instead of the monthly plan, you can try to cancel the yearly plan with a refund and then subscribe to the monthly plan.  On the [Midjourney account page ](https://midjourney.com/account), click `Cancel Plan`. 
 
-%image=https://cdn.discordapp.com/attachments/981975130840391711/1097926056566071296/Mjsub_cancel.png
+%image=https://cdn.discordapp.com/attachments/981975130840391711/1099008773974134845/MJ-cancelling.jpg
 
 
 ---
