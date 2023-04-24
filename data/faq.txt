@@ -276,7 +276,7 @@ Sign in with Discord at the [Midjourney Account Page](https://www.midjourney.com
 
 Q: Can I pay with PayPal? Can I use PayPal? Do you have other payment methods? Paypal PayPal? Do I have to use a credit card? Are there other ways to pay? Is there another way to pay for a subscription other than with a credit card? Can I pay with ETH? Do you take crypto?
 
-Depending on region, Stripe supports credit/debit cards (Mastercard, VISA, American Express, Discover & Diners etc) and some digital wallets (Apple Pay, Google Pay).  [More info on card brands supported by Stripe](https://stripe.com/docs/payments/cards/supported-card-brands)
+Depending on region, Stripe supports credit/debit cards (Mastercard, VISA, American Express, Discover & Diners etc) and some digital wallets (Apple Pay, Google Pay, Cash App Pay).  [More info on card brands supported by Stripe](https://stripe.com/docs/payments/cards/supported-card-brands)
 
 
 Unfortunately, PayPal, wire transfer, and other methods are not currently supported. There is no estimate on when more payment options might be offered.
