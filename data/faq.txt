@@ -519,7 +519,7 @@ Custom aspect ratios set using `--ar` will change the width and height of the im
 [Read more about resolution and upscalers here](https://docs.midjourney.com/docs/upscalers)
 ---
 
-Q: Why does my upscale look different? Why is my upscale messed up? Upscale is different from the grid. Why does the V4 upscaler suck? Is the V4 upscaler broken? Why are my upscales coming out different?
+Q: Why does the V4 upscaler suck? Is the V4 upscaler broken? Why are my Version 4 upscales coming out different?
 
 The default upscaler for V4 takes the prompt into account, unlike previous upscalers. This means it sometimes makes changes to the grid image as part of the process–for better or for worse. If you don’t like the results, try the “Beta Upscale Redo” button. The beta upscaler tends to stick closer to the grid image than the Version 4 default upscaler :)
 
@@ -527,7 +527,9 @@ The default upscaler for V4 takes the prompt into account, unlike previous upsca
 
 Q: Why are my upscale buttons gone? No Light or Beta Upscale Redo? Where are the upscale buttons? Why can’t I redo my upscales?
 
-Version 5.1 is now Midjourney’s default model! This Version renders your initial grid with a higher resolution than Version 4 did (1024x1024 for a square image, compared to 512x512 for Version 4)
+Version 5.1 is now Midjourney’s default model! This Version renders your initial grid with a higher resolution than Version 4 did (1024x1024 for a square image, compared to 512x512 for Version 4), and has no compatible upscalers. Unlike in previous versions, clicking the U buttons on Version 5 and 5.1 images only separates the image you like from the grid, and you won’t see any of the upscale redo buttons under “upscaled” images that you may have seen in the past.
+
+If you’d like to return to a model that allows upscaling, use `/settings` and choose “MJ Version 4” or an older model of Midjourney.
 
 ---
 # -------------------- -------------------- --------------------
