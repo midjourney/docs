@@ -305,7 +305,7 @@ Q: How do I cancel the Midjourney Magazine? Cancel the magazine subscription? Ca
 
 You can cancel your Midjourney Magazine subscription by using [this link](https://billing.stripe.com/p/login/aEUdRA5Wc8t25a03cc), or by pressing the "Edit Magazine Subscription" button on the Manage Sub page of our website.
 
-—
+---
 
 Q: My card is declined. Card declined. The website declined my payment, but I have funds on my card. Why is my card declined? My card declined but money was still taken! Money was taken out of my account, but I don’t have a subscription!
 
@@ -315,9 +315,15 @@ Double-check that your billing information–your name, address, zip/postal code
 
 If you continue having trouble with your payment method, email `billing@midjourney.com` with your most recent invoice number and a description of the problem. They can investigate your account and may be able to provide further information.
 
+---
 
+Q: Billing issue? Account paused? Unpause account? Billing question? Need billing help? Remove payment info? Remove credit card? 
+
+For help with billing issues please email `billing@midjourney.com` with an explanation of your issue and the invoice number from your most recent invoice (these are emailed to you). Please allow up to 7 business days for a response.
 
 ---
+
+
 # -------------------- VAT --------------------
 
 Q: How do I add VAT to my invoice? Why was I charged for VAT? Can I add VAT?
@@ -519,7 +525,7 @@ Custom aspect ratios set using `--ar` will change the width and height of the im
 [Read more about resolution and upscalers here](https://docs.midjourney.com/docs/upscalers)
 ---
 
-Q: Why does the V4 upscaler suck? Is the V4 upscaler broken? Why are my Version 4 upscales coming out different?
+Q: Is the V4 upscaler broken? Why are my Version 4 upscales coming out different?
 
 The default upscaler for V4 takes the prompt into account, unlike previous upscalers. This means it sometimes makes changes to the grid image as part of the process–for better or for worse. If you don’t like the results, try the “Beta Upscale Redo” button. The beta upscaler tends to stick closer to the grid image than the Version 4 default upscaler :)
 
