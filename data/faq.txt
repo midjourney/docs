@@ -107,7 +107,11 @@ The `remix` feature lets you edit your prompt. Toggle it on with `/prefer remix`
 [What is Remix?](https://discord.com/channels/662267976984297473/1029507753389084692/1029507753389084692)
 ---
 
+Q: What does Remaster do? What is Remaster?
 
+Remaster [Remixes](https://discord.com/channels/662267976984297473/1029507753389084692/1029507753389084692) your prompt, replacing the version of Midjourney you initially used with the currently default Version 5.1
+
+---
 
 
 # -------------------- -------------------- --------------------
@@ -300,6 +304,18 @@ To keep using the bot, you can choose from one of our Basic, Standard, or Pro pl
 Q: How do I cancel the Midjourney Magazine? Cancel the magazine subscription? Cancel magazine?
 
 You can cancel your Midjourney Magazine subscription by using [this link](https://billing.stripe.com/p/login/aEUdRA5Wc8t25a03cc), or by pressing the "Edit Magazine Subscription" button on the Manage Sub page of our website.
+
+—
+
+Q: My card is declined. Card declined. The website declined my payment, but I have funds on my card. Why is my card declined? My card declined but money was still taken! Money was taken out of my account, but I don’t have a subscription!
+
+If your payment was declined, you may be seeing a pending authorization (a bank hold) on your account. Your bank will automatically remove that hold within a few days.
+
+Double-check that your billing information–your name, address, zip/postal code, CVC, etc.--matches exactly with what your bank has on file for your card. Mis-matches in the information, even small mis-matches in formatting, may cause our payment processor to decline your transaction. If you’re certain that your billing information is accurate, contact your bank and make sure they’re not blocking the transaction as a next step.
+
+If you continue having trouble with your payment method, email `billing@midjourney.com` with your most recent invoice number and a description of the problem. They can investigate your account and may be able to provide further information.
+
+
 
 ---
 # -------------------- VAT --------------------
@@ -509,8 +525,11 @@ The default upscaler for V4 takes the prompt into account, unlike previous upsca
 
 ---
 
+Q: Why are my upscale buttons gone? No Light or Beta Upscale Redo? Where are the upscale buttons? Why can’t I redo my upscales?
 
+Version 5.1 is now Midjourney’s default model! This Version renders your initial grid with a higher resolution than Version 4 did (1024x1024 for a square image, compared to 512x512 for Version 4)
 
+---
 # -------------------- -------------------- --------------------
 # -------------------- PARAMETERS --------------------
 # -------------------- -------------------- --------------------
@@ -1121,9 +1140,8 @@ If you notice the message "Only you can see this" at the bottom of your complete
 # -------------------- -------------------- --------------------
 
 
-Q: What is –test? What is –testp? What is test? What is testp? What is –creative? What is remaster?
-
-[Read about test, testp, creative and remaster](https://discord.com/channels/662267976984297473/1021457377964339233/1021457377964339233)
+Q: What is –test? What is –testp? What is test? What is testp? What is –creative?
+[Read about test, testp, and creative](https://discord.com/channels/662267976984297473/1021457377964339233/1021457377964339233)
 
 ---
 
