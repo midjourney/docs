@@ -107,9 +107,13 @@ The `remix` feature lets you edit your prompt. Toggle it on with `/prefer remix`
 [What is Remix?](https://discord.com/channels/662267976984297473/1029507753389084692/1029507753389084692)
 ---
 
-Q: What does Remaster do? What is Remaster?
+Q: What does Remaster do? What is Remaster? What is Remaster Mode? What does Remaster Mode do? Remaster Mode?
 
-Remaster [Remixes](https://discord.com/channels/662267976984297473/1029507753389084692/1029507753389084692) your prompt, replacing the version of Midjourney you initially used with the currently default Version 5.1
+🔹 Remaster automatically reworks images made in other versions into version 5.1.
+🔹 Turn on `Remaster Mode` in your /settings to convert your U buttons (Upscale) into Remaster buttons.
+🔹 Turn off `Remaster Mode` in your /settings to revert to the normal upscale function.
+
+%image=https://cdn.discordapp.com/attachments/1020401821107355740/1106689375942742158/remaster-mode.png
 
 ---
 
