@@ -107,13 +107,10 @@ The `remix` feature lets you edit your prompt. Toggle it on with `/prefer remix`
 [What is Remix?](https://discord.com/channels/662267976984297473/1029507753389084692/1029507753389084692)
 ---
 
-Q: What does Remaster do? What is Remaster? What is Remaster Mode? What does Remaster Mode do? Remaster Mode?
+Q: What does Remaster do? What is Remaster? What is the Remaster Button?
 
-🔹 Remaster automatically reworks images made in other versions into version 5.1.
-🔹 Turn on `Remaster Mode` in your /settings to convert your U buttons (Upscale) into Remaster buttons.
-🔹 Turn off `Remaster Mode` in your /settings to revert to the normal upscale function.
+Remaster automatically reworks images made in other versions into version 5.1. The Remaster button will appear after upscaling an image. In V4 it appears after running an Upscale Redo option.
 
-%image=https://cdn.discordapp.com/attachments/1020401821107355740/1106689375942742158/remaster-mode.png
 
 ---
 
@@ -321,9 +318,15 @@ If you continue having trouble with your payment method, email `billing@midjourn
 
 ---
 
-Q: Billing issue? Account paused? Unpause account? Billing question? Need billing help? Remove payment info? Remove credit card? 
+Q: Billing Issue? Billing Question? Need Billing Help? Remove Payment Info? Remove Credit Card? 
 
 For help with billing issues please email `billing@midjourney.com` with an explanation of your issue and the invoice number from your most recent invoice (these are emailed to you). Please allow up to 7 business days for a response.
+
+---
+
+Q: Subscription Already Active? Paused? Account Paused? Subscription Paused? Unpause Account? 
+
+If your subscription says "Paused" when you run the `/info` command this means a payment attempt has failed and your subscription has been paused. **To fix this please make sure you have sufficient funds to cover the subscription fee and ensure that your bank is not blocking the transaction.** After addressing these issues your subscription should automatically renew within 1-2 days. If it does not, please contact [#member-support.](https://discord.com/channels/662267976984297473/958069758211797092)
 
 ---
 
@@ -1141,7 +1144,7 @@ See [the documentation](https://docs.midjourney.com/docs/stop), for more informa
 
 Q: Ephemeral? What are ephemeral jobs? Why do my jobs disappear from Discord? My images are disappearing.
 
-If you notice the message "Only you can see this" at the bottom of your completed image, it means that the image was created ephemerally. This happens when certain words or phrases are used in prompts. Ephemeral images disappear from discord when you restart or refresh. Don't worry though, you can restore them with the /show command!
+If you notice the message "Only you can see this" at the bottom of your completed image, it means that the image was created ephemerally. This happens when certain words or phrases are used in prompts (it does not happen in Direct Messages with the bot). Ephemeral images disappear from discord when you restart or refresh. Don't worry though, you can restore them with the Job ID using the [/show command!](https://docs.midjourney.com/docs/show-job)
 
 ---
 
