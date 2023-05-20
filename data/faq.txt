@@ -43,7 +43,7 @@ Q: What do the U1, V1, etc. buttons do? U, V buttons? How do I upscale? How do I
 
 **V** VARIATION: Creates 4 variations of the selected image while keeping the style and composition.
 
-Both actions use GPU-minutes. 
+Both actions use GPU-minutes (except for V5 Upscales). 
 
 ---
 
@@ -328,6 +328,8 @@ Q: Subscription Already Active? Paused? Account Paused? Subscription Paused? Unp
 
 If your subscription says "Paused" when you run the `/info` command this means a payment attempt has failed and your subscription has been paused. **To fix this please make sure you have sufficient funds to cover the subscription fee and ensure that your bank is not blocking the transaction.** After addressing these issues your subscription should automatically renew within 1-2 days. If it does not, please contact [#member-support.](https://discord.com/channels/662267976984297473/958069758211797092)
 
+If you need to change/update your payment method and you **do not have a magazine subscription tied to the same email as your Midjourney subscription,** please try [this link](https://billing.stripe.com/p/login/aEUdRA5Wc8t25a03cc) to update your information.
+
 ---
 
 
@@ -564,6 +566,11 @@ You can also use the command `/settings` and click on `reset settings`
 
 ---
 
+Q: Quality Buttons Disappeared from Settings? Quality Buttons? Quality Buttons Gone? Quality Buttons Disappear? How to set Quality? Quality in Settings? 
+
+The Quality buttons have been removed from the `/settings` panel because on V4 and V5 models the default quality setting is already the maximum value (q 1). If you wish to lower the quality setting or use higher values on older versions, you can use the [Quality Parameter](https://docs.midjourney.com/docs/quality) on your prompt or set a [custom suffix](https://docs.midjourney.com/docs/settings-and-presets#prefer-suffix) to automatically add a custom quality parameter.
+
+---
 
 
 # -------------------- IMAGE PROMPTS  --------------------
