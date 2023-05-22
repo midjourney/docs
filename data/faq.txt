@@ -256,10 +256,11 @@ We require that you verify the email address attached to your Discord account in
 # -------------------- SUBSCRIPTION --------------------
 # -------------------- -------------------- --------------------
 
-Q: Do subscriptions renew on the first of the month? When does my subscription renew?
+Q: Do subscriptions renew on the first of the month? When does my subscription renew? When do I get more fast time?
 
 Your subscription renews every month on the same day and time it started. Use `/info` and hover or long-press the date to see the exact time of renewal.
-Daylight savings may shift this time by an hour.
+If you have an annual plan, your fast time refreshes on the same day of the month and at the same time of day that you subscribed (so if you subscribed on January 1st at noon, your fast time will refresh every month on the 1st at noon) 
+Daylight Saving Time may shift your renewal time by an hour.
 
 
 ---
@@ -382,6 +383,13 @@ You can continue to access your online image gallery even if you're not currentl
 
 ---
 
+Q: How long will it take to get my refund? When will I get my refund? How long before I get my refund? How do I know my refund is processing? Can I confirm my refund?
+
+Your bank may take up to 10 business days to process your refund on their end, though in most cases it takes significantly less time. As long as you’ve received an email from Midjourney confirming your refund, your money is on its way back to you :)
+
+---
+
+
 
 
 # -------------------- SWITCH PLANS --------------------
@@ -395,6 +403,14 @@ If you used half of the Basic time -> Standard will cost 25$
 If you used no Basic time -> Standard will cost $20
 
 Or, if you'd prefer, you can schedule the change to happen automatically at the end of your current billing period. Downgrades only occur at the end of the billing period.
+
+---
+
+Q: How do I upgrade? Where do I upgrade? What do I have to do to upgrade?
+
+You can change your current subscription tier or commitment from your [Manage Sub page on the Midjourney website](https://www.midjourney.com/account/)! Scroll down past your current subscription information, and you’ll see the currently available plans along with a list of their features. Click the “Upgrade Plan”, “Downgrade Plan” or “Change Commitment” button that corresponds to the new plan you’d like to subscribe to, and follow the website prompts.
+
+%image=https://media.discordapp.net/attachments/1023057817155944519/1110149926903631893/Screenshot_2023-05-22_at_6.18.37_AM.png
 
 ---
 
@@ -1088,6 +1104,15 @@ If you want to bring that image back into Discord to continue working with it, y
 
 ---
 
+Q: What is the captcha? How do I solve the captcha? What do I do with this “action required to continue” image? Why does the bot think I’m a bot? Why is the bot telling me I’m a bot? How do I prove I’m not a bot?
+
+Solve the challenge by clicking the word button that corresponds to the image you’re shown.
+
+%image=https://media.discordapp.net/attachments/978364411662196776/1110094036414504980/image.png?width=546&height=720
+
+
+---
+
 # -------------------- -------------------- --------------------
 # -------------------- WHERE ARE MY IMAGES?! --------------------
 # -------------------- -------------------- --------------------
@@ -1151,7 +1176,11 @@ See [the documentation](https://docs.midjourney.com/docs/stop), for more informa
 
 Q: Ephemeral? What are ephemeral jobs? Why do my jobs disappear from Discord? My images are disappearing.
 
-If you notice the message "Only you can see this" at the bottom of your completed image, it means that the image was created ephemerally. This happens when certain words or phrases are used in prompts (it does not happen in Direct Messages with the bot). Ephemeral images disappear from discord when you restart or refresh. Don't worry though, you can restore them with the Job ID using the [/show command!](https://docs.midjourney.com/docs/show-job)
+Certain words and phrases in prompts cause jobs to become ephemeral–only you can see them, and they disappear when you close, refresh, or switch instances of Discord. You can identify an ephemeral job by looking for the small “Only you can see this message” text at the very bottom of the bot message.
+
+To revive these jobs in Discord, you can copy their job ID from your gallery on the website and use it with the [/show command!](https://docs.midjourney.com/docs/show-job)
+
+Jobs become ephemeral if you generate them within any Discord server. To avoid this, you can generate your images in [Direct Messages with the bot](https://docs.midjourney.com/docs/direct-messages).
 
 ---
 
