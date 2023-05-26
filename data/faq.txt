@@ -269,7 +269,7 @@ Q: How do I subscribe? How to subscribe? How do I become a member? /subscribe? H
 
 Type `/subscribe` for a personal link to your account page.
 
-Or `Sign in with Discord` at [https://www.midjourney.com/account/](https://www.midjourney.com/account/)
+Or `Sign in with Discord` at [midjourney.com/account](https://www.midjourney.com/account/)
 
 ---
 
@@ -434,6 +434,17 @@ Trial, `Basic`, and `Standard` subscribers can have **3 jobs** running at once. 
 
 ---
 
+Q: Queue reset? Can I have a queue reset? Reset my queue? Reset jobs?
+
+To cancel running jobs, you can:
+🔹React to the job with the :x: emoji.
+🔹Or, right-click on the job, go to "Apps", and select "Cancel Job".
+
+Can't find the job? Use `/info` to get a link to its location. Remember, you can only cancel jobs that are currently running, not those queued.
+
+If you are experiencing long wait times with jobs starting, please refer to [status.midjourney.com](https://status.midjourney.com/) for estimated queue times or [#status](https://discord.com/channels/662267976984297473/942231458918064148) for current bot updates. In many cases, it's more efficient to wait for your job to start than to cancel and restart it.
+
+---
 
 
 
