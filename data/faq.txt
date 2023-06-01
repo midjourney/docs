@@ -313,7 +313,10 @@ Q: My card is declined. Card declined. The website declined my payment, but I ha
 
 If your payment was declined, you may be seeing a pending authorization (a bank hold) on your account. Your bank will automatically remove that hold within a few days.
 
-Double-check that your billing information–your name, address, zip/postal code, CVC, etc.--matches exactly with what your bank has on file for your card. Mis-matches in the information, even small mis-matches in formatting, may cause our payment processor to decline your transaction. If you’re certain that your billing information is accurate, contact your bank and make sure they’re not blocking the transaction as a next step.
+🔹 Check that your card information is correct `(Name, Card Number, CVC, Exp Date)`
+🔹 Double-check that your billing information matches **exactly** what your bank has on file. `(Name, Address, Zip/Postal Code)`
+🔹 Contact your bank and make sure they’re not blocking the transaction
+🔹 Make sure you have sufficient funds to cover the subscription fee
 
 If you continue having trouble with your payment method, email `billing@midjourney.com` with your most recent invoice number and a description of the problem. They can investigate your account and may be able to provide further information.
 
@@ -325,11 +328,22 @@ For help with billing issues please email `billing@midjourney.com` with an expla
 
 ---
 
-Q: Subscription Already Active? Paused? Account Paused? Subscription Paused? Unpause Account? 
+Q: Subscription Already Active? Paused? Account Paused? Subscription Paused? Unpause Account? Error: subscription already active for user?
 
-If your subscription says "Paused" when you run the `/info` command this means a payment attempt has failed and your subscription has been paused. **To fix this please make sure you have sufficient funds to cover the subscription fee and ensure that your bank is not blocking the transaction.** After addressing these issues your subscription should automatically renew within 1-2 days. If it does not, please contact [#member-support.](https://discord.com/channels/662267976984297473/958069758211797092)
+If you see the error **"subscription already active"** or a message that your account is Paused this means a payment attempt has failed. You can confirm the Paused status by running the `/info` command. 
 
-If you need to change/update your payment method and you **do not have a magazine subscription tied to the same email as your Midjourney subscription,** please try [this link](https://billing.stripe.com/p/login/aEUdRA5Wc8t25a03cc) to update your information.
+To fix this:
+🔹 Make sure you have sufficient funds to cover the subscription fee.
+🔹 Call your bank to see if they are blocking the transaction.
+🔹 Make sure your billing address details match what your bank has on record.
+
+After addressing these issues your subscription should automatically reattempt renewal within 1-2 days.
+
+If you need to change/update your payment method...
+🔹 Check your email (including spam folder) for the failed payment notification and use the link in the email to make changes.
+🔹 If you cannot find this email and you **do not have a magazine subscription tied to the same email as your Midjourney subscription,** please try to update your information here: [Update Billing Information](https://billing.stripe.com/p/login/aEUdRA5Wc8t25a03cc).
+
+If you still need assistance please email `billing@midjourney.com` with details of your issue and the invoice number of your most recent invoice.
 
 ---
 
@@ -880,7 +894,7 @@ Subscribers can use commands in Direct Messages with the Bot. Right click here: 
 
 If you get an error saying that you can’t DM the bot, right-click the server icon > Privacy Settings > make sure `“Allow direct messages from server members.”` is turned on and green. Try disabling and re-enabling it if you’re still having issues.
 
-Remember that images generated in your DMs are still visible to everyone on the [Midjourney gallery](https://www.midjourney.com/app/feed/all/)
+Remember that images generated in your DMs are still visible to everyone on the [Midjourney gallery](https://www.midjourney.com/app/feed/all/) unless you have a Pro Membership with Stealth Mode enabled.
 
 %image=https://cdn.discordapp.com/attachments/958191534208061450/1010303537332371526/MJ_PrivacySettings.png
 
@@ -1185,13 +1199,17 @@ See [the documentation](https://docs.midjourney.com/docs/stop), for more informa
 
 ---
 
-Q: Ephemeral? What are ephemeral jobs? Why do my jobs disappear from Discord? My images are disappearing.
+Q: Ephemeral? What are ephemeral jobs? Why do my jobs disappear from Discord? My images are disappearing?
 
-Certain words and phrases in prompts cause jobs to become ephemeral–only you can see them, and they disappear when you close, refresh, or switch instances of Discord. You can identify an ephemeral job by looking for the small “Only you can see this message” text at the very bottom of the bot message.
+Some jobs may appear *ephemeral* when certain words or phrases are mentioned. These temporary messages are only visible to **you** and disappear when you close, refresh, or switch instances of Discord. You'll know it's an ephemeral job when you see the text "Only you can see this message" at the bottom of the bot's message.
 
-To revive these jobs in Discord, you can copy their job ID from your gallery on the website and use it with the [/show command!](https://docs.midjourney.com/docs/show-job)
+Don't worry, even if these jobs disappear from Discord, you can still find them in your [gallery](https://www.midjourney.com/app/).
 
-Jobs become ephemeral if you generate them within any Discord server. To avoid this, you can generate your images in [Direct Messages with the bot](https://docs.midjourney.com/docs/direct-messages).
+If you want to bring a job back into Discord:
+🔹Go to your gallery and copy the job ID.
+🔹In Discord, use the [/show command](https://docs.midjourney.com/docs/show-job) followed by the job ID.
+
+To avoid ephemeral jobs, it's best to generate images through [Direct Messages](https://docs.midjourney.com/docs/direct-messages) with the bot. This ensures visibility even if you switch instances or refresh Discord.
 
 ---
 
