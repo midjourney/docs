@@ -330,20 +330,16 @@ For help with billing issues please email `billing@midjourney.com` with an expla
 
 Q: Subscription Already Active? Paused? Account Paused? Subscription Paused? Unpause Account? Error: subscription already active for user?
 
-If you see the error **"subscription already active"** or a message that your account is Paused this means a payment attempt has failed. You can confirm the Paused status by running the `/info` command. 
+If you see the website error **"subscription already active"** or a bot message that **your account is Paused** this means your subscription failed to renew due to a payment problem.
+You can confirm this status by running the `/info` command. 
 
-To fix this:
-🔹 Make sure you have sufficient funds to cover the subscription fee.
-🔹 Call your bank to see if they are blocking the transaction.
-🔹 Make sure your billing address details match what your bank has on record.
+**To fix this you must change/edit your billing information in your Stripe account**
+:arrow_right: Check your email for an "Unsuccessful Payment" email, which has a link to your Stripe account. Make sure you are checking the same email account where you receive your Midjourney invoices, and also check your spam folder.
+%image=https://cdn.discordapp.com/attachments/1020401821107355740/1117206297708863668/unsuccessful.png
 
-After addressing these issues your subscription should automatically reattempt renewal within 1-2 days.
+:arrow_right: If you cannot find this email and you **do not have a magazine subscription tied to the same email as your Midjourney subscription,** please try to access your Stripe account here: [Update Billing Information](https://billing.stripe.com/p/login/aEUdRA5Wc8t25a03cc).
 
-If you need to change/update your payment method...
-🔹 Check your email (including spam folder) for the failed payment notification and use the link in the email to make changes.
-🔹 If you cannot find this email and you **do not have a magazine subscription tied to the same email as your Midjourney subscription,** please try to update your information here: [Update Billing Information](https://billing.stripe.com/p/login/aEUdRA5Wc8t25a03cc).
-
-If you still need assistance please email `billing@midjourney.com` with details of your issue and the invoice number of your most recent invoice.
+**If you wish to cancel your plan please look for a "Cancel Plan" button in your Stripe account or contact a Midjourney Mod/Guide for help**
 
 ---
 
@@ -565,7 +561,7 @@ Q: What is the maximum upscale resolution? What is the maximum resolution?  How 
 
 **For square images, the upscalers will produce the following:**
 `Regular` v4 upscaler: 1024x1024 px
-`V5 Alpha`¹: 1024x1024 px
+`V5, 5.1`¹: 1024x1024 px
 `Beta Upscale`: 2048 x 2048 px 
 
 Custom aspect ratios set using `--ar` will change the width and height of the image, but not the max file size.
