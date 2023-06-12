@@ -335,7 +335,7 @@ You can confirm this status by running the `/info` command.
 
 **To fix this you must change/edit your billing information in your Stripe account**
 :arrow_right: Check your email for an "Unsuccessful Payment" email, which has a link to your Stripe account. Make sure you are checking the same email account where you receive your Midjourney invoices, and also check your spam folder.
-%image=https://cdn.discordapp.com/attachments/1020401821107355740/1117206297708863668/unsuccessful.png
+%image=https://cdn.discordapp.com/attachments/1020401821107355740/1117852450876035182/unsuccessful.png
 
 :arrow_right: If you cannot find this email and you **do not have a magazine subscription tied to the same email as your Midjourney subscription,** please try to access your Stripe account here: [Update Billing Information](https://billing.stripe.com/p/login/aEUdRA5Wc8t25a03cc).
 
