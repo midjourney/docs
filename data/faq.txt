@@ -195,7 +195,7 @@ Monthly hours do not rollover. So use your fast minutes each month or lose them.
 
 # -------------------- ------PERSONAL USE------ --------------------
 
-Q: Can I invite Midjourney to my server? Can I add this bot to another server? How to add Midjourney to a different server? Can I add the bot to my Discord server? Can I use the bot in my server? Q: Can I get my own private channel? How do I get a private channel? Does a subscriber have its own private channel not viewed by the public? Will I have a private channel if I subscribe? Can I generate images in a private channel?
+Q: Can I invite Midjourney to my server? Can I add this bot to another server? How to add Midjourney to a different server? Can I add the bot to my Discord server? Can I use the bot in my server? Can I get my own private channel? How do I get a private channel? Does a subscriber have its own private channel not viewed by the public? Will I have a private channel if I subscribe? Can I generate images in a private channel?
 
 Add the Bot to another server using [this guide](https://docs.midjourney.com/docs/invite-the-bot). 
 
@@ -1319,16 +1319,19 @@ Q: How do I specify a color in my prompt? Can I control color? Can I use CYMK? C
 # -------------------- -------------------- --------------------
 
 Q: How do I get help from the MJ team?
+
 For account and billing issues, email billing@midjourney.com. For other issues, post your question in <#958069758211797092> and a moderator will help when available.
 
 ---
 
 Q: How do I get MJ to generate a speech bubble with text?
+
 It is difficult for MJ to generate legible text. It is best to add speech bubbles and text in a photo editor after generating your image. You can experiment by including “speech bubble” and the text you want in your prompt, but results may be mixed.
 
 ---
 
 Q: Why does MJ ignore or misinterpret parts of my prompt?
+
 There are a few possible reasons MJ may ignore or misinterpret your prompt: 
  1. Your prompt is too long. Midjourney considers about the first 50-60 words of a prompt. Anything after that will be mostly ignored. Keep your prompts concise.
  2. You have conflicting prompts. For example, prompting for "no characters" but then describing a scene with people. Resolve any contradictions in your prompt.
@@ -1341,32 +1344,38 @@ There are a few possible reasons MJ may ignore or misinterpret your prompt:
 ---
 
 Q: How can I feed MJ multiple images as inspiration?
+
 You can add multiple image URLs or references at the start of your prompt, separated by spaces. For example: 
  prompt: <img1> <img2> <img3> describe what you want...
 
 ---
 
 Q: How do I change my default MJ version to v5?
+
 Go to /settings and click on 'Version 5'
 
 ---
 
 Q: How do I get MJ to create a transparent background?
+
 MJ does not currently support transparent backgrounds. You will need to use an external tool to remove the background from an MJ-generated image. Some options include Remove.bg, GIMP, and Photoshop.
 
 ---
 
 Q: How do I get MJ to generate a background or fill in negative space?
+
 Add prompts referencing the background like "detailed background" or describe the setting around your subject. MJ will then try to fill in more space.
 
 ---
 
 Q: How do I get MJ to zoom out in the image? My subject keeps getting cropped.
+
 Try including phrases like "wide angle shot", "wide shot", or " establishing shot" near the beginning of your prompt. This indicates you want to see more of the surrounding scene.
 
 ---
 
 Q: How do I get MJ to generate isolated objects without a background?
+
 MJ cannot generate transparent backgrounds. You will need to use an image editing tool like Photoshop to remove the background from images MJ generates. Some workarounds include: 
  - Prompting for the object "on a white background" or "on a cutout white background" and then deleting the white background
  - Using the "--tile" parameter to get objects tiled across the whole image, making them easier to isolate
@@ -1375,6 +1384,7 @@ MJ cannot generate transparent backgrounds. You will need to use an image editin
 ---
 
 Q: How do I refine an image MJ generates using the same prompt?
+
 There are a few ways to refine an MJ image: 
  - Click the "Re-roll" button in the bottom right to get new variations using the same prompt.
  - Turn on "Remix" in your Settings, then when you re-roll you'll get a window to edit the prompt before regenerating. Make small changes to tweak the image.
@@ -1384,41 +1394,49 @@ There are a few ways to refine an MJ image:
 ---
 
 Q: How do I get MJ to mimic an artist's style?
+
 You can prompt MJ to mimic an artist's style by including phrases like "in the style of [artist name]" or "art by [artist name]" in your prompt. For example, "in the style of Bob Ross" or "landscape painting by Bob Ross". However, MJ may struggle with some styles, especially for subjects the artist is not known for.
 
 ---
 
 Q: How do I get MJ to generate an image with a specific aspect ratio?
+
 Use the --ar command followed by the aspect ratio width:height. For example, --ar 16:9.
 
 ---
 
 Q: Why does MJ keep changing or removing parts of my image when I upload it as a prompt?
+
 MJ does not literally copy images you provide. It uses them as inspiration and reference to create new images. MJ may reinterpret parts of the image or change details. There is no way to force MJ to keep an uploaded image exactly the same.
 
 ---
 
 Q: How do I get MJ to generate real words and text?
+
 MJ struggles with generating coherent text and words. It can only produce short, simple words or phrases, and the results are not very accurate. It is best to avoid relying on MJ for text generation.
 
 ---
 
 Q: Why does MJ generate the most common or generic things when I leave the prompt vague?
+
 MJ generates images based on what it has learned from its training data. If a prompt is too vague, MJ does not have enough information to generate a very specific result. It will default to more common elements it has seen frequently in its training data. Provide more details in your prompt to get less generic results.
 
 ---
 
 Q: Why can't I get MJ to replicate an illustration style from a reference image?
+
 MJ does not copy images exactly. It uses references as inspiration for new artworks. You need to describe the style using your words in addition to providing an image reference.
 
 ---
 
 Q: Why does MJ keep ignoring elements in my prompt?
+
 MJ has limits to how much information it can retain for each generation. Be concise in your prompts and focus on the most important elements. You may need to re-iterate key elements over multiple prompts.
 
 ---
 
 Q: How do I get MJ to generate an image with two separate subjects (e.g. a cat and a dragon)?
+
 It can be difficult for MJ to generate two distinct subjects in one image. Some tips: 
  - Use image references of the subjects to help MJ understand what they are
  - Increase the image weight (e.g. --iw 2) to bias MJ towards the references
@@ -1428,26 +1446,31 @@ It can be difficult for MJ to generate two distinct subjects in one image. Some 
 ---
 
 Q: How do I use an image as a reference or input for MJ?
+
 Paste the image URL at the start of your prompt. Describe the image briefly, then specify the changes you want. MJ will use the image as inspiration but will not directly copy it.
 
 ---
 
 Q: How can I replicate an image in MJ and change the angle of the shot?
+
 Use remix mode to make small adjustments to the prompt. Describe the angle you want, e.g. “close-up shot”. You may need to run the prompt several times, making incremental changes, to achieve the result you want while keeping other elements the same.
 
 ---
 
 Q: Why does MJ keep changing details in my image?
+
 MJ is designed to create new variations and will not replicate an image exactly. It uses your inputs, whether text or images, as inspiration to generate a new creative work. MJ cannot copy or edit images.
 
 ---
 
 Q: Why do I keep getting banned by MJ?
+
 MJ has an AI moderator that reviews prompts to check for policy violations. It can trigger false positives, in which case you should appeal and the prompt will likely be approved. Avoid prompts that contain illegal, unethical, racist, toxic, dangerous or overly explicit content.
 
 ---
 
 Q: How do I get MJ to recognize a specific character like Kakashi from Naruto?
+
 This can be challenging as MJ has trouble with very specific named characters, especially in cartoon/anime styles. Some tips: 
  •Provide multiple reference images of the character.
  •Describe the character's key attributes like hair color/style, clothing, weapons.
@@ -1457,16 +1480,19 @@ This can be challenging as MJ has trouble with very specific named characters, e
 ---
 
 Q: I can't get MJ to include text in my image. Why is this?
+
 MJ struggles to generate coherent text. Any text it produces will likely be gibberish. You will need to add text using an image editing tool like Photoshop.
 
 ---
 
 Q: Why does MJ struggle with some subjects like hands, facial expressions, and multiple subjects in an image?
+
 MJ was trained on a large dataset of images which lacked sufficient examples of some subjects, like hands in complex poses or natural-looking smiles. When there are multiple subjects, MJ also has a hard time balancing them and keeping their features distinct. These limitations will improve over time. In the meantime, using references and carefully crafting your prompt can help.
 
 ---
 
 Q: How do I get MJ to generate a catfish?
+
 Getting MJ to generate a catfish specifically without blending cat and fish features can be challenging. Some tips: 
  1. Be very specific in describing a catfish, e.g. "a brown catfish with barbels around its mouth". The more details the better.
  2. Use an image reference of a catfish along with your prompt description. This gives MJ a concrete example to work from.
@@ -1477,227 +1503,272 @@ Getting MJ to generate a catfish specifically without blending cat and fish feat
 ---
 
 Q: How do I get MJ to crop off parts of my character or zoom in?
+
 Word your prompt to specify the framing and composition you want, e.g. "close up of", "cropped view of", "zoomed in on". You can also try an aspect ratio that is taller than wide, like 9:16.
 
 ---
 
 Q: How can I get a specific color for my generation? MJ keeps giving me blue when I want green.
+
 Be very specific in your prompt about the color you want, e.g. "bright green", "forest green", "emerald green". You may need to specify the color multiple times in your prompt to give it more weight. Using an image reference in the right color can also help guide MJ.
 
 ---
 
 Q: How can I get MJ to understand a complex concept like a seahorse?
+
 MJ struggles with complex creatures and shapes. Using the biological name, like "Hippocampus hippocampus", may help. You can also try blending a seahorse image with your prompt to provide more context. Be patient, as these types of complex generations often require a lot of rerolling and experimenting.
 
 ---
 
 Q: Why do some of my images have watermarks? How can I remove them?
+
 Watermarks sometimes appear unintentionally. You can try adding "--no watermark" to your prompt. If that doesn't work, it's likely something in your prompt causing it. Ask in #prompt-help for advice.
 
 ---
 
 Q: How do I avoid certain elements like jewelry or accessories in my image?
+
 Use the --no parameter followed by a list of unwanted elements, e.g. --no jewelry, earrings, necklace.
 
 ---
 
 Q: How do I remove extra details from an image, like straps or buttons?
+
 You can use negative prompts like --no straps or --no buttons at the end of your prompt to try and remove unwanted details. You may need to reroll a few times to get the result you want.
 
 ---
 
 Q: How do I get rid of unwanted elements like cars in an image?
+
 Use the --no command followed by the unwanted element, like --no cars. Make sure there are spaces before and after the --no command.
 
 ---
 
 Q: How do I remove unwanted objects or characters from my images?
+
 Use "--no" followed by the words you want to remove, e.g. "--no people"
 
 ---
 
 Q: How do I avoid getting certain elements like triangles in my image?
+
 Use negative prompts with --no, such as "--no triangles"
 
 ---
 
 Q: How do I get an image without the black borders or frames?
+
 Use --no frame, --no border, or --no outline in your prompt.
 
 ---
 
 Q: How do I prevent hands from appearing in my generated image?
+
 Add "--no hands" to the end of your prompt.
 
 ---
 
 Q: How do I remove duplicate characters from an image?
+
 You can try adding "--no duplicate" or "--no clones" to your prompt. However, Midjourney struggles with generating images with multiple instances of the same character. It may be easier to edit the image afterwards in an external graphics editor.
 
 ---
 
 Q: How do I remove text from my generated images?
+
 Use the --no text parameter at the end of your prompt.
 
 ---
 
 Q: How do I get a realistic image without backgrounds or terrain?
+
 Add "isolated on white background" to your prompt.
 
 ---
 
 Q: How do I avoid getting a watermark in my results?
+
 Add --no watermark to the end of your prompt.
 
 ---
 
 Q: How do I control the framing/composition when using an image as input?
+
 You can change the framing and composition with additional text prompts, such as "wide shot", "cropped", "centered", etc. Specifying an aspect ratio with --ar can also help.
 
 ---
 
 Q: How do I make the final image less cartoonish and more realistic?
+
 Use "photograph of" at the beginning of your prompt. Do not use terms like "photorealistic" which indicates an artistic style.
 
 ---
 
 Q: How do I remove elements from an image?
+
 Use the --no parameter followed by words describing what you want to remove, for example --no trees.
 
 ---
 
 Q: How do I get images with only one or two colors?
+
 Describe the colors you want, for example "in the style of orange and purple". You can also provide an image reference with your desired color palette.
 
 ---
 
 Q: How do I prevent the AI from adding certain elements like text or frames to my image?
+
 You can use the --no parameter to specify elements you want to remove. For example, --no text, frames. List each element you want to remove separated by commas.
 
 ---
 
 Q: How do I change the color of parts of an image while keeping the rest the same?
+
 This is not possible in Midjourney. It generates a new image each time and cannot edit specific parts of an image. You would need to use an external image editing tool for this.
 
 ---
 
 Q: How do I avoid getting text or logos in my generated images?
+
 Using “—no text” “—no logo” “—no watermark” at the end of your prompt may help, but it is not always effective. The text is often coming from other elements in your prompt, so try to determine what is triggering the text generation.
 
 ---
 
 Q: How do I keep characters out of an image of a landscape?
+
 To keep characters out of a landscape image, try adding "--no people" or "--no characters" at the end of your prompt. Rearranging the order of subjects in your prompt to list the landscape first can also help. For example, "a beach, with a dog playing in the sand".
 
 ---
 
 Q: How do I remove something from an image after generating it?
+
 You cannot directly edit a generated image in Midjourney. You will need to use an external image editing software like Photoshop, GIMP, or Paint.net. To reduce the chance of unwanted elements appearing in the first place, use "--no" followed by the unwanted element at the end of your prompt, e.g. "--no horns". However, rewording the prompt itself is often more effective.
 
 ---
 
 Q: How do I get rid of plants or other unwanted elements in my image?
+
 Add "--no plants" or "--no [element name]" to the end of your prompt.
 
 ---
 
 Q: How do I remove text, watermarks, or signatures from my images?
+
 Add "--no text, watermark, signature" to the end of your prompt.
 
 ---
 
 Q: My image has an unwanted watermark, how do I remove it?
+
 Add "--no watermark" to the end of your prompt.
 
 ---
 
 Q: How do I remove backgrounds and shadows from my images?
+
 To remove backgrounds, add "isolated on white background" or "isolated on plain background" to your prompt. 
  To remove shadows, try "--no shadow".
 
 ---
 
 Q: How do I avoid getting text in my images?
+
 Use --no text in your prompt. However, --no commands can damage an image, so use sparingly. It is best to figure out what in your prompt is triggering the text.
 
 ---
 
 Q: How do I get the AI to include specific text in an image?
+
 Unfortunately, Midjourney struggles with accurately generating text. It is mostly random and difficult to control. Your best options are to either generate the text separately and composite the image in an editing tool like Photoshop, or keep re-rolling your prompt until you get lucky.
 
 ---
 
 Q: How do I get an image without any text?
+
 Add "--no text, signature, watermarks" to the end of your prompt. Avoid using terms like "logo" which may trigger the generation of text.
 
 ---
 
 Q: How do I avoid getting random text or objects added to my images?
+
 Use "--no text" at the end of your prompt. However, this does not always prevent unwanted text or objects from appearing. Carefully consider each word in your prompt and how the AI might interpret it. The AI generates images from scratch, so some randomness is unavoidable.
 
 ---
 
 Q: How do I avoid boring/not useful background images?
+
 Add "isolated on a blank background" to your prompt. This will remove extra background details.
 
 ---
 
 Q: How do I edit something out of an image I generated?
+
 You can't directly edit images in Midjourney. You'll need to use an external image editing tool like Photoshop, GIMP or Pixelmator to edit your images.
 
 ---
 
 Q: My generations all look blurry. Is there a way to fix this?
+
 The blurriness is often caused by certain words in your prompt. Try removing terms like “8k”, “hyper realistic”, or “HDR”. Stick to describing what you actually want to see.
 
 ---
 
 Q: How do I limit the number of objects in an image, like only generating one butterfly instead of many?
+
 Be very specific in your prompt. Describe the single object you want in detail. Use --no with related terms, e.g. "--no swarm, flock, group" to limit the number generated.
 
 ---
 
 Q: How do I prevent words and slogans from appearing in my images?
+
 To prevent unwanted text in your images, add "--no text" to the end of your prompt. You may need to specify other related terms like "--no logo, watermark, signature".
 
 ---
 
 Q: I tried to cancel my subscription but am still being charged. What do I do?
+
 Contact the Midjourney billing team at billing@midjourney.com with your most recent invoice number. Explain that you have tried to cancel your subscription but are still being charged. They will help resolve the issue and process a refund if needed.
 
 ---
 
 Q: When does my subscription renew?
+
 Your subscription renews on the same day each month that you originally subscribed. You can check your exact renewal date by using the /info command.
 
 ---
 
 Q: Why am I being charged even though I canceled my subscription?
+
 There may have been an error cancelling your subscription. Email billing@midjourney.com with your invoice number for help resolving the issue.
 
 ---
 
 Q: Can I share my subscription with someone else?
+
 No, sharing accounts or subscriptions is against Midjourney's Terms of Service. Each user must have their own account and subscription.
 
 ---
 
 Q: Why do I see "no subscription" even though I paid?
+
 Payment may still be processing or failed. Check email for invoices or notices and contact billing@midjourney.com if needed.
 
 ---
 
 Q: Why did my subscription automatically renew when I did not want it to?
+
 Subscriptions are set to automatically renew by default. To prevent auto-renewal, make sure to cancel your subscription before the renewal date. You can cancel at any time and will have access until the end of your current billing cycle.
 
 ---
 
 Q: I have an issue with my subscription or billing, who should I contact?
+
 Please contact the billing team at billing@midjourney.com. Provide details about your issue along with your latest invoice number.
 
 ---
 
 Q: Why is my subscription not working after I paid?
+
 Check your email for: 
  1. A failed payment notice - the money will be returned in a few days. Double check your billing info is correct.
  2. An invoice - reach out to billing@midjourney.com with the invoice number for help.
@@ -1705,66 +1776,79 @@ Check your email for:
 ---
 
 Q: My subscription renewed but I can't generate images. It says I'm out of fast time.
+
 Try running the /info command and waiting a few minutes. This should sync your account. If it still shows as out of fast time, you may need to wait up to an hour for Stripe to process the payment.
 
 ---
 
 Q: I received a payment confirmation but my subscription is not active.
+
 Contact billing@midjourney.com with details. Give the system up to an hour for your subscription to become active, as there may be a delay in payment processing.
 
 ---
 
 Q: Why hasn't my magazine shipped yet?
+
 International shipping can take additional time. The magazine is shipped from the US, so allow at least 2-4 weeks for delivery outside the US, possibly longer for some locations.
 
 ---
 
 Q: Why did I receive a notice that my “free trial ended” when I have an active paid subscription?
+
 This is usually caused by a failed payment. Double check for an invoice or failed payment notice in your email. Contact billing@midjourney.com if needed.
 
 ---
 
 Q: I paid for my subscription but I don't have access. What happened?
+
 Check your email for either an invoice or payment failed notice. If you received an invoice, your payment went through - contact billing@midjourney.com for help gaining access. If payment failed, the money is on hold by your bank and will refund in a few days.
 
 ---
 
 Q: I have two subscriptions, how do I cancel one?
+
 Contact billing@midjourney.com with the invoice numbers for both subscriptions and specify which you want to cancel.
 
 ---
 
 Q: I'm having issues with my subscription. How can I contact support?
+
 You can contact the Midjourney billing support team at billing@midjourney.com. Provide a detailed description of your issue and your most recent invoice number.
 
 ---
 
 Q: Why can't I pay or subscribe?
+
 There may be an issue with the payment processor, Stripe. Double check that your billing information matches your payment method, or try another card. If issues continue, email billing@midjourney.com with details and your last 4 card digits. Allow 7-10 days for a response.
 
 ---
 
 Q: My subscription renewed but I'm out of hours, why?
+
 Your subscription renews on the same date each month. Your fast hours reset at the same time. If you run out of hours before the month ends, you will need to purchase more or upgrade your plan.
 
 ---
 
 Q: How do I manage my subscription?
+
 You can manage your subscription at https://www.midjourney.com/account/
 
 ---
 
 Q: How do I invite others to use my subscription?
+
 This is against the Midjourney Terms of Service. Each user must have their own subscription.
 
 ---
 
 Q: How do I subscribe?
+
 You can subscribe on our website at https://www.midjourney.com/account/
 
 ---
 
 Q: I paid for a subscription but my account says I don't have a subscription. What do I do?
+
 This can happen for a few reasons: 
  1. Check that you received an invoice or receipt for your payment. If not, it's likely your payment failed.
  2. Double check that the billing details (name, address) match your payment info. If incorrect it can cause issues.
@@ -1773,76 +1857,91 @@ This can happen for a few reasons:
 ---
 
 Q: Can I upgrade or downgrade my subscription plan?
+
 Yes, you can change plans on the Subscription page of your Midjourney account. When upgrading, you'll pay the difference between your current plan and the new plan. When downgrading, your new plan will take effect at the next billing cycle.
 
 ---
 
 Q: How do I switch between Fast and Relax modes?
+
 Use the /fast and /relax commands to toggle between modes.
 
 ---
 
 Q: I ran out of fast hours. When will they renew?
+
 Your fast hours will renew on the monthly anniversary of when you first subscribed, at around the same time of day. You can check the exact details using /info.
 
 ---
 
 Q: How do I use my fast hours?
+
 Run /fast to enable fast mode. Fast hours allow your generations to process faster.
 
 ---
 
 Q: How long does relaxed mode take?
+
 Relaxed mode can take around 10 minutes per image to generate. Speed will vary based on demand and other factors.
 
 ---
 
 Q: How do I check how many fast hours I have remaining?
+
 Use the /info command.
 
 ---
 
 Q: How do I check how many GPU hours I have left?
+
 You can check your remaining GPU hours by using the /info command.
 
 ---
 
 Q: How often do my GPU hours renew?
+
 Your GPU hours renew monthly on the same day you originally subscribed. The exact time can be found using /info.
 
 ---
 
 Q: How do I get fast/gpu hours by voting?
+
 Vote in Rank Pairs at https://www.midjourney.com/app/rank-pairs/ - the top 2,000 participants each day get 1 GPU hour. The number of images you need to vote on depends on how many others are participating that day.
 
 ---
 
 Q: What do fast hours mean? How are they different from relax hours?
+
 Fast hours allow you to generate images more quickly, with a higher priority in the queue. Relax hours are slower but unlimited for Standard and Pro members.
 
 ---
 
 Q: What's the difference between fast mode and relaxed mode?
+
 Fast mode prioritizes your generation and provides faster results, but is limited to the hours in your subscription plan. Relaxed mode has unlimited generations but will take longer as jobs are lower priority. You must have a Standard or Pro plan to access relaxed mode.
 
 ---
 
 Q: How long do extra paid hours last?
+
 Additional paid hours never expire, though you need an active subscription to use them.
 
 ---
 
 Q: How do I check how much time I have remaining in my plan?
+
 Use the /info command which will show your subscription details including time remaining.
 
 ---
 
 Q: When do my fast hours reset?
+
 Fast hours reset on the monthly anniversary of your subscription. Check /info for your exact reset time.
 
 ---
 
 Q: How do I get more GPU hours?
+
 There are a few ways to get more GPU hours: 
  1. Upgrade to a subscription plan with more hours (Standard or Pro plans)
  2. Purchase additional GPU hours. You can buy hours by going to https://www.midjourney.com/account/ and clicking "Buy More Hours".
@@ -1852,181 +1951,217 @@ There are a few ways to get more GPU hours:
 ---
 
 Q: Will I lose unused hours when my subscription renews?
+
 Fast hours that are part of your subscription are always lost when your month ends and don’t roll over, whether you cancel or renew sub. Fast hours you’ve won from Rank Pairs last 30 days, and extra hours you’ve bought never expire
 
 ---
 
 Q: Why do I only have 15 fast hours when I'm on the Standard plan?
+
 The Standard plan includes 15 hours of fast mode generation per month, and unlimited use of relax mode which has lower queue priority.
 
 ---
 
 Q: My subscription ended but I still have fast hours left. Can I use them?
+
 No, fast hours can only be used with an active subscription.
 
 ---
 
 Q: How long do refunds take?
+
 Refunds typically take 2-10 business days to process depending on your bank.
 
 ---
 
 Q: How do I get extra fast hours?
+
 You can purchase additional fast hours for $4 each on your account page. You can also earn 1 free hour each day by ranking images on https://www.midjourney.com/app/rank-pairs/. The top 2,000 raters each day earn a bonus hour.
 
 ---
 
 Q: How do I check my subscription status or remaining GPU hours?
+
 Use the /info command to check your subscription status, remaining GPU hours, generation counts and more.
 
 ---
 
 Q: How do I buy more fast hours or upgrade my plan?
+
 Log in to your account at https://www.midjourney.com/account/ to buy more fast hours or upgrade your subscription plan.
 
 ---
 
 Q: When do I get my subscription hours refreshed?
+
 Use /info to see your subscription renewal date and time. Hours refresh on your renewal date each month.
 
 ---
 
 Q: How long do Fast hours take to process an image generation request?
+
 Image generation time can vary but typically takes 2-3 minutes. If it's taking longer than 30 minutes, you may need to cancel the request and resubmit.
 
 ---
 
 Q: How do I change my relaxation time subscription to fast time?
+
 Use the /fast command to switch from relax time to fast time.
 
 ---
 
 Q: Why do I only have a square aspect ratio option? How do I change it?
+
 By default, Midjourney generates square images. To change the aspect ratio, add `--ar` followed by the ratio you want, e.g. `--ar 16:9` for widescreen.
 
 ---
 
 Q: How do I get a wide/long image or change the aspect ratio?
+
 Use the --ar parameter to set a custom aspect ratio, like --ar 16:9 for a wide image.
 
 ---
 
 Q: How do I set the aspect ratio for my prompt?
+
 Use the --ar parameter at the end of your prompt, for example --ar 16:9.
 
 ---
 
 Q: How do I use an aspect ratio for a square frame but a landscape scene?
+
 Use an aspect ratio closer to your scene, such as --ar 4:3 or --ar 5:3. This will give Midjourney more space to fill in the frame appropriately.
 
 ---
 
 Q: How do I get a specific aspect ratio?
+
 Use the --ar parameter and specify the aspect ratio you want, e.g. --ar 16:9 for widescreen or --ar 1:1 for square.
 
 ---
 
 Q: How do I get Midjourney to produce a square or wider aspect ratio image?
+
 Use the --ar parameter to specify the aspect ratio, for example --ar 1:1 for a square or --ar 16:9 for a widescreen image.
 
 ---
 
 Q: How do I get a 16:9 aspect ratio in Midjourney?
+
 Use the --ar 16:9 command at the end of your prompt.
 
 ---
 
 Q: How do I get my image to have a specific aspect ratio like 16:9?
+
 Use the --ar parameter followed by your desired aspect ratio. For example, --ar 16:9.
 
 ---
 
 Q: How do I get Midjourney to generate a specific aspect ratio?
+
 Use the --ar parameter and specify the aspect ratio you want, such as --ar 16:9.
 
 ---
 
 Q: How do I get the same image in a different aspect ratio?
+
 You can run the original prompt again and change the aspect ratio parameter, e.g. --ar 4:3. You may get similar but not exactly the same image.
 
 ---
 
 Q: How do I get a specific output resolution like 1920x1080?
+
 You cannot directly specify an output resolution in Midjourney. It generates images around 1024x1024 pixels. You will need to use an upscaling tool to increase the resolution.
 
 ---
 
 Q: How do I generate an image with a specific aspect ratio (e.g. 16:9 for YouTube)?
+
 You can specify an aspect ratio using the --ar parameter, e.g. --ar 16:9.
 
 ---
 
 Q: I have jobs stuck in my queue for a long time. How can I cancel them?
+
 React to the message with ❌ or right click > apps > cancel job
 
 ---
 
 Q: How do I clear old stuck jobs?
+
 If you have old stuck jobs that have been running for over 10 hours, contact a moderator and provide the job details. They may be able to clear stuck jobs over 10 hours old.
 
 ---
 
 Q: My jobs are stuck at 93% for a long time. What should I do?
+
 This is likely a visual glitch. Check /info to confirm if the job is actually running. If not, the job probably finished and you can recover it from your web gallery using /show.
 
 ---
 
 Q: How do I cancel a running job?
+
 To cancel a running job, react to the message with ❌ or right click > apps > cancel job
 
 ---
 
 Q: I have old stuck or ghost jobs that won't finish generating or cancel. How do I clear them?
+
 Contact support in the #member-support channel to request a queue reset. Moderators can clear any stuck jobs for you.
 
 ---
 
 Q: Why did I receive an ephemeral job?
+
 Ephemeral jobs occur when the AI filter flags your prompt or images as potentially inappropriate. This is not a punishment, just a precaution. You can use /show {jobID} to restore ephemeral jobs. If you believe the filter flagged your job in error, report the details in #ai-mod-bugs to help improve the system.
 
 ---
 
 Q: How long does it take for jobs to start after using /imagine?
+
 In fast mode, jobs should start within 1 minute. If a job does not start within 5 minutes, it has likely encountered an error. You can cancel the job and resubmit.
 
 ---
 
 Q: Why are my jobs taking a long time?
+
 Demand could be high, causing slower generations speeds. Check /info to ensure your jobs haven't failed.
 
 ---
 
 Q: Why do I see "Paused" under my generation?
+
 Jobs will pause if there are no GPUs currently available to process your generation. Your job will resume once a GPU becomes available again.
 
 ---
 
 Q: Why is my queued job stuck?
+
 Jobs can get stuck when there are technical issues. Cancel the stuck job by reacting to it with ❌ or right-clicking > Apps > Cancel Job. Contact support if jobs are stuck longer than 10 hours.
 
 ---
 
 Q: Why do my generation requests sometimes result in "ephemeral" jobs that disappear?
+
 Using softbanned words in your prompt can cause your jobs to be generated in "ephemeral" mode, meaning they disappear when your Discord session refreshes. To avoid this, work in direct messages (DMs) with the bot. Ephemeral jobs will still be in your web gallery.
 
 ---
 
 Q: I have jobs stuck in my queue. Can I get them cleared?
+
 If you have jobs running longer than 10 hours, contact a moderator to get them cleared from your queue.
 
 ---
 
 Q: I have a job stuck for over 10 days. Can someone remove it?
+
 Contact a moderator in <#958069758211797092> to reset your queue and remove stuck jobs over 10 hours.
 
 ---
 
 Q: Why are jobs failing or getting stuck?
+
 There are a few common reasons why jobs may fail or get stuck: 
  - High demand leading to throttling: Wait and try again later. Failed jobs do not count against your GPU hours.
  - Banned word or image in your prompt: Check if your prompt contains anything inappropriate and if so, remove it.
@@ -2035,216 +2170,259 @@ There are a few common reasons why jobs may fail or get stuck:
 ---
 
 Q: Why is my relaxed generation taking so long?
+
 Relaxed generation speed depends on many factors like current demand, how much you've used relaxed mode this month, and time of day. During busy periods, relaxed generations can take 10 minutes or more. Check your /info to ensure the job is still running.
 
 ---
 
 Q: My jobs/generations are stuck or failing. What's going on?
+
 This is likely due to high demand on the Midjourney servers, causing delays and failures. Try generating again later, and double check /info to see if any jobs failed. Failed jobs don't cost you anything. The Midjourney team is working to improve reliability and speed.
 
 ---
 
 Q: Why can't I generate images or my jobs are stuck?
+
 The bot may be experiencing hiccups. Try rerunning your prompt in a few minutes. You can check the status page (https://status.midjourney.com/) for updates.
 
 ---
 
 Q: Why do I get the dreaded 'failed to fetch job' error?
+
 This usually happens when MJ is experiencing an outage or system issue. Your job will not finish running. You need to resubmit your prompt once the system is back online.
 
 ---
 
 Q: Why am I seeing "forbidden" or "only you can see this" under my images?
+
 Your prompt likely contained a word that triggered the filter. These images will disappear when your Discord reloads. Working in DMs with the bot stops images from disappearing. You can also bring images back with /show <job_id>.
 
 ---
 
 Q: Why isn't the text in my image rendering properly?
+
 The AI model Midjourney uses is trained primarily for generating images, not text. Getting clear, legible text can take a lot of trial-and-error. Using an image editor is typically easier. Check out the guide here for tips: https://discord.com/channels/662267976984297473/1025600359563001886
 
 ---
 
 Q: Why can't I access the "Upscale" and "Beta Upscale Redo" options anymore?
+
 The default Midjourney version recently changed to v5, which does not offer additional upscale options. To access upscaling, switch to v4 in /settings or add "--v 4" to the end of your prompts.
 
 ---
 
 Q: Why are my images taking a long time to generate?
+
 Image generation times can vary depending on demand and server load. Sometimes jobs get stuck - check /info to see status and consider canceling and re-running. If jobs are taking longer than 10 hours, ask support to check.
 
 ---
 
 Q: I can't download images. Help!
+
 The bulk downloader is currently broken. Try downloading in smaller batches, at off-peak hours. A website rebuild is in progress to fix this.
 
 ---
 
 Q: I can't find my images! Where did they go?
+
 Images are available for a limited time in Discord - download favorites promptly. Your web gallery holds all images indefinitely. Some were temporarily missing from early April - the issue is being investigated.
 
 ---
 
 Q: Why can't I generate images on mobile?
+
 Make sure you have the latest version of Discord installed and that you have enabled "Use slash commands and preview emojis, mentions, and markdown syntax as you type” in your Discord settings. You may also need to disable “Use the legacy chat input” in Accessibility settings.
 
 ---
 
 Q: Why can't I get a high resolution image?
+
 Midjourney generates images at 1024x1024 resolution. To get a higher resolution, you'll need to use a third-party upscaling tool like Gigapixel AI or Upscayl.
 
 ---
 
 Q: Why are my images marked as "Only you can see this"?
+
 Images marked this way were created ephemerally, meaning they contain words that could potentially generate inappropriate images. Ephemeral images disappear when you refresh Discord, but you can restore them using the /show command.
 
 ---
 
 Q: Why can't I add images to collections or download batches of images?
+
 There are some known issues with the website that the new web team is working to fix. Downloading smaller batch sizes or during off-peak hours may help in the meantime.
 
 ---
 
 Q: U upscales or generates 4 new images instead.
+
 Go to /settings and turn off "Remaster mode".
 
 ---
 
 Q: Why did my image count decrease?
+
 This is a known issue, the team is investigating and working to restore missing images.
 
 ---
 
 Q: My images are not showing up in the web gallery, what's wrong?
+
 There is currently an issue restoring some older images to the web gallery. The team is working to fix this and restore affected images. Check for updates in <#942231458918064148>.
 
 ---
 
 Q: Why can't I access images I made over a month ago?
+
 There are known issues accessing images from April 5-11. The developers are working to restore access. Check <#942231458918064148> for updates.
 
 ---
 
 Q: Why is the quality option no longer in my settings?
+
 The quality options were removed from settings because they did not do anything beyond quality 1 in versions 4 and 5. You can still set quality manually using --q.
 
 ---
 
 Q: When I try to upscale, I get 4 new images instead. How do I fix this?
+
 Go to /settings and turn off "Remaster Mode". This should return upscaling to normal.
 
 ---
 
 Q: Why can't I generate certain content or use some words?
+
 Midjourney aims to be inclusive and family-friendly. Nudity, gore, racism, toxicity, and other offensive content are not allowed.
 
 ---
 
 Q: Why did an image disappear after I generated it?
+
 Images marked as "only you can see this" are ephemeral images. This happens when your prompt uses a soft-banned word. Ephemeral images disappear when your Discord refreshes. To avoid this, generate your images by DMing the Midjourney bot. Images generated this way are not ephemeral. You can also save the image ID from the Midjourney website and use /show to retrieve the image in Discord.
 
 ---
 
 Q: Why can't I save or download my images?
+
 The download tool has known issues. Save smaller batches of images and try during off-peak hours. An updated downloader is being worked on.
 
 ---
 
 Q: What do the U and V buttons under my images mean?
+
 U refers to upscale - clicking the U buttons will provide higher resolution versions of that image panel. V refers to variation - clicking the V buttons will provide different stylistic variations of that image panel using the same prompt.
 
 ---
 
 Q: Images from a date range are missing from my account.
+
 This is a known issue currently being worked on. Check #announcements for updates.
 
 ---
 
 Q: Why can't I upscale to 2048x2048?
+
 The Beta Upscale option which allowed upscaling to 2048x2048 is only available for Model Version 4. The current default model is Version 5 which does not have this additional upscaler. You can switch back to Version 4 in /settings if you want access to Beta Upscale.
 
 ---
 
 Q: Why is the U button giving me 4 new images instead of upscaling?
+
 You likely have Remaster Mode enabled in your /settings. Deactivate Remaster Mode to resume normal upscaling behavior.
 
 ---
 
 Q: Why do my messages disappear right after generating images?
+
 You may have used a softbanned word, causing your messages to be generated in "ephemeral" mode. Ephemeral messages disappear when your Discord session refreshes. To avoid this, generate images in DMs with the Midjourney bot. The images will still save to your Midjourney gallery.
 
 ---
 
 Q: Why is the bulk downloader not working?
+
 The bulk downloader is currently experiencing issues, especially during high-demand periods. Try downloading in smaller batches or at off-peak hours. The team is rebuilding the website to improve functionality.
 
 ---
 
 Q: Why did my images from the middle of my history disappear?
+
 There is a known issue affecting images from April 5th-11th. The team is working to restore access within a week.
 
 ---
 
 Q: Why can't I get 2048x2048 images?
+
 Version 5.1 maxes out at 1024x1024. Use an external upscaler for higher resolution.
 
 ---
 
 Q: Why can't I download my images in bulk?
+
 The bulk image downloader is currently experiencing issues, especially during high-demand times. Download images in smaller batches or try at off-hours. A new web team is working to improve the site.
 
 ---
 
 Q: Why don't I have the Beta Upscale option?
+
 Beta Upscale is only available for Version 4 and below. Version 5.1 is the new default model. You can switch back to Version 4 in /settings if you prefer.
 
 ---
 
 Q: Why do I get the message "original message deleted" when generating images?
+
 This can happen when your prompt contains borderline content. Your images are still accessible in your web gallery. Use /show [job ID] to retrieve the message in Discord.
 
 ---
 
 Q: Why can't I find my previous images?
+
 Your images are stored in the Midjourney Gallery and Archive. You can access the Gallery at midjourney.com/app and the Archive at midjourney.com/app/archive. If you can't find your images, contact support.
 
 ---
 
 Q: Why are my images stuck in the processing queue?
+
 This usually happens when there is high demand on the Midjourney system. Your images will process once resources become available, which can take 10-45 minutes. If an image is stuck for over 10 hours, contact support to cancel the job.
 
 ---
 
 Q: Why do my images always come out in portrait orientation? I want landscape.
+
 Add "--ar 16:9" to your prompt to get landscape orientation.
 
 ---
 
 Q: Why am I getting unusable text when generating an image?
+
 Midjourney is not designed to generate accurate text. It will produce gibberish. We recommend adding text in an external image editor.
 
 ---
 
 Q: Why did upscaling disappear in v5.1? How do I increase image size?
+
 Upscaling is not available in v5.1. To increase image size, you will need to use a third-party image upscaler like Gigapixel AI. MJ is limited to output sizes of around 1000x1000 pixels.
 
 ---
 
 Q: Why do my images get deleted after generating them?
+
 Some prompts contain "ephemeral" words that will cause the image to be deleted for privacy/policy reasons. You can view and re-generate deleted images using /show [job ID].
 
 ---
 
 Q: Why do my images have black bars or frames?
+
 This happens when your aspect ratio (set with --ar) doesn't match the image size Midjourney generates. Either change your aspect ratio to match Midjourney's default (around 6:4) or crop the image to your desired size.
 
 ---
 
 Q: Why can't I find my old generated images?
+
 Your generated images are stored in your image gallery on the Midjourney website. Log in and navigate to `Your Profile` > `Image Gallery`.
 
 ---
 
 Q: Where's the seed number?
+
 To get the seed number for an image: 
  - Open the image on https://midjourney.com/app/
  - Click the three dots
@@ -2255,26 +2433,31 @@ To get the seed number for an image:
 ---
 
 Q: What are the differences between U and V?
+
 U = Upscale, isolates the image from the grid. V = generate Variations of the selected image.
 
 ---
 
 Q: What does "--chaos" do?
+
 The --chaos parameter introduces more variation and randomness into the generation. Higher numbers, like --chaos 10, will introduce more chaos than --chaos 5.
 
 ---
 
 Q: What is the "--ar" parameter for?
+
 The "--ar" parameter sets the aspect ratio of the generated image. For example, "--ar 16:9" will generate an image with a 16:9 widescreen aspect ratio.
 
 ---
 
 Q: What is the difference between V5 and V5.1?
+
 V5.1 is the latest version of Midjourney with improvements to the AI. V5 is an older version. You can select which version to use in the /settings menu.
 
 ---
 
 Q: What do the /describe, /imagine, and /blend commands do?
+
 These are commands used with the Midjourney bot: 
  /describe - Analyzes an uploaded image and provides keywords to describe the image. Useful for getting prompt ideas.
  /imagine - Generates images based on your text prompt. Used to create images from scratch without an image upload.
@@ -2283,136 +2466,163 @@ These are commands used with the Midjourney bot:
 ---
 
 Q: How do I use /describe?
+
 /describe allows you to upload an image and receive four prompt suggestions based on that image. Select one of the prompts to generate variations of that image. /describe does not directly generate images, it provides prompts which you can then use to generate images.
 
 ---
 
 Q: Can I use a seed with /blend?
+
 No, you cannot use a seed with /blend. The results of a blend will be random.
 
 ---
 
 Q: What does "--style raw" do?
+
 "--style raw" gives you less of MJ's default stylistic choices and opinions. It will generate based primarily on your prompt without extra flourishes. This mode is available in v5.1.
 
 ---
 
 Q: What is opinionated vs unopinionated mode?
+
 Opinionated mode (v4 and v5.1 default) will make inferences about backgrounds, styles, etc based on your prompt. Unopinionated mode (v5 and v5.1 --style raw) requires you to specify more details and won't add as much on its own.
 
 ---
 
 Q: What do the different version numbers mean (--v 3, --v 4, --v 5)?
+
 The version numbers correspond to different models used by Midjourney to generate images. --v 5 and --v 5.1 are the latest models. --v 3 and --v 4 are older models that may produce different results.
 
 ---
 
 Q: How do I enter multiple "--no" parameters?
+
 Use a comma separated list for multiple --no parameters, e.g. "--no dog, cat, bird". Do not use a separate --no for each term, as that will likely overpower your prompt. Only use --no sparingly, as it can negatively impact your results.
 
 ---
 
 Q: What does "featuring various elements related to the subject" mean?
+
 This prompt phrase is too vague and will likely add unwanted noise to the generation. It is best removed.
 
 ---
 
 Q: Do I need to specify --v 5 for every prompt to get version 5 results?
+
 No, you can set --v 5 as your default engine in /settings. Then you only need to specify --v 5 in your prompt if you want to temporarily switch to a different version.
 
 ---
 
 Q: What is Remix mode and how does it work?
+
 Remix mode allows you to tweak your prompt to make small changes to an existing image. You can turn Remix mode on in /settings. Then when you click "V" for variations on an image, a prompt box will appear allowing you to edit the prompt. The image will regenerate based on your edited prompt.
 
 ---
 
 Q: Why can't Midjourney generate the text I want?
+
 Midjourney's AI is not able to generate custom typography well. Use an image editor to add text.
 
 ---
 
 Q: How do I get Midjourney to place text exactly as I specify in my prompt?
+
 Midjourney cannot accurately generate text. It is meant to create images, not text. You will need to add text to your images using an image editor.
 
 ---
 
 Q: Why does Midjourney create multiple images in one frame?
+
 This can happen unintentionally based on the prompt. To specify you only want one image, add “isolated on white background” or a similar phrase to your prompt. You can then crop the single image you want from the result.
 
 ---
 
 Q: Why does Midjourney keep changing the facial features or details of characters in my prompts?
+
 Midjourney will recreate images from scratch and is not able to produce exact copies of people or characters. It relies on the description and details you provide in your prompt. Be as specific as possible by describing key facial and physical features to encourage consistency. Using reference images can also help.
 
 ---
 
 Q: Why does Midjourney generate images with black lines or in a split-screen style when I don't specify that in my prompt?
+
 Midjourney will sometimes generate images with a split-screen or black line style due to certain keywords in your prompt, like "comic". Remove or replace these words to avoid this effect. You can also add --no splitscreen to your prompt.
 
 ---
 
 Q: Can Midjourney do quotes or text accurately?
+
 No, Midjourney struggles with generating accurate text and spelling. It is best to add any text or quotes to images using an image editing tool.
 
 ---
 
 Q: Why does Midjourney often not understand the essence of a prompt?
+
 Midjourney is not designed to understand prompts in a semantic or contextual way. It interprets prompts based on its training data, so it may misunderstand or ignore certain words and phrases.
 
 ---
 
 Q: Why does Midjourney struggle with generating certain subjects, like female characters or swimmers in swimsuits?
+
 Midjourney has certain restrictions around nudity and sexually suggestive content. The AI model also has limited data on certain subjects, making them more difficult to generate. The Midjourney team is working to improve the model and relax restrictions where possible.
 
 ---
 
 Q: Why does Midjourney struggle with custom text in images, or putting text on the right/intended item?
+
 Midjourney has limited capabilities with text generation. It does not actually "read" or understand text, it only guesses based on its training data. For custom text, it's best to generate the image in Midjourney and add text with an external editing tool.
 
 ---
 
 Q: Why does Midjourney struggle with hands, facial details, and anatomically correct body parts?
+
 Midjourney is an AI model trained on a dataset of images. Its knowledge comes only from what was present in that dataset, and details like hands, faces, and anatomically correct bodies are complex and variable. Midjourney does not have a deep, generalized understanding of these parts, so it struggles to generate them accurately.
 
 ---
 
 Q: Why did Midjourney suddenly stop generating certain content like bikinis?
+
 Midjourney implements content filters and moderation to avoid generating offensive or inappropriate content. These filters are subject to change, and may block or limit previously allowed content.
 
 ---
 
 Q: Why does Midjourney sometimes create images that are very different than my prompt?
+
 Midjourney is still learning and improving. It may misunderstand or ignore parts of overly long or complex prompts. Keep your prompts concise while including important details. You may need to re-roll a few times to get closer to your vision.
 
 ---
 
 Q: Why does Midjourney put text or props in my images when I don't want them?
+
 Use the --no text parameter to avoid generated text. However, --no statements can sometimes damage your image so use sparingly. Analyze your prompt to determine what is triggering the unwanted elements and make adjustments. Sometimes using --no is unavoidable.
 
 ---
 
 Q: Why does Midjourney keep changing parts of my image when I just want to change one specific thing?
+
 Midjourney generates new images from scratch based on your prompt. It does not directly edit or modify existing images. The only way to make precise, targeted changes to an image is by using an external image editor. Midjourney can be used to re-generate an image with some differences, but it may change other parts of the image as well.
 
 ---
 
 Q: Can Midjourney generate quotes or text in different languages?
+
 No, Midjourney struggles with generating legible text and is not able to translate or generate text in different languages. You will need to add any text using an image editing tool.
 
 ---
 
 Q: How do I get Midjourney to understand a pose like "the thinking man"?
+
 Describe the pose in detail in your prompt. For example, "man standing with hand on chin, pondering". Be very specific about the position of the body, limbs, and facial expression. Midjourney struggles with implied or loosely described poses.
 
 ---
 
 Q: How do I make Midjourney write text or letters accurately?
+
 Midjourney struggles with text and will rarely generate text exactly. It can do a few characters at best. You're better off adding text in an external image editor.
 
 ---
 
 Q: Why does Midjourney cut off parts of images or subjects? How can I fix this?
+
 Midjourney may cut off parts of images or subjects for a few reasons: 
  - Your prompt does not specify to show the full subject. Add "full body" or "wide shot" to your prompt.
  - There are not enough details or objects specified in your prompt for Midjourney to fill the frame. Add more details and objects to give Midjourney more to work with.
@@ -2422,41 +2632,49 @@ Midjourney may cut off parts of images or subjects for a few reasons:
 ---
 
 Q: Why does MIdjourney struggle to generate certain fantastical subjects like centaurs, mermaids or multiple creatures together?
+
 Midjourney is trained on a large dataset of existing images. If there are fewer examples of certain fantastical subjects, it will have more trouble generating them. It also has more trouble separating and generating distinct subjects in the same image. With more data and training, Midjourney should improve at generating a wider range of subjects.
 
 ---
 
 Q: Why does Midjourney struggle with text and spelling?
+
 Midjourney is an image generation model, not a natural language model. It has not been optimized for understanding language or writing text. Simple brand names or short phrases may work, but longer, coherent sentences and paragraphs are beyond its current capabilities. For now, we recommend adding any necessary text to your images using a design program.
 
 ---
 
 Q: How do I see my previous images?
+
 You can view your previous images at https://www.midjourney.com/app/ in your image gallery. You may need to sign in with your Discord account.
 
 ---
 
 Q: How do I generate an image?
+
 Type "/imagine" followed by your prompt.
 
 ---
 
 Q: How do I restore ephemeral images?
+
 Ephemeral images disappear when you close Discord. To restore them, use the /show command along with the job ID. You can find job IDs for your images at `https://midjourney.com/app/` in your gallery.
 
 ---
 
 Q: How do I create an image with a transparent background?
+
 You'll have to use image editing software to add a transparent background. Midjourney does not currently support transparency.
 
 ---
 
 Q: How do I see how many images I have left this month?
+
 Use the /info command. It will show your "Fast Time Remaining" which indicates how many minutes of generation time you have left. Most images take around 1 minute so you can estimate from there.
 
 ---
 
 Q: How do I generate an image from a URL or my computer?
+
 To use an image as a prompt: 
  1. Get the direct image link (ends in .jpeg, .png, or .webp)
  2. Paste that link after /imagine to generate an image
@@ -2468,21 +2686,25 @@ To use an image as a prompt:
 ---
 
 Q: How do I upscale in version 5?
+
 In version 5, "upscale" simply pulls out one image from the generated grid. For actual larger sizes than 1024x1024, use an external upscaler.
 
 ---
 
 Q: How do I find images I've generated?
+
 Your images are stored on https://www.midjourney.com/app/ in your gallery and archive.
 
 ---
 
 Q: How do I use an image to inspire new images?
+
 You can provide image URLs or upload images as inspiration using the instructions at <#1026944423692619878>. However, Midjourney will generate new images from scratch and the results may look quite different from your source images.
 
 ---
 
 Q: How do I upload an image?
+
 To use an image link in your prompt: 
  Discord (desktop): Right-click > Copy Link (not Copy Message Link)
  Discord (web): Click to expand image > Right-click > Copy Image Address
@@ -2493,186 +2715,223 @@ To use an image link in your prompt:
 ---
 
 Q: How do I get specific colors in my images?
+
 Specify the colors you want, e.g. "in the style of orange and purple"
 
 ---
 
 Q: How do I view full size images from the 4-panel grid?
+
 Click the U button under the panel you want to view full size.
 
 ---
 
 Q: How do I generate an image in --v 5?
+
 You can add --v 5 to the end of your prompt or change your default version in /settings to --v 5.
 
 ---
 
 Q: How do I generate an image with multiple views of the same subject, like front and side profile?
+
 Start your prompt with "Character reference sheet of [subject name]"
 
 ---
 
 Q: How do I get an image to look more realistic?
+
 Start your prompt with "photograph of" instead of "realistic". Realistic prompts do not produce photographic results.
 
 ---
 
 Q: How do I generate text in an image?
+
 Midjourney struggles with generating legible text. It is best to generate images without text and add text using design software.
 
 ---
 
 Q: How do I get a close up or cropped image?
+
 Use descriptive terms in your prompt like "close up", "cropped", "tight shot", "zoom in".
 
 ---
 
 Q: How do I share my images?
+
 To share images, you can copy and paste them into the chat or upload them to a file sharing service and share the link.
 
 ---
 
 Q: How do I get more details in images like grass and leaves?
+
 Adding more specific descriptions of the details you want, like mentioning blades of grass or individual leaves, may help get more details. You can also try different values for --stylize and --quality.
 
 ---
 
 Q: How do I resize an image without generating an entirely new image?
+
 Midjourney currently does not have the capability to resize existing images. It can only generate new images. You may need to resize the image using an external image editor.
 
 ---
 
 Q: How do I share an image in the chat?
+
 You can share an image by uploading it and then right-clicking or long-pressing to copy the image link. Paste that link into the chat.
 
 ---
 
 Q: How do I edit an existing image?
+
 You can't directly edit images in Midjourney. It generates new images from scratch based on your prompts and any provided references. You'll need to use an external image editing tool.
 
 ---
 
 Q: How do I create a logo?
+
 Use "icon" or "vector design" instead of "logo" in your prompt. Midjourney struggles with text so a logo prompt may add too much extra text.
 
 ---
 
 Q: How do I create a stereoscopic 3D image?
+
 Midjourney cannot generate true stereoscopic 3D images. You'll need to use a 3D rendering tool for that.
 
 ---
 
 Q: How do I add a speech bubble to an image?
+
 It is very difficult to get MJ to generate speech bubbles and text. It is recommended to add these elements using photo editing software after generating your image.
 
 ---
 
 Q: How do I set my default image version?
+
 You can set your default version in /settings. The options are v3, v4, v5, v5.1, and niji (for anime style).
 
 ---
 
 Q: How do I use an image as input to generate a new image?
+
 You can include image URLs at the beginning of your text prompt. Describe what you want the final image to be in the text portion of the prompt.
 
 ---
 
 Q: How do I generate images of specific subjects like scorpions?
+
 Midjourney has limited knowledge of some subjects, like scorpions. Provide an image reference of the subject, and describe the subject in detail in your prompt using its key attributes and features. However, even with a lot of guidance, Midjourney may still struggle with some subjects.
 
 ---
 
 Q: How do I modify or re-create an existing image?
+
 Midjourney cannot edit or modify existing images. It creates new images from text prompts and image references.
 
 ---
 
 Q: How do I weight an image in v5?
+
 Use the --iw parameter, for example --iw 1.5. Values range from 0 to 2.
 
 ---
 
 Q: How do I get a seamless tileable image?
+
 Add "--tile" at the end of your prompt. Don't add terms like "seamless" or "wallpaper" which may confuse Midjourney.
 
 ---
 
 Q: How do I get the camera to zoom in even tighter?
+
 Try using terms like "extreme closeup" or "macro shot" in your prompt.
 
 ---
 
 Q: How do I get an exact copy of my reference image?
+
 You can't. Midjourney creates new images, it is not a photoshop filter. It will not produce an exact copy of your reference image.
 
 ---
 
 Q: How do I add text to an image?
+
 It is difficult for MJ to add text to images. It is best to add text afterwards using a photo editor.
 
 ---
 
 Q: How do I get full body or landscape images?
+
 Add "full body", "full length", or a wide aspect ratio like 16:9 to your prompt. You can also describe the environment around the subject.
 
 ---
 
 Q: How do I get an image that looks like a photograph?
+
 Start your prompt with "photograph of" or "photo of".
 
 ---
 
 Q: How do I get an image with a specific color scheme?
+
 It is difficult to specify exact colors. You can try mentioning the general color palette you want, e.g. "warm colors" or "muted tones". An image reference with your desired color scheme may also help guide the result.
 
 ---
 
 Q: How do I generate a larger image?
+
 Midjourney generates images up to 1024x1024 pixels. To get a larger image, you will need to use an external image upscaler. Some free options include Gigapixel AI and Cupscale.
 
 ---
 
 Q: How do I get a profile picture that actually looks like me?
+
 This can be challenging, as Midjourney will generate a new face rather than replicating your exact features. Provide a high-quality front-facing photo of yourself and set the image weight ( --iw ) to 2. Describe your most distinctive features in the prompt. Be prepared to remix and re-roll many times to get a result you like.
 
 ---
 
 Q: How do I change the colors of a generated image?
+
 Midjourney cannot directly edit or change the colors of a generated image. You will need to use an image editing tool like Photoshop or GIMP to change the colors.
 
 ---
 
 Q: Where do generated images appear?
+
 Images will appear in the same channel that you issued the /imagine command. You can also view all your generated images on midjourney.com.
 
 ---
 
 Q: How do I generate images from different perspectives or angles?
+
 Use terms like "aerial view", "profile view", "close-up view" to specify the perspective you want. You may need to provide additional details about what is in the scene.
 
 ---
 
 Q: How do I save my images?
+
 To save a Midjourney image, click the "Web" button below the image which will open it in a new tab. Then you can right-click and save the image. Alternatively, you can click the three dots (...) and select "Save image as...".
 
 ---
 
 Q: How do I generate an exact replica of an existing product or logo?
+
 You can't. MJ will always redraw and modify images. It is not designed to exactly replicate existing images or products.
 
 ---
 
 Q: How do I re-generate an existing image but with small tweaks?
+
 To re-generate an existing Midjourney image with small changes, turn on the Remix option in your Settings. Then when you click the V (variations) button on an image, it will open a prompt editor and allow you to make changes to the original prompt. Midjourney will then re-generate based on your edited prompt. Note that larger changes may result in a very different image from your starting point. Remix works best for minor tweaks.
 
 ---
 
 Q: How do I increase the image size or resolution?
+
 You cannot directly increase the image size or resolution within Midjourney. The maximum size is 1024x1024 pixels. To get a larger size, you will need to use an external image upscaling tool like Gigapixel AI or Topaz Gigapixel.
 
 ---
 
 Q: Why do I keep getting banned or blocked from prompts?
+
 There are a few possible reasons you may be getting banned or blocked from prompts: 
  - The new AI word filter is still learning and can make incorrect calls at times. Appeal the prompt and report appeals that were wrong in <#1100553606761041991>.
  - You retried a banned prompt too many times. Do not keep entering the same prompt.
@@ -2681,91 +2940,109 @@ There are a few possible reasons you may be getting banned or blocked from promp
 ---
 
 Q: My prompt is stuck. What do I do?
+
 Check /info to see if the job is still running. If not, it likely failed or finished - check your web gallery. Under high demand, prompts can take longer. Be patient.
 
 ---
 
 Q: Why are my prompts stuck on 'Waiting to start'?
+
 This can happen when the servers are under high load. Wait for up to an hour for the job to start, if it's still stuck reach out to support. The jobs do not use your GPU time while waiting.
 
 ---
 
 Q: Why can't I add images into my prompts?
+
 You can't drag and drop images directly into prompts. Use /imagine and add the image URL at the end of your prompt text. Make sure the link ends in an image extension like .jpg, .png, or .gif.
 
 ---
 
 Q: Why are my prompts disappearing from Discord?
+
 These are ephemeral images which disappear when you refresh Discord. To prevent this, generate images by DMing the bot.
 
 ---
 
 Q: I used the same prompt and seed but got the same image. Why did this happen?
+
 Using the same seed will generate the same or highly similar images. Change or remove the seed to get more variety.
 
 ---
 
 Q: Why can't I appeal prompts that were blocked?
+
 The appeal system is under high load. Post the full prompt in <#1100553606761041991> if you believe it should not have been blocked.
 
 ---
 
 Q: I need help with my prompt
+
 Ask in the #prompt-chat channel. Provide as much detail about your prompt and desired result as possible. The experts there can help refine your prompt to get better results.
 
 ---
 
 Q: Why are my prompts being flagged even though they don't seem to violate any rules?
+
 Midjourney uses AI filters that are still learning and can sometimes flag prompts incorrectly. Be sure to appeal any false positives.
 
 ---
 
 Q: Why do I keep getting warnings on my prompts?
+
 The new moderator AI filter is still learning, so it may incorrectly flag some prompts. To help improve the system, report your prompts in <#1100553606761041991>. Getting warnings will not necessarily lead to a ban, but continued violations of the MJ terms of service could result in revoked access.
 
 ---
 
 Q: Why is the bot responding slowly?
+
 The bot can get slower during peak hours or when demand on the servers is high. You can check server status at https://status.midjourney.com/. Using /fast mode will generate images faster.
 
 ---
 
 Q: Why does the image filter block my prompts?
+
 The image filter uses Google SafeSearch which can be oversensitive. The Midjourney team is working to improve the filter. You can appeal incorrect blocks by clicking "Appeal" or report them to help improve the system. Avoid nudity, gore, hate speech, and illegal content.
 
 ---
 
 Q: Why does my prompt have strange letters/words in it?
+
 The AI struggles with accurately generating text. Add "--no text" to your prompt to avoid strange letters/words.
 
 ---
 
 Q: Why do I keep getting an "internal error" after submitting my prompt?
+
 An "internal error" message usually indicates a temporary glitch with Midjourney. Wait a few moments and submit your prompt again. If issues continue, contact Midjourney support.
 
 ---
 
 Q: Why don't my prompts with "bikini" generate women in bikinis anymore?
+
 Midjourney's content filters have likely been updated to avoid generating certain types of images. Using words like "bikini" in your prompts may trigger these filters.
 
 ---
 
 Q: My prompts won’t load or are failing. What’s happening?
+
 Midjourney is likely experiencing temporary technical issues or disruption of service. The developers are aware of the issue and working to resolve it. Please check the status channels for updates.
 
 ---
 
 Q: Why do I keep getting errors mentioning "banned words" even though my prompt seems fine?
+
 Midjourney uses an automated filter to detect potentially objectionable content. Sometimes this filter incorrectly flags prompts that do not actually violate the content policy. You can appeal these errors or report incorrect flags to improve the filter.
 
 ---
 
 Q: Why is the AI struggling with a prompt?
+
 The prompt may be too complex, contradictory, or include elements the AI has trouble with like hands or faces. Simplify your prompt, check for contradictions, or provide more details and image references. The AI is still learning, so some concepts remain challenging.
 
 ---
 
 Q: Why do I get random or unexpected results from my prompt?
+
 There are a few possible reasons you may get unexpected results: 
  1. Your prompt is too vague or open-ended. Try to be as specific as possible in describing what you want to see.
  2. You have too many concepts or subjects in one prompt. It is difficult for Midjourney to balance and cohesively combine multiple complex subjects. Break your prompt into separate, focused ones.
@@ -2776,61 +3053,73 @@ There are a few possible reasons you may get unexpected results:
 ---
 
 Q: My prompt is being flagged as explicit, why is this happening?
+
 The AI moderation system is still learning and may occasionally flag prompts incorrectly. You can appeal the decision if you believe it was made in error. The system is actively being improved to reduce false positives.
 
 ---
 
 Q: Why do my image prompts result in different subjects?
+
 Midjourney cannot generate an exact copy of the image you provide. It will reimagine the image subject based on your prompt. Provide more details about the subject in your prompt to get better likeness.
 
 ---
 
 Q: Does prompt order matter?
+
 The order of words and phrases in your prompt can have some effect, but generally speaking, the effect is minor. MJ gives higher priority to elements mentioned earlier in the prompt, but re-rolling can produce different results regardless of order. For the most part, prompt order will not make or break an MJ generation.
 
 ---
 
 Q: My prompts are being flagged as invalid, what's wrong?
+
 There is likely an error in the syntax or parameters used. Double check that all parameters are spelled correctly and separated by spaces.
 
 ---
 
 Q: Why can't I run prompts?
+
 Make sure you are using the proper syntax like /imagine. Copying and pasting the prompt may result in errors. Type the prompt manually to ensure there are no issues.
 
 ---
 
 Q: Why do I keep getting female results when I specify "male" in my prompt?
+
 MJ has certain styles and archetypes strongly associated with females. To counter this, be very descriptive about the masculine traits and details you want to see. You may also want to specify an archetype strongly associated with males, like "action hero". Using image references of males can further help guide MJ.
 
 ---
 
 Q: How do I recover or find my old prompts and images?
+
 Your generated images and prompts are saved to your web gallery at midjourney.com. Log in with your Discord account to access your full history of creations. If images are missing or not loading, the site may be experiencing high demand. Try again later.
 
 ---
 
 Q: How do I get help with my prompts?
+
 The #prompts channel <#992207085146222713> on the Midjourney Discord is dedicated to helping users improve their prompts. Explain your prompt and desired result, and the community can provide feedback.
 
 ---
 
 Q: My prompt isn't generating the image I want. How can I improve it?
+
 The members in <#992207085146222713> are experts in crafting prompts and can help you refine yours to get better results.
 
 ---
 
 Q: How do I see my images or past prompts?
+
 Go to https://www.midjourney.com/app/ to view your gallery and see all past prompts and images.
 
 ---
 
 Q: How much access do Pro members have to private prompts and uploaded images?
+
 Pro members have access to stealth mode which allows private prompts and uploaded images to remain unseen by the public. Images generated in stealth mode on private Discord servers or in DMs with the bot will not appear on the Midjourney website or in public Discord channels.
 
 ---
 
 Q: How do I write a prompt with multiple reference images?
+
 To use multiple reference images in your Midjourney prompt, include the links to each image, followed by your text prompt: 
  https://link1.jpg
  https://link2.png
@@ -2840,6 +3129,7 @@ To use multiple reference images in your Midjourney prompt, include the links to
 ---
 
 Q: How do I include an artist's style in my prompt?
+
 You can include an artist's style in your prompt using: 
  - In the style of [artist name]
  - Designed by [artist name]
@@ -2850,11 +3140,13 @@ You can include an artist's style in your prompt using:
 ---
 
 Q: How do I specify a color in my prompt?
+
 You cannot use hex color codes in Midjourney. Use descriptive color names like "blue" or "forest green" in your prompt.
 
 ---
 
 Q: How do I pass multiple images to my prompt?
+
 You can pass multiple images to your prompt by including the image links at the beginning of your prompt, with a space between each link. For example: 
  `/imagine https://example.com/image1.jpg https://example.com/image2.jpg prompt describing the images`
  Midjourney will use these images as references to generate new variations. Be sure to also include a text prompt describing what you want in the image.
@@ -2862,237 +3154,284 @@ You can pass multiple images to your prompt by including the image links at the 
 ---
 
 Q: How do I get facial features like eyes early in the prompt?
+
 Specifically mention the facial features at the beginning of the prompt, e.g. "white male with green eyes and messy hair". Put the most important attributes first.
 
 ---
 
 Q: How many reference images can I include in my prompt?
+
 You can include up to 8 reference image URLs in your prompt. However, using too many reference images can reduce Midjourney's creativity.
 
 ---
 
 Q: How do I upload a reference image to base my prompt on?
+
 You can upload an image to your Midjourney account or host it externally. Then, paste the image URL at the beginning of your prompt.
 
 ---
 
 Q: How do I get the AI to stay true to an image prompt?
+
 Use high image weights, blending, or describing the image in your prompt. Image weights (e.g. --iw 2) tell the AI to weigh the image reference heavily. Blending combines two images. Describing the image in your prompt gives the AI more details about the image.
 
 ---
 
 Q: How do I get the model to match my prompt? It keeps drawing something else.
+
 Keep your prompt simple and direct. Focus on describing what you want to see rather than what it actually is. The prompts aspects that comes first are weighted more heavily, so place important elements up front.
 
 ---
 
 Q: How do I apply different image weights to different image prompts?
+
 You can't apply multiple image weights in a single prompt. Image weight, specified by --iw, applies to all image references in the prompt. To achieve different weights, you'll need to run separate prompts for each image reference.
 
 ---
 
 Q: How do I create a consistent style across multiple prompts?
+
 Include specific style keywords, artist names, and descriptions in all of your prompts to achieve a consistent style. For example, include terms like "impressionism", "watercolor", "Monet" in multiple prompts. The more details you provide, the more consistent the style will be.
 
 ---
 
 Q: How do I generate a prompt for an avatar/character?
+
 Use descriptive words to generate a character portrait. For example: 
  /imagine a sorcerer with pale blue skin and white hair sitting in a dimly lit tavern
 
 ---
 
 Q: Hello what command do I use for it to type and specific words that I say
+
 Midjourney does not have a command for generating specific text. It is not able to produce exact text.
 
 ---
 
 Q: How do I create an image with multiple weighted prompts?
+
 Use double colons :: to separate weighted prompts, e.g. "cat ::1.5, dog ::0.5". There should be no space between the :: and the number.
 
 ---
 
 Q: How do I get inspiration for prompts?
+
 Check out the content on the Midjourney website or browse the public gallery for ideas. You can also try the /describe feature on images you find interesting to get prompt suggestions.
 
 ---
 
 Q: How do I prompt the bot to use one of my own images?
+
 You can copy the image URL or embed the image in Discord. Paste the URL at the beginning of your text prompt followed by a space. Describe what you want the image to look like.
 
 ---
 
 Q: How do I make the AI forget my previous prompt?
+
 The AI does not actually remember your previous prompts. For each new prompt, it generates a new image from scratch based on your current prompt. However, if your new prompt is very similar to a previous one, you may get similar results. To get more varied results, try changing more details in your prompt or using the "Re-roll" button.
 
 ---
 
 Q: Why do I keep getting captchas when generating images?
+
 The captcha system is new and still being optimized. Captchas are meant to prevent abuse from automated systems and may appear too frequently for some users. The team is working to improve the system and reduce captchas for regular users.
 
 ---
 
 Q: Why do I keep getting asked if I'm human?
+
 The captcha system is still being tuned to appear less frequently. For now, just solve the captcha when it appears.
 
 ---
 
 Q: Why are there extra parts (limbs, tails) on some of my images?
+
 The AI still struggles with anatomy and realism in some generations. The pros at <#992207085146222713> may have tips for improving your prompts to minimize unwanted artifacts.
 
 ---
 
 Q: Why do I have a watermark on my image?
+
 Watermarks are added randomly by the AI and are not actually part of your prompt. You can add --no watermark to your prompt to prevent watermarks from appearing.
 
 ---
 
 Q: Why do my images contain random text?
+
 The AI generates text to match the style of images it has seen, but it does not actually understand language. Use --no text at the end of your prompt to avoid generating text.
 
 ---
 
 Q: Why do I have to click "Allow" every time I generate multiple images?
+
 The "Allow" prompt appears when you generate many images at once to prevent overuse. There is currently no way to disable this prompt.
 
 ---
 
 Q: Why are my images coming out in a different size than expected?
+
 You may be using an older version of Midjourney that does not support the image size you want. Upgrading to the latest version is recommended. You can also use an external upscaling service.
 
 ---
 
 Q: Why are my generation results poor quality or inaccurate?
+
 This is often caused by issues with your prompt. Share your prompt and results in #prompt-help and members can help refine your prompt to get better results.
 
 ---
 
 Q: Why do my variations all look the same?
+
 The variations feature produces images that are slightly different from each other. For more dramatic changes, use the chaos feature by adding --c (value from 0-100) to your prompt.
 
 ---
 
 Q: Why do I keep getting the same results when generating new images?
+
 You likely need to provide Midjourney with more details and instructions in your prompt. Be very specific about what you want to see in the image. Midjourney relies heavily on the information you provide.
 
 ---
 
 Q: Why can't I get the AI to replicate an exact image or object?
+
 Midjourney is designed to generate new unique images, not directly copy or replicate an existing image. It can take a reference image as inspiration, but the output will always be a new creation.
 
 ---
 
 Q: Why does the AI keep generating the same or similar results over and over?
+
 The AI generates images based on your prompt. If you use the same or similar prompts, it will continue generating the same or similar results. To get more variety, try different prompts with different wording, references, and styles.
 
 ---
 
 Q: Why does the AI keep putting text or weird symbols in my images?
+
 Midjourney was trained on a dataset with a lot of samples including text. To avoid text, add "--no text" or "--no words" to your prompt.
 
 ---
 
 Q: Why do I keep getting kids in my images when I don't specify them?
+
 You may have used terms like "cute" or "adorable" in your prompt which Midjourney associates more with children. Try removing those terms or being more specific in describing the subject you actually want.
 
 ---
 
 Q: Why do I keep getting the same elements like sneakers in unrelated images?
+
 Midjourney associates certain objects, words or concepts together based on its training data. For example, it may have learned to associate the color pink with shoes. To avoid unwanted associations, be very specific in your prompts and provide details about exactly what you want to see. You can also try using `--no [element]` to negatively prompt against things you don't want.
 
 ---
 
 Q: Why do I keep getting the same kinds of images?
+
 Midjourney is trained on existing images, so it is limited to what it has seen before. Be very specific in your prompts and provide reference images to guide the AI. Repeat key terms and concepts to reinforce what you want to see.
 
 ---
 
 Q: Why do I keep getting cartoony results when I want photorealism?
+
 Start your prompt with "photograph of" to get more photorealistic results.
 
 ---
 
 Q: Why do I keep getting distorted or disfigured results?
+
 MJ is trained on a limited dataset and struggles with some subjects like anatomy, curves, and complex shapes. Remove overly detailed descriptions from your prompt and keep it simple. You may need to do some retouching to your images. Use the /describe tool to help build your prompt.
 
 ---
 
 Q: Why do I keep getting unwanted text or words in my image?
+
 The language in your prompt may be confusing Midjourney or triggering unwanted text. Try rewording your prompt to be more direct and concise. You can also add "--no text" to your prompt to remove unwanted text.
 
 ---
 
 Q: Why do my images not resemble the image I uploaded?
+
 Midjourney does not copy images exactly. It uses your uploaded image and prompt as inspiration to create something new. The output will not look exactly like your input image.
 
 ---
 
 Q: Why are my upscales looking different than the parent?
+
 Upscales in V4 will modify the image slightly. Upscales in V5 will look the same as the parent image.
 
 ---
 
 Q: Why do I see a grid or watermark-like pattern in my image?
+
 This can happen when training images used by MJ had similar watermarks or grids. To avoid this, use “--no watermark” in your prompt.
 
 ---
 
 Q: Why can't I get an exact copy of an image I provide as reference?
+
 Midjourney is designed to create new images inspired by your prompts and references. It cannot make an exact copy of an input image.
 
 ---
 
 Q: Why do I keep getting the same image when I use a seed?
+
 Seeds randomly generate noise that Midjourney uses as a starting point. If you use the same seed and prompt, you'll get similar results. Change your prompt significantly to get different images from the same seed.
 
 ---
 
 Q: Why do I get split or divided images instead of a single image?
+
 Words like "comic", "split screen" or "panels" in your prompt can trigger split images. Remove these words or add "--no split screen" to your prompt.
 
 ---
 
 Q: Why do I get strange artifacts or extra limbs in my images?
+
 MJ has no sense of anatomy or correctness. It associates words and phrases to visual styles, but can't guarantee accuracy. To avoid extra limbs or artifacts, focus your prompt on the specific pose, action or body part you want to see. The more specific you are, the less room for error.
 
 ---
 
 Q: Why do I keep getting the same generic face in my Midjourney images?
+
 Midjourney may default to generic faces if you do not provide enough facial details in your prompt. Be sure to describe key facial features like eye shape and color, nose shape, lip shape, face shape, etc. You can also describe a specific person as a reference to help guide Midjourney. The more details the better.
 
 ---
 
 Q: Why do I keep getting split screen or comic panel images?
+
 Words like "comic", "panel", or "split screen" in your prompt may trigger this. Remove them or add "--no split screen".
 
 ---
 
 Q: Why do I keep getting pictures of people instead of what I'm actually trying to generate?
+
 This usually happens when your prompt is too vague or broad. MJ will default to a generic subject like a person. You need to be more specific in your prompt by describing exactly what you want to see. Include more details about the subject, style, environment, mood, etc. The more specific your prompt is, the less likely MJ is to default to a generic subject.
 
 ---
 
 Q: Why isn't my seed producing the same result?
+
 Seeds only produce the exact same result if the prompt is identical. Any changes to the prompt, even small ones, can produce a very different result even with the same seed. Midjourney also uses a different process for the initial image generation versus re-generating an image, which can impact results.
 
 ---
 
 Q: Why do I keep getting images with "watermark" on them?
+
 MJ's training data includes many stock photos, so it will sometimes generate these in its images. There's no surefire way to avoid this, but adding "--no watermark" to the end of your prompt may help reduce them.
 
 ---
 
 Q: Why do I keep getting the same result when rerolling?
+
 Your prompt may be too specific, not leaving room for much variation. Try making your prompt more open-ended or increasing the chaos/randomness. You can also try changing or removing parts of the prompt to get different results.
 
 ---
 
 Q: Why don't my uploaded images look the same in the result?
+
 Midjourney always creates a new image and does not edit or filter your uploaded images. It uses the image as inspiration and for reference, but the result will be an entirely new creation.
 
 ---
 
 Q: How do I contact customer support?
+
 To contact Midjourney customer support: 
  • For billing and subscription issues: Email billing@midjourney.com
  • For all other support questions: Post your question in the #member-support channel on Discord. A staff member will help assist you.
@@ -3100,31 +3439,37 @@ To contact Midjourney customer support:
 ---
 
 Q: Where can I report issues or suggest features?
+
 Report issues to #1100553646162317332 and suggest features in #989270517401911316.
 
 ---
 
 Q: I can't sign in to the website. What should I do?
+
 Try clearing your browser's cache and cookies. If that doesn't work, try using an incognito/private browsing window or a different browser. You can also try this alternate sign-in link: https://www.midjourney.com/auth/signin/
 
 ---
 
 Q: Why can't I log in to my account?
+
 If you receive a "sign-in error" this is usually temporary. Try clearing your browser's cache and cookies and retry logging in. If the issue persists, the developers are likely working to resolve a login issue. Check #status for updates.
 
 ---
 
 Q: I have a paid plan but I don't have access to private mode. How do I enable it?
+
 Private/Stealth mode is only available for Pro plan members.
 
 ---
 
 Q: How do I switch from Version 5 to Version 4?
+
 You can switch versions in /settings or by adding --v 4 to the end of your prompt.
 
 ---
 
 Q: Why don't I have a "Cancel Plan" option?
+
 If you do not see a "Cancel Plan" option, try: 
  1. Logging in with the correct Discord account
  2. Clearing your browser's cache and cookies
@@ -3135,228 +3480,273 @@ If you do not see a "Cancel Plan" option, try:
 ---
 
 Q: Why can't I access private mode?
+
 Private mode is only available for Pro plan subscribers. To access private mode, you will need to upgrade your subscription.
 
 ---
 
 Q: I can't log in or access my account on the website, how can I fix this?
+
 Try clearing your cache and cookies, using an incognito/private browser window, or a different browser altogether. If that doesn't work, use this link to log in: 
  https://www.midjourney.com/auth/signin/
 
 ---
 
 Q: Why can’t I access my account or member perks?
+
 Make sure you have an active subscription. Check your subscription status with /info. If it shows inactive, check your email for an invoice or payment unsuccessful notice. Contact billing@midjourney.com for help.
 
 ---
 
 Q: I can't find the setting for Stealth mode. Where is it?
+
 Stealth mode is only available for Pro subscribers. Go to https://www.midjourney.com/account/ and select "Pro" under "Subscription" to access Stealth mode.
 
 ---
 
 Q: I cannot cancel my plan or access my account, how do I fix this?
+
 Try canceling your plan at this link: https://www.midjourney.com/account/ If that does not work, email billing@midjourney.com with your account details and issue.
 
 ---
 
 Q: How do I work in DMs (direct messages) with the bot?
+
 To work in DMs, right-click the bot's name (<@936929561302675456>) and select "Message". This will open a private DM channel where you can prompt the bot. Images generated in DMs will not disappear.
 
 ---
 
 Q: I lost access to my private bot channel. How do I restore it?
+
 Right click on the Midjourney bot and select "Message" to open a new private channel. Your previous private channel may still be accessible from your list of direct messages.
 
 ---
 
 Q: Why don't I have access to Relax mode?
+
 Relax mode requires a Standard or Pro subscription.
 
 ---
 
 Q: How do I enable v5.1?
+
 Use /settings to select "Midjourney v5.1".
 
 ---
 
 Q: How do I invite the bot to my server?
+
 Go to https://docs.midjourney.com/docs/invite-the-bot for instructions on inviting the Midjourney bot to your Discord server.
 
 ---
 
 Q: How do I enable/disable stealth mode?
+
 You can turn stealth mode on or off in /settings. Images generated before enabling stealth mode will remain public.
 
 ---
 
 Q: Can I share access to my personal server?
+
 No, subscriptions are individual. Each user will need their own subscription to generate images.
 
 ---
 
 Q: How do I find my invoice number?
+
 Your invoice number will be included in the email receipt you received when you subscribed or made a purchase.
 
 ---
 
 Q: How do I get help from a moderator or support member?
+
 You can post your question in #958069758211797092 and a moderator or support member will assist you as soon as possible. Do not ping staff members directly.
 
 ---
 
 Q: How do I view my gallery/archive?
+
 You can view your gallery at https://www.midjourney.com/app/
 
 ---
 
 Q: Where can I find a list of commands?
+
 You can find a list of commands at https://docs.midjourney.com/docs/parameter-list
 
 ---
 
 Q: I can't log in to the website.
+
 Try https://www.midjourney.com/auth/signin/ in incognito mode or a different browser. Clear cache and cookies. If still issues, contact support.
 
 ---
 
 Q: Can I re-enable /disable private mode?
+
 Use the /private or /public commands to toggle between visibility modes.
 
 ---
 
 Q: I can't log in to the website. I get an "OAuthCallback" error.
+
 Try clearing your browser's cache and cookies and using a different browser like Chrome. If that doesn't work, try this link: https://www.midjourney.com/auth/signin/
 
 ---
 
 Q: How do I get access to the alpha site?
+
 You'll need to generate over 10,000 images to get access to early testing features.
 
 ---
 
 Q: Why can't I access the 10000 club channel?
+
 Type /info in the chat to refresh your roles. The 10000 club channel will appear once you have generated over 10000 images.
 
 ---
 
 Q: How do I get my collections back?
+
 Collections are unavailable at the moment and are being worked on. When they return, images will be added to collections from prompts again.
 
 ---
 
 Q: How do I access the 10K Club channel?
+
 If you’ve generated over 10,000 images, run /info in any channel to have your roles updated, then the channel will appear.
 
 ---
 
 Q: Why can't I access certain features like Collections or change my profile picture?
+
 Some website features are currently disabled or broken. Midjourney recently hired a new web team to overhaul the site. These issues should be resolved in the site redesign.
 
 ---
 
 Q: Where can I find the rules/terms of service?
+
 The rules and terms of service can be found at https://docs.midjourney.com/docs/terms-of-service and https://docs.midjourney.com/docs/en/community-guidelines
 
 ---
 
 Q: How do I find my renewal date?
+
 You can check your renewal date by using the /info command.
 
 ---
 
 Q: How do I create a private space or server to work in?
+
 Create your own Discord server and invite the Midjourney bot. This will allow you to generate images in your own private server. See the documentation for details on inviting the bot: 
  https://docs.midjourney.com/docs/invite-the-bot
 
 ---
 
 Q: How do I contact the billing support team?
+
 Email billing@midjourney.com with your issue and latest invoice number. Allow up to 7 business days for a response.
 
 ---
 
 Q: Why can't I access beta upscale or light upscale?
+
 It's only available for v4 and v5.1 is the new default model. v5 does not have its own additional upscaler yet, you can use an external upscaling service or switch back to v4 in /settings if you prefer
 
 ---
 
 Q: How do I work privately?
+
 DM the bot directly or create your own Discord server and invite the bot. Images will still be public on the gallery unless you have Stealth Mode.
 
 ---
 
 Q: How do I access my private channel or start a DM with the bot?
+
 As a subscriber, you can generate your images directly to DM by starting a new conversation with the MJ bot.
 
 ---
 
 Q: I upgraded my plan but don't have access. Why not?
+
 Upgrades can take time to process. Double check your email for an invoice confirming the upgrade. If after 24 hours you still don't have access, contact billing@midjourney.com.
 
 ---
 
 Q: How do I change my email for billing?
+
 Email billing@midjourney.com with your request to change the email, providing relevant account details and invoice numbers.
 
 ---
 
 Q: How do I share my account with someone else?
+
 You cannot share your account or GPU time with another user. Each user must have their own subscription.
 
 ---
 
 Q: Why can’t I access Relaxed Mode on the Basic plan?
+
 Relaxed Mode is only available for Standard and Pro plan subscribers. The Basic plan includes Fast Mode generation only.
 
 ---
 
 Q: How do I prevent parameters from my /settings from applying?
+
 Add the parameter to your actual prompt. For example, if your settings default to "--s 500" and you want "--s 1000" for a specific prompt, include "--s 1000" in that prompt.
 
 ---
 
 Q: How do I get a refund for an accidental charge?
+
 Email billing@midjourney.com with details of the accidental charge and your latest invoice number.
 
 ---
 
 Q: I was charged multiple times. How do I get a refund?
+
 Contact billing@midjourney.com with all relevant invoice numbers and your Discord ID. They can process a refund.
 
 ---
 
 Q: I'm trying to upgrade my plan but keep getting card declined. Help!
+
 Double check that the billing info entered matches your card exactly. Contact your bank to ensure they're not blocking the charge. Try using a different card. If issues continue, contact billing@midjourney.com.
 
 ---
 
 Q: How do I change my credit card for billing?
+
 Go to <https://billing.stripe.com/p/login/aEUdRA5Wc8t25a03cc> to update your billing details and payment method.
 
 ---
 
 Q: Why do I have excess charges on my account?
+
 This can happen due to a failed first payment attempt. The charges are temporary authorizations and will be returned to you within a few business days. If they do not drop off, contact billing@midjourney.com.
 
 ---
 
 Q: How do I change my payment method?
+
 You can change your payment method at https://www.midjourney.com/account/ under "Billing and Invoice Details". Select "Edit Billing Info" to update your payment method.
 
 ---
 
 Q: How do I get a refund if I can't cancel online?
+
 If you are unable to cancel online, email billing@midjourney.com to request a refund. Provide your invoice number, username and any details about your issue. The billing team will process your refund request.
 
 ---
 
 Q: Why can't I change my billing details?
+
 You likely need to update your billing details via this link: https://billing.stripe.com/p/login/aEUdRA5Wc8t25a03cc. Log in with the email tied to your Midjourney subscription.
 
 ---
 
 Q: Why was my card declined after trying to subscribe or purchase extra hours?
+
 There are a few common reasons for card declines: 
  1. Information entered doesn’t match card details - Make sure your name, address, zip code match your card
  2. Your bank has flagged the transaction - Contact your bank to approve the transaction
@@ -3365,26 +3755,31 @@ There are a few common reasons for card declines:
 ---
 
 Q: How do I see all my past generations?
+
 Go to https://www.midjourney.com/app/ and select "All" to see all your past generations. You can also view generations from a specific day by clicking the date.
 
 ---
 
 Q: How do I get the subject to look directly at the viewer?
+
 Use phrases like "looking at the camera" or "facing the viewer".
 
 ---
 
 Q: How do I install the InsightFaceSwap bot?
+
 The InsightFaceSwap bot is not related to Midjourney. Midjourney is an AI that generates images from text prompts.
 
 ---
 
 Q: How do I zoom out to show a subject's full body?
+
 Add "full body view" or "entire [subject]" at the beginning of your prompt. Describe the subject's clothing and environment to give Midjourney more context. Zooming out can be difficult, so you may need to experiment with different prompts.
 
 ---
 
 Q: How do I get a really close version of myself in AI art?
+
 To get AI art that resembles yourself closely: 
  - Use multiple selfie image references in your prompt
  - Set a high image weight (--iw 2) to give more influence to your image references
@@ -3395,21 +3790,25 @@ To get AI art that resembles yourself closely:
 ---
 
 Q: How do I avoid getting a character's head cut off?
+
 Use a taller aspect ratio like --ar 7:5 and add "full body" to your prompt.
 
 ---
 
 Q: How do I get inspiration?
+
 You can find inspiration from the Midjourney explore page, image prompts, and conversations with other users.
 
 ---
 
 Q: How do I get a wide angle or full body shot?
+
 Add "full body shot", "full length", or "wide angle" near the beginning of your prompt.
 
 ---
 
 Q: How do I get more varied facial expressions?
+
 To get more varied facial expressions, try describing the mood or emotion you want to convey, for example: 
  Happy laughing sad angry pensive confused sultry seductive confidence scared
  You can also try using /describe on images of expressions you want and incorporate those words into your prompt.
@@ -3417,41 +3816,49 @@ To get more varied facial expressions, try describing the mood or emotion you wa
 ---
 
 Q: How do I generate a portrait of someone who is afraid or fearful?
+
 To generate a fearful facial expression, include descriptors like "fearful gaze", "worried eyes", or "apprehensive". You may also want to describe a fearful pose or context to help convey the emotion.
 
 ---
 
 Q: How do I get a character in a kneeling position?
+
 Try "seiza kneeling" or "praying" in your prompt. You may need to reroll several times.
 
 ---
 
 Q: How do I describe relative positions of objects?
+
 Be as specific as possible in describing positions, e.g. "basil leaves with dewdrops are lying on top of a mound of tzatziki in a glass bowl on a wooden table". However, MJ may still reinterpret the composition. You can try photobashing a mock-up to provide more direction.
 
 ---
 
 Q: How do I specify a pose or camera angle?
+
 Include descriptions like "closeup", "portrait", "full body", "wide angle", or "left of frame" at the beginning of your prompt. For example, `closeup of a wizard casting a spell, dramatic lighting, fantasy style`
 
 ---
 
 Q: How do I get the bot to generate a specific word?
+
 Midjourney cannot generate exact text. It is designed to create images, not text. You will need to add any text in a separate graphics editor.
 
 ---
 
 Q: How do I generate a side view of a subject?
+
 Include "side view" or "profile view" in your prompt.
 
 ---
 
 Q: How do I get a catfish and not a cat-fish hybrid?
+
 Be very specific in describing a catfish, e.g. "a brown bullhead catfish with barbels around its mouth, resting on a riverbed". Avoid mentioning cats. You may also want to search for image references of catfish to include.
 
 ---
 
 Q: Why is the AI struggling with certain body positions like kneeling?
+
 The AI has limited data on some poses and positions, so it has trouble generating them. You may need to be very specific in your prompt, provide references images, and try re-rolling the prompt multiple times to get the position you want. Some tips: 
  - Say "kneeling" rather than "on knees"
  - Specify the surface, e.g. "kneeling on tatami mat"
@@ -3462,61 +3869,73 @@ The AI has limited data on some poses and positions, so it has trouble generatin
 ---
 
 Q: How do I get a character to look at their forearm?
+
 You can try prompts like "checks his watch" or describe the action, e.g. "looking down at his forearm". However, getting characters into specific poses can be challenging.
 
 ---
 
 Q: How do I get a fur coat?
+
 Describe the coat in your prompt, e.g. "wearing a fur coat" or "dressed in a fur coat". Make sure to specify the material, e.g. "fox fur coat".
 
 ---
 
 Q: How do I get brighter lighting or change the camera angle?
+
 Use "bright daylight", "dramatic lighting", "closeup shot", "low angle" or "high angle". Specifying the light source, like "sunlight" or "spotlight" can also help.
 
 ---
 
 Q: How do I get a character to face the camera?
+
 Use phrases like "looking at camera" or "making eye contact with viewer" in your prompt.
 
 ---
 
 Q: How do I get a side view of a character rather than a 3/4 view?
+
 Using “profile view” or “side view” in your prompt may help. Also describing what the character is standing on and their surroundings can provide more context for Midjourney to generate a side view.
 
 ---
 
 Q: How do I get a metal dragon?
+
 Include the word "metal" or "metallic" in your prompt to specify you want a metal dragon. You may also want to include words like "steel" or "titanium". Without specific descriptors, Midjourney will default to a standard flesh and blood dragon.
 
 ---
 
 Q: How do I get giant characters or objects?
+
 Use words like "huge", "enormous", "gigantic", or "massive" in your prompt to specify you want an upscaled character or object. This signals to Midjourney that the subject should be much larger than normal.
 
 ---
 
 Q: How do I generate a specific object e.g. frog on skull?
+
 Provide very specific details and references. For example, "illustration of a frog sitting on top of a human skull". Be prepared to try multiple prompts and do some editing. Consistent objects are hard for AI to generate.
 
 ---
 
 Q: How do I get the subject to face the camera?
+
 Include "looking at the camera" or "facing the viewer" in your prompt.
 
 ---
 
 Q: How do I get the seed?
+
 To get the seed for an image, react to the image using the envelope emoji (✉️). The Midjourney bot will then DM you the details for that image, including the seed.
 
 ---
 
 Q: How do I generate fantasy creatures?
+
 Use references like "mythical", "fantastical" or creature names from mythology and fantasy works. For example, "centaur", "pegasus", "griffin". You may need to experiment with different words to find what works.
 
 ---
 
 Q: How do I get the AI to understand what I want?
+
 To help the AI understand what you want in an image, try the following: 
  - Keep your prompts short, direct and concise. Describe what you see, not what something is.
  - Place the most important elements of your prompt at the beginning. The AI prioritizes the first parts of the prompt.
@@ -3528,36 +3947,43 @@ To help the AI understand what you want in an image, try the following:
 ---
 
 Q: How do I get a realistic version of my face? I uploaded some photos a while ago but the results were nothing like me.
+
 Midjourney does not generate exact copies or replicas. It uses your input images as references to create new images. You will not get an exact likeness of yourself, your loved ones, objects, characters, pets or celebrities. The more specific details you provide in your prompt about the subject's characteristics, the more influence it may have.
 
 ---
 
 Q: How do I get accurate details for real-world objects like instruments?
+
 Midjourney has limited ability to generate highly accurate details for complex real-world objects. It was trained on a general dataset and does not have specialized knowledge of most objects. The results will often be unrealistic or inaccurate.
 
 ---
 
 Q: How do I get my character to have long hair?
+
 To specify long hair in your prompt, include terms like "long hair" or "with long flowing hair" at the beginning of your prompt. The elements at the start of your prompt have the highest priority, so placing these terms first will help Midjourney focus on long hair for your character.
 
 ---
 
 Q: How do I avoid getting boring, generic results?
+
 Be very specific in your prompts. Include details about colors, lighting, composition, mood, and style. You can also experiment with different model versions and the --s (stylize) parameter. Higher --s values may produce more interesting results, but lower values give you more control.
 
 ---
 
 Q: How do I do a portrait or get a subject facing the camera?
+
 Use "portrait" or "facing the camera/viewer" in your prompt.
 
 ---
 
 Q: Can I use images created by Midjourney commercially?
+
 As a paying member, you have commercial rights to images you generate. You have no rights over images generated by other users. See the full Terms of Service for details: https://docs.midjourney.com/docs/terms-of-service#4-copyright-and-trademark.
 
 ---
 
 Q: How do I upload an image to use in Midjourney?
+
 To use an image in Midjourney, follow these steps: 
  1. Send the image as a message to the Midjourney bot <@936929561302675456>. You must send the image before interacting with it.
  2. Right-click the image and select "Copy Link" (not "Copy Message Link")
@@ -3569,16 +3995,19 @@ To use an image in Midjourney, follow these steps:
 ---
 
 Q: How do I submit image prompts to Midjourney?
+
 You need to upload the image and send it as a message, then use the link that ends in .png or .jpg in your prompt. On desktop, right click and select "Copy Link". On mobile, tap and hold then select "Copy Media Link".
 
 ---
 
 Q: How do I get Midjourney to generate symmetry or line up features in an image?
+
 Midjourney has trouble precisely aligning features or creating perfect symmetry. You can try using "symmetry" in your prompt, but the results may still be imperfect. For the best results, you can make final edits in an image editing tool.
 
 ---
 
 Q: How do I use an image as a reference or baseline in Midjourney?
+
 To use an image as a reference in Midjourney, include the link to your image at the beginning of your prompt, followed by a textual description. For example: 
  https://link.to/image
  A woman swimming in a lake during sunset.
@@ -3587,21 +4016,25 @@ To use an image as a reference in Midjourney, include the link to your image at 
 ---
 
 Q: What is RAW mode in Midjourney?
+
 RAW mode, specified with the --style raw parameter, tells Midjourney to be less opinionated in how it interprets your prompt. It will generate an image more literally based on your prompt without as much of its own stylistic flair. The results may be simpler but will follow your prompt more closely.
 
 ---
 
 Q: How do I get Midjourney to create a specific character accurately?
+
 Midjourney cannot create an exact likeness of a character. It will generate images that are roughly inspired by the prompt. To get closer, provide detailed description and reference images.
 
 ---
 
 Q: How do I get Midjourney to generate a specific subject (person, object) exactly as in a reference photo?
+
 Midjourney does not simply filter reference images. It reinterprets them to create new images. You may get closer by providing multiple reference images, but the output will never perfectly match your references. For precise edits, use Photoshop or another image editor.
 
 ---
 
 Q: How do I blend two images together in Midjourney?
+
 You can use the /blend function in Midjourney to blend two images together. To use /blend: 
  1. Generate two images using /imagine
  2. Click on the first image and select "Blend"
@@ -3612,46 +4045,55 @@ You can use the /blend function in Midjourney to blend two images together. To u
 ---
 
 Q: How do I get Midjourney to generate images with specific colors?
+
 You can specify colors in your prompt using the real names of colors e.g. "orange and purple". You can also add a reference image with a specific color palette and Midjourney will use those colors.
 
 ---
 
 Q: How do I get Midjourney to generate a full-length image instead of cropping the subject?
+
 Start your prompt with "full body view of" followed by your subject description. Also specify the subject's relationship to the background/environment. For example, "full body view of a woman standing in a forest clearing".
 
 ---
 
 Q: How do I get Midjourney to avoid including certain objects or elements in my images?
+
 Use "--no" followed by the objects/elements you want to avoid. For example, "--no windows" or "--no streetlights".
 
 ---
 
 Q: How do I get Midjourney to give me an exact likeness or copy my input photo?
+
 Midjourney does not produce exact copies or likenesses. It uses input images and text prompts as inspiration to create new images. The output will always be a reimagined version of the input, not an exact clone or edit.
 
 ---
 
 Q: How do I get Midjourney to use an uploaded image as a reference without changing it significantly?
+
 You can't. Midjourney always creates a new image and does not copy the reference image exactly. The closer the subject is to archetypes in Midjourney's training data, the more similar the result may be. Adjust the prompt and image weight to get the best result.
 
 ---
 
 Q: How do I remove something from an image Midjourney generated?
+
 You can't. Midjourney creates new images from scratch and does not provide tools to edit existing images. Use Photoshop or another image editor to modify the image.
 
 ---
 
 Q: How do I get Midjourney to understand what a "mockup" is?
+
 Midjourney does not actually understand the concept of a mockup. You will need to describe the specific image you want to see and then add mockup elements manually using image editing software.
 
 ---
 
 Q: Can I get Midjourney to create the same character in different scenes?
+
 It is difficult for Midjourney to generate the exact same character across different images. However, you can use image references and detailed text descriptions to create similar characters. Include characteristic details about the character's appearance, expression, pose, clothing, etc. in your prompt. Using image references of the character in different poses/scenes can also help. With enough tweaking and rerolling, you may get close to generating the same character.
 
 ---
 
 Q: How do I make a logo with text using Midjourney?
+
 It is difficult to get Midjourney to generate accurate text and logos. Midjourney does not have a strong understanding of typography or lettering. Some tips to try: 
  • Focus on one or two letters at a time, and combine them in an image editing tool. Midjourney may get short snippets of text (2-4 characters) correct, but struggles with longer phrases.
  • Use a text generator like Microsoft Designer to add stylized text on top of your Midjourney-generated base image.
@@ -3662,51 +4104,61 @@ It is difficult to get Midjourney to generate accurate text and logos. Midjourne
 ---
 
 Q: How do I delete unwanted images from my Midjourney session?
+
 You can delete images from your Midjourney session by reacting to the completed image with the X emoji ❌. This will remove it from your DM and also from the midjourney.com gallery.
 
 ---
 
 Q: How can I get Midjourney to recognize a brand new object, like a new product?
+
 Midjourney's knowledge comes from its training data, so it likely does not have information about very new objects or products. You can try using an image reference of the new object in your prompt along with a description to provide more context for Midjourney. However, it may still struggle to generate accurate images of unfamiliar objects.
 
 ---
 
 Q: How do I get Midjourney to replicate the lighting or colors of my reference image?
+
 Midjourney can't directly replicate the lighting and colors of a reference image. You'll need to use an image editor like Photoshop to adjust the lighting and color to match your reference image.
 
 ---
 
 Q: How do I get Midjourney to generate specific text in my image?
+
 Midjourney struggles with generating specific text and letters. It's best to add text using an image editor after generating your image.
 
 ---
 
 Q: How do I create a character with multiple sets of arms in Midjourney?
+
 You can try using terms like "multi-limbed", "polymelia", or describe the number of arms the character has. For example, "six-armed warrior". You may need to experiment with different wordings to get the result you want.
 
 ---
 
 Q: How do I get Midjourney to create a seamless repeating pattern or tile?
+
 Add "--tile" to the end of your prompt. Remove extra keywords like "seamless" or "wallpaper" which can confuse the AI. The "--tile" parameter will automatically handle creating a seamless pattern.
 
 ---
 
 Q: How do I get realistic/photographic results in Midjourney?
+
 Use --v 5 and avoid terms like "realistic", "photorealistic", or "hyperrealistic" which indicate an art style. Instead, say "photograph of" followed by your prompt description.
 
 ---
 
 Q: How do I create animation with Midjourney?
+
 Midjourney itself does not generate animations. Some users have had success generating a sequence of images with Midjourney and then compiling them into an animation using third party tools like DaVinci Resolve or Adobe After Effects.
 
 ---
 
 Q: How do I get Midjourney to generate an image with a white background?
+
 Add "isolated on blank white" or "surrounded by negative space" to your prompt.
 
 ---
 
 Q: How do I get Midjourney to use a reference image for style only, without basing the image directly off of it?
+
 Include the reference image at the start of your prompt, followed by a description of what you want to see. For example, 
  `https://example.com/image.jpg
  A wizard casting a spell in an enchanted forest.`
@@ -3715,82 +4167,98 @@ Include the reference image at the start of your prompt, followed by a descripti
 ---
 
 Q: How do I get Midjourney to keep an uploaded reference photo unchanged?
+
 Midjourney will always reimagine input images. It does not function as a photo filter. For subtle edits while keeping a photo mostly intact, use an image editing tool like Photoshop.
 
 ---
 
 Q: How do I get full-body or wide shots from Midjourney?
+
 Use prompts like "full-body", "full length", "wide-angle shot", or specify the subject's relationship to the environment like "standing on the path". You can also use a wide aspect ratio like --ar 2:3.
 
 ---
 
 Q: How do I get Midjourney to generate images with extra white space?
+
 Add "isolated on white background" to your prompt.
 
 ---
 
 Q: How do I save transparent images in Midjourney?
+
 Midjourney cannot currently export transparent images or backgrounds. You will need to remove the background manually in a graphics editor like Photoshop. For the cleanest cutouts, prompt Midjourney to put your subject on a plain white or solid-color background.
 
 ---
 
 Q: How do I view my images on the Midjourney website?
+
 Go to midjourney.com/app and login to view your generated images and prompts.
 
 ---
 
 Q: How do I get Midjourney to generate a full body image instead of a close up?
+
 To generate a full body image, add "full body view" or "full length" to the beginning of your prompt. The more details you add about what is below the waist, the more likely you are to get a full body view. You may also need to adjust your aspect ratio to give the image more vertical space.
 
 ---
 
 Q: How do I prevent Midjourney from generating certain elements like borders or frames in an image?
+
 Use "--no" followed by the element you want to exclude, like "--no frame" "--no border." You can also try rephrasing your prompt to describe the image without mentioning the element.
 
 ---
 
 Q: How can I prompt Midjourney to fill in details for just part of an existing image?
+
 Midjourney does not have a feature to edit only part of an image. It will generate a completely new image based on your prompt and any image references you provide. The output may differ significantly from your input image. You may get better results using image editing software like Photoshop for more precise changes.
 
 ---
 
 Q: How do I get a side view or profile view in Midjourney?
+
 Use "side view" or "profile view" at the beginning of your prompt.
 
 ---
 
 Q: How do I get Midjourney to generate a real animal and not a hybrid?
+
 Be very specific in describing the animal, including details about its anatomy, characteristics, habitat, etc. For example, describe it as "a solitary freshwater catfish with whisker-like barbels and gray-brown scales, swimming in a lake". Avoid prompts that could generate hybrids like "cat and fish".
 
 ---
 
 Q: How do I get MidJourney to give me a side view or full body image?
+
 Include "full body" and specify a similar aspect ratio to your desired view at the beginning of your prompt, e.g. "--ar 3:4". Mention details like the color of the subject's shoes to give MidJourney more to work with. Avoid words like "portrait" which will result in a head and shoulders image.
 
 ---
 
 Q: How do I get Midjourney to stick closer to my image reference?
+
 Use --iw (image weight) followed by a value from 0 to 2. Higher values will make the result stick closer to your reference image. For example: 
  https://example.com/image.png a city landscape at night --iw 2
 
 ---
 
 Q: How do I get Midjourney to recognize a specific person in an image prompt?
+
 Describe the person and any unique features in your prompt. You can also try image prompts with similar-looking people to help guide Midjourney. However, Midjourney cannot generate exact copies of real people.
 
 ---
 
 Q: How do I get Midjourney to modify only part of an input image while keeping the rest the same?
+
 Midjourney does not currently support in/out painting or modifying specific parts of input images. It will create an entirely new image from your prompt and any image references.
 
 ---
 
 Q: How do I get Midjourney to zoom out and show more of the scene?
+
 Use terms like “wide-angle shot”, “distance shot”, “3 point perspective” in your prompt.
 
 ---
 
 Q: How do I get Midjourney to generate images in a specific style (e.g. Renaissance painting)?
+
 You can specify a style using phrases like: 
  - In the style of [artist name] (e.g. In the style of Michelangelo)
  - [Artist name] painting (e.g. Michelangelo painting)
@@ -3801,41 +4269,49 @@ You can specify a style using phrases like:
 ---
 
 Q: How do I get an exact copy of an image using Midjourney?
+
 Midjourney is designed to generate new creative images, not make exact copies. It uses image references as inspiration but will not directly copy the image.
 
 ---
 
 Q: How do I get Midjourney to generate based on a reference image?
+
 You can include a link to your reference image at the start of the prompt, followed by a description. For example: https://example.com/image.png, illustration of two characters in a dystopian cityscape
 
 ---
 
 Q: How can I get Midjourney to generate a specific animal or character?
+
 Be as descriptive as possible in your prompt. For animals, include the type of animal, e.g. “lion” or “eagle”. For characters, describe traits like hair, eye color, outfit details. Using image references of the animal or character can also help.
 
 ---
 
 Q: How do I prevent Midjourney from generating text in my images?
+
 Add --no text to the end of your prompt. You can also specify other text-related terms to exclude like --no signature, --no watermark.
 
 ---
 
 Q: How do I get Midjourney to maintain details from an input image?
+
 You can't - Midjourney generates new images and does not edit input images. However, you can feed the URL of your input image into your prompt to encourage Midjourney to generate a new image in a similar style. You can also increase the image weight (with --iw) to have Midjourney stay closer to your input image.
 
 ---
 
 Q: How do I get a 3D or spherical render? Midjourney only generates 2D images.
+
 Midjourney does not support 3D rendering or spherical maps. It is limited to 2D images. To create 3D assets or textures, you will need to use a 3D modeling and rendering tool.
 
 ---
 
 Q: How can I keep Midjourney from changing the subject in my images?
+
 Midjourney will always generate new images and cannot keep a subject exactly the same. However, you can make the subject more consistent by using an image reference, keeping your prompt concise, and reinforcing details by mentioning them again at the end of your prompt.
 
 ---
 
 Q: How do I make Midjourney use a specific style in the generation?
+
 Add style keywords at the beginning of your prompt, such as: 
  - In the style of...
  - Directed by...
@@ -3846,41 +4322,49 @@ Add style keywords at the beginning of your prompt, such as:
 ---
 
 Q: How do I get Midjourney to copy an image or recreate a likeness?
+
 Midjourney is designed to generate new images, not copy existing ones. It can come close with the right prompts and tuning but will not generate an exact copy or likeness.
 
 ---
 
 Q: How do I get Midjourney to generate simpler images with less detail?
+
 Use prompt terms like "minimalist", "line drawing", "vector style", or "flat illustration". For example, "minimalist line drawing of a cat".
 
 ---
 
 Q: How can I achieve a vintage illustration style in my images?
+
 Try using "vintage illustration" or similar keywords in your prompt.
 
 ---
 
 Q: How do I get a specific art style in my results?
+
 You can specify an art style by using phrases like "in the style of", "artist name style", or by describing the style with keywords like "painterly", "graphic", or "vector".
 
 ---
 
 Q: How do I make the bot create images of the style of a specific artist?
+
 Include the name of the artist in your prompt, for example: "in the style of Van Gogh" or "Van Gogh style".
 
 ---
 
 Q: How do I achieve a particular lighting style, e.g. dramatic?
+
 Include lighting keywords in your prompt such as "dramatic lighting", "chiaroscuro lighting", or "rim lighting". You can also refer to the lighting style of particular artists, e.g. "Rembrandt lighting".
 
 ---
 
 Q: How do I get cartoon or minimalistic images?
+
 Use style descriptors like "cartoon", "clipart", "minimalist", or "line drawing".
 
 ---
 
 Q: How can I achieve a painting or illustration style instead of a photorealistic style?
+
 Add styles you want to your prompt, e.g.: 
  -- "painting"
  -- "digital painting"
@@ -3892,11 +4376,13 @@ Add styles you want to your prompt, e.g.:
 ---
 
 Q: How do I get an image in a specific style like watercolor or vector?
+
 Mention the style explicitly in your prompt, e.g. "watercolor painting of..." or "vector illustration of...". Providing multiple references images in that style can also help.
 
 ---
 
 Q: How do I generate a consistent theme or art style?
+
 Include style descriptors in all of your prompts, such as: 
  - "impressionist landscape painting"
  - "vintage Hollywood glamour photography"
@@ -3906,16 +4392,19 @@ Include style descriptors in all of your prompts, such as:
 ---
 
 Q: How do I generate images in the style of a particular artist?
+
 Include the name of the artist in your prompt, such as "in the style of Salvador Dali" or "by Beatrix Potter". Midjourney has been exposed to many famous artists' styles, so this can be an effective technique for emulating a specific style.
 
 ---
 
 Q: How do I use an image as a reference or get the same style as an image?
+
 Paste the image URL at the beginning of your prompt. Then describe the elements from the image you want to keep. Use an image weight parameter like --iw 1.2 to determine how much the AI focuses on your image reference.
 
 ---
 
 Q: How do I get an anime style?
+
 Use the --niji parameter to get an anime style. For example: 
  --niji 5
  This will give you an anime-inspired style.
@@ -3923,16 +4412,19 @@ Use the --niji parameter to get an anime style. For example:
 ---
 
 Q: I used a prompt that generated an inappropriate image. Will I be banned?
+
 No, you will not be banned for this. Simply react to the image with ❌ to delete it. Repeated or intentional violations of the terms of service can lead to warnings or bans, however.
 
 ---
 
 Q: How do I make the background white?
+
 Add "isolated on white background" to the end of your prompt.
 
 ---
 
 Q: How do I check my subscription usage?
+
 You can check your subscription usage by typing `/info` in the Midjourney chat. This will show you your remaining GPU minutes and fast hours.
 
 ---
