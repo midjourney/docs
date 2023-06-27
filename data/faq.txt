@@ -195,7 +195,7 @@ Monthly hours do not rollover. So use your fast minutes each month or lose them.
 
 # -------------------- ------PERSONAL USE------ --------------------
 
-Q: Can I invite Midjourney to my server? Can I add this bot to another server? How to add Midjourney to a different server? Can I add the bot to my Discord server? Can I use the bot in my server? Can I get my own private channel? How do I get a private channel? Does a subscriber have its own private channel not viewed by the public? Will I have a private channel if I subscribe? Can I generate images in a private channel?
+Q: Can I invite Midjourney to my server? Can I add this bot to another server? How to add Midjourney to a different server? Can I add the bot to my Discord server? Can I use the bot in my server? Q: Can I get my own private channel? How do I get a private channel? Does a subscriber have its own private channel not viewed by the public? Will I have a private channel if I subscribe? Can I generate images in a private channel?
 
 Add the Bot to another server using [this guide](https://docs.midjourney.com/docs/invite-the-bot). 
 
@@ -339,7 +339,7 @@ You can confirm this status by running the `/info` command.
 
 :arrow_right: If you cannot find this email and you **do not have a magazine subscription tied to the same email as your Midjourney subscription,** please try to access your Stripe account here: [Update Billing Information](https://billing.stripe.com/p/login/aEUdRA5Wc8t25a03cc).
 
-**If you wish to cancel your plan please look for a "Cancel Plan" button in your Stripe account or contact a Midjourney Mod/Guide for help**
+**If you wish to cancel your plan please contact a Midjourney Mod/Guide for help**
 
 ---
 
@@ -367,15 +367,16 @@ When you run out of fast time, you will be prompted to either purchase additiona
 
 # -------------------- CANCELATION --------------------
 
-Q: How can I cancel? How can I cancel my plan? How do I unsubscribe? How can I cancel my subscription? How to cancel a subscription? Where do I cancel my subscription? How do I unsub? Where do I unsub? Where do I cancel? How can I cancle? How can I cancle my plan? How can I cancle my subscription? How to cancle a subscription? Where do I cancle my subscription? Where do I cancle? How do I get a refund? Cancel with refund. Cancle with refund.
+Q: How can I cancel? How can I cancel my plan? How do I unsubscribe? How can I cancel my subscription? How to cancel a subscription? Where do I cancel my subscription? How do I unsub? Where do I unsub? Where do I cancel? How can I cancle? How can I cancle my plan? How can I cancle my subscription? How to cancle a subscription? Where do I cancle my subscription? Where do I cancle? How do I get a refund? Cancel with refun? Cancle with refund?
 
-On the [Midjourney account page ](https://midjourney.com/account), click `Cancel Plan`. 
+**Your plan is eligible for a self-service refund if you have a lifetime usage of under 20 GPU minutes (roughly 20 images). The website will present this option to you as part of the cancellation process if you qualify.**
+
+On the [Midjourney account page](https://midjourney.com/account) click the `Cancel Plan` button, click `Cancel Plan` again in the small tab, and then choose `Cancel immediately with refund` in the pop-up window. **If you have more than 20 GPU minutes of lifetime usage, but haven't used Midjourney since your latest renewal, you can request one by emailing `billing@midjourney.com`**
+
+You may cancel your subscription anytime, but the cancellation will be effective at the end of the current billing cycle. All the benefits and `/fast` time will remain until the end of this cycle. If you change your mind, you can un-cancel your plan before the end of the cycle.
 
 %image=https://cdn.discordapp.com/attachments/981975130840391711/1099008773974134845/MJ-cancelling.jpg
 
-If your plan is eligible for a refund because you haven’t used Midjourney since your most recent renewal, the website will present this option to you as part of the cancellation process–choose “Cancel immediately with refund” after clicking the “Cancel Plan” button.
-
-You may cancel your subscription anytime, but the cancellation will be effective at the end of the current billing cycle. All the benefits and `/fast` time will remain until the end of this cycle. If you change your mind, you can un-cancel your plan before the end of the cycle.
 ---
 
 Q: Can I switch from the yearly plan to the monthly? How can I change from the yearly plan to the monthly plan? How do I switch from yearly to monthly? I accidentally subscribed to yearly? 
@@ -383,7 +384,6 @@ Q: Can I switch from the yearly plan to the monthly? How can I change from the y
 If you accidentally chose the yearly plan instead of the monthly plan, you can try to cancel the yearly plan with a refund and then subscribe to the monthly plan.  On the [Midjourney account page ](https://midjourney.com/account), click `Cancel Plan`. 
 
 %image=https://cdn.discordapp.com/attachments/981975130840391711/1099008773974134845/MJ-cancelling.jpg
-
 
 ---
 
@@ -561,7 +561,7 @@ Q: What is the maximum upscale resolution? What is the maximum resolution?  How 
 
 **For square images, the upscalers will produce the following:**
 `Regular` v4 upscaler: 1024x1024 px
-`V5, 5.1`¹: 1024x1024 px
+`V5, 5.1, 5.2`¹: 1024x1024 px
 `Beta Upscale`: 2048 x 2048 px 
 
 Custom aspect ratios set using `--ar` will change the width and height of the image, but not the max file size.
@@ -800,7 +800,7 @@ Example: `/show b052e414-a9f7-4f14-94fe-1a43e0aa656b`
 
 Q: How do I get a video of my grid generating? Video? --video? Can I use –video on an upscale?
 
-With **Version 3** and **Test/p** you can ask the AI to record the creation of the image you prompted. This __does not work with version 4__.
+With **Version 3** , 5.2  and **Test/p** you can ask the AI to record the creation of the image you prompted. This __does not work with version 4__.
 
 Add `--video` to the end of your prompt. Once the image has been rendered, react to it with the :envelope: emoji. Videos only work on the initial grid, not upscaled images.
 
