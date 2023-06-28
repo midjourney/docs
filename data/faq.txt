@@ -328,7 +328,7 @@ For help with billing issues please email `billing@midjourney.com` with an expla
 
 ---
 
-Q: Subscription Already Active? Paused? Account Paused? Subscription Paused? Unpause Account? Error: subscription already active for user?
+Q: Subscription Already Active? Paused? Account Paused? Subscription Paused? Unpause Account? Error: subscription already active for user? Sub already active?
 
 If you see the website error **"subscription already active"** or a bot message that **your account is Paused** this means your subscription failed to renew due to a payment problem.
 You can confirm this status by running the `/info` command. 
@@ -367,11 +367,9 @@ When you run out of fast time, you will be prompted to either purchase additiona
 
 # -------------------- CANCELATION --------------------
 
-Q: How can I cancel? How can I cancel my plan? How do I unsubscribe? How can I cancel my subscription? How to cancel a subscription? Where do I cancel my subscription? How do I unsub? Where do I unsub? Where do I cancel? How can I cancle? How can I cancle my plan? How can I cancle my subscription? How to cancle a subscription? Where do I cancle my subscription? Where do I cancle? How do I get a refund? Cancel with refun? Cancle with refund?
+Q: How can I cancel? How can I cancel my plan? How do I unsubscribe? How can I cancel my subscription? How to cancel a subscription? Where do I cancel my subscription? How do I unsub? Where do I unsub? Where do I cancel? How can I cancle? How can I cancle my plan? How can I cancle my subscription? How to cancle a subscription? Where do I cancle my subscription? Where do I cancle? 
 
-**Your plan is eligible for a self-service refund if you have a lifetime usage of under 20 GPU minutes (roughly 20 images). The website will present this option to you as part of the cancellation process if you qualify.**
-
-On the [Midjourney account page](https://midjourney.com/account) click the `Cancel Plan` button, click `Cancel Plan` again in the small tab, and then choose `Cancel immediately with refund` in the pop-up window. **If you have more than 20 GPU minutes of lifetime usage, but haven't used Midjourney since your latest renewal, you can request one by emailing `billing@midjourney.com`**
+On the [Midjourney account page](https://midjourney.com/account) click the `Cancel Plan` button.
 
 You may cancel your subscription anytime, but the cancellation will be effective at the end of the current billing cycle. All the benefits and `/fast` time will remain until the end of this cycle. If you change your mind, you can un-cancel your plan before the end of the cycle.
 
@@ -393,9 +391,15 @@ You can continue to access your online image gallery even if you're not currentl
 
 ---
 
-Q: How long will it take to get my refund? When will I get my refund? How long before I get my refund? How do I know my refund is processing? Can I confirm my refund?
+Q: How long will it take to get my refund? When will I get my refund? How long before I get my refund? How do I know my refund is processing? Can I confirm my refund? How do I get a refund? Cancel with refun? Cancle with refund? Cancel with refund?
+
+**Your plan is eligible for a self-service refund if you have a lifetime usage of under 20 GPU minutes (roughly 20 images). The website will present this option to you as part of the cancellation process if you qualify.**
+
+On the [Midjourney account page](https://midjourney.com/account) click the `Cancel Plan` button, click `Cancel Plan` again in the small tab, and then choose `Cancel immediately with refund` in the pop-up window. **If you have more than 20 GPU minutes of lifetime usage, but haven't used Midjourney since your latest renewal, you can request one by emailing `billing@midjourney.com`**
 
 Your bank may take up to 10 business days to process your refund on their end, though in most cases it takes significantly less time. As long as you’ve received an email from Midjourney confirming your refund, your money is on its way back to you :)
+
+%image=https://cdn.discordapp.com/attachments/981975130840391711/1099008773974134845/MJ-cancelling.jpg
 
 ---
 
@@ -800,7 +804,7 @@ Example: `/show b052e414-a9f7-4f14-94fe-1a43e0aa656b`
 
 Q: How do I get a video of my grid generating? Video? --video? Can I use –video on an upscale?
 
-With **Version 3** , 5.2  and **Test/p** you can ask the AI to record the creation of the image you prompted. This __does not work with version 4__.
+With **Version 3** , **Version 5.2**  and **Test/p** you can ask the AI to record the creation of the image you prompted. This __does not work with version 4__.
 
 Add `--video` to the end of your prompt. Once the image has been rendered, react to it with the :envelope: emoji. Videos only work on the initial grid, not upscaled images.
 
@@ -1133,6 +1137,13 @@ Solve the challenge by clicking the word button that corresponds to the image yo
 
 
 ---
+
+Q: Describe Error? Error with describe? Error with /describe? 504 Deadline Exceeded?
+
+If you get the error “504 Deadline Exceeded” when trying to use the `/describe` command, it means the image file you are uploading is too large. Please use a smaller image and try again.
+
+---
+
 
 # -------------------- -------------------- --------------------
 # -------------------- WHERE ARE MY IMAGES?! --------------------
