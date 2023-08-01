@@ -1145,6 +1145,13 @@ Solve the challenge by clicking the word button that corresponds to the image yo
 
 ---
 
+Q: Describe Error? Error with describe? Error with /describe? 504 Deadline Exceeded?
+
+If you get the error “504 Deadline Exceeded” when trying to use the `/describe` command, it means the image file you are uploading is too large. Please use a smaller image and try again.
+
+---
+
+
 # -------------------- -------------------- --------------------
 # -------------------- WHERE ARE MY IMAGES?! --------------------
 # -------------------- -------------------- --------------------
