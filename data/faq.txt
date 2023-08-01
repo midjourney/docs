@@ -377,7 +377,7 @@ On the [Midjourney account page ](https://midjourney.com/account), click `Cancel
 
 %image=https://cdn.discordapp.com/attachments/981975130840391711/1099008773974134845/MJ-cancelling.jpg
 
-If your plan is eligible for a refund because you haven’t used Midjourney since your most recent renewal, the website will present this option to you as part of the cancellation process–choose “Cancel immediately with refund” after clicking the “Cancel Plan” button.
+If your plan is eligible for a refund because you have used less than 20 GPU minutes, the website will present this option to you as part of the cancellation process–choose “Cancel immediately with refund” after clicking the “Cancel Plan” button.
 
 You may cancel your subscription anytime, but the cancellation will be effective at the end of the current billing cycle. All the benefits and `/fast` time will remain until the end of this cycle. If you change your mind, you can un-cancel your plan before the end of the cycle.
 
