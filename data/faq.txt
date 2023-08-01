@@ -318,13 +318,13 @@ If your payment was declined, you may be seeing a pending authorization (a bank 
 🔹 Contact your bank and make sure they’re not blocking the transaction
 🔹 Make sure you have sufficient funds to cover the subscription fee
 
-If you continue having trouble with your payment method, email `billing@midjourney.com` with your most recent invoice number and a description of the problem. They can investigate your account and may be able to provide further information.
+If you continue having trouble with your payment method, please review our [help page](https://help.midjourney.com/en/).
 
 ---
 
 Q: Billing Issue? Billing Question? Need Billing Help? Remove Payment Info? Remove Credit Card? 
 
-For help with billing issues please email `billing@midjourney.com` with an explanation of your issue and the invoice number from your most recent invoice (these are emailed to you). Please allow up to 7 business days for a response.
+For help with billing issues please please review our [help page](https://help.midjourney.com/en/).
 
 ---
 
@@ -339,7 +339,9 @@ You can confirm this status by running the `/info` command.
 
 :arrow_right: If you cannot find this email and you **do not have a magazine subscription tied to the same email as your Midjourney subscription,** please try to access your Stripe account here: [Update Billing Information](https://billing.stripe.com/p/login/aEUdRA5Wc8t25a03cc).
 
-**If you wish to cancel your plan please contact a Midjourney Mod/Guide for help**
+**If you wish to cancel your plan please look for a "Cancel Plan" button in your Stripe account or visit our [help page](https://help.midjourney.com/en/)**
+
+More information can be found on [our help page](https://help.midjourney.com/en/articles/8150767-what-does-your-subscription-is-paused-mean-why-am-i-seeing-error-subscription-already-active-on-the-website).
 
 ---
 
@@ -352,6 +354,8 @@ Already issued invoices cannot be amended. To add VAT to future invoices, on the
 
 
 %image=https://cdn.discordapp.com/attachments/981975130840391711/1075398993284190238/VAT_tax_ID.png
+
+More information can be found on [our help page](https://help.midjourney.com/en/articles/8150200-how-can-i-add-my-vat-number-or-other-tax-id-to-my-invoices).
 
 ---
 
@@ -367,13 +371,17 @@ When you run out of fast time, you will be prompted to either purchase additiona
 
 # -------------------- CANCELATION --------------------
 
-Q: How can I cancel? How can I cancel my plan? How do I unsubscribe? How can I cancel my subscription? How to cancel a subscription? Where do I cancel my subscription? How do I unsub? Where do I unsub? Where do I cancel? How can I cancle? How can I cancle my plan? How can I cancle my subscription? How to cancle a subscription? Where do I cancle my subscription? Where do I cancle? 
+Q: How can I cancel? How can I cancel my plan? How do I unsubscribe? How can I cancel my subscription? How to cancel a subscription? Where do I cancel my subscription? How do I unsub? Where do I unsub? Where do I cancel? How can I cancle? How can I cancle my plan? How can I cancle my subscription? How to cancle a subscription? Where do I cancle my subscription? Where do I cancle? How do I get a refund? Cancel with refund. Cancle with refund.
 
-On the [Midjourney account page](https://midjourney.com/account) click the `Cancel Plan` button.
+On the [Midjourney account page ](https://midjourney.com/account), click `Cancel Plan`. 
+
+%image=https://cdn.discordapp.com/attachments/981975130840391711/1099008773974134845/MJ-cancelling.jpg
+
+If your plan is eligible for a refund because you have used less than 20 GPU minutes, the website will present this option to you as part of the cancellation process–choose “Cancel immediately with refund” after clicking the “Cancel Plan” button.
 
 You may cancel your subscription anytime, but the cancellation will be effective at the end of the current billing cycle. All the benefits and `/fast` time will remain until the end of this cycle. If you change your mind, you can un-cancel your plan before the end of the cycle.
 
-%image=https://cdn.discordapp.com/attachments/981975130840391711/1099008773974134845/MJ-cancelling.jpg
+More information can be found on [our help page](https://help.midjourney.com/en/articles/8150068-how-can-i-cancel-my-subscription).
 
 ---
 
@@ -383,6 +391,9 @@ If you accidentally chose the yearly plan instead of the monthly plan, you can t
 
 %image=https://cdn.discordapp.com/attachments/981975130840391711/1099008773974134845/MJ-cancelling.jpg
 
+More information can be found on [our help page](https://help.midjourney.com/en/articles/8150064-how-can-i-change-to-a-different-subscription-plan).
+
+
 ---
 
 Q: When I unsubscribe will I still have access to my website gallery? If I cancel will I still be able to see my images on the gallery? If I cancel my subscription can I still see my images?
@@ -391,15 +402,9 @@ You can continue to access your online image gallery even if you're not currentl
 
 ---
 
-Q: How long will it take to get my refund? When will I get my refund? How long before I get my refund? How do I know my refund is processing? Can I confirm my refund? How do I get a refund? Cancel with refun? Cancle with refund? Cancel with refund?
-
-**Your plan is eligible for a self-service refund if you have a lifetime usage of under 20 GPU minutes (roughly 20 images). The website will present this option to you as part of the cancellation process if you qualify.**
-
-On the [Midjourney account page](https://midjourney.com/account) click the `Cancel Plan` button, click `Cancel Plan` again in the small tab, and then choose `Cancel immediately with refund` in the pop-up window. **If you have more than 20 GPU minutes of lifetime usage, but haven't used Midjourney since your latest renewal, you can request one by emailing `billing@midjourney.com`**
+Q: How long will it take to get my refund? When will I get my refund? How long before I get my refund? How do I know my refund is processing? Can I confirm my refund?
 
 Your bank may take up to 10 business days to process your refund on their end, though in most cases it takes significantly less time. As long as you’ve received an email from Midjourney confirming your refund, your money is on its way back to you :)
-
-%image=https://cdn.discordapp.com/attachments/981975130840391711/1099008773974134845/MJ-cancelling.jpg
 
 ---
 
@@ -425,6 +430,8 @@ Q: How do I upgrade? Where do I upgrade? What do I have to do to upgrade?
 You can change your current subscription tier or commitment from your [Manage Sub page on the Midjourney website](https://www.midjourney.com/account/)! Scroll down past your current subscription information, and you’ll see the currently available plans along with a list of their features. Click the “Upgrade Plan”, “Downgrade Plan” or “Change Commitment” button that corresponds to the new plan you’d like to subscribe to, and follow the website prompts.
 
 %image=https://media.discordapp.net/attachments/1023057817155944519/1110149926903631893/Screenshot_2023-05-22_at_6.18.37_AM.png
+
+More information can be found on [our help page](https://help.midjourney.com/en/articles/8150064-how-can-i-change-to-a-different-subscription-plan).
 
 ---
 
