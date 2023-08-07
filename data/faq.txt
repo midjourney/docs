@@ -1151,6 +1151,14 @@ If you get the error “504 Deadline Exceeded” when trying to use the `/descri
 
 ---
 
+Q: How can I report CSAM? What should I do if I see explicit material involving children? I need to report explicit images involving a minor?
+
+Our Trust & Safety team reviews reports by users, moderators, or trusted reporters. When someone violates these guidelines, we may take a number of enforcement steps against them, including issuing warnings, removing content, suspending or removing the accounts and/or servers responsible, and potentially reporting them to law enforcement. We may consider relevant off-platform behavior when assessing for violations of specific Community Guidelines.
+
+If you come across a user, message, or server that appears to break these guidelines, please report it to us at trustandsafety@midjourney.com.
+
+---
+
 
 # -------------------- -------------------- --------------------
 # -------------------- WHERE ARE MY IMAGES?! --------------------
