@@ -67,7 +67,7 @@ Go to a **#newbies** or **#general** channel to create images!
 
 ---
 
-Q: How do I use /imagine? How do I use /imagine? How do I generate images? How to use it? How do I use the bot? How does the bot work? How do I use it? How do I make art? How do I use Midjourney? How do I prompt? How can I ask the AI to create an image? How do I trial the program? How do I get started? How can I start using the Midjourney as a free user? Can I try it? Where can I start? How do I use the AI? Can I have free trial? Register? How do I use this?
+Q: How do I use /imagine? How do I use /imagine? How do I generate images? How to use it? How do I use the bot? How does the bot work? How do I use it? How do I make art? How do I use Midjourney? How do I prompt? How can I ask the AI to create an image? How do I trial the program? How do I get started? How can I start using the Midjourney as a free user? Can I try it? Where can I start? How do I use the AI? Can I have a free trial? Register? How do I use this?
 
 Make sure to give our [Quick Start Guide](https://docs.midjourney.com/docs/quick-start) a read - it will show you exactly how to use Midjourney!
 
@@ -119,7 +119,7 @@ Remaster automatically reworks images made in other versions into version 5.1. T
 # -------------------- -------GPU------- --------------------
 # -------------------- -------------------- --------------------
 
-Q: What is GPU time? What is a gpu minute? Does the reroll/variation/upscale each count as a generation in terms for the limits? 4 small images count as 1 job? How many images is one query? What is a query?
+Q: What is GPU time? What is a gpu minute? Does the reroll/variation/upscale each count as a generation in terms of the limits? 4 small images count as 1 job? How many images is one query? What is a query?
 
 Midjourney measures jobs using GPU time, which is processing time for your requests. Each job takes about 1 GPU minute. Upscales take more time, variations take less. Other parameters like quality and aspect ratio can also affect GPU time.
 
@@ -195,7 +195,7 @@ Monthly hours do not rollover. So use your fast minutes each month or lose them.
 
 # -------------------- ------PERSONAL USE------ --------------------
 
-Q: Can I invite Midjourney to my server? Can I add this bot to another server? How to add Midjourney to a different server? Can I add the bot to my Discord server? Can I use the bot in my server? Q: Can I get my own private channel? How do I get a private channel? Does a subscriber have its own private channel not viewed by the public? Will I have a private channel if I subscribe? Can I generate images in a private channel?
+Q: Can I invite Midjourney to my server? Can I add this bot to another server? How to add Midjourney to a different server? Can I add the bot to my Discord server? Can I use the bot on my server? Q: Can I get my own private channel? How do I get a private channel? Does a subscriber have its own private channel not viewed by the public? Will I have a private channel if I subscribe? Can I generate images in a private channel?
 
 Add the Bot to another server using [this guide](https://docs.midjourney.com/docs/invite-the-bot).
 
@@ -215,7 +215,7 @@ Invites were a part of the closed beta. We are now in open beta and you can use 
 
 ---
 
-Q: Can I invite someone to this server? How do I generate an invite? How can I invite someone? How can I use friend pass? Do I have an invite code? How can I use one of the invitations?
+Q: Can I invite someone to this server? How do I generate an invite? How can I invite someone? How can I use a friend pass? Do I have an invite code? How can I use one of the invitations?
 
 Use this link to invite someone: https://discord.gg/midjourney
 
@@ -240,7 +240,7 @@ After the free trial, you can continue using the bot by subscribing to the Basic
 
 ---
 
-Q: Why isn’t this free? Do I really have to pay for this? Can you give me free access? No free? Do I have to pay? Why do I have to pay? Is there a free version? Can I use the program for free? Refresh?
+Q: Why isn’t this free? Do I really have to pay for this? Can you give me free access? Not free? Do I have to pay? Why do I have to pay? Is there a free version? Can I use the program for free? Refresh?
 
 Midjourney does not currently provide a free tier because of the cost involved with using farms of hundreds of GPUs. The free trial of 25 GPU minutes is one-time only.
 
@@ -265,7 +265,7 @@ Remember, Daylight Saving might shift this by an hour. 😊
 
 ---
 
-Q: How do I subscribe? How to subscribe? How do I become a member? /subscribe? How does one become a member? How can I be a full member?  How can I subscribe to it? how to get paid version? How do you get a subscription? How can I upgrade from the trial version? hello, where can I can make the payment for the Standard plan? And how do i buy the 10$ plan? How do I buy? How can I subscribe to Midjourney? Premium? How to subscribe to this bot? Suscribe? /suscribe?
+Q: How do I subscribe? How to subscribe? How do I become a member? /subscribe? How does one become a member? How can I be a full member?  How can I subscribe to it? How to get the paid version? How do you get a subscription? How can I upgrade from the trial version? Hello, where can I make the payment for the Standard plan? And how do I buy the 10$ plan? How do I buy it? How can I subscribe to Midjourney? Premium? How to subscribe to this bot? Subscribe? /subscribe?
 
 Type `/subscribe` for a personal link to your account page.
 
@@ -308,7 +308,7 @@ You can cancel your Midjourney Magazine subscription by using [this link](https:
 
 ---
 
-Q: My card is declined? Card declined? The website declined my payment, but I have funds on my card? Why is my card declined? My card declined but money was still taken? Money was taken out of my account, but I don’t have a subscription?
+Q: My card is declined? Card declined? The website declined my payment, but I have funds on my card? Why is my card being declined? My card declined but money was still taken? Money was taken out of my account, but I don’t have a subscription?
 
 Sorry about the hiccup! If your payment didn't go through:
 
@@ -322,15 +322,15 @@ Still stuck with payment? Visit our [help page](https://help.midjourney.com/en/a
 
 ---
 
-Q: Billing Issue? Billing Question? Need Billing Help? Remove Payment Info? Remove Credit Card?
+Q: Billing Issue? Billing Question? Need Billing Help? Remove Payment Info? Remove Credit Cards?
 
-For help with billing issues please please review our [help page](https://help.midjourney.com/en/).
+For help with billing issues please review our [help page](https://help.midjourney.com/en/).
 
 ---
 
 Q: Subscription Already Active? Paused? Account Paused? Subscription Paused? Unpause Account? Error: subscription already active for user? Sub already active?
 
-Does the bot say your account is **Paused** or website say “subscription already active”? This hints at a payment hiccup during renewal.
+Does the bot say your account is **Paused** or the website says “subscription already active”? This hints at a payment hiccup during renewal.
 See it yourself with the `/info` command.
 
 To sort this out:
@@ -375,7 +375,7 @@ On the [Midjourney account page ](https://midjourney.com/account), click `Cancel
 
 Cancel anytime, but it kicks in at the plan period's end. Enjoy all perks and `/fast` time till then. Changed your mind? Uncancel before the period ends.
 
-Thinking of a refund? Used less than 20 GPU minutes? You might see a “Cancel immediately with refund” option when cancelling. If not, but you think you qualify, visit [our help page](https://help.midjourney.com/en/articles/8150081-can-i-request-a-refund) for details.
+Thinking of a refund? Used less than 20 GPU minutes? You might see a “Cancel immediately with refund” option when canceling. If not, but you think you qualify, visit [our help page](https://help.midjourney.com/en/articles/8150081-can-i-request-a-refund) for details.
 
 Need more information? Check [our help page](https://help.midjourney.com/en/articles/8150068-how-can-i-cancel-my-subscription). 😊
 %image=https://cdn.discordapp.com/attachments/981975130840391711/1099008773974134845/MJ-cancelling.jpg
@@ -391,7 +391,7 @@ More information can be found on [our help page](https://help.midjourney.com/en/
 
 ---
 
-Q: When I unsubscribe will I still have access to my website gallery? If I cancel will I still be able to see my images on the gallery? If I cancel my subscription can I still see my images?
+Q: When I unsubscribe will I still have access to my website gallery? If I cancel, will I still be able to see my images in the gallery? If I cancel my subscription can I still see my images?
 
 Even without a current plan, you can view your online image gallery. But member features like bulk downloading from the archive won’t be available.
 
@@ -408,13 +408,13 @@ Your bank might need up to 10 days to handle your refund, but it's often quicker
 
 # -------------------- SWITCH PLANS --------------------
 
-Q: If I want to switch plans will I be charged the full amount? What if I go from basic plan to standard? Can I change my plan? Can I get the $10 sub and if I run out upgrade and just pay the difference? Can I get the $10 sub and if I run out upgrade and just pay the difference? Can I switch plans? If I switch to Standard it will be 20$ or 30$ ? Can I upgrade from basic to standard?
+Q: If I want to switch plans will I be charged the full amount? What if I go from basic plan to standard? Can I change my plan? Can I get the $10 sub and, if I run out, upgrade and just pay the difference? Can I get the $10 sub and if I run out upgrade and just pay the difference? Can I switch plans? If I switch to Standard it will be 20$ or 30$ ? Can I upgrade from basic to standard?
 
 You can decide to switch plans at any time. If you're thinking about upgrading, you can choose to do it right away and get prorated credit for any unused fast time.
 
-If you used all of the Basic time -> Standard will cost 30$.
-If you used half of the Basic time -> Standard will cost 25$
-If you used no Basic time -> Standard will cost $20
+If you’ve used all of the Basic time -> Standard will cost 30$.
+If you’ve used half of the Basic time -> Standard will cost 25$
+If you’ve used no Basic time -> Standard will cost $20
 
 Or, if you'd prefer, you can schedule the change to happen automatically at the end of your current billing period. Downgrades only occur at the end of the billing period.
 
@@ -498,7 +498,7 @@ If the eye icon doesn’t appear, try using the /info command, logging out, and 
 
 Q: Are all my images private automatically? Will my gallery become private? Why can users still interact even though I bought private? Are all my images stealth automatically? Will my gallery be stealth? Why can users interact even though I have stealth mode enabled?
 
-Stealth mode is a feature of the Pro plan which can be enabled with the `/stealth` command. On the website, any previously made images, can be toggled between published and unpublished with the eye icon.
+Stealth mode is a feature of the Pro plan which can be enabled with the `/stealth` command. On the website, any previously made images can be toggled between published and unpublished with the eye icon.
 
 🔹To keep images completely hidden, you must make them in DMs or a private server. Images made in public channels are visible by anyone in those channels.
 
@@ -561,7 +561,7 @@ Beta upscale uses a different algorithm that adds flat textured smooth detail, w
 
 ---
 
-Q: What is the maximum upscale resolution? What is the maximum resolution?  How can I set the resolution? Can I make a 4K image? Can I make a 300 DPI image? Can I make the resolution higher? Can I print my image? Is it possible to save my creations in high resolution, so I can print it out as posters? Is there a way to set the resolution to 2k and higher? How do I choose a resolution?
+Q: What is the maximum upscale resolution? What is the maximum resolution?  How can I set the resolution? Can I make a 4K image? Can I make a 300 DPI image? Can I make the resolution higher? Can I print my image? Is it possible to save my creations in high resolution, so I can print them out as posters? Is there a way to set the resolution to 2k and higher? How do I choose a resolution?
 
 **For square images, the upscalers will produce the following:**
 `Regular` v4 upscaler: 1024x1024 px
@@ -622,7 +622,7 @@ The --iw argument allows you to adjust how much the image prompt will be conside
 
 ---
 
-Q: How do I upload an image? How do I get image link? How do I use my own image? How do I upload or use an image from my hard-drive for an image prompt? Image prompt? How can I attach an image? Can I use an image as a starting point? Can I use my images? Can I send images to the AI? Can I give an image to the AI? I've seen a few people using source images, how does this work? Can I use an image? Reference image? My own photo? My own personal photo? Edit my image?
+Q: How do I upload an image? How do I get an image link? How do I use my own image? How do I upload or use an image from my hard-drive for an image prompt? Image prompt? How can I attach an image? Can I use an image as a starting point? Can I use my images? Can I send images to the AI? Can I give an image to the AI? I've seen a few people using source images, how does this work? Can I use an image? Reference image? My own photo? My own personal photo? Edit my image?
 
 To add images to text prompts:
 1️⃣ [Copy the links](https://cdn.discordapp.com/attachments/958191534208061450/1043731538367479880/MJ_CopyImageLink.png) to the images (ending in jpg,png, or webp)
@@ -670,11 +670,11 @@ Q: Is there a way to mix two images. Can I combine images? Can I blend images?
 
 Q: Is it — or -- ? Is it - or - -?
 
-It is a double hyphen with no space (`--`) or an em-dash (`—`), followed by your parameter, with no space after the hyphens or emdash. For example: `--ar 16:9` and `—ar 16:9` are equally valid.
+It is a double hyphen with no space (`--`) or an em-dash (`—`), followed by your parameter, with no space after the hyphens or em dash. For example: `--ar 16:9` and `—ar 16:9` are equally valid.
 
 ---
 
-Q: What does :: do? What does double colons do? What does the + on the website do?
+Q: What does :: do? What do double colons do? What does the + on the website do?
 
 Double colons allow you to do multiple prompts (shown as a + on the website). You can give each prompt a different weight to fine-tune your result.
 
@@ -754,7 +754,7 @@ The AI responds to these phrases the same way it does with other words. However,
 
 Q: What does quality do? How do you use  --q? How do you use quality? What is --q?
 
-*Quality*: Adjust the quality of your render by appending `--q` and the value of `.25`, `.5`, `1`, or `2`. Each level will adjust the GPU computation time and cost by the equivalent amount. Ex: `--q 2` The default is value is 1.
+*Quality*: Adjust the quality of your render by appending `--q` and the value of `.25`, `.5` or `1`. Each level will adjust the GPU computation time and cost by the equivalent amount. Ex: `--q .5` The default value is 1.
 
 [Quality](https://docs.midjourney.com/docs/quality)
 
@@ -763,7 +763,7 @@ Q: What does quality do? How do you use  --q? How do you use quality? What is --
 ---
 Q: How do you use --s? How do you use stylize? What does stylize do? What is --s?
 
-*Stylization* Adjust how closely the Bot follows your prompt by changing the stylization value. Append `--s` and a value between 0-1000. Lower values will follow your prompt closely. Higher values are more will have more variability. The default is value is 100.
+*Stylization* Adjust how closely the Bot follows your prompt by changing the stylization value. Append `--s` and a value between 0-1000. Lower values will follow your prompt closely. Higher values will have more variability. The default value is 100.
 
 [Stylize](https://docs.midjourney.com/docs/stylize)
 [More about chaos, stylize and style](https://discord.com/channels/662267976984297473/1020577470795235358/1020577470795235358)
@@ -894,7 +894,7 @@ Subscribers can use commands in Direct Messages with the Bot. Right click here: 
 
 Can't DM the bot? Right-click the server icon > Privacy Settings > check if “Allow direct messages from server members” is green. If not, switch it off and on again.
 
-Heads up! Images in DMs show for everyone at the [Midjourney gallery](https://www.midjourney.com/app/feed/all/), unless you're have Pro/Mega with Stealth Mode on. 😊
+Heads up! Images in DMs show for everyone at the [Midjourney gallery](https://www.midjourney.com/app/feed/all/), unless you have Pro/Mega with Stealth Mode on. 😊
 
 %image=https://cdn.discordapp.com/attachments/958191534208061450/1010303537332371526/MJ_PrivacySettings.png
 
@@ -961,7 +961,7 @@ There is currently no published roadmap, but check the <#952771221915840552> cha
 
 ---
 
-Q: Are there any plans to make this into its own software/application? Are there plans for a stand-alone application? Will MJ ever go for stand-alone platform, without Discord? Is there a web version? Can I generate online? Do I have to use Discord?
+Q: Are there any plans to make this into its own software/application? Are there plans for a stand-alone application? Will MJ ever go for a stand-alone platform, without Discord? Is there a web version? Can I generate online? Do I have to use Discord?
 
 Currently, there is no support for generating images outside of Discord. However, you can invite the bot to your server or direct message with the bot if you are a subscribed member.
 
@@ -1050,7 +1050,7 @@ When you get to the new page, look for the “Add a payment method and re-enter 
 
 ---
 
-Q: Why did I get a message that said "Interaction Failed"? I am getting “interaction failed”? I am getting “application did not respond”? Bot interaction is failing?
+Q: Why did I get a message that said "Interaction Failed"? I am getting “interaction failed”? I am getting “application did not respond”? Bot interaction failing?
 
 First check  <#942231458918064148> for known issues.
 If you are getting an error, try restarting Discord, updating it, or reinstalling it.
@@ -1165,7 +1165,7 @@ Or, open your [webpage gallery](https://www.midjourney.com/app/) and **Sign in w
 # -------------------- THREADS / ROLES  --------------------
 # -------------------- -------------------- --------------------
 
-Q: Where did my thread go? Where is my thread? Can you move threads? Can you help me move threads? Will my work disappear if I can’t find the thread? How can I find thread? Where is thread? Can you move my thread? Can I change roles? What is my group role? What is this role? Where did channel go? Where did my channel go? Channel disappeared? Thread disappeared? Thread gone?
+Q: Where did my thread go? Where is my thread? Can you move threads? Can you help me move threads? Will my work disappear if I can’t find the thread? How can I find the thread? Where is my thread? Can you move my thread? Can I change roles? What is my group role? What is this role? Where did the channel go? Where did my channel go? Channel disappeared? Thread disappeared? Thread gone?
 
 We cannot change group role assignments or move threads. Use the `/show` command to move your work to a new location.
 
@@ -1318,7 +1318,7 @@ Q: How do I get a full body picture? How do I get the whole person in the image?
 
 ---
 
-Q: How do I specify a color in my prompt? Can I control color? Can I use CYMK? Can I use RGB? Can I use Pantone codes for colors? Can I use hexcodes for color?
+Q: How do I specify a color in my prompt? Can I control color? Can I use CMYK? Can I use RGB? Can I use Pantone codes for colors? Can I use hex codes for color?
 
 [Read about controlling color](https://discord.com/channels/662267976984297473/1026204064574361651/1026204064574361651)
 
