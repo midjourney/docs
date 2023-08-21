@@ -53,9 +53,15 @@ The 🔄 button resubmits the prompt to create a new grid of images.
 
 [Read about rerolls and vrolls](https://discord.com/channels/662267976984297473/1020577302033207306/1020577302033207306)
 
-
 ---
 
+Q: What is Vary (Region)? Vary region button? How do I use Vary (Region)? Inpainting? How do I inpaint?
+
+Vary (Region) allows you to select and regenerate specific parts of an upscaled image. Click the `Vary (Region)` button underneath upscaled images to open it. It also works with [Remix](<https://docs.midjourney.com/docs/vary-region-remix>). [More information](<https://docs.midjourney.com/docs/vary-region>).
+
+If you don't see the `Vary (Region)` button, make sure you're on the latest version of Discord, and try restarting the app.
+
+---
 
 # -------------------- ---IMAGINE----- --------------------
 
@@ -67,7 +73,7 @@ Go to a **#newbies** or **#general** channel to create images!
 
 ---
 
-Q: How do I use /imagine? How do I use /imagine? How do I generate images? How to use it? How do I use the bot? How does the bot work? How do I use it? How do I make art? How do I use Midjourney? How do I prompt? How can I ask the AI to create an image? How do I trial the program? How do I get started? How can I start using the Midjourney as a free user? Can I try it? Where can I start? How do I use the AI? Can I have a free trial? Register? How do I use this?
+Q: How do I generate images? How to use it? How do I use the bot? How does the bot work? How do I use it? How do I make art? How do I use Midjourney? How do I prompt? How can I ask the AI to create an image? How do I trial the program? How do I get started? How can I start using the Midjourney as a free user? Can I try it? Where can I start? How do I use the AI? Can I have a free trial? Register? How do I use this?
 
 Make sure to give our [Quick Start Guide](https://docs.midjourney.com/docs/quick-start) a read - it will show you exactly how to use Midjourney!
 
@@ -622,7 +628,7 @@ The --iw argument allows you to adjust how much the image prompt will be conside
 
 ---
 
-Q: How do I upload an image? How do I get an image link? How do I use my own image? How do I upload or use an image from my hard-drive for an image prompt? Image prompt? How can I attach an image? Can I use an image as a starting point? Can I use my images? Can I send images to the AI? Can I give an image to the AI? I've seen a few people using source images, how does this work? Can I use an image? Reference image? My own photo? My own personal photo? Edit my image?
+Q: Reference image? Use photo as reference? How do I upload an image? How do I get an image link? How do I use my own image? How do I upload or use an image from my hard-drive for an image prompt? Image prompt? How can I attach an image? Can I use an image as a starting point? Can I use my images? Can I send images to the AI? Can I give an image to the AI? I've seen a few people using source images, how does this work? Can I use an image? My own photo? My own personal photo? Edit my image?
 
 To add images to text prompts:
 1️⃣ [Copy the links](https://cdn.discordapp.com/attachments/958191534208061450/1043731538367479880/MJ_CopyImageLink.png) to the images (ending in jpg,png, or webp)
