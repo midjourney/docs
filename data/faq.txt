@@ -57,9 +57,11 @@ The 🔄 button resubmits the prompt to create a new grid of images.
 
 Q: What is Vary (Region)? Vary region button? How do I use Vary (Region)? Inpainting? How do I inpaint?
 
-Vary (Region) allows you to select and regenerate specific parts of an upscaled image. Click the `Vary (Region)` button underneath upscaled images to open it. It also works with [Remix](<https://docs.midjourney.com/docs/vary-region-remix>). [More information](<https://docs.midjourney.com/docs/vary-region>).
+Vary (Region) allows you to select and regenerate specific parts of an upscaled image. Click the `Vary (Region)` button underneath upscaled images to open it. To change the prompt, enable `Remix mode` in your `/settings`
 
 If you don't see the `Vary (Region)` button, make sure you're on the latest version of Discord, and try restarting the app.
+
+[More information for Vary Region](<https://docs.midjourney.com/docs/vary-region>) and [More information for Vary Region + Remix](<https://docs.midjourney.com/docs/vary-region-remix>)
 
 ---
 
@@ -1216,7 +1218,7 @@ Q: Ephemeral? What are ephemeral jobs? Why do my jobs disappear from Discord? My
 
 Some jobs may appear *ephemeral* when certain words or phrases are mentioned. These temporary messages are only visible to **you** and disappear when you close, refresh, or switch instances of Discord. You'll know it's an ephemeral job when you see the text "Only you can see this message" at the bottom of the bot's message.
 
-Don't worry, even if these jobs disappear from Discord, you can still find them in your [gallery](https://www.midjourney.com/app/).
+Don't worry, even if these jobs disappear from Discord, you can still find them in your [archive](https://www.midjourney.com/app/archive/).
 
 If you want to bring a job back into Discord:
 🔹Go to your gallery and copy the job ID.
