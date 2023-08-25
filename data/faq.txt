@@ -65,6 +65,14 @@ If you don't see the `Vary (Region)` button, make sure you're on the latest vers
 
 ---
 
+Q: How can I enter a prompt for inpainting? How can I enter a prompt in vary (region)? Where is the prompt box for inpainting? Where is the prompt box for vary region? How can I add a new subject to inpainting?
+
+Vary (Region) allows you to select and regenerate specific parts of an upscaled image. If you want to be able to change the prompt, enable `Remix mode` in your `/settings`. Note that this is an experimental and advanced feature.
+
+[More information for Vary Region + Remix](<https://docs.midjourney.com/docs/vary-region-remix>)
+
+---
+
 # -------------------- ---IMAGINE----- --------------------
 
 Q:  /image? /imagine? Imagine? /imagine prompt:? #imagine? /imagin?
