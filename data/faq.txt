@@ -277,7 +277,7 @@ Or `Sign in with Discord` at [midjourney.com/account](https://www.midjourney.com
 
 Q: How much for a subscription? Where can I see plans? What’s the difference between Basic and Standard? How much does an unlimited plan cost? What's the price of Midjourney? Plan prices? Price?
 
-%image=https://cdn.discordapp.com/attachments/978364411662196776/1052623095162216508/MJ_PricingGraph2.png
+%image=https://cdn.discordapp.com/attachments/978364411662196776/1127401027981824020/MJ_PricingGraph_V2.png
 Sign in with Discord at the [Midjourney Account Page](https://www.midjourney.com/account/)
 
 ---
@@ -362,17 +362,15 @@ When you run out of fast time, you will be prompted to either purchase additiona
 
 # -------------------- CANCELATION --------------------
 
-Q: How can I cancel? How can I cancel my plan? How do I unsubscribe? How can I cancel my subscription? How to cancel a subscription? Where do I cancel my subscription? How do I unsub? Where do I unsub? Where do I cancel? How ca n I cancle? How can I cancle my plan? How can I cancle my subscription? How to cancle a subscription? Where do I cancle my subscription? Where do I cancle? How do I get a refund? Cancel with refund? Cancle with refund?
+Q: How can I cancel? How can I cancel my plan? How do I unsubscribe? How can I cancel my subscription? How to cancel a subscription? Where do I cancel my subscription? How do I unsub? Where do I unsub? Where do I cancel? How can I cancle? How can I cancle my plan? How can I cancle my subscription? How to cancle a subscription? Where do I cancle my subscription? Where do I cancle? How do I get a refund? Cancel with refund? Cancle with refund?
 
 On the [Midjourney account page ](https://midjourney.com/account), click `Cancel Plan`.
 
-*Don’t see the Cancel button? If your subscription is paused, please chat with a Mod/Guide for help.*
-
 Cancel anytime, but it kicks in at the end of your billing cycle. Enjoy all perks and `/fast` time until then. Changed your mind? Uncancel before the period ends.
 
-Thinking of a refund? If you used less than 20 GPU minutes you might see a “Cancel immediately with refund” option when canceling. If not, but you think you qualify, visit [our help page](https://help.midjourney.com/en/articles/8150081-can-i-request-a-refund) for details or chat with a Mod/Guide.
+Thinking of a refund? If you've used less than 20 GPU minutes you might see a “Cancel immediately with refund” option when canceling. If not, but you think you qualify, visit [our help page](https://help.midjourney.com/en/articles/8150081-can-i-request-a-refund) for details or chat with a Mod/Guide.
 
-Need more information? Check [our help page](https://help.midjourney.com/en/articles/8150068-how-can-i-cancel-my-subscription). 😊
+Don't see the cancel button? Ask a Mod/Guide for help. For more info, check [our help page](https://help.midjourney.com/en/articles/8150068-how-can-i-cancel-my-subscription). 😊
 %image=https://cdn.discordapp.com/attachments/981975130840391711/1099008773974134845/MJ-cancelling.jpg
 
 ---
