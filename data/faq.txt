@@ -133,7 +133,15 @@ Remaster automatically reworks images made in older versions into version 5.2. T
 
 Q: What is GPU time? What is a gpu minute? Does the reroll/variation/upscale each count as a generation in terms of the limits? 4 small images count as 1 job? How many images is one query? What is a query?
 
-Midjourney measures jobs using GPU time, which is processing time for your requests. Each job takes about 1 GPU minute. Upscales take more time, variations take less. Other parameters like quality and aspect ratio can also affect GPU time.
+Midjourney is a ship on the imagination sea, driven by **GPU** (Graphics processing unit) engines. When you request an image, it's like setting a course. The "cost" is how hard the engine works, measured in **GPU time**.
+
+With the latest models:
+- **/imagine**: Costs about **1 GPU minute**.
+- **Variations**: Use **less GPU time**.
+- **Upscales**: Split the existing grid, **no extra GPU time** needed.
+
+Be mindful:
+- Requests like **panning**, **Vary(Region)**, using **older models**, or adding **specific instructions** push the engine more, increasing the **GPU time**.
 
 ---
 
@@ -195,7 +203,7 @@ The "Pro" plan gives 30 hours of `Fast` GPU time per month, the "Standard" plan 
 
 ---
 
-Q: Do fast hours roll over? Do I keep my unused fast hours? Will my time get added to the next month? Does the subscription reset my hours? Do I keep my minutes?
+Q: Do fast hours roll over? Do I keep my unused fast hours? Will my time get added to the next month? Does the subscription reset my hours? Do I keep my minutes? Do fast GPU minutes stack on each month? Does fast time rollover?
 
 Monthly hours do not rollover. So use your fast minutes each month or lose them. Additional purchased `Fast` hours do not expire but require an active subscription to use. Hours earned from rating images expire after 30 days.
 
@@ -354,7 +362,7 @@ More information can be found on [our help page](https://help.midjourney.com/en/
 ---
 
 # -------------------- METERED --------------------
-Q: If we go over our limit of fast hours does it let us know? Or just start billing for the extra hourly time with no warning? If I use up minutes, can I get more without paying? Can you accidently get a big bill?
+Q: If we go over our limit of fast hours does it let us know? Or just start billing for the extra hourly time with no warning? If I use up minutes, can I get more without paying? Can you accidentally get a big bill?
 
 When you run out of fast time, you will be prompted to either purchase additional GPU hours or, for Standard, Pro, and Mega subscribers, switch to `/relax` mode. These additional GPU hours must be purchased before they can be used, so you can’t accidentally incur additional charges.
 
@@ -362,7 +370,7 @@ When you run out of fast time, you will be prompted to either purchase additiona
 
 # -------------------- CANCELATION --------------------
 
-Q: How can I cancel? How can I cancel my plan? How do I unsubscribe? How can I cancel my subscription? How to cancel a subscription? Where do I cancel my subscription? How do I unsub? Where do I unsub? Where do I cancel? How can I cancle? How can I cancle my plan? How can I cancle my subscription? How to cancle a subscription? Where do I cancle my subscription? Where do I cancle? How do I get a refund? Cancel with refund? Cancle with refund?
+Q: How can I cancel? How can I cancel my plan? How do I unsubscribe? How can I cancel my subscription? How to cancel a subscription? Where do I cancel my subscription? How do I unsub? Where do I unsub? Where do I cancel? How can I cancle? How can I cancle my plan? How can I cancle my subscription? How to cancle a subscription? Where do I cancle my subscription? Where do I cancle? How do I get a refund? Cancle with refund? Cancel with refund?
 
 On the [Midjourney account page ](https://midjourney.com/account), click `Cancel Plan`.
 
@@ -370,7 +378,7 @@ Cancel anytime, but it kicks in at the end of your billing cycle. Enjoy all perk
 
 Thinking of a refund? If you've used less than 20 GPU minutes you might see a “Cancel immediately with refund” option when canceling. If not, but you think you qualify, visit [our help page](https://help.midjourney.com/en/articles/8150081-can-i-request-a-refund) for details or chat with a Mod/Guide.
 
-Don't see the cancel button? Ask a Mod/Guide for help. For more info, check [our help page](https://help.midjourney.com/en/articles/8150068-how-can-i-cancel-my-subscription). 😊
+Don't see the cancel button? If your subscription is paused, ask a Mod/Guide for help. For more info, check [our help page](https://help.midjourney.com/en/articles/8150068-how-can-i-cancel-my-subscription). 😊
 %image=https://cdn.discordapp.com/attachments/981975130840391711/1099008773974134845/MJ-cancelling.jpg
 
 ---
@@ -856,7 +864,7 @@ Subscribers can use commands in Direct Messages with the Bot. Right click here: 
 
 Can't DM the bot? Right-click the Midjourney server icon > Privacy Settings > check if “Allow direct messages from server members” is green. If it’s already on, switch it off and on again.
 
-Heads up! Images in DMs show for everyone at the [Midjourney gallery](https://www.midjourney.com/app/feed/all/), unless you have Pro/Mega with Stealth Mode on. 😊
+Heads up! Images in DMs show for everyone at the [Midjourney gallery](https://www.midjourney.com/app/feed/), unless you have Pro/Mega with Stealth Mode on. 😊
 
 %image=https://cdn.discordapp.com/attachments/958191534208061450/1010303537332371526/MJ_PrivacySettings.png
 
@@ -1128,6 +1136,14 @@ To use `/show`:
 Q: What is the answer to life, the universe, and everything?
 
 42
+
+---
+
+Q: insight face swap? /insightfaceswap? /saveid? face swap? face swap bot? face swap app? face swapping? face swapping bot? insightface swap?
+
+Insight Face Swap is not part of Midjourney. It's developed and supported by a different company. Contact the makers of Insight Face Swap for any questions or support related to their product.
+
+Face Swap bot commands won't work on this server. 
 
 ---
 
