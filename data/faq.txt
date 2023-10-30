@@ -43,7 +43,7 @@ Q: What do the U1, V1, etc. buttons do? U, V buttons? How do I upscale? How do I
 
 **V** VARIATION: Creates 4 variations of the selected image while keeping the style and composition.
 
-Both actions use GPU-minutes (except for V5 Upscales).
+Both actions use GPU-minutes (except for V5 initial Upscales. 2x and 4x will use GPU-minutes).
 
 ---
 
@@ -86,6 +86,8 @@ Go to a **#newbies** or **#general** channel to create images!
 Q: How do I generate images? How to use it? How do I use the bot? How does the bot work? How do I use it? How do I make art? How do I use Midjourney? How do I prompt? How can I ask the AI to create an image? How do I trial the program? How do I get started? How can I start using the Midjourney as a free user? Can I try it? Where can I start? How do I use the AI? Can I have a free trial? Register? How do I use this?
 
 Make sure to give our [Quick Start Guide](https://docs.midjourney.com/docs/quick-start) a read - it will show you exactly how to use Midjourney!
+
+Visit [Your first prompt](https://discord.com/channels/662267976984297473/1166143896791810108) guide here in the server on tips and tricks for making your first prompt! 
 
 
 %image=https://media.discordapp.net/attachments/981975130840391711/1057008208889249882/GS_imagine_fl.gif
@@ -138,7 +140,8 @@ Midjourney is a ship on the imagination sea, driven by **GPU** (Graphics process
 With the latest models:
 - **/imagine**: Costs about **1 GPU minute**.
 - **Variations**: Use **less GPU time**.
-- **Upscales**: Split the existing grid, **no extra GPU time** needed.
+- **Initial Upscales**: Split the existing grid, **no extra GPU time** needed (v5 only)
+- **2x/4x Upscales**: Uses **variable GPU time**
 
 Be mindful:
 - Requests like **panning**, **Vary(Region)**, using **older models**, or adding **specific instructions** push the engine more, increasing the **GPU time**.
@@ -864,7 +867,7 @@ Subscribers can use commands in Direct Messages with the Bot. Right click here: 
 
 Can't DM the bot? Right-click the Midjourney server icon > Privacy Settings > check if “Allow direct messages from server members” is green. If it’s already on, switch it off and on again.
 
-Heads up! Images in DMs show for everyone at the [Midjourney gallery](https://www.midjourney.com/app/feed/), unless you have Pro/Mega with Stealth Mode on. 😊
+Heads up! Images in DMs show for everyone at the [Midjourney gallery](https://www.midjourney.com/explore), unless you have Pro/Mega with Stealth Mode on. 😊
 
 %image=https://cdn.discordapp.com/attachments/958191534208061450/1010303537332371526/MJ_PrivacySettings.png
 
@@ -1071,7 +1074,7 @@ You can read more about stylize [here](https://discord.com/channels/662267976984
 
 Q: My images won't finish? Stops at 93%? 93% bug? Stops at 62%? 62% bug?
 
-In some cases, the bot may fail to return the finished image in Discord. You can find the finished image in your gallery at https://midjourney.com/app
+In some cases, the bot may fail to return the finished image in Discord. You can find the finished image in your gallery at https://midjourney.com/imagine
 
 If you want to bring that image back into Discord to continue working with it, you can use `/show`. To use `/show`:
 1) Go to your gallery
@@ -1106,7 +1109,7 @@ Q: How can I find my images? It’s moving too fast, how can I see only my image
 🖥️ PC: Use the *inbox button* (top right corner)
 📱 Mobile: Swipe from the left to see your channel list and look for the bell icon on the bottom menu.
 
-Or, open your [webpage gallery](https://www.midjourney.com/app/) and **Sign in with Discord.**
+Or, open your [webpage gallery](https://www.midjourney.com/imagine/) and **Sign in with Discord.**
 
 %image=https://cdn.discordapp.com/attachments/978364411662196776/1053406611756027984/Mentions.png
 
@@ -1121,7 +1124,7 @@ Q: Where did my thread go? Where is my thread? Can you move threads? Can you hel
 We cannot change group role assignments or move threads. Use the `/show` command to move your work to a new location.
 
 To use `/show`:
-1) Go to your gallery at https://www.midjourney.com/app/
+1) Go to your gallery at https://www.midjourney.com/imagine/
 2) Find your image
 3) Click the `...` (three dots) button and `Copy Job ID`.
 4) Go to discord and type `/show` `job_id` to recall your job.
@@ -1168,7 +1171,7 @@ Q: Ephemeral? What are ephemeral jobs? Why do my jobs disappear from Discord? My
 
 Some jobs may appear *ephemeral* when certain words or phrases are mentioned. These temporary messages are only visible to **you** and disappear when you close, refresh, or switch instances of Discord. You'll know it's an ephemeral job when you see the text "Only you can see this message" at the bottom of the bot's message.
 
-Don't worry, even if these jobs disappear from Discord, you can still find them in your [archive](https://www.midjourney.com/app/archive/).
+Don't worry, even if these jobs disappear from Discord, you can still find them in your [Web Gallery](https://www.midjourney.com/imagine/).
 
 If you want to bring a job back into Discord:
 🔹Go to your gallery and copy the job ID.
