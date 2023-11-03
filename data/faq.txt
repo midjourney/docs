@@ -101,6 +101,13 @@ Q: I'm having trouble using the bot - Why don’t I see the /imagine option as a
 2️⃣ Type `/imagine`.
 3️⃣ Click the popup and type your prompt.
 
+If you don't get the /imagine pop-up: 
+Make sure discord is updated and check these settings: 
+Discord Settings > Text & Images > “Use slash commands and preview emojis, mentions, and markdown syntax as you type” = ON 
+Discord Settings > Accessibility > “Use the legacy chat input” = OFF 
+
+%image=https://cdn.discordapp.com/attachments/958069758211797092/1110755514691891260/MJ_ImagineCommand.gif
+
 ---
 
 Q: I can’t see the newbie rooms? Where are the newbie channels?
@@ -447,7 +454,7 @@ Q: How many jobs can be generating at once? How many jobs can I line up? How lon
 
 Trial, `Basic`, and `Standard` subscribers can have **3 jobs** running at once. Additional jobs will be added to a queue of up to **10 jobs**.
 
-`Pro` subscribers can run **12 jobs** at once with `/fast`, **3 jobs** at once with `/relax`, and an additional **10 jobs** in the queue.
+`Pro`and `Mega` subscribers can run **12 jobs** at once with `/fast`, **3 jobs** at once with `/relax`, and an additional **10 jobs** in the queue.
 
 ---
 
@@ -475,7 +482,7 @@ Midjourney is a community for sharing and exploration, but if you don't want to 
 
 Q: How do I hide my images? What's private mode? What’s stealth mode? Private powers badge? I don't want people to see my images. How can I work privately? I don't want anyone to see my images and prompts. How do I go private? How do I go stealth? How much does private cost? How much does stealth cost? I can’t unpublish on the website?
 
-Stealth mode is a feature of the Pro and Mega plans which lets users selectively hide their images from being displayed on Midjourney.com. You can hide or show old images by clicking the "eye" icon on the website. If you can't see the icon, try using the `/info` command or logging out and back in.
+Stealth mode is a feature of the Pro and Mega plans which lets users selectively hide their images from being displayed on Midjourney.com. You can hide or show old images by clicking the "eye" icon on the website found under the `...` selection on the image. If you can't see the icon, try using the `/info` command or logging out and back in.
 
 To turn on Stealth mode, run the `/stealth` command. You can also add it to individual prompts by using `--stealth`
 
@@ -497,7 +504,7 @@ If the eye icon doesn’t appear, try using the /info command, logging out, and 
 
 Q: Are all my images private automatically? Will my gallery become private? Why can users still interact even though I bought private? Are all my images stealth automatically? Will my gallery be stealth? Why can users interact even though I have stealth mode enabled?
 
-Stealth mode is a feature of the Pro plan which can be enabled with the `/stealth` command or by adding `--stealth` to individual prompts. On the website, any previously made images can be toggled between published and unpublished with the eye icon.
+Stealth mode is a feature of the Pro and Mega plan which can be enabled with the `/stealth` command or by adding `--stealth` to individual prompts. On the website, any previously made images can be toggled between published and unpublished with the eye icon.
 
 🔹To keep images completely hidden, you must make them in DMs or a private server. Images made in public channels are visible by anyone in those channels.
 
@@ -525,7 +532,7 @@ Ex: `/imagine prompt: cyberpunk cats --ar 16:9`
 
 ---
 
-Q: How can I prevent preview and upscale to add too much detail? The upscale adds too much detail? How do I remove the noise from an upscaled image?
+Q: How can I prevent preview and upscale to add too much detail on V4 and below? The upscale adds too much detail? How do I remove the noise from an upscaled image?
 
 Use `/settings` before submitting a prompt to choose the amount of detail that is added during your upscale.
 `Beta Upscale` is the closest match to grid images.
@@ -560,8 +567,10 @@ Q: What is the maximum upscale resolution? What is the maximum resolution?  How 
 
 **For square images, the upscalers will produce the following:**
 Regular v4 upscaler: 1024x1024 px
-v5, 5.1, 5.2 upscaler *: 1024x1024 px
 v3 and v4 Beta Upscale: 2048 x 2048 px
+v5, 5.1, 5.2 upscaler *: 1024x1024 px
+v5, 5.1, 5.2 2x Upscaler: 2048 x 2048 px
+v5, 5.1, 5.2 4x Upscaler: 4098 x 4098 px
 
 Custom aspect ratios set using `--ar` will change the width and height of the image, but not the max file size.
 
@@ -845,15 +854,15 @@ You need a subscription to have full access to the member gallery or community f
 
 Q: Is there a way to save all my images at once? Can I batch download all of my images? How do I save my gallery?
 
-Members can batch download images quickly on the website with Select Mode. You can enable this by clicking on the mouse icon at the top right corner of the website.
+Members can batch download images quickly on the website. Click on the arrow next to the day you want to download, then click download all.
 
-%image=https://media.discordapp.net/attachments/996185104755994715/1005247726696534066/Screen_Shot_2022-08-05_at_3.55.25_PM.png
+%image=https://cdn.discordapp.com/attachments/978364411662196776/1169380234395648201/download-by-day.gif
 
 ---
 
 Q: What is the Feed?
 
-The Feed is the public collection of all upscaled images from the community, including those created through DMs with the bot. All images created by members are eligible to appear unless hidden by Stealth mode, which is part of the Pro subscription.
+The Feed is the public collection of all upscaled images from the community, including those created through DMs with the bot. All images created by members are eligible to appear unless hidden by Stealth mode, which is part of the Pro and Mega subscription.
 
 ---
 
