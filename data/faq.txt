@@ -157,8 +157,9 @@ Be mindful:
 
 Q: How do I see how many gpu hours I have left? How do I see how much I have used? How do I see how many hours I have left? Where can I check how many prompts I have left? How many images can I make? How can I see my queue? Where do I check my jobs? How do I check how many jobs I have left? /info?
 
-Type `/info` to check your status and usage.
+Type `/info` in a different channel to check your status and usage (commands don’t work here).
 `Fast Time Remaining` shows available image generation resources.
+Try it in <#984632500875821066>
 
 ---
 
@@ -253,15 +254,13 @@ Use this link to invite someone: https://discord.gg/midjourney
 
 Q: Do trials reset monthly? Do I get more free images every month? Do I get free images every day? How many images do I get as a free user? Do trials reset monthly? Does my free trial renew? Is my trial a limited number per day or overall? How long is the trial? How many images can we do with the Trial Version? How many images can you generate with the basic trial? How many images does the trial have? How many images does the trial have? How long does the free trial last? How do I refresh my trial? Trial has ended?
 
-Each new user gets a free trial of around 25 jobs (25 GPU minutes). This trial doesn’t renew, can be used over multiple days and doesn’t presently expire. Use `/info` to track your usage.
-
-After the free trial, you can continue using the bot by subscribing to the Basic, Standard, or Pro plans. Type `/subscribe` or sign in at [https://www.midjourney.com/account/](https://www.midjourney.com/account/)
+There is currently no free trial. To use the bot you will need a subscription. Type `/subscribe` in a different channel or sign in at [https://www.midjourney.com/account/](https://www.midjourney.com/account/) to subscribe.
 
 ---
 
 Q: Why isn’t this free? Do I really have to pay for this? Can you give me free access? Not free? Do I have to pay? Why do I have to pay? Is there a free version? Can I use the program for free? Refresh?
 
-Midjourney does not currently provide a free tier because of the cost involved with using farms of hundreds of GPUs. The free trial of 25 GPU minutes is one-time only.
+Midjourney does not currently provide a free tier because of the cost involved with using farms of hundreds of GPUs.
 
 ---
 
@@ -287,7 +286,7 @@ Please Note: Daylight Saving Time/Summer Time may shift the renewal time by 1 ho
 
 Q: How do I subscribe? How to subscribe? How do I become a member? /subscribe? How does one become a member? How can I be a full member?  How can I subscribe to it? How to get the paid version? How do you get a subscription? How can I upgrade from the trial version? Hello, where can I make the payment for the Standard plan? And how do I buy the 10$ plan? How do I buy it? How can I subscribe to Midjourney? Premium? How to subscribe to this bot? Subscribe? /subscribe?
 
-Type `/subscribe` for a personal link to your account page.
+Type `/subscribe` in a different channel for a personal link to your account page (commands don’t work here).
 
 Or `Sign in with Discord` at [midjourney.com/account](https://www.midjourney.com/account/)
 
@@ -512,11 +511,12 @@ Stealth mode is a feature of the Pro and Mega plan which can be enabled with the
 
 Q: How do I hide my images on the website? How do I unpublish my images? Unpublish old images? Bulk unpublish? Bulk hide? Hide old images? Hide already made images? Unpublish already made images? Batch hide? Batch unpublish?
 
-“Pro” plan subscribers can bulk hide their images from the website. To do this, go to the archive page or use select mode in the gallery, select the images, and then click the down arrow on the green "Open Downloader" button and switch it to "Unpublish" and click.
+“Pro” and “mega” plan subscribers can bulk hide their images from the website. To do this, go to my images page then click shield icon.
 
-%image=https://media.discordapp.net/attachments/1023057817155944519/1063036497802043432/Screenshot_2022-11-19_at_5.29.48_AM.png?width=2300&height=598
+%image=https://media.discordapp.net/attachments/978364411662196776/1171819122359812210/image.png
 
----
+
+—
 
 # -------------------- -------------------- --------------------
 # -------------------- UPSCALE & SIZE --------------------
@@ -538,28 +538,28 @@ Use `/settings` before submitting a prompt to choose the amount of detail that i
 `Beta Upscale` is the closest match to grid images.
 `Light Upscale` adds a small amount of detail when upscaling images.
 `Regular Upscale` adds the most detail when upscaling images.
-[Read about the different upscales](https://discord.com/channels/662267976984297473/1020574515622842498/1020574515622842498)
+[Read about the different upscales](https://docs.midjourney.com/docs/upscalers)
 
 ---
 
 Q: I don't see the Max Upscale option? No Max Upscale? Where is Max Upscale?
 
 The Max Upscaler is an upscaler for Version 3. If you are using Version 4 or 5, this option will not be available. This feature is only available in `/fast` mode. You may not see an upscale option for some aspect ratios that would produce a file over the maximum size the bot can create. Check your upscaled image’s resolution: it may already be at the maximum resolution.
-[Read about the different upscales](https://discord.com/channels/662267976984297473/1020574515622842498/1020574515622842498)
+[Read about the different upscales](https://docs.midjourney.com/docs/upscalers)
 
 ---
 
 Q: What is "Light Upscale Redo"? What is a light upscale? How do I use light upscale? What is uplight?
 
 Light upscale is an upscaler for Version 3 and 4. It uses a different algorithm that adds less detail, which may be better in some cases. You can use the `--uplight` parameter in a prompt, or hit the “Light Upscale Redo” button under v3 and v4 upscaled images.
-[Read about the different upscales](https://discord.com/channels/662267976984297473/1020574515622842498/1020574515622842498)
+[Read about the different upscales](https://docs.midjourney.com/docs/upscalers)
 
 ---
 
 Q: What is "Beta Upscale Redo"? What is a beta upscale? How do I use beta upscale? What is "beta Upscale Redo"? What is a beta upscale? How do I use beta upscale? What is upbeta?
 
 Beta upscale is an upscaler for Version 3 and 4. It uses a different algorithm that adds flat textured smooth detail, which may be better in some cases. You can use the `--upbeta` parameter in a prompt, or hit the “Beta Upscale Redo” button under v3 and v4 upscaled images.
-[Read about the different upscales](https://discord.com/channels/662267976984297473/1020574515622842498/1020574515622842498)
+[More about Upscaler Models](https://docs.midjourney.com/docs/upscalers)
 
 ---
 
@@ -637,8 +637,7 @@ To add images to text prompts:
 3️⃣ [Paste the image links](https://cdn.discordapp.com/attachments/958191534208061450/1043734607759167558/MJ_ImagePrompt.png) separated by spaces
 4️⃣ Add a text prompt and any parameters
 
-[Read more about prompting with images](https://discord.com/channels/662267976984297473/1026944423692619878/1026944423692619878)
-Or for a visual guide: [Adding Images](https://gamma.app/public/cjwbwz2efibw8hf)
+[Read more about prompting with images](https://docs.midjourney.com/docs/image-prompts)
 
 ---
 
@@ -657,7 +656,8 @@ Some image generation tools can take a starting image and modify it. Images used
 
 Q: Is there a max iw? What’s the max iw? What is the max image weight? Is there a maximum image weight?
 
-Yes, the maximum image weight is 10000, but weights are relative to other weights in the prompt. Extreme weights will give diminishing returns. [A short guide on using image prompts](https://docs.midjourney.com/docs/image-prompts)
+Yes, the maximum image weight is 10000, but weights are relative to other weights in the prompt. Extreme weights will give diminishing returns.
+[How to use image prompts](https://docs.midjourney.com/docs/image-prompts)
 
 ---
 
@@ -665,7 +665,7 @@ Q: Is there a way to mix two images. Can I combine images? Can I blend images?
 
 **Use `/blend` to mix two or more images together.**
 
-[Read more about Blend](https://discord.com/channels/662267976984297473/1063204311351431340)
+[Read more about Blend](https://docs.midjourney.com/docs/blend-1)
 
 ---
 
@@ -681,7 +681,7 @@ Q: What does :: do? What do double colons do? What does the + on the website do?
 
 Double colons allow you to do multiple prompts (shown as a + on the website). You can give each prompt a different weight to fine-tune your result.
 
-More information here: [Multi Prompts](https://docs.midjourney.com/docs/multi-prompts).
+[More information about Multi Prompts](https://docs.midjourney.com/docs/multi-prompts).
 
 Commas or other types of punctuation don’t usually have a noticeable effect on the final result. They’re mainly used to make the prompt more human-readable.
 
@@ -728,7 +728,7 @@ Q: This :: 2 that :: 3” or this : : that
 
 Make sure that there is no space between colons and the weight. Your prompt should look like `phrase one::2 phrase two::1`
 
-[Read more about weights](https://discord.com/channels/662267976984297473/1020578042285920327/1020578042285920327)
+[Read more about weights](https://docs.midjourney.com/docs/multi-prompts)
 
 ---
 
@@ -758,9 +758,7 @@ Q: What does quality do? How do you use  --q? How do you use quality? What is --
 
 *Quality*: Adjust the quality of your render by appending `--q` and the value of `.25`, `.5` or `1`. Each level will adjust the GPU computation time and cost by the equivalent amount. Ex: `--q .5` The default value is 1.
 
-[Quality](https://docs.midjourney.com/docs/quality)
-
-[More about chaos, stylize and style](https://discord.com/channels/662267976984297473/1020577470795235358/1020577470795235358)
+[Read more about Quality](https://docs.midjourney.com/docs/quality)
 
 ---
 
@@ -768,8 +766,7 @@ Q: How do you use --s? How do you use stylize? What does stylize do? What is --s
 
 *Stylization* Adjust how closely the Bot follows your prompt by changing the stylization value. Append `--s` and a value between 0-1000. Lower values will follow your prompt closely. Higher values will have more variability. The default value is 100.
 
-[Stylize](https://docs.midjourney.com/docs/stylize)
-[More about chaos, stylize and style](https://discord.com/channels/662267976984297473/1020577470795235358/1020577470795235358)
+[Read more about Stylize](https://docs.midjourney.com/docs/stylize)
 
 ---
 
@@ -782,7 +779,7 @@ A *Seed* is the random noise that starts image generation for all four grid imag
 *You may need to check your privacy settings to receive Direct Messages from the bot.
 Note: When using seeds, images may not look identical due to non-deterministic GPUs.
 
-[Learn more about seeds](https://discord.com/channels/662267976984297473/1022698154170253363/1022698154170253363)
+[Learn more about seeds](https://docs.midjourney.com/docs/seeds)
 
 ---
 
@@ -807,7 +804,7 @@ With **Version 3** , **Version 5.2**  and **Test/p** you can ask the AI to recor
 
 Add `--video` to the end of your prompt. Once the image has been rendered, react to it with the :envelope: emoji. Videos only work on the initial grid, not upscaled images.
 
-[Read more about video](https://discord.com/channels/662267976984297473/1020703741432827934/1020703741432827934)
+[Read more about video](https://docs.midjourney.com/docs/video)
 
 ---
 
@@ -854,10 +851,9 @@ You need a subscription to have full access to the member gallery or community f
 
 Q: Is there a way to save all my images at once? Can I batch download all of my images? How do I save my gallery?
 
-Members can batch download images quickly on the website. Click on the arrow next to the day you want to download, then click download all.
+Members can batch download images quickly on the website. Click on the down pointing arrow in the box next to the day you want to download. It will begin downloading. 
 
-%image=https://cdn.discordapp.com/attachments/978364411662196776/1169380234395648201/download-by-day.gif
-
+%image=https://media.discordapp.net/attachments/978364411662196776/1171819122359812210/image.png
 ---
 
 Q: What is the Feed?
@@ -1067,7 +1063,7 @@ If you’re experiencing an issue not covered on the status page or channel, ple
 
 Q: Cannot use --version 4 with only a single image prompt? Only a single image prompt?
 
-In --v 4, if you want to use just one image reference, you must include a text prompt with it. For example:
+If you want to use just one image reference, you must include a text prompt with it. For example:
 
 `https://pic1.png a cool person flying like superman`
 
@@ -1281,3 +1277,53 @@ Q: How do I specify a color in my prompt? Can I control color? Can I use CMYK? C
 Q: How do I get text or words in an image?
 
 [Read about getting text or words](https://discord.com/channels/662267976984297473/1025600359563001886/1025600359563001886)
+
+# -------------------- -------------------- --------------------
+# -------------------- STYLE TUNER --------------------
+# -------------------- -------------------- --------------------
+
+Q: What is the Style Tuner? Style Tuner? Tune? How to tune style? What is a style code? How to get my own style code? How do I generate a style code? Style code?
+
+The Style Tuner lets you make your own Midjourney style.
+Use the command `/tune` with your prompt and choose your favorite images. You’ll receive a unique `--style` code to add to your prompts.
+Dont want to use `/tune`? Add `--style random` at the end of your prompt and you’ll get random codes.
+[Read more about the Style Tuner](https://docs.midjourney.com/docs/style-tuner)
+
+---
+
+Q: Multiple style codes? Can I combine codes? 
+
+Combine multiple codes in one parameter with a hyphen, such as `--style code1-code2`
+[Read more about the Style Tuner](https://docs.midjourney.com/docs/style-tuner)
+
+---
+
+Q: Sticky Style button? How to keep style code?
+
+📌 Sticky Style will save the last `--style` parameter used, adding it to your personal suffix so you don't have to type the code on future prompts.
+Change codes by using a new `--style` or unselecting 📌Sticky Style
+[Read more about the Style Tuner](https://docs.midjourney.com/docs/style-tuner)
+
+---
+
+Q: Can I share my styles? Can I share tuners? Can I send my tuner link? Are Style Tuners hidden? Are Style Tuners private? Can I share a style code? Can I use someone else’s style code?
+
+Your Style Tuner links are public, you can send it to other users for them to select their own favorite images. You can also share or use style codes created by friends.
+
+The Style Tuner uses your initial prompt to help you visualize the impact of your choices. However, the generated codes can be used with any prompt.
+Check out our <#1169440226964426963> showcase channel
+
+---
+
+Q: Can I get the Style Tuner link from a code? Locate Style Tuner from style code? See Style Tuner selection?
+
+You can take any style code you see and get the style tuner page for it by putting it at the end of this URL `https://tuner.midjourney.com/code/StyleCodeHere`
+You can see the image selection for a code by replacing the Styler Tuner code and the custom Style code in the following URL `https://tuner.midjourney.com/TunerCodeHere?answer=StyleCodeHere`
+If you get an error, the code might have been a random one so it doesn’t have a Style Tuner.
+
+Read more here : https://discord.com/channels/662267976984297473/1169353167641776308/1170104256934707232
+
+
+
+
+---
