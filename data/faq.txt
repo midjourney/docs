@@ -210,13 +210,14 @@ Q: What is fast mode? What does fast-hours mean? Fast time? What is relax mode? 
 
 We've got two options to help you generate images, the speedy `Fast` mode and the more relaxed `Relax` mode. `Fast` assigns a GPU immediately while `Relax` adds your job to a queue of jobs from other users based on usage.
 
-The "Pro" plan gives 30 hours of `Fast` GPU time per month, the "Standard" plan gives 15 hours, and the "Basic" plan gives 200 minutes. One GPU hour creates roughly 60 images or 200 variations, but these numbers are subject to change at any time.
+The “Mega” plan gives 60 `Fast` GPU hours per month, the “Pro” plan gives 30 hours, the "Standard" plan gives 15 hours, and the "Basic" plan gives 200 minutes.
+The “Basic” plan does not include access to `Relax` mode.
 
 ---
 
 Q: Do fast hours roll over? Do I keep my unused fast hours? Will my time get added to the next month? Does the subscription reset my hours? Do I keep my minutes? Do fast GPU minutes stack on each month? Does fast time rollover?
 
-Monthly hours do not rollover. So use your fast minutes each month or lose them. Additional purchased `Fast` hours do not expire but require an active subscription to use. Hours earned from rating images expire after 30 days.
+Monthly hours do not rollover. If you do not use your fast minutes each month, you will lose them. Earned bonus hours from ranking expire one month (30 days) after awarding. Additional purchased fast hours do not expire. Both earned bonus hours and additional purchased hours require an active subscription to use.
 
 ---
 
@@ -451,7 +452,7 @@ Subscriptions can only be transferred between accounts that have the same owner.
 
 Q: How many jobs can be generating at once? How many jobs can I line up? How long is the queue? How many concurrent jobs can I run? How many can I queue?
 
-Trial, `Basic`, and `Standard` subscribers can have **3 jobs** running at once. Additional jobs will be added to a queue of up to **10 jobs**.
+`Basic`, and `Standard` subscribers can have **3 jobs** running at once. Additional jobs will be added to a queue of up to **10 jobs**.
 
 `Pro`and `Mega` subscribers can run **12 jobs** at once with `/fast`, **3 jobs** at once with `/relax`, and an additional **10 jobs** in the queue.
 
@@ -516,7 +517,7 @@ Q: How do I hide my images on the website? How do I unpublish my images? Unpubli
 %image=https://media.discordapp.net/attachments/978364411662196776/1171819122359812210/image.png
 
 
-—
+---
 
 # -------------------- -------------------- --------------------
 # -------------------- UPSCALE & SIZE --------------------
