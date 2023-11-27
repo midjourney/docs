@@ -271,6 +271,14 @@ We require that you verify the email address attached to your Discord account in
 
 ---
 
+Q: How do I redeem a promo code? How do I redeem a Discord Nitro promotion? How can I get my Nitro free trial? How can I claim my discord nitro promotion?
+
+For more information for the Discord Nitro promotion, visit the [Discord Help Center](https://support.discord.com/hc/en-us/articles/18859311755287).
+
+We require that you verify the email address attached to your Discord account in order to use Midjourney. You can learn how to do that [here](https://support.discord.com/hc/en-us/articles/6181726888215).
+
+---
+
 # -------------------- -------------------- --------------------
 # -------------------- SUBSCRIPTION --------------------
 # -------------------- -------------------- --------------------
@@ -380,7 +388,7 @@ When you run out of fast time, you will be prompted to either purchase additiona
 
 # -------------------- CANCELATION --------------------
 
-Q: How can I cancel? How can I cancel my plan? How do I unsubscribe? How can I cancel my subscription? How to cancel a subscription? Where do I cancel my subscription? How do I unsub? Where do I unsub? Where do I cancel? How can I cancle? How can I cancle my plan? How can I cancle my subscription? How to cancle a subscription? Where do I cancle my subscription? Where do I cancle? How do I get a refund? Cancle with refund? Cancel with refund?
+Q: How can I cancel? How can I cancel my plan? How do I unsubscribe? How can I cancel my subscription? How to cancel a subscription? Where do I cancel my subscription? How do I unsub? Where do I unsub? Where do I cancel? How can I cancel? How can I cancel my plan? How can I cancel my subscription? How to cancel a subscription? Where do I cancel my subscription? Where do I cancel? How do I get a refund? Cancel with refund? Cancel with refund?
 
 On the [Midjourney account page ](https://midjourney.com/account), click `Cancel Plan`.
 
