@@ -271,7 +271,7 @@ We require that you verify the email address attached to your Discord account in
 
 ---
 
-Q: How do I redeem a promo code? How do I redeem a Discord Nitro promotion? How can I get my Nitro free trial? How can I claim my discord nitro promotion?
+Q: How do I redeem a promo code? How do I redeem a Discord Nitro promotion? How can I get my Nitro free trial? How can I claim my discord nitro promotion? Where do I put the discord nitro code?
 
 For more information for the Discord Nitro promotion, visit the [Discord Help Center](https://support.discord.com/hc/en-us/articles/18859311755287).
 
