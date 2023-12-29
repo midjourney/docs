@@ -271,12 +271,6 @@ We require that you verify the email address attached to your Discord account in
 
 ---
 
-Q: How do I redeem a promo code? How do I redeem a Discord Nitro promotion? How can I get my Nitro free trial? How can I claim my discord nitro promotion? Where do I put the discord nitro code?
-
-For more information for the Discord Nitro promotion, visit the [Discord Help Center](https://support.discord.com/hc/en-us/articles/18859311755287). You may redeem your code [here](https://www.midjourney.com/checkout/redeem?code=insert-your-code).
-
----
-
 # -------------------- -------------------- --------------------
 # -------------------- SUBSCRIPTION --------------------
 # -------------------- -------------------- --------------------
@@ -386,7 +380,7 @@ When you run out of fast time, you will be prompted to either purchase additiona
 
 # -------------------- CANCELATION --------------------
 
-Q: How can I cancel? How can I cancel my plan? How do I unsubscribe? How can I cancel my subscription? How to cancel a subscription? Where do I cancel my subscription? How do I unsub? Where do I unsub? Where do I cancel? How can I cancel? How can I cancel my plan? How can I cancel my subscription? How to cancel a subscription? Where do I cancel my subscription? Where do I cancel? How do I get a refund? Cancel with refund? Cancel with refund?
+Q: How can I cancel? How can I cancel my plan? How do I unsubscribe? How can I cancel my subscription? How to cancel a subscription? Where do I cancel my subscription? How do I unsub? Where do I unsub? Where do I cancel? How can I cancle? How can I cancle my plan? How can I cancle my subscription? How to cancle a subscription? Where do I cancle my subscription? Where do I cancle? How do I get a refund? Cancle with refund? Cancel with refund?
 
 On the [Midjourney account page ](https://midjourney.com/account), click `Cancel Plan`.
 
@@ -450,7 +444,8 @@ More information can be found on [our help page](https://help.midjourney.com/en/
 
 Q: Can I transfer my subscription to another account? I used the wrong account? I subscribed with the wrong account?
 
-Subscriptions can only be transferred between accounts that have the same owner. You’ll need to show that you own both accounts and the subscription.
+Subscriptions can only be transferred between accounts that have the same owner. Images can not be transferred from one account to another.
+Reach out to billing@midjourney.com to request a transfer.
 
 ---
 
@@ -521,7 +516,6 @@ Q: How do I hide my images on the website? How do I unpublish my images? Unpubli
 “Pro” and “mega” plan subscribers can bulk hide their images from the website. To do this, go to my images page then click shield icon.
 
 %image=https://media.discordapp.net/attachments/978364411662196776/1171819122359812210/image.png
-
 
 ---
 
@@ -856,7 +850,7 @@ You need a subscription to have full access to the member gallery or community f
 
 ---
 
-Q: Is there a way to save all my images at once? Can I batch download all of my images? How do I save my gallery?
+Q: Is there a way to save all my images at once? Can I batch download all of my images? How do I save my gallery? Download images? Batch download ?
 
 Members can batch download images quickly on the website. Click on the down pointing arrow in the box next to the day you want to download. It will begin downloading. 
 
@@ -1285,6 +1279,8 @@ Q: How do I get text or words in an image?
 
 [Read about getting text or words](https://discord.com/channels/662267976984297473/1025600359563001886/1025600359563001886)
 
+---
+
 # -------------------- -------------------- --------------------
 # -------------------- STYLE TUNER --------------------
 # -------------------- -------------------- --------------------
@@ -1329,8 +1325,5 @@ You can see the image selection for a code by replacing the Styler Tuner code an
 If you get an error, the code might have been a random one so it doesn’t have a Style Tuner.
 
 Read more here : https://discord.com/channels/662267976984297473/1169353167641776308/1170104256934707232
-
-
-
 
 ---
