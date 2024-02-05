@@ -37,13 +37,14 @@
 
 Q: What do the U1, V1, etc. buttons do? U, V buttons? How do I upscale? How do I increase my image’s resolution? How do I create variations? What does U and V do? What is U1-4, V1-4? What is an upscale? What is a variation?
 
+**U** UPSCALE: The 'U'🔢 buttons separate your chosen image from the grid, making it easier to download and giving you access to additional editing and generation tools.
+
+**V** VARIATION: The 'V'🔢 buttons create 4 [variations](https://docs.midjourney.com/docs/variations) of the selected image while keeping the style and composition.
+
+Clicking on U doesn't use GPU time in version 5 and 6 but upscales 2x and 4x consume several GPU minutes. [Read more about upscales](<https://docs.midjourney.com/docs/upscalers>)
+Variations use GPU time.
+
 %image=https://cdn.discordapp.com/attachments/958191534208061450/1017592980053438494/1234.png
-
-**U** UPSCALE: Increases the size of the selected image to about 1024x1024. Read [more about upscales](https://docs.midjourney.com/docs/upscalers)
-
-**V** VARIATION: Creates 4 variations of the selected image while keeping the style and composition.
-
-Both actions use GPU-minutes (except for V5 initial Upscales. 2x and 4x will use GPU-minutes).
 
 ---
 
@@ -65,7 +66,7 @@ If you don't see the `Vary (Region)` button, make sure you're on the latest vers
 
 ---
 
-Q: How can I enter a prompt for inpainting? How can I enter a prompt in vary (region)? Where is the prompt box for inpainting? Where is the prompt box for vary region? How can I add a new subject to inpainting?
+Q: How can I enter a prompt for inpainting? How can I enter a prompt in vary (region)? Where is the prompt box for inpainting? Where is the prompt box for vary region? How can I add a new subject to inpainting? Why don’t I have the prompt area input in vary (region)? Where is the text box for vary (region)? I don’t have the prompt area for vary (region)?
 
 Vary (Region) allows you to select and regenerate specific parts of an upscaled image. If you want to be able to change the prompt, enable `Remix mode` in your `/settings`. Note that this is an experimental and advanced feature.
 
@@ -140,15 +141,15 @@ Remaster automatically reworks images made in older versions into version 5.2. T
 # -------------------- -------GPU------- --------------------
 # -------------------- -------------------- --------------------
 
-Q: What is GPU time? What is a gpu minute? Does the reroll/variation/upscale each count as a generation in terms of the limits? 4 small images count as 1 job? How many images is one query? What is a query?
+Q: What is GPU time? What is a GPU minute? Does the reroll/variation/upscale each count as a generation in terms of the limits? 4 small images count as 1 job? How many images is one query? What is a query? Do upscales cost GPU time? Do variations use GPU time?
 
 Midjourney is a ship on the imagination sea, driven by **GPU** (Graphics processing unit) engines. When you request an image, it's like setting a course. The "cost" is how hard the engine works, measured in **GPU time**.
 
 With the latest models:
 - **/imagine**: Costs about **1 GPU minute**.
 - **Variations**: Use **less GPU time**.
-- **Initial Upscales**: Split the existing grid, **no extra GPU time** needed (v5 only)
-- **2x/4x Upscales**: Uses **variable GPU time**
+- **Initial Upscales**: Split the existing grid, **no extra GPU time** needed (in v5 and v6 only)
+- **2x/4x/Creative/Subtle Upscales**: Use **variable GPU time**
 
 Be mindful:
 - Requests like **panning**, **Vary(Region)**, using **older models**, or adding **specific instructions** push the engine more, increasing the **GPU time**.
@@ -215,9 +216,9 @@ The “Basic” plan does not include access to `Relax` mode.
 
 ---
 
-Q: Do fast hours roll over? Do I keep my unused fast hours? Will my time get added to the next month? Does the subscription reset my hours? Do I keep my minutes? Do fast GPU minutes stack on each month? Does fast time rollover?
+Q: Do fast hours roll over? Do I keep my unused fast hours? Will my time get added to the next month? Does the subscription reset my hours? Do I keep my minutes? Do fast GPU minutes stack on each month? Does fast time rollover? Rollover? Roll over? Do I lose my hours when I change plan? Do I lose my hours when I cancel?
 
-Monthly hours do not rollover. If you do not use your fast minutes each month, you will lose them. Earned bonus hours from ranking expire one month (30 days) after awarding. Additional purchased fast hours do not expire. Both earned bonus hours and additional purchased hours require an active subscription to use.
+Monthly hours do not roll over. If you do not use your fast minutes each month, you will lose them. Earned bonus hours from ranking expire one month (30 days) after awarding. Additional purchased fast hours do not expire. Both earned bonus hours and additional purchased hours require an active subscription to use.
 
 ---
 
@@ -279,7 +280,7 @@ Q: Do subscriptions renew on the first of the month? When does my subscription r
 
 **Monthly Plans:** To see your next renewal date and time, run the `/info` command.
 
-**Yearly Plans:** Your Fast Time refreshes every month on the same date and time that you originally subscribed. For example, if you subscribed on January 1 at 12pm, your hours will refresh on the 1st of every month at 12pm.
+**Yearly Plans:** Your Fast Time refreshes every month on the same date and time that you originally subscribed. For example, if you subscribed on January 8th at 12pm, your hours will refresh on the 8th of every month at 12pm.
 
 Please Note: Daylight Saving Time/Summer Time may shift the renewal time by 1 hour.
 
@@ -345,7 +346,7 @@ For help with billing issues please review our [help page](https://help.midjourn
 
 ---
 
-Q: Subscription Already Active? Paused? Account Paused? Subscription Paused? Unpause Account? Error: subscription already active for user? Sub already active?
+Q: Subscription Already Active? Paused? Account Paused? Subscription Paused? Unpause Account? Error: subscription already active for user? Sub already active? Subscription is Paused? My plan is Paused? My subscription is Paused?
 
 Does the bot say your account is **Paused** or the website says “subscription already active”? This means your subscription failed to renew. 
 
@@ -380,7 +381,7 @@ When you run out of fast time, you will be prompted to either purchase additiona
 
 # -------------------- CANCELATION --------------------
 
-Q: How can I cancel? How can I cancel my plan? How do I unsubscribe? How can I cancel my subscription? How to cancel a subscription? Where do I cancel my subscription? How do I unsub? Where do I unsub? Where do I cancel? How can I cancle? How can I cancle my plan? How can I cancle my subscription? How to cancle a subscription? Where do I cancle my subscription? Where do I cancle? How do I get a refund? Cancle with refund? Cancel with refund?
+Q: How can I cancel? How can I cancel my plan? How do I unsubscribe? How can I cancel my subscription? How to cancel a subscription? Cancel with refund? Cancel and refund? Where do I cancel my subscription? How do I unsub? Where do I unsub? Where do I cancel? How can I cancle? How can I cancle my plan? How can I cancle my subscription? How to cancle a subscription? Where do I cancle my subscription? Where do I cancle? How do I get a refund? How to refund? Cancle with refund?
 
 On the [Midjourney account page ](https://midjourney.com/account), click `Cancel Plan`.
 
@@ -404,7 +405,7 @@ More information can be found on [our help page](https://help.midjourney.com/en/
 
 Q: When I unsubscribe will I still have access to my website gallery? If I cancel, will I still be able to see my images in the gallery? If I cancel my subscription can I still see my images?
 
-Even without a current plan, you can view your online image gallery. But member features like bulk downloading from the archive won’t be available.
+Even without a current plan, you can view your online image gallery. But member features and access won’t be available.
 
 ---
 
@@ -513,9 +514,9 @@ Stealth mode is a feature of the Pro and Mega plan which can be enabled with the
 
 Q: How do I hide my images on the website? How do I unpublish my images? Unpublish old images? Bulk unpublish? Bulk hide? Hide old images? Hide already made images? Unpublish already made images? Batch hide? Batch unpublish?
 
-“Pro” and “mega” plan subscribers can bulk hide their images from the website. To do this, go to my images page then click shield icon.
+Subscribers to the Pro and Mega plan can bulk hide their images from the website. To do this, go to [my images page](https://www.midjourney.com/imagine), select the images you want to hide, and click `...more` next to download. You can then bulk publish/unpublish.
 
-%image=https://media.discordapp.net/attachments/978364411662196776/1171819122359812210/image.png
+%image=https://cdn.discordapp.com/attachments/1201909699793145876/1201909702745931837/image.png
 
 ---
 
@@ -850,11 +851,12 @@ You need a subscription to have full access to the member gallery or community f
 
 ---
 
-Q: Is there a way to save all my images at once? Can I batch download all of my images? How do I save my gallery? Download images? Batch download ?
+Q: Is there a way to save all my images at once? Can I batch download all of my images? How do I save my gallery? Download images? Batch download ? Bulk download?
 
-Members can batch download images quickly on the website. Click on the down pointing arrow in the box next to the day you want to download. It will begin downloading. 
+Members can batch download images quickly on the website. Click on the ⊕︀ sign next to a date to select images from that day. At the bottom, you can then download your selection of images.
+You can also click and drag, or shift click to select images.
 
-%image=https://media.discordapp.net/attachments/978364411662196776/1171819122359812210/image.png
+%image=https://cdn.discordapp.com/attachments/1201909699793145876/1202263116243533854/bulkdownload.gif
 ---
 
 Q: What is the Feed?
@@ -867,17 +869,19 @@ The Feed is the public collection of all upscaled images from the community, inc
 # -------------------- DIRECT MESSAGES -----------
 # -------------------- -------------------- --------------------
 
-Q: How do I DM the bot? Where can I DM bot? Where is my private channel? How can I make a solo room? How do I open a private chat with the bot? Can I use imagine in DMs? Is it possible to DM the bot and not be in a very crowded busy channel? Can I generate my images privately? How do I start my own room for creating photos? How can I hide other people’s images? How can I hide everyone else’s posts? Why don't I see any messages from the bot? I used ✉️ on one of my images, why don't I see any messages from the bot? Why can't I message the bot?  "Cannot send messages to this user" when trying to DM the bot? I can’t DM the bot?
+Q: How do I DM the bot? Where can I DM bot? Where is my private channel? How can I make a solo room? How do I open a private chat with the bot? Can I use imagine in DMs? Is it possible to DM the bot and not be in a very crowded busy channel? Can I generate my images privately? How do I start my own room for creating photos? How can I hide other people’s images? How can I hide everyone else’s posts? Why don't I see any messages from the bot? I used ✉️ on one of my images, why don't I see any messages from the bot? Why can't I message the bot?  "Cannot send messages to this user" when trying to DM the bot? I can’t DM the bot? Unknown integration? Why do I get unknown integration? I get the message unknown integration when i DM the bot? I’m getting the error message “unknown integration”?
 
 Subscribers can use commands in Direct Messages with the Bot. Right click here:  <@936929561302675456> and hit `Message`.
 
-Can't DM the bot? Right-click the Midjourney server icon > Privacy Settings > check if “Allow direct messages from server members” is green. If it’s already on, switch it off and on again.
+Can't DM the bot or getting an integration error? Right-click the Midjourney server icon > Privacy Settings > check if “Allow direct messages from server members” is green. If it’s already on, switch it off and on again.
 
 Heads up! Images in DMs show for everyone at the [Midjourney gallery](https://www.midjourney.com/explore), unless you have Pro/Mega with Stealth Mode on. 😊
 
 %image=https://cdn.discordapp.com/attachments/958191534208061450/1010303537332371526/MJ_PrivacySettings.png
 
 ---
+
+
 
 Q: I thought my DM images were private. Why are private images being moderated?
 `/private` I thought my DM images were stealth. Why are stealth images being moderated?
@@ -1325,5 +1329,8 @@ You can see the image selection for a code by replacing the Styler Tuner code an
 If you get an error, the code might have been a random one so it doesn’t have a Style Tuner.
 
 Read more here : https://discord.com/channels/662267976984297473/1169353167641776308/1170104256934707232
+
+
+
 
 ---
