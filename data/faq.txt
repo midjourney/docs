@@ -930,7 +930,7 @@ Currently, there is no support for generating images outside of Discord. However
 
 Q: Do you have any API? Is there a way to use the app via an API? API? Plans to expose API?
 
-There is currently no API, but plans for one are in the works
+There are currently no plans for an API.
 
 ---
 
