@@ -370,7 +370,6 @@ How to renew your plan:
 How to cancel your plan:
 🔹 Go to your [subscription page](https://www.midjourney.com/account/) on the Midjourney website and click “Cancel Plan”
 
-
 Send an email to billing@midjourney.com for further assistance.
 
 ---
@@ -402,7 +401,7 @@ On the [Midjourney account page ](https://midjourney.com/account), click `Cancel
 
 You can cancel the automatic renewal anytime, your plan will end of your billing cycle. You get to enjoy all perks and `/fast` time until then. Changed your mind? Uncancel before the period ends.
 
-[Can I request a refund?]((https://help.midjourney.com/en/articles/8150081-can-i-request-a-refund)
+[Can I request a refund?](https://help.midjourney.com/en/articles/8150081-can-i-request-a-refund)
 For more info, check [our help page](https://help.midjourney.com/en/articles/8150068-how-can-i-cancel-my-subscription).
 %image=https://cdn.discordapp.com/attachments/981975130840391711/1099008773974134845/MJ-cancelling.jpg
 
