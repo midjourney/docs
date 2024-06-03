@@ -1,3 +1,8 @@
+
+
+
+
+
 # TOC
 # Basics
 # GPU
@@ -59,10 +64,10 @@ The 🔄 button resubmits your request to generate a new set of four images usin
 Q: What is Vary (Region)? Vary region button? How do I use Vary (Region)? Inpainting? How do I inpaint?
 
 `Vary (Region)` allows you to select and regenerate specific parts of an image.
-1. Click the `Vary (Region)` button underneath upscaled images to open the editing interface.
-2. Select the areas of your image that you want modified. You can choose between a rectangular or a freehand selection tool in the bottom left.
-3. (Optional) In `Remix mode`, edit your prompt at the bottom to guide the modifications. *Use the command `/settings` and enable `Remix mode`.*
-4. Submit your `Vary (Region)` request ➜
+1️⃣ Click the `Vary (Region)` button underneath upscaled images to open the editing interface.
+2️⃣ Select the areas of your image that you want modified. You can choose between a rectangular or a freehand selection tool in the bottom left.
+3️⃣ (Optional) In `Remix mode`, edit your prompt at the bottom to guide the modifications. *Use the command `/settings` and enable `Remix mode`.*
+4️⃣ Submit your `Vary (Region)` request ➜
 
 __Note:__ A larger selection provides more room for changes, while a smaller selection may result in more subtle modifications.
 
@@ -267,7 +272,7 @@ Q: Can I invite Midjourney to my server? Can I add this bot to another server? H
 To add the Bot to your own Discord server, [go here](https://discord.com/application-directory/936929561302675456) and click `Add App`.
 [Here’s a step by step guide.](https://docs.midjourney.com/docs/invite-the-bot)
 
-You can also create images in Direct Messages with the Bot: right-click on it here <@936929561302675456> and select `Message`.
+**You can also create images in Direct Messages with the Bot**: right-click on it here <@936929561302675456> and select `Message`.
 
 __Note:__ Images will still appear on the website's community feed unless you’ve activated [Stealth mode](https://docs.midjourney.com/docs/stealth), which is a feature of the Pro and Mega plans.
 
@@ -493,8 +498,8 @@ If you've not used any fast time of your Basic plan, Standard will cost US$20 (+
 
 Q: Can I transfer my subscription to another account? I used the wrong account? I subscribed with the wrong account?
 
-Subscriptions can only be transferred between accounts that have the same owner. Images cannot be transferred from one account to another.
-Contact `billing@midjourney.com` to request a transfer.
+Unfortunately, subscriptions cannot be transferred.
+If you are unable to access the account associated with your subscription, please contact `billing@midjourney.com`.
 
 ---
 
@@ -691,7 +696,7 @@ The `--iw` (Image Weight) parameter allows you to adjust how much the image prom
 
 ---
 
-Q: Reference image? Use photo as reference? How do I upload an image? How do I get an image link? How do I use my own image? How do I upload or use an image from my hard-drive for an image prompt? Image prompt? How can I attach an image? Can I use an image as a starting point? Can I use my images? Can I send images to the AI? Can I give an image to the AI? I've seen a few people using source images, how does this work? Can I use an image? My own photo? My own personal photo? Edit my image?
+Q: Reference image? Use photo as reference? How do I upload an image? How do I get an image link? How do I use my own image? How do I upload or use an image from my hard-drive for an image prompt? Image prompt? How can I attach an image? Can I use an image as a starting point? Can I use my images? Can I send images to the AI? Can I give an image to the AI? I've seen a few people using source images, how does this work? Can I use an image? My own photo? My own personal photo? Edit my image? How can I use my photo to generate images?
 
 To add images to text prompts:
 1️⃣ Upload the image to Discord (make sure to click send/hit enter).
@@ -907,6 +912,17 @@ Delete your generation by reacting to it with the :x: emoji. This will also dele
 Q: How do I search for someone on the website? How do I find a user’s page?
 
 There’s no function to find a specific user’s page at the moment.
+
+---
+
+Q: I've generated over 100 images but can't use the web generation? Even though I've created more than 100 images, the alpha website does not let me in? I reached 100 pics but don't see the possibility to use imagine on the Midjourney web page? Creation is being tested with subscribers who have made more than 100 images? I have created more than 100 images, but I cannot create images on the website? I have more than 100 images created, but can't use imagine on the website?
+
+To access the web alpha and create images on [the Midjourney website](https://www.midjourney.com/imagine) directly, you need:
+🔹An active subscription
+🔹A lifetime usage of at least 100 generated images
+Each action and grid counts as one generated image. **Use the command `/info` to view your total count in `lifetime usage`.**
+
+If your lifetime usage is above 100 and you have an active subscription, sign out and sign back in.
 
 ---
 
@@ -1134,6 +1150,20 @@ The current Midjourney models do not use a banned word list. Rather, the bot att
 
 ---
 
+Q: Why is my image saying blocked by image filter? Request cancelled due to image filters? Image denied, request cancelled due to image filters?
+
+To prevent abuse and content against our [Community Guidelines](https://docs.midjourney.com/docs/community-guidelines), images in prompts have an extra cautious filter. It doesn't necessarily mean the images are against our Community Guidelines, but to be safe, they can't be used for prompts.
+Here are some things to avoid in image prompts:
+🔹Shirtless characters (regardless of their gender)
+🔹Cleavage or too much visible skin
+🔹Nude or skin tone clothing
+You can adjust the image or use text instead. Ask our [#prompt-chat](https://discord.com/channels/662267976984297473/992207085146222713) community if you have trouble finding the right words.
+
+__Note:__ The origin of the image does not matter. Every image is filtered the same way, whether it's a famous image or an image created by Midjourney itself.
+The filter is automated and can occasionally misinterpret the content.
+
+---
+
 Q: What does progress images have been disabled mean? What does process images have been disabled mean?
 
 In-progress images are sometimes disabled temporarily for performance reasons. Do not worry! Final results will still be sent normally when the generation is complete.
@@ -1212,8 +1242,8 @@ We cannot change group role assignments or move threads.
 However, all your images can be found in your [Archive](https://www.midjourney.com/archive) on the Midjourney website (make sure to Sign in with the same Discord account).
 
 Use the `/show` command to move your work to a new location:
-🔹Go to your gallery and copy the job ID.
-🔹In Discord, use the [/show command](https://docs.midjourney.com/docs/show-job) followed by the job ID.
+1️⃣ Go to your gallery and copy the job ID.
+2️⃣ In Discord, use the [/show command](https://docs.midjourney.com/docs/show-job) followed by the job ID.
 
 ---
 
@@ -1266,10 +1296,10 @@ Some jobs may appear *ephemeral* when certain words or phrases are mentioned. Th
 Don't worry, even if these jobs disappear from Discord, you can still find them in your [Gallery](https://www.midjourney.com/archive) on the Midjourney website.
 
 If you want to bring a job back into Discord:
-🔹Go to your gallery and copy the job ID.
-🔹In Discord, use the [/show command](https://docs.midjourney.com/docs/show-job) followed by the job ID.
+1️⃣ Go to your gallery and copy the job ID.
+2️⃣ In Discord, use the [/show command](https://docs.midjourney.com/docs/show-job) followed by the job ID.
 
-Keep all your images visible by generating in [Direct Messages](https://docs.midjourney.com/docs/direct-messages) with the bot.
+__Note:__ You can keep all your images visible by generating in [Direct Messages](https://docs.midjourney.com/docs/direct-messages) with the bot.
 
 ---
 
@@ -1283,7 +1313,7 @@ Q: What is –test? What is –testp? What is test? What is testp? What is –cr
 
 ---
 
-Q: How do I make my image more clear?  Why did Midjourney leave out things from my prompt? Why are parts of my prompt left out? Why did some parts of my prompt get skipped? Why did Midjourney ignore my prompt? Why am I getting nightmare fuel? Why does my image not look right? Why does my image look wrong?
+Q: How do I make my image more clear?  Why did Midjourney leave out things from my prompt? Why are parts of my prompt left out? Why did some parts of my prompt get skipped? Why did Midjourney ignore my prompt? Why am I getting nightmare fuel? Why does my image not look right? Why does my image look wrong? How should I structure my prompt? Can I get help with my prompt? Prompt help?
 
 Check out how to structure your prompt in the [Midjourney documentation](https://docs.midjourney.com/docs/en/prompts-2).
 
