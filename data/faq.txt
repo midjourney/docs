@@ -66,7 +66,7 @@ Q: What is Vary (Region)? Vary region button? How do I use Vary (Region)? Inpain
 `Vary (Region)` allows you to select and regenerate specific parts of an image.
 1️⃣ Click the `Vary (Region)` button underneath upscaled images to open the editing interface.
 2️⃣ Select the areas of your image that you want modified. You can choose between a rectangular or a freehand selection tool in the bottom left.
-3️⃣ (Optional) In `Remix mode`, edit your prompt at the bottom to guide the modifications. *Use the command `/settings` and enable `Remix mode`.*
+3️⃣ (Optional) In `Remix mode`, edit your prompt at the bottom to guide the modifications. *Use the command </settings:1000850743479255081> and enable `Remix mode`.*
 4️⃣ Submit your `Vary (Region)` request ➜
 
 __Note:__ A larger selection provides more room for changes, while a smaller selection may result in more subtle modifications.
@@ -80,7 +80,7 @@ __Note:__ A larger selection provides more room for changes, while a smaller sel
 
 Q: How can I enter a prompt for inpainting? How can I enter a prompt in vary (region)? Where is the prompt box for inpainting? Where is the prompt box for vary region? How can I add a new subject to inpainting? Why don’t I have the prompt area input in vary (region)? Where is the text box for vary (region)? I don’t have the prompt area for vary (region)?
 
-**Vary (Region)** allows you to select and regenerate specific parts of an upscaled image. If you want to change the prompt, use the command `/settings` and enable `Remix mode`.
+**Vary (Region)** allows you to select and regenerate specific parts of an upscaled image. If you want to change the prompt, use the command </settings:1000850743479255081> and enable `Remix mode`.
 
 __Note:__ This is an experimental and advanced feature.
 [Read more about Vary Region + Remix](<https://docs.midjourney.com/docs/vary-region-remix>)
@@ -129,7 +129,7 @@ Discord Settings :gear: > `Accessibility` > `Use the legacy chat input` = OFF
 Q: I can’t see the rooms? Why can I not participate in channels? How do I talk in channels? You do not have permissions to send messages in this channel? I don’t see all the channels?
 
 If you’re new, welcome! Check out our [Quick Start Guide](https://docs.midjourney.com/docs/quick-start).
-Participating in the server is limited to users with an active subscription. If your plan is active, **run the command `/info` to update your roles and access**.
+Participating in the server is limited to users with an active subscription. If your plan is active, **run the command </info:972289487818334209> to update your roles and access**.
 Organize your channels here: <id:browse>
 
 __Note:__ Some channels are view-only, they’re used by team members to communicate information.
@@ -142,7 +142,7 @@ __Note:__ Some channels are view-only, they’re used by team members to communi
 
 Q: Is it possible to edit a prompt without restarting? How to edit my prompt? What is remix? Can I change the prompt after I’ve made it? Can I change the prompt? Is there a way to add more parameters to a generated image after I have generated different versions? Can I change the prompt? How do I recreate one of my images with a small change? Can I edit my prompt? Can I edit one of my prompts? Can I add, remove, or change just one word in my prompt?
 
-The `Remix` feature lets you edit your prompt. Use the command `/settings` and enable `Remix mode`. Once it’s on, clicking the `V` and `Vary` buttons will open a text box where you can make changes to the prompt. Clicking 🔄 will open a text box where you can adjust the prompt before submitting it again.
+The `Remix` feature lets you edit your prompt. Use the command </settings:1000850743479255081> and enable `Remix mode`. Once it’s on, clicking the `V` and `Vary` buttons will open a text box where you can make changes to the prompt. Clicking 🔄 will open a text box where you can adjust the prompt before submitting it again.
 
 [Read more about Remix](https://discord.com/channels/662267976984297473/1029507753389084692/1029507753389084692)
 
@@ -174,7 +174,7 @@ __Note:__ Requests like panning, Vary (Region), using older models, or adding sp
 
 Q: How do I see how many gpu hours I have left? How do I see how much I have used? How do I see how many hours I have left? Where can I check how many prompts I have left? How many images can I make? How can I see my queue? Where do I check my jobs? How do I check how many jobs I have left? /info? Is my subscription active? How do I check my subscription status? Is my subscription canceled? How do I check how many images I have left?
 
-Use the command `/info` to check your status and usage.
+Use the command </info:972289487818334209> to check your status and usage.
 This also updates your roles and access.
 
 `Fast Time Remaining` shows how much fast GPU time you have available.
@@ -258,7 +258,7 @@ Q: What is turbo mode? What does turbo mean? Turbo mode?
 
 Turbo mode is for extremely quick image generation. Jobs in Turbo mode are generated up to four times faster but also **consume up to four times as much fast GPU time** as a typical Fast mode job.
 
-Switch to Turbo mode with the command `/turbo` or select ⚡Turbo mode in your `/settings`.
+Switch to Turbo mode with the command `/turbo` or select ⚡Turbo mode in your </settings:1000850743479255081>.
 
 __Note:__ If Turbo mode can’t be used, your job will run in Fast Mode instead.
 [Read more about Relax, Fast, and Turbo Modes](https://docs.midjourney.com/docs/fast-relax)
@@ -314,7 +314,7 @@ We require that you verify the email address attached to your Discord account in
 
 Q: Do subscriptions renew on the first of the month? When does my subscription renew? When do I get more fast time? What day is my fast time refilled? What day is my subscription renewed? When is my fast time refilled? When is my subscription refilled?
 
-To see your next renewal date and time, run the `/info` command.
+To see your next renewal date and time, run the </info:972289487818334209> command.
 
 **Yearly plan?** Your Fast Time refreshes every month on the same date and time as when you subscribed. For example, if you subscribed on January 8th at 12pm, your hours will refresh on the 8th of every month at 12pm.
 
@@ -324,7 +324,7 @@ __Note:__ Daylight Saving Time/Summer Time may shift the renewal time by 1 hour.
 
 Q: How do I subscribe? How to subscribe? How do I become a member? /subscribe? How does one become a member? How can I be a full member?  How can I subscribe to it? How to get the paid version? How do you get a subscription? Hello, where can I make the payment for the Standard plan? And how do I buy the 10$ plan? How do I buy it? How can I subscribe to Midjourney? Premium? How to subscribe to this bot? Subscribe?
 
-Type `/subscribe`, select the command in the pop up above, and hit enter/click send. This will give you a unique link to your [subscription page](https://www.midjourney.com/account/) on the website; don’t share the link with anyone!
+Type </subscribe:987795925764280351>, select the command in the pop up above, and hit enter/click send. This will give you a unique link to your [subscription page](https://www.midjourney.com/account/) on the website; don’t share the link with anyone!
 
 Choose between Yearly or Monthly billing and subscribe to the plan you want.
 
@@ -391,7 +391,7 @@ Contact `billing@midjourney.com` for further assistance.
 
 Q: Billing Issue? Billing Question? Need Billing Help? Remove Payment Info? Remove Credit Cards? How do I remove payment information? Remove payment? How can I find my Midjourney's invoice? Where can I see my invoices? How to access invoices? Where can I get my receipts?
 
-🔹If your subscription is active: Use the command `/subscribe` or sign in to [the Midjourney website](https://www.midjourney.com/account/) to manage your subscription.
+🔹If your subscription is active: Use the command </subscribe:987795925764280351> or sign in to [the Midjourney website](https://www.midjourney.com/account/) to manage your subscription.
 Click `Edit Billing` to modify your payment details. Click `View Invoices` to download previous invoices and receipts.
 🔹If your subscription is inactive: Access [this link](https://billing.stripe.com/p/login/aEUdRA5Wc8t25a03cc) using your billing email to find your invoices and update your payment information.
 
@@ -520,7 +520,7 @@ To cancel running jobs, you can either:
 🔹React to the job with the :x: emoji.
 🔹Right-click on the job, go to "Apps", and select "Cancel Job".
 
-Can't find the job? Use `/info` to get a link to its location. Remember, you can only cancel jobs which are currently running, not those queued.
+Can't find the job? Use </info:972289487818334209> to get a link to its location. Remember, you can only cancel jobs which are currently running, not those queued.
 
 If you are experiencing long wait times with jobs starting, please refer to [status.midjourney.com](https://status.midjourney.com/) for estimated queue times or [#status](https://discord.com/channels/662267976984297473/942231458918064148) for current bot updates. If there’s an issue, it's often best to wait for your job to start rather than to cancel and restart it.
 
@@ -538,17 +538,21 @@ Midjourney is a community for sharing and exploration. If you prefer not to part
 
 Q: What's private mode? What’s stealth mode? Private powers badge? I don't want people to see my images? How can I work privately? I don't want anyone to see my images and prompts? How do I go private? How do I go stealth? How much does private cost? How much does stealth cost? I can’t unpublish on the website? Stealth mode? How do I keep my images private? Are all my images private automatically? Will my gallery become private? Why can users still interact even though I bought private? Are all my images stealth automatically? Will my gallery be stealth? Why can users interact even though I have stealth mode enabled? How to unpublish images? What is publish and unpublish?
 
-[Stealth mode](https://docs.midjourney.com/docs/stealth) is a feature of the Pro and Mega plans that allows you to make your images private (unpublished) in [your gallery](https://www.midjourney.com/archive). Unpublished images cannot be seen on the website by any members other than yourself.
+By default, your prompts and images are public on the [Midjourney website](https://www.midjourney.com/explore).
+[Stealth mode](https://docs.midjourney.com/docs/stealth) is a feature of the Pro and Mega plans that allows you to make your images private (unpublished) so they cannot be viewed by others on the website.
 
-To enable Stealth mode and keep all **new** images private on the Midjourney website, run the `/stealth` command. You can also add it to individual prompts by adding the `--stealth` parameter.
+To unpublish public images, select them in [your gallery](https://www.midjourney.com/archive) and click `...More` next to Download. You can then bulk publish/unpublish.
+To enable Stealth mode and keep all **__new__** images private on the Midjourney website:
+:small_blue_diamond:On Discord: run the `/stealth` command. *This only applies to images made on Discord.*
+:small_blue_diamond:On the website:  toggle the `Stealth` button in your settings to `On`. *This only applies to images made on the website. It is not saved if you change browsers or clear your cache.*
 
-__Note:__ Images made in public channels are visible by anyone in those channels! To keep images completely hidden, you must [make them in Direct Messages](https://docs.midjourney.com/docs/direct-messages) or [in a private server](https://docs.midjourney.com/docs/add-the-bot). 
+__Note:__ Images made in public channels are visible by anyone in those channels! To keep images completely hidden, you must [make them in Direct Messages](https://docs.midjourney.com/docs/direct-messages) or [in a private server](https://docs.midjourney.com/docs/add-the-bot).
 
 ---
 
 Q: How to hide images? What is hide? What does hide do on the website? Is hide the same as private mode? Hide images?
 
-`Hide` only hides images from yourself - it’s used to organize [your own gallery](https://www.midjourney.com/archive) by hiding images you don’t like from your view. **Hidden images are still visible to all other members**, it is not the same as unpublishing them.
+`Hide` **only hides images from yourself** - it’s used to organize [your own gallery](https://www.midjourney.com/archive) by hiding images you don’t like from your view. **Hidden images remain visible to all other members**, it is not the same as unpublishing them.
 To make your images private, you will need the Pro or Mega plan; those allow you to unpublish images and use [Stealth mode](https://docs.midjourney.com/docs/stealth).
 
 To hide images on the website, go to your [Archive](https://www.midjourney.com/archive), select the images you want to hide, and click `...More` (next to Download). You can then bulk hide/unhide.
@@ -646,7 +650,7 @@ The default upscaler for v4 takes the prompt into account, unlike previous upsca
 Q: Where has the upscale 4x button gone? Upscale 2x and Upscale 4x do now show for me? Have you removed 4x upscale? 4x upscale? Upscale (4x)?
 
 At the moment, version 6 only has `Upscale (Subtle)` and `Upscale (Creative)` which are both Upscales 2x.
-If you want an Upscale (4x) you need to go back to --v 5.2. Use the command `/settings`, select Version 5.2 and create a new /imagine - new images will have the 4x Upscale button.
+If you want an Upscale (4x) you need to go back to --v 5.2. Use the command </settings:1000850743479255081>, select Version 5.2 and create a new /imagine - new images will have the 4x Upscale button.
 
 [Read more about Upscalers](https://docs.midjourney.com/docs/upscalers-1)
 
@@ -664,14 +668,49 @@ Check out our [Midjourney Documentation](https://docs.midjourney.com/)
 
 Q: How do you reset custom suffix? How do you reset your parameters? Can I reset my settings? Why am I getting this message about an unrecognized argument? Invalid argument unrecognized argument? I can't remove the option –upbeta or –uplight in settings?
 
-To reset suffixes automatically added to your prompts, use the command `/settings` and click on `Reset Settings`.
+To reset suffixes automatically added to your prompts, use the command </settings:1000850743479255081> and click on `Reset Settings`.
 %image=https://cdn.discordapp.com/attachments/1201909699793145876/1231302471205388299/Reset_Settings.png
 
 ---
 
 Q: Quality Buttons Disappeared from Settings? Quality Buttons? Quality Buttons Gone? Quality Buttons Disappear? How to set Quality? Quality in Settings?
 
-The Quality buttons have been removed from the `/settings` panel because on v4 and v5 models the default quality setting is already the maximum value (q 1). If you wish to lower the quality setting or use higher values on older versions, you can use the [Quality Parameter](https://docs.midjourney.com/docs/quality) on your prompt or set a [custom suffix](https://docs.midjourney.com/docs/settings-and-presets#prefer-suffix) to automatically add a custom quality parameter.
+The Quality buttons have been removed from the </settings:1000850743479255081> panel because on v4 and v5 models the default quality setting is already the maximum value (q 1). If you wish to lower the quality setting or use higher values on older versions, you can use the [Quality Parameter](https://docs.midjourney.com/docs/quality) on your prompt or set a [custom suffix](https://docs.midjourney.com/docs/settings-and-presets#prefer-suffix) to automatically add a custom quality parameter.
+
+---
+
+Q: How do you use --s? How do you use stylize? What does stylize do? What is --s?
+
+Stylization adjusts how much the bot applies the default styling of the model, it also affects how closely the bot follows your prompt. 
+The default value of the `--stylize` parameter is 100. You can adjust it by adding the `--s` parameter at the end of your prompt with a value from 0 to 1000.
+🔹Lower values will follow your prompt closely.
+🔹Higher values give the bot more freedom to interpret the prompt but may dismiss some specifics.
+
+[Read more about the Stylize parameter](https://docs.midjourney.com/docs/stylize)
+
+---
+
+Q: What is the personalization feature? What is the personalisation feature? What is the personalize feature? What is the personalise feature? What is the personalization parameter? What is the personalisation parameter? What is the personalize parameter? What is the personalise parameter? Personalization feature? Personalisation feature? Personalize feature? Personalise feature? Personalization parameter? Personalisation parameter? Personalize parameter? Personalise parameter? What is the --p parameter? Can I get a personal code with my own aesthetic? Can I personalize my style? Can I personalise my style? How do I get my personal code? Where do I find my personal code? Where do I find my --p code? Can I train my own model?
+
+The Personalization feature learns your preferences over time through images you've rated (on the [Rate Images](https://www.midjourney.com/rank) page).
+
+Add the Personalize parameter `--p` at the end of your prompt to tailor the model to your preferences. Your personal code is automatically added after it. Copy your code from the prompt to share it with other users, and try codes from others by pasting one of theirs after `--p`.
+
+__Note:__ You can combine personalization with other parameters available in Version 6.
+You can adjust the strength of your personal styling by combining it with the [`--stylize` parameter](https://docs.midjourney.com/docs/stylize), with a value from 0 to 1000. A higher `--s` value will show your styling more but may dismiss some specifics of your prompt. 
+
+[Read more about the Personalize parameter](https://docs.midjourney.com/docs/personalization)
+If you want to influence the style with your own image(s), use the [Style Reference parameter](https://docs.midjourney.com/docs/style-reference).
+
+---
+
+Q: Can I use someone else's personal style parameter? Can I use someone else's --p code? Can others user my personal code? Can others user my --p code? Can other members use my personalize code? Can other members user my personalise code? 
+
+When you use the Personalize parameter `--p`, your unique personal code is automatically added after it. You can share this code with other members as well as try one of their codes by pasting it after `--p`.
+
+Feel free to ask other community members for their personal code. There's no obligation to share codes, but it’s a great way to explore!
+
+[Read more about the Personalize parameter](https://docs.midjourney.com/docs/personalization)
 
 ---
 
@@ -680,7 +719,7 @@ Q: How to have the same character made but in different scenes? Can I keep the s
 You can use the Character Reference parameter `--cref` followed by a space and a link to your image for the characters in your results to be based on a specific image. You can add multiple links to have multiple character references, make sure to have a space between each link.
 For example: `Short blond man holding a puppy --cref https://pic2.png`
 
-__Note:__ The --cref parameter works best with references created in Midjourney.
+__Note:__ The `--cref` parameter works best with references created in Midjourney.
 You can add text, image prompts, and other parameters to guide the results.
 
 [Read more about the Character Reference parameter](https://docs.midjourney.com/docs/character-reference)
@@ -691,7 +730,7 @@ You can add text, image prompts, and other parameters to guide the results.
 
 Q: What does the --iw argument do? What does the --iw comment do? What does --iw do?
 
-The `--iw` (Image Weight) parameter allows you to adjust how much the image prompt will be considered in the final result. The default `--iw` value in Version 6 is 1, and it can be set to values between 0 and 3.
+The Image Weight parameter `--iw` allows you to adjust how much the image prompt will be considered in the final result. The default `--iw` value in Version 6 is 1, and it can be set to values between 0 and 3.
 %img=https://cdn.discordapp.com/attachments/1201909699793145876/1234278532461498459/ImageWeight_Values.png
 
 ---
@@ -737,7 +776,7 @@ You can use an image URL as part of your prompt to add an image prompt. However,
 
 Q: Is there a max iw? What’s the max iw? What is the max image weight? Is there a maximum image weight?
 
-The maximum value for the image weight parameter (`--iw`) is 3.
+The maximum value for the image weight parameter `--iw` is 3.
 
 [Read more about Image Prompts](https://docs.midjourney.com/docs/image-prompts)
 
@@ -745,7 +784,7 @@ The maximum value for the image weight parameter (`--iw`) is 3.
 
 Q: Is there a way to mix two images. Can I combine images? Can I blend images?
 
-**Use `/blend` to mix two or more images together.**
+Use `/blend` to mix two or more images together.
 
 [Read more about Blend](https://docs.midjourney.com/docs/blend-1)
 
@@ -788,7 +827,7 @@ Q: Do commas, pipes, or any other punctuation matter? Does punctuation matter?
 
 In the default version of Midjourney (Version 6), punctuation is interpreted similarly to natural language. Compose your text prompt as you would structure a sentence to describe an image.
 Some characters have a specific function:
-🔹"Quotation marks" indicate that the text enclosed within them should appear in the image
+🔹"Quotation marks" indicate that the text enclosed within them should appear in the image.
 🔹Double hyphens (`--`) or an em dash (`—`) are used to manually input a parameter.
 
 ---
@@ -803,9 +842,9 @@ Different versions of Midjourney have different limits. The current model, Versi
 
 Q: Why are my images the same color? Why does it ignore my prompt? Why is the image so different from my prompt? Why do I keep seeing the same woman/man? Why are my generations always so similar?
 
-Your `Stylization` value might be too high, try lowering it.
-`Stylization` adjusts how much the bot applies the default styling of the model, it also affects how closely the bot follows your prompt.
-The values range from 0 to 1000, and the default value is 100.
+Your `stylize` parameter value might be too high, try lowering it.
+Stylization adjusts how much the bot applies the default styling of the model, it also affects how closely the bot follows your prompt. 
+The default value of the `--stylize` parameter is 100. You can adjust it by adding the `--s` parameter at the end of your prompt with a value from 0 to 1000.
 🔹Lower values will follow your prompt closely.
 🔹Higher values give the bot more freedom to interpret the prompt but may dismiss some specifics.
 
@@ -823,21 +862,10 @@ Engage in our [#prompt-chat](https://discord.com/channels/662267976984297473/992
 
 Q: What does quality do? How do you use  --q? How do you use quality? What is --q?
 
-The quality parameter (`--q`) changes how much time is spent generating an image.
+The `--quality` parameter (`--q`) changes how much time is spent generating an image.
 You can only use the following values: `.25`, `.5`, and `1` in Version 6. Larger values are rounded down to default value of 1.
 
-[Read more about Quality](https://docs.midjourney.com/docs/quality)
-
----
-
-Q: How do you use --s? How do you use stylize? What does stylize do? What is --s?
-
-`Stylization` adjusts how much the bot applies the default styling of the model, it also affects how closely the bot follows your prompt.
-The values range from 0 to 1000, and the default value is 100.
-🔹Lower values will follow your prompt closely.
-🔹Higher values give the bot more freedom to interpret the prompt but may dismiss some specifics.
-
-[Read more about the Stylize parameter](https://docs.midjourney.com/docs/stylize)
+[Read more about the Quality parameter](https://docs.midjourney.com/docs/quality)
 
 ---
 
@@ -915,12 +943,12 @@ There’s no function to find a specific user’s page at the moment.
 
 ---
 
-Q: I've generated over 100 images but can't use the web generation? Even though I've created more than 100 images, the alpha website does not let me in? I reached 100 pics but don't see the possibility to use imagine on the Midjourney web page? Creation is being tested with subscribers who have made more than 100 images? I have created more than 100 images, but I cannot create images on the website? I have more than 100 images created, but can't use imagine on the website?
+Q: I've generated over 100 images but can't use the web generation? Even though I've created more than 100 images, the alpha website does not let me in? I reached 100 pics but don't see the possibility to use imagine on the Midjourney web page? Creation is being tested with subscribers who have made more than 100 images? I have created more than 100 images, but I cannot create images on the website? I have more than 100 images created, but can't use imagine on the website? I've made more than 100 images but still can't use the Imagine feature on the website?
 
 To access the web alpha and create images on [the Midjourney website](https://www.midjourney.com/imagine) directly, you need:
 🔹An active subscription
 🔹A lifetime usage of at least 100 generated images
-Each action and grid counts as one generated image. **Use the command `/info` to view your total count in `lifetime usage`.**
+Each action and grid counts as one generated image. **Use the command </info:972289487818334209> to view your total count in `lifetime usage`.**
 
 If your lifetime usage is above 100 and you have an active subscription, sign out and sign back in.
 
@@ -960,7 +988,7 @@ Subscribers can use commands in Direct Messages (DMs) with the Bot. Right click 
 __If you can't DM the bot or get an integration error:__
 Right-click the Midjourney server icon > Privacy Settings > check if `Direct Messages` is green. If it’s already enabled, toggle it off and on again.
 
-__Note:__ Images in DMs are visible to everyone on the [Midjourney website](https://www.midjourney.com/explore), unless you have a Pro or Mega and have activated [Stealth Mode](https://docs.midjourney.com/docs/stealth).
+__Note:__ Images in DMs are visible to everyone on the [Midjourney website](https://www.midjourney.com/explore), unless you have a Pro or Mega plan and have activated [Stealth Mode](https://docs.midjourney.com/docs/stealth).
 
 %image=https://cdn.discordapp.com/attachments/958191534208061450/1010303537332371526/MJ_PrivacySettings.png
 
@@ -1032,7 +1060,7 @@ You can also explore our [News page](https://www.midjourney.com/updates) for the
 Q: Are there any plans to make this into its own software/application? Are there plans for a stand-alone application? Will MJ ever go for a stand-alone platform, without Discord? Is there a web version? Can I generate online? Do I have to use Discord?
 
 Users with at least 100 generations on Midjourney you can now alpha-test our [image creation website](https://alpha.midjourney.com/imagine).
-🔹Run the command `/info` on the Midjourney server to update your roles and access.
+🔹Run the command </info:972289487818334209> on the Midjourney server to update your roles and access.
 🔹Find more information about it here: https://discord.com/channels/662267976984297473/952771221915840552/1205270579578671134
 
 ---
@@ -1085,8 +1113,8 @@ Currently, all subscription plans are linked to a single user. Each user needs t
 
 Q: Prefer suffix. How do I reset my settings? How do I reset my suffix? How do I clear my settings? There’s something in my prompt I didn’t add, how do I remove it? Stylize must be between error?
 
-Use `/prefer suffix` as a standalone command to reset your Midjourney `/settings` to the system defaults.
-You can also use the command `/settings` and click the last button `Reset Settings`.
+Use </prefer suffix:984273800587776053> as a standalone command to reset your Midjourney </settings:1000850743479255081> to the system defaults.
+You can also use the command </settings:1000850743479255081> and click the last button `Reset Settings`.
 
 %image=https://cdn.discordapp.com/attachments/1201909699793145876/1231302471205388299/Reset_Settings.png
 
@@ -1188,7 +1216,7 @@ For example: `https://pic1.png a cool person flying like superman`
 
 Q: --stylize must be between 0 and 1000 with --version 6? stylize must be between 0 and 1000?
 
-Use the command `/settings` and select `Style Med` to use the Version’s default value for Stylize.
+Use the command </settings:1000850743479255081> and select `Style Med` to use the Version’s default value for Stylize.
 
 `Stylization` adjusts how much the bot applies the default styling of the model, it also affects how closely the bot follows your prompt.
 The values range from 0 to 1000, and the default value is 100.
@@ -1249,7 +1277,7 @@ Use the `/show` command to move your work to a new location:
 
 Q: How to get access to the 5000 club? How to get access to the 10000 club? Why do I not see the 5000 channel? How to access alpha? How do I unlock the 25000 club?
 
-Use the command `/info` on the server to update your roles and access.
+Use the command </info:972289487818334209> on the server to update your roles and access.
 You may need to sign out and back in the Midjourney website to update any available test features.
 
 ---
@@ -1401,17 +1429,17 @@ Engage in our [#prompt-chat](https://discord.com/channels/662267976984297473/992
 # -------------------- STYLE TUNER --------------------
 # -------------------- -------------------- --------------------
 
-Q: What is the Style Tuner? Style Tuner? Tune? How to tune style? What is a style code? How to get my own style code? How do I generate a style code? Style code?
+Q: What is the Style Tuner? Style Tuner? Tune? How to tune style?
 
 The Style Tuner lets you make your own Midjourney style in Version 5.2.
-Activate Version 5.2 in your `/settings`, then use the command `/tune` with your prompt. Choose your favorite images; you’ll receive a unique `--style` code to add to your new prompts.
+Activate Version 5.2 in your </settings:1000850743479255081>, then use the command `/tune` with your prompt. Choose your favorite images; you’ll receive a unique `--style` code to add to your new prompts.
 You can also add `--style random` at the end of your prompt and you’ll get random codes.
 
 [Read more about the Style Tuner](https://docs.midjourney.com/docs/style-tuner)
 
 ---
 
-Q: Multiple style codes? 
+Q: Multiple style tuner codes? 
 
 In Version 5.2, combine multiple codes in one parameter with a hyphen, such as `--style code1-code2`
 
@@ -1419,7 +1447,7 @@ In Version 5.2, combine multiple codes in one parameter with a hyphen, such as `
 
 ---
 
-Q: Can I share my styles? Can I share tuners? Can I send my tuner link? Are Style Tuners hidden? Are Style Tuners private? Can I share a style code? Can I use someone else’s style code?
+Q: Are Style Tuners private? Can I share a my style tuner? Can I use someone else’s style tuner?
 
 Your Style Tuner links are public, you can send it to other users for them to select their own favorite images. You can also share or use style codes created by friends.
 
