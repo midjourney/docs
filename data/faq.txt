@@ -10,12 +10,13 @@
 # Invites
 # Trial
 # Subscription
+# Billing
 # Private
 # Upscale / Size
 # Parameters
 # Commands
 # Website
-# DMs
+# Personal Space
 # About
 # Usage rights
 # Errors
@@ -78,6 +79,20 @@ __Note:__ A larger selection provides more room for changes, while a smaller sel
 
 ---
 
+Q: How do I create variations? What is a variation? Vary subtle or strong? What is the difference between Vary subtle and strong?
+
+Create [variations](https://docs.midjourney.com/docs/variations) of an image you made on Midjourney to generate new images based on it.
+
+Click one of the V🔢 buttons underneath you grid to make variations or click on the U🔢 buttons to isolate the image and then choose :magic_wand: `Vary (Subtle)` or `Vary (Strong)`.
+🔹Vary **(Subtle)**: Retains the basic composition and colors, creating four new images with slightly different details.
+🔹Vary **(Strong)**: Creates four new interpretations of your prompt, while referencing elements of the original.
+
+Select the Variation mode used for your V🔢 buttons with the command </settings:1000850743479255081>.
+
+__Note:__ To edit your prompt when making variations, activate [`Remix mode`](https://docs.midjourney.com/docs/remix) in your </settings:1000850743479255081>.
+
+---
+
 Q: How can I enter a prompt for inpainting? How can I enter a prompt in vary (region)? Where is the prompt box for inpainting? Where is the prompt box for vary region? How can I add a new subject to inpainting? Why don’t I have the prompt area input in vary (region)? Where is the text box for vary (region)? I don’t have the prompt area for vary (region)?
 
 **Vary (Region)** allows you to select and regenerate specific parts of an upscaled image. If you want to change the prompt, use the command </settings:1000850743479255081> and enable `Remix mode`.
@@ -110,7 +125,7 @@ Make sure to give our [Quick Start Guide](https://docs.midjourney.com/docs/quick
 
 ---
 
-Q: I'm having trouble using the bot - Why don’t I see the /imagine option as a slash command? I don’t see /imagine in my slash commands? My commands don’t work? Imagine doesn't work for me? I type the prompts and nothing appears? I type /imagine and nothing happens? It does not let me use /imagine? So just /imagine [prompt]? Where can I use /imagine?
+Q: I'm having trouble using the bot - Why don’t I see the /imagine option as a slash command? I don’t see /imagine in my slash commands? My commands don’t work? Imagine doesn't work for me? I type the prompts and nothing appears? I type /imagine and nothing happens? It does not let me use /imagine? So just /imagine [prompt]? Where can I use /imagine? The /imagine command does not work?
 
 
 1️⃣ Be sure to use a bot channel like #newbies or #general - try <#981832774157762570>.
@@ -190,7 +205,7 @@ Midjourney runs on datacenter grade graphics cards, it can only be used through 
 Q: What are optional credit top-ups? Top-ups? What does optional credit pop-ups mean in plan details? What if I run out of fast-gpu hours? What if I run out of fast time? How do I enable the additional fast time?
 
 You can purchase additional fast GPU hours at the current rate of US$4 per hour (plus VAT). These purchased GPU hours do not expire, but you must have an active subscription to use them.
-You can buy them via your [`Manage Subscription` page](https://www.midjourney.com/account/) on the Midjourney website.
+You can buy them via your [`Manage Subscription` page](https://www.midjourney.com/account) on the Midjourney website.
 
 __Note:__ These hours are used after your monthly and bonus GPU fast time.
 
@@ -265,19 +280,6 @@ __Note:__ If Turbo mode can’t be used, your job will run in Fast Mode instead.
 
 ---
 
-# -------------------- ------PERSONAL USE------ --------------------
-
-Q: Can I invite Midjourney to my server? Can I add this bot to another server? How to add Midjourney to a different server? Can I add the bot to my Discord server? Can I use the bot on my server? Q: Can I get my own private channel? How do I get a private channel? Does a subscriber have its own private channel not viewed by the public? Will I have a private channel if I subscribe? Can I generate images in a private channel? How can I add it to the server? Add bot? How to have my personal server? Can I use the bot in a personal Midjourney server?
-
-To add the Bot to your own Discord server, [go here](https://discord.com/application-directory/936929561302675456) and click `Add App`.
-[Here’s a step by step guide.](https://docs.midjourney.com/docs/invite-the-bot)
-
-**You can also create images in Direct Messages with the Bot**: right-click on it here <@936929561302675456> and select `Message`.
-
-__Note:__ Images will still appear on the website's community feed unless you’ve activated [Stealth mode](https://docs.midjourney.com/docs/stealth), which is a feature of the Pro and Mega plans.
-
----
-
 # -------------------- -------------------- --------------------
 # -------------------- ----INVITES----- --------------------
 # -------------------- -------------------- --------------------
@@ -296,7 +298,7 @@ Q: Do I get free images every month? Do I get free images every day? Can I be a 
 
 **Welcome!** Midjourney does not provide a free tier or trial due to the costs associated with operating hundreds of GPUs. To use the bot, you will need a subscription.
 
-You can subscribe to the plan of your choice through your [`Manage Subscription` page](https://www.midjourney.com/account/).
+You can subscribe to the plan of your choice through your [`Manage Subscription` page](https://www.midjourney.com/account).
 
 If you have an active subscription, you can try and win [free bonus fast time](https://docs.midjourney.com/docs/free-hours).
 
@@ -324,7 +326,7 @@ __Note:__ Daylight Saving Time/Summer Time may shift the renewal time by 1 hour.
 
 Q: How do I subscribe? How to subscribe? How do I become a member? /subscribe? How does one become a member? How can I be a full member?  How can I subscribe to it? How to get the paid version? How do you get a subscription? Hello, where can I make the payment for the Standard plan? And how do I buy the 10$ plan? How do I buy it? How can I subscribe to Midjourney? Premium? How to subscribe to this bot? Subscribe?
 
-Type </subscribe:987795925764280351>, select the command in the pop up above, and hit enter/click send. This will give you a unique link to your [subscription page](https://www.midjourney.com/account/) on the website; don’t share the link with anyone!
+Type </subscribe:987795925764280351>, select the command in the pop up above, and hit enter/click send. This will give you a unique link to your [`Manage Subscription` page](https://www.midjourney.com/account) on the website; don’t share the link with anyone!
 
 Choose between Yearly or Monthly billing and subscribe to the plan you want.
 
@@ -337,7 +339,7 @@ Generating a set of four images consumes about 1 GPU minute. Each plan includes 
 🔹The Standard, Pro and Mega plan offer more fast GPU time and access to Relax mode. You can generate an unlimited amount of images in Relax mode.
 
 Read about our different subscription plans [here](https://docs.midjourney.com/docs/plans).
-Once you’ve made your choice, head over to your [account page](https://www.midjourney.com/account/) to subscribe.
+Once you’ve made your choice, head over to your [`Manage Subscription` page](https://www.midjourney.com/account) to subscribe.
 
 %image=https://s.mj.run/nSISd_5AlOU
 
@@ -351,15 +353,6 @@ Once you’ve made your choice, you can subscribe on your [account page](https:/
 
 ---
 
-Q: Can I pay with PayPal? Can I use PayPal? Do you have other payment methods? Paypal PayPal? Do I have to use a credit card? Are there other ways to pay? Is there another way to pay for a subscription other than with a credit card? Can I pay with ETH? Do you take crypto?
-
-Depending on region, Stripe supports credit/debit cards (Mastercard, VISA, American Express, Discover & Diners etc) and some digital wallets (Apple Pay, Google Pay, Cash App Pay).
-[More information on card brands supported by Stripe](https://stripe.com/docs/payments/cards/supported-card-brands)
-
-PayPal, Wire transfer, crypto and other methods are not currently supported.
-
----
-
 Q: Are there yearly plans? Are there month by month plans? Are the payments lifetime or monthly? Is the subscription price paid per month?
 
 You can choose to purchase a plan month-to-month, or make a yearly commitment. If you choose the yearly plan, you get a 20% discount, but you pay for the whole year upfront. Your fast hours will still refresh on the same day every month. It's up to you!
@@ -368,60 +361,19 @@ Don’t forget to cancel the automatic renewal before your next billing date if 
 
 ---
 
-Q: How do I cancel the Midjourney Magazine? Cancel the magazine subscription? Cancel magazine? How to update Magazine details?
+Q: How do I cancel my Magazine? Cancel the magazine subscription? Cancel magazine? How to update Magazine details? Help me cancel the magazine subscription? What is the link to cancel the magazine? How to unsubscribe from the magazine? Where can I update my address for magazine delivery?
 
-You can update your shipping information or cancel your Midjourney Magazine subscription by using [this link](https://billing.stripe.com/p/login/aEUdRA5Wc8t25a03cc).
-
-Contact `billing@midjourney.com` for further assistance.
-
----
-
-Q: My card is declined? Card declined? The website declined my payment, but I have funds on my card? Why is my card being declined? My card declined but money was still taken? Money was taken out of my account, but I don’t have a subscription?
-
-If your payment was declined, you might notice a pending charge in your account. Your bank will automatically remove it within a few days.
-
-- Double-check your card details (Name, Number, CVC, Exp. Date).
-- Ensure your billing info matches your bank's (Name, Address, Zip/Postal Code).
-- Check your account balance and spending limits.
-- Reach out to your bank, if they declined it they can clear it for you.
+You can update your shipping information or cancel your Midjourney Magazine subscription by using [this link](https://billing.stripe.com/p/login/aEUdRA5Wc8t25a03cc) and the email you receive your magazine receipts on.
 
 Contact `billing@midjourney.com` for further assistance.
 
 ---
 
-Q: Billing Issue? Billing Question? Need Billing Help? Remove Payment Info? Remove Credit Cards? How do I remove payment information? Remove payment? How can I find my Midjourney's invoice? Where can I see my invoices? How to access invoices? Where can I get my receipts?
+Q: I want to order the magazine? Where could I buy a magazine?
 
-🔹If your subscription is active: Use the command </subscribe:987795925764280351> or sign in to [the Midjourney website](https://www.midjourney.com/account/) to manage your subscription.
-Click `Edit Billing` to modify your payment details. Click `View Invoices` to download previous invoices and receipts.
-🔹If your subscription is inactive: Access [this link](https://billing.stripe.com/p/login/aEUdRA5Wc8t25a03cc) using your billing email to find your invoices and update your payment information.
+Visit the [Midjourney Magazine website](https://mag.midjourney.com/) to subscribe to the monthly magazine. You can also purchase other printed editions showcasing Midjourney images.
 
-Contact `billing@midjourney.com` for further assistance.
-
----
-
-Q: Paused? Unpause Account? My subscription is Paused? How to renew when Paused?
-
-If the bot or website shows your subscription is paused, this means your renewal payment failed.
-
-**How to renew your plan:**
-🔹 Open the email about “payment was unsuccessful" to pay the overdue invoice.
-**How to cancel your plan:**
-🔹 Go to your [subscription page](https://www.midjourney.com/account/) on the Midjourney website and click “Cancel Plan”.
-
-Contact `billing@midjourney.com` for further assistance.
-
----
-
-# -------------------- VAT --------------------
-
-Q: How do I add VAT to my invoice? Why was I charged for VAT? Can I add VAT?
-
-To include your VAT ID on future invoices:
-🔹 With an active subscription: Go to your [Midjourney subscription page](https://www.midjourney.com/account/), click `Edit Billing`, then add your country and VAT ID.
-🔹 Without an active subscription: At checkout, select the option `I’m purchasing as a business` and enter your company name and VAT ID (include the country code letters if applicable).
-
-**__Note:__ Once issued, invoices cannot be changed.**
-Contact `billing@midjourney.com` for further assistance.
+Contact `billing@midjourney.com` for any inquiry or issue regarding your magazine payments.
 
 ---
 
@@ -431,9 +383,9 @@ Q: If we go over our limit of fast hours does it let us know? Or just start bill
 
 When you’ve used all your fast time, you won’t be able to create images in fast mode.
 
-🔹If you have a Standard, Pro, or Mega plan, you can use the command `/relax` to activate Relax mode and create images unlimitedly.
-🔹You can purchase more fast hours on your [subscription page](https://www.midjourney.com/account).
 🔹You can try and win [free bonus fast time](https://docs.midjourney.com/docs/free-hours).
+🔹You can purchase more fast hours on your [`Manage Subscription` page](https://www.midjourney.com/account).
+🔹If you have a Standard, Pro, or Mega plan, you can use the command `/relax` to activate Relax mode and create images unlimitedly.
 
 __Note:__ Additional GPU hours are bought before being used, so you cannot accidentally use more fast time than you have in your plan.
 
@@ -441,14 +393,26 @@ __Note:__ Additional GPU hours are bought before being used, so you cannot accid
 
 # -------------------- CANCELATION --------------------
 
-Q: How can I cancel? How can I cancel my plan? How do I unsubscribe? How can I cancel my subscription? How to cancel a subscription? Cancel with refund? Cancel and refund? Where do I cancel my subscription? How do I unsub? Where do I unsub? Where do I cancel? Cancle? How do I get a refund? How to refund? Cancel? How to cancel?
+Q: How can I cancel? How can I cancel my plan? How do I unsubscribe? How can I cancel my subscription? How to cancel a subscription? Where do I cancel my subscription? How do I unsub? Where do I unsub? Where do I cancel? Cancle? Cancel? How to cancel? How can I cancel my Midjourney subscription? I would like to cancel my Midjourney subscription? Cancel subscription? How do I unsubscribe from my Midjourney subscription? How can I cancel my Midjourney subscription?
 
 On your [Midjourney subscription page](https://midjourney.com/account), click `Cancel Plan` and confirm.
 
-You can cancel the automatic renewal at any time, **your plan will be canceled at the end of your billing cycle** - enjoy all perks and fast GPU time until then. If you change your mind, you can uncancel.
-__Refund?__ You’re eligible to a refund if you’ve used less than 20 GPU minutes **lifetime**. The option will appear when you cancel.
+You can cancel the automatic renewal at any time. Your plan will be canceled **at the end of your billing cycle** - enjoy all the perks and fast GPU time until then. If you change your mind, you can uncancel.
 
-Contact `billing@midjourney.com` if you encounter an error.
+Contact `billing@midjourney.com` if you encounter an error or need further assistance.
+
+%image=https://cdn.discordapp.com/attachments/1201909699793145876/1228317951598530621/Cancel.png
+
+---
+
+Q: Cancel with refund? Cancel and refund? How do I get a refund? How to refund? Can this be refunded? I would like to request a refund?
+
+On your [Midjourney subscription page](https://midjourney.com/account), click `Cancel Plan`.
+
+🔹**Refund:** You are eligible for a full refund if you’ve used less than 20 GPU minutes **__lifetime__**. If you’re eligible, you will have the option to `Cancel immediately with refund`. Select that option, and confirm the immediate cancellation.
+🔹If your lifetime usage is above 20 GPU minutes, you are not eligible for a refund. Confirm the cancellation to cancel the next automatic renewal. Your plan will be canceled **at the end of your billing cycle** - enjoy all the perks and fast GPU time until then. If you change your mind, you can uncancel.
+
+Contact `billing@midjourney.com` if you encounter an error or need assistance.
 
 %image=https://cdn.discordapp.com/attachments/1201909699793145876/1228317951598530621/Cancel.png
 
@@ -456,7 +420,7 @@ Contact `billing@midjourney.com` if you encounter an error.
 
 Q: Can I switch from the yearly plan to the monthly plan? How can I change from the yearly plan to the monthly plan? How do I switch from yearly to monthly? I accidentally subscribed to yearly?
 
-If you chose the yearly plan instead of the monthly plan, you can try to cancel your subscription now with a refund and then subscribe to the monthly plan.  On the [Midjourney account page](https://midjourney.com/account), click `Cancel Plan` and select the option `Cancel immediately with refund`. If you do not get the refund option, contact `billing@midjourney.com`. 
+If you chose the yearly plan instead of the monthly plan, you can try to cancel your subscription now with a refund and then subscribe to the monthly plan. On the [Midjourney account page](https://midjourney.com/account), click `Cancel Plan` and select the option `Cancel immediately with refund`. If you do not get the refund option, contact `billing@midjourney.com`. 
 
 If you want to switch plans upon your next renewal, select the plan of your choice and confirm the change.
 
@@ -475,9 +439,6 @@ Q: How long will it take to get my refund? When will I get my refund? How long b
 The refund time depends on your bank, it can take up to 10 business days for them to process it. Not to worry, if you’ve received an email from Midjourney confirming your refund, your money is on its way back to you.
 
 ---
-
-
-
 
 # -------------------- SWITCH PLANS --------------------
 
@@ -527,12 +488,160 @@ If you are experiencing long wait times with jobs starting, please refer to [sta
 ---
 
 # -------------------- -------------------- --------------------
+# -------------------- BILLING --------------------
+# -------------------- -------------------- --------------------
+
+Q: My card is declined? Card declined? The website declined my payment, but I have funds on my card? Why is my card being declined? My card declined but money was still taken? Money was taken out of my account, but I don’t have a subscription?
+
+If your payment was declined, you might notice a pending charge in your account. Your bank will automatically remove it within a few days.
+
+- Double-check your card details (Name, Number, CVC, Exp. Date).
+- Ensure your billing info matches your bank's (Name, Address, Zip/Postal Code).
+- Check your account balance and spending limits.
+- Reach out to your bank, if they declined it they can clear it for you.
+
+Contact `billing@midjourney.com` for further assistance.
+
+---
+
+Q: Remove payment info? Remove credit cards? How do I remove payment information? Remove payment? How can I find my Midjourney's invoice? Where can I see my invoices? How to access invoices? Where can I get my receipts?
+
+🔹If your subscription is active: Use the command </subscribe:987795925764280351> or go to your [`Manage Subscription` page](https://www.midjourney.com/account) on the website to view your plan details.
+Click `Edit Billing` to verify or modify your payment information. Click `View Invoices` to download previous invoices and receipts.
+🔹If your subscription is inactive: Access [this link](https://billing.stripe.com/p/login/aEUdRA5Wc8t25a03cc) using your billing email to find your invoices and update your payment information.
+
+Contact `billing@midjourney.com` for further assistance.
+
+---
+
+Q: Billing issue? Billing question? Need billing help? Billing support? Billing inquiry?
+
+Reach out to our billing support team by sending an email to `billing@midjourney.com`.
+
+To help speed up the process, include your User ID which you can find with the command </userid:1136041075614683196> and, if possible, provide your receipt number or invoice number which was sent to your billing email.
+
+---
+
+Q: I need to change my email address? I want to change the email address? Please change the email address for my subscription? How to change the billing email address? I want to change my email? How can I change my resistered email address? How can i change my email in the payment page? I need to change the email on the payment page? How to change my account email address? How can I change my contact email?
+
+To modify your __Discord email__ used to sign in, follow this guide: [How to change your Discord account's email address](https://support.discord.com/hc/en-us/articles/4423385681175-How-to-Change-Your-Account-s-Email-Address).
+
+To modify your __Midjourney billing email__ where you receive invoices and receipts, email `billing@midjourney.com`.
+Include your User ID which you can find with the command </userid:1136041075614683196> and, if possible, provide your receipt number or invoice number.
+
+---
+
+Q: Can I pay with PayPal? Can I use PayPal? Do you have other payment methods? Paypal PayPal? Do I have to use a credit card? Are there other ways to pay? Is there another way to pay for a subscription other than with a credit card? Can I pay with ETH? Do you take crypto?
+
+Depending on region, Stripe supports credit/debit cards (Mastercard, VISA, American Express, Discover & Diners etc) and some digital wallets (Apple Pay, Google Pay, Cash App Pay).
+[More information on card brands supported by Stripe](https://stripe.com/docs/payments/cards/supported-card-brands)
+
+PayPal, Wire transfer, crypto and other methods are not currently supported.
+
+---
+
+Q: Paused? Unpause Account? My subscription is Paused? How to renew when Paused?
+
+If the bot or website shows your subscription is paused, this means your renewal payment failed.
+
+🔹**How to __renew__ your plan:**
+Open the email about “payment was unsuccessful" to pay the overdue invoice.
+
+🔹**How to __cancel__ your plan:**
+Go to your [`Manage Subscription` page](https://www.midjourney.com/account) on the Midjourney website and click “Cancel Plan”.
+
+Contact `billing@midjourney.com` for further assistance.
+
+---
+
+Q: payment Error: zip code doesn’t match? Zip code error? Saying my zip code is wrong? My zip code is right? Saying my zip code is wrong but it’s not?
+
+Go to your [`Manage Subscription` page](https://www.midjourney.com/account) and click on the `Edit Billing` button. Add your card details as an *entirely new* payment method, and use the `…` button to set it as your new default payment method.
+
+Contact `billing@midjourney.com` for further assistance.
+
+---
+
+Q: payment Error: user missing a default payment method in stripe? Default payment? Default payment method?
+
+To solve this bug, go to your [`Manage Subscription` page](https://www.midjourney.com/account) and click on the "Edit Billing" button.
+
+When you get to the new page, look for the `...` button next to your payment method and click it, then press make default.
+
+Contact `billing@midjourney.com` for further assistance.
+
+---
+
+Q: Why can't I upgrade my subscription? Something went wrong :( This may be due to insufficient funds? Error: Couldn't upgrade your plan. Please reach out to support? I'm trying to upgrade my plan but the payment keeps getting rejected?
+
+On your [`Manage Subscription` page](https://www.midjourney.com/account), click on `Edit Billing` and make sure all your details are up to date. Check your account balance and spending limits, and reach out to your bank to make sure they’re not blocking the payment.
+If the problem persists, contact `billing@midjourney.com`.
+
+__**If you’re using Alipay:**__ You cannot upgrade on the website. Email `billing@midjourney.com` for assistance.
+
+---
+
+Q: Error: The PaymentMethod provided (link) is not allowed for this PaymentIntent? Link payment error?
+
+This error occurs when your default payment method has been linked from Stripe instead of entered manually. To fix it, go to your [`Manage Subscription` page](https://www.midjourney.com/account) and click on the `Edit Billing` button.
+
+When you get to the new page, look for the `Add a payment method` and re-enter your card details manually, without using any auto-fill. Once you see your card information with an expiration date instead of the stylized `link` text, click the `…` next to it and select `Make default`.
+
+Contact `billing@midjourney.com` for further assistance.
+
+---
+
+# -------------------- VAT --------------------
+
+Q: How do I add VAT to my invoice? Why was I charged for VAT? Can I add VAT?
+
+To include your VAT ID on future invoices:
+🔹 With an active subscription: Go to your [Midjourney subscription page](https://www.midjourney.com/account/), click `Edit Billing`, then add your country and VAT ID.
+🔹 Without an active subscription: At checkout, select the option `I’m purchasing as a business` and enter your company name and VAT ID (include the country code letters if applicable).
+
+**__Note:__ Once issued, invoices cannot be changed.**
+Contact `billing@midjourney.com` for further assistance.
+
+---
+
+Q: How can I request a tax exemption? My company is tax-exempt? We are a tax-exempt organization?
+
+To request your account to be exempted from taxes, please email `billing@midjourney.com` with the following information:
+- The full name on your account
+- Your billing email address
+- Your billing postal address
+- Documentation of your tax-exempt status, such as a sales tax exemption certificate or other document issued by your local tax authority 
+
+The billing information on your subscription must match the information listed on your exemption document. Once we’ve confirmed your tax-exempt status, we’ll update your account to tax-exempt and refund any taxes you may have been charged already.
+
+---
+
+Q: Can you set my account to reverse charge for VAT?
+
+To request your account to be set to reverse charge, please email `billing@midjourney.com` with the following information:
+- Your full name or your company's full name
+- Your billing email address
+- Your billing postal address
+- Your valid VAT number
+
+The billing information on your subscription must match the information associated with your VAT number. Once we’ve confirmed you’re eligible, we'll make the necessary adjustments to your account.
+
+---
+
+# -------------------- -------------------- --------------------
 # -------------------- ----PRIVATE---- --------------------
 # -------------------- -------------------- --------------------
 
 Q: Why do I have to pay for private mode? Pay for stealth mode? What if I don’t want my images to appear in the gallery?
 
-Midjourney is a community for sharing and exploration. If you prefer not to participate, you can subscribe to the Pro or Mega plan. These two plans have a feature called `Stealth` that lets you choose what to publish and what to make private (unpublish) in [your gallery](https://www.midjourney.com/archive).
+Midjourney is a community for sharing and exploration.
+If you prefer not to participate, you can subscribe to the Pro or Mega plan. These two plans include the [`Stealth` Mode](https://docs.midjourney.com/docs/stealth) feature that lets you choose what to publish and what to make private (unpublish) in [your gallery](https://www.midjourney.com/archive).
+
+---
+
+Q: Are stealth images moderated? Are my private images moderated? Why are private images being moderated? Can I make nudes in Stealth mode? Why are stealth images being moderated?
+
+Images created in Stealth mode can be viewed by our team for moderation purposes. They are still subject to the [Terms of Service](https://docs.midjourney.com/docs/terms-of-service) and [Community Guidelines](https://docs.midjourney.com/docs/community-guidelines).
 
 ---
 
@@ -553,9 +662,11 @@ __Note:__ Images made in public channels are visible by anyone in those channels
 Q: How to hide images? What is hide? What does hide do on the website? Is hide the same as private mode? Hide images?
 
 `Hide` **only hides images from yourself** - it’s used to organize [your own gallery](https://www.midjourney.com/archive) by hiding images you don’t like from your view. **Hidden images remain visible to all other members**, it is not the same as unpublishing them.
-To make your images private, you will need the Pro or Mega plan; those allow you to unpublish images and use [Stealth mode](https://docs.midjourney.com/docs/stealth).
 
 To hide images on the website, go to your [Archive](https://www.midjourney.com/archive), select the images you want to hide, and click `...More` (next to Download). You can then bulk hide/unhide.
+
+__Note:__ For your images to be private, you will need the Pro or Mega plan; those plans allow you to unpublish images and use [Stealth mode](https://docs.midjourney.com/docs/stealth).
+%image=https://cdn.midjourney.com/u/ff03153e-6e8a-48b4-87d0-5acd0a123688/a03329f183e7164b0f43576c6f4be52f32c90d8bc263a120542d66de2e1e8bc9.png
 
 ---
 
@@ -567,7 +678,7 @@ Any images unpublished using Stealth mode during your subscription will remain p
 
 Q: I can’t use the stealth option in my web settings? I can’t see the unpublish button? I don’t see the unpublish button?
 
-If the Stealth toggle doesn’t appear, try signing out of [the website](https://www.midjourney.com/) and then signing back in.
+If you have the Pro or Mega plan but the `Stealth` toggle doesn’t appear, try signing out of [the website](https://www.midjourney.com/) and then signing back in.
 
 ---
 
@@ -575,7 +686,7 @@ Q: How do I unpublish my images? Unpublish old images? Bulk unpublish? Unpublish
 
 Subscribers to the Pro and Mega plan can bulk unpublish their images from the website. To do this, go to your [Archive](https://www.midjourney.com/archive), select the images you want to unpublish, and click `...More` next to Download. You can then bulk publish/unpublish.
 
-%image=https://cdn.discordapp.com/attachments/1201909699793145876/1231267352520429699/image.png
+%image=https://cdn.midjourney.com/u/ff03153e-6e8a-48b4-87d0-5acd0a123688/ab7070557038542451740a70e1f242b252df9ed2835ee653e5f1e5ef314da207.png
 
 ---
 
@@ -583,12 +694,12 @@ Subscribers to the Pro and Mega plan can bulk unpublish their images from the we
 # -------------------- UPSCALE & SIZE --------------------
 # -------------------- -------------------- --------------------
 
-Q: How do I change my aspect ratio? How to change aspect ratio? How can I specify image width? How can I specify image height? How can I change the dimensions? How to make not square images? What is the prompt for width and height? Can I adjust the width and height? What is --ar? How do I make a desktop background? How do I make 16:9? How do I make a wider Image? How do I make a taller image?
+Q: How do I change my aspect ratio? How to change aspect ratio? How can I specify image width? How can I specify image height? How can I change the dimensions? How to make not square images? What is the prompt for width and height? Can I adjust the width and height? What is --ar? How do I make a desktop background? How do I make 16:9?
 
 Change the aspect ratio of your image by including the `--ar` parameter at the end of your prompt.
-For example: `a robot on a sailboat --ar 4:1`
+For example: `a robot on a sailboat --ar 2:1`
 
-[Read more about aspect ratios](https://docs.midjourney.com/docs/aspect-ratios)
+[Read more about Aspect Ratio](https://docs.midjourney.com/docs/aspect-ratios)
 
 ---
 
@@ -673,11 +784,24 @@ To reset suffixes automatically added to your prompts, use the command </setting
 
 ---
 
+# -------------------- QUALITY --------------------
+
 Q: Quality Buttons Disappeared from Settings? Quality Buttons? Quality Buttons Gone? Quality Buttons Disappear? How to set Quality? Quality in Settings?
 
 The Quality buttons have been removed from the </settings:1000850743479255081> panel because on v4 and v5 models the default quality setting is already the maximum value (q 1). If you wish to lower the quality setting or use higher values on older versions, you can use the [Quality Parameter](https://docs.midjourney.com/docs/quality) on your prompt or set a [custom suffix](https://docs.midjourney.com/docs/settings-and-presets#prefer-suffix) to automatically add a custom quality parameter.
 
 ---
+
+Q: What does quality do? How do you use  --q? How do you use quality? What is --q?
+
+The `--quality` parameter (`--q`) changes how much time is spent generating an image.
+You can only use the following values: `.25`, `.5`, and `1` in Version 6. Larger values are rounded down to default value of 1.
+
+[Read more about the Quality parameter](https://docs.midjourney.com/docs/quality)
+
+---
+
+# -------------------- STYLIZE --------------------
 
 Q: How do you use --s? How do you use stylize? What does stylize do? What is --s?
 
@@ -690,11 +814,28 @@ The default value of the `--stylize` parameter is 100. You can adjust it by addi
 
 ---
 
+# -------------------- CHARACTER REFERENCE --------------------
+
+Q: How to have the same character made but in different scenes? Can I keep the same character in my images? Is there an option to keep the same character? How to use --cref? Can I add a character reference?
+
+You can use the Character Reference parameter `--cref` followed by a space and a link to your image for the characters in your results to be based on a specific image. You can add multiple links to have multiple character references, make sure to have a space between each link.
+For example: `Short blond man holding a puppy --cref https://pic2.png`
+
+__Note:__ The `--cref` parameter works best with references created in Midjourney.
+You can add text, image prompts, and other parameters to guide the results.
+
+[Read more about the Character Reference parameter](https://docs.midjourney.com/docs/character-reference)
+
+---
+
+# -------------------- PERSONALIZATION  --------------------
+
 Q: What is the personalization feature? What is the personalisation feature? What is the personalize feature? What is the personalise feature? What is the personalization parameter? What is the personalisation parameter? What is the personalize parameter? What is the personalise parameter? Personalization feature? Personalisation feature? Personalize feature? Personalise feature? Personalization parameter? Personalisation parameter? Personalize parameter? Personalise parameter? What is the --p parameter? Can I get a personal code with my own aesthetic? Can I personalize my style? Can I personalise my style? How do I get my personal code? Where do I find my personal code? Where do I find my --p code? Can I train my own model?
 
 The Personalization feature learns your preferences over time through images you've rated (on the [Rate Images](https://www.midjourney.com/rank) page).
 
-Add the Personalize parameter `--p` at the end of your prompt to tailor the model to your preferences. Your personal code is automatically added after it. Copy your code from the prompt to share it with other users, and try codes from others by pasting one of theirs after `--p`.
+Add the Personalize parameter `--p` at the end of your prompt to tailor the model to your preferences. Your personal code is automatically added after it.
+Copy your code from the prompt to share it with other users, and try codes from others by pasting one of theirs after `--p`.
 
 __Note:__ You can combine personalization with other parameters available in Version 6.
 You can adjust the strength of your personal styling by combining it with the [`--stylize` parameter](https://docs.midjourney.com/docs/stylize), with a value from 0 to 1000. A higher `--s` value will show your styling more but may dismiss some specifics of your prompt. 
@@ -708,21 +849,18 @@ Q: Can I use someone else's personal style parameter? Can I use someone else's -
 
 When you use the Personalize parameter `--p`, your unique personal code is automatically added after it. You can share this code with other members as well as try one of their codes by pasting it after `--p`.
 
-Feel free to ask other community members for their personal code. There's no obligation to share codes, but it’s a great way to explore!
+__Note:__ On Discord, you can also tag a user after `--p`, it will automatically turn into their personal code.
 
 [Read more about the Personalize parameter](https://docs.midjourney.com/docs/personalization)
 
 ---
 
-Q: How to have the same character made but in different scenes? Can I keep the same character in my images? Is there an option to keep the same character? How to use --cref? Can I add a character reference?
+Q: Why do I get “Not enough ratings”? Not enough ratings? Where do I get more ratings, I get the error "Not enough ratings"?
 
-You can use the Character Reference parameter `--cref` followed by a space and a link to your image for the characters in your results to be based on a specific image. You can add multiple links to have multiple character references, make sure to have a space between each link.
-For example: `Short blond man holding a puppy --cref https://pic2.png`
+To use the [Personalization feature](https://docs.midjourney.com/docs/personalization) you need to rate enough images for it to learn your preferences.
+Go to the [`Rank Images` page on the website](https://www.midjourney.com/rank), and select your favorite image between the two. If you're uncertain or don't like either, Press `→ Skip`.
 
-__Note:__ The `--cref` parameter works best with references created in Midjourney.
-You can add text, image prompts, and other parameters to guide the results.
-
-[Read more about the Character Reference parameter](https://docs.midjourney.com/docs/character-reference)
+You can see how many images you've rated at the top; the personalization feature will work once you have a ranking count of about 200 images.
 
 ---
 
@@ -826,6 +964,7 @@ Text prompts are not case-sensitive, while parameters are case-sensitive and mus
 Q: Do commas, pipes, or any other punctuation matter? Does punctuation matter?
 
 In the default version of Midjourney (Version 6), punctuation is interpreted similarly to natural language. Compose your text prompt as you would structure a sentence to describe an image.
+
 Some characters have a specific function:
 🔹"Quotation marks" indicate that the text enclosed within them should appear in the image.
 🔹Double hyphens (`--`) or an em dash (`—`) are used to manually input a parameter.
@@ -857,15 +996,6 @@ Q: What about “Unreal engine”? What about “Artstation”? What about “Oc
 The AI responds to these phrases the same way it does with other words. However, they may give the Bot a hint to generate the style of image you want.
 
 Engage in our [#prompt-chat](https://discord.com/channels/662267976984297473/992207085146222713) community to discuss prompts with other users.
-
----
-
-Q: What does quality do? How do you use  --q? How do you use quality? What is --q?
-
-The `--quality` parameter (`--q`) changes how much time is spent generating an image.
-You can only use the following values: `.25`, `.5`, and `1` in Version 6. Larger values are rounded down to default value of 1.
-
-[Read more about the Quality parameter](https://docs.midjourney.com/docs/quality)
 
 ---
 
@@ -962,7 +1092,7 @@ You need an active subscription to have full access to the `Explore` page and ot
 
 Q: Is there a way to save all my images at once? Can I batch download all of my images? How do I save my gallery? Download images? Batch download? Bulk download?
 
-Members can batch download images quickly on [the website](https://midjourney.com/archive). Click on the ⊕︀ sign next to a date to select images from that day. At the bottom, you can then download your selection of images.
+You can batch download images quickly on [the website](https://midjourney.com/archive). Click on the ⊕︀ sign next to a date to select images from that day. At the bottom, you can then download your selection of images.
 You can also click and drag, or shift-click to select images.
 
 %image=https://cdn.discordapp.com/attachments/1201909699793145876/1202263116243533854/bulkdownload.gif
@@ -978,28 +1108,19 @@ __Note:__ Only Pro and Mega users can unpublish their images, or activate Stealt
 ---
 
 # -------------------- -------------------- --------------------
-# -------------------- DIRECT MESSAGES -----------
+# -------------------- PERSONAL SPACE -----------
 # -------------------- -------------------- --------------------
 
 Q: How do I DM the bot? Where can I DM bot? Where is my private channel? How can I make a solo room? How do I open a private chat with the bot? Can I use imagine in DMs? Is it possible to DM the bot and not be in a very crowded busy channel? Can I generate my images privately? How do I start my own room for creating photos? How can I hide other people’s images? How can I hide everyone else’s posts? Why don't I see any messages from the bot? I used ✉️ on one of my images, why don't I see any messages from the bot? Why can't I message the bot?  "Cannot send messages to this user" when trying to DM the bot? I can’t DM the bot? Unknown integration? Why do I get unknown integration? I get the message unknown integration when i DM the bot? I’m getting the error message “unknown integration”?
 
 Subscribers can use commands in Direct Messages (DMs) with the Bot. Right click here:  <@936929561302675456> and hit `Message`.
 
-__If you can't DM the bot or get an integration error:__
+**__If you can't DM the bot or get an__ `Unknown integration` __error:__**
 Right-click the Midjourney server icon > Privacy Settings > check if `Direct Messages` is green. If it’s already enabled, toggle it off and on again.
 
-__Note:__ Images in DMs are visible to everyone on the [Midjourney website](https://www.midjourney.com/explore), unless you have a Pro or Mega plan and have activated [Stealth Mode](https://docs.midjourney.com/docs/stealth).
+__Note:__ Images created in DMs are visible to everyone on the [Midjourney website](https://www.midjourney.com/explore), unless you have a Pro or Mega plan and have activated [Stealth Mode](https://docs.midjourney.com/docs/stealth).
 
 %image=https://cdn.discordapp.com/attachments/958191534208061450/1010303537332371526/MJ_PrivacySettings.png
-
----
-
-
-
-Q: I thought my DM images were private. Why are private images being moderated?
-`/private` I thought my DM images were stealth. Why are stealth images being moderated?
-
-Images created in Stealth mode can be viewed by our team for moderation purposes. They are still subject to the [Terms of Service](https://docs.midjourney.com/docs/terms-of-service) and [Community Guidelines](https://docs.midjourney.com/docs/community-guidelines).
 
 ---
 
@@ -1008,6 +1129,28 @@ Q: How do I create a thread? How do I make a thread?
 Click the `+` symbol on the left of the chat bar and select `Create Thread` to create a new thread.
 
 __Note:__ Threads in this server are public and subject to content moderation guidelines. Discord has a limit on the number of threads per server, so you may need to try again later to get an open spot.
+
+---
+
+# -------------------- ------PERSONAL SERVER------ --------------------
+
+Q: Can I invite Midjourney to my server? Can I add this bot to another server? How to add Midjourney to a different server? Can I add the bot to my Discord server? Can I use the bot on my server? How can I add it to the server? Add bot? How to have my personal server? Can I use the bot in a personal Midjourney server?
+
+To add the Bot to your own Discord server, [click here](https://discord.com/oauth2/authorize?client_id=936929561302675456) and select `Add to Server`.
+[Here’s a step by step guide.](https://docs.midjourney.com/docs/invite-the-bot)
+
+__Note:__ Images will still appear on the website's community feed unless you’ve activated [Stealth mode](https://docs.midjourney.com/docs/stealth), which is a feature of the Pro and Mega plans.
+
+---
+
+Q: Can I get my own private channel? How do I get a private channel? Does a subscriber have its own private channel not viewed by the public? Will I have a private channel if I subscribe? Can I generate images in a private channel?
+
+To add the Bot to your own Discord server, [click here](https://discord.com/oauth2/authorize?client_id=936929561302675456) and select `Add to Server`.
+[Here’s a step by step guide.](https://docs.midjourney.com/docs/invite-the-bot)
+
+**You can also create images in Direct Messages with the Bot**: right-click on it here <@936929561302675456> and select `Message`.
+
+__Note:__ Images will still appear on the website's community feed unless you’ve activated [Stealth mode](https://docs.midjourney.com/docs/stealth), which is a feature of the Pro and Mega plans.
 
 ---
 
@@ -1098,6 +1241,8 @@ Q: Can I use an image generated by another user? Can I use other people’s imag
 
 Always ask the creator first! Ensure you get explicit and informed permission from the owner before publicly reposting or using them.
 
+You do not own images made by other members, even if you upscale their images.
+
 ---
 
 Q: If I buy a subscription, can members of my server use it? Can anyone else use my subscription? Can my friends use my subscription? Can I share my subscription? How can my friend use my account? How can my friend use my subscription?
@@ -1117,35 +1262,6 @@ Use </prefer suffix:984273800587776053> as a standalone command to reset your Mi
 You can also use the command </settings:1000850743479255081> and click the last button `Reset Settings`.
 
 %image=https://cdn.discordapp.com/attachments/1201909699793145876/1231302471205388299/Reset_Settings.png
-
----
-
-Q: payment Error: zip code doesn’t match? Zip code error? Saying my zip code is wrong? My zip code is right? Saying my zip code is wrong but it’s not?
-
-Go to your [`Manage Subscription` page](https://www.midjourney.com/account) and click on the `Edit Billing` button. Add your card details as an *entirely new* payment method, and use the `…` button to set it as your new default payment method.
-
-Contact `billing@midjourney.com` for further assistance.
-
----
-
-Q: payment Error: user missing a default payment method in stripe? Default payment? Default payment method?
-
-To solve this bug, go to your [account page](https://www.midjourney.com/account) and click on the "Edit Billing" button.
-
-When you get to the new page, look for the `...` button next to your payment method and click it, then press make default.
-
-Contact `billing@midjourney.com` for further assistance.
-
----
-
-Q: Error: The PaymentMethod provided (link) is not allowed for this PaymentIntent? Link payment error?
-
-This error occurs when your default payment method has been linked from Stripe instead of entered manually. To fix it, go to your [account page](https://www.midjourney.com/account) and click on the `Edit Billing` button.
-
-When you get to the new page, look for the `Add a payment method` and re-enter your card details manually, without using any auto-fill. Once you see your card information with an expiration date instead of the stylized `link` text, click the `…` next to it and select `Make default`.
-
-Contact `billing@midjourney.com` for further assistance.
-%image=https://media.discordapp.net/attachments/1023057817155944519/1064690300276199486/Screenshot_20230111_204217_Chrome.png
 
 ---
 
