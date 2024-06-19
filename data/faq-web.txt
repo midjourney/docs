@@ -1051,7 +1051,7 @@ Contact `billing@midjourney.com` for further assistance.
 
 Q: Creation failed?
 
-If your job fails, go to your [`Create` page](https://midjourney.com/imagine) and hover over the `Creation Failed` message to see more details about the error.
+If your job fails, go to your [`Create` page](https://midjourney.com/imagine) and see the `Creation Failed` message on the job row (you can hover it to get more details).
 If you get a unique trace with three words, click `Report Bug` at the bottom left and send us a report explaining the issue.
 
 ---
