@@ -38,13 +38,9 @@
 
 Q: How do I create variations? What is a variation? Vary subtle or strong? What is the difference between Vary subtle and strong?
 
-Create variations of an image you made on Midjourney to generate new images based on it.
-
-To create variations: Open your image, find `Vary` on the right side, and click the `Subtle` or `Strong` button. When you’re in the [Create](https://www.midjourney.com/imagine) space, hover over an image to get these buttons.
-🔹Vary **Subtle**: Retains the basic composition and colors, creating four new images with slightly different details.
-🔹Vary **Strong**: Creates four new interpretations of your prompt, while referencing elements of the original.
-
-__Note:__ To edit your prompt when making a variation, use Reframe and modify the prompt, with or without changing the dimensions of the image.
+Create variations of an image you made on Midjourney to generate new images based on it. Open your image, find `Vary` on the right side, and click the `Subtle` or `Strong` button. When you’re in the [Create](https://www.midjourney.com/imagine) space, hover over an image to get these buttons.
+◆ Vary **Subtle**: Retains the basic composition and colors, creating four new images with slightly different details.
+◆ Vary **Strong**: Creates four new interpretations of your prompt, while referencing elements of the original.
 
 ---
 
@@ -56,13 +52,9 @@ __Note:__ To modify your prompt before rerunning it, click the `🅃 Use` button
 
 ---
 
-Q: What is Vary Region? Vary region button? How do I use Vary Region? Inpainting? How do I inpaint? Is there an inpainting feature? How do I modify part of an image? How can I enter a prompt for inpainting? How can I enter a prompt in Vary Region? Where is the prompt box for inpainting? Where is the prompt box for vary region? How can I add a new subject to inpainting? Why don’t I have the prompt area input in Vary Region? Where is the text box for Vary Region? What is Repaint? Can I repaint parts of an image? How to use Repaint?
+Q: What is Vary Region? Vary region button? How do I use Vary Region? Inpainting? How do I inpaint? Is there an inpainting feature? How do I modify part of an image? How can I enter a prompt for inpainting? How can I enter a prompt in Vary Region? Where is the prompt box for inpainting? Where is the prompt box for vary region? How can I add a new subject to inpainting? Why don’t I have the prompt area input in Vary Region? Where is the text box for Vary Region? What is Repaint? Can I repaint parts of an image? How to use Repaint? Repaint? How to repaint? Can I repaint?
 
-`Repaint` allows you to select and regenerate specific parts of an image.
-1. Click on the image you want to edit, and click the `Repaint` button to open the editing interface.
-2. Select the areas of your image that you want modified. You can choose between a rectangular or a freehand selection tool in the bottom left.
-3. (Optional) Edit your prompt at the bottom to guide the modifications.
-4. Submit your `Repaint` request ➜
+`Repaint` allows you to select and regenerate specific parts of an image. Select the areas of your image that you want modified and, if you want, edit your prompt at the bottom to guide the modifications.
 
 __Note:__ A larger selection provides more room for changes, while a smaller selection may result in more subtle modifications.
 
@@ -70,20 +62,23 @@ __Note:__ A larger selection provides more room for changes, while a smaller sel
 
 # -------------------- ---IMAGINE----- --------------------
 
-Q: How do I generate images? How to use it? How do I use the bot? How does the bot work? How do I use it? How do I make art? How do I use Midjourney? How do I prompt? How can I ask the AI to create an image? How do I get started? Where can I start? How do I use the AI? How do I use this?
+Q: Where do I generate images? How to use alpha? How to make an image? How do I use the bot? How do I use it? How do I make art? How do I use Midjourney? How do I prompt? How can I ask the AI to create an image? How do I get started? Where can I start? How do I use the AI? How do I use this? Where do I type my prompt? Where to send commands?
 
-To generate images:
-1. Enter a description of the image you want in the `Imagine…` textbox located at the top of the page. This input is called the “prompt”.
-Learn more about structuring prompts [here](https://docs.midjourney.com/docs/prompts-2).
-2. Press enter and the bot will generate a set of four images.
-%image=https://cdn.discordapp.com/attachments/1201909699793145876/1233779318950330448/ImagineWeb.gif
+To generate images: enter a description of the image you want in the `Imagine…` textbox located at the top of the page and press enter to generate a set of four images in your [Create](https://www.midjourney.com/imagine) space.
 
-You can find and interact with your images in your [Create](https://www.midjourney.com/imagine) space.
+On the left side of the textbox, use the image icon to add images to your prompt. On the right side of the textbox, use the button to see and adjust your current settings. [Read more about Creating on the Midjourney website](https://docs.midjourney.com/docs/create-page)
 
-__Additional information:__
-- On the left side of the textbox, use the `+` button to add images to your prompt.
-- On the right side of the textbox, use the button to see and adjust your current settings.
-- Organize your images in your [Archive](https://www.midjourney.com/archive).
+---
+
+Q: I don't have 100 jobs yet? So I just paid but still can't create? I paid but i can't Create Images on Midjourney web, I didn't have the Create Button? Why can't I start creating art? It says I need to have 100 artwork? It says I need 100 jobs? It says I need 100 images? I cannot use it, it says Coming Soon? I’m new but cannot use it? I still can't use Create even though my subscription is active? I've already created more than 100 images in Discord and no way to get my paid Midjourney service yet?
+
+To create images on the Midjourney website, you need an active subscription and 100 image jobs made in Discord. [Click here to get started on Discord](https://docs.midjourney.com/docs/quick-start)
+
+---
+
+Q: I've already created about 150 images, so it should be active? I have made 100 images but cannot use it? I already have 100 images but it says Coming Soon? "Imagine" still says "coming soon" even though I have created 100+ images? I have made more than 100 images but I still can’t use alpha?
+
+You need to generate 100 jobs, **each grid of four images counts as 1**. Use the command `/info` on Discord to view your lifetime usage. If it is higher than 100 and your subscription is active, log out and log back into the website.
 
 ---
 
@@ -91,13 +86,13 @@ __Additional information:__
 # -------------------- ----REMIX----- --------------------
 # -------------------- -------------------- --------------------
 
-Q: Is it possible to edit a prompt without restarting? How to edit my prompt? What is remix? Can I change the prompt after I’ve made it? Can I change the prompt? Is there a way to add more parameters to a generated image after I have generated different versions? Can I change the prompt? How do I recreate one of my images with a small change? Can I edit my prompt? Can I edit one of my prompts? Can I add, remove, or change just one word in my prompt? What is remix?
+Q: Is it possible to edit a prompt without restarting? How to edit my prompt? What is remix? Can I change the prompt after I’ve made it? Can I change the prompt? Is there a way to add more parameters to a generated image after I have generated different versions? Can I change the prompt? How do I recreate one of my images with a small change? Can I edit my prompt? Can I edit one of my prompts? Can I add, remove, or change just one word in my prompt? Remix subtle or strong? Which remix should I use?
 
-The `Reframe` button lets you edit your prompt while modifying your image. Open the image you want to edit, and select the Reframe button. On the right side, you can edit the prompt.
-🔹If you do not change the image ratio (`Reframe`) or `Zoom` out, this will create four new images based on your new prompt and elements from the original image.
-🔹If you modify the image ratio (`Reframe`) or `Zoom` out, the new prompt will only affect the expanded zones of your image.
+To modify your prompt when making a variation of your image, use the `Remix` feature. Open your image and click either the Remix `Subtle` or `Strong` button.
+🔹Remix **Subtle**: Retains the basic composition and colors, creating four new images similar to the original image.
+🔹Remix **Strong**: Creates four new interpretations of the prompt based on elements from the original image.
 
-If you want to edit the prompt for a new job, click the `🅃 Use` button next to `↻ Rerun`, or right-click/open the image and in `Use`, choose `Prompt`. This will send your full command to your creation bar, allowing you to edit it before submitting.
+If you want to get the prompt in your `Imagine` bar to create a new set of images, click the `🅃 Use` button next to `↻ Rerun`, or right-click/open the image and `Use` > `Prompt`.
 
 ---
 
@@ -107,14 +102,9 @@ If you want to edit the prompt for a new job, click the `🅃 Use` button next t
 
 Q: What is GPU time? What is a GPU minute? Does the reroll/variation/upscale each count as a generation in terms of the limits? 4 small images count as 1 job? How many images is one query? What is a query? Do upscales cost GPU time? Do variations use GPU time?
 
-Imagine Midjourney is a ship on the imagination sea, driven by GPU (Graphics processing unit) engines. When you request an image, it's like setting a course. The "cost" is how hard the engine works, **measured in GPU time**.
+Similar to credits, creating an image uses GPU time. On average, each action costs about 1 GPU minute. Upscales cost more.
 
-With the latest models:
-- A new `Imagine` set of four images: Costs about 1 GPU minute
-- Variations: Cost slightly less GPU time
-- Upscales 2x/4x/Creative/Subtle: Cost more GPU time, various minutes.
-
-__Note:__ Requests like Reframe, Repaint, using older models, or adding specific instructions push the engine more, increasing the use of GPU time.
+How long you wait in “real life time” does not affect how much GPU time is consumed. [Read more about GPU and Speed modes](https://docs.midjourney.com/docs/fast-relax)
 
 ---
 
@@ -132,8 +122,7 @@ Midjourney runs on datacenter grade graphics cards, it can only be used through 
 
 Q: What are optional credit top-ups? Top-ups? What does optional credit pop-ups mean in plan details? How do I enable the additional fast time?
 
-You can purchase additional fast GPU hours at the current rate of US$4 per hour (plus VAT). These purchased GPU hours do not expire, but you must have an active subscription to use them.
-You can buy them via your [`Manage Subscription` page](https://www.midjourney.com/account/).
+You can purchase additional fast GPU hours at the current rate of US$4 per hour (plus VAT). These purchased GPU hours do not expire, but you must have an active subscription to use them. You can buy them via your [`Manage Subscription` page](https://www.midjourney.com/account/).
 
 __Note:__ These hours are used after your bonus and monthly GPU fast time.
 
@@ -146,15 +135,11 @@ __Note:__ These hours are used after your bonus and monthly GPU fast time.
 
 # -------------------- -----RELAX----- --------------------
 
-Q: How do I go into Relax mode? How do I turn on Relax mode? How do I start Relax?  My images say "relaxed", how do I change this? Why are my images relaxed? How to get relaxed generation? Relax job? Relax generation?
+Q: How do I go into Relax mode? How do I turn on Relax mode? How do I start Relax?  My images say "relaxed", how do I change this? Why are my images relaxed? How to get relaxed generation? Relax job? Relax generation? How can I turn off mode relax and return to fast work?  How do I switch to relax mode? I want to switch to relaxed mode? I want to switch to relax mode? What is relax mode? How to change to relax mode?
 
-To choose what `Speed` mode to use, open your settings – at the bottom of your `Model` options, select the `Relax`, `Fast`, or `Turbo` button.
-🔹Images made in Relax mode take longer to complete but are unlimited.
-🔹Images made in Fast mode are quicker to start but use your limited GPU fast time.
-🔹Images made in Turbo mode are generated much faster but cost twice as much GPU time as a `Fast` generation.
+To choose what `Speed` mode to use, open your settings on the right side of the `Imagine...` bar. At the bottom of your `Model` options, select the `Relax`, `Fast`, or `Turbo` button.
 
-__Note:__ Relax mode is not available on the Basic plan.
-[Read more about GPU time and Speed modes.](https://docs.midjourney.com/docs/fast-relax)
+Images made in Relax mode take longer to complete but are unlimited. Relax mode is not available on the Basic plan. [Read more about GPU time and Speed modes.](https://docs.midjourney.com/docs/fast-relax)
 
 %image=https://cdn.midjourney.com/u/ff03153e-6e8a-48b4-87d0-5acd0a123688/89c0ed9a7b4043abf5cced91683de77cce3094486a54abbf8beb951ae7b969d1.png
 
@@ -174,25 +159,34 @@ Relax mode uses a dynamic queue to ensure equal resource access for everyone. Th
 
 # -------------------- ------FAST------ --------------------
 
-Q: What is fast mode? What does fast hours mean? Fast time? What is relax mode? In the plan it never said that I have limited fast hours?
+Q: What is fast mode? How to turn on fast mode? How to switch to fast? Where to change to fast mode? Where is fast mode? Where to find fast mode? Where can I find fast mode? Where do I find fast mode? Where do I switch on fast mode?
 
-We've got three Speed modes to generate images:
-🔹`Relax` mode adds your job to a dynamic queue, it can be slower but is unlimited.
-🔹`Fast` mode starts your image right away but uses your limited GPU fast time.
-🔹`Turbo` mode starts your job right away and processes it as fast as possible but costs twice as much GPU time as `Fast` jobs.
+To choose what `Speed` mode to use, open your settings on the right side of the `Imagine...` bar. At the bottom of your `Model` options, select the `Relax`, `Fast`, or `Turbo` button.
 
-Each plan comes with a limited amount of monthly GPU fast time. You can buy more on your [`Manage Subscription` page](https://www.midjourney.com/account).
-The Basic plan does not include access to Relax mode.
+Fast mode starts your image right away but uses your limited GPU fast time. You can buy more fast time on your [`Manage Subscription` page](https://www.midjourney.com/account). Relax mode is not available on the Basic plan. [Read more about GPU time and Speed modes.](https://docs.midjourney.com/docs/fast-relax)
 
-[Read more about GPU time and Speed modes.](https://docs.midjourney.com/docs/fast-relax)
+%image=https://cdn.midjourney.com/u/ff03153e-6e8a-48b4-87d0-5acd0a123688/429272eae10ea58156a78de88c75acff834d76a4957be16d25bb69d15e83c8c7.png
+
+---
+
+Q: What does fast hours mean? Fast time? In the plan it never said that I have limited fast hours? How much can I use fast? Is fast mode unlimited? What is the difference between Relax, Fast and Turbo? How many images can I make with my fast time?
+
+Similar to credits, creating an image uses GPU time; each plan comes with a limited amount of monthly GPU fast time. There are three Speed modes to create images:
+◆ `Fast` mode starts your image right away but uses your limited GPU fast time.
+◆ `Turbo` mode starts your job right away and processes it as fast as possible, but costs twice as much GPU time as `Fast` jobs.
+◆ `Relax` mode adds your job to a dynamic queue; it can be slower but is unlimited. It is not available if you have a Basic subscription.
+
+On average, an image job costs about 1 GPU minute. You can view how much fast time you have and buy more on your [`Manage Subscription` page](https://www.midjourney.com/account). [Read more about GPU time and Speed modes](https://docs.midjourney.com/docs/fast-relax)
+
+%image=https://cdn.midjourney.com/u/ff03153e-6e8a-48b4-87d0-5acd0a123688/429272eae10ea58156a78de88c75acff834d76a4957be16d25bb69d15e83c8c7.png
 
 ---
 
 Q: Do fast hours roll over? Do I keep my unused fast hours? Will my time get added to the next month? Does the subscription reset my hours? Do I keep my minutes? Do fast GPU minutes stack on each month? Does fast time rollover? Rollover? Roll over? Do I lose my hours when I change plan? Do I lose my hours when I cancel?
 
-🔹**Monthly fast time does not roll over**. It is reset with each monthly renewal.
-🔹Bonus hours from ranking expire one month (30 days) after being awarded.
-🔹Additional purchased fast hours do not expire.
+◆ **Monthly fast time does not roll over**. It is reset with each monthly renewal.
+◆ Bonus hours from ranking expire one month (30 days) after being awarded.
+◆ Additional purchased fast hours do not expire.
 
 __Note:__ To create images, you need an active subscription.
 
@@ -202,13 +196,11 @@ __Note:__ To create images, you need an active subscription.
 
 Q: What is turbo mode? What does turbo mean? Turbo mode?
 
-Turbo mode is for extremely quick image generation. Jobs in Turbo mode are generated up to four times faster but also **consume up to four times as much fast GPU time** as a typical Fast mode job.
+Turbo mode is for extremely quick image generation. Jobs in Turbo mode are generated up to four times faster but also **consume up to four times as much fast GPU time** as a typical Fast mode job. If Turbo mode can’t be used, your job will run in Fast Mode instead. [Read more about GPU time and Speed modes](https://docs.midjourney.com/docs/fast-relax)
 
-Click the settings icon on the right side of your `Imagine...` textbox and, at the bottom of your `Model` options, select the `Turbo` button to activate Turbo mode.
+To choose what `Speed` mode to use, open your settings on the right side of the `Imagine...` bar. At the bottom of your `Model` options, select the `Relax`, `Fast`, or `Turbo` button.
 
-__Note:__ If Turbo mode can’t be used, your job will run in Fast Mode instead.
-
-[Read more about Relax, Fast, and Turbo Modes](https://docs.midjourney.com/docs/fast-relax)
+%image=https://cdn.midjourney.com/u/ff03153e-6e8a-48b4-87d0-5acd0a123688/b662999defc83f7d0e1b1adda9a200da3dc4ee387ea4a441eda6555bbfe2de2b.png
 
 ---
 
@@ -218,9 +210,7 @@ __Note:__ If Turbo mode can’t be used, your job will run in Fast Mode instead.
 
 Q: Do I get free images every month? Do I get free images every day? Can I be a free user? Trial has ended? Using the Midjourney as a free user? Is there a trial version? Is there a free version? Why isn’t this free? Do I really have to pay for this? Can you give me free access? Not free? Do I have to pay? Why do I have to pay? Can I use the program for free? Is it paid to make images? I need to pay? Do I need to pay?
 
-**Welcome!** Midjourney does not provide a free tier or trial due to the costs associated with operating hundreds of GPUs. To use the bot, you will need a subscription.
-
-You can subscribe to the plan of your choice through your [`Manage Subscription` page](https://www.midjourney.com/account).
+**Welcome!** Midjourney does not provide a free tier or trial due to the costs associated with operating hundreds of GPUs. To use the bot, you will need a subscription. You can subscribe to the plan of your choice through your [`Manage Subscription` page](https://www.midjourney.com/account).
 
 If you have an active subscription, you can try and win [free bonus fast time](https://docs.midjourney.com/docs/free-hours).
 
@@ -239,17 +229,17 @@ __Note:__ Daylight Saving Time/Summer Time may shift the renewal time by 1 hour.
 
 ---
 
-Q: How do I subscribe? How to subscribe? How do I become a member? /subscribe? How does one become a member? How can I be a full member?  How can I subscribe to it? How to get the paid version? How do you get a subscription? Hello, where can I make the payment for the Standard plan? And how do I buy the 10$ plan? How do I buy it? How can I subscribe to Midjourney? Premium? How to subscribe to this bot? Subscribe?
+Q: How do I subscribe? How to subscribe? How do I become a member? /subscribe? How does one become a member? How can I be a full member?  How can I subscribe to it? How to get the paid version? How do you get a subscription? Hello, where can I make the payment for the Standard plan? And how do I buy the 10$ plan? How do I buy it? How can I subscribe to Midjourney? Premium? How to subscribe to this bot? Subscribe? Help to subscribe?
 
-Find the subscription which fits your needs on your [`Manage Subscription` page](https://www.midjourney.com/account) - choose between Yearly or Monthly billing and select the plan you want.
+Find the subscription which fits your needs on your [`Manage Subscription` page](https://www.midjourney.com/account) - choose between Yearly or Monthly billing and select the plan you want. Email billing@midjourney.com if you encounter an error.
 
 ---
 
 Q: How many images can you generate with the Basic plan? How many images can you generate with the Standard plan? How many images can you generate with the Pro plan? How many images can you generate with the Mega plan? 
 
 Generating a set of four images consumes about 1 GPU minute. Each plan includes a specific amount of fast GPU time:
-🔹The Basic plan allows a limited number of generations per month, providing 200 GPU minutes, which equates to approximately 200 sets of images.
-🔹The Standard, Pro and Mega plan offer more fast GPU time and access to Relax mode. You can generate an unlimited amount of images in Relax mode.
+◆ The Basic plan allows a limited number of generations per month, providing 200 GPU minutes, which equates to approximately 200 sets of images.
+◆ The Standard, Pro and Mega plan offer more fast GPU time and access to Relax mode. You can generate an unlimited amount of images in Relax mode.
 
 Read about our different subscription plans [here](https://docs.midjourney.com/docs/plans).
 Once you’ve made your choice, head over to your [`Manage Subscription` page](https://www.midjourney.com/account) to subscribe.
@@ -285,7 +275,7 @@ Q: How do I cancel my Magazine? Cancel the magazine subscription? Cancel magazin
 
 You can update your shipping information or cancel your Midjourney Magazine subscription by using [this link](https://billing.stripe.com/p/login/aEUdRA5Wc8t25a03cc) and the email you receive your magazine receipts on.
 
-Contact `billing@midjourney.com` for further assistance.
+Contact billing@midjourney.com for further assistance.
 
 ---
 
@@ -293,7 +283,7 @@ Q: I want to order the magazine? Where could I buy a magazine?
 
 Visit the [Midjourney Magazine website](https://mag.midjourney.com/) to subscribe to the monthly magazine. You can also purchase other printed editions showcasing Midjourney images.
 
-Contact `billing@midjourney.com` for any inquiry or issue regarding your magazine payments.
+Contact billing@midjourney.com for any inquiry or issue regarding your magazine payments.
 
 ---
 
@@ -303,9 +293,9 @@ Q: If we go over our limit of fast hours does it let us know? Or just start bill
 
 When you’ve used all your fast time, you will be notified you have run out of credits and new images will fail to submit.
 
-🔹You can try and win [free bonus fast time](https://docs.midjourney.com/docs/free-hours).
-🔹You can purchase more fast hours on your [`Manage Subscription` page](https://www.midjourney.com/account).
-🔹If you have a Standard, Pro, or Mega plan, you can select Relax mode in your settings and create images unlimitedly.
+◆ You can try and win [free bonus fast time](https://docs.midjourney.com/docs/free-hours).
+◆ You can purchase more fast hours on your [`Manage Subscription` page](https://www.midjourney.com/account).
+◆ If you have a Standard, Pro, or Mega plan, you can select Relax mode in your settings and create images unlimitedly.
 
 __Note:__ Additional GPU hours are bought before being used, so you cannot accidentally use more fast time than you have in your plan.
 
@@ -313,34 +303,30 @@ __Note:__ Additional GPU hours are bought before being used, so you cannot accid
 
 # -------------------- CANCELATION --------------------
 
-Q: How can I cancel? How can I cancel my plan? How do I unsubscribe? How can I cancel my subscription? How to cancel a subscription? Where do I cancel my subscription? How do I unsub? Where do I unsub? Where do I cancel? Cancle? Cancel? How to cancel? How can I cancel my Midjourney subscription? I would like to cancel my Midjourney subscription? Cancel subscription? How do I unsubscribe from my Midjourney subscription? How can I cancel my Midjourney subscription?
+Q: How can I cancel? How can I cancel my plan? How do I unsubscribe? How can I cancel my subscription? How to cancel a subscription? Where do I cancel my subscription? How do I unsub? Where do I unsub? Where do I cancel? Cancle? Cancel? How to cancel? How can I cancel my Midjourney subscription? I would like to cancel my Midjourney subscription? Cancel subscription? How do I unsubscribe from my Midjourney subscription? How can I cancel my Midjourney subscription? Comment annuler son abonnement?
 
-On your [subscription page](https://midjourney.com/account), click `Cancel Plan` and confirm.
+On your [`Manage Subscription` page](https://www.midjourney.com/account), click `Cancel Plan` and confirm.
 
 You can cancel the automatic renewal at any time. Your plan will be canceled **at the end of your billing cycle** - enjoy all the perks and fast GPU time until then. If you change your mind, you can uncancel.
 
-Contact `billing@midjourney.com` if you encounter an error or need further assistance.
+Contact billing@midjourney.com if you encounter an error or need further assistance.
 
-%image=https://cdn.discordapp.com/attachments/1201909699793145876/1228317951598530621/Cancel.png
-
----
-
-Q: Cancel with refund? Cancel and refund? How do I get a refund? How to refund? Can this be refunded? I would like to request a refund?
-
-On your [subscription page](https://midjourney.com/account), click `Cancel Plan`.
-
-🔹**Refund:** You are eligible for a full refund if you’ve used less than 20 GPU minutes **__lifetime__**. If you’re eligible, you will have the option to `Cancel immediately with refund`. Select that option, and confirm the immediate cancellation.
-🔹If your lifetime usage is above 20 GPU minutes, you are not eligible for a refund. Confirm the cancellation to cancel the next automatic renewal. Your plan will be canceled **at the end of your billing cycle** - enjoy all the perks and fast GPU time until then. If you change your mind, you can uncancel.
-
-Contact `billing@midjourney.com` if you encounter an error or need assistance.
-
-%image=https://cdn.discordapp.com/attachments/1201909699793145876/1228317951598530621/Cancel.png
+%image=https://s.mj.run/KlmtLQqtqQM
 
 ---
 
-Q: Can I switch from the yearly plan to the monthly plan? How can I change from the yearly plan to the monthly plan? How do I switch from yearly to monthly? I accidentally subscribed to yearly?
+Q: Cancel with refund? Cancel and refund? How do I get a refund? How to refund? Can this be refunded? I would like to request a refund? How do I apply for refund? Can I request a refund? I want to cancel my subscription and get a refund? Get a refund? Refund? I want a refund? Refund me?
 
-If you chose the yearly plan instead of the monthly plan, you can try to cancel your subscription now with a refund and then subscribe to the monthly plan. On your [subscription page](https://midjourney.com/account), click `Cancel Plan` and select the option `Cancel immediately with refund`. If you do not get the refund option, contact `billing@midjourney.com`. 
+You are eligible for a refund if you’ve used less than 20 GPU minutes **__lifetime__**. On your [`Manage Subscription` page](https://www.midjourney.com/account), click `Cancel Plan`. If you’re eligible, you will have the option to `Cancel immediately with refund`; select it and confirm.
+If you are not eligible, cancel your next renewal and enjoy Midjourney until the end of your billing period. Contact billing@midjourney.com if you encounter an error or need assistance.
+
+%image=https://s.mj.run/KlmtLQqtqQM
+
+---
+
+Q: Can I switch from the yearly plan to the monthly plan? How can I change from the yearly plan to the monthly plan? How do I switch from yearly to monthly? I accidentally subscribed to yearly? I accidentally subscribed to a year plan but I really just wanted a month only? I meant to purchase a monthly billing plan, can I get a refund for the yearly plan? I meant to purchase a monthly billing plan, can I get a refund for the annual plan? I accidentally subscribed to the annual plan instead of the monthly one?
+
+If you chose the yearly plan instead of the monthly plan, you can try to cancel your subscription now with a refund and then subscribe to the monthly plan. On your [subscription page](https://midjourney.com/account), click `Cancel Plan` and select the option `Cancel immediately with refund`. If you do not get the refund option, contact billing@midjourney.com. 
 
 If you want to switch plans upon your next renewal, select the plan of your choice and confirm the change.
 
@@ -357,6 +343,16 @@ Even without an active plan, you can view your own images in your gallery. Howev
 Q: How long will it take to get my refund? When will I get my refund? How long before I get my refund? How do I know my refund is processing? Can I confirm my refund?
 
 The refund time depends on your bank, it can take up to 10 business days for them to process it. Not to worry, if you’ve received an email from Midjourney confirming your refund, your money is on its way back to you.
+
+---
+
+Q: How do I delete my data? Can I delete my data? How to remove survey information? Delete my survey? Remove my survey data? Where is my data collected from surveys?
+
+Scroll down on your [`Manage Subscription` page](https://www.midjourney.com/account/).
+
+You can view your surveys or delete their data by clicking on `Where do I find and manage my survey data?` and follow the links provided. All data from your surveys is private. 
+
+To delete your Midjourney account and data, click on `How can I delete my account?` and follow the link provided.
 
 ---
 
@@ -386,13 +382,11 @@ Additional jobs will be added to a queue of up to **10** jobs.
 
 ---
 
-Q: Queue reset? Can I have a queue reset? Reset my queue? Reset jobs? Can you clear my queue? Can I cancel an image? Can I cancel a job? How to cancel my prompt? My images won't finish? Job never finishes? My job is stuck?
+Q: Queue reset? Can I have a queue reset? Reset my queue? Reset jobs? Can you clear my queue? Can I cancel an image? Can I cancel a job? How to cancel my prompt? My images won't finish? Job never finishes? My job is stuck? My queue is stuck?
 
-To cancel running jobs, right click on the images being generated and click `Cancel Job`.
-You can only cancel jobs which are currently running, not those queued.
+To cancel running jobs, right click on the images being generated and click `Cancel Job`. You can only cancel jobs which are currently running, not those queued.
 
-Visit [status.midjourney.com](https://status.midjourney.com/) for estimated wait times.
-If you are experiencing errors or unusually long queue wait times, click on `Report Bug` in the lower left corner to check for any ongoing issue. If there’s an issue, it's often best to wait for your job to start rather than to cancel and restart it.
+If you are experiencing errors or unusually long queue wait times, click on `Help` in the lower left corner to check for estimated wait times and any ongoing issue. If you experience issues, it's often best to wait for your job to start rather than to cancel and restart it.
 
 ---
 
@@ -409,57 +403,57 @@ If your payment was declined, you might notice a pending charge in your account.
 - Check your account balance and spending limits.
 - Reach out to your bank, if they declined it they can clear it for you.
 
-Contact `billing@midjourney.com` for further assistance.
+Contact billing@midjourney.com for further assistance.
 
 ---
 
 Q: Remove payment info? Remove credit cards? How do I remove payment information? Remove payment? How can I find my Midjourney's invoice? Where can I see my invoices? How to access invoices? Where can I get my receipts?
 
-🔹If your subscription is active: Go to your [`Manage Subscription` page](https://www.midjourney.com/account) to view your plan details.
+◆ If your subscription is active: Go to your [`Manage Subscription` page](https://www.midjourney.com/account) to view your plan details.
 Click `Edit Billing` to verify or modify your payment information. Click `View Invoices` to download previous invoices and receipts.
-🔹If your subscription is inactive: Access [this link](https://billing.stripe.com/p/login/aEUdRA5Wc8t25a03cc) using your billing email to find your invoices and update your payment information.
 
-Contact `billing@midjourney.com` for further assistance.
+◆ If your subscription is inactive: Access [this link](https://billing.stripe.com/p/login/aEUdRA5Wc8t25a03cc) using your billing email to find your invoices and update your payment information.
 
----
-
-Q: Billing issue? Billing question? Need billing help? Billing support? Billing inquiry?
-
-Reach out to our billing support team by sending an email to `billing@midjourney.com`.
-
-If possible, provide your receipt number or invoice number which was sent to your billing email.
+Contact billing@midjourney.com for further assistance.
 
 ---
 
-Q: I need to change my email address? I want to change the email address? Please change the email address for my subscription? How to change the billing email address? I want to change my email? How can I change my resistered email address? How can i change my email in the payment page? I need to change the email on the payment page? How to change my account email address? How can I change my contact email?
+Q: Billing issue? Billing question? Need billing help? Billing support? Billing inquiry? I keep getting billed twice? I paid but I don’t see my subscription? I paid but cannot use the subscription? I paid for a subscription, but I don’t see it on discord? I do not see the option to refund immediately?
+
+Reach out to our billing support team by sending an email to billing@midjourney.com. If possible, provide your receipt number or invoice number which was sent to your billing email.
+
+---
+
+Q: Can I transfer my subscription to another account? I used the wrong account? I subscribed with the wrong account? How can I change my subscription to another account? How can I change my midjourney subscription active plan to another Discord account?
+
+Unfortunately, subscriptions cannot be transferred. If you are unable to access the account associated with your subscription, please contact billing@midjourney.com.
+
+---
+
+Q: I need to change my email address? I want to change the email address? Please change the email address for my subscription? How to change the billing email address? I want to change my email? How can I change my registered email address? How can i change my email in the payment page? I need to change the email on the payment page? How to change my account email address? How can I change my contact email?
 
 To modify your __Discord email__ used to sign in, follow this guide: [How to change your Discord account's email address](https://support.discord.com/hc/en-us/articles/4423385681175-How-to-Change-Your-Account-s-Email-Address).
 
-To modify your __Midjourney billing email__ where you receive invoices and receipts, email `billing@midjourney.com`.
-If possible, provide your receipt number or invoice number.
+To modify your __Midjourney billing email__ where you receive invoices and receipts, email billing@midjourney.com. If possible, provide your receipt number or invoice number.
 
 ---
 
 Q: Can I pay with PayPal? Can I use PayPal? Do you have other payment methods? Paypal PayPal? Do I have to use a credit card? Are there other ways to pay? Is there another way to pay for a subscription other than with a credit card? Can I pay with ETH? Do you take crypto?
 
-Depending on region, Stripe supports credit/debit cards (Mastercard, VISA, American Express, Discover & Diners etc) and some digital wallets (Apple Pay, Google Pay, Cash App Pay).
+Depending on your region, Stripe supports various credit/debit cards and some digital wallets (Apple Pay, Google Pay), you will see the available methods at checkout. PayPal, Wire transfer, crypto and other methods are not currently supported.
 [More information on card brands supported by Stripe](https://stripe.com/docs/payments/cards/supported-card-brands)
-
-PayPal, Wire transfer, crypto and other methods are not currently supported.
 
 ---
 
-Q: Paused? Unpause Account? My subscription is Paused? How to renew when Paused?
+Q: Paused? Unpause Account? My subscription is Paused? How to renew when Paused? Payment is paused?
 
 If your subscription is paused, this means your renewal payment failed.
 
-🔹**How to __renew__ your plan:**
-Open the email about “payment was unsuccessful" to pay the overdue invoice.
+◆ **How to __renew__ your plan:** Open the email about “payment was unsuccessful" to pay the overdue invoice.
 
-🔹**How to __cancel__ your plan:**
-Go to your [`Manage Subscription` page](https://www.midjourney.com/account) and click “Cancel Plan”.
+◆ **How to __cancel__ your plan:** Go to your [`Manage Subscription` page](https://www.midjourney.com/account) and click “Cancel Plan”.
 
-Contact `billing@midjourney.com` for further assistance.
+Contact billing@midjourney.com for further assistance.
 
 ---
 
@@ -467,7 +461,7 @@ Q: payment Error: zip code doesn’t match? Zip code error? Saying my zip code i
 
 Go to your [`Manage Subscription` page](https://www.midjourney.com/account) and click on the `Edit Billing` button. Add your card details as an *entirely new* payment method, and use the `…` button to set it as your new default payment method.
 
-Contact `billing@midjourney.com` for further assistance.
+Contact billing@midjourney.com for further assistance.
 
 ---
 
@@ -477,16 +471,16 @@ To solve this bug, go to your [`Manage Subscription` page](https://www.midjourne
 
 When you get to the new page, look for the `...` button next to your payment method and click it, then press make default.
 
-Contact `billing@midjourney.com` for further assistance.
+Contact billing@midjourney.com for further assistance.
 
 ---
 
 Q: Why can't I upgrade my subscription? Something went wrong :( This may be due to insufficient funds? Error: Couldn't upgrade your plan. Please reach out to support? I'm trying to upgrade my plan but the payment keeps getting rejected?
 
 On your [`Manage Subscription` page](https://www.midjourney.com/account), click on `Edit Billing` and make sure all your details are up to date. Check your account balance and spending limits, and reach out to your bank to make sure they’re not blocking the payment.
-If the problem persists, contact `billing@midjourney.com`.
+If the problem persists, contact billing@midjourney.com.
 
-__**If you’re using Alipay:**__ You cannot upgrade on the website. Email `billing@midjourney.com` for assistance.
+__**If you’re using Alipay:**__ You cannot upgrade on the website. Email billing@midjourney.com for assistance.
 
 ---
 
@@ -496,8 +490,7 @@ This error occurs when your default payment method has been linked from Stripe i
 
 When you get to the new page, look for the `Add a payment method` and re-enter your card details manually, without using any auto-fill. Once you see your card information with an expiration date instead of the stylized `link` text, click the `…` next to it and select `Make default`.
 
-Contact `billing@midjourney.com` for further assistance.
-%image=https://media.discordapp.net/attachments/1023057817155944519/1064690300276199486/Screenshot_20230111_204217_Chrome.png
+Contact billing@midjourney.com for further assistance.
 
 ---
 
@@ -506,17 +499,17 @@ Contact `billing@midjourney.com` for further assistance.
 Q: How do I add VAT to my invoice? Why was I charged for VAT? Can I add VAT?
 
 To include your VAT ID on future invoices:
-🔹 With an active subscription: Go to your [`Manage Subscription` page](https://www.midjourney.com/account), click `Edit Billing`, then add your country and VAT ID.
-🔹 Without an active subscription: At checkout, select the option `I’m purchasing as a business` and enter your company name and VAT ID (include the country code letters if applicable).
+◆  With an active subscription: Go to your [`Manage Subscription` page](https://www.midjourney.com/account), click `Edit Billing`, then add your country and VAT ID.
+◆  Without an active subscription: At checkout, select the option `I’m purchasing as a business` and enter your company name and VAT ID (include the country code letters if applicable).
 
 **__Note:__ Once issued, invoices cannot be changed.**
-Contact `billing@midjourney.com` for further assistance.
+Contact billing@midjourney.com for further assistance.
 
 ---
 
 Q: How can I request a tax exemption? My company is tax-exempt? We are a tax-exempt organization?
 
-To request your account to be exempted from taxes, please email `billing@midjourney.com` with the following information:
+To request your account to be exempted from taxes, please email billing@midjourney.com with the following information:
 - The full name on your account
 - Your billing email address
 - Your billing postal address
@@ -528,7 +521,7 @@ The billing information on your subscription must match the information listed o
 
 Q: Can you set my account to reverse charge for VAT?
 
-To request your account to be set to reverse charge, please email `billing@midjourney.com` with the following information:
+To request your account to be set to reverse charge, please email billing@midjourney.com with the following information:
 - Your full name or your company's full name
 - Your billing email address
 - Your billing postal address
@@ -549,23 +542,35 @@ If you prefer not to participate, you can subscribe to the Pro or Mega plan. The
 
 ---
 
-Q: What's private mode? What’s stealth mode? Private powers badge? I don't want people to see my images? How can I work privately? I don't want anyone to see my images and prompts? How do I go private? How do I go stealth? How much does private cost? How much does stealth cost? I can’t unpublish on the website? Stealth mode? How do I keep my images private? Are all my images private automatically? Will my gallery become private? Why can users still interact even though I bought private? Are all my images stealth automatically? Will my gallery be stealth? Why can users interact even though I have stealth mode enabled? How to unpublish images? What is publish and unpublish?
+Q: What's private mode? What’s stealth mode? Private powers badge? I don't want people to see my images? How can I work privately? I don't want anyone to see my images and prompts? How do I go private? How do I go stealth? How much does private cost? How much does stealth cost? I can’t unpublish on the website? Stealth mode? How do I keep my images private? Are all my images private automatically? Will my gallery become private? Why can users still interact even though I bought private? Are all my images stealth automatically? Will my gallery be stealth? Why can users interact even though I have stealth mode enabled? How to unpublish images? What is publish and unpublish? Generated content private? How to generate private content? Can I make my content private?
 
-[`Stealth` mode](https://docs.midjourney.com/docs/stealth) is a feature of the Pro and Mega plans that allows you to make your images private (unpublished) in [your gallery](https://www.midjourney.com/archive). Unpublished images cannot be seen on the website by any members other than yourself.
+[`Stealth` mode](https://docs.midjourney.com/docs/stealth) is a feature of the Pro and Mega plans that allows you to make your images private (unpublished) in [your gallery](https://www.midjourney.com/archive). Unless created in shared rooms, unpublished images cannot be seen on the website by any members other than yourself.
 
 To enable Stealth mode and keep all **__new__** images private, toggle the `Stealth` button in your settings to `On`. You can also add it to individual prompts by adding the `--stealth` parameter.
 
-%image=https://s.mj.run/pHCj9TmdLCk
+%image=https://cdn.midjourney.com/u/ff03153e-6e8a-48b4-87d0-5acd0a123688/32a90643f5e4ba63afc15a96f402c47307fa258f96a9113f4ec5fd81e0a4dab3.png
 
 ---
 
-Q: How to hide images? What is hide? What does hide do on the website? Is hide the same as private mode? Hide images? How can I delete an image? How to delete images from my feed? How can I remove an image? Hide images?
+Q: How to hide images? What is hide? What does hide do on the website? Is hide the same as private mode? Hide images? How can I remove an image? Hide images?
 
 `Hide` only hides images from yourself - it’s used to organize [your own gallery](https://www.midjourney.com/archive) by hiding images you don’t like from your view. **Hidden images are still visible to all other members**, it is not the same as unpublishing them.
 
 To hide images, go to your [Archive](https://www.midjourney.com/archive), select the images you want to hide, and click `...More` (next to Download). You can then bulk hide/unhide.
 
 __Note:__ For your images to be private, you will need the Pro or Mega plan; those plans allow you to unpublish images and use [Stealth mode](https://docs.midjourney.com/docs/stealth).
+%image=https://cdn.midjourney.com/u/ff03153e-6e8a-48b4-87d0-5acd0a123688/a03329f183e7164b0f43576c6f4be52f32c90d8bc263a120542d66de2e1e8bc9.png
+
+---
+
+Q: How can I delete an image? How to delete images from my feed? How to delete images? Delete my image?
+
+You cannot fully delete images on the website, but you can hide them to organize [your own gallery](https://www.midjourney.com/archive). **Hidden images are still visible to all other members**, it is not the same as unpublishing them.
+
+To hide images, go to your [Archive](https://www.midjourney.com/archive), select the images you want to hide, and click `...More` (next to Download). You can then bulk hide/unhide.
+
+__Note:__ For your images to be private, you will need the Pro or Mega plan; those plans allow you to unpublish images and use [Stealth mode](https://docs.midjourney.com/docs/stealth).
+%image=https://cdn.midjourney.com/u/ff03153e-6e8a-48b4-87d0-5acd0a123688/a03329f183e7164b0f43576c6f4be52f32c90d8bc263a120542d66de2e1e8bc9.png
 
 ---
 
@@ -585,7 +590,7 @@ Q: How do I unpublish my images? Unpublish old images? Bulk unpublish? Unpublish
 
 Subscribers to the Pro and Mega plan can bulk unpublish their images from the website. To do this, go to your [Archive](https://www.midjourney.com/archive), select the images you want to unpublish, and click `...More` next to Download. You can then bulk publish/unpublish.
 
-%image=https://s.mj.run/gqRRTj7p5r4
+%image=https://cdn.midjourney.com/u/ff03153e-6e8a-48b4-87d0-5acd0a123688/ab7070557038542451740a70e1f242b252df9ed2835ee653e5f1e5ef314da207.png
 
 ---
 
@@ -595,10 +600,10 @@ Subscribers to the Pro and Mega plan can bulk unpublish their images from the we
 
 Q: How do I change my aspect ratio? How to change aspect ratio? How can I specify image width? How can I specify image height? How can I change the dimensions? How to make not square images? What is the prompt for width and height? Can I adjust the width and height? What is --ar? How do I make a desktop background? How do I make 16:9?
 
-You can change the aspect ratio of generated images by clicking on the Settings icon at the right side of the `Imagine…` textbox. On the left side, under `Image Size`, select either `Portrait` or `Landscape` orientation, then use the slider to select specific aspect ratio.
+You can change the aspect ratio of generated images by clicking on the Settings icon at the right side of the `Imagine…` textbox. On the left side, under `Image Size`, select either `Portrait` or `Landscape` orientation, or use the slider to select a specific aspect ratio.
 
 You can also use custom aspect ratios by clicking on the ratio displayed on the example image to the left of the `Image Size` options, or by including the `--ar` parameter at the end of your prompt.
-For example: `a robot on a sailboat --ar 2:1`
+For example: `a robot on a sailboat --ar 3:1`
 
 [Read more about Aspect Ratio](https://docs.midjourney.com/docs/aspect-ratios)
 
@@ -606,8 +611,8 @@ For example: `a robot on a sailboat --ar 2:1`
 
 Q: The upscale adds too much detail? How do I remove the noise from an upscaled image?
 
-🔹`Upscale Subtle` is the closest match to the original image.
-🔹`Upscale Creative` adds the most detail when upscaling an image.
+◆ `Upscale Subtle` is the closest match to the original image.
+◆ `Upscale Creative` adds the most detail when upscaling an image.
 Running the upscale again will give you a different result.
 
 [Read more about Upscalers](https://docs.midjourney.com/docs/upscalers)
@@ -617,8 +622,8 @@ Running the upscale again will give you a different result.
 Q: What effects do I get from the different kinds of upscales? What are the different upscales? What’s the difference between Upscale Creative and Upscale Subtle?
 
 To double the size of your image, click on `Upscale Subtle` or `Upscale Creative`.
-🔹`Upscale Subtle` is the closest match to original grid image.
-🔹`Upscale Creative` will adjust and/or add new details.
+◆ `Upscale Subtle` is the closest match to original grid image.
+◆ `Upscale Creative` will adjust and/or add new details.
 Running Upscale again will give you a different result.
 [Read more about Upscalers](https://docs.midjourney.com/docs/upscalers-1)
 
@@ -653,9 +658,9 @@ Q: What is the maximum upscale resolution? What is the maximum resolution?  How 
 When generating a set of square images using versions 5, 5.1, 5.2, and 6.0, the images will have a dimension of 1024x1024 pixels.
 
 You can then upscale your images:
-🔹v5, 5.1, 5.2 (2x) Upscaler: 2048 x 2048 px
-🔹v5, 5.1, 5.2 (4x) Upscaler: 4098 x 4098 px
-🔹v6 Creative and Subtle Upscaler: 2048 x 2048 px
+◆ v5, 5.1, 5.2 (2x) Upscaler: 2048 x 2048 px
+◆ v5, 5.1, 5.2 (4x) Upscaler: 4098 x 4098 px
+◆ v6 Creative and Subtle Upscaler: 2048 x 2048 px
 
 Custom aspect ratios set using `--ar` will change the width and height of the image, but not the max file size.
 
@@ -695,8 +700,8 @@ Q: How do you use --s? How do you use stylize? What does stylize do? What is --s
 
 `Stylization` adjusts how much the bot applies the default styling of the model, it also affects how closely the bot follows your prompt.
 The values range from 0 to 1000, and the default value is 100.
-🔹Lower values will follow your prompt closely.
-🔹Higher values give the bot more freedom to interpret the prompt but may dismiss some specifics.
+◆ Lower values will follow your prompt closely.
+◆ Higher values give the bot more freedom to interpret the prompt but may dismiss some specifics.
 
 [Read more about the Stylize parameter](https://docs.midjourney.com/docs/stylize)
 
@@ -718,35 +723,33 @@ You can add text, image prompts, and other parameters to guide the results.
 
 # -------------------- PERSONALIZATION  --------------------
 
-Q: What is the personalization feature? What is the personalisation feature? What is the personalize feature? What is the personalise feature? What is the personalization parameter? What is the personalisation parameter? What is the personalize parameter? What is the personalise parameter? Personalization feature? Personalisation feature? Personalize feature? Personalise feature? Personalization parameter? Personalisation parameter? Personalize parameter? Personalise parameter? What is the --p parameter? Can I get a personal code with my own aesthetic? Can I personalize my style? Can I personalise my style? How do I get my personal code? Where do I find my personal code? Where do I find my --p code? Can I train my own model?
+Q: What is the personalization feature? What is the personalisation feature? What is the personalize feature? What is the personalise feature? What is the personalization parameter? What is the personalisation parameter? What is the personalize parameter? What is the personalise parameter? Personalization feature? Personalisation feature? Personalize feature? Personalise feature? Personalization parameter? Personalisation parameter? Personalize parameter? Personalise parameter? What is the --p parameter? Can I personalize my style? Can I personalise my style? Can I train my own model?
 
-The Personalization feature learns your preferences over time through images you've rated (on the [Rate Images](https://www.midjourney.com/rank) page).
+The Personalization feature learns your preferences over time through images you've rated (on the [Rate Images](https://www.midjourney.com/rank) page). 
 
-Add the Personalize parameter `--p` at the end of your prompt to tailor the model to your preferences, or toggle `Personalize` to `On` in your settings for all new prompts to have it. Your personal code is automatically added after it.
-Copy your code from the prompt to share it with other users, and try codes from others by pasting one of theirs after `--p`.
+Add the Personalize parameter `--p` at the end of your prompt to tailor the model to your preferences, or toggle `Personalize` to `On` in your settings for all new prompts to have it. Your personal code is automatically added after it. [Read more about Personalization](https://docs.midjourney.com/docs/personalization)
 
-__Note:__ You can combine personalization with other parameters available in Version 6.
-You can adjust the strength of your personal styling by combining it with the [Stylization parameter](https://docs.midjourney.com/docs/stylize), with a value from 0 to 1000. A higher value will show your styling more but may dismiss some specifics of your prompt. 
-
-[Read more about the Personalize parameter](https://docs.midjourney.com/docs/personalization)
-If you want to influence the style with your own image(s), set an image as a [Style Reference](https://docs.midjourney.com/docs/style-reference).
+If you want to influence the style with specific images, use them as a [Style Reference](https://docs.midjourney.com/docs/style-reference).
 
 ---
 
-Q: Can I use someone else's personal style parameter? Can I use someone else's --p code? Can others user my personal code? Can others user my --p code? Can other members use my personalize code? Can other members user my personalise code? 
+Q: Can I use someone else's personal style parameter? Can I use someone else's --p code? Can others user my personal code? Can others user my --p code? Can other members use my personalize code? Can other members user my personalise code? How do I get my personal code? Where do I find my personal code? Where do I find my --p code? Can I get a personal code with my own aesthetic? How do i find my personalized style? How do I find my personalization code? Where do I find my personalized style?
 
-When you use the Personalize parameter `--p`, your unique personal code is automatically added after it. You can share this code with other members as well as try one of their codes by pasting it after `--p`.
-
-[Read more about the Personalize parameter](https://docs.midjourney.com/docs/personalization)
+When you use the Personalize parameter `--p`, your unique personal code is automatically added after it. You can share this code with other members as well as try one of their codes by pasting it after `--p`. [Read more about Personalization](https://docs.midjourney.com/docs/personalization)
 
 ---
 
-Q: Why do I get “Not enough ratings”? Not enough ratings? Where do I get more ratings, I get the error "Not enough ratings"?
+Q: Why do I get “Not enough ratings”? Not enough ratings? Where do I get more ratings, I get the error "Not enough ratings"? Impossible to submit: you don't yet have a personal style to use --p?
 
-To use the [Personalization feature](https://docs.midjourney.com/docs/personalization) you need to rate enough images for it to learn your preferences.
-Go to the [`Rank Images` page](https://www.midjourney.com/rank), and select your favorite image between the two. If you're uncertain or don't like either, Press `→ Skip`.
+To use the [Personalization feature](https://docs.midjourney.com/docs/personalization) you need to rate enough images for it to learn your preferences. Go to the [`Rank Images` page](https://www.midjourney.com/rank), and select your favorite image between the two. If you're uncertain or don't like either, Press `→ Skip`.
 
-You can see how many images you've rated at the top; the personalization feature will work once you have a ranking count of about 200 images.
+You can see how many images you've rated at the top; the personalization feature will work once you have a ranking count of about 200 images. [Read more about Personalization](https://docs.midjourney.com/docs/personalization)
+
+---
+
+Q: How do I remove --p? How do I turn off personalization? I don’t want --p? I don’t want personalization? I don’t want to use personalization?
+
+To create images with the default model, without your personalization: remove any `--p` parameter from your text prompt, and set `Personalize` to `Off` in your Settings on the right side of the `Imagine...` bar.
 
 ---
 
@@ -762,21 +765,15 @@ The `--iw` (Image Weight) parameter allows you to adjust how much the image prom
 
 Q: Reference image? Use photo as reference? How do I upload an image? How do I get an image link? How do I use my own image? How do I upload or use an image from my hard-drive for an image prompt? Image prompt? How can I attach an image? Can I use an image as a starting point? Can I use my images? Can I send images to the AI? Can I give an image to the AI? I've seen a few people using source images, how does this work? Can I use an image? My own photo? My own personal photo? Edit my image?
 
-Click the `+` button on the left of the `Imagine…` textbox to add images.
-You can use an image in three different ways; hover over it to select the option of your choice. Shift-click to select multiple options.
-🔹`Image Prompt` (icon: picture)
-By default, uploaded images are added as image prompts. 
-If you only use one image prompt, you’ll need to add a text description.
-If you use two or more image prompts, the bot will blend them. Adding a text description becomes optional.
-🔹`Style Reference` (icon: paper clip)
-The image(s) will influence the style or aesthetic.
-🔹`Character Reference` (icon: portrait)
-The characters in your images will be based on your character reference(s). This works best with references created in Midjourney. You can add text, image prompts, and other parameters to guide the results.
+Click the image icon on the left of the `Imagine…` textbox to add images. You can use an image in three different ways; hover over it to select the option of your choice. Shift-click to select multiple options.
+◆ `Image Prompt` (icon: picture) – By default, uploaded images are added as image prompts. If you only use one image prompt, you’ll need to add a text description. If you use two or more image prompts, the bot will blend them. Adding a text description becomes optional.
+◆ `Style Reference` (icon: paper clip) – The image(s) will influence the style or aesthetic.
+◆ `Character Reference` (icon: portrait) – The characters in your images will be based on your character reference(s). This works best with references created in Midjourney. You can add text, image prompts, and other parameters to guide the results.
 
 __Note:__ References are used as parameters, they cannot be used without a prompt.
-The following parameters have no effect on image prompts: Stylize, Chaos, Weird, Style Reference.
+The following parameters have no effect on image prompts: Stylize, Chaos, Weird, Style Reference. [Read more about adding images](https://docs.midjourney.com/docs/using-images)
 
-%image=https://s.mj.run/Z7tYu8DYi9I
+%image=https://cdn.discordapp.com/attachments/1201909699793145876/1252664110748012647/Image_Reference_Flipped.gif
 
 ---
 
@@ -843,8 +840,8 @@ Q: Do commas, pipes, or any other punctuation matter? Does punctuation matter? A
 In the default version of Midjourney (Version 6), punctuation is interpreted similarly to natural language. Compose your text prompt as you would structure a sentence to describe an image.
 
 Some characters have a specific function:
-🔹"Quotation marks" indicate that the text enclosed within them should appear in the image
-🔹Double hyphens (`--`) or an em dash (`—`) are used to manually input a parameter.
+◆ "Quotation marks" indicate that the text enclosed within them should appear in the image
+◆ Double hyphens (`--`) or an em dash (`—`) are used to manually input a parameter.
 
 ---
 
@@ -859,8 +856,8 @@ Q: Why are my images the same color? Why does it ignore my prompt? Why is the im
 Your `Stylization` value might be too high, try lowering it.
 `Stylization` adjusts how much the bot applies the default styling of the model, it also affects how closely the bot follows your prompt.
 The values range from 0 to 1000, and the default value is 100.
-🔹Lower values will follow your prompt closely.
-🔹Higher values give the bot more freedom to interpret the prompt but may dismiss some specifics.
+◆ Lower values will follow your prompt closely.
+◆ Higher values give the bot more freedom to interpret the prompt but may dismiss some specifics.
 
 [Read more about the Stylize parameter](https://docs.midjourney.com/docs/stylize)
 
@@ -868,17 +865,25 @@ The values range from 0 to 1000, and the default value is 100.
 
 # -------------------- ----SEEDS----- --------------------
 
-Q: How do I get the seed or job id that was used for an image? How can I get an individual image without upscaling? No seed? Seed on upscale? Only grid seed? V5 seed? I can not get the seed? Can’t get the seed number? When I react with the envelope nothing happens, I don’t get the seed? How can I find the seed? How do I retrieve the seed number of an image? How do I get the seed of an image? What does –seed do? Does submitting the job again use a different seed? What is a seed? What do seeds do? What is sameseed?
+Q: How do I get the seed or job id that was used for an image? I can not find the seed? Can’t find the seed number? How can I find the seed? How do I retrieve the seed number of an image? How do I get the seed of an image? How can I see the image’s seed? How can I see the image seed? Where can I see the seed?
 
-Each set of four images made in Midjourney uses a random seed number as a starting point.
-To find your image’s seed number, open the dropdown menu, select `Copy` and `Seed`.
+Each set of four images made in Midjourney uses a random seed number as a starting point. To find your image’s seed number, open the dropdown menu, select `Copy` and `Seed`.
 
-Use the `--seed` parameter, with a value between 0 and 4294967295, to give the bot a specific starting point.
-If you use the same seed and prompt as another image, the bot will produce an identical or very similar set of four images. This is useful when using similar prompts to test how the changes affect the result.
+__Note:__ Seeds are not reliable and change over time. They have no effect on character consistency. [Read more about Seeds](https://docs.midjourney.com/docs/seeds)
 
-__Note:__ Seeds are not reliable and change over time. They have no effect on character consistency.
+%image=https://cdn.midjourney.com/u/ff03153e-6e8a-48b4-87d0-5acd0a123688/922733d9c0dc25de4b8a84f42282191c643825cc2fc5c636d4c03e80f71f7892.png
 
-%image=https://s.mj.run/7c302kjK7CM
+---
+
+Q: What does –seed do? Does submitting the job again use a different seed? What is a seed? What do seeds do? What is sameseed? Seed?
+
+Each set of four images made in Midjourney uses a random seed number as a starting point. To find your image’s seed number, open the dropdown menu, select `Copy` and `Seed`.
+
+Use the `--seed` parameter, with a value between 0 and 4294967295, to give the bot a specific starting point. If you use the same seed and prompt as another image, the bot will produce an identical or very similar set of four images. This is useful when using similar prompts to test how the changes affect the result.
+
+__Note:__ Seeds are not reliable and change over time. They have no effect on character consistency. [Read more about Seeds](https://docs.midjourney.com/docs/seeds)
+
+%image=https://cdn.midjourney.com/u/ff03153e-6e8a-48b4-87d0-5acd0a123688/922733d9c0dc25de4b8a84f42282191c643825cc2fc5c636d4c03e80f71f7892.png
 
 ---
 
@@ -894,8 +899,7 @@ You need an active subscription to have full access to the `Explore` page and ot
 
 Q: Is there a way to save all my images at once? Can I batch download all of my images? How do I save my gallery? Download images? Batch download? Bulk download?
 
-You can batch download images quickly through [your archive](https://midjourney.com/archive). Click on the ⊕︀ sign next to a date to select images from that day. At the bottom, you can then download your selection of images.
-You can also click and drag, or shift-click to select images.
+You can batch download images quickly through [your archive](https://midjourney.com/archive). Click on the ⊕︀ sign next to a date to select images from that day. At the bottom, you can then download your selection of images. You can also click and drag, or shift-click to select images.
 
 %image=https://cdn.discordapp.com/attachments/1201909699793145876/1202263116243533854/bulkdownload.gif
 
@@ -926,6 +930,13 @@ Q: How can I filter images in rooms? How can I hide everyone else’s images in 
 At the top of the page, you'll find filters to change which images you see in rooms.
 
 %image=https://s.mj.run/bXYfny6Q_dU
+
+---
+
+Q: How to invite people to a room I have created? How do I add people to a private room? Can I share a private room? How to add users to a private room? How do I add people to a room I created? Can I share a room with someone?
+
+Go to the [Rooms page](https://www.midjourney.com/rooms) and click `⊕︀ Create Room` on the right side to create your own private room.
+Copy the URL from your browser’s address bar and share it with your friends. Make sure to include the password so they can join.
 
 ---
 
@@ -963,7 +974,7 @@ We're figuring things out, but our goal is to allow as many people access to the
 
 Q: Are you hiring? Can I apply for a job? Who/where can I contact for jobs at Midjourney? Can I apply for a job?
 
-Yes! For a list of open positions, see [our website](https://www.midjourney.com/home/#careers)
+We're a small, self-funded, fully-distributed team and we're actively hiring! If you’re sure you can help, reach out to us via careers@midjourney.com
 
 ---
 
@@ -976,7 +987,7 @@ Check out our [News page](https://www.midjourney.com/updates) for the latest upd
 
 Q: Do you have any API? Is there a way to use the app via an API? API? Plans to expose API?
 
-There are currently no plans for an API.
+There are currently no plans for a public API.
 
 ---
 
@@ -984,34 +995,33 @@ There are currently no plans for an API.
 # -------------------- USAGE RIGHTS --------------------
 # -------------------- -------------------- --------------------
 
-Q: How does commercial use work? Can I use images commercially? Can I sell images I generated? Are there royalties? Can we use images for commercial projects? What are the commercial terms? Can I sell my images? What’s the license for my images? Commercial use for images? Can I use the images I generated before subscribing commercially? If I am a trial member but become a paid member, can I relicense already generated images done while I was a trial member? Do I have commercial rights to images on Midjourney?
+Q: How does commercial use work? Can I use images commercially? Can I sell images I generated? Are there royalties? Can we use images for commercial projects? What are the commercial terms? Can I sell my images? What’s the license for my images? Commercial use for images? Can I use the images I generated before subscribing commercially? If I am a trial member but become a paid member, can I relicense already generated images done while I was a trial member? Do I have commercial rights to images on Midjourney? Are the images made through Midjourney copyrighted to me?
 
 Paying members have commercial rights to all images they have made and may use them commercially even if they no longer have an active subscription.
 
-🔹If you are a company or any employee of a company with more than $1,000,000 USD a year in revenue, you must be subscribed to a Pro or Mega plan to own Your Assets.
-🔹You do not own images made by other members, even if you upscale their images.
+◆ If you are a company or any employee of a company with more than $1,000,000 USD a year in revenue, you must be subscribed to a Pro or Mega plan to own Your Assets.
+◆ You do not own images made by other members, even if you upscale their images.
+◆ Your ownership is subject to any obligations imposed by our [Terms of Service](https://docs.midjourney.com/docs/terms-of-service) and the rights of any third-parties.
 
-For complete details, see section 4 of [our Terms of Service](https://docs.midjourney.com/docs/terms-of-service)
+For complete details, see section 4 of [our Terms of Service](https://docs.midjourney.com/docs/terms-of-service). Please consult your own lawyer if you want more information about the state of current intellectual property law in your jurisdiction.
 
 ---
 
 Q: Can I share images? Are we allowed to post the pictures created on instagram? Are we allowed to post the pictures created on twitter? Can I post the images on socials?
 
-You can! If you want, you can mention @midjourney on Twitter or @realmidjourney on Instagram. Example post: "I made these images with tools from @midjourney, you can sign up for their beta [here](https://www.midjourney.com/home)" Crediting Midjourney is not required.
+You can post your own images, yes! Crediting Midjourney is not required but if you want, you can mention @midjourney on Twitter or @realmidjourney on Instagram.
 
-Remember that only paying members can use images they generated commercially and that you should ask other members for their explicit permission before sharing their images.
-
----
-
-Q: Can I use an image generated by another user? Can I use other people’s images for commercial projects? Can I share someone else’s image?
-
-Always ask the creator first! Ensure you get explicit and informed permission from the owner before publicly reposting or using them.
-
-You do not own images made by other members, even if you upscale their images.
+Remember that, per the [Terms of Service](https://docs.midjourney.com/docs/terms-of-service), you only own images you create; always ask other members for their explicit permission before sharing their images.
 
 ---
 
-Q: If I buy a subscription, can members of my server use it? Can anyone else use my subscription? Can my friends use my subscription? Can I share my subscription? How can my friend use my account? How can my friend use my subscription?
+Q: Can I use an image generated by another user? Can I use other people’s images for commercial projects? Can I share someone else’s image? What are the commercial terms of use for images found in the Explore tab? Is it possible to use images generated by someone other than myself? Can I use images from other users in the gallery? Is it okay for me to use images from Explore? Can I download other users’ images?
+
+You may only use your own images, per our [Terms of Service](https://docs.midjourney.com/docs/terms-of-service). You do not own images made by other members, even if you upscale their images. Ask the creator for their explicit and informed permission to post or use them.
+
+---
+
+Q: If I buy a subscription, can members of my server use it? Can anyone else use my subscription? Can my friends use my subscription? Can I share my subscription? How can my friend use my account? How can my friend use my subscription? Can I add users to my account and pay for extra seats?
 
 Currently, all subscription plans are linked to a single user. Each user needs their own account and subscription, any sharing is strictly prohibited by our [Terms of Service](https://docs.midjourney.com/docs/terms-of-service).
 
@@ -1025,7 +1035,7 @@ Q: payment Error: zip code doesn’t match? Zip code error? Saying my zip code i
 
 Go to your [`Manage Subscription` page](https://www.midjourney.com/account) and click on the `Edit Billing` button. Add your card details as an *entirely new* payment method, and use the `…` button to set it as your new default payment method.
 
-Contact `billing@midjourney.com` for further assistance.
+Contact billing@midjourney.com for further assistance.
 
 ---
 
@@ -1035,7 +1045,7 @@ To solve this bug, go to your [`Manage Subscription` page](https://www.midjourne
 
 When you get to the new page, look for the `...` button next to your payment method and click it, then press make default.
 
-Contact `billing@midjourney.com` for further assistance.
+Contact billing@midjourney.com for further assistance.
 
 ---
 
@@ -1045,34 +1055,55 @@ This error occurs when your default payment method has been linked from Stripe i
 
 When you get to the new page, look for the `Add a payment method` and re-enter your card details manually, without using any auto-fill. Once you see your card information with an expiration date instead of the stylized `link` text, click the `…` next to it and select `Make default`.
 
-Contact `billing@midjourney.com` for further assistance.
+Contact billing@midjourney.com for further assistance.
 
 ---
 
 Q: Creation failed?
 
-If your job fails, go to your [`Create` page](https://midjourney.com/imagine) and see the `Creation Failed` message on the job row (you can hover it to get more details).
+If your job fails, go to your [`Create` page](https://midjourney.com/imagine) and hover over the `Creation Failed` message to see more details about the error.
 If you get a unique trace with three words, click `Report Bug` at the bottom left and send us a report explaining the issue.
 
 ---
 
-Q: Is there a list of banned words? Where can I see the banned words? AI moderator thinks this is against community standards? Banned prompt? My prompt was blocked? Prompt blocked for no reason? 
+Q: Is there a list of banned words? Where can I see the banned words?
 
 The current Midjourney models do not use a banned word list. Rather, the bot attempts to parse the context of the prompt. Sometimes, the bot may misinterpret the prompt, in which case you will need to reword it. Repeatedly submitting blocked prompts may result in a temporary timeout for your account.
 
 ---
 
-Q: Bot down? Status? Is the bot down? 
+Q: AI moderator thinks this is against community standards? Banned prompt? My prompt was blocked? Prompt blocked for no reason? Prompt flagged by AI moderator? Why is Trump blocked? Why is Biden blocked?
 
-If you are experiencing jobs not starting, or long wait times, click `Report Bug` at the bottom left. Hovering over `System Status` or `Wait times` will display more information. If your issue is not listed under those views, please send us a report explaining the issue.
+Our bot filter considers your prompt or its context to be against our [Community Guidelines](https://docs.midjourney.com/docs/community-guidelines). Sometimes, the bot may misinterpret the prompt, in which case you will need to reword it.
+Repeatedly submitting blocked prompts may result in a temporary timeout for your account.
 
-You can also view the current status of older models on the [status page](<https://status.midjourney.com/>).
+The filter is regularly updated. During certain times or events, it may restrict creating specific people or situations to prevent images from being used for political campaigns or misleading information.
+
+---
+
+Q: Bot down? Status? Is the bot down? What's the best avenue for reporting issues?
+
+If you are experiencing jobs not starting, or long wait times, click `Help` in the bottom left. If your issue is not listed in `Server Status`, please send us a report explaining the issue.
 
 ---
 
 Q: Can’t use with only a single image prompt? Single image prompt with no text? Only a single image prompt? Only one image in prompt?
 
 If you want to use just one image reference, you must include a text prompt with it. Prompts with multiple image references do not require a text prompt.
+
+---
+
+Q: Why is my image saying blocked by image filter? Request cancelled due to image filters? Image denied, request cancelled due to image filters?
+
+To prevent abuse and content against our [Community Guidelines](https://docs.midjourney.com/docs/community-guidelines), images in prompts have an extra cautious filter. It doesn't necessarily mean the images are against our Community Guidelines, but to be safe, they can't be used for prompts.
+Here are some things to avoid in image prompts:
+🔹Shirtless characters (regardless of their gender)
+🔹Cleavage or too much visible skin
+🔹Nude or skin tone clothing
+You can adjust the image or use text instead.
+
+__Note:__ The origin of the image does not matter. Every image is filtered the same way, whether it's a famous image or an image created by Midjourney itself.
+The filter is automated and can occasionally misinterpret the content.
 
 ---
 
@@ -1146,8 +1177,3 @@ Q: How do I get text or words in an image? How can I add text to my images? Is i
 
 Add text to your image by typing it in "quotes". Make sure you’re using version 6 (current default version).
 For example: `Sci-fi movie poster with title text "Aliens!"`
-
-—
-
-
-
