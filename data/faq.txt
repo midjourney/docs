@@ -114,14 +114,15 @@ You need to use a bot channel like #newbies or #general - try in <#9846325008758
 
 Q: How do I generate images? How to use it? How do I use the bot? How does the bot work? How do I use it? How do I make art? How do I use Midjourney? How do I prompt? How can I ask the AI to create an image? How do I get started? Where can I start? How do I use the AI? Register? How do I use this? Where do I prompt?
 
-1️⃣ Go to a bot channel like #newbies or #general - try <#981832774157762570>.
+1️⃣ Right click here:  <@936929561302675456> and hit `Message`.
 2️⃣ Type `/imagine`.
 3️⃣ Click the popup above and type a description of the image you want - that’s the prompt.
 4️⃣ Hit enter or press send to submit your prompt.
 
-Make sure to give our [Quick Start Guide](https://docs.midjourney.com/docs/quick-start) a read for a step by step walkthrough.
+Check out our [Quick Start Guide](https://docs.midjourney.com/docs/quick-start) a read for a step by step walkthrough.
+__Note:__ You can also create images with other members in this server in bot channels like <#981832774157762570>.
 
-%image=https://media.discordapp.net/attachments/981975130840391711/1057008208889249882/GS_imagine_fl.gif
+%image=https://cdn.discordapp.com/attachments/958069758211797092/1110755514691891260/MJ_ImagineCommand.gif
 
 ---
 
@@ -175,7 +176,7 @@ Q: What does Remaster do? What is Remaster? What is the Remaster Button?
 
 Q: What is GPU time? What is a GPU minute? Does the reroll/variation/upscale each count as a generation in terms of the limits? 4 small images count as 1 job? How many images is one query? What is a query? Do upscales cost GPU time? Do variations use GPU time?
 
-Imagine Midjourney is a ship on the imagination sea, driven by GPU (Graphics processing unit) engines. When you request an image, it's like setting a course. The "cost" is how hard the engine works, **measured in GPU time**.
+Similar to credits, creating an image uses GPU time. How long you wait in “real life time” does not affect how much GPU time is consumed. [Read more about GPU and Speed modes](https://docs.midjourney.com/docs/fast-relax)
 
 With the latest models:
 - `/imagine`: Costs about 1 GPU minute
@@ -183,11 +184,9 @@ With the latest models:
 - Initial Upscales: Split the existing grid, they cost no extra GPU time (in v5 and v6)
 - 2x/4x/Creative/Subtle Upscale: Cost more GPU time, various minutes.
 
-__Note:__ Requests like panning, Vary (Region), using older models, or adding specific instructions push the engine more, increasing the use of GPU time.
-
 ---
 
-Q: How do I see how many gpu hours I have left? How do I see how much I have used? How do I see how many hours I have left? Where can I check how many prompts I have left? How many images can I make? How can I see my queue? Where do I check my jobs? How do I check how many jobs I have left? /info? Is my subscription active? How do I check my subscription status? Is my subscription canceled? How do I check how many images I have left?
+Q: How do I see how many gpu hours I have left? How do I see how much I have used? How do I see how many hours I have left? Where can I check how many prompts I have left? How many images can I make? How can I see my queue? Where do I check my jobs? How do I check how many jobs I have left? /info? Is my subscription active? How do I check my subscription status? Is my subscription canceled? How do I check how many images I have left? How can I check how many images I can still generate? How do I know how many credits I still have? How much fast time remaining?
 
 Use the command </info:972289487818334209> to check your status and usage.
 This also updates your roles and access.
@@ -271,7 +270,7 @@ __Note:__ To create images, you need an active subscription.
 
 Q: What is turbo mode? What does turbo mean? Turbo mode?
 
-Turbo mode is for extremely quick image generation. Jobs in Turbo mode are generated up to four times faster but also **consume up to four times as much fast GPU time** as a typical Fast mode job.
+Turbo mode is for extremely quick image generation. Jobs in Turbo mode are generated up to four times faster but also **consume twice as much fast GPU time** as a typical Fast mode job.
 
 Switch to Turbo mode with the command `/turbo` or select ⚡Turbo mode in your </settings:1000850743479255081>.
 
@@ -407,10 +406,9 @@ Contact `billing@midjourney.com` if you encounter an error or need further assis
 
 Q: Cancel with refund? Cancel and refund? How do I get a refund? How to refund? Can this be refunded? I would like to request a refund?
 
-On your [Midjourney subscription page](https://midjourney.com/account), click `Cancel Plan`.
+On your [Midjourney subscription page](https://midjourney.com/account), click `Cancel Plan`. Your plan will be canceled **at the end of your billing cycle**.
 
-🔹**Refund:** You are eligible for a full refund if you’ve used less than 20 GPU minutes **__lifetime__**. If you’re eligible, you will have the option to `Cancel immediately with refund`. Select that option, and confirm the immediate cancellation.
-🔹If your lifetime usage is above 20 GPU minutes, you are not eligible for a refund. Confirm the cancellation to cancel the next automatic renewal. Your plan will be canceled **at the end of your billing cycle** - enjoy all the perks and fast GPU time until then. If you change your mind, you can uncancel.
+**__Refund:__** You are eligible for a full refund if you’ve used less than 20 GPU minutes **__lifetime__**. If you’re eligible, you will have the option to `Cancel immediately with refund`. Select that option, and confirm the immediate cancellation.
 
 Contact `billing@midjourney.com` if you encounter an error or need assistance.
 
@@ -491,7 +489,7 @@ If you are experiencing long wait times with jobs starting, please refer to [sta
 # -------------------- BILLING --------------------
 # -------------------- -------------------- --------------------
 
-Q: My card is declined? Card declined? The website declined my payment, but I have funds on my card? Why is my card being declined? My card declined but money was still taken? Money was taken out of my account, but I don’t have a subscription?
+Q: My card is declined? Card declined? The website declined my payment, but I have funds on my card? Why is my card being declined? My card declined but money was still taken? Money was taken out of my account, but I don’t have a subscription? Payment failed? Unsuccessful payment? The money went out but I’m still not able to use it? I am unable to purchase fast hours? I am unable to purchase?
 
 If your payment was declined, you might notice a pending charge in your account. Your bank will automatically remove it within a few days.
 
@@ -504,17 +502,18 @@ Contact `billing@midjourney.com` for further assistance.
 
 ---
 
-Q: Remove payment info? Remove credit cards? How do I remove payment information? Remove payment? How can I find my Midjourney's invoice? Where can I see my invoices? How to access invoices? Where can I get my receipts?
+Q: Remove payment info? Remove credit cards? How do I remove payment information? Remove payment? How can I find my Midjourney's invoice? Where can I see my invoices? How to access invoices? Where can I get my receipts? I want to remove my credit card? How to change my payment method? How to change my card details? How to change the default payment method? How to update my default payment method? Can I modify my default payment method? How can I get the receipt? Where do I find the receipt? Where can I download past bills?
 
-🔹If your subscription is active: Use the command </subscribe:987795925764280351> or go to your [`Manage Subscription` page](https://www.midjourney.com/account) on the website to view your plan details.
+🔹If your subscription is **active**: Use the command </subscribe:987795925764280351> or go to your [`Manage Subscription` page](https://www.midjourney.com/account) on the website to view your plan details.
 Click `Edit Billing` to verify or modify your payment information. Click `View Invoices` to download previous invoices and receipts.
-🔹If your subscription is inactive: Access [this link](https://billing.stripe.com/p/login/aEUdRA5Wc8t25a03cc) using your billing email to find your invoices and update your payment information.
+
+🔹If your subscription is **inactive**: Access [this link](https://billing.stripe.com/p/login/aEUdRA5Wc8t25a03cc) using your billing email to find your invoices and update your payment information.
 
 Contact `billing@midjourney.com` for further assistance.
 
 ---
 
-Q: Billing issue? Billing question? Need billing help? Billing support? Billing inquiry?
+Q: Billing issue? Billing question? Need billing help? Billing support? Billing inquiry? I have been charged twice? I paid but I still can't generate images?
 
 Reach out to our billing support team by sending an email to `billing@midjourney.com`.
 
@@ -522,7 +521,7 @@ To help speed up the process, include your User ID which you can find with the c
 
 ---
 
-Q: I need to change my email address? I want to change the email address? Please change the email address for my subscription? How to change the billing email address? I want to change my email? How can I change my resistered email address? How can i change my email in the payment page? I need to change the email on the payment page? How to change my account email address? How can I change my contact email?
+Q: I need to change my email address? I want to change the email address? Please change the email address for my subscription? How to change the billing email address? I want to change my email? How can I change my registered email address? How can i change my email in the payment page? I need to change the email on the payment page? How to change my account email address? How can I change my contact email?
 
 To modify your __Discord email__ used to sign in, follow this guide: [How to change your Discord account's email address](https://support.discord.com/hc/en-us/articles/4423385681175-How-to-Change-Your-Account-s-Email-Address).
 
@@ -533,10 +532,9 @@ Include your User ID which you can find with the command </userid:11360410756146
 
 Q: Can I pay with PayPal? Can I use PayPal? Do you have other payment methods? Paypal PayPal? Do I have to use a credit card? Are there other ways to pay? Is there another way to pay for a subscription other than with a credit card? Can I pay with ETH? Do you take crypto?
 
-Depending on region, Stripe supports credit/debit cards (Mastercard, VISA, American Express, Discover & Diners etc) and some digital wallets (Apple Pay, Google Pay, Cash App Pay).
-[More information on card brands supported by Stripe](https://stripe.com/docs/payments/cards/supported-card-brands)
-
+Depending on your region, Stripe supports credit/debit cards (Mastercard, VISA, American Express, Discover & Diners etc) and some digital wallets (Apple Pay, Google Pay, Cash App Pay). Methods available to you will be shown at checkout.
 PayPal, Wire transfer, crypto and other methods are not currently supported.
+[More information on card brands supported by Stripe](https://stripe.com/docs/payments/cards/supported-card-brands)
 
 ---
 
@@ -645,7 +643,7 @@ Images created in Stealth mode can be viewed by our team for moderation purposes
 
 ---
 
-Q: What's private mode? What’s stealth mode? Private powers badge? I don't want people to see my images? How can I work privately? I don't want anyone to see my images and prompts? How do I go private? How do I go stealth? How much does private cost? How much does stealth cost? I can’t unpublish on the website? Stealth mode? How do I keep my images private? Are all my images private automatically? Will my gallery become private? Why can users still interact even though I bought private? Are all my images stealth automatically? Will my gallery be stealth? Why can users interact even though I have stealth mode enabled? How to unpublish images? What is publish and unpublish?
+Q: What's private mode? What’s stealth mode? Private powers badge? I don't want people to see my images? How can I work privately? I don't want anyone to see my images and prompts? How do I go private? How do I go stealth? How much does private cost? How much does stealth cost? I can’t unpublish on the website? Stealth mode? How do I keep my images private? Are all my images private automatically? Will my gallery become private? Why can users still interact even though I bought private? Are all my images stealth automatically? Will my gallery be stealth? Why can users interact even though I have stealth mode enabled? How to unpublish images? What is publish and unpublish? Enable stealth mode? How to use stealth mode?
 
 By default, your prompts and images are public on the [Midjourney website](https://www.midjourney.com/explore).
 [Stealth mode](https://docs.midjourney.com/docs/stealth) is a feature of the Pro and Mega plans that allows you to make your images private (unpublished) so they cannot be viewed by others on the website.
@@ -656,17 +654,6 @@ To enable Stealth mode and keep all **__new__** images private on the Midjourney
 :small_blue_diamond:On the website:  toggle the `Stealth` button in your settings to `On`. *This only applies to images made on the website. It is not saved if you change browsers or clear your cache.*
 
 __Note:__ Images made in public channels are visible by anyone in those channels! To keep images completely hidden, you must [make them in Direct Messages](https://docs.midjourney.com/docs/direct-messages) or [in a private server](https://docs.midjourney.com/docs/add-the-bot).
-
----
-
-Q: How to hide images? What is hide? What does hide do on the website? Is hide the same as private mode? Hide images?
-
-`Hide` **only hides images from yourself** - it’s used to organize [your own gallery](https://www.midjourney.com/archive) by hiding images you don’t like from your view. **Hidden images remain visible to all other members**, it is not the same as unpublishing them.
-
-To hide images on the website, go to your [Archive](https://www.midjourney.com/archive), select the images you want to hide, and click `...More` (next to Download). You can then bulk hide/unhide.
-
-__Note:__ For your images to be private, you will need the Pro or Mega plan; those plans allow you to unpublish images and use [Stealth mode](https://docs.midjourney.com/docs/stealth).
-%image=https://cdn.midjourney.com/u/ff03153e-6e8a-48b4-87d0-5acd0a123688/a03329f183e7164b0f43576c6f4be52f32c90d8bc263a120542d66de2e1e8bc9.png
 
 ---
 
@@ -737,7 +724,7 @@ Beta upscale is an upscaler for Version 3 and 4. It uses a different algorithm t
 
 ---
 
-Q: What is the maximum upscale resolution? What is the maximum resolution?  How can I set the resolution? Can I make a 4K image? Can I make a 300 DPI image? Can I make the resolution higher? Can I print my image? Is it possible to save my creations in high resolution, so I can print them out as posters? Is there a way to set the resolution to 2k and higher? How do I choose a resolution?
+Q: What is the maximum upscale resolution? What is the maximum resolution?  How can I set the resolution? Can I make a 4K image? Can I make a 300 DPI image? Can I make the resolution higher? Can I print my image? Is it possible to save my creations in high resolution, so I can print them out as posters? Is there a way to set the resolution to 2k and higher? How do I choose a resolution? How do I increase my image’s resolution?
 
 For square images, the upscalers will produce the following:
 v5, 5.1, 5.2, 6.0 grid upscale: 1024x1024 px
@@ -823,8 +810,31 @@ For example: `Short blond man holding a puppy --cref https://pic2.png`
 
 __Note:__ The `--cref` parameter works best with references created in Midjourney.
 You can add text, image prompts, and other parameters to guide the results.
-
 [Read more about the Character Reference parameter](https://docs.midjourney.com/docs/character-reference)
+
+---
+
+Q: What is cref? What is the cref parameter? What does cref do? What does the cref parameter do? cref?
+
+The `--cref` parameter is an image used as a **character reference**. [Read more about Character Reference](https://docs.midjourney.com/docs/character-reference)
+
+---
+
+# -------------------- STYLE REFERENCE --------------------
+
+Q: How to have the same style? Can I keep the same style? Is there an option to keep the same style? How to use --sref? Can I use a specific style? Can I use a style reference? Can I have the same style as an image?
+
+You can use the Style Reference parameter `--sref` followed by a space and a link to your image for the style in your results to be based on a specific image. You can add multiple links to have multiple style references, make sure to have a space between each link.
+For example: `Yellow ghost and pirate alien --sref https://pic2.png`
+
+__Note:__ You can add text, image prompts, and other parameters to guide the results.
+[Read more about Style Reference](https://docs.midjourney.com/docs/style-reference)
+
+---
+
+Q: What is sref? What is the sref parameter? What does sref do? What does the sref parameter do? sref?
+
+The `--sref` parameter is an image used as a **style reference**. [Read more about Style Reference](https://docs.midjourney.com/docs/style-reference)
 
 ---
 
@@ -873,7 +883,7 @@ The Image Weight parameter `--iw` allows you to adjust how much the image prompt
 
 ---
 
-Q: Reference image? Use photo as reference? How do I upload an image? How do I get an image link? How do I use my own image? How do I upload or use an image from my hard-drive for an image prompt? Image prompt? How can I attach an image? Can I use an image as a starting point? Can I use my images? Can I send images to the AI? Can I give an image to the AI? I've seen a few people using source images, how does this work? Can I use an image? My own photo? My own personal photo? Edit my image? How can I use my photo to generate images?
+Q: Reference image? Use photo as reference? How do I upload an image? How do I get an image link? How do I use my own image? How do I upload or use an image from my hard-drive for an image prompt? Image prompt? How can I attach an image? Can I use an image as a starting point? Can I use my images? Can I send images to the AI? Can I give an image to the AI? I've seen a few people using source images, how does this work? Can I use an image? My own photo? My own personal photo? Edit my image? How can I use my photo to generate images? Is there a way to upload a photo? Is there a way to upload an image?
 
 To add images to text prompts:
 1️⃣ Upload the image to Discord (make sure to click send/hit enter).
@@ -1051,9 +1061,12 @@ You can opt-out of [#daily-theme](https://discord.com/channels/66226797698429747
 
 ---
 
-# -------------------- ------INFO------- --------------------
+Q: What is my User ID? Where can I find my User ID? User ID? userid? What is userid? How do I get my User ID? MJ ID?
 
+When using Midjourney, you are assigned a unique Midjourney ID to identify your account. Use the command </userid:1136041075614683196> to find it.
+Your Discord ID is different, [here's a guide on how to find a Discord ID](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID).
 
+---
 
 # -------------------- --DELETE X--------- --------------------
 
@@ -1070,17 +1083,6 @@ Delete your generation by reacting to it with the :x: emoji. This will also dele
 Q: How do I search for someone on the website? How do I find a user’s page?
 
 There’s no function to find a specific user’s page at the moment.
-
----
-
-Q: I've generated over 100 images but can't use the web generation? Even though I've created more than 100 images, the alpha website does not let me in? I reached 100 pics but don't see the possibility to use imagine on the Midjourney web page? Creation is being tested with subscribers who have made more than 100 images? I have created more than 100 images, but I cannot create images on the website? I have more than 100 images created, but can't use imagine on the website? I've made more than 100 images but still can't use the Imagine feature on the website?
-
-To access the web alpha and create images on [the Midjourney website](https://www.midjourney.com/imagine) directly, you need:
-🔹An active subscription
-🔹A lifetime usage of at least 100 generated images
-Each action and grid counts as one generated image. **Use the command </info:972289487818334209> to view your total count in `lifetime usage`.**
-
-If your lifetime usage is above 100 and you have an active subscription, sign out and sign back in.
 
 ---
 
@@ -1107,11 +1109,50 @@ __Note:__ Only Pro and Mega users can unpublish their images, or activate Stealt
 
 ---
 
+Q: How to hide images? What is hide? What does hide do on the website? Is hide the same as private mode? Hide images?
+
+`Hide` **only hides images from yourself** - it’s used to organize [your own gallery](https://www.midjourney.com/archive) by hiding images you don’t like from your view. **Hidden images remain visible to all other members**, it is not the same as unpublishing them.
+
+To hide images on the website, go to your [Archive](https://www.midjourney.com/archive), select the images you want to hide, and click `...More` (next to Download). You can then bulk hide/unhide.
+
+__Note:__ For your images to be private, you will need the Pro or Mega plan; those plans allow you to unpublish images and use [Stealth mode](https://docs.midjourney.com/docs/stealth).
+%image=https://cdn.midjourney.com/u/ff03153e-6e8a-48b4-87d0-5acd0a123688/a03329f183e7164b0f43576c6f4be52f32c90d8bc263a120542d66de2e1e8bc9.png
+
+---
+
+Q: How to find "hidden" images from the website’s archive? How to see images I hide on the website?
+
+To find images you've hidden, go to your [Archive](https://www.midjourney.com/archive) and in your `Filters` on the right side, check the `Hidden` box.
+
+---
+
+# -------------------- ------ALPHA WEB CREATION------- --------------------
+
+Q: I've generated over 100 images but can't use the web generation? Even though I've created more than 100 images, the alpha website does not let me in? I reached 100 pics but don't see the possibility to use imagine on the Midjourney web page? Creation is being tested with subscribers who have made more than 100 images? I have created more than 100 images, but I cannot create images on the website? I have more than 100 images created, but can't use imagine on the website? I've made more than 100 images but still can't use the Imagine feature on the website? 100 images but no web access? 100 images but no alpha? How to access alpha?
+
+**Use the command </info:972289487818334209>** to check that:
+🔹Your `Lifetime Usage` is at least 100 images (each grid counts as one generated image)
+🔹Your `Subscription` is active
+
+If you have both, sign out and sign back in [the Midjourney website](https://www.midjourney.com/imagine) to access the web alpha and create images directly via the website.
+
+---
+
+Q: Stealth mode on the website? Enable Stealth mode on alpha? Stealth mode on web?
+
+[`Stealth` mode](https://docs.midjourney.com/docs/stealth) is a feature of the Pro and Mega plans that allows you to make your images private (unpublished) in [your gallery](https://www.midjourney.com/archive). Unless created in shared rooms, unpublished images cannot be seen on the website by any members other than yourself.
+
+To enable Stealth mode on the alpha website and keep all **__new__** images create on web private, toggle the `Stealth` button in your settings to `On`. You can also add it to individual prompts by adding the `--stealth` parameter.
+
+%image=https://cdn.midjourney.com/u/ff03153e-6e8a-48b4-87d0-5acd0a123688/32a90643f5e4ba63afc15a96f402c47307fa258f96a9113f4ec5fd81e0a4dab3.png
+
+---
+
 # -------------------- -------------------- --------------------
 # -------------------- PERSONAL SPACE -----------
 # -------------------- -------------------- --------------------
 
-Q: How do I DM the bot? Where can I DM bot? Where is my private channel? How can I make a solo room? How do I open a private chat with the bot? Can I use imagine in DMs? Is it possible to DM the bot and not be in a very crowded busy channel? Can I generate my images privately? How do I start my own room for creating photos? How can I hide other people’s images? How can I hide everyone else’s posts? Why don't I see any messages from the bot? I used ✉️ on one of my images, why don't I see any messages from the bot? Why can't I message the bot?  "Cannot send messages to this user" when trying to DM the bot? I can’t DM the bot? Unknown integration? Why do I get unknown integration? I get the message unknown integration when i DM the bot? I’m getting the error message “unknown integration”?
+Q: How do I DM the bot? Where can I DM bot? Where is my private channel? How can I make a solo room? How do I open a private chat with the bot? Can I use imagine in DMs? Is it possible to DM the bot and not be in a very crowded busy channel? Can I generate my images privately? How do I start my own room for creating photos? How can I hide other people’s images? How can I hide everyone else’s posts? Why don't I see any messages from the bot? I used ✉️ on one of my images, why don't I see any messages from the bot? Why can't I message the bot?  "Cannot send messages to this user" when trying to DM the bot? I can’t DM the bot?
 
 Subscribers can use commands in Direct Messages (DMs) with the Bot. Right click here:  <@936929561302675456> and hit `Message`.
 
@@ -1120,7 +1161,13 @@ Right-click the Midjourney server icon > Privacy Settings > check if `Direct Mes
 
 __Note:__ Images created in DMs are visible to everyone on the [Midjourney website](https://www.midjourney.com/explore), unless you have a Pro or Mega plan and have activated [Stealth Mode](https://docs.midjourney.com/docs/stealth).
 
-%image=https://cdn.discordapp.com/attachments/958191534208061450/1010303537332371526/MJ_PrivacySettings.png
+%image=https://cdn.discordapp.com/attachments/1259116844430655488/1259121654534111242/HowToDM.gif
+
+---
+
+Q:  Unknown integration? Why do I get unknown integration? I get the message unknown integration when i DM the bot? I’m getting the error message “unknown integration”?
+
+Right-click the Midjourney server icon > Privacy Settings > check if `Direct Messages` is green. If it’s already enabled, toggle it off and on again.
 
 ---
 
@@ -1134,7 +1181,7 @@ __Note:__ Threads in this server are public and subject to content moderation gu
 
 # -------------------- ------PERSONAL SERVER------ --------------------
 
-Q: Can I invite Midjourney to my server? Can I add this bot to another server? How to add Midjourney to a different server? Can I add the bot to my Discord server? Can I use the bot on my server? How can I add it to the server? Add bot? How to have my personal server? Can I use the bot in a personal Midjourney server?
+Q: Can I invite Midjourney to my server? Can I add this bot to another server? How to add Midjourney to a different server? Can I add the bot to my Discord server? Can I use the bot on my server? How can I add it to the server? Add bot? How to have my personal server? Can I use the bot in a personal Midjourney server? Add bot to server?
 
 To add the Bot to your own Discord server, [click here](https://discord.com/oauth2/authorize?client_id=936929561302675456) and select `Add to Server`.
 [Here’s a step by step guide.](https://docs.midjourney.com/docs/invite-the-bot)
@@ -1202,9 +1249,9 @@ You can also explore our [News page](https://www.midjourney.com/updates) for the
 
 Q: Are there any plans to make this into its own software/application? Are there plans for a stand-alone application? Will MJ ever go for a stand-alone platform, without Discord? Is there a web version? Can I generate online? Do I have to use Discord?
 
-Users with at least 100 generations on Midjourney you can now alpha-test our [image creation website](https://alpha.midjourney.com/imagine).
-🔹Run the command </info:972289487818334209> on the Midjourney server to update your roles and access.
-🔹Find more information about it here: https://discord.com/channels/662267976984297473/952771221915840552/1205270579578671134
+Users with at least 100 generations on Midjourney can now alpha-test our [image creation website](https://www.midjourney.com/imagine)!
+→ Run the command </info:972289487818334209> on the Midjourney server to see if your lifetime usage is above 100. If it is, sign into [the website](https://www.midjourney.com/imagine) and get started.
+[Read more about creating on the website](https://docs.midjourney.com/docs/create-page)
 
 ---
 
@@ -1391,7 +1438,7 @@ Use the `/show` command to move your work to a new location:
 
 ---
 
-Q: How to get access to the 5000 club? How to get access to the 10000 club? Why do I not see the 5000 channel? How to access alpha? How do I unlock the 25000 club?
+Q: How to get access to the 5000 club? How to get access to the 10000 club? Why do I not see the 5000 channel? How do I unlock the 25000 club?
 
 Use the command </info:972289487818334209> on the server to update your roles and access.
 You may need to sign out and back in the Midjourney website to update any available test features.
