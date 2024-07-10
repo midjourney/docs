@@ -52,7 +52,7 @@ __Note:__ To modify your prompt before rerunning it, click the `🅃 Use` button
 
 ---
 
-Q: What is Vary Region? Vary region button? How do I use Vary Region? Inpainting? How do I inpaint? Is there an inpainting feature? How do I modify part of an image? How can I enter a prompt for inpainting? How can I enter a prompt in Vary Region? Where is the prompt box for inpainting? Where is the prompt box for vary region? How can I add a new subject to inpainting? Why don’t I have the prompt area input in Vary Region? Where is the text box for Vary Region? What is Repaint? Can I repaint parts of an image? How to use Repaint? Repaint? How to repaint? Can I repaint? Where has vary region moved to?
+Q: What is Vary Region? Vary region button? How do I use Vary Region? Inpainting? How do I inpaint? Is there an inpainting feature? How do I modify part of an image? How can I enter a prompt for inpainting? How can I enter a prompt in Vary Region? Where is the prompt box for inpainting? Where is the prompt box for vary region? How can I add a new subject to inpainting? Why don’t I have the prompt area input in Vary Region? Where is the text box for Vary Region? What is Repaint? Can I repaint parts of an image? How to use Repaint? Repaint? How to repaint? Can I repaint? Where has vary region moved to? Is there a way to "vary region" on the site? Is there Vary Region? Does Vary Region still exist? How to find Vary Region?
 
 `Repaint` allows you to select and regenerate specific parts of an image. Select the areas of your image that you want modified and, if you want, edit your prompt at the bottom to guide the modifications.
 
@@ -68,7 +68,13 @@ Click on your image and in the `Creation Actions` menu, click on `More options` 
 
 Q: Can we expand images? Can I Zoom out? How to Zoom out? What is Zoom? 
 
-The Zoom feature expands your image but does not change the file size. The extra canvas around your original image will be filled in based on the prompt and the original image. Use Zoom from `Reframe` to modify the prompt. [Read more about Zoom](https://docs.midjourney.com/docs/zoom-out)
+The Zoom feature expands your image but does not change the image size. The extra canvas around your original image will be filled in based on the prompt and the original image. Use Zoom from `Reframe` to modify the prompt. [Read more about Zoom](https://docs.midjourney.com/docs/zoom-out)
+
+---
+
+Q: /settings? /setting? Where do I change settings? How to change settings? How to adjust settings? Default settings? Default parameters?
+
+Open your settings on the right side of the `Imagine...` bar.
 
 ---
 
@@ -84,7 +90,7 @@ If your images do not appear within a few minutes, refresh the page.
 
 ---
 
-Q: I don't have 100 jobs yet? So I just paid but still can't create? I paid but i can't Create Images on Midjourney web, I didn't have the Create Button? Why can't I start creating art? It says I need to have 100 artwork? It says I need 100 jobs? It says I need 100 images? I cannot use it, it says Coming Soon? I’m new but cannot use it? I still can't use Create even though my subscription is active? I've already created more than 100 images in Discord and no way to get my paid Midjourney service yet? Is it possible to use the website mode immediately with a new account? I'm subscribed but i cannot create? It shows my subscription is active yet I am unable to make any images?
+Q: I don't have 100 jobs yet? So I just paid but still can't create? I paid but i can't Create Images on Midjourney web, I didn't have the Create Button? Why can't I start creating art? It says I need to have 100 artwork? It says I need 100 jobs? It says I need 100 images? I cannot use it, it says Coming Soon? I’m new but cannot use it? I still can't use Create even though my subscription is active? I've already created more than 100 images in Discord and no way to get my paid Midjourney service yet? Is it possible to use the website mode immediately with a new account? I'm subscribed but i cannot create? It shows my subscription is active yet I am unable to make any images? Why is creating unavailable? Creation unavailable? Why creation is unavailable? The Creation function is still unavailable? The Creation function is unavailable?
 
 To create images on the Midjourney website, you need an active subscription and 100 image jobs made in Discord. [Click here for how to get started on Discord](https://docs.midjourney.com/docs/quick-start)
 
@@ -154,7 +160,7 @@ __Note:__ These hours are used after your bonus and monthly GPU fast time.
 # -------------------- FAST / RELAX --------------------
 # -------------------- -------------------- --------------------
 
-Q: How do I change the speed of my renders? How to change speed mode? Where do I change the speed of image creation? Where do I modify the speed of my renders? Where do I modify the speed mode? Where do I update my speed mode? How to update speed settings? How can I change my speed settings? How to switch speed settings? How to switch speed mode?
+Q: How do I change the speed of my renders? How to change speed mode? Where do I change the speed of image creation? Where do I modify the speed of my renders? Where do I modify the speed mode? Where do I update my speed mode? How to update speed settings? How can I change my speed settings? How to switch speed settings? How to switch speed mode? How do I change generation speed?
 
 To choose what `Speed` mode to use, open your settings on the right side of the `Imagine...` bar. At the bottom of your `Model` options, select the `Relax`, `Fast`, or `Turbo` button.
 
@@ -164,7 +170,7 @@ To choose what `Speed` mode to use, open your settings on the right side of the 
 
 # -------------------- -----RELAX----- --------------------
 
-Q: How do I go into Relax mode? How do I turn on Relax mode? How do I start Relax?  My images say "relaxed", how do I change this? Why are my images relaxed? How to get relaxed generation? Relax job? Relax generation? How can I turn off mode relax and return to fast work?  How do I switch to relax mode? I want to switch to relaxed mode? I want to switch to relax mode? What is relax mode? How to change to relax mode?
+Q: How do I go into Relax mode? How do I turn on Relax mode? How do I start Relax?  My images say "relaxed", how do I change this? Why are my images relaxed? How to get relaxed generation? Relax job? Relax generation? How can I turn off mode relax and return to fast work?  How do I switch to relax mode? I want to switch to relaxed mode? I want to switch to relax mode? What is relax mode? How to change to relax mode? How can I change to relax mode? What is the prompt for relaxed? What is the command for relax? What is the relax command? Relax parameter? Relax option? What is the relax option?
 
 To choose what `Speed` mode to use, open your settings on the right side of the `Imagine...` bar. At the bottom of your `Model` options, select the `Relax`, `Fast`, or `Turbo` button.
 
@@ -344,10 +350,10 @@ Contact billing@midjourney.com if you encounter an error or need further assista
 
 ---
 
-Q: Cancel with refund? Cancel and refund? How do I get a refund? How to refund? Can this be refunded? I would like to request a refund? How do I apply for refund? Can I request a refund? I want to cancel my subscription and get a refund? Get a refund? Refund? I want a refund? Refund me?
+Q: Cancel with refund? Cancel and refund? How do I get a refund? How to refund? Can this be refunded? I would like to request a refund? How do I apply for refund? Can I request a refund? I want to cancel my subscription and get a refund? Get a refund? Refund? I want a refund? Refund me? Can I apply for a refund? How to request a refund? I want refund?
 
 You are eligible for a refund if you’ve used less than 20 GPU minutes **__lifetime__**. On your [`Manage Subscription` page](https://www.midjourney.com/account), click `Cancel Plan`. If you’re eligible, you will have the option to `Cancel immediately with refund`; select it and confirm.
-Contact billing@midjourney.com if you encounter an error or need further assistance.
+**Contact billing@midjourney.com for further assistance.**
 
 %image=https://s.mj.run/KlmtLQqtqQM
 
@@ -438,7 +444,7 @@ Contact billing@midjourney.com for further assistance.
 
 ---
 
-Q: Billing issue? Billing question? Need billing help? Billing support? Billing inquiry? I keep getting billed twice? I paid but I don’t see my subscription? I paid but cannot use the subscription? I paid for a subscription, but I don’t see it on discord? I do not see the option to refund immediately? I clicked the wrong payment method, and the payment was successful? Mistake in choosing plan? I was debited for the amount but also debited the other amount? I was charged twice? I was debited twice? I need help with my payments? I just subscribed to a plan, paid and received both bill and receipt on main, but in the Discord channel it says that I have to subscribe? Unable to accept invite?
+Q: Billing issue? Billing question? Need billing help? Billing support? Billing inquiry? I keep getting billed twice? I paid but I don’t see my subscription? I paid but cannot use the subscription? I paid for a subscription, but I don’t see it on discord? I do not see the option to refund immediately? I clicked the wrong payment method, and the payment was successful? Mistake in choosing plan? I was debited for the amount but also debited the other amount? I was charged twice? I was debited twice? I need help with my payments? I just subscribed to a plan, paid and received both bill and receipt on main, but in the Discord channel it says that I have to subscribe? Unable to accept invite? #support? Cannot refund? I do not get the refund option? I need billing support? I have a billing issue?
 
 Reach out to our billing support team by sending an email to billing@midjourney.com. If possible, provide your receipt number or invoice number which was sent to your billing email.
 
@@ -699,7 +705,7 @@ Q: How do you use --s? How do you use stylize? What does stylize do? What is --s
 
 Q: How to have the same character made but in different scenes? Can I keep the same character in my images? Is there an option to keep the same character? How to use --cref? Can I add a character reference?
 
-You can use a Character Reference for your results to be based on one or more specific images. Attach an image and select the icon portrait to use the image as a character reference. You can add text, image prompts, and other parameters to guide the results.
+You can use a Character Reference for your results to be based on one or more specific images. Attach an image and select the portrait icon to use the image as a character reference. You can add text, image prompts, and other parameters to guide the results.
 
 __Note:__ This feature works best with references created in Midjourney. [Read more about Character Reference](https://docs.midjourney.com/docs/character-reference)
 
@@ -707,7 +713,7 @@ __Note:__ This feature works best with references created in Midjourney. [Read m
 
 Q: What is cref? What is the cref parameter? What does cref do? What does the cref parameter do?
 
-The `--cref` parameter or portrait icon on an image reference is an image used as a **character reference**. [Read more about Character Reference](https://docs.midjourney.com/docs/character-reference)
+The `--cref` parameter, or portrait icon on an image reference, is an image used as a **character reference**. [Read more about Character Reference](https://docs.midjourney.com/docs/character-reference)
 
 ---
 
@@ -715,7 +721,7 @@ The `--cref` parameter or portrait icon on an image reference is an image used a
 
 Q: What is sref? What is the sref parameter? What does sref do? What does the sref parameter do? sref?
 
-The `--sref` parameter or paper clip icon on an image reference is an image used as a **style reference**. [Read more about Style Reference](https://docs.midjourney.com/docs/style-reference)
+The `--sref` parameter, or paper clip icon on an image reference, is an image used as a **style reference**. [Read more about Style Reference](https://docs.midjourney.com/docs/style-reference)
 
 ---
 
@@ -916,13 +922,11 @@ To find images you've hidden, go to your [Archive](https://www.midjourney.com/ar
 
 ---
 
-Q: How can I delete an image? How to delete images from my feed? How to delete images? Delete my image? Is there a way to delete all my images? How do I delete images from my archive?
+Q: How can I delete an image? How to delete images from my feed? How to delete images? Delete my image? Is there a way to delete all my images? How do I delete images from my archive? I cannot find a way to delete images? Is there a way to really delete images? Delete images? Cannot delete image? Can you delete images from the Archive?
 
-You cannot fully delete images on the website, but you can hide them to organize [your own gallery](https://www.midjourney.com/archive). **Hidden images are still visible to all other members**, it is not the same as unpublishing them.
+You cannot fully delete images on the website, but you can hide them to organize [your own gallery](https://www.midjourney.com/archive). To hide images, go to your [Archive](https://www.midjourney.com/archive), select the images you want to hide, and click `...More` (next to Download). You can then bulk hide/unhide.
 
-To hide images, go to your [Archive](https://www.midjourney.com/archive), select the images you want to hide, and click `...More` (next to Download). You can then bulk hide/unhide.
-
-__Note:__ For your images to be private, you will need the Pro or Mega plan; those plans allow you to unpublish images and use [Stealth mode](https://docs.midjourney.com/docs/stealth).
+__Note:__ **Hidden images are still visible to all other members**, it is not the same as unpublishing them. For your images to be private, you will need the Pro or Mega plan; those plans allow you to unpublish images and use [Stealth mode](https://docs.midjourney.com/docs/stealth).
 
 %image=https://cdn.midjourney.com/u/ff03153e-6e8a-48b4-87d0-5acd0a123688/a03329f183e7164b0f43576c6f4be52f32c90d8bc263a120542d66de2e1e8bc9.png
 
@@ -1008,7 +1012,7 @@ Check out our [News page](https://www.midjourney.com/updates) for the latest upd
 
 ---
 
-Q: Do you have any API? Is there a way to use the app via an API? API? Plans to expose API?
+Q: Do you have any API? Is there a way to use the app via an API? API? Plans to expose API? API keys?
 
 There are currently no plans for a public API.
 
@@ -1018,9 +1022,9 @@ There are currently no plans for a public API.
 # -------------------- USAGE RIGHTS --------------------
 # -------------------- -------------------- --------------------
 
-Q: How does commercial use work? Can I use images commercially? Can I sell images I generated? Are there royalties? Can we use images for commercial projects? What are the commercial terms? Can I sell my images? What’s the license for my images? Commercial use for images? Can I use the images I generated before subscribing commercially? If I am a trial member but become a paid member, can I relicense already generated images done while I was a trial member? Do I have commercial rights to images on Midjourney? Are the images made through Midjourney copyrighted to me? Can I use my designs on social media? Can I use my images on Instagram and Facebook? Copyright issue? Explanation of copyright? Explain the copyright of generated images? Do I have commercial rights to my images?
+Q: How does commercial use work? Can I use images commercially? Can I sell images I generated? Are there royalties? Can we use images for commercial projects? What are the commercial terms? Can I sell my images? What’s the license for my images? Commercial use for images? Can I use the images I generated before subscribing commercially? If I am a trial member but become a paid member, can I relicense already generated images done while I was a trial member? Do I have commercial rights to images on Midjourney? Are the images made through Midjourney copyrighted to me? Can I use my designs on social media? Can I use my images on Instagram and Facebook? Copyright issue? Explanation of copyright? Explain the copyright of generated images? Do I have commercial rights to my images? Can I use the created pictures for youtube? Can I use the created pictures for yt? Can I use the images for youtube? Can I use the images for instagram?
 
-Paying members have commercial rights to all images they have made and may use them commercially even if they no longer have an active subscription. There are a few exceptions, see section 4 of [our Terms of Service](https://docs.midjourney.com/docs/terms-of-service).
+You have commercial rights to all images **you** have made and may use them commercially even if you no longer have an active subscription. There are a few exceptions, see section 4 of [our Terms of Service](https://docs.midjourney.com/docs/terms-of-service).
 
 ---
 
@@ -1076,10 +1080,10 @@ Contact billing@midjourney.com for further assistance.
 
 ---
 
-Q: Creation failed?
+Q: Creation failed? Something went wrong. Your unique trace:? "Something went wrong. Your unique trace:" what does this mean? Internal server error?
 
-If your job fails, go to your [`Create` page](https://midjourney.com/imagine) and hover over the `Creation Failed` message to see more details about the error.
-If you get a unique trace with three words, click `Report Bug` at the bottom left and send us a report explaining the issue.
+If your job fails, go to your [`Create` page](https://midjourney.com/imagine) and hover over the `Creation Failed` message to see more details about the error. Try signing out and back in.
+If the problem continues or if you get a unique trace with three words, click `Report Bug` at the bottom left and send us a report explaining the issue.
 
 ---
 
@@ -1138,7 +1142,7 @@ Q: What is the answer to life, the universe, and everything?
 
 ---
 
-Q: insight face swap? /insightfaceswap? /saveid? face swap? face swap bot? face swap app? face swapping? face swapping bot? insightface swap? how do you face swap?
+Q: insight face swap? /insightfaceswap? /saveid? face swap? face swap bot? face swap app? face swapping? face swapping bot? insightface swap? how do you face swap? How do I make something using Insight Face Swap
 
 Insight Face Swap is not part of Midjourney. It's developed and supported by a different company. Contact the makers of Insight Face Swap for any questions or support related to their product.
 
@@ -1190,6 +1194,24 @@ Q: How do I get text or words in an image? How can I add text to my images? Is i
 
 Add text to your image by typing it in "quotes". Make sure you’re using version 6 (current default version).
 For example: `Sci-fi movie poster with title text "Aliens!"`
+
+---
+
+# -------------------- -------------------- --------------------
+# -------------------- DISCORD --------------------
+# -------------------- -------------------- --------------------
+
+Q: How can I invite bot in my private server on Discord? Add bot to Discord server?
+
+To add the Bot to your own Discord server, [click here](https://discord.com/oauth2/authorize?client_id=936929561302675456) and select `Add to Server`. [Here’s a step by step guide.](https://docs.midjourney.com/docs/invite-the-bot)
+
+---
+
+Q: Images generated on Discord disappear when the page is refreshed?
+
+Some jobs may appear *ephemeral* when certain words or phrases are mentioned. These temporary messages are only visible to **you** and disappear when you close or refresh Discord. Generate in [Direct Messages](https://docs.midjourney.com/docs/direct-messages) to avoid ephemeral results.
+
+Don't worry, you can still find the images in your [Archive](https://www.midjourney.com/archive). If you want to bring them back on Discord, use the [`/show` command](https://docs.midjourney.com/docs/show-job).
 
 —
 
