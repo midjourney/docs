@@ -1128,10 +1128,10 @@ To find images you've hidden, go to your [Archive](https://www.midjourney.com/ar
 
 # -------------------- ------ALPHA WEB CREATION------- --------------------
 
-Q: I've generated over 100 images but can't use the web generation? Even though I've created more than 100 images, the alpha website does not let me in? I reached 100 pics but don't see the possibility to use imagine on the Midjourney web page? Creation is being tested with subscribers who have made more than 100 images? I have created more than 100 images, but I cannot create images on the website? I have more than 100 images created, but can't use imagine on the website? I've made more than 100 images but still can't use the Imagine feature on the website? 100 images but no web access? 100 images but no alpha? How to access alpha?
+Q: I've generated over 10 images but can't use the web generation? Even though I've created more than 10 images, the alpha website does not let me in? I reached 100 pics but don't see the possibility to use imagine on the Midjourney web page? Creation is being tested with subscribers who have made more than 10 images? I have created more than 10 images, but I cannot create images on the website? I have more than 10 images created, but can't use imagine on the website? I've made more than 10 images but still can't use the Imagine feature on the website? 10 images but no web access? 10 images but no alpha? How to access alpha?
 
 **Use the command </info:972289487818334209>** to check that:
-🔹Your `Lifetime Usage` is at least 100 images (each grid counts as one generated image)
+🔹Your `Lifetime Usage` is at least 10 images (each grid counts as one generated image)
 🔹Your `Subscription` is active
 
 If you have both, sign out and sign back in [the Midjourney website](https://www.midjourney.com/imagine) to access the web alpha and create images directly via the website.
