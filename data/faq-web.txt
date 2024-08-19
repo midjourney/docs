@@ -92,7 +92,7 @@ If your images do not appear within a few minutes, refresh the page.
 
 Q: I don't have 100 jobs yet? So I just paid but still can't create? I paid but i can't Create Images on Midjourney web, I didn't have the Create Button? Why can't I start creating art? It says I need to have 100 artwork? It says I need 100 jobs? It says I need 100 images? I cannot use it, it says Coming Soon? I’m new but cannot use it? I still can't use Create even though my subscription is active? Is it possible to use the website mode immediately with a new account? I'm subscribed but i cannot create? It shows my subscription is active yet I am unable to make any images? Why is creating unavailable? Creation unavailable? Why creation is unavailable? The Creation function is still unavailable? The Creation function is unavailable? Why can't I use midjourney alpha? it says imagine is coming soon? Imagine coming soon? Create coming soon?  I've already created about 150 images, so it should be active? I have made 100 images but cannot use it? I already have 100 images but it says Coming Soon? "Imagine" still says "coming soon" even though I have created 100+ images? I have made more than 100 images but I still can’t use alpha? I still can't create via website after using discord for more than 100 created images? I have more than 100 images? I do have 100 images? I've already created more than 100 images in Discord and no way to get my paid Midjourney service yet? I have an active discord account with 100 images? I can't use the site but I now have over the 100? How do I access creation alpha?
 
-To create images on the Midjourney website, you need an active subscription and 100 image jobs made in Discord. **Each grid of four images counts as 1**. Use the command `/info` on Discord to view if your **lifetime usage** is above 100. [Click here for how to get started on Discord](https://docs.midjourney.com/docs/quick-start)
+To create images on the Midjourney website, you need an active subscription and 10 image jobs made in Discord. **Each grid of four images counts as 1**. Use the command `/info` on Discord to view if your **lifetime usage** is above 10. [Click here for how to get started on Discord](https://docs.midjourney.com/docs/quick-start)
 
 ---
 
@@ -1270,6 +1270,3 @@ Some jobs may appear *ephemeral* when certain words or phrases are mentioned. Th
 Don't worry, you can still find the images in your [Archive](https://www.midjourney.com/archive). If you want to bring them back on Discord, use the [`/show` command](https://docs.midjourney.com/docs/show-job).
 
 ---
-
-
-
