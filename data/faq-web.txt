@@ -63,6 +63,7 @@ __Note:__ A larger selection provides more room for changes, while a smaller sel
 Q: Where did the remix button go? Why do I not have remix? How can I use remix? I don't have the remix buttons? I don't see remix? I can't find remix? I don’t have the pan buttons? I can’t see the zoom buttons? Where is zoom? Where did zoom go? Where is pan? Can’t find the pan buttons? What happened to the zoom in/out function? Looking for pan and remix and more edit functions? I don’t have zoom? I don’t have zoom out? I don’t have pan? I don’t have remix? I don’t see the repaint tool? I don’t have repaint? Where is repaint? I cannot see the repaint tool? The repaint tool disappeared? Remix button disappeared? Zoom feature disappeared? Repaint isn't an option on the website?
 
 Click on your image and in the `Creation Actions` menu, click on `More options` to show or hide additional options. `Editor` allows you to repaint, reframe, and more.
+Certain changes are not available on upscaled images; use the original image instead.
 
 ---
 
@@ -80,19 +81,13 @@ Open your settings on the right side of the `Imagine...` bar.
 
 # - IMAGINE -
 
-Q: Where do I generate images? How to use alpha? How to make an image? How do I use the bot? How do I use it? How do I make art? How do I use Midjourney? How do I prompt? How can I ask the AI to create an image? How do I get started? Where can I start? How do I use the AI? How do I use this? Where do I type my prompt? Where to send commands? When I enter a prompt nothing happens? Where do I write imagine prompt to generate the photos I want? /imagine? Where do I type imagine?
+Q: Where do I generate images? How to use alpha? How to make an image? How do I use the bot? How do I use it? How do I make art? How do I use Midjourney? How do I prompt? How can I ask the AI to create an image? How do I get started? Where can I start? How do I use the AI? How do I use this? Where do I type my prompt? Where to send commands? When I enter a prompt nothing happens? Where do I write imagine prompt to generate the photos I want? /imagine? Where do I type imagine? /imagine? 
 
 To generate images: enter a description of the image you want in the `Imagine…` textbox located at the top of the page and press enter to generate a set of four images in your [Create](https://www.midjourney.com/imagine) space.
 
 On the left side of the textbox, use the image icon to add images to your prompt. On the right side of the textbox, use the button to see and adjust your current settings. [Read more about Creating on the Midjourney website](https://docs.midjourney.com/docs/create-page)
 
 If your images do not appear within a few minutes, refresh the page.
-
----
-
-Q: I don't have 100 jobs yet? So I just paid but still can't create? I paid but i can't Create Images on Midjourney web, I didn't have the Create Button? Why can't I start creating art? It says I need to have 100 artwork? It says I need 100 jobs? It says I need 100 images? I cannot use it, it says Coming Soon? I’m new but cannot use it? I still can't use Create even though my subscription is active? Is it possible to use the website mode immediately with a new account? I'm subscribed but i cannot create? It shows my subscription is active yet I am unable to make any images? Why is creating unavailable? Creation unavailable? Why creation is unavailable? The Creation function is still unavailable? The Creation function is unavailable? Why can't I use midjourney alpha? it says imagine is coming soon? Imagine coming soon? Create coming soon?  I've already created about 150 images, so it should be active? I have made 100 images but cannot use it? I already have 100 images but it says Coming Soon? "Imagine" still says "coming soon" even though I have created 100+ images? I have made more than 100 images but I still can’t use alpha? I still can't create via website after using discord for more than 100 created images? I have more than 100 images? I do have 100 images? I've already created more than 100 images in Discord and no way to get my paid Midjourney service yet? I have an active discord account with 100 images? I can't use the site but I now have over the 100? How do I access creation alpha?
-
-To create images on the Midjourney website, you need an active subscription and 10 image jobs made in Discord. **Each grid of four images counts as 1**. Use the command `/info` on Discord to view if your **lifetime usage** is above 10. [Click here for how to get started on Discord](https://docs.midjourney.com/docs/quick-start)
 
 ---
 
@@ -111,8 +106,7 @@ Click the image icon on the left of the `Imagine…` textbox to upload images. I
 Q: Is it possible to edit a prompt without restarting? How to edit my prompt? What is remix? Can I change the prompt after I’ve made it? Can I change the prompt? Is there a way to add more parameters to a generated image after I have generated different versions? Can I change the prompt? How do I recreate one of my images with a small change? Can I edit my prompt? Can I edit one of my prompts? Can I add, remove, or change just one word in my prompt? Remix subtle or strong? Which remix should I use?
 
 To modify your prompt when making a variation of your image, use the `Remix` feature. Open your image and click either the Remix `Subtle` or `Strong` button.
-◆ Remix **Subtle**: Retains the basic composition and colors, creating four new images similar to the original image.
-◆ Remix **Strong**: Creates four new interpretations of the prompt based on elements from the original image.
+Remix **Subtle** retains the basic composition and colors, creating four new images similar to the original image. Remix **Strong** creates four new interpretations of the prompt based on elements from the original image.
 
 If you want to get the prompt in your `Imagine` bar to create a new set of images, click the `🅃 Use` button next to `↻ Rerun`, or right-click/open the image and `Use` > `Prompt`.
 
@@ -337,7 +331,7 @@ __Note:__ Additional GPU hours are bought before being used, so you cannot accid
 
 # - CANCELATION -
 
-Q: How can I cancel? How can I cancel my plan? How do I unsubscribe? How can I cancel my subscription? How to cancel a subscription? Where do I cancel my subscription? How do I unsub? Where do I unsub? Where do I cancel? I want to cancel my subscription? Cancle? Cancel? How to cancel? How can I cancel my Midjourney subscription? I would like to cancel my Midjourney subscription? Cancel subscription? How do I unsubscribe from my Midjourney subscription? How can I cancel my Midjourney subscription? Comment annuler son abonnement?
+Q: How can I cancel? How can I cancel my plan? How do I unsubscribe? How can I cancel my subscription? How to cancel a subscription? Where do I cancel my subscription? How do I unsub? Where do I unsub? Where do I cancel? I want to cancel my subscription? Cancle? Cancel? How to cancel? How can I cancel my Midjourney subscription? I would like to cancel my Midjourney subscription? Cancel subscription? How do I unsubscribe from my Midjourney subscription? How can I cancel my Midjourney subscription? Comment annuler son abonnement? How do i avoid auto renew? How do i disable auto renew? How do i avoid automatic renewal?
 
 On your [`Manage Subscription` page](https://www.midjourney.com/account), click `Cancel Plan` and confirm.
 
@@ -770,16 +764,14 @@ The `--iw` (Image Weight) parameter allows you to adjust how much the image prom
 
 ---
 
-Q: Reference image? Use photo as reference? How do I upload an image? How do I get an image link? How do I use my own image? How do I upload or use an image from my hard-drive for an image prompt? Image prompt? How can I attach an image? Can I use an image as a starting point? Can I use my images? Can I send images to the AI? Can I give an image to the AI? I've seen a few people using source images, how does this work? Can I use an image? My own photo? My own personal photo? Edit my image? Is there a way to upload an image and modify it based from a prompt? Is there a way to upload an image and modify it?
+Q: Reference image? Use photo as reference? How do I upload an image? How do I get an image link? How do I use my own image? How do I upload or use an image from my hard-drive for an image prompt? Image prompt? How can I attach an image? Can I use an image as a starting point? Can I use my images? Can I send images to the AI? Can I give an image to the AI? I've seen a few people using source images, how does this work? Can I use an image? My own photo? My own personal photo? Edit my image? Is there a way to upload an image and modify it based from a prompt? Is there a way to upload an image and modify it? /blend?
 
 Click the image icon on the left of the `Imagine…` textbox to add images. You can use an image in three different ways; hover over it to select the option of your choice. Shift-click to select multiple options.
-◆ `Image Prompt` (icon: picture) – By default, uploaded images are added as image prompts. If you only use one image prompt, you’ll need to add a text description. If you use two or more image prompts, the bot will blend them. Adding a text description becomes optional.
-◆ `Style Reference` (icon: paper clip) – The image(s) will influence the style or aesthetic.
-◆ `Character Reference` (icon: portrait) – The characters in your images will be based on your character reference(s). This works best with references created in Midjourney. You can add text, image prompts, and other parameters to guide the results.
+By default, an image is added as an [`Image Prompt`](https://docs.midjourney.com/v1/docs/image-prompts) (icon: picture). Other ways to use an image are as a [`Style Reference`](https://docs.midjourney.com/v1/docs/style-reference) (icon: paper clip) or as a [`Character Reference`](https://docs.midjourney.com/v1/docs/character-reference) (icon: portrait).
 
 __Note:__ References are used as parameters, they cannot be used without a prompt. [Read more about adding images](https://docs.midjourney.com/docs/using-images)
 
-%image=https://cdn.discordapp.com/attachments/1201909699793145876/1252664110748012647/Image_Reference_Flipped.gif
+%image=https://cdn.midjourney.com/u/ff03153e-6e8a-48b4-87d0-5acd0a123688/f1f3a3f09c8df1221cb74b25f38605813ca0215bef534fd990d823bd2c8082eb.png
 
 ---
 
@@ -916,7 +908,7 @@ __Note:__ Only Pro and Mega users can unpublish their images, or activate Stealt
 
 # - ARCHIVE -
 
-Q: How do you go to archive? Where is the archive? Where can I see all my images?
+Q: How do you go to archive? Where is the archive? Where can I see all my images? how can I find my Gallery?
 
 Find your archive of images by clicking on [Organize](https://www.midjourney.com/archive).
 
@@ -1270,3 +1262,6 @@ Some jobs may appear *ephemeral* when certain words or phrases are mentioned. Th
 Don't worry, you can still find the images in your [Archive](https://www.midjourney.com/archive). If you want to bring them back on Discord, use the [`/show` command](https://docs.midjourney.com/docs/show-job).
 
 ---
+
+
+
