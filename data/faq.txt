@@ -38,10 +38,9 @@
 # -------------------- ----BASICS----- --------------------
 # -------------------- -------------------- --------------------
 
-
 # -------------------- --INTERFACE- --------------------
 
-Q: What do the U1, V1, etc. buttons do? U, V buttons? How do I upscale? How do I increase my image’s resolution? How do I create variations? What does U and V do? What is U1-4, V1-4? What is an upscale? What is a variation?
+Q: What do the U1, V1, etc. buttons do? U, V buttons? How do I upscale? How do I create variations? What does U and V do? What is U1-4, V1-4? What is an upscale? What is a variation?
 
 **U** UPSCALE: The U🔢 buttons separate your chosen image from the grid, making it easier to download and giving you access to additional editing and generation tools.
 
@@ -65,17 +64,13 @@ The 🔄 button resubmits your request to generate a new set of four images usin
 Q: What is Vary (Region)? Vary region button? How do I use Vary (Region)? Inpainting? How do I inpaint?
 
 `Vary (Region)` allows you to select and regenerate specific parts of an image.
-1️⃣ Click the `Vary (Region)` button underneath upscaled images to open the editing interface.
-2️⃣ Select the areas of your image that you want modified. You can choose between a rectangular or a freehand selection tool in the bottom left.
-3️⃣ (Optional) In `Remix mode`, edit your prompt at the bottom to guide the modifications. *Use the command </settings:1000850743479255081> and enable `Remix mode`.*
+1️⃣ Click the `Vary (Region)` button underneath individual images to open the editing interface.
+2️⃣ Select the areas of your image that you want modified.
+3️⃣ (Optional) Enable `Remix mode` to edit your prompt at the bottom to guide the modifications. *Use the command </settings:1000850743479255081> and click `Remix mode` to turn it on.*
 4️⃣ Submit your `Vary (Region)` request ➜
 
-__Note:__ A larger selection provides more room for changes, while a smaller selection may result in more subtle modifications.
-
-:bug: If you don't see the `Vary (Region)` button, make sure you're on the latest version of Discord, and try restarting the app.
-
-[Read more about Vary Region](https://docs.midjourney.com/docs/vary-region)
-[Read more about Vary Region + Remix](https://docs.midjourney.com/docs/vary-region-remix)
+You cannot edit an image which has been upscaled; upscaling is the last step.
+__Note:__ A larger selection provides more room for changes, while a smaller selection may result in more subtle modifications. [Read more about Vary Region](https://docs.midjourney.com/docs/vary-region)
 
 ---
 
@@ -106,15 +101,15 @@ __Note:__ This is an experimental and advanced feature.
 
 Q: Imagine? Prompt /Imagine? Imagine prompt:? #imagine?
 
-Oops! **The `/imagine` command will not work in this channel!**
+Oops! **The command `/imagine` will not work in this channel!**
 
-You need to use a bot channel like #newbies or #general - try in <#984632500875821066>!
+Right click here: <@936929561302675456> and hit `Message` to use the command with the Bot. You can also create images with other members in this server in bot channels like <#984632500875821066>.
 
 ---
 
 Q: How do I generate images? How to use it? How do I use the bot? How does the bot work? How do I use it? How do I make art? How do I use Midjourney? How do I prompt? How can I ask the AI to create an image? How do I get started? Where can I start? How do I use the AI? Register? How do I use this? Where do I prompt?
 
-1️⃣ Right click here:  <@936929561302675456> and hit `Message`.
+1️⃣ Right click here: <@936929561302675456> and hit `Message`.
 2️⃣ Type `/imagine`.
 3️⃣ Click the popup above and type a description of the image you want - that’s the prompt.
 4️⃣ Hit enter or press send to submit your prompt.
@@ -127,7 +122,6 @@ __Note:__ You can also create images with other members in this server in bot ch
 ---
 
 Q: I'm having trouble using the bot - Why don’t I see the /imagine option as a slash command? I don’t see /imagine in my slash commands? My commands don’t work? Imagine doesn't work for me? I type the prompts and nothing appears? I type /imagine and nothing happens? It does not let me use /imagine? So just /imagine [prompt]? Where can I use /imagine? The /imagine command does not work?
-
 
 1️⃣ Be sure to use a bot channel like #newbies or #general - try <#981832774157762570>.
 2️⃣ Type `/imagine`.
@@ -182,7 +176,7 @@ With the latest models:
 - `/imagine`: Costs about 1 GPU minute
 - Variations: Cost slightly less GPU time
 - Initial Upscales: Split the existing grid, they cost no extra GPU time (in v5 and v6)
-- 2x/4x/Creative/Subtle Upscale: Cost more GPU time, various minutes.
+- 2x/4x/Creative/Subtle Upscale: Cost more GPU time
 
 ---
 
@@ -213,7 +207,6 @@ __Note:__ These hours are used after your monthly and bonus GPU fast time.
 # -------------------- -------------------- --------------------
 # -------------------- FAST / RELAX --------------------
 # -------------------- -------------------- --------------------
-
 
 # -------------------- -----RELAX----- --------------------
 
@@ -410,7 +403,7 @@ On your [Midjourney subscription page](https://midjourney.com/account), click `C
 
 **__Refund:__** You are eligible for a full refund if you’ve used less than 20 GPU minutes **__lifetime__**. If you’re eligible, you will have the option to `Cancel immediately with refund`. Select that option, and confirm the immediate cancellation.
 
-Contact `billing@midjourney.com` if you encounter an error or need assistance.
+Contact `billing@midjourney.com` if you do not get the option or if you receive an error.
 
 %image=https://cdn.discordapp.com/attachments/1201909699793145876/1228317951598530621/Cancel.png
 
@@ -440,7 +433,7 @@ The refund time depends on your bank, it can take up to 10 business days for the
 
 # -------------------- SWITCH PLANS --------------------
 
-Q: If I want to switch plans will I be charged the full amount? What if I go from basic plan to standard? Can I get the $10 sub and, if I run out, upgrade and just pay the difference? Can I get the $10 sub and if I run out upgrade and just pay the difference? If I switch to Standard it will be 20$ or 30$? Can I upgrade from basic to standard? How do I upgrade? Where do I upgrade? What do I have to do to upgrade? How to upgrade the plan? How can I upgrade my plan? Can I change my plan? Can I switch plans? How do I manage my plan?
+Q: If I want to switch plans will I be charged the full amount? What if I go from basic plan to standard? Can I get the $10 sub and, if I run out, upgrade and just pay the difference? Can I get the $10 sub and if I run out upgrade and just pay the difference? If I switch to Standard it will be 20$ or 30$? Can I upgrade from basic to standard? How do I upgrade? Where do I upgrade? What do I have to do to upgrade? How to upgrade the plan? How can I upgrade my plan? Can I change my plan? Can I switch plans? How do I manage my plan? How do I change my subscription plan?
 
 Manage your subscription on your [Midjourney account page](https://www.midjourney.com/account/) on the website.
 
@@ -473,7 +466,7 @@ Additional jobs will be added to a queue of up to **10** jobs.
 
 ---
 
-Q: Queue reset? Can I have a queue reset? Reset my queue? Reset jobs? Can you clear my queue?
+Q: Queue reset? Can I have a queue reset? Reset my queue? Reset jobs? Can you clear my queue? Cancel job?
 
 To cancel running jobs, you can either:
 🔹React to the job with the :x: emoji.
@@ -648,12 +641,10 @@ Q: What's private mode? What’s stealth mode? Private powers badge? I don't wan
 By default, your prompts and images are public on the [Midjourney website](https://www.midjourney.com/explore).
 [Stealth mode](https://docs.midjourney.com/docs/stealth) is a feature of the Pro and Mega plans that allows you to make your images private (unpublished) so they cannot be viewed by others on the website.
 
-To unpublish public images, select them in [your gallery](https://www.midjourney.com/archive) and click `...More` next to Download. You can then bulk publish/unpublish.
-To enable Stealth mode and keep all **__new__** images private on the Midjourney website:
-:small_blue_diamond:On Discord: run the `/stealth` command. *This only applies to images made on Discord.*
-:small_blue_diamond:On the website:  toggle the `Stealth` button in your settings to `On`. *This only applies to images made on the website. It is not saved if you change browsers or clear your cache.*
+To enable Stealth mode and keep all **__new__** images private on the Midjourney website: run the `/stealth` command.
+To unpublish your public images, select them in [your gallery](https://www.midjourney.com/archive) and click `...More` next to Download to find the `Unpublish` button.
 
-__Note:__ Images made in public channels are visible by anyone in those channels! To keep images completely hidden, you must [make them in Direct Messages](https://docs.midjourney.com/docs/direct-messages) or [in a private server](https://docs.midjourney.com/docs/add-the-bot).
+__Note:__ Images made in public channels are visible by anyone in those channels! To hide them on Discord, you need to [make them in Direct Messages](https://docs.midjourney.com/docs/direct-messages) or [in a private server](https://docs.midjourney.com/docs/add-the-bot).
 
 ---
 
@@ -747,10 +738,9 @@ The default upscaler for v4 takes the prompt into account, unlike previous upsca
 
 Q: Where has the upscale 4x button gone? Upscale 2x and Upscale 4x do now show for me? Have you removed 4x upscale? 4x upscale? Upscale (4x)?
 
-At the moment, version 6 only has `Upscale (Subtle)` and `Upscale (Creative)` which are both Upscales 2x.
-If you want an Upscale (4x) you need to go back to --v 5.2. Use the command </settings:1000850743479255081>, select Version 5.2 and create a new /imagine - new images will have the 4x Upscale button.
+At the moment, version 6 only has `Upscale (Subtle)` and `Upscale (Creative)` which are both Upscales 2x. [Read more about Upscalers](https://docs.midjourney.com/docs/upscalers-1)
 
-[Read more about Upscalers](https://docs.midjourney.com/docs/upscalers-1)
+If you want an Upscale (4x) you need to go back to --v 5.2. Use the command </settings:1000850743479255081>, select Version 5.2 and create a new /imagine - new images will have the 4x Upscale button.
 
 ---
 
@@ -779,10 +769,11 @@ The Quality buttons have been removed from the </settings:1000850743479255081> p
 
 ---
 
-Q: What does quality do? How do you use  --q? How do you use quality? What is --q?
+Q: What does quality do? How do you use --q? How do you use quality? What is --q?
 
 The `--quality` parameter (`--q`) changes how much time is spent generating an image.
-You can only use the following values: `.25`, `.5`, and `1` in Version 6. Larger values are rounded down to default value of 1.
+With the current Version 6.1, you can use the following values: `0.25`, `0.5`, `1` and `2`. The default value is 1.
+For example: `Blurry glitch art of a bat --q 0.5`
 
 [Read more about the Quality parameter](https://docs.midjourney.com/docs/quality)
 
@@ -842,15 +833,12 @@ The `--sref` parameter is an image used as a **style reference**. [Read more abo
 
 Q: What is the personalization feature? What is the personalisation feature? What is the personalize feature? What is the personalise feature? What is the personalization parameter? What is the personalisation parameter? What is the personalize parameter? What is the personalise parameter? Personalization feature? Personalisation feature? Personalize feature? Personalise feature? Personalization parameter? Personalisation parameter? Personalize parameter? Personalise parameter? What is the --p parameter? Can I get a personal code with my own aesthetic? Can I personalize my style? Can I personalise my style? How do I get my personal code? Where do I find my personal code? Where do I find my --p code? Can I train my own model?
 
-The Personalization feature learns your preferences over time through images you've rated (on the [Rate Images](https://www.midjourney.com/rank) page).
+The Personalization feature learns your preferences over time through images you've rated (on the [Rate Images](https://www.midjourney.com/rank) page) and other users' images you've favorited. [Read more about Personalization](https://docs.midjourney.com/docs/personalization)
 
 Add the Personalize parameter `--p` at the end of your prompt to tailor the model to your preferences. Your personal code is automatically added after it.
-Copy your code from the prompt to share it with other users, and try codes from others by pasting one of theirs after `--p`.
 
-__Note:__ You can combine personalization with other parameters available in Version 6.
-You can adjust the strength of your personal styling by combining it with the [`--stylize` parameter](https://docs.midjourney.com/docs/stylize), with a value from 0 to 1000. A higher `--s` value will show your styling more but may dismiss some specifics of your prompt. 
+__Note:__ You can adjust the strength of your personal styling by combining it with the [`--stylize` parameter](https://docs.midjourney.com/docs/stylize), with a value from 0 to 1000. A higher `--s` value will show your styling more but may dismiss some specifics of your prompt. 
 
-[Read more about the Personalize parameter](https://docs.midjourney.com/docs/personalization)
 If you want to influence the style with your own image(s), use the [Style Reference parameter](https://docs.midjourney.com/docs/style-reference).
 
 ---
@@ -885,14 +873,14 @@ The Image Weight parameter `--iw` allows you to adjust how much the image prompt
 
 Q: Reference image? Use photo as reference? How do I upload an image? How do I get an image link? How do I use my own image? How do I upload or use an image from my hard-drive for an image prompt? Image prompt? How can I attach an image? Can I use an image as a starting point? Can I use my images? Can I send images to the AI? Can I give an image to the AI? I've seen a few people using source images, how does this work? Can I use an image? My own photo? My own personal photo? Edit my image? How can I use my photo to generate images? Is there a way to upload a photo? Is there a way to upload an image?
 
-To add images to text prompts:
+You can add image links in your prompt, [here](https://docs.midjourney.com/docs/image-prompts) is how:
 1️⃣ Upload the image to Discord (make sure to click send/hit enter).
 2️⃣ Right-click and copy the link to the image or media (ending in .jpg, .png, or .webp). If you don’t see this option, left-click on the image to open it, then right-click to copy the link.
 3️⃣ Start typing `/imagine` and click the popup.
 4️⃣ Paste the image link(s) with a space between each link.
-5️⃣Add a text prompt and any parameters.
+5️⃣ Add a text prompt and any parameters.
 
-[Here’s a step by step guide](https://docs.midjourney.com/docs/image-prompts)
+To use the image as a [style reference](https://docs.midjourney.com/docs/style-reference) (sref) or [character reference](https://docs.midjourney.com/docs/character-reference) (cref), paste the link after the prompt, behind the parameter `--sref` or `--cref`. For example: `A man with a glowing bat --sref image1.png --cref image2.png`
 
 ---
 
@@ -965,6 +953,13 @@ Q: Any tips for successful text prompts? How do I write better prompts? How shou
 
 ---
 
+Q: Setting language? Can I change to a different language? Can I use it in another language? Can I use a different language?
+
+Text prompts work best in English but some words in other languages can be understood. If you use Niji, you can type text in English, Korean, Japanese, or Chinese.
+To change the language your Discord app is displayed in, [follow this guide](https://support.discord.com/hc/en-us/articles/216406447-How-can-I-change-Discord-s-Language).
+
+---
+
 Q: Is letter case taken into consideration in producing the results to the prompt? Is the bot case sensitive? Does capitalization matter?
 
 Text prompts are not case-sensitive, while parameters are case-sensitive and must be entered using lowercase letters.
@@ -1005,20 +1000,29 @@ Q: What about “Unreal engine”? What about “Artstation”? What about “Oc
 
 The AI responds to these phrases the same way it does with other words. However, they may give the Bot a hint to generate the style of image you want.
 
-Engage in our [#prompt-chat](https://discord.com/channels/662267976984297473/992207085146222713) community to discuss prompts with other users.
+Participate in our [#prompt-craft](https://discord.com/channels/662267976984297473/992207085146222713) community to discuss prompts with other users.
 
 ---
 
 # -------------------- ----SEEDS----- --------------------
 
-Q: How do I get the seed or job id that was used for an image? How can I get an individual image without upscaling? No seed? Seed on upscale? Only grid seed? V5 seed? I can not get the seed? Can’t get the seed number? When I react with the envelope nothing happens, I don’t get the seed? How can I find the seed? How do I retrieve the seed number of an image? How do I get the seed of an image? What does –seed do? Does submitting the job again use a different seed? What is a seed? What do seeds do? What is sameseed?
+Q: How do I get the seed or job id that was used for an image? No seed? Seed on upscale? Only grid seed? V5 seed? I can not get the seed? Can’t get the seed number? When I react with the envelope nothing happens, I don’t get the seed? How can I find the seed? How do I retrieve the seed number of an image? How do I get the seed of an image? Where to find seed? Where is seed?
+
+To find an image’s seed number, open your image in [your archive](https://www.midjourney.com/archive) and in the image menu, click on `Copy` > `Seed`. You can only copy the seed of your own images.
+
+__Note:__ Seeds are not reliable and change over time. They have no effect on character consistency. [Read more about seeds](https://docs.midjourney.com/docs/seeds)
+
+%image=https://cdn.midjourney.com/u/d6f915c1-a3b1-425d-9934-3fb714cd8b7b/334b0b94ebf7894b7ba9efb4b564c3e5f2370bce271652b1d91e7fb44d8eb239.png
+
+---
+
+Q: What does –seed do? Does submitting the job again use a different seed? What is a seed? What do seeds do? What is sameseed?
 
 Each set of four images made in Midjourney uses a random seed number as a starting point.
-
-React to your image with the :envelope: emoji for the Midjourney Bot to send you the seed in a Direct Message.
-
 Use the `--seed` parameter, with a value between 0 and 4294967295, to give the bot a specific starting point.
 If you use the same seed and prompt as another image, the bot will produce an identical or very similar set of four images. This is useful when using similar prompts to test how the changes affect the result.
+
+To find an image’s seed number, open your image in [your archive](https://www.midjourney.com/archive) and in the image menu, click on `Copy` > `Seed`. You can only copy the seed of your own images.
 
 __Note:__ Seeds are not reliable and change over time. They have no effect on character consistency.
 [Read more about seeds](https://docs.midjourney.com/docs/seeds)
@@ -1029,12 +1033,10 @@ __Note:__ Seeds are not reliable and change over time. They have no effect on ch
 
 Q: How to transfer an image to another channel? Can I move my image out of the newbies channel? Can I work with my old generations? My old generation is not responding to buttons? Can i upscale my old image from newbies channel? How to use /show?
 
-Use the `/show` command to transfer an image to another channel, or “revive” a job that's not working.
-You’ll need the Job ID which you can find in your [gallery](https://midjourney.com/archive) on the website: Open your image, select the Options Icon, then `Copy` and `Job ID`.
+To transfer an image to another channel, or “revive” a job that's not working, use the [command `/show`](https://docs.midjourney.com/docs/show-job) followed by the image’s job ID.
+To find the Job ID, open the image in [your archive](https://midjourney.com/archive). In the menu, click on `Copy` > `Job ID`.
 
-[Guide on how to use `/show`](https://docs.midjourney.com/docs/show-job)
-
-%image=https://cdn.document360.io/3040c2b6-fead-4744-a3a9-d56d621c6c7e/Images/Documentation/mj-web-show-job-id.png
+%image=https://cdn.midjourney.com/u/d6f915c1-a3b1-425d-9934-3fb714cd8b7b/1f95af2fa68b8b8840fe63c114f7ef352a6d9273c7c4684b07f773f41f917844.png
 
 ---
 
@@ -1042,12 +1044,17 @@ You’ll need the Job ID which you can find in your [gallery](https://midjourney
 
 Q: How do I get a video of my grid generating? Video? --video? Can I use –video on an upscale?
 
-You can ask the bot to record the creation of the image grid you prompted.
+Midjourney currently only generates images. You can ask the bot to record the creation of the image grid you prompted.
 
-Add the `--video` parameter at the end of your prompt. Once the image has been rendered, react to it with the :envelope: emoji.
+Add the `--video` parameter at the end of your prompt. Once the image has been rendered, react to it with the :envelope: emoji to receive the video in your Direct Messages.
 
-__Note:__ Videos only work on the initial grid, not upscaled images.
-[Read more about --video](https://docs.midjourney.com/docs/video)
+__Note:__ Videos only work on the initial grid, not upscaled images. [Read more about --video](https://docs.midjourney.com/docs/video)
+
+---
+
+Q: Can you generate video? Is there a way to make videos? Plans to generate video? Can I make videos?
+
+At the moment, it is only possible to generate images, not videos.
 
 ---
 
@@ -1072,7 +1079,7 @@ Your Discord ID is different, [here's a guide on how to find a Discord ID](https
 
 Q: How can I delete an image? How to delete images from my feed? How can I remove an image?
 
-Delete your generation by reacting to it with the :x: emoji. This will also delete it from the website. If you can't find it in discord, recall it first with the command [`/show`](https://docs.midjourney.com/docs/show-job).
+Delete your generation by reacting to it with the :x: emoji. This will also delete it from the Midjourney website. If you can't find it in discord, recall it first with the [command `/show`](https://docs.midjourney.com/docs/show-job).
 
 ---
 
@@ -1128,13 +1135,11 @@ To find images you've hidden, go to your [Archive](https://www.midjourney.com/ar
 
 # -------------------- ------ALPHA WEB CREATION------- --------------------
 
-Q: I've generated over 10 images but can't use the web generation? Even though I've created more than 10 images, the alpha website does not let me in? I reached 100 pics but don't see the possibility to use imagine on the Midjourney web page? Creation is being tested with subscribers who have made more than 10 images? I have created more than 10 images, but I cannot create images on the website? I have more than 10 images created, but can't use imagine on the website? I've made more than 10 images but still can't use the Imagine feature on the website? 10 images but no web access? 10 images but no alpha? How to access alpha?
+Q: How to access alpha?
 
-**Use the command </info:972289487818334209>** to check that:
-🔹Your `Lifetime Usage` is at least 10 images (each grid counts as one generated image)
-🔹Your `Subscription` is active
+The creation tool on the website is now open to all members, simply sign into [the Midjourney website](https://www.midjourney.com/imagine). If you subscribed through Discord, make sure to sign in using the same Discord account. [Click here to discover how to create images on the website](https://docs.midjourney.com/docs/create-page)
 
-If you have both, sign out and sign back in [the Midjourney website](https://www.midjourney.com/imagine) to access the web alpha and create images directly via the website.
+__Note:__ You don't have to use public channels to create images on Discord. Right click here:  <@936929561302675456> and hit `Message` for a one on one chat with the Bot. You can also [create a server](https://support.discord.com/hc/en-us/articles/204849977-How-do-I-create-a-server) and [click here](https://discord.com/oauth2/authorize?client_id=936929561302675456) then `Add to Server` to organize your work.
 
 ---
 
@@ -1152,22 +1157,21 @@ To enable Stealth mode on the alpha website and keep all **__new__** images crea
 # -------------------- PERSONAL SPACE -----------
 # -------------------- -------------------- --------------------
 
-Q: How do I DM the bot? Where can I DM bot? Where is my private channel? How can I make a solo room? How do I open a private chat with the bot? Can I use imagine in DMs? Is it possible to DM the bot and not be in a very crowded busy channel? Can I generate my images privately? How do I start my own room for creating photos? How can I hide other people’s images? How can I hide everyone else’s posts? Why don't I see any messages from the bot? I used ✉️ on one of my images, why don't I see any messages from the bot? Why can't I message the bot?  "Cannot send messages to this user" when trying to DM the bot? I can’t DM the bot?
+Q: How do I DM the bot? DM the bot? Where can I DM bot? How can I make a solo room? How do I open a private chat with the bot? Can I use imagine in DMs? Is it possible to DM the bot and not be in a very crowded busy channel? Can I generate my images privately? How do I start my own room for creating photos? Why don't I see any messages from the bot?
 
 Subscribers can use commands in Direct Messages (DMs) with the Bot. Right click here:  <@936929561302675456> and hit `Message`.
 
-**__If you can't DM the bot or get an__ `Unknown integration` __error:__**
-Right-click the Midjourney server icon > Privacy Settings > check if `Direct Messages` is green. If it’s already enabled, toggle it off and on again.
-
 __Note:__ Images created in DMs are visible to everyone on the [Midjourney website](https://www.midjourney.com/explore), unless you have a Pro or Mega plan and have activated [Stealth Mode](https://docs.midjourney.com/docs/stealth).
 
-%image=https://cdn.discordapp.com/attachments/1259116844430655488/1259121654534111242/HowToDM.gif
+%image=https://cdn.discordapp.com/attachments/1259116844430655488/1261450361059672075/MessageBot.gif
 
 ---
 
-Q:  Unknown integration? Why do I get unknown integration? I get the message unknown integration when i DM the bot? I’m getting the error message “unknown integration”?
+Q:  Unknown integration? Why do I get unknown integration? I get the message unknown integration when i DM the bot? I’m getting the error message “unknown integration”? I used ✉️ on one of my images, why don't I see any messages from the bot? Why can't I message the bot?  "Cannot send messages to this user" when trying to DM the bot? I can’t DM the bot?
 
 Right-click the Midjourney server icon > Privacy Settings > check if `Direct Messages` is green. If it’s already enabled, toggle it off and on again.
+
+%image=https://cdn.discordapp.com/attachments/1259116844430655488/1259121654534111242/HowToDM.gif
 
 ---
 
@@ -1249,15 +1253,20 @@ You can also explore our [News page](https://www.midjourney.com/updates) for the
 
 Q: Are there any plans to make this into its own software/application? Are there plans for a stand-alone application? Will MJ ever go for a stand-alone platform, without Discord? Is there a web version? Can I generate online? Do I have to use Discord?
 
-Users with at least 100 generations on Midjourney can now alpha-test our [image creation website](https://www.midjourney.com/imagine)!
-→ Run the command </info:972289487818334209> on the Midjourney server to see if your lifetime usage is above 100. If it is, sign into [the website](https://www.midjourney.com/imagine) and get started.
-[Read more about creating on the website](https://docs.midjourney.com/docs/create-page)
+You can also create images on the [Midjourney website](https://www.midjourney.com/imagine)! If your subscription is on Discord, make sure to sign in with Discord.
+[Discover how to create images on the website](https://docs.midjourney.com/docs/create-page)
+
+---
+
+Q: Can you generate vectors? Can this create vector-based graphics?
+
+At the moment, images are created as raster image files. It is not possible to create vector-based images.
 
 ---
 
 Q: Do you have any API? Is there a way to use the app via an API? API? Plans to expose API?
 
-There are currently no plans for an API.
+There are currently no plans for a public API.
 
 ---
 
@@ -1302,10 +1311,9 @@ Currently, all subscription plans are linked to a single user. Each user needs t
 # -------------------- ERRORS --------------------
 # -------------------- -------------------- --------------------
 
-
 Q: Prefer suffix. How do I reset my settings? How do I reset my suffix? How do I clear my settings? There’s something in my prompt I didn’t add, how do I remove it? Stylize must be between error?
 
-Use </prefer suffix:984273800587776053> as a standalone command to reset your Midjourney </settings:1000850743479255081> to the system defaults.
+Use the command </prefer suffix:984273800587776053> and press enter/send without adding anything to reset your Midjourney </settings:1000850743479255081>.
 You can also use the command </settings:1000850743479255081> and click the last button `Reset Settings`.
 
 %image=https://cdn.discordapp.com/attachments/1201909699793145876/1231302471205388299/Reset_Settings.png
@@ -1327,7 +1335,7 @@ Discord allows this server a maximum number of active threads. When older thread
 
 Q: I can’t accept ToS? Can’t accept ToS? How to accept ToS? I can’t accept Terms? How to accept Terms? How to accept ToS? I can’t accept terms of service? How do I accept the terms? How do I accept terms? How do I accept ToS?
 
-A green button to accept the [Terms of Service](https://docs.midjourney.com/docs/terms-of-service) should appear with your first `/imagine` command.
+A green button to accept the [Terms of Service](https://docs.midjourney.com/docs/terms-of-service) should appear when you first use the command `/imagine`.
 Use the official Discord app and try several times if you don't see the TOS button or get an error accepting it.
 
 🖥️**PC/Mac**  Do a hard restart of Discord with `Alt+F4` or `⌘+Q`.
@@ -1348,7 +1356,7 @@ Here are some things to avoid in image prompts:
 🔹Shirtless characters (regardless of their gender)
 🔹Cleavage or too much visible skin
 🔹Nude or skin tone clothing
-You can adjust the image or use text instead. Ask our [#prompt-chat](https://discord.com/channels/662267976984297473/992207085146222713) community if you have trouble finding the right words.
+You can adjust the image or use text instead. Ask our [#prompt-craft](https://discord.com/channels/662267976984297473/992207085146222713) community if you have trouble finding the right words.
 
 __Note:__ The origin of the image does not matter. Every image is filtered the same way, whether it's a famous image or an image created by Midjourney itself.
 The filter is automated and can occasionally misinterpret the content.
@@ -1358,6 +1366,12 @@ The filter is automated and can occasionally misinterpret the content.
 Q: What does progress images have been disabled mean? What does process images have been disabled mean?
 
 In-progress images are sometimes disabled temporarily for performance reasons. Do not worry! Final results will still be sent normally when the generation is complete.
+
+---
+
+Q: You have been blocked from accessing Midjourney. This happens on repeated or serious ToS violations? My account shows "You have been blocked from accessing Midjourney. This happens on repeated or serious ToS violations"please help me? You have been blocked from accessing Midjourney?
+
+Bans will not be discussed in this chat. You can email billing@midjourney.com for questions about your subscription status.
 
 ---
 
@@ -1396,16 +1410,15 @@ In some cases, the bot may fail to return the finished image in Discord. You can
 
 If you want to bring a job back into Discord:
 🔹Go to your gallery and copy the job ID.
-🔹In Discord, use the [/show command](https://docs.midjourney.com/docs/show-job) followed by the job ID.
+🔹In Discord, use the [command `/show`](https://docs.midjourney.com/docs/show-job) followed by the job ID.
 
 ---
 
 Q: Describe Error? Error with describe? Error with /describe? 504 Deadline Exceeded?
 
-If you get the error “504 Deadline Exceeded” when trying to use the `/describe` command, it means the image file you are uploading is too large. Use a smaller image and try again.
+If you get the error “504 Deadline Exceeded” when trying to use the command `/describe`, it means the image file you are uploading is too large. Use a smaller image and try again.
 
 ---
-
 
 # -------------------- -------------------- --------------------
 # -------------------- WHERE ARE MY IMAGES?! --------------------
@@ -1413,7 +1426,7 @@ If you get the error “504 Deadline Exceeded” when trying to use the `/descri
 
 Q: How can I find my images? It’s moving too fast, how can I see only my images? How to search for my images? Where is the gallery? Where can I see my images? How do I search for my creations? How do you find your previous prompts? Where are my images? How can I find images that I generated? Mentions? Mention? How do I see my mentions? Where are my mentions? How can I find my image in discord? I lost my image? Mentions? I can’t find my mentions? I can’t find my image? Where is my artwork?
 
-All your images can be found in your [Archive](https://www.midjourney.com/archive) on the Midjourney website (make sure to Sign in with the same Discord account).
+On the Midjourney website, click on [Organize](https://www.midjourney.com/archive) to find your image gallery (make sure to Sign in with the same Discord account).
 
 To find your recent images and other messages addressed to you on Discord:
 🖥️ Desktop: Use the Inbox icon in the top right corner.
@@ -1430,11 +1443,11 @@ To find your recent images and other messages addressed to you on Discord:
 Q: Where did my thread go? Where is my thread? Can you move threads? Can you help me move threads? Will my work disappear if I can’t find the thread? How can I find the thread? Where is my thread? Can you move my thread? Can I change roles? What is my group role? What is this role? Where did the channel go? Where did my channel go? Channel disappeared? Thread disappeared? Thread gone?
 
 We cannot change group role assignments or move threads.
-However, all your images can be found in your [Archive](https://www.midjourney.com/archive) on the Midjourney website (make sure to Sign in with the same Discord account).
+However, all your images can be found on the Midjourney website; sign in with your account and click on [Organize](https://www.midjourney.com/archive).
 
-Use the `/show` command to move your work to a new location:
+Use the command `/show` to move your work to a new location:
 1️⃣ Go to your gallery and copy the job ID.
-2️⃣ In Discord, use the [/show command](https://docs.midjourney.com/docs/show-job) followed by the job ID.
+2️⃣ In Discord, use the [command `/show`](https://docs.midjourney.com/docs/show-job) followed by the job ID.
 
 ---
 
@@ -1448,7 +1461,6 @@ You may need to sign out and back in the Midjourney website to update any availa
 # -------------------- -------------------- --------------------
 # -------------------- UNCATEGORIZED --------------------
 # -------------------- -------------------- --------------------
-
 
 Q: What is the answer to life, the universe, and everything?
 
@@ -1482,22 +1494,19 @@ The stop parameter does not work when upscaling an image.
 
 Q: Ephemeral? What are ephemeral jobs? Why do my jobs disappear from Discord? My images are disappearing?
 
-Some jobs may appear *ephemeral* when certain words or phrases are mentioned. These temporary messages are only visible to **you** and disappear when you close, refresh, or switch instances of Discord. You'll know it's an ephemeral job when you see the text "Only you can see this message" at the bottom of the bot's message.
+Some jobs may be temporary on Discord when using certain words or phrases in your prompt. The images are only visible to you and disappear when you close, refresh, or switch Discord pages. If the job is ephemeral, you’ll see the text "Only you can see this message" at the bottom of the bot's message.
 
-Don't worry, even if these jobs disappear from Discord, you can still find them in your [Gallery](https://www.midjourney.com/archive) on the Midjourney website.
+Don't worry, all these images are in [your archive](https://www.midjourney.com/archive) on the Midjourney website. To bring them back on Discord:
+1️⃣ Go to [your archive](https://www.midjourney.com/archive) and copy the job ID.
+2️⃣ In Discord, type the [command `/show`](https://docs.midjourney.com/docs/show-job) and paste the job ID.
 
-If you want to bring a job back into Discord:
-1️⃣ Go to your gallery and copy the job ID.
-2️⃣ In Discord, use the [/show command](https://docs.midjourney.com/docs/show-job) followed by the job ID.
-
-__Note:__ You can keep all your images visible by generating in [Direct Messages](https://docs.midjourney.com/docs/direct-messages) with the bot.
+__Note:__ This does not happen when you create images in your [Direct Messages](https://docs.midjourney.com/docs/direct-messages) with the bot.
 
 ---
 
 # -------------------- -------------------- --------------------
 # -------------------- PROMPT CRAFT --------------------
 # -------------------- -------------------- --------------------
-
 
 Q: What is –test? What is –testp? What is test? What is testp? What is –creative?
 [Read about test, testp, and creative](https://discord.com/channels/662267976984297473/1021457377964339233/1021457377964339233)
@@ -1508,7 +1517,7 @@ Q: How do I make my image more clear?  Why did Midjourney leave out things from 
 
 Check out how to structure your prompt in the [Midjourney documentation](https://docs.midjourney.com/docs/en/prompts-2).
 
-Engage in our [#prompt-chat](https://discord.com/channels/662267976984297473/992207085146222713) community to discuss prompts with other users.
+Participate in our [#prompt-craft](https://discord.com/channels/662267976984297473/992207085146222713) community to discuss prompts with other users.
 
 ---
 
@@ -1516,7 +1525,7 @@ Q: Does Midjourney know about this style, artist, movie, game, or media?
 
 Midjourney has a wide variety of subjects and topics in its dataset. If you find it is unfamiliar with a topic you reference in your prompt, you may need to be more specific. You can also try to provide an [image prompt](https://docs.midjourney.com/docs/image-prompts), [character reference](https://docs.midjourney.com/docs/character-reference), or [style reference](https://docs.midjourney.com/docs/style-reference).
 
-Engage in our [#prompt-chat](https://discord.com/channels/662267976984297473/992207085146222713) community to discuss prompts with other users.
+Participate in our [#prompt-craft](https://discord.com/channels/662267976984297473/992207085146222713) community to discuss prompts with other users.
 
 ---
 
@@ -1524,13 +1533,13 @@ Q: How can I make a weapon like a sword, gun, bow and arrow?
 
 [Some tips about creating weapons](https://discord.com/channels/662267976984297473/1025152459011801230/1025152459011801230)
 
-Engage in our [#prompt-chat](https://discord.com/channels/662267976984297473/992207085146222713) community to discuss prompts with other users.
+Participate in our [#prompt-craft](https://discord.com/channels/662267976984297473/992207085146222713) community to discuss prompts with other users.
 
 ---
 
 Q: How do I get a human with blue skin? How to get a fantasy color skin? How do I get a person with purple skin? How do I get a human with an unnatural skin tone?
 
-Engage in our [#prompt-chat](https://discord.com/channels/662267976984297473/992207085146222713) community to discuss prompts with other users.
+Participate in our [#prompt-craft](https://discord.com/channels/662267976984297473/992207085146222713) community to discuss prompts with other users.
 
 ---
 
@@ -1557,7 +1566,7 @@ Q: How can I reliably get two people in one image? How do I get two people in a 
 
 [Some tips about prompting for multiple subjects](https://discord.com/channels/662267976984297473/1187275125960216617/1187275125960216617)
 
-Engage in our [#prompt-chat](https://discord.com/channels/662267976984297473/992207085146222713) community to discuss prompts with other users.
+Participate in our [#prompt-craft](https://discord.com/channels/662267976984297473/992207085146222713) community to discuss prompts with other users.
 
 ---
 
@@ -1566,7 +1575,7 @@ Q: How do I get a full body picture? How do I get the whole person in the image?
 Include a composition description, such as `full-length portrait` or `full body shot`, to indicate that you want to see the entire person. For more strength, describe the character from head to toe. Don’t forget to include its pose, or the bot will decide based on your image’s aspect ratio.
 For example: `Full body shot of a man with short hair, running wearing boots`
 
-Engage in our [#prompt-chat](https://discord.com/channels/662267976984297473/992207085146222713) community to discuss prompts with other users.
+Participate in our [#prompt-craft](https://discord.com/channels/662267976984297473/992207085146222713) community to discuss prompts with other users.
 
 ---
 
@@ -1575,7 +1584,7 @@ Q: How do I specify a color in my prompt? Can I control color? Can I use CMYK? C
 At the moment, Midjourney does not understand color codes. To specify a color or tones, use words.
 For example: mauve purple, cobalt blue, or pastel colored, vibrant colored etc.
 
-Engage in our [#prompt-chat](https://discord.com/channels/662267976984297473/992207085146222713) community to discuss prompts with other users.
+Participate in our [#prompt-craft](https://discord.com/channels/662267976984297473/992207085146222713) community to discuss prompts with other users.
 
 ---
 
@@ -1584,7 +1593,7 @@ Q: How do I get text or words in an image? How can I add text to my images? Is i
 Add text to your image by typing it in "quotes". Make sure you’re using version 6 (current default version).
 Example prompt: `Sci-fi movie poster with title text "Aliens!" --v 6`
 
-Engage in our [#prompt-chat](https://discord.com/channels/662267976984297473/992207085146222713) community to discuss prompts with other users.
+Participate in our [#prompt-craft](https://discord.com/channels/662267976984297473/992207085146222713) community to discuss prompts with other users.
 
 ---
 
@@ -1628,7 +1637,5 @@ You can see the image selection for a code by replacing the Styler Tuner code an
 [More community tips](https://discord.com/channels/662267976984297473/1169353167641776308/1170104256934707232)
 
 __Note:__ If you get an error, the code might have been a random one so it doesn’t have a Style Tuner.
-
-
 
 ---
