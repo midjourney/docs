@@ -81,7 +81,7 @@ Open your settings on the right side of the `Imagine...` bar.
 
 # - IMAGINE -
 
-Q: Where do I generate images? How to use alpha? How to make an image? How do I use the bot? How do I use it? How do I make art? How do I use Midjourney? How do I prompt? How can I ask the AI to create an image? How do I get started? Where can I start? How do I use the AI? How do I use this? Where do I type my prompt? Where to send commands? When I enter a prompt nothing happens? Where do I write imagine prompt to generate the photos I want? /imagine? Where do I type imagine? /imagine? 
+Q: Where do I generate images? How to use alpha? How to make an image? How do I use the bot? How do I use it? How do I make art? How do I use Midjourney? How do I prompt? How can I ask the AI to create an image? How do I get started? Where can I start? How do I use the AI? How do I use this? Where do I type my prompt? Where to send commands? When I enter a prompt nothing happens? Where do I write imagine prompt to generate the photos I want? /imagine? Where do I type imagine? /image? /imagine prompt:? 
 
 To generate images: enter a description of the image you want in the `Imagine…` textbox located at the top of the page and press enter to generate a set of four images in your [Create](https://www.midjourney.com/imagine) space.
 
@@ -228,13 +228,7 @@ To choose what `Speed` mode to use, open your settings on the right side of the 
 # - TRIAL -
 # -----------------------------
 
-Q: Do I get free? Can I be a free user? Use as a free user? Is there a free version? Why isn’t this free? Can you give me free access? Not free? Can I use the program for free?
 
-**Welcome!** Midjourney does not provide a free tier or trial due to the costs associated with operating hundreds of GPUs. To use the bot, you will need a subscription. You can subscribe to the plan of your choice through your [`Manage Subscription` page](https://www.midjourney.com/account).
-
-If you have an active subscription, you can try and win [free bonus fast time](https://docs.midjourney.com/docs/free-hours).
-
----
 
 # -----------------------------
 # - SUBSCRIPTION -
@@ -312,6 +306,14 @@ Contact billing@midjourney.com for any inquiry or issue regarding your magazine 
 Q: What is my User ID? Where can I find my User ID? User ID? userid? What is userid? How do I get my User ID? MJ ID?
 
 When using Midjourney, you are assigned a unique Midjourney ID to identify your account. If you signed in via Google, go to your `Manage Profile` page to find it. On Discord, use the command `/userid`.
+
+---
+
+Q: Delete account? How to delete my account? Data deletion?
+
+To delete your Midjourney account and its data, go to the bottom of your [`Manage Subscription` page](https://www.midjourney.com/account) and click on `How can I delete my account?`. Follow the red `Click here` link, and proceed to confirm the data deletion request.
+
+*If you only want to cancel your subscription’s automatic renewal, click on `Cancel plan` at the top of that page*.
 
 ---
 
