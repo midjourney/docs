@@ -40,16 +40,41 @@
 
 # -------------------- --INTERFACE- --------------------
 
-Q: What do the U1, V1, etc. buttons do? U, V buttons? How do I upscale? How do I create variations? What does U and V do? What is U1-4, V1-4? What is an upscale? What is a variation?
+Q: What do the U1, V1, etc. buttons do? U, V buttons? What does U and V do? What is U1-4, V1-4? 
 
-**U** UPSCALE: The U🔢 buttons separate your chosen image from the grid, making it easier to download and giving you access to additional editing and generation tools.
+**U** UPSCALE: The U🔢 buttons separate your chosen image from the grid, giving you access to additional editing and generation tools.
 
 **V** VARIATION: The V🔢 buttons create 4 [variations](https://docs.midjourney.com/docs/variations) of the selected image while keeping the style and composition.
 
-Clicking on U doesn't use GPU time in version 5 and 6 but upscales creative, subtle, 2x and 4x consume several GPU minutes. [Read more about upscales](<https://docs.midjourney.com/docs/upscalers>)
+Clicking on U doesn't use GPU time in the current version 6 but upscales creative and subtle consume several GPU minutes. [Read more about upscales](<https://docs.midjourney.com/docs/upscalers>)
 Variations use GPU time.
 
 %image=https://cdn.discordapp.com/attachments/958191534208061450/1017592980053438494/1234.png
+
+---
+
+Q: How do I upscale? What is an upscale? 
+
+Click on U🔢 buttons to separate an image from the grid and get options to modify this image. *This does not use any GPU time.*
+
+You can then **upscale the image to double the size**. *This uses about double the GPU time used to create a grid.*
+🔹`Upscale (Subtle)` is the closest match to the original image.
+🔹`Upscale (Creative)` adds the most detail when upscaling an image.
+Running the upscale again will give you a different result.
+
+[Read more about Upscalers](https://docs.midjourney.com/docs/upscalers)
+
+---
+
+Q: What is a variation? How do I create variations?
+
+Click on V🔢 buttons under a grid, or `Vary` (subtle or strong) under a single image, to generate new images based on it. 
+🔹`Vary (Subtle)` retains the basic composition and colors, creating four new images with slightly different details.
+🔹`Vary (Strong)` creates four new interpretations of your prompt, while referencing elements of the original.
+
+__Note:__ Use the command </settings:1000850743479255081> to set the mode used for V🔢 buttons. `Low Variation mode` for `Vary (Subtle)`. `High Variation mode` for `Vary (Strong)`.
+
+[Read more about Variations](https://docs.midjourney.com/docs/variations)
 
 ---
 
@@ -433,16 +458,18 @@ The refund time depends on your bank, it can take up to 10 business days for the
 
 # -------------------- SWITCH PLANS --------------------
 
-Q: If I want to switch plans will I be charged the full amount? What if I go from basic plan to standard? Can I get the $10 sub and, if I run out, upgrade and just pay the difference? Can I get the $10 sub and if I run out upgrade and just pay the difference? If I switch to Standard it will be 20$ or 30$? Can I upgrade from basic to standard? How do I upgrade? Where do I upgrade? What do I have to do to upgrade? How to upgrade the plan? How can I upgrade my plan? Can I change my plan? Can I switch plans? How do I manage my plan? How do I change my subscription plan?
+Q: If I want to switch plans will I be charged the full amount? What if I go from basic plan to standard? Can I get the $10 sub and, if I run out, upgrade and just pay the difference? Can I get the $10 sub and if I run out upgrade and just pay the difference? If I switch to Standard it will be 20$ or 30$? Can I upgrade from basic to standard? How do I upgrade? Where do I upgrade? What do I have to do to upgrade? How to upgrade the plan? How can I upgrade my plan? Can I change my plan? Can I switch plans? How do I manage my plan? How do I change my subscription plan? How do I change my membership plan?
 
 Manage your subscription on your [Midjourney account page](https://www.midjourney.com/account/) on the website.
 
-Scroll down and click on `Subscribe` or `Change Commitment` to select a plan to switch to upon your next payment renewal.
+Scroll down and click on `Downgrade Plan`, `Upgrade Plan` or `Change Commitment` to select the plan you’d like to switch to upon your next payment renewal.
 For upgrades, you'll have the option to swap immediately with proration. This will reset your renewal date and upgrade your plan instantly.
 
 __Note:__ Proration is calculated based on your unused monthly fast time.
 If you've used all your fast time on the Basic plan, Standard will cost the full price.
 If you've not used any fast time of your Basic plan, Standard will cost US$20 (+VAT).
+
+To change from a Yearly plan to a higher tier Monthly plan, or for any further assistance with your subscription and payments, email `billing@midjourney.com`.
 
 ---
 
@@ -506,7 +533,7 @@ Contact `billing@midjourney.com` for further assistance.
 
 ---
 
-Q: Billing issue? Billing question? Need billing help? Billing support? Billing inquiry? I have been charged twice? I paid but I still can't generate images?
+Q: Billing issue? Billing question? Need billing help? Billing support? Billing inquiry? I have been charged twice? I paid but I still can't generate images? I need the Certificate of Tax residency?
 
 Reach out to our billing support team by sending an email to `billing@midjourney.com`.
 
@@ -545,40 +572,21 @@ Contact `billing@midjourney.com` for further assistance.
 
 ---
 
-Q: payment Error: zip code doesn’t match? Zip code error? Saying my zip code is wrong? My zip code is right? Saying my zip code is wrong but it’s not?
+Q: Your payment method requires you to take additional action to complete the transaction?
 
-Go to your [`Manage Subscription` page](https://www.midjourney.com/account) and click on the `Edit Billing` button. Add your card details as an *entirely new* payment method, and use the `…` button to set it as your new default payment method.
+On your [`Manage Subscription` page](https://www.midjourney.com/account), click on "[Edit Billing](https://billing.stripe.com/p/login/aEUdRA5Wc8t25a03cc)" and scroll down to your invoices at the bottom.
+Open the pending invoice and confirm the transaction.
 
-Contact `billing@midjourney.com` for further assistance.
-
----
-
-Q: payment Error: user missing a default payment method in stripe? Default payment? Default payment method?
-
-To solve this bug, go to your [`Manage Subscription` page](https://www.midjourney.com/account) and click on the "Edit Billing" button.
-
-When you get to the new page, look for the `...` button next to your payment method and click it, then press make default.
-
-Contact `billing@midjourney.com` for further assistance.
+Contact `billing@midjourney.com` if you encounter an error or require further assistance.
 
 ---
 
-Q: Why can't I upgrade my subscription? Something went wrong :( This may be due to insufficient funds? Error: Couldn't upgrade your plan. Please reach out to support? I'm trying to upgrade my plan but the payment keeps getting rejected?
+Q: Why can't I upgrade my subscription? Something went wrong :( This may be due to insufficient funds? Error: Couldn't upgrade your plan. Please reach out to support? I'm trying to upgrade my plan but the payment keeps getting rejected? I can’t upgrade? I cannot upgrade?
 
 On your [`Manage Subscription` page](https://www.midjourney.com/account), click on `Edit Billing` and make sure all your details are up to date. Check your account balance and spending limits, and reach out to your bank to make sure they’re not blocking the payment.
 If the problem persists, contact `billing@midjourney.com`.
 
 __**If you’re using Alipay:**__ You cannot upgrade on the website. Email `billing@midjourney.com` for assistance.
-
----
-
-Q: Error: The PaymentMethod provided (link) is not allowed for this PaymentIntent? Link payment error?
-
-This error occurs when your default payment method has been linked from Stripe instead of entered manually. To fix it, go to your [`Manage Subscription` page](https://www.midjourney.com/account) and click on the `Edit Billing` button.
-
-When you get to the new page, look for the `Add a payment method` and re-enter your card details manually, without using any auto-fill. Once you see your card information with an expiration date instead of the stylized `link` text, click the `…` next to it and select `Make default`.
-
-Contact `billing@midjourney.com` for further assistance.
 
 ---
 
@@ -616,6 +624,16 @@ To request your account to be set to reverse charge, please email `billing@midjo
 - Your valid VAT number
 
 The billing information on your subscription must match the information associated with your VAT number. Once we’ve confirmed you’re eligible, we'll make the necessary adjustments to your account.
+
+---
+
+# -------------------- GOOGLE LOGIN --------------------
+
+Q: How to change Google account? Help linking Discord and Google? This Discord login is already linked to a different account? I am unable to connect my Discord login with my Google login? 
+
+For help with linking accounts, reach out to our billing support team by sending an email to `billing@midjourney.com`.
+
+Include your User ID which you can find with the command </userid:1136041075614683196>. If possible, provide further details such as your receipt number or invoice number, steps to reproduce the issue you're having, screenshot(s) of the error you encounter, different emails you may have used, etc.
 
 ---
 
@@ -807,7 +825,7 @@ You can add text, image prompts, and other parameters to guide the results.
 
 Q: What is cref? What is the cref parameter? What does cref do? What does the cref parameter do? cref?
 
-The `--cref` parameter is an image used as a **character reference**. [Read more about Character Reference](https://docs.midjourney.com/docs/character-reference)
+The `--cref` parameter is used in a prompt, followed by one or more image links, to add a **character reference**. [Read more about Character Reference](https://docs.midjourney.com/docs/character-reference)
 
 ---
 
@@ -825,7 +843,7 @@ __Note:__ You can add text, image prompts, and other parameters to guide the res
 
 Q: What is sref? What is the sref parameter? What does sref do? What does the sref parameter do? sref?
 
-The `--sref` parameter is an image used as a **style reference**. [Read more about Style Reference](https://docs.midjourney.com/docs/style-reference)
+The `--sref` parameter is used in a prompt, followed by one or more image links, to add a **style reference**. [Read more about Style Reference](https://docs.midjourney.com/docs/style-reference)
 
 ---
 
@@ -859,6 +877,14 @@ To use the [Personalization feature](https://docs.midjourney.com/docs/personaliz
 Go to the [`Rank Images` page on the website](https://www.midjourney.com/rank), and select your favorite image between the two. If you're uncertain or don't like either, Press `→ Skip`.
 
 You can see how many images you've rated at the top; the personalization feature will work once you have a ranking count of about 200 images.
+
+---
+
+Q: Where do I see my ranking count? Where to rank images? Where to rate images?
+
+Go to the [`Rank Images` page on the website](https://www.midjourney.com/rank), and select your favorite image between the two. If you're uncertain or don't like either, Press `→ Skip`.
+
+You can see how many images you've rated at the top; the [personalization](https://docs.midjourney.com/docs/personalization) feature will work once you have a ranking count of about 200 images.
 
 ---
 
@@ -1006,7 +1032,7 @@ Participate in our [#prompt-craft](https://discord.com/channels/6622679769842974
 
 # -------------------- ----SEEDS----- --------------------
 
-Q: How do I get the seed or job id that was used for an image? No seed? Seed on upscale? Only grid seed? V5 seed? I can not get the seed? Can’t get the seed number? When I react with the envelope nothing happens, I don’t get the seed? How can I find the seed? How do I retrieve the seed number of an image? How do I get the seed of an image? Where to find seed? Where is seed?
+Q: How do I get the seed or job id that was used for an image? No seed? Seed on upscale? Only grid seed? I can not get the seed? Can’t get the seed number? When I react with the envelope nothing happens, I don’t get the seed? How can I find the seed? How do I retrieve the seed number of an image? How do I get the seed of an image? Where to find seed? Where is seed?
 
 To find an image’s seed number, open your image in [your archive](https://www.midjourney.com/archive) and in the image menu, click on `Copy` > `Seed`. You can only copy the seed of your own images.
 
@@ -1033,7 +1059,7 @@ __Note:__ Seeds are not reliable and change over time. They have no effect on ch
 
 Q: How to transfer an image to another channel? Can I move my image out of the newbies channel? Can I work with my old generations? My old generation is not responding to buttons? Can i upscale my old image from newbies channel? How to use /show?
 
-To transfer an image to another channel, or “revive” a job that's not working, use the [command `/show`](https://docs.midjourney.com/docs/show-job) followed by the image’s job ID.
+To transfer an image from the website to Discord, from one channel to another, or to “revive” a job you cannot interact with, use the [command `/show`](https://docs.midjourney.com/docs/show-job) followed by the image’s job ID.
 To find the Job ID, open the image in [your archive](https://midjourney.com/archive). In the menu, click on `Copy` > `Job ID`.
 
 %image=https://cdn.midjourney.com/u/d6f915c1-a3b1-425d-9934-3fb714cd8b7b/1f95af2fa68b8b8840fe63c114f7ef352a6d9273c7c4684b07f773f41f917844.png
@@ -1072,6 +1098,16 @@ Q: What is my User ID? Where can I find my User ID? User ID? userid? What is use
 
 When using Midjourney, you are assigned a unique Midjourney ID to identify your account. Use the command </userid:1136041075614683196> to find it.
 Your Discord ID is different, [here's a guide on how to find a Discord ID](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID).
+
+---
+
+Q: /describe? How to use /describe? What is /describe? Describe command?
+
+The command `/describe` gives you four prompts inspired by your image. [Read more about Describe](https://docs.midjourney.com/docs/describe)
+
+To use it, type `/describe`, select the command and click on:
+🔹`image` to upload an image from your device
+🔹`link` to paste the link to an image online
 
 ---
 
@@ -1137,7 +1173,8 @@ To find images you've hidden, go to your [Archive](https://www.midjourney.com/ar
 
 Q: How to access alpha?
 
-The creation tool on the website is now open to all members, simply sign into [the Midjourney website](https://www.midjourney.com/imagine). If you subscribed through Discord, make sure to sign in using the same Discord account. [Click here to discover how to create images on the website](https://docs.midjourney.com/docs/create-page)
+The creation tool on the [Midjourney website](https://www.midjourney.com/imagine) is now open to all members. If you subscribed through Discord, **make sure to sign in using the same Discord account.**
+[Click here to discover how to create images on the website](https://docs.midjourney.com/docs/create-page)
 
 __Note:__ You don't have to use public channels to create images on Discord. Right click here:  <@936929561302675456> and hit `Message` for a one on one chat with the Bot. You can also [create a server](https://support.discord.com/hc/en-us/articles/204849977-How-do-I-create-a-server) and [click here](https://discord.com/oauth2/authorize?client_id=936929561302675456) then `Add to Server` to organize your work.
 
@@ -1379,7 +1416,7 @@ Q: Bot down? Status? Is the bot down?
 
 You can check our [**status page**](https://status.midjourney.com/) and read the  <#942231458918064148> channel for updates.
 
-If you’re experiencing an issue not covered on the status page or channel, please describe your issue here. Include the full error message, if one exists.
+If you’re experiencing an issue not covered on the status page or channel, reach out for help in [#support](https://discord.com/channels/662267976984297473/958069758211797092).
 
 ---
 
@@ -1414,7 +1451,7 @@ If you want to bring a job back into Discord:
 
 ---
 
-Q: Describe Error? Error with describe? Error with /describe? 504 Deadline Exceeded?
+Q: 504 Deadline Exceeded?
 
 If you get the error “504 Deadline Exceeded” when trying to use the command `/describe`, it means the image file you are uploading is too large. Use a smaller image and try again.
 
@@ -1424,15 +1461,19 @@ If you get the error “504 Deadline Exceeded” when trying to use the command 
 # -------------------- WHERE ARE MY IMAGES?! --------------------
 # -------------------- -------------------- --------------------
 
-Q: How can I find my images? It’s moving too fast, how can I see only my images? How to search for my images? Where is the gallery? Where can I see my images? How do I search for my creations? How do you find your previous prompts? Where are my images? How can I find images that I generated? Mentions? Mention? How do I see my mentions? Where are my mentions? How can I find my image in discord? I lost my image? Mentions? I can’t find my mentions? I can’t find my image? Where is my artwork?
+Q: How can I find my images? It’s moving too fast, how can I see only my images? How to search for my images? Where can I see my images? How do I search for my creations? How do you find your previous prompts? Where are my images? How can I find images that I generated? Mentions? Mention? How do I see my mentions? Where are my mentions? How can I find my image in discord? I lost my image? Mentions? I can’t find my mentions? I can’t find my image? Where is my artwork?
 
-On the Midjourney website, click on [Organize](https://www.midjourney.com/archive) to find your image gallery (make sure to Sign in with the same Discord account).
+On the Midjourney website, click on [Organize](https://www.midjourney.com/archive) to find your gallery with all the images you’ve generated (make sure to Sign in with the same Discord account).
 
-To find your recent images and other messages addressed to you on Discord:
-🖥️ Desktop: Use the Inbox icon in the top right corner.
-📱 Mobile: Swipe right to see your channel list and look for the bell icon in the bottom menu.
+To find your recent images and other messages addressed to you on Discord, open your notifications.
+🖥️ On desktop: Use the Inbox icon in the top right corner.
+📱 On mobile: Swipe right to see your channel list and look for the :bell: icon in the bottom menu.
 
-%image=https://cdn.discordapp.com/attachments/978364411662196776/1053406611756027984/Mentions.png
+---
+
+Q: Where is the gallery? Archive? Where is the archive? Where is my image gallery on the website? Where can I see all my images?
+
+Sign into the Midjourney website with your Discord account and click on [Organize](https://www.midjourney.com/archive) to find your gallery with all the images you’ve generated.
 
 ---
 
@@ -1497,7 +1538,7 @@ Q: Ephemeral? What are ephemeral jobs? Why do my jobs disappear from Discord? My
 Some jobs may be temporary on Discord when using certain words or phrases in your prompt. The images are only visible to you and disappear when you close, refresh, or switch Discord pages. If the job is ephemeral, you’ll see the text "Only you can see this message" at the bottom of the bot's message.
 
 Don't worry, all these images are in [your archive](https://www.midjourney.com/archive) on the Midjourney website. To bring them back on Discord:
-1️⃣ Go to [your archive](https://www.midjourney.com/archive) and copy the job ID.
+1️⃣ Open the image in the [Organize](https://www.midjourney.com/archive) tab on the website and copy the job ID.
 2️⃣ In Discord, type the [command `/show`](https://docs.midjourney.com/docs/show-job) and paste the job ID.
 
 __Note:__ This does not happen when you create images in your [Direct Messages](https://docs.midjourney.com/docs/direct-messages) with the bot.
