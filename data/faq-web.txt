@@ -194,7 +194,7 @@ Fast mode starts your image right away but uses your limited GPU fast time. You 
 
 Q: What does fast hours mean? In the plan it never said that I have limited fast hours? How much can I use fast? Is fast mode unlimited? What is the difference between Relax, Fast and Turbo? How many images can I make with my fast time? What are fast hours?
 
-Similar to credits, creating an image uses GPU time. Each plan comes with a limited amount of monthly GPU fast time. There are three Speed modes to create images: `Fast` to start your image right away,  `Turbo` for double the cost to start your job right away and process it as fast as possible and `Relax` to create unlimited images without using your GPU fast time. *Relax mode is not available on the Basic plan.* [Read more about GPU time and Speed modes](https://docs.midjourney.com/docs/fast-relax)
+Similar to credits, creating an image uses GPU time. Each plan comes with a limited amount of monthly GPU fast time. There are three [Speed modes](https://docs.midjourney.com/docs/fast-relax) to create images: `Fast` starts the job right away and uses GPU time; `Turbo` generates much faster but uses twice as much GPU time; and `Relax` generates unlimited images without consuming GPU time. *Relax mode is not available on the Basic plan.*
 
 On average, an image job costs about 1 GPU minute. You can view how much fast time you have and buy more on your [`Manage Subscription` page](https://www.midjourney.com/account). 
 
@@ -317,6 +317,16 @@ To delete your Midjourney account and its data, go to the bottom of your [`Manag
 
 ---
 
+# -------------------- GOOGLE LOGIN --------------------
+
+Q: How to change Google account? Help linking Discord and Google? This Discord login is already linked to a different account? I am unable to connect my Discord login with my Google login? 
+
+For help with linking accounts, reach out to our billing support team by sending an email to `billing@midjourney.com`.
+
+Include your User ID which you can find on your [Manage Profile](https://www.midjourney.com/profile-settings) page. If possible, provide further details such as your receipt number or invoice number, steps to reproduce the issue you're having, screenshot(s) of the error you encounter, different emails you may have used, etc.
+
+---
+
 # - METERED -
 
 Q: If we go over our limit of fast hours does it let us know? Or just start billing for the extra hourly time with no warning? If I use up minutes, can I get more without paying? Can you accidentally get a big bill? What if I run out of fast-gpu hours? What if I run out of fast time? What does it mean when it says that I have no more fast hours?
@@ -348,7 +358,7 @@ Contact billing@midjourney.com if you encounter an error or need further assista
 Q: Cancel with refund? Cancel and refund? How do I get a refund? How to refund? Can this be refunded? I would like to request a refund? How do I apply for refund? Can I request a refund? I want to cancel my subscription and get a refund? Get a refund? Refund? I want a refund? Refund me? Can I apply for a refund? How to request a refund? I want refund? Please refund me?
 
 You are eligible for a refund if you’ve used less than 20 GPU minutes **__lifetime__**. On your [`Manage Subscription` page](https://www.midjourney.com/account), click `Cancel Plan`. If you’re eligible, you will have the option to `Cancel immediately with refund`; select it and confirm.
-**Contact billing@midjourney.com for further assistance.**
+Contact billing@midjourney.com for further assistance.
 
 %image=https://s.mj.run/KlmtLQqtqQM
 
@@ -607,7 +617,7 @@ Subscribers to the Pro and Mega plan can bulk unpublish their images from the we
 # - UPSCALE & SIZE -
 # -----------------------------
 
-Q: How do I change my aspect ratio? How to change aspect ratio? How can I specify image width? How can I specify image height? How can I change the dimensions? How to make not square images? What is the prompt for width and height? Can I adjust the width and height? What is --ar? How do I make a desktop background? How do I make 16:9?
+Q: How do I change my aspect ratio? How to change aspect ratio? How can I specify image width? How can I specify image height? How can I change the dimensions? How to make not square images? What is the prompt for width and height? Can I adjust the width and height? What is --ar? How do I make a desktop background? How do I make 16:9? Can I use a specific non standard ratio?
 
 You can change the aspect ratio of generated images by clicking on the Settings icon at the right side of the `Imagine…` textbox. On the left side, under `Image Size`, select either `Portrait` or `Landscape` orientation, or use the slider to select a specific aspect ratio.
 
