@@ -72,8 +72,7 @@ Click on V🔢 buttons under a grid, or `Vary` (subtle or strong) under a single
 🔹`Vary (Subtle)` retains the basic composition and colors, creating four new images with slightly different details.
 🔹`Vary (Strong)` creates four new interpretations of your prompt, while referencing elements of the original.
 
-__Note:__ Use the command </settings:1000850743479255081> to set the mode used for V🔢 buttons. `Low Variation mode` for `Vary (Subtle)`. `High Variation mode` for `Vary (Strong)`.
-
+__Note:__ Use the command </settings:1000850743479255081> to set the mode used for V🔢 buttons.
 [Read more about Variations](https://docs.midjourney.com/docs/variations)
 
 ---
@@ -222,8 +221,7 @@ Midjourney runs on datacenter grade graphics cards, it can only be used through 
 
 Q: What are optional credit top-ups? Top-ups? What does optional credit pop-ups mean in plan details? What if I run out of fast-gpu hours? What if I run out of fast time? How do I enable the additional fast time?
 
-You can purchase additional fast GPU hours at the current rate of US$4 per hour (plus VAT). These purchased GPU hours do not expire, but you must have an active subscription to use them.
-You can buy them via your [`Manage Subscription` page](https://www.midjourney.com/account) on the Midjourney website.
+You can purchase additional fast GPU hours through your [`Manage Subscription` page](https://www.midjourney.com/account/) at US$4 per hour (+ VAT). These purchased hours roll over to the next month but expire after 60 days. An active subscription is required to use them.
 
 __Note:__ These hours are used after your monthly and bonus GPU fast time.
 
@@ -240,7 +238,7 @@ Q: How do I go into Relax mode? How do I turn on Relax mode? How do I start Rela
 To toggle between Relax, Fast and Turbo mode, use the commands `/relax`, `/fast` or `/turbo`.
 🔹Images made in Relax mode take longer to complete but are unlimited.
 🔹Images made in Fast mode are quicker to start but use your limited GPU fast time.
-🔹Images made in Turbo mode are generated much faster but consume up to four times the cost of a `Fast` generation.
+🔹Images made in Turbo mode are generated much faster but consume twice the cost of a `Fast` generation.
 
 __Note:__ Relax mode is not available on the Basic plan.
 [Read more about GPU time and Speed modes.](https://docs.midjourney.com/docs/fast-relax)
@@ -266,7 +264,7 @@ Q: What is fast mode? What does fast hours mean? Fast time? What is relax mode? 
 We've got three Speed modes to generate images. Use the commands `/relax`, `/fast` or `/turbo` to select the speed you want:
 🔹**Relax** mode adds your job to a dynamic queue, it can be slower but is unlimited.
 🔹**Fast** mode starts your image right away but uses your limited GPU fast time.
-🔹**Turbo** mode starts your job right away and processes it as fast as possible but consumes four times as much GPU time as in Fast mode.
+🔹**Turbo** mode starts your job right away and processes it as fast as possible but consumes twice as much GPU time as in Fast mode.
 
 Each plan comes with a limited amount of monthly GPU fast time. You can buy more on [your account page](https://www.midjourney.com/account/) on the website.
 The Basic plan does not include access to Relax mode.
@@ -279,7 +277,7 @@ Q: Do fast hours roll over? Do I keep my unused fast hours? Will my time get add
 
 🔹**Monthly fast time does not roll over**. It is reset with each monthly renewal.
 🔹Bonus hours from ranking expire one month (30 days) after being awarded.
-🔹Additional purchased fast hours do not expire.
+🔹Additional purchased fast hours expire after 60 days.
 
 __Note:__ To create images, you need an active subscription.
 
@@ -690,10 +688,19 @@ Subscribers to the Pro and Mega plan can bulk unpublish their images from the we
 # -------------------- UPSCALE & SIZE --------------------
 # -------------------- -------------------- --------------------
 
-Q: How do I change my aspect ratio? How to change aspect ratio? How can I specify image width? How can I specify image height? How can I change the dimensions? How to make not square images? What is the prompt for width and height? Can I adjust the width and height? What is --ar? How do I make a desktop background? How do I make 16:9?
+Q: How do I change my aspect ratio? How to change aspect ratio? How can I specify image width? How can I specify image height? How can I change the dimensions? How to make not square images? What is the prompt for width and height? Can I adjust the width and height? What is --ar? How do I make a desktop background?
 
 Change the aspect ratio of your image by including the `--ar` parameter at the end of your prompt.
 For example: `a robot on a sailboat --ar 2:1`
+
+[Read more about Aspect Ratio](https://docs.midjourney.com/docs/aspect-ratios)
+
+---
+
+Q: How do I make 16:9?
+
+Change the aspect ratio of your image by including the `--ar` parameter at the end of your prompt.
+For example: `a robot on a sailboat --ar 16:9`
 
 [Read more about Aspect Ratio](https://docs.midjourney.com/docs/aspect-ratios)
 
@@ -735,22 +742,14 @@ Beta upscale is an upscaler for Version 3 and 4. It uses a different algorithm t
 
 Q: What is the maximum upscale resolution? What is the maximum resolution?  How can I set the resolution? Can I make a 4K image? Can I make a 300 DPI image? Can I make the resolution higher? Can I print my image? Is it possible to save my creations in high resolution, so I can print them out as posters? Is there a way to set the resolution to 2k and higher? How do I choose a resolution? How do I increase my image’s resolution?
 
-For square images, the upscalers will produce the following:
-v5, 5.1, 5.2, 6.0 grid upscale: 1024x1024 px
-v5, 5.1, 5.2 (2x) Upscaler: 2048 x 2048 px
-v5, 5.1, 5.2 (4x) Upscaler: 4098 x 4098 px
-v6 (Creative) and (Subtle) Upscaler: 2048 x 2048 px
+For square images in the current version, the upscalers will produce the following:
+A grid upscale: 1024x1024 px
+A (Creative) and (Subtle) Upscale: 2048 x 2048 px
 
 Custom aspect ratios set using `--ar` will change the width and height of the image, but not the max file size.
 
 [Read more about resolution and upscalers](https://docs.midjourney.com/docs/upscalers)
-If you need larger or higher resolution images, please look into 3rd party upscale softwares.
-
----
-
-Q: Is the v4 upscaler broken? Why are my Version 4 upscales coming out different?
-
-The default upscaler for v4 takes the prompt into account, unlike previous upscalers. This means it sometimes makes changes to the grid image as part of the process...for better or for worse. If you don’t like the results, try the `Beta Upscale Redo` button. The beta upscaler tends to stick closer to the grid image than the Version 4 default upscaler.
+__Note:__ Rolling a (Creative) or (Subtle) upscale another time will still produce a 2048 x 2048 px result. If you need larger or higher resolution images, you can look into 3rd party upscale softwares.
 
 ---
 
@@ -766,12 +765,23 @@ If you want an Upscale (4x) you need to go back to --v 5.2. Use the command </se
 # -------------------- PARAMETERS --------------------
 # -------------------- -------------------- --------------------
 
-Q: Is there documentation? Where can I find all the commands? Is there documentation? Is there an exhaustive list of arguments somewhere we can look at? Where can I find a reference of the various parameters for imagine? What are all the suffixes I can use? Can anyone help me with the commands syntax please? Can I have the user manual? Where do I find documentation?
+Q: Is there documentation? Is there documentation? Can anyone help me with the commands syntax please? Can I have the user manual? Where do I find documentation?
 
-Check out our [Midjourney Documentation](https://docs.midjourney.com/)
+Check out the [Midjourney Documentation](https://docs.midjourney.com/)
 
 ---
 
+Q: Where can I find all the commands? Is there a list of all the commands?
+
+Check out the [Midjourney Documentation](https://docs.midjourney.com/docs/command-list)
+
+---
+
+Q: Is there an exhaustive list of arguments somewhere we can look at? Where can I find a reference of the various parameters for imagine? What are all the suffixes I can use? What are all the parameters? Is there a list of all the parameters?
+
+Check out the [Midjourney Documentation](https://docs.midjourney.com/docs/parameter-list)
+
+---
 Q: How do you reset custom suffix? How do you reset your parameters? Can I reset my settings? Why am I getting this message about an unrecognized argument? Invalid argument unrecognized argument? I can't remove the option –upbeta or –uplight in settings?
 
 To reset suffixes automatically added to your prompts, use the command </settings:1000850743479255081> and click on `Reset Settings`.
@@ -790,7 +800,7 @@ The Quality buttons have been removed from the </settings:1000850743479255081> p
 Q: What does quality do? How do you use --q? How do you use quality? What is --q?
 
 The `--quality` parameter (`--q`) changes how much time is spent generating an image.
-With the current Version 6.1, you can use the following values: `0.25`, `0.5`, `1` and `2`. The default value is 1.
+With the current Version 6.1, you can use the following values: `0.5`, `1` and `2`. The default value is 1.
 For example: `Blurry glitch art of a bat --q 0.5`
 
 [Read more about the Quality parameter](https://docs.midjourney.com/docs/quality)
@@ -815,7 +825,7 @@ The default value of the `--stylize` parameter is 100. You can adjust it by addi
 Q: How to have the same character made but in different scenes? Can I keep the same character in my images? Is there an option to keep the same character? How to use --cref? Can I add a character reference?
 
 You can use the Character Reference parameter `--cref` followed by a space and a link to your image for the characters in your results to be based on a specific image. You can add multiple links to have multiple character references, make sure to have a space between each link.
-For example: `Short blond man holding a puppy --cref https://pic2.png`
+For example: `Short blond man holding a puppy --cref https://pic1.png https://pic2.png`
 
 __Note:__ The `--cref` parameter works best with references created in Midjourney.
 You can add text, image prompts, and other parameters to guide the results.
@@ -834,7 +844,7 @@ The `--cref` parameter is used in a prompt, followed by one or more image links,
 Q: How to have the same style? Can I keep the same style? Is there an option to keep the same style? How to use --sref? Can I use a specific style? Can I use a style reference? Can I have the same style as an image?
 
 You can use the Style Reference parameter `--sref` followed by a space and a link to your image for the style in your results to be based on a specific image. You can add multiple links to have multiple style references, make sure to have a space between each link.
-For example: `Yellow ghost and pirate alien --sref https://pic2.png`
+For example: `Yellow ghost and pirate alien --sref https://pic1.png https://pic2.png`
 
 __Note:__ You can add text, image prompts, and other parameters to guide the results.
 [Read more about Style Reference](https://docs.midjourney.com/docs/style-reference)
@@ -877,6 +887,8 @@ To use the [Personalization feature](https://docs.midjourney.com/docs/personaliz
 Go to the [`Rank Images` page on the website](https://www.midjourney.com/rank), and select your favorite image between the two. If you're uncertain or don't like either, Press `→ Skip`.
 
 You can see how many images you've rated at the top; the personalization feature will work once you have a ranking count of about 200 images.
+
+__Note:__ Remove the parameter `--p` in your prompt, or disable `Personalization` in your </settings:1000850743479255081> if you do not want to use it.
 
 ---
 
@@ -1194,13 +1206,30 @@ To enable Stealth mode on the alpha website and keep all **__new__** images crea
 # -------------------- PERSONAL SPACE -----------
 # -------------------- -------------------- --------------------
 
-Q: How do I DM the bot? DM the bot? Where can I DM bot? How can I make a solo room? How do I open a private chat with the bot? Can I use imagine in DMs? Is it possible to DM the bot and not be in a very crowded busy channel? Can I generate my images privately? How do I start my own room for creating photos? Why don't I see any messages from the bot?
+Q: How do I DM the bot? DM the bot? Where can I DM bot? How can I make a solo room? How do I open a private chat with the bot? Can I use imagine in DMs? Is it possible to DM the bot and not be in a very crowded busy channel? How do I start my own room for creating photos? Why don't I see any messages from the bot?
 
-Subscribers can use commands in Direct Messages (DMs) with the Bot. Right click here:  <@936929561302675456> and hit `Message`.
+Subscribers can use commands in Direct Messages (DMs) with the Bot. Right click here: <@936929561302675456> and hit `Message`.
 
 __Note:__ Images created in DMs are visible to everyone on the [Midjourney website](https://www.midjourney.com/explore), unless you have a Pro or Mega plan and have activated [Stealth Mode](https://docs.midjourney.com/docs/stealth).
 
 %image=https://cdn.discordapp.com/attachments/1259116844430655488/1261450361059672075/MessageBot.gif
+
+---
+
+Q: My chat bot disappeared, how do I find it? My chat bot disappeared, how do I get it back? I closed my chat with the bot, how do I get it back? I closed my chat with the bot, how do I find it? How do I get back to my personal chat with the bot?
+
+To open your Direct Messages (DMs) with the Bot: click the Discord icon in the top left corner, then open your discussion with the Midjourney Bot.
+You can also right click here: <@936929561302675456> and hit `Message`.
+
+---
+
+Q: Can I generate my images privately?
+
+Subscribers can use commands in Direct Messages (DMs) with the Bot. Right click here:  <@936929561302675456> and hit `Message`.
+
+By default, your prompts and images are public on the [Midjourney website](https://www.midjourney.com/explore). [Stealth mode](https://docs.midjourney.com/docs/stealth) is a feature of the Pro and Mega plans that allows you to make your images private (unpublished) so they cannot be viewed by others on the website.
+
+To enable Stealth mode and keep all **__new__** images private on the Midjourney website: run the `/stealth` command.
 
 ---
 
@@ -1290,7 +1319,8 @@ You can also explore our [News page](https://www.midjourney.com/updates) for the
 
 Q: Are there any plans to make this into its own software/application? Are there plans for a stand-alone application? Will MJ ever go for a stand-alone platform, without Discord? Is there a web version? Can I generate online? Do I have to use Discord?
 
-You can also create images on the [Midjourney website](https://www.midjourney.com/imagine)! If your subscription is on Discord, make sure to sign in with Discord.
+You can also create images on the [Midjourney website](https://www.midjourney.com/imagine)! If your subscription is purchased through your Discord account, make sure to sign in with Discord.
+
 [Discover how to create images on the website](https://docs.midjourney.com/docs/create-page)
 
 ---
@@ -1660,7 +1690,13 @@ In Version 5.2, combine multiple codes in one parameter with a hyphen, such as `
 
 ---
 
-Q: Are Style Tuners private? Can I share a my style tuner? Can I use someone else’s style tuner?
+Q: How do I find all style tuners I created?
+
+You can find all your style tuners with the command </list_tuners:1181338718158721086>.
+
+---
+
+Q: Are Style Tuners private? Can I share my style tuner? Can I use someone else’s style tuner?
 
 Your Style Tuner links are public, you can send it to other users for them to select their own favorite images. You can also share or use style codes created by friends.
 
