@@ -1,3 +1,8 @@
+
+
+
+
+
 # TOC
 # Basics
 # GPU
@@ -138,7 +143,7 @@ Midjourney runs on datacenter grade graphics cards, it can only be used through 
 
 Q: What are optional credit top-ups? Top-ups? What does optional credit pop-ups mean in plan details? How do I enable the additional fast time?
 
-You can purchase additional fast GPU hours at the current rate of US$4 per hour (plus VAT). These purchased GPU hours do not expire, but you must have an active subscription to use them. You can buy them via your [`Manage Subscription` page](https://www.midjourney.com/account/).
+You can purchase additional fast GPU hours through your [`Manage Subscription` page](https://www.midjourney.com/account/) at US$4 per hour (+ VAT). These purchased hours roll over to the next month but expire after 60 days. An active subscription is required to use them.
 
 __Note:__ These hours are used after your bonus and monthly GPU fast time.
 
@@ -206,7 +211,7 @@ Q: Do fast hours roll over? Do I keep my unused fast hours? Will my time get add
 
 ◆ **Monthly fast time does not roll over**. It is reset with each monthly renewal.
 ◆ Bonus hours from ranking expire one month (30 days) after being awarded.
-◆ Additional purchased fast hours do not expire.
+◆ Additional purchased fast hours expire after 60 days.
 
 __Note:__ To create images, you need an active subscription.
 
