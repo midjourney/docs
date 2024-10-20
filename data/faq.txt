@@ -194,13 +194,14 @@ Q: What does Remaster do? What is Remaster? What is the Remaster Button?
 
 Q: What is GPU time? What is a GPU minute? Does the reroll/variation/upscale each count as a generation in terms of the limits? 4 small images count as 1 job? How many images is one query? What is a query? Do upscales cost GPU time? Do variations use GPU time?
 
-Similar to credits, creating an image uses GPU time. How long you wait in “real life time” does not affect how much GPU time is consumed. [Read more about GPU and Speed modes](https://docs.midjourney.com/docs/fast-relax)
-
-With the latest models:
+Similar to credits, creating an image uses GPU time. With the latest version 6.1:
 - `/imagine`: Costs about 1 GPU minute
 - Variations: Cost slightly less GPU time
-- Initial Upscales: Split the existing grid, they cost no extra GPU time (in v5 and v6)
+- Grid Upscales: Split the existing grid, they cost no extra GPU time (in v5 and v6)
 - 2x/4x/Creative/Subtle Upscale: Cost more GPU time
+
+How long you wait in “real life time” does not affect how much GPU time is consumed.
+[Read more about GPU and Speed modes](https://docs.midjourney.com/docs/fast-relax)
 
 ---
 
@@ -210,6 +211,15 @@ Use the command </info:972289487818334209> to check your status and usage.
 This also updates your roles and access.
 
 `Fast Time Remaining` shows how much fast GPU time you have available.
+
+---
+
+Q: How many images can I make?
+
+Use the command </info:972289487818334209> to check your status and usage.
+`Fast Time Remaining` shows how much fast GPU time you have available.
+
+On average, each generation consumes about 1 GPU minute. So if you have 200 GPU minutes, you can use the command `/imagine` approximately 200 times.
 
 ---
 
@@ -236,9 +246,9 @@ __Note:__ These hours are used after your monthly and bonus GPU fast time.
 Q: How do I go into Relax mode? How do I turn on Relax mode? How do I start Relax?  My images say "relaxed", how do I change this? Why are my images relaxed? How to get relaxed generation? Relax job? Relax generation? How to swap between relax and fast mode?
 
 To toggle between Relax, Fast and Turbo mode, use the commands `/relax`, `/fast` or `/turbo`.
-🔹Images made in Relax mode take longer to complete but are unlimited.
-🔹Images made in Fast mode are quicker to start but use your limited GPU fast time.
-🔹Images made in Turbo mode are generated much faster but consume twice the cost of a `Fast` generation.
+- Images made in Relax mode take longer to complete but are unlimited.
+- Images made in Fast mode are quicker to start but use your limited GPU fast time.
+- Images made in Turbo mode are generated much faster but consume twice the cost of a `Fast` generation.
 
 __Note:__ Relax mode is not available on the Basic plan.
 [Read more about GPU time and Speed modes.](https://docs.midjourney.com/docs/fast-relax)
@@ -261,7 +271,7 @@ Relax mode uses a dynamic queue to ensure equal resource access for everyone. Th
 
 Q: What is fast mode? What does fast hours mean? Fast time? What is relax mode? In the plan it never said that I have limited fast hours? 
 
-We've got three Speed modes to generate images. Use the commands `/relax`, `/fast` or `/turbo` to select the speed you want:
+There are three Speed modes to generate images. Use the commands `/relax`, `/fast` or `/turbo` to select the speed you want:
 🔹**Relax** mode adds your job to a dynamic queue, it can be slower but is unlimited.
 🔹**Fast** mode starts your image right away but uses your limited GPU fast time.
 🔹**Turbo** mode starts your job right away and processes it as fast as possible but consumes twice as much GPU time as in Fast mode.
@@ -316,6 +326,18 @@ Q: Do I get free images every month? Do I get free images every day? Can I be a 
 You can subscribe to the plan of your choice through your [`Manage Subscription` page](https://www.midjourney.com/account).
 
 If you have an active subscription, you can try and win [free bonus fast time](https://docs.midjourney.com/docs/free-hours).
+
+---
+
+Q: Can I get free bonus hours? How to get free bonus hours? Awarded fast hours?
+
+You can receive extra fast GPU hours for free!
+
+Fill out [available surveys](https://www.midjourney.com/surveys), or level up [your personalization](https://www.midjourney.com/personalize) for instant rewards.
+You can also try daily to get a bonus GPU hour: go to [Image Rankings](https://www.midjourney.com/tasks), select the type of ranking you want to do, and pick your favorite images. Every day, Midjourney gifts a bonus GPU hour to the 2000 users who ranked the most images that day :gift:
+
+__Note:__ **You need an active subscription to receive and use bonus hours.** Make sure to access the website with the right account.
+Bonus hours expire 30 days after being awarded.
 
 ---
 
@@ -380,7 +402,7 @@ Q: How do I cancel my Magazine? Cancel the magazine subscription? Cancel magazin
 
 You can update your shipping information or cancel your Midjourney Magazine subscription by using [this link](https://billing.stripe.com/p/login/aEUdRA5Wc8t25a03cc) and the email you receive your magazine receipts on.
 
-Contact `billing@midjourney.com` for further assistance.
+Please email `billing@midjourney.com` for further assistance.
 
 ---
 
@@ -388,7 +410,7 @@ Q: I want to order the magazine? Where could I buy a magazine?
 
 Visit the [Midjourney Magazine website](https://mag.midjourney.com/) to subscribe to the monthly magazine. You can also purchase other printed editions showcasing Midjourney images.
 
-Contact `billing@midjourney.com` for any inquiry or issue regarding your magazine payments.
+Please email `billing@midjourney.com` for any inquiry or issue regarding your magazine payments.
 
 ---
 
@@ -414,19 +436,19 @@ On your [Midjourney subscription page](https://midjourney.com/account), click `C
 
 You can cancel the automatic renewal at any time. Your plan will be canceled **at the end of your billing cycle** - enjoy all the perks and fast GPU time until then. If you change your mind, you can uncancel.
 
-Contact `billing@midjourney.com` if you encounter an error or need further assistance.
+Please email `billing@midjourney.com` if you encounter an error or need further assistance.
 
 %image=https://cdn.discordapp.com/attachments/1201909699793145876/1228317951598530621/Cancel.png
 
 ---
 
-Q: Cancel with refund? Cancel and refund? How do I get a refund? How to refund? Can this be refunded? I would like to request a refund?
+Q: Cancel with refund? Cancel and refund? How do I get a refund? How to refund? Can this be refunded? I would like to request a refund? I need a refund? How can I refund?
 
 On your [Midjourney subscription page](https://midjourney.com/account), click `Cancel Plan`. Your plan will be canceled **at the end of your billing cycle**.
 
 **__Refund:__** You are eligible for a full refund if you’ve used less than 20 GPU minutes **__lifetime__**. If you’re eligible, you will have the option to `Cancel immediately with refund`. Select that option, and confirm the immediate cancellation.
 
-Contact `billing@midjourney.com` if you do not get the option or if you receive an error.
+Please email `billing@midjourney.com` if you do not get the option or if you receive an error.
 
 %image=https://cdn.discordapp.com/attachments/1201909699793145876/1228317951598530621/Cancel.png
 
@@ -434,7 +456,7 @@ Contact `billing@midjourney.com` if you do not get the option or if you receive 
 
 Q: Can I switch from the yearly plan to the monthly plan? How can I change from the yearly plan to the monthly plan? How do I switch from yearly to monthly? I accidentally subscribed to yearly?
 
-If you chose the yearly plan instead of the monthly plan, you can try to cancel your subscription now with a refund and then subscribe to the monthly plan. On the [Midjourney account page](https://midjourney.com/account), click `Cancel Plan` and select the option `Cancel immediately with refund`. If you do not get the refund option, contact `billing@midjourney.com`. 
+If you chose the yearly plan instead of the monthly plan, you can try to cancel your subscription now with a refund and then subscribe to the monthly plan. On the [Midjourney account page](https://midjourney.com/account), click `Cancel Plan` and select the option `Cancel immediately with refund`. If you do not get the refund option, please email `billing@midjourney.com`. 
 
 If you want to switch plans upon your next renewal, select the plan of your choice and confirm the change.
 
@@ -467,7 +489,7 @@ __Note:__ Proration is calculated based on your unused monthly fast time.
 If you've used all your fast time on the Basic plan, Standard will cost the full price.
 If you've not used any fast time of your Basic plan, Standard will cost US$20 (+VAT).
 
-To change from a Yearly plan to a higher tier Monthly plan, or for any further assistance with your subscription and payments, email `billing@midjourney.com`.
+To change from a Yearly plan to a higher tier Monthly plan, or for any further assistance with your subscription and payments, please email `billing@midjourney.com`.
 
 ---
 
@@ -476,7 +498,7 @@ To change from a Yearly plan to a higher tier Monthly plan, or for any further a
 Q: Can I transfer my subscription to another account? I used the wrong account? I subscribed with the wrong account?
 
 Unfortunately, subscriptions cannot be transferred.
-If you are unable to access the account associated with your subscription, please contact `billing@midjourney.com`.
+If you are unable to access the account associated with your subscription, please email `billing@midjourney.com`.
 
 ---
 
@@ -516,7 +538,7 @@ If your payment was declined, you might notice a pending charge in your account.
 - Check your account balance and spending limits.
 - Reach out to your bank, if they declined it they can clear it for you.
 
-Contact `billing@midjourney.com` for further assistance.
+Please email `billing@midjourney.com` for further assistance.
 
 ---
 
@@ -527,7 +549,7 @@ Click `Edit Billing` to verify or modify your payment information. Click `View I
 
 🔹If your subscription is **inactive**: Access [this link](https://billing.stripe.com/p/login/aEUdRA5Wc8t25a03cc) using your billing email to find your invoices and update your payment information.
 
-Contact `billing@midjourney.com` for further assistance.
+Please email `billing@midjourney.com` for further assistance.
 
 ---
 
@@ -543,7 +565,7 @@ Q: I need to change my email address? I want to change the email address? Please
 
 To modify your __Discord email__ used to sign in, follow this guide: [How to change your Discord account's email address](https://support.discord.com/hc/en-us/articles/4423385681175-How-to-Change-Your-Account-s-Email-Address).
 
-To modify your __Midjourney billing email__ where you receive invoices and receipts, email `billing@midjourney.com`.
+To modify your __Midjourney billing email__ where you receive invoices and receipts, please email `billing@midjourney.com`.
 Include your User ID which you can find with the command </userid:1136041075614683196> and, if possible, provide your receipt number or invoice number.
 
 ---
@@ -566,7 +588,7 @@ Open the email about “payment was unsuccessful" to pay the overdue invoice.
 🔹**How to __cancel__ your plan:**
 Go to your [`Manage Subscription` page](https://www.midjourney.com/account) on the Midjourney website and click “Cancel Plan”.
 
-Contact `billing@midjourney.com` for further assistance.
+Please email `billing@midjourney.com` for further assistance.
 
 ---
 
@@ -575,16 +597,16 @@ Q: Your payment method requires you to take additional action to complete the tr
 On your [`Manage Subscription` page](https://www.midjourney.com/account), click on "[Edit Billing](https://billing.stripe.com/p/login/aEUdRA5Wc8t25a03cc)" and scroll down to your invoices at the bottom.
 Open the pending invoice and confirm the transaction.
 
-Contact `billing@midjourney.com` if you encounter an error or require further assistance.
+Please email `billing@midjourney.com` if you encounter an error or require further assistance.
 
 ---
 
 Q: Why can't I upgrade my subscription? Something went wrong :( This may be due to insufficient funds? Error: Couldn't upgrade your plan. Please reach out to support? I'm trying to upgrade my plan but the payment keeps getting rejected? I can’t upgrade? I cannot upgrade?
 
 On your [`Manage Subscription` page](https://www.midjourney.com/account), click on `Edit Billing` and make sure all your details are up to date. Check your account balance and spending limits, and reach out to your bank to make sure they’re not blocking the payment.
-If the problem persists, contact `billing@midjourney.com`.
+If the problem persists, please email `billing@midjourney.com`.
 
-__**If you’re using Alipay:**__ You cannot upgrade on the website. Email `billing@midjourney.com` for assistance.
+__**If you’re using Alipay:**__ You cannot upgrade on the website. Please email `billing@midjourney.com` for assistance.
 
 ---
 
@@ -597,7 +619,7 @@ To include your VAT ID on future invoices:
 🔹 Without an active subscription: At checkout, select the option `I’m purchasing as a business` and enter your company name and VAT ID (include the country code letters if applicable).
 
 **__Note:__ Once issued, invoices cannot be changed.**
-Contact `billing@midjourney.com` for further assistance.
+Please email `billing@midjourney.com` for further assistance.
 
 ---
 
@@ -740,16 +762,17 @@ Beta upscale is an upscaler for Version 3 and 4. It uses a different algorithm t
 
 ---
 
-Q: What is the maximum upscale resolution? What is the maximum resolution?  How can I set the resolution? Can I make a 4K image? Can I make a 300 DPI image? Can I make the resolution higher? Can I print my image? Is it possible to save my creations in high resolution, so I can print them out as posters? Is there a way to set the resolution to 2k and higher? How do I choose a resolution? How do I increase my image’s resolution?
+Q: What is the maximum upscale resolution? What is the maximum resolution?  How can I set the resolution? Can I make a 4K image? Can I make a 300 DPI image? Can I make the resolution higher? Can I print my image? Is it possible to save my creations in high resolution, so I can print them out as posters? Is there a way to set the resolution to 2k and higher? How do I choose a resolution? How do I increase my image’s resolution? How can i make a 4k resolution?
 
 For square images in the current version, the upscalers will produce the following:
 A grid upscale: 1024x1024 px
 A (Creative) and (Subtle) Upscale: 2048 x 2048 px
 
 Custom aspect ratios set using `--ar` will change the width and height of the image, but not the max file size.
+If you need larger or higher resolution images, you can look into 3rd party upscale softwares.
 
+__Note:__ Rolling a (Creative) or (Subtle) upscale another time will still produce a 2048 x 2048 px result.
 [Read more about resolution and upscalers](https://docs.midjourney.com/docs/upscalers)
-__Note:__ Rolling a (Creative) or (Subtle) upscale another time will still produce a 2048 x 2048 px result. If you need larger or higher resolution images, you can look into 3rd party upscale softwares.
 
 ---
 
@@ -900,6 +923,12 @@ You can see how many images you've rated at the top; the [personalization](https
 
 ---
 
+Q: How do I get all my personalization codes? Can I find an old personalization code? Can I find an old --p code? List personalize codes? Is there a list of my personalization codes?
+
+Every time your personalization is updated, you get a new code. You can find all your personalization codes with the command </list_personalize_codes:1267632559278526577>.
+
+---
+
 # -------------------- IMAGE PROMPTS  --------------------
 
 Q: What does the --iw argument do? What does the --iw comment do? What does --iw do?
@@ -1046,7 +1075,8 @@ Participate in our [#prompt-craft](https://discord.com/channels/6622679769842974
 
 Q: How do I get the seed or job id that was used for an image? No seed? Seed on upscale? Only grid seed? I can not get the seed? Can’t get the seed number? When I react with the envelope nothing happens, I don’t get the seed? How can I find the seed? How do I retrieve the seed number of an image? How do I get the seed of an image? Where to find seed? Where is seed?
 
-To find an image’s seed number, open your image in [your archive](https://www.midjourney.com/archive) and in the image menu, click on `Copy` > `Seed`. You can only copy the seed of your own images.
+To find an image’s seed number, open your image in [your archive](https://www.midjourney.com/archive) and in the image menu, click on `Copy` > `Seed`.
+You can only copy the seed of your own images. You can only copy the seed of an initial grid image.
 
 __Note:__ Seeds are not reliable and change over time. They have no effect on character consistency. [Read more about seeds](https://docs.midjourney.com/docs/seeds)
 
@@ -1127,7 +1157,8 @@ To use it, type `/describe`, select the command and click on:
 
 Q: How can I delete an image? How to delete images from my feed? How can I remove an image?
 
-Delete your generation by reacting to it with the :x: emoji. This will also delete it from the Midjourney website. If you can't find it in discord, recall it first with the [command `/show`](https://docs.midjourney.com/docs/show-job).
+Delete your generation by reacting to it with the :x: emoji. This will also delete it from the Midjourney website.
+__Note:__ If you can't find it in Discord, recall it with the [command `/show`](https://docs.midjourney.com/docs/show-job), then use the :x: emoji.
 
 ---
 
@@ -1158,19 +1189,21 @@ You can also click and drag, or shift-click to select images.
 
 Q: What is the Feed? What is the Explore page? What images are on the Explore page?
 
-`Explore` is the collection of public images from the community. All images created by members can be found on the `Explore` page unless they are set to private (unpublished).
+`Explore` is the collection of public images from the community. All images created by members can be found on [the `Explore` page](https://www.midjourney.com/explore) unless they are set to private (unpublished).
+[Read more about the Explore page](https://docs.midjourney.com/docs/explore-page)
 
-__Note:__ Only Pro and Mega users can unpublish their images, or activate Stealth mode for new images to be unpublished by default.
+__Note:__ Only Pro and Mega users can unpublish their images, or activate [Stealth mode](https://docs.midjourney.com/docs/stealth) for new images to be unpublished by default.
 
 ---
 
 Q: How to hide images? What is hide? What does hide do on the website? Is hide the same as private mode? Hide images?
 
-`Hide` **only hides images from yourself** - it’s used to organize [your own gallery](https://www.midjourney.com/archive) by hiding images you don’t like from your view. **Hidden images remain visible to all other members**, it is not the same as unpublishing them.
+`Hide` is used to organize [your own gallery](https://www.midjourney.com/archive) by hiding images you don’t like from your view. **Hidden only hides images from yourself, __not__ other members**.
 
-To hide images on the website, go to your [Archive](https://www.midjourney.com/archive), select the images you want to hide, and click `...More` (next to Download). You can then bulk hide/unhide.
+To hide images on the website, go to your [Archive](https://www.midjourney.com/archive), select the images you want to hide, and click `...More`, then hide/unhide.
 
-__Note:__ For your images to be private, you will need the Pro or Mega plan; those plans allow you to unpublish images and use [Stealth mode](https://docs.midjourney.com/docs/stealth).
+__Note:__ To make your images private, you need the Pro or Mega plan; those plans allow you to unpublish images and use [Stealth mode](https://docs.midjourney.com/docs/stealth).
+To delete an image, open it on Discord (or bring it into Discord with the [command `/show`](https://docs.midjourney.com/docs/show-job)) and react to it with the :x: emoji.
 %image=https://cdn.midjourney.com/u/ff03153e-6e8a-48b4-87d0-5acd0a123688/a03329f183e7164b0f43576c6f4be52f32c90d8bc263a120542d66de2e1e8bc9.png
 
 ---
@@ -1507,6 +1540,13 @@ Sign into the Midjourney website with your Discord account and click on [Organiz
 
 ---
 
+Q: Where can I find the image gallery?
+
+Sign into the Midjourney website with your Discord account and click on [Organize](https://www.midjourney.com/archive) to find your gallery with all the images you’ve generated.
+Go to the [Explore](https://www.midjourney.com/explore) page to discover public images from other users.
+
+---
+
 # -------------------- -------------------- --------------------
 # -------------------- THREADS / ROLES  --------------------
 # -------------------- -------------------- --------------------
@@ -1553,12 +1593,12 @@ Face Swap bot commands won't work on this server.
 
 Q: –stop? What is the stop parameter?
 
-Adding the `--stop` parameter will stop your generation at partway through.
+Adding the `--stop` parameter followed by a number between 10 and 100 will stop your generation partway through. 100 is the default value.
 
-In this example: `/imagine prompt: a field of flowers --stop 50`
-The grid will stop generating 50% of the way through resulting in a softer less detailed image.
-The stop parameter does not work when upscaling an image.
+In this example: `/imagine prompt: a baby red panda --stop 50`
+The grid will stop halfway (50%) through the process, resulting in a softer, less detailed image.
 
+__Note:__ The stop parameter does not work when upscaling an image.
  [Read more about the Stop parameter](https://docs.midjourney.com/docs/stop)
 
 ---
