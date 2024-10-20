@@ -74,7 +74,8 @@ Certain changes are not available on upscaled images; use the original image ins
 
 Q: Can we expand images? Can I Zoom out? How to Zoom out? What is Zoom? 
 
-The Zoom feature expands your image but does not change the image size. The extra canvas around your original image will be filled in based on the prompt and the original image. Use Zoom from `Reframe` to modify the prompt. [Read more about Zoom](https://docs.midjourney.com/docs/zoom-out)
+The Zoom feature expands your image but does not change the image size. The extra canvas around your original image will be filled in based on the prompt and the original image. Use Zoom from `Reframe` to modify the prompt.
+[Read more about Zoom](https://docs.midjourney.com/docs/zoom-out)
 
 ---
 
@@ -132,6 +133,14 @@ How long you wait in “real life time” does not affect how much GPU time is c
 Q: How do I see how many gpu hours I have left? How do I see how much I have used? How do I see how many hours I have left? Where can I check how many prompts I have left? How many images can I make? How can I see my queue? Where do I check my jobs? How do I check how many jobs I have left? Is my subscription active? How do I check my subscription status? Is my subscription canceled? /info? How do I know how many credits I still have? How much fast time remaining? How can I check how many images I can still generate? How do I check how many images I have left? View hours left? View hours remaining?
 
 To access your subscription details, click on your `username ...` in the bottom left corner and then select `Manage Subscription`. This will open [your account page](https://www.midjourney.com/account) where you can view and manage your subscription information, such as the renewal date, current subscription tier, remaining GPU fast time, and more.
+
+---
+
+Q: How many images can I make?
+
+To access your subscription details, click on your `username ...` in the bottom left corner and then select `Manage Subscription`. This will open [your account page](https://www.midjourney.com/account) where you can view your current subscription tier, remaining GPU fast time, etc.
+
+On average, each generation consumes about 1 GPU minute. So if you have 200 GPU minutes, you can create images approximately 200 times.
 
 ---
 
@@ -233,7 +242,13 @@ To choose what `Speed` mode to use, open your settings on the right side of the 
 # - TRIAL -
 # -----------------------------
 
+Q: Can I get free bonus hours? How to get free bonus hours? Awarded fast hours?
 
+You can fill out [available surveys](https://www.midjourney.com/surveys), or level up [your personalization](https://www.midjourney.com/personalize) for instant free hours. You can also try daily to get a bonus GPU hour: go to [Image Rankings](https://www.midjourney.com/tasks), select the type of ranking you want to do, and pick your favorite images. Every day, Midjourney gifts a bonus GPU hour to the 2000 users who ranked the most images that day
+
+__Note:__ Bonus hours expire 30 days after being awarded. **You need an active subscription to receive and use bonus hours** so make sure to access the website with your subscribed account.
+
+---
 
 # -----------------------------
 # - SUBSCRIPTION -
@@ -294,7 +309,7 @@ Q: How do I cancel my Magazine? Cancel the magazine subscription? Cancel magazin
 
 You can update your shipping information or cancel your Midjourney Magazine subscription by using [this link](https://billing.stripe.com/p/login/aEUdRA5Wc8t25a03cc) and the email you receive your magazine receipts on.
 
-Contact billing@midjourney.com for further assistance.
+Please email billing@midjourney.com for further assistance.
 
 ---
 
@@ -302,7 +317,7 @@ Q: I want to order the magazine? Where could I buy a magazine?
 
 Visit the [Midjourney Magazine website](https://mag.midjourney.com/) to subscribe to the monthly magazine. You can also purchase other printed editions showcasing Midjourney images.
 
-Contact billing@midjourney.com for any inquiry or issue regarding your magazine payments.
+Please email billing@midjourney.com for any inquiry or issue regarding your magazine payments.
 
 ---
 
@@ -326,7 +341,7 @@ To delete your Midjourney account and its data, go to the bottom of your [`Manag
 
 Q: How to change Google account? Help linking Discord and Google? This Discord login is already linked to a different account? I am unable to connect my Discord login with my Google login? 
 
-For help with linking accounts, reach out to our billing support team by sending an email to `billing@midjourney.com`.
+For help with linking accounts, reach out to our billing support team by sending an email to billing@midjourney.com.
 
 Include your User ID which you can find on your [Manage Profile](https://www.midjourney.com/profile-settings) page. If possible, provide further details such as your receipt number or invoice number, steps to reproduce the issue you're having, screenshot(s) of the error you encounter, different emails you may have used, etc.
 
@@ -339,7 +354,7 @@ Q: If we go over our limit of fast hours does it let us know? Or just start bill
 When you’ve used all your monthly [fast time](https://docs.midjourney.com/docs/fast-relax), you will be notified you have run out of credits and new images will fail to submit.
 
 ◆ You can try and win [free bonus fast time](https://docs.midjourney.com/docs/free-hours).
-◆ You can purchase more fast hours on your [`Manage Subscription` page](https://www.midjourney.com/account).
+◆ You can purchase more fast hours or upgrade on your [`Manage Subscription` page](https://www.midjourney.com/account).
 ◆ If you have a Standard, Pro, or Mega plan, you can select Relax mode in your settings and create images unlimitedly.
 
 __Note:__ Additional GPU hours are bought before being used, so you cannot accidentally use more fast time than you have in your plan.
@@ -354,7 +369,7 @@ On your [`Manage Subscription` page](https://www.midjourney.com/account), click 
 
 You can cancel the automatic renewal at any time. Your plan will be canceled **at the end of your billing cycle** - enjoy all the perks and fast GPU time until then. If you change your mind, you can uncancel.
 
-Contact billing@midjourney.com if you encounter an error or need further assistance.
+Please email billing@midjourney.com if you encounter an error or need further assistance.
 
 %image=https://s.mj.run/KlmtLQqtqQM
 
@@ -363,7 +378,7 @@ Contact billing@midjourney.com if you encounter an error or need further assista
 Q: Cancel with refund? Cancel and refund? How do I get a refund? How to refund? Can this be refunded? I would like to request a refund? How do I apply for refund? Can I request a refund? I want to cancel my subscription and get a refund? Get a refund? Refund? I want a refund? Refund me? Can I apply for a refund? How to request a refund? I want refund? Please refund me?
 
 You are eligible for a refund if you’ve used less than 20 GPU minutes **__lifetime__**. On your [`Manage Subscription` page](https://www.midjourney.com/account), click `Cancel Plan`. If you’re eligible, you will have the option to `Cancel immediately with refund`; select it and confirm.
-Contact billing@midjourney.com for further assistance.
+Please email billing@midjourney.com for further assistance.
 
 %image=https://s.mj.run/KlmtLQqtqQM
 
@@ -371,7 +386,7 @@ Contact billing@midjourney.com for further assistance.
 
 Q: Can I switch from the yearly plan to the monthly plan? How can I change from the yearly plan to the monthly plan? How do I switch from yearly to monthly? I accidentally subscribed to yearly? I accidentally subscribed to a year plan but I really just wanted a month only? I meant to purchase a monthly billing plan, can I get a refund for the yearly plan? I meant to purchase a monthly billing plan, can I get a refund for the annual plan? I accidentally subscribed to the annual plan instead of the monthly one? Refund annual sub to monthly instead? I paid an annual subscription, but I want to change the payment to a monthly subscription?
 
-If you chose the yearly plan instead of the monthly plan, you can try to cancel your subscription now with a refund and then subscribe to the monthly plan. On your [subscription page](https://midjourney.com/account), click `Cancel Plan` and select the option `Cancel immediately with refund`. If you do not get the refund option, contact billing@midjourney.com. 
+If you chose the yearly plan instead of the monthly plan, you can try to cancel your subscription now with a refund and then subscribe to the monthly plan. On your [subscription page](https://midjourney.com/account), click `Cancel Plan` and select the option `Cancel immediately with refund`. If you do not get the refund option, please email billing@midjourney.com. 
 
 If you want to switch plans upon your next renewal, select the plan of your choice and confirm the change.
 
@@ -441,7 +456,7 @@ If your payment was declined, you might notice a pending charge in your account.
 
 Double-check your card details (Name, Number, CVC, Exp. Date). Ensure your billing info matches your bank's (Name, Address, Zip/Postal Code). Check your account balance and spending limits. Ask your bank, if they declined it they can clear it for you.
 
-Contact billing@midjourney.com for further assistance.
+Please email billing@midjourney.com for further assistance.
 
 ---
 Q: Remove payment info? Remove credit cards? How do I remove payment information? Remove payment? How can I find my Midjourney's invoice? Where can I see my invoices? How to access invoices? Where can I get my receipts? I want to remove my credit card? How to change my payment method? How to change my card details? How to change the default payment method? How to update my default payment method? Can I modify my default payment method? Download invoice? Invoice?
@@ -450,7 +465,7 @@ Q: Remove payment info? Remove credit cards? How do I remove payment information
 
 ◆ If your subscription is inactive: Access [this link](https://billing.stripe.com/p/login/aEUdRA5Wc8t25a03cc) using your billing email to find your invoices and update your payment information.
 
-Contact billing@midjourney.com for further assistance.
+Please email billing@midjourney.com for further assistance.
 
 ---
 
@@ -462,7 +477,7 @@ Reach out to our billing support team by sending an email to billing@midjourney.
 
 Q: Can I transfer my subscription to another account? I used the wrong account? I subscribed with the wrong account? How can I change my subscription to another account? How can I change my midjourney subscription active plan to another Discord account?
 
-Unfortunately, subscriptions cannot be transferred. If you are unable to access the account associated with your subscription, please contact billing@midjourney.com.
+Unfortunately, subscriptions cannot be transferred. If you are unable to access the account associated with your subscription, please email billing@midjourney.com.
 
 ---
 
@@ -489,7 +504,7 @@ If your subscription is paused, this means your renewal payment failed.
 
 ◆ **How to __cancel__ your plan:** Go to your [`Manage Subscription` page](https://www.midjourney.com/account) and click “Cancel Plan”.
 
-Contact billing@midjourney.com for further assistance.
+Please email billing@midjourney.com for further assistance.
 
 ---
 
@@ -497,7 +512,7 @@ Q: payment Error: zip code doesn’t match? Zip code error? Saying my zip code i
 
 Go to your [`Manage Subscription` page](https://www.midjourney.com/account) and click on the `Edit Billing` button. Add your card details as an *entirely new* payment method, and use the `…` button to set it as your new default payment method.
 
-Contact billing@midjourney.com for further assistance.
+Please email billing@midjourney.com for further assistance.
 
 ---
 
@@ -505,13 +520,13 @@ Q: payment Error: user missing a default payment method in stripe?
 
 To solve this bug, go to your [`Manage Subscription` page](https://www.midjourney.com/account) and click on the `Edit Billing` button. On your Stripe payment information, look for the `...` button next to your payment method and click it, then press make default.
 
-Contact billing@midjourney.com for further assistance.
+Please email billing@midjourney.com for further assistance.
 
 ---
 
 Q: Why can't I upgrade my subscription? Something went wrong :( This may be due to insufficient funds? Error: Couldn't upgrade your plan. Please reach out to support? I'm trying to upgrade my plan but the payment keeps getting rejected? Can’t upgrade my account?
 
-On your [`Manage Subscription` page](https://www.midjourney.com/account), click on `Edit Billing` and make sure all your details are up to date. Check your account balance and spending limits, and reach out to your bank to make sure they’re not blocking the payment. If the problem persists, contact billing@midjourney.com.
+On your [`Manage Subscription` page](https://www.midjourney.com/account), click on `Edit Billing` and make sure all your details are up to date. Check your account balance and spending limits, and reach out to your bank to make sure they’re not blocking the payment. If the problem persists, please email billing@midjourney.com.
 
 __**If you’re using Alipay:**__ You cannot upgrade on the website. Email billing@midjourney.com for assistance.
 
@@ -523,7 +538,7 @@ This error occurs when your default payment method has been linked from Stripe i
 
 When you get to the new page, look for the `Add a payment method` and re-enter your card details manually, without using any auto-fill. Once you see your card information with an expiration date instead of the stylized `link` text, click the `…` next to it and select `Make default`.
 
-Contact billing@midjourney.com for further assistance.
+Please email billing@midjourney.com for further assistance.
 
 ---
 
@@ -534,7 +549,7 @@ Q: How do I add VAT to my invoice? Why was I charged for VAT? Can I add VAT?
 ◆  To include your VAT ID on future invoices **with an active subscription**: Go to your [`Manage Subscription` page](https://www.midjourney.com/account), click `Edit Billing`, then add your country and VAT ID.
 ◆  To include your VAT ID on future invoices **without an active subscription**: At checkout, select the option `I’m purchasing as a business` and enter your company name and VAT ID (include the country code letters if applicable).
 
-**Once issued, invoices cannot be changed.** Contact billing@midjourney.com for further assistance.
+**Once issued, invoices cannot be changed.** Please email billing@midjourney.com for further assistance.
 
 ---
 
@@ -786,7 +801,8 @@ Q: Reference image? Use photo as reference? How do I upload an image? How do I g
 Click the image icon on the left of the `Imagine…` textbox to add images. You can use an image in three different ways; hover over it to select the option of your choice. Shift-click to select multiple options.
 By default, an image is added as an [`Image Prompt`](https://docs.midjourney.com/v1/docs/image-prompts) (icon: picture). Other ways to use an image are as a [`Style Reference`](https://docs.midjourney.com/v1/docs/style-reference) (icon: paper clip) or as a [`Character Reference`](https://docs.midjourney.com/v1/docs/character-reference) (icon: portrait).
 
-__Note:__ References are used as parameters, they cannot be used without a prompt. [Read more about adding images](https://docs.midjourney.com/docs/using-images)
+__Note:__ References are used as parameters, they cannot be used without a prompt.
+[Read more about adding images](https://docs.midjourney.com/docs/using-images)
 
 %image=https://cdn.midjourney.com/u/ff03153e-6e8a-48b4-87d0-5acd0a123688/f1f3a3f09c8df1221cb74b25f38605813ca0215bef534fd990d823bd2c8082eb.png
 
@@ -834,7 +850,8 @@ __Note:__ You can use an em dash (`—`) instead of a double hyphen.
 
 Q: What does :: do? What do double colons do? What are weights? How do weights work? What does :: mean? What are multi prompts?
 
-Double colons allow you to blend different prompts. By adding a number right after the double colons, without a space, you can give each prompt a different weight to fine-tune your result. If you don’t type a number, it uses the default value 1. [Read more about Multi Prompts](https://docs.midjourney.com/docs/multi-prompts)
+Double colons allow you to blend different prompts. By adding a number right after the double colons, without a space, you can give each prompt a different weight to fine-tune your result. If you don’t type a number, it uses the default value 1.
+[Read more about Multi Prompts](https://docs.midjourney.com/docs/multi-prompts)
 
 ---
 
@@ -874,9 +891,10 @@ The values range from 0 to 1000, and the default value is 100.
 
 Q: How do I get the seed that was used for an image? I can not find the seed? Can’t find the seed number? How can I find the seed? How do I retrieve the seed number of an image? How do I get the seed of an image? How can I see the image’s seed? How can I see the image seed? Where can I see the seed? How to get the seed number in the website UI? How to get the seed number? Where do I get the seed number? Where do I find the seed? Where is the seed? How can I know the seed of an image? Copy seed? How to find the seed here? How to view the seed of an image created by Midjourney? Can I get the seed of a job?
 
-Each set of four images made in Midjourney uses a random seed number as a starting point. To find your image’s seed number, open the dropdown menu, select `Copy` and `Seed`.
+To find the seed number of a Midjourney image you created, open the image and in the dropdown menu, select `Copy` > `Seed`.
 
-__Note:__ Seeds are not reliable and change over time. They have no effect on character consistency. You can only copy the seed of your own images. [Read more about Seeds](https://docs.midjourney.com/docs/seeds)
+__Note:__ Seeds are not reliable and change over time. They have no effect on character consistency. You can only copy the seed of your own images.
+[Read more about Seeds](https://docs.midjourney.com/docs/seeds)
 
 %image=https://cdn.midjourney.com/u/ff03153e-6e8a-48b4-87d0-5acd0a123688/922733d9c0dc25de4b8a84f42282191c643825cc2fc5c636d4c03e80f71f7892.png
 
@@ -888,9 +906,8 @@ Each set of four images made in Midjourney uses a random seed number as a starti
 
 Use the `--seed` parameter, with a value between 0 and 4294967295, to give the bot a specific starting point. If you use the same seed and prompt as another image, the bot will produce an identical or very similar set of four images. This is useful when using similar prompts to test how the changes affect the result.
 
-__Note:__ Seeds are not reliable and change over time. They have no effect on character consistency. [Read more about Seeds](https://docs.midjourney.com/docs/seeds)
-
-%image=https://cdn.midjourney.com/u/ff03153e-6e8a-48b4-87d0-5acd0a123688/922733d9c0dc25de4b8a84f42282191c643825cc2fc5c636d4c03e80f71f7892.png
+__Note:__ Seeds are not reliable and change over time. They have no effect on character consistency.
+[Read more about Seeds](https://docs.midjourney.com/docs/seeds)
 
 ---
 
@@ -915,11 +932,11 @@ You need an active subscription to have full access to the `Explore` page and ot
 
 Q: What is the Feed? What is the Explore page?
 
-`Explore` is the collection of public images from the community. All images created by members can be found on the `Explore` page unless they are set to private (unpublished).
-Browse through using different viewing options which you can find at the top; `Random`, `Hot` or `Top`. The `Likes` view will show all the images you’ve clicked the `♥` button on.
-You can also use the `Search prompts` feature, located in the top right corner, to find images related to specific topics.
+`Explore` is the collection of public images from the community. All images created by members can be found on [the `Explore` page](https://www.midjourney.com/explore) unless they are set to private (unpublished).
 
-__Note:__ Only Pro and Mega users can unpublish their images, or activate Stealth mode for new images to be unpublished by default.
+__Note:__ Only Pro and Mega users can unpublish their images, or activate [Stealth mode](https://docs.midjourney.com/docs/stealth) for new images to be unpublished by default.
+
+[Read more about how to use the Explore page](https://docs.midjourney.com/docs/explore-page)
 
 ---
 
@@ -1113,7 +1130,7 @@ Q: payment Error: zip code doesn’t match? Zip code error? Saying my zip code i
 
 Go to your [`Manage Subscription` page](https://www.midjourney.com/account) and click on the `Edit Billing` button. Add your card details as an *entirely new* payment method, and use the `…` button to set it as your new default payment method.
 
-Contact billing@midjourney.com for further assistance.
+Please email billing@midjourney.com for further assistance.
 
 ---
 
@@ -1123,7 +1140,7 @@ To solve this bug, go to your [`Manage Subscription` page](https://www.midjourne
 
 When you get to the new page, look for the `...` button next to your payment method and click it, then press make default.
 
-Contact billing@midjourney.com for further assistance.
+Please email billing@midjourney.com for further assistance.
 
 ---
 
@@ -1133,7 +1150,7 @@ This error occurs when your default payment method has been linked from Stripe i
 
 When you get to the new page, look for the `Add a payment method` and re-enter your card details manually, without using any auto-fill. Once you see your card information with an expiration date instead of the stylized `link` text, click the `…` next to it and select `Make default`.
 
-Contact billing@midjourney.com for further assistance.
+Please email billing@midjourney.com for further assistance.
 
 ---
 
@@ -1211,8 +1228,8 @@ Insight Face Swap is not part of Midjourney. It's developed and supported by a d
 
 Q: --stop? What is the stop parameter?
 
-Adding the `--stop` parameter will stop your generation partway through. For example, with the prompt `A field of flowers --stop 50`, the grid will stop generating 50% of the way through resulting in a softer less detailed image.
-The stop parameter does not work when upscaling an image. [Read more about Stop](https://docs.midjourney.com/docs/stop)
+Adding the `--stop` parameter followed by a number between 10 and 100 will stop your generation partway through. It only works on your initial generation, not upscales or variations. For example, with the prompt `a baby red panda --stop 40`, the grid will stop at 40% through the process, resulting in a softer, less detailed image.
+[Read more about Stop](https://docs.midjourney.com/docs/stop)
 
 ---
 
@@ -1228,8 +1245,7 @@ Midjourney has a wide variety of subjects and topics in its dataset. If you find
 
 Q: What is chaos? What is --c? Why do I see prompts with s and c in them? What does c do?
 
-The '--chaos' or '--c' parameter affects how different the images are from each other in the initial grid. The value goes from 0 to 100, 0 being the default.
-In your settings, adjust the chaos value with the `Variety` slider.
+The '--chaos' or '--c' parameter affects how different the images are from each other in the initial grid. The value goes from 0 to 100, 0 being the default. In your settings, adjust the chaos value with the `Variety` slider.
 [Read more about Chaos](https://docs.midjourney.com/docs/chaos)
 
 ---
