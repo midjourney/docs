@@ -223,6 +223,12 @@ On average, each generation consumes about 1 GPU minute. So if you have 200 GPU 
 
 ---
 
+Q: How many images have I made? How many images have I created? How many images have I generated? How do I find how many images I’ve generated? How do I find my lifetime usage? Where do I see my lifetime usage?
+
+Generating a grid counts as one generated image. Use the command </info:972289487818334209> to view your total count in lifetime usage.
+
+---
+
 Q: Can I use my GPU? Can I run this locally? Can I run this on my computer?
 
 Midjourney runs on datacenter grade graphics cards, it can only be used through our Discord Bot or our official Midjourney website.
@@ -329,14 +335,16 @@ If you have an active subscription, you can try and win [free bonus fast time](h
 
 ---
 
-Q: Can I get free bonus hours? How to get free bonus hours? Awarded fast hours?
+Q: Can I get free bonus hours? How to get free bonus hours? Awarded fast hours? Can I win extra GPU hours? Can I win bonus hours? Can I win fast time? How do I win free time?
 
 You can receive extra fast GPU hours for free!
 
 Fill out [available surveys](https://www.midjourney.com/surveys), or level up [your personalization](https://www.midjourney.com/personalize) for instant rewards.
-You can also try daily to get a bonus GPU hour: go to [Image Rankings](https://www.midjourney.com/tasks), select the type of ranking you want to do, and pick your favorite images. Every day, Midjourney gifts a bonus GPU hour to the 2000 users who ranked the most images that day :gift:
+Midjourney also offers hours to active members:
+🔹Select your favorite images in [Image Rankings](https://www.midjourney.com/tasks). Every day, Midjourney gifts a bonus GPU hour to the 2000 users who ranked the most images that day :gift:
+🔹Join the Community Prompt Battles on [Saturdays](https://discord.com/events/662267976984297473/1297686878048358482) and/or [Sundays](https://discord.com/events/662267976984297473/1297686913028984863), where winners get bonus GPU hours :trophy:
 
-__Note:__ **You need an active subscription to receive and use bonus hours.** Make sure to access the website with the right account.
+__Note:__ **You need an active subscription to receive and use bonus GPU hours.** Make sure to access the website with the right account.
 Bonus hours expire 30 days after being awarded.
 
 ---
@@ -454,11 +462,21 @@ Please email `billing@midjourney.com` if you do not get the option or if you rec
 
 ---
 
-Q: Can I switch from the yearly plan to the monthly plan? How can I change from the yearly plan to the monthly plan? How do I switch from yearly to monthly? I accidentally subscribed to yearly?
+Q: Can I switch from the yearly plan to the monthly plan? How can I change from the yearly plan to the monthly plan? How do I switch from yearly to monthly?
+
+If you would like to change your yearly subscription now to a higher tier monthly plan, please email `billing@midjourney.com`. 
+
+If you want to switch plans upon your next renewal, select the plan of your choice on your [subscription page](https://midjourney.com/account) and confirm the change.
 
 If you chose the yearly plan instead of the monthly plan, you can try to cancel your subscription now with a refund and then subscribe to the monthly plan. On the [Midjourney account page](https://midjourney.com/account), click `Cancel Plan` and select the option `Cancel immediately with refund`. If you do not get the refund option, please email `billing@midjourney.com`. 
 
-If you want to switch plans upon your next renewal, select the plan of your choice and confirm the change.
+%image=https://cdn.discordapp.com/attachments/1201909699793145876/1228317951598530621/Cancel.png
+
+---
+
+Q: I accidentally subscribed to yearly?
+
+If you chose the yearly plan instead of the monthly plan, you can try to cancel your subscription now with a refund and then subscribe to the monthly plan. On the [Midjourney account page](https://midjourney.com/account), click `Cancel Plan` and select the option `Cancel immediately with refund`. If you do not get the refund option, please email `billing@midjourney.com`. 
 
 %image=https://cdn.discordapp.com/attachments/1201909699793145876/1228317951598530621/Cancel.png
 
@@ -570,7 +588,7 @@ Include your User ID which you can find with the command </userid:11360410756146
 
 ---
 
-Q: Can I pay with PayPal? Can I use PayPal? Do you have other payment methods? Paypal PayPal? Do I have to use a credit card? Are there other ways to pay? Is there another way to pay for a subscription other than with a credit card? Can I pay with ETH? Do you take crypto?
+Q: Can I pay with PayPal? Can I use PayPal? Do you have other payment methods? Do I have to use a credit card? Are there other ways to pay? Is there another way to pay for a subscription other than with a credit card? Can I pay with ETH? Do you take crypto? Can I pay using crypto? Can I pay using USDC?
 
 Depending on your region, Stripe supports credit/debit cards (Mastercard, VISA, American Express, Discover & Diners etc) and some digital wallets (Apple Pay, Google Pay, Cash App Pay). Methods available to you will be shown at checkout.
 PayPal, Wire transfer, crypto and other methods are not currently supported.
@@ -586,7 +604,7 @@ If the bot or website shows your subscription is paused, this means your renewal
 Open the email about “payment was unsuccessful" to pay the overdue invoice.
 
 🔹**How to __cancel__ your plan:**
-Go to your [`Manage Subscription` page](https://www.midjourney.com/account) on the Midjourney website and click “Cancel Plan”.
+Go to your [`Manage Subscription` page](https://www.midjourney.com/account) on the Midjourney website and click `Cancel Plan`.
 
 Please email `billing@midjourney.com` for further assistance.
 
@@ -594,7 +612,7 @@ Please email `billing@midjourney.com` for further assistance.
 
 Q: Your payment method requires you to take additional action to complete the transaction?
 
-On your [`Manage Subscription` page](https://www.midjourney.com/account), click on "[Edit Billing](https://billing.stripe.com/p/login/aEUdRA5Wc8t25a03cc)" and scroll down to your invoices at the bottom.
+On your [`Manage Subscription` page](https://www.midjourney.com/account), click on [`Edit Billing`](https://billing.stripe.com/p/login/aEUdRA5Wc8t25a03cc) and scroll down to your invoices at the bottom.
 Open the pending invoice and confirm the transaction.
 
 Please email `billing@midjourney.com` if you encounter an error or require further assistance.
@@ -748,7 +766,7 @@ The Max Upscaler is an upscaler for Version 3. If you are using a more recent ve
 
 Q: What is "Light Upscale Redo"? What is a light upscale? How do I use light upscale? What is uplight?
 
-Light upscale is an upscaler for Version 3 and 4. It uses a different algorithm that adds less detail, which may be better in some cases. You can use the `--uplight` parameter in a prompt, or hit the “Light Upscale Redo” button under v3 and v4 upscaled images.
+Light upscale is an upscaler for Version 3 and 4. It uses a different algorithm that adds less detail, which may be better in some cases. You can use the `--uplight` parameter in a prompt, or hit the `Light Upscale Redo` button under v3 and v4 upscaled images.
 
 [Read more about Upscaler Models](https://docs.midjourney.com/docs/upscalers)
 
@@ -805,10 +823,19 @@ Q: Is there an exhaustive list of arguments somewhere we can look at? Where can 
 Check out the [Midjourney Documentation](https://docs.midjourney.com/docs/parameter-list)
 
 ---
-Q: How do you reset custom suffix? How do you reset your parameters? Can I reset my settings? Why am I getting this message about an unrecognized argument? Invalid argument unrecognized argument? I can't remove the option –upbeta or –uplight in settings?
+
+Q: How do you reset custom suffix? How do you reset your parameters? Can I reset my settings? Why am I getting this message about an unrecognized argument? Invalid argument unrecognized argument? I can't remove the option –upbeta or –uplight in settings? How do I reset my settings? How do I reset my suffix? How do I clear my settings? There’s something in my prompt I didn’t add, how do I remove it? Stylize must be between error?
 
 To reset suffixes automatically added to your prompts, use the command </settings:1000850743479255081> and click on `Reset Settings`.
 %image=https://cdn.discordapp.com/attachments/1201909699793145876/1231302471205388299/Reset_Settings.png
+
+---
+
+Q: /settings? Change settings? Where are the bot settings? Can I change the default settings?
+
+**Use the command </settings:1000850743479255081> to select your default settings**, the matching parameters will automatically be added to your new prompts.
+
+__Advanced:__ If you'd prefer to enter your own set of parameters to be added at the end of each new prompt, use the command </prefer suffix:984273800587776053> and add your parameters in the `new_value` field. These will override any preferences from /settings.
 
 ---
 
@@ -1214,9 +1241,9 @@ To find images you've hidden, go to your [Archive](https://www.midjourney.com/ar
 
 ---
 
-# -------------------- ------ALPHA WEB CREATION------- --------------------
+# --------------------ALPHA WEB CREATION--------------------
 
-Q: How to access alpha?
+Q: How to access alpha? How to create on the website?
 
 The creation tool on the [Midjourney website](https://www.midjourney.com/imagine) is now open to all members. If you subscribed through Discord, **make sure to sign in using the same Discord account.**
 [Click here to discover how to create images on the website](https://docs.midjourney.com/docs/create-page)
@@ -1235,11 +1262,57 @@ To enable Stealth mode on the alpha website and keep all **__new__** images crea
 
 ---
 
+# --------------------EXTERNAL EDITOR--------------------
+
+Q: How can I access the new edit page? How can I access the new editor? Can I use the new edit mode? Can I use the new edit? Can I use the new editor? How do I get the external editor?
+
+The external editor is available through the [`Edit` page](https://www.midjourney.com/editor/new). Check out our [guide on how to use it](https://docs.midjourney.com/docs/external-editor).
+
+As a security measure, access to this new tool is currently available to **any** of the following community groups: users with a lifetime usage of over 10,000 generations, users with an active yearly subscription and users who have been subscribed for the past 12 months without any interruption.
+
+---
+
+Q: Why am I not included in the new editor group? Why do I not have access to the external editor? Will be edit feature available for every subscriber someday? Why am I not part of the "Image-Editor" group?
+
+As a security measure, access to this new tool is currently available to **any** of the following community groups: users with a lifetime usage of over 10,000 generations, users with an active yearly subscription and users who have been subscribed for the past 12 months without any interruption.
+
+This tool is new; access and moderation will be adjusted over time.
+
+---
+
+Q: I am paying since the beginning and I have no access to the editor? I am paying since the beginning but cannot use the new editor? I am paying since the beginning but cannot access the external editor? I am paying since the beginning but can't access the edit feature? I have been subscribed for months and still can't get access to the edit feature? I have been subscribed for months and still can't get access to the external editor? I have been subscribed for months and still can't get access to the new editor? I have been subscribed for months but cannot use the editor? I've been subscribed for nearly two years, why can't I access the new edit tool? I've been subscribed for nearly two years, why can't I access the external editor? I've been subscribed for nearly two years, why can't I access the new editor? I'm paying since 2023, why i dont have access to edit feature? I'm paying since 2023, why i dont have access to the new editor? I'm paying since 2023, why i dont have access to the external editor? I've been a subscriber for more than 12 months, but I am unable to access the new edit mode? I've been a subscriber for more than 12 months, but I am unable to access the new editor? I've been a subscriber for more than 12 months, but I am unable to access the external editor? Subscribed for 12 months but no new editor? I have been a monthly subscriber since 2023, can I use the new editor? I've had a membership since 2022 but I can't use the Edit feature on the site? I've had a membership since 2022 but I can't use the new editor? I've had a subscription since 2022 but I can't use the new editor? 
+
+If your lifetime usage is under 10,000 images and you do not have a yearly subscription, you can access the [external editor](https://docs.midjourney.com/docs/external-editor) if you've been subscribed to Midjourney for the past 12 months **without any interruption**. Unfortunately, if you've canceled at any point during this time, you do not qualify.
+
+Do you qualify but do not see the [`Edit` page](https://www.midjourney.com/editor/new) on the left side? Try refreshing the page, or logging out and back in.
+
+__Note:__ For any questions about your subscription, please email billing@midjourney.com where the team there can review your payment history and the date you last subscribed on.
+
+---
+
+Q: I have created over 10000 images but still cannot access the new editor? I have generated over 10000 images but still cannot access the new editor? I have generated over 10000 images but still cannot access the external editor? I have generated over 10000 images but still cannot access the new editor? I have generated over 10k images but still cannot access the external editor? I have created over 10k images but still cannot access the external editor? The Edit page is unavailable even though I have over 10k generations? I don't have the new editor even though I have over 10k generations? I have created more than 10,000 images but the edit option is not available? I have generated more than 10k images but am not able to access the image editor, why?
+
+You can use the new external editor if you have made over 10,000 generations. Each action and set of four images counts as 1 generation. If you believe you qualify, log out and back into the Midjourney website. If you have over 10,000 generations, you'll find the [`Edit` page](https://www.midjourney.com/editor/new) on the left side menu.
+
+---
+
+Q: Can I use the new image editor on mobile? Can I use the external editor on mobile?
+
+At the moment, the [external editor](https://docs.midjourney.com/docs/external-editor) is only available on the desktop version of the Midjourney website.
+
+---
+
+Q: The new editor is triggering "prompt flagged by AI moderator" almost on everything? The external editor is triggering "prompt flagged by AI moderator" almost on everything? My prompts are blocked on the external editor? My prompts are blocked on the new image editor?
+
+Since the external editor uses real images, the moderation is currently extra safe. We know it can be frustrating, but Midjourney is working hard on improving this system.
+
+---
+
 # -------------------- -------------------- --------------------
 # -------------------- PERSONAL SPACE -----------
 # -------------------- -------------------- --------------------
 
-Q: How do I DM the bot? DM the bot? Where can I DM bot? How can I make a solo room? How do I open a private chat with the bot? Can I use imagine in DMs? Is it possible to DM the bot and not be in a very crowded busy channel? How do I start my own room for creating photos? Why don't I see any messages from the bot?
+Q: How do I DM the bot? DM the bot? Where can I DM bot? How can I make a solo room? How do I open a private chat with the bot? Can I use imagine in DMs? Is it possible to DM the bot and not be in a very crowded busy channel? Why don't I see any messages from the bot?
 
 Subscribers can use commands in Direct Messages (DMs) with the Bot. Right click here: <@936929561302675456> and hit `Message`.
 
@@ -1293,7 +1366,7 @@ __Note:__ Images will still appear on the website's community feed unless you’
 
 ---
 
-Q: Can I get my own private channel? How do I get a private channel? Does a subscriber have its own private channel not viewed by the public? Will I have a private channel if I subscribe? Can I generate images in a private channel?
+Q: Can I get my own private channel? How do I get a private channel? Does a subscriber have its own private channel not viewed by the public? Will I have a private channel if I subscribe? Can I generate images in a private channel? How do I start my own room for creating photos? How to create a private room?
 
 To add the Bot to your own Discord server, [click here](https://discord.com/oauth2/authorize?client_id=936929561302675456) and select `Add to Server`.
 [Here’s a step by step guide.](https://docs.midjourney.com/docs/invite-the-bot)
@@ -1411,15 +1484,6 @@ Currently, all subscription plans are linked to a single user. Each user needs t
 # -------------------- ERRORS --------------------
 # -------------------- -------------------- --------------------
 
-Q: Prefer suffix. How do I reset my settings? How do I reset my suffix? How do I clear my settings? There’s something in my prompt I didn’t add, how do I remove it? Stylize must be between error?
-
-Use the command </prefer suffix:984273800587776053> and press enter/send without adding anything to reset your Midjourney </settings:1000850743479255081>.
-You can also use the command </settings:1000850743479255081> and click the last button `Reset Settings`.
-
-%image=https://cdn.discordapp.com/attachments/1201909699793145876/1231302471205388299/Reset_Settings.png
-
----
-
 Q: Why did I get a message that said "Interaction Failed"? I am getting “interaction failed”? I am getting “application did not respond”? Bot interaction failing?
 
 First check  <#942231458918064148> for known issues.
@@ -1453,7 +1517,7 @@ Q: Why is my image saying blocked by image filter? Request cancelled due to imag
 
 To prevent abuse and content against our [Community Guidelines](https://docs.midjourney.com/docs/community-guidelines), images in prompts have an extra cautious filter. It doesn't necessarily mean the images are against our Community Guidelines, but to be safe, they can't be used for prompts.
 Here are some things to avoid in image prompts:
-🔹Shirtless characters (regardless of their gender)
+🔹Shirtless characters (regardless of their gender or species)
 🔹Cleavage or too much visible skin
 🔹Nude or skin tone clothing
 You can adjust the image or use text instead. Ask our [#prompt-craft](https://discord.com/channels/662267976984297473/992207085146222713) community if you have trouble finding the right words.
@@ -1605,7 +1669,7 @@ __Note:__ The stop parameter does not work when upscaling an image.
 
 Q: Ephemeral? What are ephemeral jobs? Why do my jobs disappear from Discord? My images are disappearing?
 
-Some jobs may be temporary on Discord when using certain words or phrases in your prompt. The images are only visible to you and disappear when you close, refresh, or switch Discord pages. If the job is ephemeral, you’ll see the text "Only you can see this message" at the bottom of the bot's message.
+Some jobs may be temporary on Discord when using certain words or phrases in your prompt. The images are only visible to you and disappear when you close, refresh, or switch Discord pages. If the job is ephemeral, you’ll see the text `Only you can see this message` at the bottom of the bot's message.
 
 Don't worry, all these images are in [your archive](https://www.midjourney.com/archive) on the Midjourney website. To bring them back on Discord:
 1️⃣ Open the image in the [Organize](https://www.midjourney.com/archive) tab on the website and copy the job ID.
