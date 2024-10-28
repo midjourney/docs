@@ -105,6 +105,52 @@ Click the image icon on the left of the `Imagine…` textbox to upload images. I
 
 ---
 
+# - EXTERNAL EDITOR -
+
+Q: How can I access the new edit page? How can I access the new editor? Can I use the new edit mode? Can I use the new edit? Can I use the new editor? How do I get the external editor?
+
+The external editor is available through the [`Edit` page](https://www.midjourney.com/editor/new). Check out our [guide on how to use it](https://docs.midjourney.com/docs/external-editor).
+
+As a security measure, access to this new tool is currently available to **any** of the following community groups: users with a lifetime usage of over 10,000 generations, users with an active yearly subscription and users who have been subscribed for the past 12 months without any interruption.
+
+---
+
+Q: Why am I not included in the new editor group? Why do I not have access to the external editor? Will be edit feature available for every subscriber someday? Why am I not part of the "Image-Editor" group?
+
+As a security measure, access to this new tool is currently available to **any** of the following community groups: users with a lifetime usage of over 10,000 generations, users with an active yearly subscription and users who have been subscribed for the past 12 months without any interruption.
+
+This tool is new; access and moderation will be adjusted over time.
+
+---
+
+Q: I am paying since the beginning and I have no access to the editor? I am paying since the beginning but cannot use the new editor? I am paying since the beginning but cannot access the external editor? I am paying since the beginning but can't access the edit feature? I have been subscribed for months and still can't get access to the edit feature? I have been subscribed for months and still can't get access to the external editor? I have been subscribed for months and still can't get access to the new editor? I have been subscribed for months but cannot use the editor? I've been subscribed for nearly two years, why can't I access the new edit tool? I've been subscribed for nearly two years, why can't I access the external editor? I've been subscribed for nearly two years, why can't I access the new editor? I'm paying since 2023, why don’t I have access to the edit feature? I'm paying since 2023, why don’t I have access to the new editor? I'm paying since 2023, why don’t I have access to the external editor? I've been a subscriber for more than 12 months, but I am unable to access the new edit mode? I've been a subscriber for more than 12 months, but I am unable to access the new editor? I've been a subscriber for more than 12 months, but I am unable to access the external editor? Subscribed for 12 months but no new editor? I have been a monthly subscriber since 2023, can I use the new editor? I've had a membership since 2022 but I can't use the Edit feature on the site? I've had a membership since 2022 but I can't use the new editor? I've had a subscription since 2022 but I can't use the new editor? 
+
+If your lifetime usage is under 10,000 images and you do not have a yearly subscription, you can access the [external editor](https://docs.midjourney.com/docs/external-editor) if you've been subscribed to Midjourney for the past 12 months **without any interruption**. Unfortunately, if you've canceled at any point during this time, you do not qualify.
+
+Do you qualify but do not see the [`Edit` page](https://www.midjourney.com/editor/new) on the left side? Try refreshing the page, or logging out and back in.
+
+__Note:__ For any questions about your subscription, please email billing@midjourney.com. The billing team can review your payment history and the date you last subscribed on.
+
+---
+
+Q: I have created over 10000 images but still cannot access the new editor? I have generated over 10000 images but still cannot access the new editor? I have generated over 10000 images but still cannot access the external editor? I have generated over 10000 images but still cannot access the new editor? I have generated over 10k images but still cannot access the external editor? I have created over 10k images but still cannot access the external editor? The Edit page is unavailable even though I have over 10k generations? I don't have the new editor even though I have over 10k generations? I have created more than 10,000 images but the edit option is not available? I have generated more than 10k images but am not able to access the image editor, why?
+
+You can use the new external editor if you have made over 10,000 generations. Each action and set of four images counts as 1 generation. If you believe you qualify, log out and back into the Midjourney website. If you have over 10,000 generations, you'll find the [`Edit` page](https://www.midjourney.com/editor/new) on the left side menu.
+
+---
+
+Q: Can I use the new image editor on mobile? Can I use the external editor on mobile?
+
+At the moment, the [external editor](https://docs.midjourney.com/docs/external-editor) is only available on the desktop version of the Midjourney website.
+
+---
+
+Q: The new editor is triggering "prompt flagged by AI moderator" almost on everything? The external editor is triggering "prompt flagged by AI moderator" almost on everything? My prompts are blocked on the external editor? My prompts are blocked on the new image editor?
+
+Since the external editor uses real images, the moderation is currently extra safe. We know it can be frustrating, but Midjourney is working hard on improving this system.
+
+---
+
 # -----------------------------
 # - REMIX -
 # -----------------------------
@@ -141,6 +187,12 @@ Q: How many images can I make?
 To access your subscription details, click on your `username ...` in the bottom left corner and then select `Manage Subscription`. This will open [your account page](https://www.midjourney.com/account) where you can view your current subscription tier, remaining GPU fast time, etc.
 
 On average, each generation consumes about 1 GPU minute. So if you have 200 GPU minutes, you can create images approximately 200 times.
+
+---
+
+Q: How many images have I made? How many images have I created? How many images have I generated? How do I find how many images I’ve generated? How do I find my lifetime usage? Where do I see my lifetime usage?
+
+Each new set of images created counts as one generated image. You can ask one of our official volunteers in the chat to check your lifetime usage.
 
 ---
 
@@ -325,7 +377,7 @@ Please email billing@midjourney.com for any inquiry or issue regarding your maga
 
 Q: What is my User ID? Where can I find my User ID? User ID? userid? What is userid? How do I get my User ID? MJ ID?
 
-When using Midjourney, you are assigned a unique Midjourney ID to identify your account. If you signed in via Google, go to your `Manage Profile` page to find it. On Discord, use the command `/userid`.
+When using Midjourney, you are assigned a unique Midjourney ID to identify your account. Find your Midjourney ID on your [`Manage Profile` page](https://www.midjourney.com/profile-settings).
 
 ---
 
@@ -1136,7 +1188,7 @@ Please email billing@midjourney.com for further assistance.
 
 Q: payment Error: user missing a default payment method in stripe? Default payment? Default payment method?
 
-To solve this bug, go to your [`Manage Subscription` page](https://www.midjourney.com/account) and click on the "Edit Billing" button.
+To solve this bug, go to your [`Manage Subscription` page](https://www.midjourney.com/account) and click on the `Edit Billing` button.
 
 When you get to the new page, look for the `...` button next to your payment method and click it, then press make default.
 
@@ -1290,9 +1342,9 @@ If you encounter an error, send an email to billing@midjourney.com. If possible,
 
 Q: Images generated on Discord disappear when the page is refreshed?
 
-Some jobs may appear *ephemeral* when certain words or phrases are mentioned. These temporary messages are only visible to **you** and disappear when you close or refresh Discord. Generate in [Direct Messages](https://docs.midjourney.com/docs/direct-messages) to avoid ephemeral results.
+Some jobs may appear *ephemeral* when certain words or phrases are mentioned. These temporary messages are only visible to **you** and disappear when you close or refresh Discord.
 
-Don't worry, you can still find the images in your [Archive](https://www.midjourney.com/archive). If you want to bring them back on Discord, use the [`/show` command](https://docs.midjourney.com/docs/show-job).
+Don't worry, you can still find the images in your [`Organize` page](https://www.midjourney.com/archive). If you want to bring them back on Discord, use the [`/show` command](https://docs.midjourney.com/docs/show-job).
 
 ---
 
