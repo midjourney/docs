@@ -843,7 +843,9 @@ __Advanced:__ If you'd prefer to enter your own set of parameters to be added at
 
 Q: Quality Buttons Disappeared from Settings? Quality Buttons? Quality Buttons Gone? Quality Buttons Disappear? How to set Quality? Quality in Settings?
 
-The Quality buttons have been removed from the </settings:1000850743479255081> panel because on v4 and v5 models the default quality setting is already the maximum value (q 1). If you wish to lower the quality setting or use higher values on older versions, you can use the [Quality Parameter](https://docs.midjourney.com/docs/quality) on your prompt or set a [custom suffix](https://docs.midjourney.com/docs/settings-and-presets#prefer-suffix) to automatically add a custom quality parameter.
+If you wish to lower the quality setting or use higher values on older versions, you can use the quality parameter on your prompt or set a [custom suffix](https://docs.midjourney.com/docs/settings-and-presets#prefer-suffix) to automatically add a custom quality parameter.
+
+[Read more about the Quality parameter](https://docs.midjourney.com/docs/quality)
 
 ---
 
@@ -1266,17 +1268,26 @@ To enable Stealth mode on the alpha website and keep all **__new__** images crea
 
 Q: How can I access the new edit page? How can I access the new editor? Can I use the new edit mode? Can I use the new edit? Can I use the new editor? How do I get the external editor?
 
-The external editor is available through the [`Edit` page](https://www.midjourney.com/editor/new). Check out our [guide on how to use it](https://docs.midjourney.com/docs/external-editor).
+The new external editor is available on the [Midjourney website](https://www.midjourney.com/editor/new), in the `Edit` page.
 
-As a security measure, access to this new tool is currently available to **any** of the following community groups: users with a lifetime usage of over 10,000 generations, users with an active yearly subscription and users who have been subscribed for the past 12 months without any interruption.
+As a security measure, access to this new tool is currently available to **any** of the following community groups (meeting one of these conditions is sufficient):
+🔹users with a lifetime usage of over 10,000 images (see yours with </info:972289487818334209>)
+🔹users with an active yearly subscription
+🔹users who have been subscribed continuously for the past 12 months without any interruption
+
+[Read more about the External Editor](https://docs.midjourney.com/docs/external-editor)
 
 ---
 
 Q: Why am I not included in the new editor group? Why do I not have access to the external editor? Will be edit feature available for every subscriber someday? Why am I not part of the "Image-Editor" group?
 
-As a security measure, access to this new tool is currently available to **any** of the following community groups: users with a lifetime usage of over 10,000 generations, users with an active yearly subscription and users who have been subscribed for the past 12 months without any interruption.
+As a security measure, access to this new tool is currently available to **any** of the following community groups (meeting one of these conditions is sufficient):
+🔹users with a lifetime usage of over 10,000 images (see yours with </info:972289487818334209>)
+🔹users with an active yearly subscription
+🔹users who have been subscribed for the past 12 months without any interruption
 
 This tool is new; access and moderation will be adjusted over time.
+
 
 ---
 
@@ -1284,15 +1295,15 @@ Q: I am paying since the beginning and I have no access to the editor? I am payi
 
 If your lifetime usage is under 10,000 images and you do not have a yearly subscription, you can access the [external editor](https://docs.midjourney.com/docs/external-editor) if you've been subscribed to Midjourney for the past 12 months **without any interruption**. Unfortunately, if you've canceled at any point during this time, you do not qualify.
 
-Do you qualify but do not see the [`Edit` page](https://www.midjourney.com/editor/new) on the left side? Try refreshing the page, or logging out and back in.
+Do you qualify but do not see the [`Edit` page](https://www.midjourney.com/editor/new) on the Midjourney website? Try refreshing the page, or logging out and back into the website.
 
-__Note:__ For any questions about your subscription, please email billing@midjourney.com where the team there can review your payment history and the date you last subscribed on.
+__Note:__ For any questions about your subscription, please email `billing@midjourney.com`. The billing team can review your payment history and the date you last subscribed on.
 
 ---
 
 Q: I have created over 10000 images but still cannot access the new editor? I have generated over 10000 images but still cannot access the new editor? I have generated over 10000 images but still cannot access the external editor? I have generated over 10000 images but still cannot access the new editor? I have generated over 10k images but still cannot access the external editor? I have created over 10k images but still cannot access the external editor? The Edit page is unavailable even though I have over 10k generations? I don't have the new editor even though I have over 10k generations? I have created more than 10,000 images but the edit option is not available? I have generated more than 10k images but am not able to access the image editor, why?
 
-You can use the new external editor if you have made over 10,000 generations. Each action and set of four images counts as 1 generation. If you believe you qualify, log out and back into the Midjourney website. If you have over 10,000 generations, you'll find the [`Edit` page](https://www.midjourney.com/editor/new) on the left side menu.
+Use the command </info:972289487818334209> to view your lifetime usage. If it's above 10,000 images, log out and back into the Midjourney website making sure you're using the same Discord account. You'll find the [`Edit` page](https://www.midjourney.com/editor/new) on the left side menu.
 
 ---
 
@@ -1304,7 +1315,7 @@ At the moment, the [external editor](https://docs.midjourney.com/docs/external-e
 
 Q: The new editor is triggering "prompt flagged by AI moderator" almost on everything? The external editor is triggering "prompt flagged by AI moderator" almost on everything? My prompts are blocked on the external editor? My prompts are blocked on the new image editor?
 
-Since the external editor uses real images, the moderation is currently extra safe. We know it can be frustrating, but Midjourney is working hard on improving this system.
+Since the external editor uses real images, the moderation is currently extra safe. If your prompt is being incorrectly flagged, help us improve this system by sharing the full prompt in <#1100553606761041991>.
 
 ---
 
@@ -1765,8 +1776,8 @@ Participate in our [#prompt-craft](https://discord.com/channels/6622679769842974
 
 Q: How do I get text or words in an image? How can I add text to my images? Is it possible to get text on images? How do I get text in an image? How do I add words to the image? How to create text?
 
-Add text to your image by typing it in "quotes". Make sure you’re using version 6 (current default version).
-Example prompt: `Sci-fi movie poster with title text "Aliens!" --v 6`
+Add text to your image by typing it in "quotes". Make sure you’re using version 6.1 (current default version).
+Example prompt: `Sci-fi movie poster with title text "Aliens!" --v 6.1`
 
 Participate in our [#prompt-craft](https://discord.com/channels/662267976984297473/992207085146222713) community to discuss prompts with other users.
 
