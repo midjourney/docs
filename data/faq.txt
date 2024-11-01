@@ -138,7 +138,7 @@ Q: How do I generate images? How to use it? How do I use the bot? How does the b
 3️⃣ Click the popup above and type a description of the image you want - that’s the prompt.
 4️⃣ Hit enter or press send to submit your prompt.
 
-Check out our [Quick Start Guide](https://docs.midjourney.com/docs/quick-start) a read for a step by step walkthrough.
+Check out our [Quick Start Guide](https://docs.midjourney.com/docs/discord-quick-start) a read for a step by step walkthrough.
 __Note:__ You can also create images with other members in this server in bot channels like <#981832774157762570>.
 
 %image=https://cdn.discordapp.com/attachments/958069758211797092/1110755514691891260/MJ_ImagineCommand.gif
@@ -162,7 +162,7 @@ Discord Settings :gear: > `Accessibility` > `Use the legacy chat input` = OFF
 
 Q: I can’t see the rooms? Why can I not participate in channels? How do I talk in channels? You do not have permissions to send messages in this channel? I don’t see all the channels?
 
-If you’re new, welcome! Check out our [Quick Start Guide](https://docs.midjourney.com/docs/quick-start).
+If you’re new, welcome! Check out our [Quick Start Guide](https://docs.midjourney.com/docs/discord-quick-start).
 Participating in the server is limited to users with an active subscription. If your plan is active, **run the command </info:972289487818334209> to update your roles and access**.
 Organize your channels here: <id:browse>
 
@@ -1495,10 +1495,21 @@ Currently, all subscription plans are linked to a single user. Each user needs t
 # -------------------- ERRORS --------------------
 # -------------------- -------------------- --------------------
 
-Q: Why did I get a message that said "Interaction Failed"? I am getting “interaction failed”? I am getting “application did not respond”? Bot interaction failing?
+Q: Bot interaction failing?
 
 First check  <#942231458918064148> for known issues.
 If you are getting an error, try restarting Discord, updating it, or reinstalling it.
+
+---
+
+Q: Why did I get a message that said "Interaction Failed"? I am getting “interaction failed”? I am getting “application did not respond”?
+
+Right-click the Midjourney server icon > Privacy Settings > check if `Direct Messages` is green. If it’s already enabled, toggle it off and on again.
+
+If the issue persists, try restarting Discord, updating it, or reinstalling it.
+Check <#942231458918064148> for known issues.
+
+%image=https://cdn.discordapp.com/attachments/1259116844430655488/1259121654534111242/HowToDM.gif
 
 ---
 
