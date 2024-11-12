@@ -3,25 +3,24 @@
 
 
 
-# TOC
 # Basics
 # GPU
-# Fast / Relax
-# Invites
+# Speed modes
 # Trial
 # Subscription
 # Billing
-# Private
-# Upscale / Size
+# Stealth
+# Upscale & Size
 # Parameters
-# Commands
-# Website
-# DMs
+# Gallery
+# Rooms
+# Tasks
 # About
 # Usage rights
 # Errors
-# Where are my Images?
-# Threads / Roles
+# Misc
+# Prompt Craft
+# Discord
 
 
 # ---------- Basic Markdown ----------
@@ -107,7 +106,7 @@ Click the image icon on the left of the `Imagine…` textbox to upload images. I
 
 # - EXTERNAL EDITOR -
 
-Q: How can I access the new edit page? How can I access the new editor? Can I use the new edit mode? Can I use the new edit? Can I use the new editor? How do I get the external editor?
+Q: How can I access the new edit page? How can I access the new editor? Can I use the new edit mode? Can I use the new edit? Can I use the new editor? How do I get the external editor? Where is the link to the image editor? Where is the link to the external editor?
 
 The external editor is available through the [`Edit` page](https://www.midjourney.com/editor/new). Check out our [guide on how to use it](https://docs.midjourney.com/docs/external-editor).
 
@@ -151,9 +150,7 @@ Since the external editor uses real images, the moderation is currently extra sa
 
 ---
 
-# -----------------------------
 # - REMIX -
-# -----------------------------
 
 Q: Is it possible to edit a prompt without restarting? How to edit my prompt? What is remix? Can I change the prompt after I’ve made it? Can I change the prompt? Is there a way to add more parameters to a generated image after I have generated different versions? Can I change the prompt? How do I recreate one of my images with a small change? Can I edit my prompt? Can I edit one of my prompts? Can I add, remove, or change just one word in my prompt? Remix subtle or strong? Which remix should I use?
 
@@ -211,7 +208,7 @@ __Note:__ These hours are used after your bonus and monthly GPU fast time.
 ---
 
 # -----------------------------
-# - FAST / RELAX -
+# - SPEED MODES -
 # -----------------------------
 
 Q: How do I change the speed of my renders? How to change speed mode? Where do I change the speed of image creation? Where do I modify the speed of my renders? Where do I modify the speed mode? Where do I update my speed mode? How to update speed settings? How can I change my speed settings? How to switch speed settings? How to switch speed mode? How do I change generation speed?
@@ -282,7 +279,7 @@ __Note:__ To create images, you need an active subscription.
 
 Q: What is turbo mode? What does turbo mean? Turbo mode?
 
-Turbo mode is for extremely quick image generation. Jobs in Turbo mode are generated up to four times faster but also **consume up to four times as much fast GPU time** as a typical Fast mode job. If Turbo mode can’t be used, your job will run in Fast Mode instead. [Read more about GPU time and Speed modes](https://docs.midjourney.com/docs/fast-relax)
+Turbo mode is for extremely quick image generation. Jobs in Turbo mode are generated up to four times faster but also **consume twice as much fast GPU time** as a typical Fast mode job. If Turbo mode can’t be used, your job will run in Fast Mode instead. [Read more about GPU time and Speed modes](https://docs.midjourney.com/docs/fast-relax)
 
 To choose what `Speed` mode to use, open your settings on the right side of the `Imagine...` bar. At the bottom of your `Model` options, select the `Relax`, `Fast`, or `Turbo` button.
 
@@ -353,7 +350,7 @@ Don’t forget to cancel the automatic renewal before your next billing date if 
 
 Q: Is it paid to make images? I need to pay? Do I need to pay?
 
-Welcome! To use the bot, you need a subscription. Find and subscribe to the plan of your choice on your [`Manage Subscription` page](https://www.midjourney.com/account). Make sure to log in with your Discord account.
+Welcome! To use the bot, you need a subscription. Find and subscribe to the plan of your choice on your [`Manage Subscription` page](https://www.midjourney.com/account).
 
 ---
 
@@ -386,6 +383,12 @@ Q: Delete account? How to delete my account? Data deletion?
 To delete your Midjourney account and its data, go to the bottom of your [`Manage Subscription` page](https://www.midjourney.com/account) and click on `How can I delete my account?`. Follow the red `Click here` link, and proceed to confirm the data deletion request.
 
 *If you only want to cancel your subscription’s automatic renewal, click on `Cancel plan` at the top of that page*.
+
+---
+
+Q: Where do I manage my account? Where do I manage my subscription?
+
+Click on your account in the bottom left corner, then click on [Manage Subscription](https://www.midjourney.com/account) to subscribe or view information about your subscription.
 
 ---
 
@@ -535,7 +538,7 @@ Unfortunately, subscriptions cannot be transferred. If you are unable to access 
 
 Q: I need to change my email address? I want to change the email address? Please change the email address for my subscription? How to change the billing email address? I want to change my email? How can I change my registered email address? How can i change my email in the payment page? I need to change the email on the payment page? How to change my account email address? How can I change my contact email? How to change email profile?
 
-To modify your __Discord email__ used to sign in, follow this guide: [How to change your Discord account's email address](https://support.discord.com/hc/en-us/articles/4423385681175-How-to-Change-Your-Account-s-Email-Address).
+Your __Google account__ email cannot be modified. To modify your __Discord email__ used to sign in, follow [this guide](https://support.discord.com/hc/en-us/articles/4423385681175-How-to-Change-Your-Account-s-Email-Address).
 
 To modify your __Midjourney billing email__ where you receive invoices and receipts, email billing@midjourney.com. If possible, provide your receipt number or invoice number.
 
@@ -622,7 +625,7 @@ The billing information on your subscription must match the information associat
 ---
 
 # -----------------------------
-# - PRIVATE -
+# - STEALTH -
 # -----------------------------
 
 Q: Why do I have to pay for private mode? Pay for stealth mode? What if I don’t want my images to appear in the gallery? Does anyone else have access to the images I create? Are all my images private automatically? Are all my images stealth automatically? I don't want people to see my images? The images that I create in Midjourney alpha, are they private images? Are the images I create visible to others?
@@ -743,9 +746,9 @@ Beta upscale is an upscaler for Version 3 and 4. It uses a different algorithm t
 
 ---
 
-Q: What is the maximum upscale resolution? What is the maximum resolution?  How can I set the resolution? Can I make a 4K image? Can I make a 300 DPI image? Can I make the resolution higher? Can I print my image? Is it possible to save my creations in high resolution, so I can print them out as posters? Is there a way to set the resolution to 2k and higher? How do I choose a resolution? How do I increase my image’s resolution? How can I get high resolution images 3000 dpi from what I generate?
+Q: What is the maximum upscale resolution? What is the maximum resolution?  How can I set the resolution? Can I make a 4K image? Can I make a 300 DPI image? Can I make the resolution higher? Can I print my image? Is it possible to save my creations in high resolution, so I can print them out as posters? Is there a way to set the resolution to 2k and higher? How do I choose a resolution? How do I increase my image’s resolution? How can I get high resolution images 3000 dpi from what I generate? How do I make the quality higher? How do I get higher quality images?
 
-When generating a set of square images using versions 5, 5.1, 5.2, and 6.0, the images will have a dimension of 1024x1024 pixels. Upscale Creative and Upscale Subtle will double the size to 2048 x 2048 px. Custom aspect ratios set using `--ar` will change the width and height of the image, but not the max file size. [Read more about resolution and upscalers](https://docs.midjourney.com/docs/upscalers)
+When generating a set of square images using the current version, the images will have a dimension of 1024x1024 pixels. Upscale Creative and Upscale Subtle will double the size to 2048 x 2048 px. Custom aspect ratios set using `--ar` will change the width and height of the image, but not the max file size. [Read more about resolution and upscalers](https://docs.midjourney.com/docs/upscalers)
 
 Download your images in full size in your [Archive](https://www.midjourney.com/archive).
 
@@ -800,6 +803,14 @@ The `--cref` parameter, or portrait icon on an image reference, is an image used
 
 # - STYLE REFERENCE -
 
+Q: How to have the same style? Can I keep the same style in my images? Is there an option to keep the same style? How to use --sref? Can I add a style reference? Can I have the same style as an image?
+
+You can use a Style Reference for your results to be based on one or more specific images. Attach an image and select the paper clip icon to use the image as a style reference. You can add text, image prompts, and other parameters to guide the results. [Read more about Style Reference](https://docs.midjourney.com/docs/style-reference)
+
+__Note:__ You can also use the style reference parameter with a number; each number represents a different random style. For example: `happy firefighter squid --sref 483`
+
+---
+
 Q: What is sref? What is the sref parameter? What does sref do? What does the sref parameter do? sref?
 
 The `--sref` parameter, or paper clip icon on an image reference, is an image used as a **style reference**. [Read more about Style Reference](https://docs.midjourney.com/docs/style-reference)
@@ -810,7 +821,7 @@ The `--sref` parameter, or paper clip icon on an image reference, is an image us
 
 Q: What is the personalization feature? What is the personalisation feature? What is the personalize feature? What is the personalise feature? What is the personalization parameter? What is the personalisation parameter? What is the personalize parameter? What is the personalise parameter? Personalization feature? Personalisation feature? Personalize feature? Personalise feature? Personalization parameter? Personalisation parameter? Personalize parameter? Personalise parameter? What is the --p parameter? Can I personalize my style? Can I personalise my style? Can I train my own model?
 
-The Personalization feature learns your preferences over time through images you've rated (on the [Rate Images](https://www.midjourney.com/rank) page) and other users' images you've favorited.
+The Personalization feature learns your preferences over time through images you've rated (on the [Rate Images](https://www.midjourney.com/personalize) page) and other users' images you've favorited.
 
 Add the Personalize parameter `--p` at the end of your prompt to tailor the model to your preferences, or toggle `Personalize` to `On` in your settings for all new prompts to have it. Your personal code is automatically added after it. [Read more about Personalization](https://docs.midjourney.com/docs/personalization)
 
@@ -818,7 +829,7 @@ If you want to influence the style with specific images, use them as a [Style Re
 
 ---
 
-Q: Can I use someone else's personal style parameter? Can I use someone else's --p code? Can others user my personal code? Can others user my --p code? Can other members use my personalize code? Can other members user my personalise code? How do I get my personal code? Where do I find my personal code? Where do I find my --p code? Can I get a personal code with my own aesthetic? How do i find my personalized style? How do I find my personalization code? Where do I find my personalized style?
+Q: Can I use someone else's personal style parameter? Can I use someone else's --p code? Can others user my personal code? Can others user my --p code? Can other members use my personalize code? Can other members user my personalise code? How do I get my personal code? Where do I find my personal code? Where do I find my --p code? Can I get a personal code with my own aesthetic? How do I find my personalized style? How do I find my personalization code? Where do I find my personalized style?
 
 When you use the Personalize parameter `--p`, your unique personal code is automatically added after it. You can share this code with other members as well as try one of their codes by pasting it after `--p`. [Read more about Personalization](https://docs.midjourney.com/docs/personalization)
 
@@ -826,7 +837,7 @@ When you use the Personalize parameter `--p`, your unique personal code is autom
 
 Q: Why do I get “Not enough ratings”? Not enough ratings? Where do I get more ratings, I get the error "Not enough ratings"? Impossible to submit: you don't yet have a personal style to use --p? Failed to submit: You don't have a personalized style to use with --p yet!? You don't have a personalized style to use with --p yet?
 
-To use the [Personalization feature](https://docs.midjourney.com/docs/personalization) you need to rate enough images for it to learn your preferences. Go to the [`Rank Images` page](https://www.midjourney.com/rank), and select your favorite image between the two. If you're uncertain or don't like either, Press `→ Skip`.
+To use the [Personalization feature](https://docs.midjourney.com/docs/personalization) you need to rate enough images for it to learn your preferences. Go to the [`Rank Images` page](https://www.midjourney.com/personalize), and select your favorite image between the two. If you're uncertain or don't like either, Press `→ Skip`.
 
 You can see how many images you've rated at the top; the personalization feature will work once you have a ranking count of about 200 images. [Read more about Personalization](https://docs.midjourney.com/docs/personalization)
 
@@ -963,6 +974,24 @@ __Note:__ Seeds are not reliable and change over time. They have no effect on ch
 
 ---
 
+# - STOP -
+
+Q: --stop? What is the stop parameter?
+
+Adding the `--stop` parameter followed by a number between 10 and 100 will stop your generation partway through. It only works on your initial generation, not upscales or variations. For example, with the prompt `a baby red panda --stop 40`, the grid will stop at 40% through the process, resulting in a softer, less detailed image.
+[Read more about Stop](https://docs.midjourney.com/docs/stop)
+
+---
+
+# - CHAOS -
+
+Q: What is chaos? What is --c? Why do I see prompts with s and c in them? What does c do?
+
+The '--chaos' or '--c' parameter affects how different the images are from each other in the initial grid. The value goes from 0 to 100, 0 being the default. In your settings, adjust the chaos value with the `Variety` slider.
+[Read more about Chaos](https://docs.midjourney.com/docs/chaos)
+
+---
+
 # -----------------------------
 # - GALLERY -
 # -----------------------------
@@ -1077,7 +1106,7 @@ Copy the URL from your browser’s address bar and share it with your friends. M
 
 Q: What is rank pairs? What is Rank images? How to rank images? How do I rate images?
 
-[`Rank Images`](https://www.midjourney.com/rank) by selecting your favorite image between the two shown. If you're uncertain or don't like either, Press `→ Skip`. Ranking these pairs of images helps Midjourney adjust new models, and adjust your own [Personalization](https://docs.midjourney.com/docs/personalization).
+[`Rank Images`](https://www.midjourney.com/personalize) by selecting your favorite image between the two shown. If you're uncertain or don't like either, Press `→ Skip`. Ranking these pairs of images helps Midjourney adjust new models, and adjust your own [Personalization](https://docs.midjourney.com/docs/personalization).
 
 ---
 
@@ -1258,7 +1287,7 @@ The filter is automated and can occasionally misinterpret the content.
 
 
 # -----------------------------
-# - UNCATEGORIZED -
+# - MISC -
 # -----------------------------
 
 
@@ -1274,17 +1303,6 @@ Insight Face Swap is not part of Midjourney. It's developed and supported by a d
 
 ---
 
-# -------------------- -------------------- --------------------
-# -------------------- GUIDE KEYBINDS --------------------
-# -------------------- -------------------- --------------------
-
-Q: --stop? What is the stop parameter?
-
-Adding the `--stop` parameter followed by a number between 10 and 100 will stop your generation partway through. It only works on your initial generation, not upscales or variations. For example, with the prompt `a baby red panda --stop 40`, the grid will stop at 40% through the process, resulting in a softer, less detailed image.
-[Read more about Stop](https://docs.midjourney.com/docs/stop)
-
----
-
 # -----------------------------
 # - PROMPT CRAFT -
 # -----------------------------
@@ -1292,13 +1310,6 @@ Adding the `--stop` parameter followed by a number between 10 and 100 will stop 
 Q: Does Midjourney know about this style, artist, movie, game, or media?
 
 Midjourney has a wide variety of subjects and topics in its dataset. If you find it is unfamiliar with a topic you reference in your prompt, you may need to be more specific. You can also try to provide an image prompt, character reference, or style reference.
-
----
-
-Q: What is chaos? What is --c? Why do I see prompts with s and c in them? What does c do?
-
-The '--chaos' or '--c' parameter affects how different the images are from each other in the initial grid. The value goes from 0 to 100, 0 being the default. In your settings, adjust the chaos value with the `Variety` slider.
-[Read more about Chaos](https://docs.midjourney.com/docs/chaos)
 
 ---
 
