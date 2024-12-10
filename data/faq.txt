@@ -221,7 +221,7 @@ On average, each generation consumes about 1 GPU minute. So if you have 200 GPU 
 
 Q: How many images have I made? How many images have I created? How many images have I generated? How do I find how many images I’ve generated? How do I find my lifetime usage? Where do I see my lifetime usage?
 
-Generating a grid counts as one generated image. Use the command </info:972289487818334209> to view your total count in lifetime usage.
+Generating a grid counts as one generated image. Use the command </info:972289487818334209> to view your total count in `Lifetime Usage`.
 
 ---
 
@@ -456,9 +456,9 @@ __Note:__ Additional GPU hours are bought before being used, so you cannot accid
 
 Q: How can I cancel? How can I cancel my plan? How do I unsubscribe? How can I cancel my subscription? How to cancel a subscription? Where do I cancel my subscription? How do I unsub? Where do I unsub? Where do I cancel? Cancle? Cancel? How to cancel? How can I cancel my Midjourney subscription? I would like to cancel my Midjourney subscription? Cancel subscription? How do I unsubscribe from my Midjourney subscription? How can I cancel my Midjourney subscription?
 
-On your [Midjourney subscription page](https://midjourney.com/account), click `Cancel Plan` and confirm.
+To cancel your subscription’s automatic renewal, click `Cancel Plan` on your [Midjourney subscription page](https://midjourney.com/account), and confirm.
 
-You can cancel the automatic renewal at any time. Your plan will be canceled **at the end of your billing cycle** - enjoy all the perks and fast GPU time until then. If you change your mind, you can uncancel.
+You can cancel the automatic renewal at any time, **your plan will remain active until the end of your billing cycle**. If you change your mind, you can uncancel to reactivate the automatic renewal.
 
 Please email `billing@midjourney.com` if you encounter an error or need further assistance.
 
@@ -466,15 +466,33 @@ Please email `billing@midjourney.com` if you encounter an error or need further 
 
 ---
 
-Q: Cancel with refund? Cancel and refund? How do I get a refund? How to refund? Can this be refunded? I would like to request a refund? I need a refund? How can I refund?
+Q: Cancel with refund? Cancel and refund? How do I get a refund? How to refund? Can this be refunded? I would like to request a refund? I need a refund? How can I refund? How to get a refund? How to get a refund for a subscription? I want a refund?
 
-On your [Midjourney subscription page](https://midjourney.com/account), click `Cancel Plan`. Your plan will be canceled **at the end of your billing cycle**.
+On your [Midjourney subscription page](https://midjourney.com/account), click `Cancel Plan` to cancel the automatic renewal.
 
 **__Refund:__** You are eligible for a full refund if you’ve used less than 20 GPU minutes **__lifetime__**. If you’re eligible, you will have the option to `Cancel immediately with refund`. Select that option, and confirm the immediate cancellation.
 
 Please email `billing@midjourney.com` if you do not get the option or if you receive an error.
 
 %image=https://cdn.discordapp.com/attachments/1201909699793145876/1228317951598530621/Cancel.png
+
+---
+
+Q: It was automatically renewed, I need a refund? Can I have a refund for the automatic renewal?
+
+Subscriptions are automatically renewed. To cancel the automatic renewal, click `Cancel Plan` on your [Midjourney subscription page](https://midjourney.com/account).
+
+If you forgot to cancel the renewal on time, reach out to our billing support team by sending an email to `billing@midjourney.com`.
+
+To help speed up the process, include your User ID which you can find with the command </userid:1136041075614683196> and, if possible, provide your receipt number or invoice number which was sent to your billing email.
+
+---
+
+Q: It is automatically deducted and the membership fee is required to be refunded? I mistakenly charged money, please refund?
+
+Payments cannot be handled through this chat. Reach out to our billing support team by sending an email to `billing@midjourney.com`.
+
+To help speed up the process, include your User ID which you can find with the command </userid:1136041075614683196> and, if possible, provide your receipt number or invoice number which was sent to your billing email.
 
 ---
 
@@ -917,11 +935,21 @@ The '--chaos' or '--c' parameter affects how different the images are from each 
 
 ---
 
+# - TILE -
+
+Q: Can I make a seamless pattern? Tile? What is the tile parameter? How to create tiles? Can I make a pattern? How to make a pattern? Can I make a tile to create a pattern?
+
+Use the `--tile` parameter at the end of your prompt to create images which can be used as a seamless tile pattern.
+
+[Read more about the Tile parameter](https://docs.midjourney.com/docs/tile)
+
+---
+
 # - CHARACTER REFERENCE -
 
 Q: How to have the same character made but in different scenes? Can I keep the same character in my images? Is there an option to keep the same character? How to use --cref? Can I add a character reference?
 
-You can use the Character Reference parameter `--cref` followed by a space and a link to your image for the characters in your results to be based on a specific image. You can add multiple links to have multiple character references, make sure to have a space between each link.
+Use the Character Reference parameter `--cref` followed by a space and a link to your image for the characters in your results to be based on a specific image. You can add multiple links to have multiple character references, make sure to have a space between each link.
 For example: `Short blond man holding a puppy --cref https://pic1.png https://pic2.png`
 
 __Note:__ The `--cref` parameter works best with references created in Midjourney.
@@ -940,7 +968,7 @@ The `--cref` parameter is used in a prompt, followed by one or more image links,
 
 Q: How to have the same style? Can I keep the same style? Is there an option to keep the same style? How to use --sref? Can I use a specific style? Can I use a style reference? Can I have the same style as an image?
 
-You can use the Style Reference parameter `--sref` followed by a space and a link to your image for the style in your results to be based on a specific image. You can add multiple links to have multiple style references, make sure to have a space between each link.
+Use the Style Reference parameter `--sref` followed by a space and a link to your image for the style in your results to be based on a specific image. You can add multiple links to have multiple style references, make sure to have a space between each link.
 For example: `Yellow ghost and pirate alien --sref https://pic1.png https://pic2.png`
 
 __Note:__ You can also use the style reference parameter with a number; each number represents a different random style. For example: `happy firefighter squid --sref 483`
@@ -1012,16 +1040,77 @@ The Image Weight parameter `--iw` allows you to adjust how much the image prompt
 
 ---
 
-Q: Reference image? Use photo as reference? How do I upload an image? How do I get an image link? How do I use my own image? How do I upload or use an image from my hard-drive for an image prompt? Image prompt? How can I attach an image? Can I use an image as a starting point? Can I use my images? Can I send images to the AI? Can I give an image to the AI? I've seen a few people using source images, how does this work? Can I use an image? My own photo? My own personal photo? Edit my image? How can I use my photo to generate images? Is there a way to upload a photo? Is there a way to upload an image?
+Q: How do I get an image link? Where to get an image link? How can I get the link to an image?
 
-You can add image links in your prompt, [here](https://docs.midjourney.com/docs/image-prompts) is how:
-1️⃣ Upload the image to Discord (make sure to click send/hit enter).
-2️⃣ Right-click and copy the link to the image or media (ending in .jpg, .png, or .webp). If you don’t see this option, left-click on the image to open it, then right-click to copy the link.
-3️⃣ Start typing `/imagine` and click the popup.
-4️⃣ Paste the image link(s) with a space between each link.
-5️⃣ Add a text prompt and any parameters.
+To upload an image and get its link, see [here](https://docs.midjourney.com/docs/image-prompts):
+1️⃣ Click the ⊕︀ sign on the left of your text message box.
+2️⃣ Select and upload the image. Make sure to click send/hit enter.
+3️⃣ Right-click and copy the link to the image or media (ending in .jpg, .png, or .webp). If you don’t see this option, left-click on the image to open it, then right-click to copy the link.
+Are you on mobile? Tap and hold on the image in the chat to `Copy Media Link`.
 
-To use the image as a [style reference](https://docs.midjourney.com/docs/style-reference) (sref) or [character reference](https://docs.midjourney.com/docs/character-reference) (cref), paste the link after the prompt, behind the parameter `--sref` or `--cref`. For example: `A man with a glowing bat --sref image1.png --cref image2.png`
+---
+
+Q: How to use an image link? How to use image links? Where do I use image links?
+
+Paste an image link at the start of your prompt to use it as an image prompt.
+To use the image as a [style reference](https://docs.midjourney.com/docs/style-reference) (sref) or [character reference](https://docs.midjourney.com/docs/character-reference) (cref), add the parameter `--sref` or `--cref` followed by a space and the link at the end of your prompt.
+For example: `A man with a glowing bat --sref image1.png --cref image2.png`
+
+__Note:__ If you're only using one image prompt, you must add text.
+If you use multiple images, make sure to have a space between each link.
+
+**Not sure how to get an image link?** [Check out our step by step guide](https://docs.midjourney.com/docs/image-prompts-1)
+
+---
+
+Q: How to link an image? How to attach an image link? How to add an image reference? How can I attach an image? Image prompt?
+
+You can add image links in your prompt, see [here](https://docs.midjourney.com/docs/image-prompts):
+1️⃣ Click ⊕︀ and **upload the image to Discord**. Make sure to click send/hit enter.
+2️⃣ Right-click and **copy the link to the image** or media (ending in .jpg, .png, or .webp). If you don’t see this option, left-click on the image to open it, then right-click to copy the link.
+3️⃣ **Type `/imagine`** and click the popup.
+4️⃣ **Paste the link** at the start of your prompt to use it as an image prompt.
+To use the image as a [style reference](https://docs.midjourney.com/docs/style-reference) (sref) or [character reference](https://docs.midjourney.com/docs/character-reference) (cref), add the parameter `--sref` or `--cref` followed by a space and the link at the end of your prompt.
+5️⃣ Add your text prompt and parameters.
+
+__Note:__ If you're only using one image prompt, you must add text.
+You can use multiple image links, just make sure to have a space between each link.
+
+---
+
+Q: How do I upload an image? Can I send images to the AI? Is there a way to upload a photo? Is there a way to upload an image? Upload image?
+
+Send an image on Discord, click on it, and copy the media/image's link. You can then paste the link into your prompt to use it as an [image prompt](https://docs.midjourney.com/docs/image-prompts), a [style reference](https://docs.midjourney.com/docs/style-reference)  and/or a [character reference](https://docs.midjourney.com/docs/character-reference).
+
+If you want to upload an image and edit it using Midjourney, this is only possible through the website's [external editor](https://docs.midjourney.com/docs/external-editor). This tool is available to users with a yearly subscription.
+
+---
+
+Q: How can I upload a picture to edit it? Can I edit my own images? Can I edit my photos? I want to upload an image to recreate the same one? Is it possible to modify an external image? Can the AI add elements to my picture? I have an image I want to modify, is this possible? How to tell it to modify my existing image? How to upload an image to modify it? How can I have it recreate the exact same image? Where do I add an image for it create exactly the same elements? How to use an image without changing it? How to edit my pictures? I want to keep my image but add something, is it possible? Can I add my own image to make changes? Can I have AI edit a picture of me? Edit my image?
+
+With the website's [external editor](https://docs.midjourney.com/docs/external-editor), you can upload an image and select areas to edit through Midjourney. Or you can have it "retexture" your image, to keep the same overall shapes as your image while creating a new design.
+The external editor is limited to users with a yearly subscription.
+
+**On Discord**, you use your own images as [image prompts](https://docs.midjourney.com/docs/image-prompts), [style references](https://docs.midjourney.com/docs/style-reference)  and/or [character references](https://docs.midjourney.com/docs/character-reference) to influence your creations.
+
+**If you want to modify an image you made on Midjourney**, you can use [Vary (Region)](https://docs.midjourney.com/docs/vary-region) on Discord, or the regular [Editor](https://docs.midjourney.com/docs/the-web-editor) on the website.
+
+---
+
+Q: Reference image? Use photo as reference? How do I use my own image? Can I use an image as a starting point? Can I use my images? Can I send images to the AI? Can I give an image to the AI? Can I use an image? How to use my own photo? My own personal photo? How can I use my photo to generate images?
+
+You can add image links in your prompt, see [here](https://docs.midjourney.com/docs/image-prompts):
+1️⃣ Click ⊕︀ and **upload the image to Discord**. Make sure to click send/hit enter.
+2️⃣ Right-click and **copy the link to the image** or media (ending in .jpg, .png, or .webp). If you don’t see this option, left-click on the image to open it, then right-click to copy the link.
+3️⃣ **Type `/imagine`** and click the popup.
+4️⃣ **Paste the link** at the start of your prompt to use it as an image prompt.
+To use the image as a [style reference](https://docs.midjourney.com/docs/style-reference) (sref) or [character reference](https://docs.midjourney.com/docs/character-reference) (cref), add the parameter `--sref` or `--cref` followed by a space and the link at the end of your prompt.
+5️⃣ Add your text prompt and parameters.
+
+__Note:__ If you're only using one image prompt, you must add text.
+You can use multiple image links, just make sure to have a space between each link.
+
+**Do you want Midjourney to edit your own image?** This is only possible through the website's [external editor](https://docs.midjourney.com/docs/external-editor). This tool is available to users with a yearly subscription.
 
 ---
 
@@ -1039,15 +1128,6 @@ If `blob:` is added when you paste an image link, that means the image wasn’t 
 3️⃣ You can now drag the image, or right-click to copy the link/address to the image.
 
 %image=https://cdn.discordapp.com/attachments/958069758211797092/1239557339250557079/Discord_FHZfwDLhLY_1.gif
-
----
-
-Q: Is there a way to use "init" images for the bot to start from? Can I use an init image?
-
-Some image generation tools can take a starting image and modify it. Images used this way are often called "init" images. "Init" images are not currently supported, you can not modify your own images through Midjourney.
-You can use an image URL as part of your prompt to add an image prompt. However, these are used as prompts or references, not as a starting point.
-
-[Read more about Image Prompts](https://docs.midjourney.com/docs/image-prompts)
 
 ---
 
@@ -1423,7 +1503,7 @@ Use the command </info:972289487818334209> to view your lifetime usage. If it's 
 
 ---
 
-Q: Can I use the new image editor on mobile? Can I use the external editor on mobile?
+Q: Can I use the new image editor on mobile? Can I use the external editor on mobile? Is it possible to use the external editor through Discord?
 
 At the moment, the [external editor](https://docs.midjourney.com/docs/external-editor) is only available on the desktop version of the Midjourney website.
 
@@ -1431,7 +1511,7 @@ At the moment, the [external editor](https://docs.midjourney.com/docs/external-e
 
 Q: The new editor is triggering "prompt flagged by AI moderator" almost on everything? The external editor is triggering "prompt flagged by AI moderator" almost on everything? My prompts are blocked on the external editor? My prompts are blocked on the new image editor?
 
-Since the external editor uses real images, the moderation is currently extra safe. If your prompt is being incorrectly flagged, help us improve this system by sharing the full prompt in <#1100553606761041991>.
+Since the external editor can be used with real images, the moderation is currently extra safe. If your prompt is being incorrectly flagged, help us improve this system by sharing the full prompt in <#1100553606761041991>.
 
 ---
 
@@ -1683,7 +1763,7 @@ In-progress images are sometimes disabled temporarily for performance reasons. D
 
 ---
 
-Q: You have been blocked from accessing Midjourney. This happens on repeated or serious ToS violations? My account shows "You have been blocked from accessing Midjourney. This happens on repeated or serious ToS violations"please help me? You have been blocked from accessing Midjourney?
+Q: You have been blocked from accessing Midjourney. This happens on repeated or serious ToS violations? My account shows "You have been blocked from accessing Midjourney. This happens on repeated or serious ToS violations", please help me? You have been blocked from accessing Midjourney?
 
 Bans will not be discussed in this chat. You can email billing@midjourney.com for questions about your subscription status.
 
