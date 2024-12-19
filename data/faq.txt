@@ -335,7 +335,7 @@ Q: Can I get free bonus hours? How to get free bonus hours? Awarded fast hours? 
 
 You can receive extra fast GPU hours for free!
 
-Fill out [available surveys](https://www.midjourney.com/surveys), or level up [your personalization](https://www.midjourney.com/personalize) for instant rewards.
+Fill out [available surveys](https://www.midjourney.com/surveys) for instant rewards.
 Midjourney also offers hours to active members:
 🔹Select your favorite images in [Image Rankings](https://www.midjourney.com/tasks). Every day, Midjourney gifts a bonus GPU hour to the 2000 users who ranked the most images that day :gift:
 🔹Join the Community Prompt Battles on [Saturdays](https://discord.com/events/662267976984297473/1297686878048358482) and/or [Sundays](https://discord.com/events/662267976984297473/1297686913028984863), where winners get bonus GPU hours :trophy:
@@ -362,6 +362,14 @@ Q: Delete account? How to delete my account? Data deletion?
 To delete your Midjourney account and its data, go to the bottom of your [`Manage Subscription` page](https://www.midjourney.com/account) and click on `How can I delete my account?`. Follow the red `Click here` link, and proceed to confirm the data deletion request.
 
 *If you only want to cancel your subscription’s automatic renewal, click on `Cancel plan` at the top of that page*.
+
+---
+
+Q: How to change password? Can I change my password? Where to modify password?
+
+To access Midjourney, you must use a Discord or Google account to login.
+🔹To modify your Discord account's password: [click here](https://support.discord.com/hc/en-us/articles/218410947-I-forgot-my-Password-Where-can-I-set-a-new-one#h_01J5BH76627K07N1C23RWXSCN9)
+🔹To modify your Google account's password: [click here](https://myaccount.google.com/intro/signinoptions/password)
 
 ---
 
@@ -478,39 +486,20 @@ Please email `billing@midjourney.com` if you do not get the option or if you rec
 
 ---
 
-Q: It was automatically renewed, I need a refund? Can I have a refund for the automatic renewal?
-
-Subscriptions are automatically renewed. To cancel the automatic renewal, click `Cancel Plan` on your [Midjourney subscription page](https://midjourney.com/account).
-
-If you forgot to cancel the renewal on time, reach out to our billing support team by sending an email to `billing@midjourney.com`.
-
-To help speed up the process, include your User ID which you can find with the command </userid:1136041075614683196> and, if possible, provide your receipt number or invoice number which was sent to your billing email.
-
----
-
-Q: It is automatically deducted and the membership fee is required to be refunded? I mistakenly charged money, please refund?
-
-Payments cannot be handled through this chat. Reach out to our billing support team by sending an email to `billing@midjourney.com`.
-
-To help speed up the process, include your User ID which you can find with the command </userid:1136041075614683196> and, if possible, provide your receipt number or invoice number which was sent to your billing email.
-
----
-
 Q: Can I switch from the yearly plan to the monthly plan? How can I change from the yearly plan to the monthly plan? How do I switch from yearly to monthly?
 
-If you would like to change your yearly subscription now to a higher tier monthly plan, please email `billing@midjourney.com`. 
+🔹To change your yearly subscription to a higher tier monthly plan now, email `billing@midjourney.com` with your </userid:1136041075614683196>.
 
-If you want to switch plans upon your next renewal, select the plan of your choice on your [subscription page](https://midjourney.com/account) and confirm the change.
+🔹To change plan upon your next renewal, select the subscription of your choice on your [subscription page](https://midjourney.com/account) and confirm the change.
 
-If you chose the yearly plan instead of the monthly plan, you can try to cancel your subscription now with a refund and then subscribe to the monthly plan. On the [Midjourney account page](https://midjourney.com/account), click `Cancel Plan` and select the option `Cancel immediately with refund`. If you do not get the refund option, please email `billing@midjourney.com`. 
-
-%image=https://cdn.discordapp.com/attachments/1201909699793145876/1228317951598530621/Cancel.png
+🔹If you chose the yearly plan instead of the monthly plan, you can try to cancel your subscription now with a refund and then subscribe to the monthly plan. On the [Midjourney account page](https://midjourney.com/account), click `Cancel Plan` and select the option `Cancel immediately with refund`. If you do not get the refund option, **email `billing@midjourney.com` with your invoice number.**
 
 ---
 
 Q: I accidentally subscribed to yearly?
 
-If you chose the yearly plan instead of the monthly plan, you can try to cancel your subscription now with a refund and then subscribe to the monthly plan. On the [Midjourney account page](https://midjourney.com/account), click `Cancel Plan` and select the option `Cancel immediately with refund`. If you do not get the refund option, please email `billing@midjourney.com`. 
+If you chose the yearly plan instead of the monthly plan, you can try to cancel your subscription now with a refund and then subscribe to the monthly plan. On the [Midjourney account page](https://midjourney.com/account), click `Cancel Plan` and select the option `Cancel immediately with refund`.
+**If you do not get the refund option, send an email to `billing@midjourney.com` with your invoice number.**
 
 %image=https://cdn.discordapp.com/attachments/1201909699793145876/1228317951598530621/Cancel.png
 
@@ -519,12 +508,6 @@ If you chose the yearly plan instead of the monthly plan, you can try to cancel 
 Q: When I unsubscribe will I still have access to my website gallery? If I cancel, will I still be able to see my images in the gallery? If I cancel my subscription can I still see my images?
 
 Even without an active plan, you can view your own images in your gallery. However, member features and access won’t be available.
-
----
-
-Q: How long will it take to get my refund? When will I get my refund? How long before I get my refund? How do I know my refund is processing? Can I confirm my refund?
-
-The refund time depends on your bank, it can take up to 10 business days for them to process it. Not to worry, if you’ve received an email from Midjourney confirming your refund, your money is on its way back to you.
 
 ---
 
@@ -605,7 +588,7 @@ Please email `billing@midjourney.com` for further assistance.
 
 ---
 
-Q: Billing issue? Billing question? Need billing help? Billing support? Billing inquiry? I have been charged twice? I paid but I still can't generate images? I need the Certificate of Tax residency?
+Q: Billing issue? Billing question? Need billing help? Billing support? Billing inquiry? I have been charged twice? I paid but I still can't generate images? I need the Certificate of Tax residency? Why did my subscription get cancelled after I just paid for it?
 
 Reach out to our billing support team by sending an email to `billing@midjourney.com`.
 
@@ -647,6 +630,29 @@ Open the email about “payment was unsuccessful" to pay the overdue invoice.
 Go to your [`Manage Subscription` page](https://www.midjourney.com/account) on the Midjourney website and click `Cancel Plan`.
 
 Please email `billing@midjourney.com` for further assistance.
+
+---
+
+# - REFUND -
+
+Q: It was automatically renewed, I need a refund? Can I have a refund for the automatic renewal?
+
+Subscriptions are automatically renewed. To cancel the automatic renewal, click `Cancel Plan` on your [Midjourney subscription page](https://midjourney.com/account).
+
+**If you forgot to cancel the renewal on time, send an email to `billing@midjourney.com` with your invoice number.**
+
+---
+
+Q: It is automatically deducted and the membership fee is required to be refunded? I mistakenly charged money, please refund?
+
+Payments cannot be handled through this chat. **Send an email to `billing@midjourney.com` with your invoice number for help.**
+
+---
+
+Q: How long will it take to get my refund? When will I get my refund? How long before I get my refund? How do I know my refund is processing? Can I confirm my refund?
+
+The refund time depends on your bank, it can take up to 10 business days for them to process it.
+If you received an email from Midjourney confirming your refund, your money is on its way back to you.
 
 ---
 
@@ -709,11 +715,21 @@ The billing information on your subscription must match the information associat
 
 # - GOOGLE LOGIN -
 
-Q: How to change Google account? Help linking Discord and Google? This Discord login is already linked to a different account? I am unable to connect my Discord login with my Google login? 
+Q: Help linking Discord and Google? This Discord login is already linked to a different account? I am unable to connect my Discord login with my Google login? 
 
-For help with linking accounts, reach out to our billing support team by sending an email to `billing@midjourney.com`.
+If you get an error when trying to connect a Google or Discord account to your subscription, the error explains why the two accounts cannot be merged. We cannot merge the accounts for you.
 
-Include your User ID which you can find with the command </userid:1136041075614683196>. If possible, provide further details such as your receipt number or invoice number, steps to reproduce the issue you're having, screenshot(s) of the error you encounter, different emails you may have used, etc.
+**If you subscribed on the wrong account, send an email to `billing@midjourney.com`** for the team to help you subscribe on the account of your choice.
+Include your User ID which you can find with the command </userid:1136041075614683196> and your invoice number. If possible, provide further details such as steps to reproduce the issue you're having, screenshot(s) of the error you encounter, different emails you may have used, etc.
+
+---
+
+Q: How to change Google account?
+
+You cannot disconnect a login account once you’ve linked it to your Midjourney account.
+
+**If your subscription is on the wrong account, send an email to `billing@midjourney.com`** for the team to help you subscribe on the account of your choice.
+Include your User ID which you can find on your [`Manage Profile` page](https://www.midjourney.com/profile-settings), and your invoice number.
 
 ---
 
@@ -947,7 +963,7 @@ Use the `--tile` parameter at the end of your prompt to create images which can 
 
 # - CHARACTER REFERENCE -
 
-Q: How to have the same character made but in different scenes? Can I keep the same character in my images? Is there an option to keep the same character? How to use --cref? Can I add a character reference?
+Q: How to have the same character made but in different scenes? Can I keep the same character in my images? Is there an option to keep the same character? How to use --cref? Can I add a character reference? How to get consistent characters? Where can I see how to have consistent characters?
 
 Use the Character Reference parameter `--cref` followed by a space and a link to your image for the characters in your results to be based on a specific image. You can add multiple links to have multiple character references, make sure to have a space between each link.
 For example: `Short blond man holding a puppy --cref https://pic1.png https://pic2.png`
@@ -1063,7 +1079,7 @@ If you use multiple images, make sure to have a space between each link.
 
 ---
 
-Q: How to link an image? How to attach an image link? How to add an image reference? How can I attach an image? Image prompt?
+Q: How to link an image? How to attach an image link? How to add an image reference? How can I attach an image? Image prompt? How do I create based on a picture I already have? How do I create based on an image I already have?
 
 You can add image links in your prompt, see [here](https://docs.midjourney.com/docs/image-prompts):
 1️⃣ Click ⊕︀ and **upload the image to Discord**. Make sure to click send/hit enter.
@@ -1141,7 +1157,7 @@ The maximum value for the image weight parameter `--iw` is 3.
 
 Q: Is there a way to mix two images. Can I combine images? Can I blend images?
 
-Use `/blend` to mix two or more images together.
+Use the command `/blend` to mix two or more images together.
 
 [Read more about Blend](https://docs.midjourney.com/docs/blend-1)
 
@@ -1318,7 +1334,7 @@ To use it, type `/describe`, select the command and click on:
 
 # - SHOW -
 
-Q: How to transfer an image to another channel? Can I move my image out of the newbies channel? Can I work with my old generations? My old generation is not responding to buttons? Can i upscale my old image from newbies channel? How to use /show?
+Q: How to transfer an image to another channel? Can I move my image out of the newbies channel? Can I work with my old generations? My old generation is not responding to buttons? Can i upscale my old image from newbies channel? How to use /show? Show job?
 
 To transfer an image from the website to Discord, from one channel to another, or to “revive” a job you cannot interact with, use the [command `/show`](https://docs.midjourney.com/docs/show-job) followed by the image’s job ID.
 To find the Job ID, open the image in [your archive](https://midjourney.com/archive). In the menu, click on `Copy` > `Job ID`.
@@ -1387,11 +1403,36 @@ __Note:__ If you get an error, the code might have been a random one so it doesn
 # - WEBSITE -
 # -----------------
 
+# - GALLERY -
+
 Q: How do I search for someone on the website? How do I find a user’s page?
 
-Users who want to share a link to their gallery can find the link to their public profile on their [`Manage Profile` page](https://www.midjourney.com/profile-settings). Keep in mind you need an active subscription to view someone’s profile.
+Users who want to share a link to their gallery can find the link to their public gallery on their [`Manage Profile` page](https://www.midjourney.com/profile-settings).
+Keep in mind you need an active subscription to view users’ images.
 
 ---
+
+Q: How do I get my gallery link to share with friends?
+
+Find the link to your public gallery on your [`Manage Profile` page](https://www.midjourney.com/profile-settings).
+Please note that members must have an active subscription to view other users’ images.
+
+---
+
+Q: Where is my gallery? Archive? Where is the archive? Where is my image gallery on the website? Where can I see all my images?
+
+Sign into the Midjourney website with your Discord account and click on [Organize](https://www.midjourney.com/archive) to find your gallery with all the images you’ve generated.
+
+---
+
+Q: Where can I find the image gallery?
+
+Sign into the Midjourney website with your Discord account and click on [Organize](https://www.midjourney.com/archive) to find your gallery with all the images you’ve generated.
+Go to the [Explore](https://www.midjourney.com/explore) page to discover public images from other users.
+
+---
+
+# - EXPLORE -
 
 Q: Do I need a subscription for the community feed? Do I need a subscription to see the member gallery? Do I need a subscription to see other’s images?
 
@@ -1399,12 +1440,27 @@ You need an active subscription to have full access to the `Explore` page and ot
 
 ---
 
-Q: What is the Feed? What is the Explore page? What images are on the Explore page?
+Q: What is the Feed? What is the Explore page? What images are on the Explore page? Where can I find the members gallery? Where is the members gallery? Where is the community feed?
 
 `Explore` is the collection of public images from the community. All images created by members can be found on [the `Explore` page](https://www.midjourney.com/explore) unless they are set to private (unpublished).
 [Read more about the Explore page](https://docs.midjourney.com/docs/explore-page)
 
 __Note:__ Only Pro and Mega users can unpublish their images, or activate [Stealth mode](https://docs.midjourney.com/docs/stealth) for new images to be unpublished by default.
+
+---
+
+# - LIKES -
+
+Q: How to find images liked in ranking? Where do I see my likes from ranking?
+
+Liking an image from another user adds the image to your [`Likes` page](https://www.midjourney.com/explore?tab=likes) in the `Explore` tab. 
+
+---
+
+Q: Where to find images I liked? Where to find my favorites? How do I see my favorite images? How do I see my likes?
+
+🔹Liking an image from another user adds the image to your [`Likes` page](https://www.midjourney.com/explore?tab=likes) in the `Explore` tab. 
+🔹To find your own images you liked, select the "Liked" filter in the [`Organize` tab](https://www.midjourney.com/archive).
 
 ---
 
@@ -1828,19 +1884,6 @@ To find your recent images and other messages addressed to you on Discord, open 
 
 ---
 
-Q: Where is the gallery? Archive? Where is the archive? Where is my image gallery on the website? Where can I see all my images?
-
-Sign into the Midjourney website with your Discord account and click on [Organize](https://www.midjourney.com/archive) to find your gallery with all the images you’ve generated.
-
----
-
-Q: Where can I find the image gallery?
-
-Sign into the Midjourney website with your Discord account and click on [Organize](https://www.midjourney.com/archive) to find your gallery with all the images you’ve generated.
-Go to the [Explore](https://www.midjourney.com/explore) page to discover public images from other users.
-
----
-
 # -------------------------------
 # - THREADS / ROLES -
 # -------------------------------
@@ -1886,7 +1929,8 @@ Face Swap bot commands won't work on this server.
 # ---------------------------
 
 Q: What is –test? What is –testp? What is test? What is testp? What is –creative?
-[Read about test, testp, and creative](https://discord.com/channels/662267976984297473/1021457377964339233/1021457377964339233)
+
+[Read here about early model versions](https://docs.midjourney.com/docs/early-models)
 
 ---
 
@@ -1898,9 +1942,18 @@ Participate in our [#prompt-craft](https://discord.com/channels/6622679769842974
 
 ---
 
+Q: Why can’t I make a very realistic result? I ask for realistic but it doesn’t look real? How to make realistic?
+
+If you want an image which looks like a picture, make sure to prompt for a `photo`, or `photography` and use photographic terms. **Do not** use words such as `realistic` or `3D`.
+[Click here for more tips on how to create photographs](https://discord.com/channels/662267976984297473/1038487355360804985/1038487355360804985)
+
+Participate in our [#prompt-craft](https://discord.com/channels/662267976984297473/992207085146222713) community to discuss prompts with other users.
+
+---
+
 Q: Does Midjourney know about this style, artist, movie, game, or media?
 
-Midjourney has a wide variety of subjects and topics in its dataset. If you find it is unfamiliar with a topic you reference in your prompt, you may need to be more specific. You can also try to provide an [image prompt](https://docs.midjourney.com/docs/image-prompts), [character reference](https://docs.midjourney.com/docs/character-reference), or [style reference](https://docs.midjourney.com/docs/style-reference).
+Midjourney has a wide variety of subjects and topics in its dataset. If you find it is unfamiliar with a topic you reference in your prompt, you may need to be more specific. You can also try to provide an [image prompt](https://docs.midjourney.com/docs/image-prompts), a [character reference](https://docs.midjourney.com/docs/character-reference), and/or a [style reference](https://docs.midjourney.com/docs/style-reference).
 
 Participate in our [#prompt-craft](https://discord.com/channels/662267976984297473/992207085146222713) community to discuss prompts with other users.
 
