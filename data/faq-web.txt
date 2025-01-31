@@ -1,8 +1,5 @@
 
 
-
-
-
 # Basics
 # GPU
 # Speed modes
@@ -173,7 +170,7 @@ How long you wait in “real life time” does not affect how much GPU time is c
 
 ---
 
-Q: How do I see how many gpu hours I have left? How do I see how much I have used? How do I see how many hours I have left? Where can I check how many prompts I have left? How many images can I make? How can I see my queue? Where do I check my jobs? How do I check how many jobs I have left? Is my subscription active? How do I check my subscription status? Is my subscription canceled? /info? How do I know how many credits I still have? How much fast time remaining? How can I check how many images I can still generate? How do I check how many images I have left? View hours left? View hours remaining?
+Q: How do I see how many gpu hours I have left? How do I see how much I have used? How do I see how many hours I have left? Where can I check how many prompts I have left? How many images can I make? How can I see my queue? Where do I check my jobs? How do I check how many jobs I have left? Is my subscription active? How do I check my subscription status? Is my subscription canceled? /info? How do I know how many credits I still have? How much fast time remaining? How can I check how many images I can still generate? How do I check how many images I have left? View hours left? View hours remaining? How many image generations do I have left?
 
 To access your subscription details, click on your `username ...` in the bottom left corner and then select `Manage Subscription`. This will open [your account page](https://www.midjourney.com/account) where you can view and manage your subscription information, such as the renewal date, current subscription tier, remaining GPU fast time, and more.
 
