@@ -364,7 +364,7 @@ Please email billing@midjourney.com for any inquiry or issue regarding your maga
 
 Q: What is my User ID? Where can I find my User ID? User ID? userid? What is userid? How do I get my User ID? MJ ID? Where can I see my account number? Where can I see my user ID? Where can I find my account ID?
 
-When using Midjourney, you are assigned a unique Midjourney ID to identify your account. Find your Midjourney ID on your [`Manage Profile` page](https://www.midjourney.com/profile-settings).
+When using Midjourney, you are assigned a unique Midjourney ID to identify your account. Find your Midjourney ID on your [`Account Settings` page](https://www.midjourney.com/profile-settings).
 
 ---
 
@@ -416,7 +416,7 @@ Note: Additional GPU hours are bought before being used, so you cannot accidenta
 
 # - CANCELATION -
 
-Q: How can I cancel? How can I cancel my plan? How do I unsubscribe? How can I cancel my subscription? How to cancel a subscription? Where do I cancel my subscription? How do I unsub? Where do I unsub? Where do I cancel? I want to cancel my subscription? Cancle? Cancel? How to cancel? How can I cancel my Midjourney subscription? I would like to cancel my Midjourney subscription? Cancel subscription? How do I unsubscribe from my Midjourney subscription? How can I cancel my Midjourney subscription? Comment annuler son abonnement? How do i avoid auto renew? How do i disable auto renew? How do i avoid automatic renewal?
+Q: How can I cancel? How can I cancel my plan? How do I unsubscribe? How can I cancel my subscription? How to cancel a subscription? Where do I cancel my subscription? How do I unsub? Where do I unsub? Where do I cancel? I want to cancel my subscription? Cancle? Cancel? How to cancel? How can I cancel my Midjourney subscription? I would like to cancel my Midjourney subscription? Cancel subscription? How do I unsubscribe from my Midjourney subscription? How can I cancel my Midjourney subscription? Comment annuler son abonnement? How do i avoid auto renew? How do i disable auto renew? How do i avoid automatic renewal? Cancel account?
 
 On your [`Manage Subscription` page](https://www.midjourney.com/account), click `Cancel Plan` and confirm.
 
@@ -628,10 +628,20 @@ The refund time depends on your bank, it can take up to 10 business days for the
 
 # - VAT -
 
-Q: How do I add VAT to my invoice? Why was I charged for VAT? Can I add VAT?
+Q: How do I add VAT to my invoice? Can I add VAT?
 
 ◆  To include your VAT ID on future invoices **with an active subscription**: Go to your [`Manage Subscription` page](https://www.midjourney.com/account), click `Edit Billing`, then add your country and VAT ID.
 ◆  To include your VAT ID on future invoices **without an active subscription**: At checkout, select the option `I’m purchasing as a business` and enter your company name and VAT ID (include the country code letters if applicable).
+
+**Once issued, invoices cannot be changed.** Please email billing@midjourney.com for further assistance.
+
+---
+
+Q: Why was I charged for VAT?
+
+Midjourney is required to collect VAT in certain countries. The amount is automatically calculated by the payment processor (Stripe) based on your payment method and its information. The total cost, including any applicable taxes, is displayed at checkout.
+
+To include your VAT ID on new invoices, you can select the option `I’m purchasing as a business` at checkout to enter your company name and VAT ID.
 
 **Once issued, invoices cannot be changed.** Please email billing@midjourney.com for further assistance.
 
@@ -1016,6 +1026,32 @@ Q: --stop? What is the stop parameter?
 
 Adding the `--stop` parameter followed by a number between 10 and 100 will stop your generation partway through. It only works on your initial generation, not upscales or variations. For example, with the prompt `a baby red panda --stop 40`, the grid will stop at 40% through the process, resulting in a softer, less detailed image.
 [Read more about Stop](https://docs.midjourney.com/hc/en-us/articles/32602768934925-Stop)
+
+---
+
+# - REPEAT & PERMUTATIONS -
+
+Q: Generate in bulk? How to submit multiple prompts?
+
+[**Permutations**](https://docs.midjourney.com/hc/en-us/articles/32761322355597-Permutations) and [**Repeat**](https://docs.midjourney.com/hc/en-us/articles/32757107922061-Repeat) are two ways to submit multiple jobs with a single command. The maximum number of jobs you can submit at once depends on your subscription tier; 4 with Basic, 10 with Standard, 40 with Pro and Mega.
+
+**Using other tools to run prompts or automate Midjourney in any way is strictly prohibited by the [Terms of Service](https://docs.midjourney.com/docs/terms-of-service) and will result in a permanent ban.**
+
+---
+
+Q: Permutations? How can I make a changeable value?
+
+Use Permutations to change part of the prompt in each job. List your different values in {curly brackets}, separated by commas. For example: `a {happy,sad} penguin` will run two jobs; one with the prompt `a happy penguin` and another with `a sad penguin`. [Read more about Permutations](https://docs.midjourney.com/hc/en-us/articles/32761322355597-Permutations)
+
+__Note:__ Using other tools to run prompts or automate Midjourney in any way is strictly prohibited by the [Terms of Service](https://docs.midjourney.com/docs/terms-of-service) and will result in a permanent ban.
+
+---
+
+Q: Repeat? 
+
+Use the Repeat parameter `--r` to run the same job multiple times. For example: `a happy penguin --r 3` will create 3 different grids with the same prompt. [Read more about the Repeat parameter](https://docs.midjourney.com/hc/en-us/articles/32757107922061-Repeat)
+
+__Note:__ Using other tools to run prompts or automate Midjourney in any way is strictly prohibited by the [Terms of Service](https://docs.midjourney.com/docs/terms-of-service) and will result in a permanent ban.
 
 ---
 
