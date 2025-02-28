@@ -462,7 +462,7 @@ __Note:__ Additional GPU hours are bought before being used, so you cannot accid
 
 # - CANCELATION -
 
-Q: How can I cancel? How can I cancel my plan? How do I unsubscribe? How can I cancel my subscription? How to cancel a subscription? Where do I cancel my subscription? How do I unsub? Where do I unsub? Where do I cancel? Cancle? Cancel? How to cancel? How can I cancel my Midjourney subscription? I would like to cancel my Midjourney subscription? Cancel subscription? How do I unsubscribe from my Midjourney subscription? How can I cancel my Midjourney subscription?
+Q: How can I cancel? How can I cancel my plan? How do I unsubscribe? How can I cancel my subscription? How to cancel a subscription? Where do I cancel my subscription? How do I unsub? Where do I unsub? Where do I cancel? Cancle? Cancel? How to cancel? How can I cancel my Midjourney subscription? I would like to cancel my Midjourney subscription? Cancel subscription? How do I unsubscribe from my Midjourney subscription? How can I cancel my Midjourney subscription? Cancel account?
 
 To cancel your subscription’s automatic renewal, click `Cancel Plan` on your [Midjourney subscription page](https://midjourney.com/account), and confirm.
 
@@ -486,16 +486,6 @@ Please email `billing@midjourney.com` if you do not get the option or if you rec
 
 ---
 
-Q: Can I switch from the yearly plan to the monthly plan? How can I change from the yearly plan to the monthly plan? How do I switch from yearly to monthly?
-
-🔹To change your yearly subscription to a higher tier monthly plan now, email `billing@midjourney.com` with your </userid:1136041075614683196>.
-
-🔹To change plan upon your next renewal, select the subscription of your choice on your [subscription page](https://midjourney.com/account) and confirm the change.
-
-🔹If you chose the yearly plan instead of the monthly plan, you can try to cancel your subscription now with a refund and then subscribe to the monthly plan. On the [Midjourney account page](https://midjourney.com/account), click `Cancel Plan` and select the option `Cancel immediately with refund`. If you do not get the refund option, **email `billing@midjourney.com` with your invoice number.**
-
----
-
 Q: I accidentally subscribed to yearly?
 
 If you chose the yearly plan instead of the monthly plan, you can try to cancel your subscription now with a refund and then subscribe to the monthly plan. On the [Midjourney account page](https://midjourney.com/account), click `Cancel Plan` and select the option `Cancel immediately with refund`.
@@ -513,7 +503,7 @@ Even without an active plan, you can view your own images in your gallery. Howev
 
 # - SWITCH PLANS -
 
-Q: If I want to switch plans will I be charged the full amount? What if I go from basic plan to standard? Can I get the $10 sub and, if I run out, upgrade and just pay the difference? Can I get the $10 sub and if I run out upgrade and just pay the difference? If I switch to Standard it will be 20$ or 30$? Can I upgrade from basic to standard? How do I upgrade? Where do I upgrade? What do I have to do to upgrade? How to upgrade the plan? How can I upgrade my plan? Can I change my plan? Can I switch plans? How do I manage my plan? How do I change my subscription plan? How do I change my membership plan?
+Q: If I want to switch plans will I be charged the full amount? What if I go from basic plan to standard? Can I get the $10 sub and, if I run out, upgrade and just pay the difference? Can I get the $10 sub and if I run out upgrade and just pay the difference? If I switch to Standard it will be 20$ or 30$? Can I upgrade from basic to standard? How do I upgrade? Where do I upgrade? What do I have to do to upgrade? How to upgrade the plan? How can I upgrade my plan? Can I change my plan? Can I switch plans? How do I manage my plan? How do I change my subscription plan? How do I change my membership plan? I want to change plan? Where can I change my plan?
 
 Manage your subscription on your [Midjourney account page](https://www.midjourney.com/account/) on the website.
 
@@ -525,6 +515,16 @@ If you've used all your fast time on the Basic plan, Standard will cost the full
 If you've not used any fast time of your Basic plan, Standard will cost US$20 (+VAT).
 
 To change from a Yearly plan to a higher tier Monthly plan, or for any further assistance with your subscription and payments, please email `billing@midjourney.com`.
+
+---
+
+Q: Can I switch from the yearly plan to the monthly plan? How can I change from the yearly plan to the monthly plan? How do I switch from yearly to monthly?
+
+🔹To change your yearly subscription to a higher tier monthly plan now, email `billing@midjourney.com` with your </userid:1136041075614683196>.
+
+🔹To change plan upon your next renewal, select the subscription of your choice on your [subscription page](https://midjourney.com/account) and confirm the change.
+
+🔹If you chose the yearly plan instead of the monthly plan, you can try to cancel your subscription now with a refund and then subscribe to the monthly plan. On the [Midjourney account page](https://midjourney.com/account), click `Cancel Plan` and select the option `Cancel immediately with refund`. If you do not get the refund option, **email `billing@midjourney.com` with your invoice number.**
 
 ---
 
@@ -602,8 +602,7 @@ Q: I need to change my email address? I want to change the email address? Please
 
 To modify your __Discord email__ used to sign in, follow this guide: [How to change your Discord account's email address](https://support.discord.com/hc/en-us/articles/4423385681175-How-to-Change-Your-Account-s-Email-Address).
 
-To modify your __Midjourney billing email__ where you receive invoices and receipts, please email `billing@midjourney.com`.
-Include your User ID which you can find with the command </userid:1136041075614683196> and, if possible, provide your receipt number or invoice number.
+To modify your __Midjourney billing email__ where you receive invoices and receipts, please email `billing@midjourney.com` with your User ID which you can find with the command </userid:1136041075614683196>. If possible, provide your receipt number or invoice number.
 
 ---
 
@@ -678,11 +677,22 @@ __**If you’re using Alipay:**__ You cannot upgrade on the website. Please emai
 
 # - VAT -
 
-Q: How do I add VAT to my invoice? Why was I charged for VAT? Can I add VAT?
+Q: How do I add VAT to my invoice? Can I add VAT?
 
 To include your VAT ID on future invoices:
 🔹 With an active subscription: Go to your [Midjourney subscription page](https://www.midjourney.com/account/), click `Edit Billing`, then add your country and VAT ID.
 🔹 Without an active subscription: At checkout, select the option `I’m purchasing as a business` and enter your company name and VAT ID (include the country code letters if applicable).
+
+**__Note:__ Once issued, invoices cannot be changed.**
+Please email `billing@midjourney.com` for further assistance.
+
+---
+
+Q: Why was I charged for VAT?
+
+Midjourney is required to collect VAT in certain countries. The amount is automatically calculated by the payment processor (Stripe) based on your payment method and its information. The total cost, including any applicable taxes, is displayed at checkout.
+
+To include your VAT ID on new invoices, you can select the option `I’m purchasing as a business` at checkout to enter your company name and VAT ID.
 
 **__Note:__ Once issued, invoices cannot be changed.**
 Please email `billing@midjourney.com` for further assistance.
@@ -729,7 +739,7 @@ Q: How to change Google account?
 You cannot disconnect a login account once you’ve linked it to your Midjourney account.
 
 **If your subscription is on the wrong account, send an email to `billing@midjourney.com`** for the team to help you subscribe on the account of your choice.
-Include your User ID which you can find on your [`Manage Profile` page](https://www.midjourney.com/profile-settings), and your invoice number.
+Include your User ID which you can find on your [`Account Settings` page](https://www.midjourney.com/profile-settings), and your invoice number.
 
 ---
 
@@ -1243,7 +1253,7 @@ Participate in our [#prompt-craft](https://discord.com/channels/6622679769842974
 
 # - SEEDS -
 
-Q: How do I get the seed or job id that was used for an image? No seed? Seed on upscale? Only grid seed? I can not get the seed? Can’t get the seed number? When I react with the envelope nothing happens, I don’t get the seed? How can I find the seed? How do I retrieve the seed number of an image? How do I get the seed of an image? Where to find seed? Where is seed?
+Q: How do I get the seed or job id that was used for an image? No seed? Seed on upscale? Only grid seed? I can not get the seed? Can’t get the seed number? How can I find the seed? How do I retrieve the seed number of an image? How do I get the seed of an image? Where to find seed? Where is seed?
 
 To find an image’s seed number, open your image in [your archive](https://www.midjourney.com/archive) and in the image menu, click on `Copy` > `Seed`.
 You can only copy the seed of your own images. You can only copy the seed of an initial grid image.
@@ -1254,7 +1264,20 @@ __Note:__ Seeds are not reliable and change over time. They have no effect on ch
 
 ---
 
-Q: What does –seed do? Does submitting the job again use a different seed? What is a seed? What do seeds do? What is sameseed?
+Q: When I react with the envelope nothing happens, I don’t get the seed?
+
+Right-click the Midjourney server icon > Privacy Settings > check if `Direct Messages` is green. If it’s already enabled, toggle it off and on again.
+
+You can also find the seed number on the Midjourney website instead: open your image in [your archive](https://www.midjourney.com/archive) and in the image menu, click on `Copy` > `Seed`.
+You can only copy the seed of your own images. You can only copy the seed of an initial grid image.
+
+__Note:__ Seeds are not reliable and change over time. They have no effect on character consistency. [Read more about seeds](https://docs.midjourney.com/hc/en-us/articles/32604356340877-Seeds)
+
+%image=https://cdn.discordapp.com/attachments/1259116844430655488/1259121654534111242/HowToDM.gif
+
+---
+
+Q: What does --seed do? Does submitting the job again use a different seed? What is a seed? What do seeds do? What is sameseed?
 
 Each set of four images made in Midjourney uses a random seed number as a starting point.
 Use the `--seed` parameter, with a value between 0 and 4294967295, to give the bot a specific starting point.
@@ -1278,6 +1301,39 @@ The grid will stop halfway (50%) through the process, resulting in a softer, les
 
 __Note:__ The stop parameter does not work when upscaling an image.
  [Read more about the Stop parameter](https://docs.midjourney.com/hc/en-us/articles/32602768934925-Stop)
+
+---
+
+# - REPEAT & PERMUTATIONS -
+
+Q: Generate in bulk? How to submit multiple prompts?
+
+[**Permutations**](https://docs.midjourney.com/hc/en-us/articles/32761322355597-Permutations) and [**Repeat**](https://docs.midjourney.com/hc/en-us/articles/32757107922061-Repeat) are two ways to submit multiple jobs with a single command.
+The maximum number of jobs you can submit at once depends on your subscription tier; 4 with Basic, 10 with Standard, 40 with Pro and Mega.
+
+:warning: Using other tools to run prompts or automate Midjourney in any way is strictly prohibited by the [Terms of Service](https://docs.midjourney.com/docs/terms-of-service) and will result in a permanent ban.
+
+---
+
+Q: Permutations? How can I make a changeable value?
+
+Use Permutations to change part of the prompt in each job. List your different values in {curly brackets}, separated by commas. For example: `a {happy,sad} penguin` will run two jobs; one with the prompt `a happy penguin` and another with `a sad penguin`.
+
+The maximum number of jobs you can submit at once depends on your subscription tier; 4 with Basic, 10 with Standard, 40 with Pro and Mega.
+[Read more about Permutations](https://docs.midjourney.com/hc/en-us/articles/32761322355597-Permutations)
+
+__Note:__ Using other tools to run prompts or automate Midjourney in any way is strictly prohibited by the [Terms of Service](https://docs.midjourney.com/docs/terms-of-service) and will result in a permanent ban.
+
+---
+
+Q: Repeat? 
+
+Use the Repeat parameter `--r` to run the same job multiple times. For example: `a happy penguin --r 3` will create 3 different grids with the same prompt.
+
+The maximum number of jobs you can submit at once depends on your subscription tier; 4 with Basic, 10 with Standard, 40 with Pro and Mega.
+[Read more about the Repeat parameter](https://docs.midjourney.com/hc/en-us/articles/32757107922061-Repeat)
+
+__Note:__ Using other tools to run prompts or automate Midjourney in any way is strictly prohibited by the [Terms of Service](https://docs.midjourney.com/docs/terms-of-service) and will result in a permanent ban.
 
 ---
 
@@ -1407,14 +1463,14 @@ __Note:__ If you get an error, the code might have been a random one so it doesn
 
 Q: How do I search for someone on the website? How do I find a user’s page?
 
-Users who want to share a link to their gallery can find the link to their public gallery on their [`Manage Profile` page](https://www.midjourney.com/profile-settings).
+Users who want to share a link to their gallery can find the link to their public gallery on their [`Account Settings` page](https://www.midjourney.com/profile-settings).
 Keep in mind you need an active subscription to view users’ images.
 
 ---
 
 Q: How do I get my gallery link to share with friends?
 
-Find the link to your public gallery on your [`Manage Profile` page](https://www.midjourney.com/profile-settings).
+Find the link to your public gallery on your [`Account Settings` page](https://www.midjourney.com/profile-settings).
 Please note that members must have an active subscription to view other users’ images.
 
 ---
@@ -1754,6 +1810,15 @@ If you are getting an error, try restarting Discord, updating it, or reinstallin
 
 ---
 
+Q: Embeds?
+
+If the bot is only showing you buttons or a completely empty message, update your Discord settings:
+Discord Settings :gear: > `Chat` > Toggle ON `Show embeds and preview website links pasted into chat`
+
+%image=https://cdn.midjourney.com/u/d6f915c1-a3b1-425d-9934-3fb714cd8b7b/b2d4915b0c21461c1887c62c54ee73d6432ab322de82ad4fa229aaa49e79509d.png
+
+---
+
 Q: Why did I get a message that said "Interaction Failed"? I am getting “interaction failed”? I am getting “application did not respond”?
 
 Right-click the Midjourney server icon > Privacy Settings > check if `Direct Messages` is green. If it’s already enabled, toggle it off and on again.
@@ -1921,6 +1986,13 @@ Q: insight face swap? /insightfaceswap? /saveid? face swap? face swap bot? face 
 Insight Face Swap is not part of Midjourney. It's developed and supported by a different company. Contact the makers of Insight Face Swap for any questions or support related to their product.
 
 Face Swap bot commands won't work on this server. 
+
+---
+
+Q: Nitro?
+
+**Discord Nitro is not linked to Midjourney and does not provide any Midjourney benefits.**
+[Discord Nitro](https://discord.com/nitro) is a service provided by Discord to customize your Discord profile, emojis, etc. You do **not** need Discord Nitro to use Midjourney.
 
 ---
 
