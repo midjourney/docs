@@ -138,7 +138,7 @@ Right click here: <@936929561302675456> and hit `Message` to use the command wit
 Q: How do I generate images? How to use it? How do I use the bot? How does the bot work? How do I use it? How do I make art? How do I use Midjourney? How do I prompt? How can I ask the AI to create an image? How do I get started? Where can I start? How do I use the AI? Register? How do I use this? Where do I prompt?
 
 1️⃣ Right click here: <@936929561302675456> and hit `Message`.
-2️⃣ Type `/imagine`.
+2️⃣ Type `/imagine`
 3️⃣ Click the popup above and type a description of the image you want - that’s the prompt.
 4️⃣ Hit enter or press send to submit your prompt.
 
@@ -152,7 +152,7 @@ __Note:__ You can also create images with other members in this server in bot ch
 Q: I'm having trouble using the bot - Why don’t I see the /imagine option as a slash command? I don’t see /imagine in my slash commands? My commands don’t work? Imagine doesn't work for me? I type the prompts and nothing appears? I type /imagine and nothing happens? It does not let me use /imagine? So just /imagine [prompt]? Where can I use /imagine? The /imagine command does not work?
 
 1️⃣ Be sure to use a bot channel like #newbies or #general - try <#981832774157762570>.
-2️⃣ Type `/imagine`.
+2️⃣ Type `/imagine`
 3️⃣ Click the popup and type your text (prompt).
 
 :bug: If you don't get the `/imagine` pop-up: 
@@ -338,7 +338,7 @@ You can receive extra fast GPU hours for free!
 Fill out [available surveys](https://www.midjourney.com/surveys) for instant rewards.
 Midjourney also offers hours to active members:
 🔹Select your favorite images in [Image Rankings](https://www.midjourney.com/tasks). Every day, Midjourney gifts a bonus GPU hour to the 2000 users who ranked the most images that day :gift:
-🔹Join the Community Prompt Battles on [Saturdays](https://discord.com/events/662267976984297473/1297686878048358482) and/or [Sundays](https://discord.com/events/662267976984297473/1297686913028984863), where winners get bonus GPU hours :trophy:
+🔹Join the Community Prompt Battles on [Saturdays](https://discord.com/events/662267976984297473/1343052786488709214) and/or [Sundays](https://discord.com/events/662267976984297473/1344425808537583677), where winners get bonus GPU hours :trophy:
 
 __Note:__ **You need an active subscription to receive and use bonus GPU hours.** Make sure to access the website with the right account.
 Bonus hours expire 30 days after being awarded.
@@ -357,7 +357,7 @@ We require that you verify the email address attached to your Discord account in
 
 # - ACCOUNT -
 
-Q: Delete account? How to delete my account? Data deletion?
+Q: Can I delete my account? How to delete my account? Data deletion?
 
 To delete your Midjourney account and its data, go to the bottom of your [`Manage Subscription` page](https://www.midjourney.com/account) and click on `How can I delete my account?`. Follow the red `Click here` link, and proceed to confirm the data deletion request.
 
@@ -514,7 +514,7 @@ __Note:__ Proration is calculated based on your unused monthly fast time.
 If you've used all your fast time on the Basic plan, Standard will cost the full price.
 If you've not used any fast time of your Basic plan, Standard will cost US$20 (+VAT).
 
-To change from a Yearly plan to a higher tier Monthly plan, or for any further assistance with your subscription and payments, please email `billing@midjourney.com`.
+To change from a Yearly plan to a higher tier Monthly plan, or for any further assistance with your subscription and payments, please email `billing@midjourney.com` with your invoice number.
 
 ---
 
@@ -533,7 +533,7 @@ Q: Can I switch from the yearly plan to the monthly plan? How can I change from 
 Q: Can I transfer my subscription to another account? I used the wrong account? I subscribed with the wrong account?
 
 Unfortunately, subscriptions cannot be transferred.
-If you are unable to access the account associated with your subscription, please email `billing@midjourney.com`.
+If you are unable to access the account associated with your subscription, please email `billing@midjourney.com` with your invoice number.
 
 ---
 
@@ -590,7 +590,7 @@ Please email `billing@midjourney.com` for further assistance.
 
 Q: Billing issue? Billing question? Need billing help? Billing support? Billing inquiry? I have been charged twice? I paid but I still can't generate images? I need the Certificate of Tax residency? Why did my subscription get cancelled after I just paid for it?
 
-Reach out to our billing support team by sending an email to `billing@midjourney.com`.
+Send an email to `billing@midjourney.com` to contact our billing support team for assistance.
 
 To help speed up the process, include your User ID which you can find with the command </userid:1136041075614683196> and, if possible, provide your receipt number or invoice number which was sent to your billing email.
 
@@ -669,7 +669,7 @@ Please email `billing@midjourney.com` if you encounter an error or require furth
 Q: Why can't I upgrade my subscription? Something went wrong :( This may be due to insufficient funds? Error: Couldn't upgrade your plan. Please reach out to support? I'm trying to upgrade my plan but the payment keeps getting rejected? I can’t upgrade? I cannot upgrade?
 
 On your [`Manage Subscription` page](https://www.midjourney.com/account), click on `Edit Billing` and make sure all your details are up to date. Check your account balance and spending limits, and reach out to your bank to make sure they’re not blocking the payment.
-If the problem persists, please email `billing@midjourney.com`.
+If the problem persists, please email `billing@midjourney.com` for assistance.
 
 __**If you’re using Alipay:**__ You cannot upgrade on the website. Please email `billing@midjourney.com` for assistance.
 
@@ -725,9 +725,9 @@ The billing information on your subscription must match the information associat
 
 # - GOOGLE LOGIN -
 
-Q: Help linking Discord and Google? This Discord login is already linked to a different account? I am unable to connect my Discord login with my Google login? 
+Q: Help linking Discord and Google? This Discord login is already linked to a different account? I am unable to connect my Discord login with my Google login? DT1043? At this time, linking such accounts is not supported?
 
-If you get an error when trying to connect a Google or Discord account to your subscription, the error explains why the two accounts cannot be merged. We cannot merge the accounts for you.
+If you get an error when trying to connect a Google or Discord account to your subscription, the error explains why the two accounts cannot be merged. We cannot merge the accounts for you. [Click here for troubleshooting tips](https://docs.midjourney.com/hc/en-us/articles/33390994570509-Logging-In-Connecting-Accounts#h_01JHK4K8B881M2GPSNEDGB0PCQ)
 
 **If you subscribed on the wrong account, send an email to `billing@midjourney.com`** for the team to help you subscribe on the account of your choice.
 Include your User ID which you can find with the command </userid:1136041075614683196> and your invoice number. If possible, provide further details such as steps to reproduce the issue you're having, screenshot(s) of the error you encounter, different emails you may have used, etc.
@@ -984,7 +984,7 @@ You can add text, image prompts, and other parameters to guide the results.
 
 ---
 
-Q: What is cref? What is the cref parameter? What does cref do? What does the cref parameter do? cref?
+Q: What is cref? What is the cref parameter? What does cref do? What does the cref parameter do? Cref? What is cw? --cw?
 
 The `--cref` parameter is used in a prompt, followed by one or more image links, to add a **character reference**. [Read more about Character Reference](https://docs.midjourney.com/hc/en-us/articles/32162917505293-Character-Reference)
 
@@ -1306,7 +1306,7 @@ __Note:__ The stop parameter does not work when upscaling an image.
 
 # - REPEAT & PERMUTATIONS -
 
-Q: Generate in bulk? How to submit multiple prompts?
+Q: Generate in bulk? How to submit multiple prompts? How to run multiple prompts at once? How to bulk submit jobs? How to submit multiple jobs? How to run multiple jobs at once? 
 
 [**Permutations**](https://docs.midjourney.com/hc/en-us/articles/32761322355597-Permutations) and [**Repeat**](https://docs.midjourney.com/hc/en-us/articles/32757107922061-Repeat) are two ways to submit multiple jobs with a single command.
 The maximum number of jobs you can submit at once depends on your subscription tier; 4 with Basic, 10 with Standard, 40 with Pro and Mega.
@@ -1317,7 +1317,8 @@ The maximum number of jobs you can submit at once depends on your subscription t
 
 Q: Permutations? How can I make a changeable value?
 
-Use Permutations to change part of the prompt in each job. List your different values in {curly brackets}, separated by commas. For example: `a {happy,sad} penguin` will run two jobs; one with the prompt `a happy penguin` and another with `a sad penguin`.
+Use Permutations to change part of the prompt in each job. List your different values in {curly brackets}, separated by commas.
+For example: `a {happy,sad} penguin` will run two jobs; one with the prompt `a happy penguin` and another with `a sad penguin`.
 
 The maximum number of jobs you can submit at once depends on your subscription tier; 4 with Basic, 10 with Standard, 40 with Pro and Mega.
 [Read more about Permutations](https://docs.midjourney.com/hc/en-us/articles/32761322355597-Permutations)
@@ -1328,7 +1329,8 @@ __Note:__ Using other tools to run prompts or automate Midjourney in any way is 
 
 Q: Repeat? 
 
-Use the Repeat parameter `--r` to run the same job multiple times. For example: `a happy penguin --r 3` will create 3 different grids with the same prompt.
+Use the Repeat parameter `--r` to run the same job multiple times.
+For example: `a happy penguin --r 3` will create 3 different grids with the same prompt.
 
 The maximum number of jobs you can submit at once depends on your subscription tier; 4 with Basic, 10 with Standard, 40 with Pro and Mega.
 [Read more about the Repeat parameter](https://docs.midjourney.com/hc/en-us/articles/32757107922061-Repeat)
@@ -1401,7 +1403,7 @@ To find the Job ID, open the image in [your archive](https://midjourney.com/arch
 
 # - DELETE X -
 
-Q: How can I delete an image? How to delete images from my feed? How can I remove an image?
+Q: How can I delete an image? How to delete images from my feed? How can I remove an image? Delete image?
 
 Delete your generation by reacting to it with the :x: emoji. This will also delete it from the Midjourney website.
 __Note:__ If you can't find it in Discord, recall it with the [command `/show`](https://docs.midjourney.com/hc/en-us/articles/32635695384461-Show-Command), then use the :x: emoji.
@@ -1605,7 +1607,7 @@ If your lifetime usage is under 10,000 images and you do not have a yearly subsc
 
 Do you qualify but do not see the [`Edit` page](https://www.midjourney.com/editor/new) on the Midjourney website? Try refreshing the page, or logging out and back into the website.
 
-__Note:__ For any questions about your subscription, please email `billing@midjourney.com`. The billing team can review your payment history and the date you last subscribed on.
+__Note:__ For any questions about your subscription, please email `billing@midjourney.com` with your </userid:1136041075614683196>. The billing team can review your payment history and the date you last subscribed on.
 
 ---
 
@@ -1696,6 +1698,32 @@ __Note:__ Images will still appear on the website's community feed unless you’
 
 ---
 
+# -----------------
+# - NIJI -
+# -----------------
+
+# - NIJI APP -
+
+Q: How to bind Niji app? Can I bind my Niji app subscription? Bind my Niji journey subscription?
+
+[Here’s a guide on how to bind your subscription to both Discord and the mobile app](https://nijijourney.com/help-center/how-do-i-bind-my-niji-journey-and-midjourney-accounts), so you can use it anywhere.
+
+Are you getting an error? [Click here and follow this chart.](https://cdn.midjourney.com/u/ff03153e-6e8a-48b4-87d0-5acd0a123688/b31a72db57789ee5a5d6c8ecc1bd4899cb3ae32cab06cb167daf3362b415344b.png)
+
+---
+
+Q: Niji app subscription? Niji app? Niji journey?
+
+[Niji・journey](https://discord.gg/nijijourney) is a magical collaboration between Midjourney and Spellbrush. You can download the mobile app from [the iOS App Store](https://apps.apple.com/us/app/niji-journey/id6446376937) or from [Google Play](https://play.google.com/store/apps/details?id=com.spellbrush.nijijourney).
+
+**Do you already have a subscription?** [Click here to find how to link it to both your Discord account and your Niji app](https://nijijourney.com/help-center/how-do-i-bind-my-niji-journey-and-midjourney-accounts).
+
+---
+
+Q: Niji journey help?
+
+Check out answers to frequently asked questions about Niji・journey: [Help Center](https://nijijourney.com/help-center)
+
 # -----------------------------------
 # - ABOUT MIDJOURNEY -
 # -----------------------------------
@@ -1759,6 +1787,8 @@ At the moment, images are created as raster image files. It is not possible to c
 Q: Do you have any API? Is there a way to use the app via an API? API? Plans to expose API?
 
 There are currently no plans for a public API.
+
+*Please note that, per the [Terms of Service](https://docs.midjourney.com/hc/en-us/articles/32083055291277-Terms-of-Service), You may not use automated tools to access, interact with, or generate Assets through the Services.*
 
 ---
 
