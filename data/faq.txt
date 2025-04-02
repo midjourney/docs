@@ -86,7 +86,7 @@ The 🔄 button resubmits your request to generate a new set of four images usin
 
 ---
 
-Q: What is Vary (Region)? Vary region button? How do I use Vary (Region)? Inpainting? How do I inpaint?
+Q: What is Vary (Region)? Vary region button? How do I use Vary (Region)? Inpainting? How do I inpaint? How to remove something from my image?
 
 `Vary (Region)` allows you to select and regenerate specific parts of an image.
 1️⃣ Click the `Vary (Region)` button underneath individual images to open the editing interface.
@@ -158,7 +158,7 @@ Q: I'm having trouble using the bot - Why don’t I see the /imagine option as a
 :bug: If you don't get the `/imagine` pop-up: 
 **Make sure your Discord app is up to date**. You may need to uninstall and reinstall it if you’re on mobile.
 Also check your Discord settings:
-Discord Settings :gear: > `Accessibility` > `Use the legacy chat input` = OFF 
+Discord Settings :gear: > `Accessibility` > `Use the legacy chat input` = `OFF`.
 
 %image=https://cdn.discordapp.com/attachments/958069758211797092/1110755514691891260/MJ_ImagineCommand.gif
 
@@ -266,6 +266,21 @@ Yes, `Relax` mode uses a dynamic queuing system that resets with each of your mo
 Q: Relaxed mode seems slow tonight? Upscaling in relaxed mode seems to be on "Waiting to Start..." for a while? What is the average wait time? How much slower is relax mode? How slow is relax mode? Relax mode speed? Why was it faster before? Relax mode is running slower?
 
 Relax mode uses a dynamic queue to ensure equal resource access for everyone. The time it takes to generate in this mode can vary, depending on usage and available resources.
+
+---
+
+Q: Failed to submit: Relax queues are only available for users with a standard plan or higher? Relax queues are only available for users? Relax on Basic? I have basic but Relax queues are not available? Why I cannot use relax? Relax mode says you must have a Standard plan or higher? I had relax on Basic but now it's off? Why did you switch off relax mode for basic plan? Which mode is available on basic plan? Not available for plan Relax queues are only available for users with a Standard plan or higher? Can I use relax with Basic? I have my subscription but cannot use Relax? It says it is not possible in relax mode? I cannot activate Relax?  
+
+The [Basic plan](https://docs.midjourney.com/hc/en-us/articles/27870484040333-Comparing-Midjourney-Plans) includes a limited amount of generations, with 200 GPU minutes of fast time per month. Turn on Fast mode with the command </fast:972289487818334212> to create images.
+**Run out of fast time ?** You can buy and win extra GPU hours, or upgrade your plan to continue generating.
+
+*The special Relaxathon event temporarily allowed all members to generate unlimited speedy images in Relax mode. This event has now ended, so all subscriptions have returned to their regular limits and perks.*
+
+---
+
+Q: You can not submit batch jobs in relax mode?
+
+Batch jobs ([permutations](https://docs.midjourney.com/hc/en-us/articles/32761322355597-Permutations) and [repeat](https://docs.midjourney.com/hc/en-us/articles/32757107922061-Repeat)) only work in Fast mode. *The special Relaxathon event temporarily allowed all members to generate unlimited speedy images in Relax mode. This event has now ended, so all subscriptions have returned to their regular limits and perks.*
 
 ---
 
@@ -378,6 +393,7 @@ To access Midjourney, you must use a Discord or Google account to login.
 Q: Where do I manage my account? Where do I manage my subscription?
 
 On the Midjourney website, click on your username in the bottom left corner, then click on [Manage Subscription](https://www.midjourney.com/account) to subscribe or view information about your subscription.
+You can also use the command </subscribe:987795925764280351> and click the blue `Manage Account` link to access your subscription page linked to this account.
 
 ---
 
@@ -434,7 +450,7 @@ Q: How do I cancel my Magazine? Cancel the magazine subscription? Cancel magazin
 
 You can update your shipping information or cancel your Midjourney Magazine subscription by using [this link](https://billing.stripe.com/p/login/aEUdRA5Wc8t25a03cc) and the email you receive your magazine receipts on.
 
-Please email `billing@midjourney.com` for further assistance.
+Please send an email to `billing@midjourney.com` for further assistance.
 
 ---
 
@@ -442,7 +458,7 @@ Q: I want to order the magazine? Where could I buy a magazine?
 
 Visit the [Midjourney Magazine website](https://mag.midjourney.com/) to subscribe to the monthly magazine. You can also purchase other printed editions showcasing Midjourney images.
 
-Please email `billing@midjourney.com` for any inquiry or issue regarding your magazine payments.
+Send an email to `billing@midjourney.com` for any inquiry or issue regarding your magazine payments.
 
 ---
 
@@ -468,9 +484,17 @@ To cancel your subscription’s automatic renewal, click `Cancel Plan` on your [
 
 You can cancel the automatic renewal at any time, **your plan will remain active until the end of your billing cycle**. If you change your mind, you can uncancel to reactivate the automatic renewal.
 
-Please email `billing@midjourney.com` if you encounter an error or need further assistance.
+Send an email to `billing@midjourney.com` if you encounter an error or need further assistance.
 
 %image=https://cdn.discordapp.com/attachments/1201909699793145876/1228317951598530621/Cancel.png
+
+---
+
+Q: I don't see the cancel button? I cannot access my subscription page? I am trying to cancel but cannot log in? How do I cancel my account, idk how to log in? How do I cancel if I forgot my password? I cant login so am unable to cancel? I'm struggling to cancel because I can never log in? There is no option to cancel? My account doesn't show a subscription to cancel? There is no cancel button on the page? No cancel button? I don't have the cancel option?
+
+You may be logged in with a different account. **Use the command </subscribe:987795925764280351> and click the blue `Manage Account` link to access your subscription page linked to this account.**
+
+Please send an email to `billing@midjourney.com` if you need further assistance with your subscription.
 
 ---
 
@@ -480,7 +504,7 @@ On your [Midjourney subscription page](https://midjourney.com/account), click `C
 
 **__Refund:__** You are eligible for a full refund if you’ve used less than 20 GPU minutes **__lifetime__**. If you’re eligible, you will have the option to `Cancel immediately with refund`. Select that option, and confirm the immediate cancellation.
 
-Please email `billing@midjourney.com` if you do not get the option or if you receive an error.
+Send an email to `billing@midjourney.com` if you do not get the option or if you receive an error.
 
 %image=https://cdn.discordapp.com/attachments/1201909699793145876/1228317951598530621/Cancel.png
 
@@ -514,7 +538,7 @@ __Note:__ Proration is calculated based on your unused monthly fast time.
 If you've used all your fast time on the Basic plan, Standard will cost the full price.
 If you've not used any fast time of your Basic plan, Standard will cost US$20 (+VAT).
 
-To change from a Yearly plan to a higher tier Monthly plan, or for any further assistance with your subscription and payments, please email `billing@midjourney.com` with your invoice number.
+To change from a Yearly plan to a higher tier Monthly plan, or for any further assistance with your subscription and payments, send an email to `billing@midjourney.com` with your invoice number.
 
 ---
 
@@ -573,26 +597,39 @@ If your payment was declined, you might notice a pending charge in your account.
 - Check your account balance and spending limits.
 - Reach out to your bank, if they declined it they can clear it for you.
 
-Please email `billing@midjourney.com` for further assistance.
+Send an email to `billing@midjourney.com` for further assistance.
 
 ---
 
-Q: Remove payment info? Remove credit cards? How do I remove payment information? Remove payment? How can I find my Midjourney's invoice? Where can I see my invoices? How to access invoices? Where can I get my receipts? I want to remove my credit card? How to change my payment method? How to change my card details? How to change the default payment method? How to update my default payment method? Can I modify my default payment method? How can I get the receipt? Where do I find the receipt? Where can I download past bills?
+Q: Remove payment info? Remove credit cards? How do I remove payment information? Remove payment? How can I find my Midjourney's invoice? Where can I see my invoices? How to access invoices? Where can I get my receipts? I want to remove my credit card? How to change my payment method? How to change my card details? How to change the default payment method? How to update my default payment method? Can I modify my default payment method? How can I get the receipt? Where do I find the receipt? Where can I download past bills? How can I get an invoice after?
 
 🔹If your subscription is **active**: Use the command </subscribe:987795925764280351> or go to your [`Manage Subscription` page](https://www.midjourney.com/account) on the website to view your plan details.
 Click `Edit Billing` to verify or modify your payment information. Click `View Invoices` to download previous invoices and receipts.
 
 🔹If your subscription is **inactive**: Access [this link](https://billing.stripe.com/p/login/aEUdRA5Wc8t25a03cc) using your billing email to find your invoices and update your payment information.
 
-Please email `billing@midjourney.com` for further assistance.
+Send an email to `billing@midjourney.com` for further assistance.
 
 ---
 
-Q: Billing issue? Billing question? Need billing help? Billing support? Billing inquiry? I have been charged twice? I paid but I still can't generate images? I need the Certificate of Tax residency? Why did my subscription get cancelled after I just paid for it?
+Q: Billing issue? Billing question? Need billing help? Billing support? Billing inquiry? I have been charged twice? I need the Certificate of Tax residency? Why did my subscription get cancelled after I just paid for it?
 
 Send an email to `billing@midjourney.com` to contact our billing support team for assistance.
 
 To help speed up the process, include your User ID which you can find with the command </userid:1136041075614683196> and, if possible, provide your receipt number or invoice number which was sent to your billing email.
+
+---
+
+Q: I paid but I still can't generate images?
+
+Use the command </info:972289487818334209> to see if your subscription is active on this account.
+
+🔹If your subscription is **inactive**: Please send an email to `billing@midjourney.com` with your </userid:1136041075614683196> and invoice number for help.
+
+🔹If your subscription is **active**: Make sure you are using the command `/imagine` in a bot channel, like <#981832774157762570>, as shown in the gif below.
+You don't see the `/imagine` pop-up? Make sure your Discord app is up to date, and check your Discord settings: :gear: > `Accessibility` > `Use the legacy chat input` = `OFF`.
+
+%image=https://cdn.discordapp.com/attachments/958069758211797092/1110755514691891260/MJ_ImagineCommand.gif
 
 ---
 
@@ -602,7 +639,7 @@ Q: I need to change my email address? I want to change the email address? Please
 
 To modify your __Discord email__ used to sign in, follow this guide: [How to change your Discord account's email address](https://support.discord.com/hc/en-us/articles/4423385681175-How-to-Change-Your-Account-s-Email-Address).
 
-To modify your __Midjourney billing email__ where you receive invoices and receipts, please email `billing@midjourney.com` with your User ID which you can find with the command </userid:1136041075614683196>. If possible, provide your receipt number or invoice number.
+To modify your __Midjourney billing email__ where you receive invoices and receipts, send an email to `billing@midjourney.com` with your User ID which you can find with the command </userid:1136041075614683196>. If possible, provide your receipt number or invoice number.
 
 ---
 
@@ -628,7 +665,7 @@ Open the email about “payment was unsuccessful" to pay the overdue invoice.
 🔹**How to __cancel__ your plan:**
 Go to your [`Manage Subscription` page](https://www.midjourney.com/account) on the Midjourney website and click `Cancel Plan`.
 
-Please email `billing@midjourney.com` for further assistance.
+Please send an email to `billing@midjourney.com` for further assistance.
 
 ---
 
@@ -662,16 +699,16 @@ Q: Your payment method requires you to take additional action to complete the tr
 On your [`Manage Subscription` page](https://www.midjourney.com/account), click on [`Edit Billing`](https://billing.stripe.com/p/login/aEUdRA5Wc8t25a03cc) and scroll down to your invoices at the bottom.
 Open the pending invoice and confirm the transaction.
 
-Please email `billing@midjourney.com` if you encounter an error or require further assistance.
+Send an email to `billing@midjourney.com` if you encounter an error or require further assistance.
 
 ---
 
 Q: Why can't I upgrade my subscription? Something went wrong :( This may be due to insufficient funds? Error: Couldn't upgrade your plan. Please reach out to support? I'm trying to upgrade my plan but the payment keeps getting rejected? I can’t upgrade? I cannot upgrade?
 
-On your [`Manage Subscription` page](https://www.midjourney.com/account), click on `Edit Billing` and make sure all your details are up to date. Check your account balance and spending limits, and reach out to your bank to make sure they’re not blocking the payment.
+On your [`Manage Subscription` page](https://www.midjourney.com/account), click on [`Edit Billing`](https://billing.stripe.com/p/login/aEUdRA5Wc8t25a03cc) and make sure all your details are up to date. Check your account balance and spending limits, and reach out to your bank to make sure they’re not blocking the payment.
 If the problem persists, please email `billing@midjourney.com` for assistance.
 
-__**If you’re using Alipay:**__ You cannot upgrade on the website. Please email `billing@midjourney.com` for assistance.
+__**If you’re using Alipay:**__ You cannot upgrade on the website. Send an email to `billing@midjourney.com` with your </userid:1136041075614683196> for assistance.
 
 ---
 
@@ -684,7 +721,7 @@ To include your VAT ID on future invoices:
 🔹 Without an active subscription: At checkout, select the option `I’m purchasing as a business` and enter your company name and VAT ID (include the country code letters if applicable).
 
 **__Note:__ Once issued, invoices cannot be changed.**
-Please email `billing@midjourney.com` for further assistance.
+Send an email to `billing@midjourney.com` for further assistance.
 
 ---
 
@@ -695,13 +732,13 @@ Midjourney is required to collect VAT in certain countries. The amount is automa
 To include your VAT ID on new invoices, you can select the option `I’m purchasing as a business` at checkout to enter your company name and VAT ID.
 
 **__Note:__ Once issued, invoices cannot be changed.**
-Please email `billing@midjourney.com` for further assistance.
+Send an email to `billing@midjourney.com` for further assistance.
 
 ---
 
 Q: How can I request a tax exemption? My company is tax-exempt? We are a tax-exempt organization?
 
-To request your account to be exempted from taxes, please email `billing@midjourney.com` with the following information:
+To request your account to be exempted from taxes, send an email to `billing@midjourney.com` with the following information:
 - The full name on your account
 - Your billing email address
 - Your billing postal address
@@ -713,7 +750,7 @@ The billing information on your subscription must match the information listed o
 
 Q: Can you set my account to reverse charge for VAT?
 
-To request your account to be set to reverse charge, please email `billing@midjourney.com` with the following information:
+To request your account to be set to reverse charge, send an email to `billing@midjourney.com` with the following information:
 - Your full name or your company's full name
 - Your billing email address
 - Your billing postal address
@@ -730,7 +767,7 @@ Q: Help linking Discord and Google? This Discord login is already linked to a di
 If you get an error when trying to connect a Google or Discord account to your subscription, the error explains why the two accounts cannot be merged. We cannot merge the accounts for you. [Click here for troubleshooting tips](https://docs.midjourney.com/hc/en-us/articles/33390994570509-Logging-In-Connecting-Accounts#h_01JHK4K8B881M2GPSNEDGB0PCQ)
 
 **If you subscribed on the wrong account, send an email to `billing@midjourney.com`** for the team to help you subscribe on the account of your choice.
-Include your User ID which you can find with the command </userid:1136041075614683196> and your invoice number. If possible, provide further details such as steps to reproduce the issue you're having, screenshot(s) of the error you encounter, different emails you may have used, etc.
+Include your User ID which you can find with the command </userid:1136041075614683196> and your invoice number.
 
 ---
 
@@ -760,9 +797,9 @@ Images created in Stealth mode can be viewed by our team for moderation purposes
 
 ---
 
-Q: What's private mode? What’s stealth mode? Private powers badge? I don't want people to see my images? How can I work privately? I don't want anyone to see my images and prompts? How do I go private? How do I go stealth? How much does private cost? How much does stealth cost? I can’t unpublish on the website? Stealth mode? How do I keep my images private? Are all my images private automatically? Will my gallery become private? Why can users still interact even though I bought private? Are all my images stealth automatically? Will my gallery be stealth? Why can users interact even though I have stealth mode enabled? How to unpublish images? What is publish and unpublish? Enable stealth mode? How to use stealth mode?
+Q: What's private mode? What’s stealth mode? Private powers badge? I don't want people to see my images? How can I work privately? I don't want anyone to see my images and prompts? How do I go private? How do I go stealth? How much does private cost? How much does stealth cost? I can’t unpublish on the website? Stealth mode? How do I keep my images private? Are all my images private automatically? Will my gallery become private? Why can users still interact even though I bought private? Are all my images stealth automatically? Will my gallery be stealth? Why can users interact even though I have stealth mode enabled? How to unpublish images? What is publish and unpublish? Enable stealth mode? How to use stealth mode? Are my images private? Are my designs private? Can everyone see my images?
 
-By default, your prompts and images are public on the [Midjourney website](https://www.midjourney.com/explore).
+**By default, your prompts and images are public on the [Midjourney website](https://www.midjourney.com/explore).**
 [Stealth mode](https://docs.midjourney.com/hc/en-us/articles/32019750070669-Stealth-Mode) is a feature of the Pro and Mega plans that allows you to make your images private (unpublished) so they cannot be viewed by others on the website.
 
 To enable Stealth mode and keep all **__new__** images private on the Midjourney website: run the `/stealth` command.
@@ -984,9 +1021,18 @@ You can add text, image prompts, and other parameters to guide the results.
 
 ---
 
-Q: What is cref? What is the cref parameter? What does cref do? What does the cref parameter do? Cref? What is cw? --cw?
+Q: What is cref? What is the cref parameter? What does cref do? What does the cref parameter do? Cref?
 
 The `--cref` parameter is used in a prompt, followed by one or more image links, to add a **character reference**. [Read more about Character Reference](https://docs.midjourney.com/hc/en-us/articles/32162917505293-Character-Reference)
+
+---
+
+Q: What is cw? --cw?
+
+The character weight parameter `--cw` adjusts how much information is used in your character reference.
+`--cw 100` is the default and maximum value; it uses all of the information, from head to toe. Lowering the value gradually shifts focus from the full body to the face.
+
+You can only use the character weight parameter if you have a character reference. [Read more about Character Reference](https://docs.midjourney.com/hc/en-us/articles/32162917505293-Character-Reference)
 
 ---
 
@@ -1104,7 +1150,7 @@ You can use multiple image links, just make sure to have a space between each li
 
 ---
 
-Q: How do I upload an image? Can I send images to the AI? Is there a way to upload a photo? Is there a way to upload an image? Upload image?
+Q: How do I upload an image? Can I send images to the AI? Is there a way to upload a photo? Is there a way to upload an image? Upload image? Can it generate something similar to an image I give to it? Can the AI generate something similar to an image I give to it?
 
 Send an image on Discord, click on it, and copy the media/image's link. You can then paste the link into your prompt to use it as an [image prompt](https://docs.midjourney.com/hc/en-us/articles/32040250122381-Image-Prompts), a [style reference](https://docs.midjourney.com/hc/en-us/articles/32180011136653-Style-Reference)  and/or a [character reference](https://docs.midjourney.com/hc/en-us/articles/32162917505293-Character-Reference).
 
@@ -1253,7 +1299,7 @@ Participate in our [#prompt-craft](https://discord.com/channels/6622679769842974
 
 # - SEEDS -
 
-Q: How do I get the seed or job id that was used for an image? No seed? Seed on upscale? Only grid seed? I can not get the seed? Can’t get the seed number? How can I find the seed? How do I retrieve the seed number of an image? How do I get the seed of an image? Where to find seed? Where is seed?
+Q: How do I get the seed that was used for an image? No seed? Seed on upscale? Only grid seed? I can not get the seed? Can’t get the seed number? How can I find the seed? How do I retrieve the seed number of an image? How do I get the seed of an image? Where to find seed? Where is seed?
 
 To find an image’s seed number, open your image in [your archive](https://www.midjourney.com/archive) and in the image menu, click on `Copy` > `Seed`.
 You can only copy the seed of your own images. You can only copy the seed of an initial grid image.
@@ -1432,7 +1478,14 @@ In Version 5.2, combine multiple codes in one parameter with a hyphen, such as `
 
 Q: How do I find all style tuners I created?
 
-You can find all your style tuners with the command </list_tuners:1181338718158721086>.
+You can find all your style tuners with the command `/list_tuners`.
+
+---
+
+Q: I used the /tune command but nothing was rendered? I used the /tune command but nothing was delivered? I used the /tune command but did not get any link? I made a /tune request but did not receive a link? I made a /tune request but nothing was rendered? I made a /tune request but it didn’t deliver? 
+
+If the style tuner was created, it’s possible Discord forgot to send the link. You can find it with the command `/list_tuners`.
+If the link isn’t in the list, that means the tuner failed. In this case, **no GPU time is consumed**.
 
 ---
 
@@ -1568,9 +1621,17 @@ Q: Stealth mode on the website? Enable Stealth mode on alpha? Stealth mode on we
 
 [`Stealth` mode](https://docs.midjourney.com/hc/en-us/articles/32019750070669-Stealth-Mode) is a feature of the Pro and Mega plans that allows you to make your images private (unpublished) in [your gallery](https://www.midjourney.com/archive). Unless created in shared rooms, unpublished images cannot be seen on the website by any members other than yourself.
 
-To enable Stealth mode on the alpha website and keep all **__new__** images create on web private, toggle the `Stealth` button in your settings to `On`. You can also add it to individual prompts by adding the `--stealth` parameter.
+To enable Stealth mode on the website and keep all **__new__** images private, toggle the `Stealth` button in your settings to `On`. You can also add it to individual prompts by adding the `--stealth` parameter.
 
 %image=https://cdn.midjourney.com/u/ff03153e-6e8a-48b4-87d0-5acd0a123688/32a90643f5e4ba63afc15a96f402c47307fa258f96a9113f4ec5fd81e0a4dab3.png
+
+---
+
+Q: Where do I activate fast on the website? How to change speed on the website? On the website, how do I switch to relax?
+
+On the [Midjourney website](https://www.midjourney.com/imagine), open your settings on the right side of the `Imagine...` bar. At the bottom of your `Model` options, select the `Relax`, `Fast`, or `Turbo` button to adjust the `Speed` mode.
+
+%image=https://cdn.midjourney.com/u/ff03153e-6e8a-48b4-87d0-5acd0a123688/89c0ed9a7b4043abf5cced91683de77cce3094486a54abbf8beb951ae7b969d1.png
 
 ---
 
@@ -1607,7 +1668,7 @@ If your lifetime usage is under 10,000 images and you do not have a yearly subsc
 
 Do you qualify but do not see the [`Edit` page](https://www.midjourney.com/editor/new) on the Midjourney website? Try refreshing the page, or logging out and back into the website.
 
-__Note:__ For any questions about your subscription, please email `billing@midjourney.com` with your </userid:1136041075614683196>. The billing team can review your payment history and the date you last subscribed on.
+__Note:__ For any questions about your subscription, send an email to `billing@midjourney.com` with your </userid:1136041075614683196>. The billing team can review your payment history and the date you last subscribed on.
 
 ---
 
@@ -1730,7 +1791,7 @@ Check out answers to frequently asked questions about Niji・journey: [Help Cent
 
 Q: What is Midjourney?
 
-Midjourney is a new research lab focused on new mediums and tools for empowering people.
+Midjourney is a research lab focused on new mediums and tools for empowering people.
 
 ---
 
