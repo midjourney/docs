@@ -241,6 +241,20 @@ Relax mode uses a dynamic queue to ensure equal resource access for everyone. Th
 
 ---
 
+Q: Failed to submit: Relax queues are only available for users with a standard plan or higher? Relax queues are only available for users? Relax on Basic? I have basic but Relax queues are not available? Why I cannot use relax? Relax mode says you must have a Standard plan or higher? I had relax on Basic but now it's off? Why did you switch off relax mode for basic plan? Which mode is available on basic plan? Not available for plan Relax queues are only available for users with a Standard plan or higher? Can I use relax with Basic? I have my subscription but cannot use Relax? It says it is not possible in relax mode? I cannot activate Relax?  
+
+The [Basic plan](https://docs.midjourney.com/hc/en-us/articles/27870484040333-Comparing-Midjourney-Plans) includes a limited amount of generations, with 200 GPU minutes of fast time per month. Turn on Fast mode in your settings to create images. **Run out of fast time ?** You can buy and win extra GPU hours, or upgrade your plan to continue generating. // The special Relaxathon event **temporarily** allowed all members to generate unlimited speedy images in Relax mode. This event has now ended, so **all subscriptions have returned to their regular limits and perks**.
+
+%image=https://cdn.midjourney.com/u/ff03153e-6e8a-48b4-87d0-5acd0a123688/429272eae10ea58156a78de88c75acff834d76a4957be16d25bb69d15e83c8c7.png
+
+---
+
+Q: You can not submit batch jobs in relax mode?
+
+Batch jobs ([permutations](https://docs.midjourney.com/hc/en-us/articles/32761322355597-Permutations) and [repeat](https://docs.midjourney.com/hc/en-us/articles/32757107922061-Repeat)) only work in Fast mode. The special Relaxathon event temporarily allowed all members to generate unlimited speedy images in Relax mode. This event has now ended, so **all subscriptions have returned to their regular limits and perks.**
+
+---
+
 # - FAST -
 
 Q: What is fast mode? How to turn on fast mode? How to switch to fast? Where to change to fast mode? Where is fast mode? Where to find fast mode? Where can I find fast mode? Where do I find fast mode? Where do I switch on fast mode?
@@ -501,7 +515,7 @@ If you are experiencing errors or unusually long queue wait times, click on `Hel
 
 Q: Billing issue? Billing question? Need billing help? Billing support? Billing inquiry? I keep getting billed twice? I paid but I don’t see my subscription? I paid but cannot use the subscription? I paid for a subscription, but I don’t see it on discord? I do not see the option to refund immediately? I clicked the wrong payment method, and the payment was successful? Mistake in choosing plan? I was debited for the amount but also debited the other amount? I was charged twice? I was debited twice? I need help with my payments? I just subscribed to a plan, paid and received both bill and receipt on main, but it says that I have to subscribe? #support? Cannot refund? I do not get the refund option? I need billing support? I have a billing issue? I won't be using it anymore, but I was automatically charged? How to request refund? I am not able to purchase? Double payment?
 
-Reach out to our billing support team by sending an email to billing@midjourney.com. If possible, provide your receipt number or invoice number which was sent to your billing email.
+Send an email to billing@midjourney.com to contact our billing support team for assistance. If possible, provide your receipt number or invoice number which was sent to your billing email.
 
 ---
 
@@ -848,6 +862,14 @@ The `--cref` parameter, or portrait icon on an image reference, is an image used
 
 ---
 
+Q: What is cw? --cw?
+
+**The character weight parameter `--cw` adjusts how much information is used in your character reference.** `--cw 100` is the default and maximum value; it uses all of the information, from head to toe. Lowering the value gradually shifts focus from the full body to the face.
+
+You can only use the character weight parameter if you have a character reference. [Read more about Character Reference](https://docs.midjourney.com/hc/en-us/articles/32162917505293-Character-Reference)
+
+---
+
 # - STYLE REFERENCE -
 
 Q: How to have the same style? Can I keep the same style in my images? Is there an option to keep the same style? How to use --sref? Can I add a style reference? Can I have the same style as an image?
@@ -1031,7 +1053,7 @@ Adding the `--stop` parameter followed by a number between 10 and 100 will stop 
 
 # - REPEAT & PERMUTATIONS -
 
-Q: Generate in bulk? How to submit multiple prompts?
+Q: Generate in bulk? How to submit multiple prompts? How to run multiple prompts at once? How to bulk submit jobs? How to submit multiple jobs? How to run multiple jobs at once? 
 
 [**Permutations**](https://docs.midjourney.com/hc/en-us/articles/32761322355597-Permutations) and [**Repeat**](https://docs.midjourney.com/hc/en-us/articles/32757107922061-Repeat) are two ways to submit multiple jobs with a single command. The maximum number of jobs you can submit at once depends on your subscription tier; 4 with Basic, 10 with Standard, 40 with Pro and Mega.
 
