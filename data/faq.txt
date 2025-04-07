@@ -943,6 +943,7 @@ Check out the [Midjourney Documentation](https://docs.midjourney.com/hc/en-us/ar
 Q: How do you reset custom suffix? How do you reset your parameters? Can I reset my settings? Why am I getting this message about an unrecognized argument? Invalid argument unrecognized argument? I can't remove the option –upbeta or –uplight in settings? How do I reset my settings? How do I reset my suffix? How do I clear my settings? There’s something in my prompt I didn’t add, how do I remove it? Stylize must be between error?
 
 To reset suffixes automatically added to your prompts, use the command </settings:1000850743479255081> and click on `Reset Settings`.
+
 %image=https://cdn.discordapp.com/attachments/1201909699793145876/1231302471205388299/Reset_Settings.png
 
 ---
@@ -952,6 +953,40 @@ Q: /settings? Change settings? Where are the bot settings? Can I change the defa
 **Use the command </settings:1000850743479255081> to select your default settings**, the matching parameters will automatically be added to your new prompts.
 
 __Advanced:__ If you'd prefer to enter your own set of parameters to be added at the end of each new prompt, use the command </prefer suffix:984273800587776053> and add your parameters in the `new_value` field. These will override any preferences from /settings.
+
+---
+
+# - VERSION 7 -
+
+Q: How to use version 7? How to switch to v7? I want to turn on v7?
+
+To use Midjourney's Version 7, you need to have rated at least 200 images towards your V7 Personalization profile. [Click here](https://www.midjourney.com/personalize) and select **V7** to teach your V7 profile.
+Once you've unlocked it, use the command </settings:1000850743479255081> to select Version 7 as your default one, or add `--v 7` at the end of a prompt.
+
+__Note:__ You do not have to use personalization. You can turn it off in your </settings:1000850743479255081> (Green=On / Grey=Off).
+
+---
+
+Q: --quality is not compatible with --version 7? How do I make --quality off?
+
+To remove all suffixes automatically added to your prompts, use the command </settings:1000850743479255081> and click on `Reset Settings`.
+
+%image=https://cdn.discordapp.com/attachments/1201909699793145876/1231302471205388299/Reset_Settings.png
+
+---
+
+Q: Remix not supported in V7? Cref in v7? Not compatible with --version 7?
+
+Midjourney's Version 7 is currently in the alpha phase. Certain parameters and features may not be compatible yet. Keep an eye out on the [#announcements](https://discord.com/channels/662267976984297473/952771221915840552) channel for updates.
+
+[Click here](https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version#h_01JQSR0Q6H0AX8NCC8QGE6C2NZ) to view which features and parameters are currently available in V7.
+
+---
+
+Q: Does V7 always use Turbo? Since using V7, my credits are running out much faster? I use V7 and it uses more GPU time?
+
+Version 7 currently only runs in Turbo or Relax mode. Turbo consumes twice as much as regular fast job (about 2 GPU minutes).
+You can add the `--draft` parameter to your prompt to generate them in Draft quality for half the cost (about 30 GPU seconds).
 
 ---
 
@@ -1054,6 +1089,12 @@ The `--sref` parameter is used in a prompt, followed by one or more image links,
 
 ---
 
+Q: Can someone explain what the --sv does? What is --sv 4? What does --sv 4 mean? Why is there --sv?
+
+Just like there are different versions of the model used to create images (`--v` parameter), there are different versions of the style reference model. The latest and default version is `--sv 4`.
+
+---
+
 # - PERSONALIZATION -
 
 Q: What is the personalization feature? What is the personalisation feature? What is the personalize feature? What is the personalise feature? What is the personalization parameter? What is the personalisation parameter? What is the personalize parameter? What is the personalise parameter? Personalization feature? Personalisation feature? Personalize feature? Personalise feature? Personalization parameter? Personalisation parameter? Personalize parameter? Personalise parameter? What is the --p parameter? Can I get a personal code with my own aesthetic? Can I personalize my style? Can I personalise my style? How do I get my personal code? Where do I find my personal code? Where do I find my --p code? Can I train my own model?
@@ -1108,7 +1149,8 @@ Every time your personalization is updated, you get a new code. You can find all
 Q: What does the --iw argument do? What does the --iw comment do? What does --iw do?
 
 The Image Weight parameter `--iw` allows you to adjust how much the image prompt will be considered in the final result. The default `--iw` value in Version 6 is 1, and it can be set to values between 0 and 3.
-%img=https://cdn.discordapp.com/attachments/1201909699793145876/1234278532461498459/ImageWeight_Values.png
+
+%image=https://cdn.discordapp.com/attachments/1201909699793145876/1234278532461498459/ImageWeight_Values.png
 
 ---
 
@@ -1154,14 +1196,13 @@ Q: How do I upload an image? Can I send images to the AI? Is there a way to uplo
 
 Send an image on Discord, click on it, and copy the media/image's link. You can then paste the link into your prompt to use it as an [image prompt](https://docs.midjourney.com/hc/en-us/articles/32040250122381-Image-Prompts), a [style reference](https://docs.midjourney.com/hc/en-us/articles/32180011136653-Style-Reference)  and/or a [character reference](https://docs.midjourney.com/hc/en-us/articles/32162917505293-Character-Reference).
 
-If you want to upload an image and edit it using Midjourney, this is only possible through the website's [full editor](https://docs.midjourney.com/hc/en-us/articles/32764383466893-Full-Editor). This tool is available to users with a yearly subscription.
+If you want to upload an image and edit it using Midjourney, this is only possible through the website's [full editor](https://www.midjourney.com/editor/new).
 
 ---
 
 Q: How can I upload a picture to edit it? Can I edit my own images? Can I edit my photos? I want to upload an image to recreate the same one? Is it possible to modify an external image? Can the AI add elements to my picture? I have an image I want to modify, is this possible? How to tell it to modify my existing image? How to upload an image to modify it? How can I have it recreate the exact same image? Where do I add an image for it create exactly the same elements? How to use an image without changing it? How to edit my pictures? I want to keep my image but add something, is it possible? Can I add my own image to make changes? Can I have AI edit a picture of me? Edit my image?
 
-With the website's [full editor](https://docs.midjourney.com/hc/en-us/articles/32764383466893-Full-Editor), you can upload an image and select areas to edit through Midjourney. Or you can have it "retexture" your image, to keep the same overall shapes as your image while creating a new design.
-The full editor is limited to users with a yearly subscription.
+With the website's [full editor](https://www.midjourney.com/editor/new), you can upload an image and select areas to edit through Midjourney. Or you can have it "retexture" your image, to keep the same overall shapes as your image while creating a new design.
 
 **On Discord**, you use your own images as [image prompts](https://docs.midjourney.com/hc/en-us/articles/32040250122381-Image-Prompts), [style references](https://docs.midjourney.com/hc/en-us/articles/32180011136653-Style-Reference)  and/or [character references](https://docs.midjourney.com/hc/en-us/articles/32162917505293-Character-Reference) to influence your creations.
 
@@ -1182,7 +1223,7 @@ To use the image as a [style reference](https://docs.midjourney.com/hc/en-us/art
 __Note:__ If you're only using one image prompt, you must add text.
 You can use multiple image links, just make sure to have a space between each link.
 
-**Do you want Midjourney to edit your own image?** This is only possible through the website's [full editor](https://docs.midjourney.com/hc/en-us/articles/32764383466893-Full-Editor). This tool is available to users with a yearly subscription.
+**Do you want Midjourney to edit your own image?** This is only possible through the website's [full editor](https://www.midjourney.com/editor/new).
 
 ---
 
@@ -1242,7 +1283,7 @@ The prompt `space` has the default weight value of 1 while the prompt `ship` has
 
 Q: Any tips for successful text prompts? How do I write better prompts? How should I write my prompts?  What’s the best way to write prompts? Do prompts have an order? Does word order matter? Does word sequence matter? Is there a template for prompts?
 
-[Here is a guide on effective text prompts](https://docs.midjourney.com/hc/en-us/articles/32023408776205-Prompt-Basics
+[Here is a guide on effective text prompts](https://docs.midjourney.com/hc/en-us/articles/32023408776205-Prompt-Basics)
 
 ---
 
@@ -1639,54 +1680,55 @@ On the [Midjourney website](https://www.midjourney.com/imagine), open your setti
 
 Q: How can I access the new edit page? How can I access the new editor? Can I use the new edit mode? Can I use the new edit? Can I use the new editor? How do I get the full editor? Where is the link to the image editor? Where is the link to the full editor?
 
-The new full editor is available on the [Midjourney website](https://www.midjourney.com/editor/new), in the `Edit` page.
-
-As a security measure, access to this tool is currently available to **any** of the following community groups (meeting one of these conditions is sufficient):
-🔹users with a lifetime usage of over 10,000 images (see yours with </info:972289487818334209>)
-🔹users with an active yearly subscription
-🔹users who have been subscribed continuously for the past 12 months without any interruption
-
-[Read more about the External Editor](https://docs.midjourney.com/hc/en-us/articles/32764383466893-Full-Editor)
-
----
-
-Q: Why am I not included in the new editor group? Why do I not have access to the full editor? Will be edit feature available for every subscriber someday? Why am I not part of the "Image-Editor" group?
-
-As a security measure, access to this tool is currently available to **any** of the following community groups (meeting one of these conditions is sufficient):
-🔹users with a lifetime usage of over 10,000 images (see yours with </info:972289487818334209>)
-🔹users with an active yearly subscription
-🔹users who have been subscribed for the past 12 months without any interruption
-
-This tool is new; access and moderation will be adjusted over time.
-
-
----
-
-Q: I am paying since the beginning and I have no access to the editor? I am paying since the beginning but cannot use the new editor? I am paying since the beginning but cannot access the full editor? I am paying since the beginning but can't access the edit feature? I have been subscribed for months and still can't get access to the edit feature? I have been subscribed for months and still can't get access to the full editor? I have been subscribed for months and still can't get access to the new editor? I have been subscribed for months but cannot use the editor? I've been subscribed for nearly two years, why can't I access the new edit tool? I've been subscribed for nearly two years, why can't I access the full editor? I've been subscribed for nearly two years, why can't I access the new editor? I'm paying since 2023, why i dont have access to edit feature? I'm paying since 2023, why i dont have access to the new editor? I'm paying since 2023, why i dont have access to the full editor? I've been a subscriber for more than 12 months, but I am unable to access the new edit mode? I've been a subscriber for more than 12 months, but I am unable to access the new editor? I've been a subscriber for more than 12 months, but I am unable to access the full editor? Subscribed for 12 months but no new editor? I have been a monthly subscriber since 2023, can I use the new editor? I've had a membership since 2022 but I can't use the Edit feature on the site? I've had a membership since 2022 but I can't use the new editor? I've had a subscription since 2022 but I can't use the new editor? I’ve been subscribed since 2022 but don’t have access to editing?
-
-If your lifetime usage is under 10,000 images and you do not have a yearly subscription, you can access the [full editor](https://docs.midjourney.com/hc/en-us/articles/32764383466893-Full-Editor) if you've been subscribed to Midjourney for the past 12 months **without any interruption**. Unfortunately, if you've canceled at any point during this time, you do not qualify.
-
-Do you qualify but do not see the [`Edit` page](https://www.midjourney.com/editor/new) on the Midjourney website? Try refreshing the page, or logging out and back into the website.
-
-__Note:__ For any questions about your subscription, send an email to `billing@midjourney.com` with your </userid:1136041075614683196>. The billing team can review your payment history and the date you last subscribed on.
-
----
-
-Q: I have created over 10000 images but still cannot access the new editor? I have generated over 10000 images but still cannot access the new editor? I have generated over 10000 images but still cannot access the full editor? I have generated over 10000 images but still cannot access the external editor? I have generated over 10000 images but still cannot access the new editor? I have generated over 10k images but still cannot access the full editor? I have created over 10k images but still cannot access the full editor? I have created over 10k images but still cannot access the external editor? The Edit page is unavailable even though I have over 10k generations? I don't have the new editor even though I have over 10k generations? I have created more than 10,000 images but the edit option is not available? I have generated more than 10k images but am not able to access the image editor, why?
-
-Use the command </info:972289487818334209> to view your lifetime usage. If it's above 10,000 images, log out and back into the Midjourney website making sure you're using the same Discord account. You'll find the [`Edit` page](https://www.midjourney.com/editor/new) on the left side menu.
+The [Full Editor](https://docs.midjourney.com/hc/en-us/articles/32764383466893-Full-Editor) is available on the [Midjourney website](https://www.midjourney.com/editor/new), in the `Edit` page.
+If you’re having trouble loading the page, log out and make sure you log back in with your account with an active subscription.
 
 ---
 
 Q: Can I use the new image editor on mobile? Can I use the full editor on mobile? Can I use the external editor on mobile? Is it possible to use the full editor through Discord? Is it possible to use the external editor through Discord?
 
-At the moment, the [full editor](https://docs.midjourney.com/hc/en-us/articles/32764383466893-Full-Editor) is only available on the desktop version of the Midjourney website.
+The [Full Editor](https://docs.midjourney.com/hc/en-us/articles/32764383466893-Full-Editor) is only available on the desktop version of the Midjourney website.
 
 ---
 
 Q: The external editor is triggering "prompt flagged by AI moderator" almost on everything? The full editor is triggering "prompt flagged by AI moderator" almost on everything? My prompts are blocked on the full editor? My prompts are blocked on the new image editor?
 
-Since the full editor can be used with real images, the moderation is currently extra safe. If your prompt is being incorrectly flagged, help us improve this system by sharing the full prompt in <#1100553606761041991>.
+Since the Full Editor can be used with real images, the moderation is extra safe. If your prompt is being incorrectly flagged, help us improve this system by sharing the full prompt in <#1100553606761041991>.
+
+---
+
+# - DRAFT MODE -
+
+Q: How to use Draft mode?
+
+Instead of writing prompts, click the :zap: **Draft mode** button on [the website's Imagine bar](https://www.midjourney.com/imagine) to discuss your vision and shape prompts with the bot. Describe to it what you want (by voice or text), and how to adjust the results; the bot handles the prompt-writing for you.
+
+Once you're happy with a **prompt**, click `Enhance` to generate a new set of images in Standard quality. Or, if you like a specific **image**, you can `Upscale` it to maximum resolution. 
+
+Draft mode is only available on the Midjourney website. [Read more about Draft mode](https://docs.midjourney.com/hc/en-us/articles/35577175650957-Draft-Mode)
+
+---
+
+Q: Draft quality?
+
+You can run a prompt in `Draft` quality by adding the `--draft` parameter to your prompt. This generates images quickly and at half the cost.
+This is ideal to test prompts and ideas ! Once you're happy with a **prompt**, run it without the `--draft` parameter to create a new set of images in Standard quality. Or, if you like a specific **image**, you can `Upscale` it to maximum resolution. 
+
+---
+
+Q: Does Draft mode use Fast Hours? Is Draft mode free? How much does Draft images cost?
+
+When using Draft mode or Draft quality, each set is much quicker to generate and costs **half** as much GPU time as usual (about 30 GPU seconds). If you have a Standard plan or above, you can use Draft unlimitedly in Relax mode.
+
+---
+
+Q: What is draft mode? Draft mode?
+
+Instead of writing prompts, **Draft mode** lets you discuss your vision and shape prompts with the bot. Describe to it what you want (by voice or text), and how to adjust the results; the bot handles the prompt-writing for you.
+
+Images are generated in Draft quality: quickly and at half the cost. Once you're happy with a **prompt**, click `Enhance` to generate a new set of images in Standard quality. Or, if you like a specific **image**, you can `Upscale` it to maximum resolution. 
+
+Draft mode is only available on the Midjourney website. [Read more about Draft mode](https://docs.midjourney.com/hc/en-us/articles/35577175650957-Draft-Mode)
 
 ---
 
