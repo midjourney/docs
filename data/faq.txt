@@ -82,7 +82,9 @@ Q: What does the ↻ button do? What does the recycle symbol do? What does the a
 
 The 🔄 button resubmits your request to generate a new set of four images using the same prompt and parameters. It’s like telling the bot to try again.
 
-[Read more about the interface](https://docs.midjourney.com/hc/en-us/articles/31541509949069-Using-Midjourney-in-Discord)
+[Read more about the Discord interface](https://docs.midjourney.com/hc/en-us/articles/31541509949069-Using-Midjourney-in-Discord)
+
+__Are you on the [Midjourney website](https://www.midjourney.com/imagine)?__ [Click here to learn how to navigate the Create Page](https://docs.midjourney.com/hc/en-us/articles/33390732264589-Creating-on-Web)
 
 ---
 
@@ -97,6 +99,8 @@ Q: What is Vary (Region)? Vary region button? How do I use Vary (Region)? Inpain
 You cannot edit an image which has been upscaled; upscaling is the last step.
 __Note:__ A larger selection provides more room for changes, while a smaller selection may result in more subtle modifications.
 [Read more about Vary Region](https://docs.midjourney.com/hc/en-us/articles/32794723105549-Vary-Region)
+
+__Are you on the [Midjourney website](https://www.midjourney.com/imagine)?__ [Click here to learn how to navigate the Editor](https://docs.midjourney.com/hc/en-us/articles/32696720371341-Editor)
 
 ---
 
@@ -118,7 +122,6 @@ Q: How can I enter a prompt for inpainting? How can I enter a prompt in vary (re
 
 **Vary (Region)** allows you to select and regenerate specific parts of an upscaled image. If you want to change the prompt, use the command </settings:1000850743479255081> and enable `Remix mode`.
 
-__Note:__ This is an experimental and advanced feature.
 [Read more about Vary Region](https://docs.midjourney.com/hc/en-us/articles/32794723105549-Vary-Region)
 
 ---
@@ -255,6 +258,8 @@ To toggle between Relax, Fast and Turbo mode, use the commands `/relax`, `/fast`
 __Note:__ Relax mode is not available on the Basic plan.
 [Read more about GPU time and Speed modes.](https://docs.midjourney.com/hc/en-us/articles/32016412137741-GPU-Speed-Fast-Relax-Turbo)
 
+__Are you on the [Midjourney website](https://www.midjourney.com/imagine)?__ [Click here to learn how to navigate the Create Page](https://docs.midjourney.com/hc/en-us/articles/33390732264589-Creating-on-Web)
+
 ---
 
 Q: Does relax mode get faster at the beginning of a billing cycle?
@@ -333,7 +338,7 @@ Use this link to invite someone to the Midjourney server: https://discord.gg/mid
 ---
 
 # -------------
-# - TRIAL -
+# - FREE -
 # -------------
 
 Q: Do I get free images every month? Do I get free images every day? Can I be a free user? Trial has ended? Using the Midjourney as a free user? Is there a trial version? Is there a free version? Why isn’t this free? Do I really have to pay for this? Can you give me free access? Not free? Do I have to pay? Why do I have to pay? Can I use the program for free? Is it paid to make images? I need to pay? Do I need to pay?
@@ -346,23 +351,26 @@ If you have an active subscription, you can try and win [free bonus fast time](h
 
 ---
 
-Q: Can I get free bonus hours? How to get free bonus hours? Awarded fast hours? Can I win extra GPU hours? Can I win bonus hours? Can I win fast time? How do I win free time?
+Q: Are there discount codes? Can I get a discount?
+
+**Welcome!** The only discount available is the 20% discount when purchasing a Yearly billed plan which charges all 12 months up front.
+There are no available codes to enter at checkout.
+
+If you have an active subscription, you can try and win [free bonus fast time](https://docs.midjourney.com/hc/en-us/articles/28014817524109-Earning-Free-Fast-Time).
+
+---
+
+Q: Can I get free bonus hours? How to get free bonus hours? Awarded fast hours? Can I win extra GPU hours? Can I win bonus hours? Can I win fast time? How do I win free time? Is there any way to get free fast hours?
 
 You can receive extra fast GPU hours for free!
 
 Fill out [available surveys](https://www.midjourney.com/surveys) for instant rewards.
 Midjourney also offers hours to active members:
 🔹Select your favorite images in [Image Rankings](https://www.midjourney.com/tasks). Every day, Midjourney gifts a bonus GPU hour to the 2000 users who ranked the most images that day :gift:
-🔹Join the Community Prompt Battles on [Saturdays](https://discord.com/events/662267976984297473/1343052786488709214) and/or [Sundays](https://discord.com/events/662267976984297473/1344425808537583677), where winners get bonus GPU hours :trophy:
+🔹Join the Community Prompt Battles on Saturdays and/or Sundays, where winners get bonus GPU hours :trophy:
 
 __Note:__ **You need an active subscription to receive and use bonus GPU hours.** Make sure to access the website with the right account.
 Bonus hours expire 30 days after being awarded.
-
----
-
-Q: Channel verification level is too high? Channel verification? Verification too high? Email verification? Verification error?
-
-We require that you verify the email address attached to your Discord account in order to use Midjourney. You can learn how to do that [here](https://support.discord.com/hc/en-us/articles/6181726888215).
 
 ---
 
@@ -370,44 +378,9 @@ We require that you verify the email address attached to your Discord account in
 # - SUBSCRIPTION -
 # --------------------------
 
-# - ACCOUNT -
+# - PRE SUB INQUIRIES -
 
-Q: Can I delete my account? How to delete my account? Data deletion?
-
-To delete your Midjourney account and its data, go to the bottom of your [`Manage Subscription` page](https://www.midjourney.com/account) and click on `How can I delete my account?`. Follow the red `Click here` link, and proceed to confirm the data deletion request.
-
-*If you only want to cancel your subscription’s automatic renewal, click on `Cancel plan` at the top of that page*.
-
----
-
-Q: How to change password? Can I change my password? Where to modify password?
-
-To access Midjourney, you must use a Discord or Google account to login.
-🔹To modify your Discord account's password: [click here](https://support.discord.com/hc/en-us/articles/218410947-I-forgot-my-Password-Where-can-I-set-a-new-one#h_01J5BH76627K07N1C23RWXSCN9)
-🔹To modify your Google account's password: [click here](https://myaccount.google.com/intro/signinoptions/password)
-
----
-
-# - BOT -
-
-Q: Where do I manage my account? Where do I manage my subscription?
-
-On the Midjourney website, click on your username in the bottom left corner, then click on [Manage Subscription](https://www.midjourney.com/account) to subscribe or view information about your subscription.
-You can also use the command </subscribe:987795925764280351> and click the blue `Manage Account` link to access your subscription page linked to this account.
-
----
-
-Q: Do subscriptions renew on the first of the month? When does my subscription renew? When do I get more fast time? What day is my fast time refilled? What day is my subscription renewed? When is my fast time refilled? When is my subscription refilled?
-
-To see your next renewal date and time, run the </info:972289487818334209> command.
-
-**Yearly plan?** Your Fast Time refreshes every month on the same date and time as when you subscribed. For example, if you subscribed on January 8th at 12pm, your hours will refresh on the 8th of every month at 12pm.
-
-__Note:__ Daylight Saving Time/Summer Time may shift the renewal time by 1 hour.
-
----
-
-Q: How do I subscribe? How to subscribe? How do I become a member? /subscribe? How does one become a member? How can I be a full member?  How can I subscribe to it? How to get the paid version? How do you get a subscription? Hello, where can I make the payment for the Standard plan? And how do I buy the 10$ plan? How do I buy it? How can I subscribe to Midjourney? Premium? How to subscribe to this bot? Subscribe?
+Q: How do I subscribe? How to subscribe? How do I become a member? /subscribe? How does one become a member? How can I be a full member?  How can I subscribe to it? How to get the paid version? How do you get a subscription? Hello, where can I make the payment for the Standard plan? And how do I buy the 10$ plan? How do I buy it? How can I subscribe to Midjourney? Premium? How to subscribe to this bot? Subscribe? How to pay a subscription? How to buy a subscription?
 
 Type </subscribe:987795925764280351>, select the command in the pop up above, and hit enter/click send. This will give you a unique link to your [`Manage Subscription` page](https://www.midjourney.com/account) on the website; don’t share the link with anyone!
 
@@ -444,6 +417,41 @@ Don’t forget to cancel the automatic renewal before your next billing date if 
 
 ---
 
+# - ACCOUNT -
+
+Q: Can I delete my account? How to delete my account? Data deletion?
+
+To delete your Midjourney account and its data, go to the bottom of your [`Manage Subscription` page](https://www.midjourney.com/account) and click on `How can I delete my account?`. Follow the red `Click here` link, and proceed to confirm the data deletion request.
+
+*If you only want to cancel your subscription’s automatic renewal, click on `Cancel plan` at the top of that page*.
+
+---
+
+Q: How to change password? Can I change my password? Where to modify password?
+
+To access Midjourney, you must use a Discord or Google account to login.
+🔹To modify your Discord account's password: [click here](https://support.discord.com/hc/en-us/articles/218410947-I-forgot-my-Password-Where-can-I-set-a-new-one#h_01J5BH76627K07N1C23RWXSCN9)
+🔹To modify your Google account's password: [click here](https://myaccount.google.com/intro/signinoptions/password)
+
+---
+
+Q: Where do I manage my account? Where do I manage my subscription?
+
+On the Midjourney website, click on your username in the bottom left corner, then click on [Manage Subscription](https://www.midjourney.com/account) to subscribe or view information about your subscription.
+You can also use the command </subscribe:987795925764280351> and click the blue `Manage Account` link to access your subscription page linked to this account.
+
+---
+
+Q: Do subscriptions renew on the first of the month? When does my subscription renew? When do I get more fast time? What day is my fast time refilled? What day is my subscription renewed? When is my fast time refilled? When is my subscription refilled?
+
+To see your next renewal date and time, run the </info:972289487818334209> command.
+
+**Yearly plan?** Your Fast Time refreshes every month on the same date and time as when you subscribed. For example, if you subscribed on January 8th at 12pm, your hours will refresh on the 8th of every month at 12pm.
+
+__Note:__ Daylight Saving Time/Summer Time may shift the renewal time by 1 hour.
+
+---
+
 # - MAGAZINE -
 
 Q: How do I cancel my Magazine? Cancel the magazine subscription? Cancel magazine? How to update Magazine details? Help me cancel the magazine subscription? What is the link to cancel the magazine? How to unsubscribe from the magazine? Where can I update my address for magazine delivery?
@@ -469,10 +477,18 @@ Q: If we go over our limit of fast hours does it let us know? Or just start bill
 When you’ve used all your fast time, you won’t be able to create images in fast mode.
 
 🔹You can try and win [free bonus fast time](https://docs.midjourney.com/hc/en-us/articles/28014817524109-Earning-Free-Fast-Time).
-🔹You can purchase more fast hours on your [`Manage Subscription` page](https://www.midjourney.com/account).
+🔹You can purchase more fast GPU hours on your [`Manage Subscription` page](https://www.midjourney.com/account).
 🔹If you have a Standard, Pro, or Mega plan, you can use the command `/relax` to activate Relax mode and create images unlimitedly.
 
 __Note:__ Additional GPU hours are bought before being used, so you cannot accidentally use more fast time than you have in your plan.
+
+---
+
+Q: How to buy more hours?
+
+You can purchase more fast GPU hours on your [`Manage Subscription` page](https://www.midjourney.com/account).
+
+__Note:__ Purchased hours expire after 60 days and require an active subscription to be used.
 
 ---
 
@@ -500,13 +516,12 @@ Please send an email to `billing@midjourney.com` if you need further assistance 
 
 Q: Cancel with refund? Cancel and refund? How do I get a refund? How to refund? Can this be refunded? I would like to request a refund? I need a refund? How can I refund? How to get a refund? How to get a refund for a subscription? I want a refund?
 
-On your [Midjourney subscription page](https://midjourney.com/account), click `Cancel Plan` to cancel the automatic renewal.
+On your [Midjourney subscription page](https://midjourney.com/account), click `Cancel Plan`.
+If your account meets the [refund policy](https://docs.midjourney.com/hc/en-us/articles/25386088618253-Requesting-a-Refund) criteria, you’ll see the option to `Cancel immediately with refund`. Select that option, and confirm.
 
-**__Refund:__** You are eligible for a full refund if you’ve used less than 20 GPU minutes **__lifetime__**. If you’re eligible, you will have the option to `Cancel immediately with refund`. Select that option, and confirm the immediate cancellation.
+**Don’t see a refund option or get an error?** Please send an email to `billing@midjourney.com`. We cannot help with payments in this chat.
 
-Send an email to `billing@midjourney.com` if you do not get the option or if you receive an error.
-
-%image=https://cdn.discordapp.com/attachments/1201909699793145876/1228317951598530621/Cancel.png
+%image=https://cdn.discordapp.com/attachments/1259116844430655488/1371804914204016640/Cancel_with_Refund.gif
 
 ---
 
@@ -588,7 +603,7 @@ If you are experiencing long wait times with jobs starting, please refer to [sta
 # - BILLING -
 # ---------------
 
-Q: My card is declined? Card declined? The website declined my payment, but I have funds on my card? Why is my card being declined? My card declined but money was still taken? Money was taken out of my account, but I don’t have a subscription? Payment failed? Unsuccessful payment? The money went out but I’m still not able to use it? I am unable to purchase fast hours? I am unable to purchase?
+Q: My card is declined? Card declined? The website declined my payment, but I have funds on my card? Why is my card being declined? My card declined but money was still taken? Money was taken out of my account, but I don’t have a subscription? Payment failed? Unsuccessful payment? The money went out but I’m still not able to use it? I am unable to purchase fast hours? I am unable to purchase? I’m unable to make a payment?
 
 If your payment was declined, you might notice a pending charge in your account. Your bank will automatically remove it within a few days.
 
@@ -671,7 +686,7 @@ Please send an email to `billing@midjourney.com` for further assistance.
 
 # - REFUND -
 
-Q: It was automatically renewed, I need a refund? Can I have a refund for the automatic renewal?
+Q: It was automatically renewed, I need a refund? Can I have a refund for the automatic renewal? I automatically recharged the fee?
 
 Subscriptions are automatically renewed. To cancel the automatic renewal, click `Cancel Plan` on your [Midjourney subscription page](https://midjourney.com/account).
 
@@ -681,7 +696,7 @@ Subscriptions are automatically renewed. To cancel the automatic renewal, click 
 
 Q: It is automatically deducted and the membership fee is required to be refunded? I mistakenly charged money, please refund?
 
-Payments cannot be handled through this chat. **Send an email to `billing@midjourney.com` with your invoice number for help.**
+We cannot help with payments in this chat. **Send an email to `billing@midjourney.com` with your invoice number for help.**
 
 ---
 
@@ -789,6 +804,8 @@ Q: Why do I have to pay for private mode? Pay for stealth mode? What if I don’
 Midjourney is a community for sharing and exploration.
 If you prefer not to participate, you can subscribe to the Pro or Mega plan. These two plans include the [`Stealth` Mode](https://docs.midjourney.com/hc/en-us/articles/32019750070669-Stealth-Mode) feature that lets you choose what to publish and what to make private (unpublish) in [your gallery](https://www.midjourney.com/archive).
 
+__Are you on the [Midjourney website](https://www.midjourney.com/imagine)?__ [Click here to learn how to navigate the Create Page](https://docs.midjourney.com/hc/en-us/articles/33390732264589-Creating-on-Web)
+
 ---
 
 Q: Are stealth images moderated? Are my private images moderated? Why are private images being moderated? Can I make nudes in Stealth mode? Why are stealth images being moderated?
@@ -807,6 +824,8 @@ To unpublish your public images, select them in [your gallery](https://www.midjo
 
 __Note:__ Images made in public channels are visible by anyone in those channels! To hide them on Discord, you need to [make them in Direct Messages](https://docs.midjourney.com/hc/en-us/articles/32637339216013-Discord-Direct-Messages) or [in a private server](https://docs.midjourney.com/hc/en-us/articles/32637946450445-Add-Midjourney-to-Your-Discord-Server).
 
+__Are you on the [Midjourney website](https://www.midjourney.com/imagine)?__ [Click here to learn how to navigate the Create Page](https://docs.midjourney.com/hc/en-us/articles/33390732264589-Creating-on-Web)
+
 ---
 
 Q: Is private permanent? Does stealth last forever? If I cancel, are my images still private? Is stealth permanent? If I cancel switch plans are my images still stealth? Are unpublished images visible once my subscription ends?
@@ -819,11 +838,15 @@ Q: I can’t use the stealth option in my web settings? I can’t see the unpubl
 
 If you have the Pro or Mega plan but the `Stealth` toggle doesn’t appear, try signing out of [the website](https://www.midjourney.com/) and then signing back in.
 
+[Click here to learn more about how to organize your images](https://docs.midjourney.com/hc/en-us/articles/33329462451469-Organizing-Your-Creations#h_01JHP57GM2GHRFRQRP0ZNQ4423)
+
 ---
 
 Q: How do I unpublish my images? Unpublish old images? Bulk unpublish? Unpublish already made images? Batch unpublish?
 
 Subscribers to the Pro and Mega plan can bulk unpublish their images from the website. To do this, go to your [Archive](https://www.midjourney.com/archive), select the images you want to unpublish, and click `...More` next to Download. You can then bulk publish/unpublish.
+
+[Click here to learn more about how to organize your images](https://docs.midjourney.com/hc/en-us/articles/33329462451469-Organizing-Your-Creations#h_01JHP57GM2GHRFRQRP0ZNQ4423)
 
 %image=https://cdn.midjourney.com/u/ff03153e-6e8a-48b4-87d0-5acd0a123688/ab7070557038542451740a70e1f242b252df9ed2835ee653e5f1e5ef314da207.png
 
@@ -840,6 +863,8 @@ For example: `a robot on a sailboat --ar 2:1`
 
 [Read more about Aspect Ratio](https://docs.midjourney.com/hc/en-us/articles/31894244298125-Aspect-Ratio)
 
+__Are you on the [Midjourney website](https://www.midjourney.com/imagine)?__ [Click here to learn how to navigate the Create Page](https://docs.midjourney.com/hc/en-us/articles/33390732264589-Creating-on-Web)
+
 ---
 
 Q: How do I make 16:9?
@@ -848,6 +873,8 @@ Change the aspect ratio of your image by including the `--ar` parameter at the e
 For example: `a robot on a sailboat --ar 16:9`
 
 [Read more about Aspect Ratio](https://docs.midjourney.com/hc/en-us/articles/31894244298125-Aspect-Ratio)
+
+__Are you on the [Midjourney website](https://www.midjourney.com/imagine)?__ [Click here to learn how to navigate the Create Page](https://docs.midjourney.com/hc/en-us/articles/33390732264589-Creating-on-Web)
 
 ---
 
@@ -944,6 +971,8 @@ Q: How do you reset custom suffix? How do you reset your parameters? Can I reset
 
 To reset suffixes automatically added to your prompts, use the command </settings:1000850743479255081> and click on `Reset Settings`.
 
+__Are you on the [Midjourney website](https://www.midjourney.com/imagine)?__ [Click here to learn how to navigate the Create Page](https://docs.midjourney.com/hc/en-us/articles/33390732264589-Creating-on-Web)
+
 %image=https://cdn.discordapp.com/attachments/1201909699793145876/1231302471205388299/Reset_Settings.png
 
 ---
@@ -952,7 +981,9 @@ Q: /settings? Change settings? Where are the bot settings? Can I change the defa
 
 **Use the command </settings:1000850743479255081> to select your default settings**, the matching parameters will automatically be added to your new prompts.
 
-__Advanced:__ If you'd prefer to enter your own set of parameters to be added at the end of each new prompt, use the command </prefer suffix:984273800587776053> and add your parameters in the `new_value` field. These will override any preferences from /settings.
+__Advanced:__ If you'd prefer to enter your own set of parameters to be added at the end of each new prompt, use the command </prefer suffix:984273800587776053> and add your parameters in the `new_value` field. These will override any preferences from </settings:1000850743479255081>.
+
+__Are you on the [Midjourney website](https://www.midjourney.com/imagine)?__ [Click here to learn how to navigate the Create Page](https://docs.midjourney.com/hc/en-us/articles/33390732264589-Creating-on-Web)
 
 ---
 
@@ -980,13 +1011,6 @@ Q: Remix not supported in V7? Cref in v7? Not compatible with --version 7?
 Midjourney's Version 7 is currently in the alpha phase. Certain parameters and features may not be compatible yet. Keep an eye out on the [#announcements](https://discord.com/channels/662267976984297473/952771221915840552) channel for updates.
 
 [Click here](https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version#h_01JQSR0Q6H0AX8NCC8QGE6C2NZ) to view which features and parameters are currently available in V7.
-
----
-
-Q: Does V7 always use Turbo? Since using V7, my credits are running out much faster? I use V7 and it uses more GPU time?
-
-Version 7 currently only runs in Turbo or Relax mode. Turbo consumes twice as much as regular fast job (about 2 GPU minutes).
-You can add the `--draft` parameter to your prompt to generate them in Draft quality for half the cost (about 30 GPU seconds).
 
 ---
 
@@ -1021,6 +1045,20 @@ The default value of the `--stylize` parameter is 100. You can adjust it by addi
 
 [Read more about the Stylize parameter](https://docs.midjourney.com/hc/en-us/articles/32196176868109-Stylize)
 
+__Are you on the [Midjourney website](https://www.midjourney.com/imagine)?__ [Click here to learn how to navigate the Create Page](https://docs.midjourney.com/hc/en-us/articles/33390732264589-Creating-on-Web)
+
+---
+
+# - RAW -
+
+Q: Raw style? --raw? --style raw? Raw? Raw mode?
+
+Similar to how a photographer captures a raw image and then edits it to reflect their own aesthetic, images are generated by default with Midjourney's "style". You can control how much influence it has using the [`--stylize` parameter](https://docs.midjourney.com/hc/en-us/articles/32196176868109-Stylize). If you prefer a more neutral result, use the `--raw` parameter to remove most of Midjourney's default style.
+
+__Note:__ The less influence Midjourney's aesthetic has, the more important your prompt becomes. Make sure your prompt is a detailed and specific visual description of the image you want.
+
+[Read more about Raw mode](https://docs.midjourney.com/hc/en-us/articles/32634113811853-Raw-Mode)
+
 ---
 
 # - CHAOS -
@@ -1030,6 +1068,8 @@ Q: What is chaos? What is –c? Why do I see prompts with s and c in them? What 
 The '--chaos' or '--c' parameter affects how different the images are from each other in the initial grid. The value goes from 0 to 100, 0 being the default.
 
 [Read more about the Chaos parameter](https://docs.midjourney.com/hc/en-us/articles/32099348346765-Chaos-Variety)
+
+__Are you on the [Midjourney website](https://www.midjourney.com/imagine)?__ [Click here to learn how to navigate the Create Page](https://docs.midjourney.com/hc/en-us/articles/33390732264589-Creating-on-Web)
 
 ---
 
@@ -1052,40 +1092,46 @@ For example: `Short blond man holding a puppy --cref https://pic1.png https://pi
 
 __Note:__ The `--cref` parameter works best with references created in Midjourney.
 You can add text, image prompts, and other parameters to guide the results.
-[Read more about the Character Reference parameter](https://docs.midjourney.com/hc/en-us/articles/32162917505293-Character-Reference)
+
+[Read more about the Character Reference parameter and how to use it on the website](https://docs.midjourney.com/hc/en-us/articles/32162917505293-Character-Reference)
 
 ---
 
 Q: What is cref? What is the cref parameter? What does cref do? What does the cref parameter do? Cref?
 
-The `--cref` parameter is used in a prompt, followed by one or more image links, to add a **character reference**. [Read more about Character Reference](https://docs.midjourney.com/hc/en-us/articles/32162917505293-Character-Reference)
+The `--cref` parameter is used in a prompt, followed by one or more image links, to add a **character reference**.
+
+[Read more about the Character Reference parameter and how to use it on the website](https://docs.midjourney.com/hc/en-us/articles/32162917505293-Character-Reference)
 
 ---
 
 Q: What is cw? --cw?
 
-The character weight parameter `--cw` adjusts how much information is used in your character reference.
+The character weight parameter `--cw` adjusts how much information is used in your character reference. *You can only use the character weight parameter if you have a character reference.*
+
 `--cw 100` is the default and maximum value; it uses all of the information, from head to toe. Lowering the value gradually shifts focus from the full body to the face.
 
-You can only use the character weight parameter if you have a character reference. [Read more about Character Reference](https://docs.midjourney.com/hc/en-us/articles/32162917505293-Character-Reference)
-
+[Read more about the Character Reference parameter and how to use it on the website](https://docs.midjourney.com/hc/en-us/articles/32162917505293-Character-Reference)
 ---
 
 # - STYLE REFERENCE -
 
-Q: How to have the same style? Can I keep the same style? Is there an option to keep the same style? How to use --sref? Can I use a specific style? Can I use a style reference? Can I have the same style as an image?
+Q: How to have the same style? Can I keep the same style? Is there an option to keep the same style? How to use --sref? Can I use a specific style? Can I use a style reference? Can I have the same style as an image? Is it possible to make this exact style?
 
 Use the Style Reference parameter `--sref` followed by a space and a link to your image for the style in your results to be based on a specific image. You can add multiple links to have multiple style references, make sure to have a space between each link.
 For example: `Yellow ghost and pirate alien --sref https://pic1.png https://pic2.png`
 
 __Note:__ You can also use the style reference parameter with a number; each number represents a different random style. For example: `happy firefighter squid --sref 483`
-[Read more about Style Reference](https://docs.midjourney.com/hc/en-us/articles/32180011136653-Style-Reference)
+
+[Read more about the Style Reference parameter and how to use it on the website](https://docs.midjourney.com/hc/en-us/articles/32180011136653-Style-Reference)
 
 ---
 
 Q: What is sref? What is the sref parameter? What does sref do? What does the sref parameter do? sref?
 
-The `--sref` parameter is used in a prompt, followed by one or more image links, to add a **style reference**. You can also add numbers; each number has been randomly assigned a style. [Read more about Style Reference](https://docs.midjourney.com/hc/en-us/articles/32180011136653-Style-Reference)
+The `--sref` parameter is used in a prompt, followed by one or more image links, to add a **style reference**. You can also add numbers; each number has been randomly assigned a style.
+
+[Read more about the Style Reference parameter and how to use it on the website](https://docs.midjourney.com/hc/en-us/articles/32180011136653-Style-Reference)
 
 ---
 
@@ -1099,8 +1145,7 @@ Just like there are different versions of the model used to create images (`--v`
 
 Q: What is the personalization feature? What is the personalisation feature? What is the personalize feature? What is the personalise feature? What is the personalization parameter? What is the personalisation parameter? What is the personalize parameter? What is the personalise parameter? Personalization feature? Personalisation feature? Personalize feature? Personalise feature? Personalization parameter? Personalisation parameter? Personalize parameter? Personalise parameter? What is the --p parameter? Can I get a personal code with my own aesthetic? Can I personalize my style? Can I personalise my style? How do I get my personal code? Where do I find my personal code? Where do I find my --p code? Can I train my own model?
 
-The Personalization feature learns your preferences over time through images you've rated (on the [Rate Images](https://www.midjourney.com/personalize) page) and other users' images you've favorited. [Read more about Personalization](https://docs.midjourney.com/hc/en-us/articles/32433330574221-Personalization)
-
+The [Personalization](https://docs.midjourney.com/hc/en-us/articles/32433330574221-Personalization) feature learns your preferences over time through images you've rated (on the [Rate Images](https://www.midjourney.com/personalize) page) and other users' images you've favorited.
 Add the Personalize parameter `--p` at the end of your prompt to tailor the model to your preferences. Your personal code is automatically added after it.
 
 __Note:__ You can adjust the strength of your personal styling by combining it with the [`--stylize` parameter](https://docs.midjourney.com/hc/en-us/articles/32196176868109-Stylize), with a value from 0 to 1000. A higher `--s` value will show your styling more but may dismiss some specifics of your prompt. 
@@ -1162,6 +1207,8 @@ To upload an image and get its link, see [here](https://docs.midjourney.com/hc/e
 3️⃣ Right-click and copy the link to the image or media (ending in .jpg, .png, or .webp). If you don’t see this option, left-click on the image to open it, then right-click to copy the link.
 Are you on mobile? Tap and hold on the image in the chat to `Copy Media Link`.
 
+__Are you on the [Midjourney website](https://www.midjourney.com/imagine)?__ [Click here to learn how to use images](https://docs.midjourney.com/hc/en-us/articles/32040250122381-Image-Prompts)
+
 ---
 
 Q: How to use an image link? How to use image links? Where do I use image links?
@@ -1174,6 +1221,8 @@ __Note:__ If you're only using one image prompt, you must add text.
 If you use multiple images, make sure to have a space between each link.
 
 **Not sure how to get an image link?** [Check out our step by step guide](https://docs.midjourney.com/hc/en-us/articles/32040250122381-Image-Prompts-1)
+
+__Are you on the [Midjourney website](https://www.midjourney.com/imagine)?__ [Click here to learn how to use images](https://docs.midjourney.com/hc/en-us/articles/32040250122381-Image-Prompts)
 
 ---
 
@@ -1190,19 +1239,23 @@ To use the image as a [style reference](https://docs.midjourney.com/hc/en-us/art
 __Note:__ If you're only using one image prompt, you must add text.
 You can use multiple image links, just make sure to have a space between each link.
 
+__Are you on the [Midjourney website](https://www.midjourney.com/imagine)?__ [Click here to learn how to use images](https://docs.midjourney.com/hc/en-us/articles/32040250122381-Image-Prompts)
+
 ---
 
 Q: How do I upload an image? Can I send images to the AI? Is there a way to upload a photo? Is there a way to upload an image? Upload image? Can it generate something similar to an image I give to it? Can the AI generate something similar to an image I give to it?
 
 Send an image on Discord, click on it, and copy the media/image's link. You can then paste the link into your prompt to use it as an [image prompt](https://docs.midjourney.com/hc/en-us/articles/32040250122381-Image-Prompts), a [style reference](https://docs.midjourney.com/hc/en-us/articles/32180011136653-Style-Reference)  and/or a [character reference](https://docs.midjourney.com/hc/en-us/articles/32162917505293-Character-Reference).
 
-If you want to upload an image and edit it using Midjourney, this is only possible through the website's [full editor](https://www.midjourney.com/editor/new).
+If you want to upload an image and edit it using Midjourney, this is only possible through the website's [Editor](https://www.midjourney.com/editor/new).
+
+__Are you on the [Midjourney website](https://www.midjourney.com/imagine)?__ [Click here to learn how to use images](https://docs.midjourney.com/hc/en-us/articles/32040250122381-Image-Prompts)
 
 ---
 
 Q: How can I upload a picture to edit it? Can I edit my own images? Can I edit my photos? I want to upload an image to recreate the same one? Is it possible to modify an external image? Can the AI add elements to my picture? I have an image I want to modify, is this possible? How to tell it to modify my existing image? How to upload an image to modify it? How can I have it recreate the exact same image? Where do I add an image for it create exactly the same elements? How to use an image without changing it? How to edit my pictures? I want to keep my image but add something, is it possible? Can I add my own image to make changes? Can I have AI edit a picture of me? Edit my image?
 
-With the website's [full editor](https://www.midjourney.com/editor/new), you can upload an image and select areas to edit through Midjourney. Or you can have it "retexture" your image, to keep the same overall shapes as your image while creating a new design.
+With the website's [Editor](https://www.midjourney.com/editor/new), you can upload an image and select areas to edit through Midjourney. Or you can have it "retexture" your image, to keep the same overall shapes as your image while creating a new design.
 
 **On Discord**, you use your own images as [image prompts](https://docs.midjourney.com/hc/en-us/articles/32040250122381-Image-Prompts), [style references](https://docs.midjourney.com/hc/en-us/articles/32180011136653-Style-Reference)  and/or [character references](https://docs.midjourney.com/hc/en-us/articles/32162917505293-Character-Reference) to influence your creations.
 
@@ -1223,7 +1276,10 @@ To use the image as a [style reference](https://docs.midjourney.com/hc/en-us/art
 __Note:__ If you're only using one image prompt, you must add text.
 You can use multiple image links, just make sure to have a space between each link.
 
-**Do you want Midjourney to edit your own image?** This is only possible through the website's [full editor](https://www.midjourney.com/editor/new).
+**Do you want Midjourney to edit your own image?** This is only possible through the website's [Editor](https://www.midjourney.com/editor/new).
+
+
+__Are you on the [Midjourney website](https://www.midjourney.com/imagine)?__ [Click here to learn how to use images](https://docs.midjourney.com/hc/en-us/articles/32040250122381-Image-Prompts)
 
 ---
 
@@ -1257,6 +1313,8 @@ Q: Is there a way to mix two images. Can I combine images? Can I blend images?
 Use the command `/blend` to mix two or more images together.
 
 [Read more about Blend](https://docs.midjourney.com/hc/en-us/articles/32635189884557-Blend-Images-on-Discord)
+
+__Are you on the [Midjourney website](https://www.midjourney.com/imagine)?__ [Click here to learn how to use images](https://docs.midjourney.com/hc/en-us/articles/32040250122381-Image-Prompts)
 
 ---
 
@@ -1347,6 +1405,8 @@ You can only copy the seed of your own images. You can only copy the seed of an 
 
 __Note:__ Seeds are not reliable and change over time. They have no effect on character consistency. [Read more about seeds](https://docs.midjourney.com/hc/en-us/articles/32604356340877-Seeds)
 
+[Learn more about navigating image options](https://docs.midjourney.com/hc/en-us/articles/33390732264589-Creating-on-Web#h_01JHRA6416RDGTG5HCB5R9JFVS)
+
 %image=https://cdn.midjourney.com/u/d6f915c1-a3b1-425d-9934-3fb714cd8b7b/334b0b94ebf7894b7ba9efb4b564c3e5f2370bce271652b1d91e7fb44d8eb239.png
 
 ---
@@ -1430,11 +1490,9 @@ __Note:__ Using other tools to run prompts or automate Midjourney in any way is 
 
 Q: How do I get a video of my grid generating? Video? --video? Can I use –video on an upscale?
 
-Midjourney currently only generates images. You can ask the bot to record the creation of the image grid you prompted.
+At the moment, it is only possible to generate images, not videos.
 
-Add the `--video` parameter at the end of your prompt. Once the image has been rendered, react to it with the :envelope: emoji to receive the video in your Direct Messages.
-
-__Note:__ Videos only work on the initial grid, not upscaled images. [Read more about --video](https://docs.midjourney.com/hc/en-us/articles/33330535666445-Discord-Overview#h_01JH6J8BD94W2XJ91RDGV3FP52)
+The `--video` parameter, which previously recorded the image being generated, is no longer available.
 
 ---
 
@@ -1469,11 +1527,12 @@ Your Discord ID is different, [here's a guide on how to find a Discord ID](https
 
 Q: /describe? How to use /describe? What is /describe? Describe command?
 
-The command `/describe` gives you four prompts inspired by your image. [Read more about Describe](https://docs.midjourney.com/hc/en-us/articles/32497889043981-Describe)
+The command `/describe` gives you four prompts inspired by your image.
 
 To use it, type `/describe`, select the command and click on:
 🔹`image` to upload an image from your device
 🔹`link` to paste the link to an image online
+[Read more about Describe and how to use it on the website](https://docs.midjourney.com/hc/en-us/articles/32497889043981-Describe)
 
 ---
 
@@ -1493,7 +1552,10 @@ To find the Job ID, open the image in [your archive](https://midjourney.com/arch
 Q: How can I delete an image? How to delete images from my feed? How can I remove an image? Delete image?
 
 Delete your generation by reacting to it with the :x: emoji. This will also delete it from the Midjourney website.
-__Note:__ If you can't find it in Discord, recall it with the [command `/show`](https://docs.midjourney.com/hc/en-us/articles/32635695384461-Show-Command), then use the :x: emoji.
+
+**Can't find it in Discord?** Recall it with the [command `/show`](https://docs.midjourney.com/hc/en-us/articles/32635695384461-Show-Command), then use the :x: emoji.
+
+[Read more about Deleting and Hiding your images from yourself to Organize your gallery](https://docs.midjourney.com/hc/en-us/articles/33329462451469-Organizing-Your-Creations#h_01JHP66YYRKF988ABQBHXMFJ3K)
 
 ---
 
@@ -1623,6 +1685,8 @@ Q: Is there a way to save all my images at once? Can I batch download all of my 
 You can batch download images quickly on [the website](https://midjourney.com/archive). Click on the ⊕︀ sign next to a date to select images from that day. At the bottom, you can then download your selection of images.
 You can also click and drag, or shift-click to select images.
 
+[Read more about Downloading and Organizing your images on the website](https://docs.midjourney.com/hc/en-us/articles/33329462451469-Organizing-Your-Creations#h_01JHP57GM2GHRFRQRP0ZNQ4423)
+
 %image=https://cdn.discordapp.com/attachments/1201909699793145876/1202263116243533854/bulkdownload.gif
 
 ---
@@ -1631,7 +1695,7 @@ You can also click and drag, or shift-click to select images.
 
 Q: How to hide images? What is hide? What does hide do on the website? Is hide the same as private mode? Hide images?
 
-`Hide` is used to organize [your own gallery](https://www.midjourney.com/archive) by hiding images you don’t like from your view. **Hidden only hides images from yourself, __not__ other members**.
+[`Hide`](https://docs.midjourney.com/hc/en-us/articles/33329462451469-Organizing-Your-Creations#h_01JHP66YYRKF988ABQBHXMFJ3K) is used to organize [your own gallery](https://www.midjourney.com/archive) by hiding images you don’t like from your view. **Hidden only hides images from yourself, __not__ other members**.
 
 To hide images on the website, go to your [Archive](https://www.midjourney.com/archive), select the images you want to hide, and click `...More`, then hide/unhide.
 
@@ -1644,6 +1708,8 @@ To delete an image, open it on Discord (or bring it into Discord with the [comma
 Q: How to find "hidden" images from the website’s archive? How to see images I hide on the website?
 
 To find images you've hidden, go to your [Archive](https://www.midjourney.com/archive) and in your `Filters` on the right side, check the `Hidden` box.
+
+[Read more about your Organize page’s filters](https://docs.midjourney.com/hc/en-us/articles/33329462451469-Organizing-Your-Creations#h_01JHP29NQRGDRGCR6Q3VCBX0WR)
 
 ---
 
@@ -1680,20 +1746,20 @@ On the [Midjourney website](https://www.midjourney.com/imagine), open your setti
 
 Q: How can I access the new edit page? How can I access the new editor? Can I use the new edit mode? Can I use the new edit? Can I use the new editor? How do I get the full editor? Where is the link to the image editor? Where is the link to the full editor?
 
-The [Full Editor](https://docs.midjourney.com/hc/en-us/articles/32764383466893-Full-Editor) is available on the [Midjourney website](https://www.midjourney.com/editor/new), in the `Edit` page.
+The [Editor](https://docs.midjourney.com/hc/en-us/articles/32764383466893-Editor) is available on the [Midjourney website](https://www.midjourney.com/editor/new), in the `Edit` page.
 If you’re having trouble loading the page, log out and make sure you log back in with your account with an active subscription.
 
 ---
 
 Q: Can I use the new image editor on mobile? Can I use the full editor on mobile? Can I use the external editor on mobile? Is it possible to use the full editor through Discord? Is it possible to use the external editor through Discord?
 
-The [Full Editor](https://docs.midjourney.com/hc/en-us/articles/32764383466893-Full-Editor) is only available on the desktop version of the Midjourney website.
+The [Editor](https://docs.midjourney.com/hc/en-us/articles/32764383466893-Editor) is only available on the desktop version of the Midjourney website.
 
 ---
 
 Q: The external editor is triggering "prompt flagged by AI moderator" almost on everything? The full editor is triggering "prompt flagged by AI moderator" almost on everything? My prompts are blocked on the full editor? My prompts are blocked on the new image editor?
 
-Since the Full Editor can be used with real images, the moderation is extra safe. If your prompt is being incorrectly flagged, help us improve this system by sharing the full prompt in <#1100553606761041991>.
+Since the Editor can be used with real images, the moderation is extra safe. If your prompt is being incorrectly flagged, help us improve this system by sharing the full prompt in <#1100553606761041991>.
 
 ---
 
@@ -1718,7 +1784,7 @@ This is ideal to test prompts and ideas ! Once you're happy with a **prompt**, r
 
 Q: Does Draft mode use Fast Hours? Is Draft mode free? How much does Draft images cost?
 
-When using Draft mode or Draft quality, each set is much quicker to generate and costs **half** as much GPU time as usual (about 30 GPU seconds). If you have a Standard plan or above, you can use Draft unlimitedly in Relax mode.
+When using Draft mode or Draft quality, each set is much quicker to generate and costs **half** as much GPU time as usual (about 30 GPU seconds).
 
 ---
 
@@ -1943,6 +2009,12 @@ If you are getting an error, try restarting Discord, updating it, or reinstallin
 
 ---
 
+Q: Channel verification level is too high? Channel verification? Verification too high? Email verification? Verification error?
+
+We require that you verify the email address attached to your Discord account in order to use Midjourney. You can learn how to do that [here](https://support.discord.com/hc/en-us/articles/6181726888215).
+
+---
+
 Q: Embeds?
 
 If the bot is only showing you buttons or a completely empty message, update your Discord settings:
@@ -2050,6 +2122,8 @@ The values range from 0 to 1000, and the default value is 100.
 
 [Read more about the Stylize parameter](https://docs.midjourney.com/hc/en-us/articles/32196176868109-Stylize)
 
+__Are you on the [Midjourney website](https://www.midjourney.com/imagine)?__ [Click here to learn how to navigate the Create Page](https://docs.midjourney.com/hc/en-us/articles/33390732264589-Creating-on-Web)
+
 ---
 
 Q: My images won't finish? Stops at 93%? 93% bug? Stops at 62%? 62% bug?
@@ -2080,6 +2154,8 @@ To find your recent images and other messages addressed to you on Discord, open 
 🖥️ On desktop: Use the Inbox icon in the top right corner.
 📱 On mobile: Swipe right to see your channel list and look for the :bell: icon in the bottom menu.
 
+[Read more about how to Filter and Organize your images](https://docs.midjourney.com/hc/en-us/articles/33329462451469-Organizing-Your-Creations)
+
 ---
 
 # -------------------------------
@@ -2100,7 +2176,7 @@ Use the command `/show` to move your work to a new location:
 Q: How to get access to the 5000 club? How to get access to the 10000 club? Why do I not see the 5000 channel? How do I unlock the 25000 club?
 
 Use the command </info:972289487818334209> on the server to update your roles and access.
-You may need to sign out and back in the Midjourney website to update any available test features.
+Only the `1000 Club` and `25,000 Club` are now available.
 
 ---
 
@@ -2207,7 +2283,16 @@ Participate in our [#prompt-craft](https://discord.com/channels/6622679769842974
 Q: How do I get text or words in an image? How can I add text to my images? Is it possible to get text on images? How do I get text in an image? How do I add words to the image? How to create text?
 
 Add text to your image by typing it in "quotes". Make sure you’re using version 6.1 (current default version).
-Example prompt: `Sci-fi movie poster with title text "Aliens!" --v 6.1`
+For example: `Sci-fi movie poster with title text "Aliens!" --v 6.1`
+
+Participate in our [#prompt-craft](https://discord.com/channels/662267976984297473/992207085146222713) community to discuss prompts with other users.
+
+---
+
+Q: Why do I get text on my image? How do I avoid titles text? Every image has text, what to do? All my images have watermarks? Why is my prompt written on the image?
+
+When typing text in your prompt in "quotes", it tells the bot you want the text to appear on your image. If you don’t want text, don’t use “quotes”.
+For example: `Sci-fi movie poster with title text "Aliens!" --v 6.1`
 
 Participate in our [#prompt-craft](https://discord.com/channels/662267976984297473/992207085146222713) community to discuss prompts with other users.
 
