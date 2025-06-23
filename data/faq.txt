@@ -546,16 +546,15 @@ Even without an active plan, you can view your own images in your gallery. Howev
 
 Q: If I want to switch plans will I be charged the full amount? What if I go from basic plan to standard? Can I get the $10 sub and, if I run out, upgrade and just pay the difference? Can I get the $10 sub and if I run out upgrade and just pay the difference? If I switch to Standard it will be 20$ or 30$? Can I upgrade from basic to standard? How do I upgrade? Where do I upgrade? What do I have to do to upgrade? How to upgrade the plan? How can I upgrade my plan? Can I change my plan? Can I switch plans? How do I manage my plan? How do I change my subscription plan? How do I change my membership plan? I want to change plan? Where can I change my plan?
 
-Manage your subscription on your [Midjourney account page](https://www.midjourney.com/account/) on the website.
+Manage your subscription on your [Midjourney account page](https://www.midjourney.com/account/).
 
-Scroll down and click on `Downgrade Plan`, `Upgrade Plan` or `Change Commitment` to select the plan you’d like to switch to upon your next payment renewal.
-For upgrades, you'll have the option to swap immediately with proration. This will reset your renewal date and upgrade your plan instantly.
+Click on `Downgrade Plan`, `Upgrade Plan` or `Change Commitment` to schedule a change.
+Upgrades have the option to swap immediately with proration, which resets your renewal date.
 
-**Note:** Proration is calculated based on your unused monthly fast time.
-If you've used all your fast time on the Basic plan, Standard will cost the full price.
-If you've not used any fast time of your Basic plan, Standard will cost US$20 (+VAT).
+**Note:** Proration is based on your unused monthly fast time.
+The cost will be displayed before confirmation.
 
-To change from a Yearly plan to a higher tier Monthly plan, or for any further assistance with your subscription and payments, send an email to `billing@midjourney.com` with your invoice number.
+To switch from a Yearly to a Monthly plan, or for assistance with your subscription and payments, send an email to `billing@midjourney.com` with your invoice number.
 
 ---
 
@@ -1013,14 +1012,13 @@ In [Version 7](https://docs.midjourney.com/hc/en-us/articles/32199405667853-Vers
 To use an image as an Omni Reference, add the `--oref` parameter at the end of your prompt, followed by a space and a link to your image.
 
 **Note:** It is not compatible with previous versions so make sure to use Version 7.
-
 [Read more about the Omni Reference parameter and how to use it on the website](https://docs.midjourney.com/hc/en-us/articles/36285124473997-Omni-Reference)
 
 ---
 
 Q: Oref? Omni reference?
 
-To have a specific character or object, use the Omni Reference parameter `--oref` followed by a space and a link to your image.
+To reference a specific character or object, use the Omni Reference parameter `--oref` followed by a space and a link to your image.
 For example: `A hedgehog drinking coffee --oref https://pic.png`
 
 **Note:** It only works with [Version 7](https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version#h_01JQSR0Q6H0AX8NCC8QGE6C2NZ).
@@ -1187,7 +1185,6 @@ Q: Can I use someone else's personal style parameter? Can I use someone else's -
 When you use the Personalize parameter `--p`, your unique personal code is automatically added after it. You can share this code with other members as well as try one of their codes by pasting it after `--p`.
 
 **Note:** On Discord, you can also tag a user after `--p`, it will automatically turn into their personal code.
-
 [Read more about the Personalize parameter](https://docs.midjourney.com/hc/en-us/articles/32433330574221-Personalization)
 
 ---
@@ -1515,117 +1512,6 @@ The maximum number of jobs you can submit at once depends on your subscription t
 
 ---
 
-# - VIDEO -
-
-Q: How do I get a video of my grid generating?
-
-The `--video` parameter, which previously recorded the image being generated, is no longer available.
-
-But you can now animate your generated images into [Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video)!
-
----
-
-Q: Can you generate video? Is there a way to make videos? Can I make videos?
-
-Yes, you can generate videos with Midjourney!
-
-🔹 To animate a **generated image**, open it on the [website](https://www.midjourney.com/archive) and click a button under `Animate Image`.
-🔹 To animate your own image, upload it in the [website](https://www.midjourney.com/imagine)'s prompt bar as a `Starting Frame`.
-
-[Read more about creating Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video)
-
----
-
-Q: How can I make videos? How do you make videos? How to generate a video? I am looking for information on how to use the video feature?
-
-🔹 To animate a **generated image**, open it on the [website](https://www.midjourney.com/archive) and click a button under `Animate Image`.
-🔹 To animate your own image, upload it in the [website](https://www.midjourney.com/imagine)'s prompt bar as a `Starting Frame`.
-
-[Read more about creating Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video)
-
----
-
-Q: Is video available on Discord? Can I make videos on Discord? Can video animation only be done on the Midjourney website? Are you planning to add animation on Discord? Are you planning to add video on Discord? Animate can not be done on Discord?
-
-The [Video feature](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video) is launched exclusively on the [website](https://www.midjourney.com/imagine) for now.
-
----
-
-Q: What plan has access to video? Which plan tier do I need for video? What subscription offers video? What subscription has access to video? Which subscription tier do I need for video? What plan offers video?
-
-All plans offer access to [Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video). Your tier determines how many you can run at the same time, and if Relax mode is available.
-
-🔹 In Fast mode: 1 with Basic, 3 with Standard, 6 with Pro, 12 with Mega — the rest will be queued (up to 10).
-🔹 In Relax mode: 2 with Pro, 3 with Mega.
-
----
-
-Q: Is video unlimited? Video generation only works with fast hours? Video not on relax? Is Video only used with fast hours? Generating a video costs fast GPU?
-
-Unlimited Relax mode is available for [Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video) with a Pro or Mega subscription. With Basic and Standard, you can only use Fast mode.
-
----
-
-Q: How many fast minutes are used for a video render? How much GPU time does a video consume?
-
-At the moment, generating a [Video](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video) consumes about 8 GPU minutes.
-
----
-
-Q: How many videos can we get in a month? How many videos per month?
-
-At the moment, generating a [Video](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video) consumes about 8 GPU minutes.
-🔹 On Basic, 200 GPU minutes can generate about 25 videos.
-🔹 On Standard, 15 GPU hours can generate about 112 videos.
-Users with a Pro or Mega subscription can generate videos unlimitedly in Relax mode.
-
----
-
-Q: Roughly how many videos can I make with 1 hour of fast time?
-
-At the moment, generating a [Video](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video) consumes about 8 GPU minutes. So, with 1 GPU hour, you can generate about 7 videos.
-
----
-
-Q: Is there any way to increase video resolution? Can videos go up to 1080p? Will it only generate 480p videos? Videos only 480p? Are we able to upscale our videos higher than 480p? What resolution can videos be made at?
-
-Videos are generated in Standard Definition (480p). There is currently no option to change the quality.
-
-[Read more about creating Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video)
-
----
-
-Q: How do we delete videos? How to delete an animation?
-
-You can click `Hide` on [Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video) you don't want to see in your gallery. If they're `Published`, this won't remove them from your public gallery. You need a Pro or Mega plan to `Unpublish` images and videos.
-
----
-
-Q: Can I change the prompt when extending a video?
-
-When extending your Video, select `Manual` to modify the prompt.
-
-[Read more about extending Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01JXWQAEH49B5MDC343ZXZT1MY)
-
----
-
-Q: I don't see the "Animate" button?
-
-The [Video feature](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video) is launched exclusively on the [website](https://www.midjourney.com/imagine) for now.
-Make sure to log in with your subscribed account to animate your images.
-
----
-
-Q: How do I give instructions to Animate? Can I change the prompt when I click on Animate?
-
-Open the image to find the `Manual` animation buttons. These will let you adjust the prompt in the `Imagine` bar.
-You can also upload any image as a `Starting Frame` to add (or not) a prompt.
-
-**Note:** Videos are currently exclusively on the [Midjourney website](https://www.midjourney.com/imagine).
-[Read more about creating Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video)
-
----
-
 # ----------------------
 # - COMMANDS -
 # ----------------------
@@ -1901,7 +1787,9 @@ Conversational mode is only available on the Midjourney website. [Read more abou
 
 Q: Draft quality? Draft mode?
 
-You can run a prompt in `Draft` mode by adding the `--draft` parameter to your prompt. Draft quality generates images quickly and at half the cost.
+You can run a prompt in `Draft` mode by adding the `--draft` parameter to your prompt.
+Draft quality generates images quickly and at half the cost.
+
 This is ideal to test prompts and ideas ! Once you're happy with a **prompt**, run it without the `--draft` parameter to create a new set of images in Standard quality. Or, if you like a specific **image**, you can `Upscale` it to maximum resolution. 
 
 ---
@@ -1909,6 +1797,220 @@ This is ideal to test prompts and ideas ! Once you're happy with a **prompt**, r
 Q: Does Draft mode use Fast Hours? Is Draft mode free? How much does Draft images cost?
 
 When using Draft mode, images are made in Draft quality, meaning each set is much quicker to generate and costs **half** as much GPU time as usual (about 30 GPU seconds).
+
+---
+
+# - VIDEO -
+
+# - HOW TO -
+
+Q: Can you generate video? Is there a way to make videos? Can I make videos?
+
+Yes, you can generate videos with Midjourney!
+
+🔹 To animate a **generated image**, open it on the [website](https://www.midjourney.com/archive) and click a button under `Animate Image`.
+🔹 To animate **your own image**, upload it in the [website](https://www.midjourney.com/imagine)'s prompt bar as a `Starting Frame`.
+
+[Read more about creating Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video)
+
+---
+
+Q: How can I make videos? How do you make videos? How to generate a video? I am looking for information on how to use the video feature? Video? Videos?
+
+🔹 To animate a **generated image**, open it on the [website](https://www.midjourney.com/archive) and click a button under `Animate Image`.
+🔹 To animate **your own image**, upload it in the [website](https://www.midjourney.com/imagine)'s prompt bar as a `Starting Frame`.
+
+[Read more about creating Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video)
+
+---
+
+Q: Can you upload an image to animate? Can you upload an image for video? Can I use my own image for a video? Can I animate my own image?
+
+Yes! On the [Midjourney website](https://www.midjourney.com/imagine), upload your image as a `Starting Frame` in the prompt bar. Then submit your animation, with or without a prompt.
+
+[Read more about creating Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video)
+%image=https://cdn.midjourney.com/u/ff03153e-6e8a-48b4-87d0-5acd0a123688/caa4209d5efaf5afd8359a10b0d1afcae9890d9ec43c271ce98024a57d50c606.png
+
+---
+
+Q: Can I animate with no text?
+
+Yes! On the [Midjourney website](https://www.midjourney.com/imagine), upload your image as a `Starting Frame` in the prompt bar, and press enter/hit send.
+
+[Read more about creating Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video)
+%image=https://cdn.midjourney.com/u/ff03153e-6e8a-48b4-87d0-5acd0a123688/caa4209d5efaf5afd8359a10b0d1afcae9890d9ec43c271ce98024a57d50c606.png
+
+
+---
+
+Q: Is it possible to make a video without an image?
+
+At the moment, the [Video feature](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video) only works with an image. There is no way to generate a video from text alone.
+
+---
+
+Q: How do I give instructions to Animate? Can I change the prompt when I click on Animate?
+
+Open the image to find the `Manual` animation buttons. These will let you adjust the prompt in the `Imagine` bar.
+You can also upload any image as a `Starting Frame`, with or without a prompt.
+
+**Note:** For now, the Video feature is only available on the [Midjourney website](https://www.midjourney.com/imagine).
+[Read more about creating Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video)
+
+---
+
+Q: How do you make videos of 10 seconds and not 5 seconds? What is the maximum length in seconds you can do with the videos model? How to make longer videos? How do you extend a video? Can I make video more than 5 sec?
+
+Animating an image generates a **5-second video**. Open the video and click the `Extend` buttons to add 4 more seconds. You can do this up to four times, so the maximum video length is **21 seconds** (5 + 4 + 4 + 4 + 4).
+
+**Note:** Each extension creates a set of 4 videos and consumes about 8 GPU minutes.
+[Read more about extending Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01JXWQAEH49B5MDC343ZXZT1MY)
+
+---
+
+Q: Can I change the prompt when extending a video?
+
+When extending your Video, select `Manual` to modify the prompt.
+
+[Read more about extending Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01JXWQAEH49B5MDC343ZXZT1MY)
+
+---
+
+# - SETTINGS -
+
+Q: Where can I find the video settings?
+
+On the [Midjourney website](https://www.midjourney.com/imagine), upload your image as a `Starting Frame` in the prompt bar. Now if you click the Settings icon, you can modify your default Video settings.
+
+**Note:** Changing the Speed or Stealth mode will also affect your image generations.
+[Read more about Video Settings](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01JXMZKJY4Y2FVQVWZKB0EWZYW)
+
+%image=https://cdn.midjourney.com/u/ff03153e-6e8a-48b4-87d0-5acd0a123688/20f9e894b0dbea2f33e19a81e81ac5f1c31e1fd7e3518339801bae79b769162a.png
+
+---
+
+Q: Auto vs manual video? 
+
+🔹 Use `Auto` to have the bot animate the image automatically.
+🔹 Use `Manual` to adjust the prompt in the `Imagine` bar before submitting the animation.
+
+[Read more about creating Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01JXN2Y764ZKTX1P9MTCVMTFF6)
+
+---
+
+Q: What’s the difference between low motion and high motion? Low or high motion video?
+
+🔹 Use `Low Motion` for slower, more **subtle** movement.
+🔹 Use `High Motion` for more **dynamic** movement and camera motion.
+
+**Note:** You can set your default Motion preference for the `Animate` button in  your [Video Settings](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01JXMZKJY4Y2FVQVWZKB0EWZYW).
+[Read more about Video Motion](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01JXZPK87W40NJP60VAR453XBZ)
+
+---
+
+# - ACCESS -
+
+Q: Is video available on Discord? Can I make videos on Discord? Can video animation only be done on the Midjourney website? Are you planning to add animation on Discord? Are you planning to add video on Discord? Animate can not be done on Discord?
+
+The [Video feature](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video) has launched on the [website](https://www.midjourney.com/imagine)! It’s currently unavailable on Discord.
+
+---
+
+Q: I don't see the "Animate" button?
+
+The [Video feature](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video) has launched on the [Midjourney website](https://www.midjourney.com/imagine)! 
+Make sure to log in with your subscribed account to animate your images.
+
+---
+
+Q: What plan has access to video? Which plan tier do I need for video? What subscription offers video? What subscription has access to video? Which subscription tier do I need for video? What plan offers video?
+
+All plans offer access to [Video](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video). Your tier determines how many you can run at the same time, and if Relax mode is available.
+
+🔹 In Fast mode: 1 with Basic, 3 with Standard, 6 with Pro, 12 with Mega — the rest will be queued (up to 10).
+🔹 In Relax mode: 2 with Pro, 3 with Mega.
+
+---
+
+# - COST -
+
+Q: Is video unlimited? Video generation only works with fast hours? Video not on relax? Is Video only used with fast hours? Generating a video costs fast GPU? Can I use animation unlimitedly? Can I animate in relax? Which subscription plan allows unlimited video generation?
+
+Unlimited Relax mode is available for [Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video) with a Pro or Mega subscription. With Basic and Standard, you can only use Fast mode.
+
+---
+
+Q: How many fast minutes are used for a video render? How much GPU time does a video consume? How many minutes is a video gen? How many credits for a video? How much fast time does a video use?
+
+At the moment, generating a set of 4 [Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video) consumes about 8 GPU minutes.
+
+---
+
+Q: How many videos can we get in a month? How many videos per month?
+
+At the moment, generating a set of 4 [Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video) consumes about 8 GPU minutes.
+🔹 On Basic, 200 GPU minutes can generate about 25 sets of 4 videos.
+🔹 On Standard, 15 GPU hours can generate about 112 sets of 4 videos.
+Users with a Pro or Mega subscription can generate videos unlimitedly in Relax mode.
+
+---
+
+Q: Roughly how many videos can I make with 1 hour of fast time?
+
+At the moment, generating a set of 4 [Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video) consumes about 8 GPU minutes. So, with 1 GPU hour, you can generate about 7 sets of 4 videos.
+
+---
+
+Q: Is it possible to only generate 1 video instead of 4? Just one video, not four?
+
+Currently, animating an image generates 4 videos. There isn’t an option to adjust how many are created.
+
+[Read more about creating Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video)
+
+---
+
+# - QUALITY -
+
+Q: Is there any way to increase video resolution? Can videos go up to 1080p? Videos only 480p? Are we able to upscale our videos higher than 480p? What resolution can videos be made at? What is the video output resolution?
+
+Videos are generated in Standard Definition (480p). At the moment, there is no option to change the quality, but the team is working on an upscaler.
+
+**Note:** The details are quite high for 480p (so using an outside upscaler gives good results).
+[Read more about Video Output](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01JXZZK6WR94XMKM9GXH2Y4XXQ)
+
+---
+
+Q: Any plans to go above 480p for video? Will videos only be made in 480p? When will video resolution get higher than 480p? I need a 720p video? I need a 1080p video? When will 720p or 1080p resolution be available? Can videos be upscaled?
+
+Midjourney plans to introduce a video upscaler in the future. For now, videos are only generated in Standard Definition (480p).
+
+**Note:** The details are quite high for 480p (so using an outside upscaler gives good results).
+[Read more about Video Output](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01JXZZK6WR94XMKM9GXH2Y4XXQ)
+
+---
+
+Q: What's the difference between downloading the video for Social and for Editing? What are the two video download buttons? What are the different video download buttons? What's the difference between downloading the video for Social and Raw Video?
+
+🔹 `Download for Social`: Use this if you are **sharing the video online**. This version is optimized to preserve quality after social media platforms compress it during upload.
+🔹 `Download Raw Video`: Use this if you are **working with the video in an editing program**. This version is the raw file.
+
+---
+
+# - DELETE -
+
+Q: How do we delete videos? How to delete an animation?
+
+You can click `Hide` on [Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video) you don't want to see in your gallery. If they're `Published`, this won't remove them from your public gallery. You need a Pro or Mega plan to `Unpublish` images and videos.
+
+---
+
+# - MISC -
+
+Q: How do I get a video of my grid generating?
+
+The `--video` parameter, which previously recorded the image being generated, is no longer available.
+
+But you can now animate your generated images into [Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video)!
 
 ---
 
@@ -2077,7 +2179,7 @@ Q: Do you have any API? Is there a way to use the app via an API? API? Plans to 
 
 There are currently no plans for a public API.
 
-*Please note that, per the [Terms of Service](https://docs.midjourney.com/hc/en-us/articles/32083055291277-Terms-of-Service), You may not use automated tools to access, interact with, or generate Assets through the Services.*
+Please note that, per the [Terms of Service](https://docs.midjourney.com/hc/en-us/articles/32083055291277-Terms-of-Service), **You may not use automated tools to access, interact with, or generate Assets through the Services.**
 
 ---
 
