@@ -859,7 +859,7 @@ Subscribers to the Pro and Mega plan can bulk unpublish their images from the we
 
 Q: How do I change my aspect ratio? How to change aspect ratio? How can I specify image width? How can I specify image height? How can I change the dimensions? How to make not square images? What is the prompt for width and height? Can I adjust the width and height? What is --ar? How do I make a desktop background?
 
-Change the aspect ratio of your image by including the `--ar` parameter at the end of your prompt, followed by the width:height ratio.
+Change the aspect ratio of your image by including the `--ar` parameter at the end of your prompt, followed by the **width:height** ratio.
 For example: `a robot on a sailboat --ar 2:1`
 
 [Read more about Aspect Ratio](https://docs.midjourney.com/hc/en-us/articles/31894244298125-Aspect-Ratio)
@@ -1424,7 +1424,7 @@ Participate in our [#prompt-craft](https://discord.com/channels/6622679769842974
 
 # - SEEDS -
 
-Q: How do I get the seed that was used for an image? No seed? Seed on upscale? Only grid seed? I can not get the seed? Can’t get the seed number? How can I find the seed? How do I retrieve the seed number of an image? How do I get the seed of an image? Where to find seed? Where is seed?
+Q: How do I get the seed that was used for an image? No seed? Seed on upscale? Only grid seed? I can not get the seed? Can’t get the seed number? How can I find the seed? How do I retrieve the seed number of an image? How do I get the seed of an image? Where to find seed? Where is seed? How do i get seed number?
 
 To find an image’s seed number, open your image in [your archive](https://www.midjourney.com/archive) and in the image menu, click on `Copy` > `Seed`.
 You can only copy the seed of your own images. You can only copy the seed of an initial grid image.
@@ -1824,7 +1824,7 @@ Q: How can I make videos? How do you make videos? How to generate a video? I am 
 
 ---
 
-Q: Can you upload an image to animate? Can you upload an image for video? Can I use my own image for a video? Can I animate my own image?
+Q: Can you upload an image to animate? Can you upload an image for video? Can I use my own image for a video? Can I animate my own image? Can I create an animation from an upload?
 
 Yes! On the [Midjourney website](https://www.midjourney.com/imagine), upload your image as a `Starting Frame` in the prompt bar. Then submit your animation, with or without a prompt.
 
@@ -1876,6 +1876,14 @@ When extending your Video, select `Manual` to modify the prompt.
 
 ---
 
+Q: Is it possible when animating to change the image ratio? When making a video, can I change the ratio?
+
+To change the size ratio of your video, adjust the aspect ratio of the image you’re animating. You can do this in the [Editor](https://www.midjourney.com/editor/new).
+
+[Read mode about using the Editor](https://docs.midjourney.com/hc/en-us/articles/32764383466893-Editor)
+
+---
+
 # - SETTINGS -
 
 Q: Where can I find the video settings?
@@ -1919,7 +1927,7 @@ The [Video feature](https://docs.midjourney.com/hc/en-us/articles/37460773864589
 Q: I don't see the "Animate" button?
 
 The [Video feature](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video) has launched on the [Midjourney website](https://www.midjourney.com/imagine)! 
-Make sure to log in with your subscribed account to animate your images.
+Make sure to log in with your subscribed **Discord** account to animate your images.
 
 ---
 
@@ -2011,6 +2019,20 @@ Q: How do I get a video of my grid generating?
 The `--video` parameter, which previously recorded the image being generated, is no longer available.
 
 But you can now animate your generated images into [Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video)!
+
+---
+
+Q: My videos are getting flagged? Why are my videos blocked for violations? Blocked video? The AI moderator is unsure about my video? Every time I animate, the moderator is not sure? The AI moderator keeps flagging my video? The AI moderator keeps flagging my animation?
+
+The filter prevents abuse and content against the [Community Guidelines](https://docs.midjourney.com/hc/en-us/articles/32013696484109-Community-Guidelines) and the [Terms of Service](https://docs.midjourney.com/docs/terms-of-service). 
+For example:
+🔹 Do not create or use imagery of real people, famous or otherwise, that could be used to harass, abuse, defame, or otherwise harm.
+🔹 Do not create or attempt to create gore or adult content. Avoid making visually shocking or disturbing content.
+🔹 Do not upload content, enter prompts, or use Editor or Video in any way that infringes or violates any third-party intellectual property or privacy rights.
+
+If you believe the image and prompt are incorrectly flagged, share them in [#ai-mod-bugs](https://discord.com/channels/662267976984297473/1100553606761041991).
+
+**Note:** Every image is filtered the same way, whether it's an uploaded image or an image created by Midjourney itself.
 
 ---
 
@@ -2288,7 +2310,7 @@ Here are some things to avoid in image prompts:
 🔹 Nude or skin tone clothing
 You can adjust the image or use text instead. Ask our [#prompt-craft](https://discord.com/channels/662267976984297473/992207085146222713) community if you have trouble finding the right words.
 
-**Note:** The origin of the image does not matter. Every image is filtered the same way, whether it's a famous image or an image created by Midjourney itself.
+**Note:** The origin of the image does not matter. Every image is filtered the same way, whether it's an uploaded image or an image created by Midjourney itself.
 The filter is automated and can occasionally misinterpret the content.
 
 ---
