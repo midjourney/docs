@@ -539,7 +539,7 @@ If you chose the yearly plan instead of the monthly plan, you can try to cancel 
 
 Q: When I unsubscribe will I still have access to my website gallery? If I cancel, will I still be able to see my images in the gallery? If I cancel my subscription can I still see my images?
 
-Even without an active plan, you can view your own images in your gallery. However, member features and access won’t be available.
+Even without an active plan, you can view and download your own images in your gallery. However, member features and access won’t be available.
 
 ---
 
@@ -688,7 +688,7 @@ Please send an email to `billing@midjourney.com` for further assistance.
 
 # - REFUND -
 
-Q: It was automatically renewed, I need a refund? Can I have a refund for the automatic renewal? I automatically recharged the fee?
+Q: It was automatically renewed, I need a refund please? Can I have a refund for the automatic renewal please? I automatically recharged the fee?
 
 Subscriptions are automatically renewed. To cancel the automatic renewal, click `Cancel Plan` on your [Midjourney subscription page](https://midjourney.com/account).
 
@@ -696,7 +696,7 @@ Subscriptions are automatically renewed. To cancel the automatic renewal, click 
 
 ---
 
-Q: It is automatically deducted and the membership fee is required to be refunded? I mistakenly charged money, please refund?
+Q: It is automatically deducted and the membership fee is required to be refunded? I mistakenly charged money, please refund? I forgot to cancel, can I get a refund please? I forgot to cancel, can I request a refund please?
 
 We cannot help with payments in this chat. **Send an email to `billing@midjourney.com` with your invoice number for help.**
 
@@ -872,7 +872,7 @@ Activate `Remix mode` in your </settings:1000850743479255081> to edit the prompt
 
 ---
 
-Q: How can I make videos? How do you make videos? How to generate a video? I am looking for information on how to use the video feature? Video? Videos?
+Q: How can I make videos? How do you make videos? How to generate a video? I am looking for information on how to use the video feature? Video? Videos? What is the prompt to generate video?
 
 🔹 To animate a **generated image**, separate it from the grid with the U1-4 buttons, then click the `Animate` buttons underneath.
 🔹 To animate **your own image**, paste the image link, type your text prompt (optional), and add the parameter `--video`.
@@ -1325,7 +1325,7 @@ Certain parameters and features may not be compatible with Version 7. Keep an ey
 
 ---
 
-Q: V7 cref? Cref in Version 7? Cref in v7?
+Q: V7 cref? Cref in Version 7? Cref in v7? --cref is not compatible with --version 7? --cref no longer compatible? --cref not working in version 7?
 
 In [Version 7](https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version#h_01JQSR0Q6H0AX8NCC8QGE6C2NZ), Midjourney allows you to have an **Omni Reference**. The reference can be a character, but it can also be an object.
 
@@ -1893,9 +1893,10 @@ To find the Job ID, open the image in [your archive](https://midjourney.com/arch
 
 Q: How can I delete an image? How to delete images from my feed? How can I remove an image? Delete image? How do we delete videos? How to delete an animation?
 
-Delete your generation by reacting to it with the :x: emoji. This will also delete it from the Midjourney website.
+Delete your generation by reacting to it with the :x: emoji, or through the menu by right-clicking (or long tap on mobile) > Apps > Cancel Job
+This will also delete it from the Midjourney website.
 
-**Can't find it in Discord?** Recall it with the [command `/show`](https://docs.midjourney.com/hc/en-us/articles/32635695384461-Show-Command), then use the :x: emoji.
+**Can't find it in Discord?** Recall it with the [command `/show`](https://docs.midjourney.com/hc/en-us/articles/32635695384461-Show-Command), then delete it.
 
 [Read more about Organizing your gallery](https://docs.midjourney.com/hc/en-us/articles/33329462451469-Organizing-Your-Creations#h_01JHP66YYRKF988ABQBHXMFJ3K)
 
@@ -2381,7 +2382,7 @@ Discord allows this server a maximum number of active threads. When older thread
 
 ---
 
-Q:  Submission error, unexpected token? SyntaxError in Vary (region)? "is not valid JSON"? Unexpected token when using Vary (region)? Invalid JSON?
+Q:  Submission error, unexpected token? SyntaxError in Vary (region)? "is not valid JSON"? Unexpected token when using Vary (region)? Invalid JSON? I’m getting errors when trying to use “Vary (Region)”? In Vary (region), I get a JSON error?
 
 The [Vary (Region)](https://docs.midjourney.com/hc/en-us/articles/32794723105549-Vary-Region) feature has certain limitations:
 🔹 You cannot use it to edit images created with an [Omni reference](https://docs.midjourney.com/hc/en-us/articles/36285124473997-Omni-Reference) (`--oref`). You can only use the website's [Editor](https://docs.midjourney.com/hc/en-us/articles/32764383466893-Editor) for these images.
@@ -2562,7 +2563,7 @@ Q: Nitro?
 
 ---
 
-Q: Where is the chat for the Office Hours?
+Q: Where is the chat for the Office Hours? Where to ask questions during the Office Hours?
 
 The live chat during Office Hours happens in [#vc-text](https://discord.com/channels/662267976984297473/959962985655320616).
 You can find summaries from users in [#Office Hours Notes](https://discord.com/channels/662267976984297473/1037743153471553618).
