@@ -199,8 +199,8 @@ With the default settings:
 - Variations: consume slightly less GPU time
 - Grid Upscales: split the existing grid, they cost no extra GPU time
 - Creative/Subtle Upscale: consumes about 2 GPU minutes
-- Videos in SD: consume about 8 GPU minutes
-- Videos in HD: consume about 26 GPU minutes
+- Set of 4 Videos in SD: consume about 8 GPU minutes
+- Set of 4 Videos in HD: consume about 26 GPU minutes
 
 **Note:** Jobs with an [Omni Reference](https://docs.midjourney.com/hc/en-us/articles/36285124473997-Omni-Reference) run in turbo mode, which consumes double the GPU time.
 The above costs are based on the default version (7), using older versions may use more GPU.
@@ -1037,10 +1037,14 @@ Q: I don't see the "Animate" button?
 
 Q: What plan has access to video? Which plan tier do I need for video? What subscription offers video? What subscription has access to video? Which subscription tier do I need for video? What plan offers video?
 
-All plans offer access to [Video](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video). Your tier determines how many you can run at the same time, and if Relax mode is available.
+All plans offer access to Standard Definition (SD) [Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video). Your tier determines how many you can run at once, HD video access, and Relax mode availability.
 
-🔹 In Fast mode: 1 with Basic, 3 with Standard, 6 with Pro, 12 with Mega — the rest will be queued (up to 10).
-🔹 In Relax mode: 3 with Pro, 3 with Mega.
+🔹 With the **Basic** plan, you can only run 1 SD video at a time.
+🔹 With the **Standard** plan, you can run up to 3 SD or HD videos at a time in Fast mode.
+🔹 With the **Pro** plan, you can run up to 6 SD or HD videos at a time in Fast mode, and up to 3 SD videos in Relax mode.
+🔹 With the **Mega** plan, you can run up to 12 SD or HD videos at a time in Fast mode, and up to 3 SD videos in Relax mode.
+
+[Click here to compare plans](https://docs.midjourney.com/hc/en-us/articles/27870484040333-Comparing-Midjourney-Plans)
 
 ---
 
@@ -1071,7 +1075,7 @@ On the website, you can set a Start frame and End frame in the `Imagine` bar:
 Q: Is looping available on the website?
 
 You can create looping videos on the website as well:
-🔹 To loop an animation of a **generated image**, open it in your [Organize](https://www.midjourney.com/archive) tab and press of the `Loop` buttons.
+🔹 To loop an animation of a **generated image**, open it in your [Organize](https://www.midjourney.com/archive) tab and press one of the `Loop` buttons.
 🔹 To loop an animation of **your own image**, upload it in the `Imagine` bar as a `Starting Frame` and check the `Loop` box in the `Ending Frame` section.
 
 [Read more about Looping Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01K0SV3TN33ZQ8T6F1EA03P56K)
@@ -1088,11 +1092,14 @@ Unlimited Relax mode is available for [Videos](https://docs.midjourney.com/hc/en
 
 Q: How many fast minutes are used for a video render? How much GPU time does a video consume? How many credits for a video? How much fast time does a video use? 
 
-Generating a set of 4 [Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video) in Standard Definition consumes about 8 GPU minutes.
+🔹 Generating a set of 4 Videos in **Standard Definition (SD)** consumes about **8** GPU minutes.
+🔹 Generating a set of 4 Videos in **High Definition (HD)** consumes about **26** GPU minutes.
 
-Generating a set of 4 Videos in High Definition consumes about 26 GPU minutes.
+You can use the [Batch Size parameter](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01K2J07NWY2CTEWHAVCAPQJFZV) to run smaller sets of videos.
 
-**Note:** High Definition videos is only available in Fast mode for users with a Pro or Mega subscription.
+**Note:** HD videos are not available on the Basic plan.
+[Read more about Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video)
+%image=https://cdn.midjourney.com/u/ff03153e-6e8a-48b4-87d0-5acd0a123688/f5397e92e787c4fa1cca2ca8dd1a8b65159d6e67f99272d840f4ac5bea7b1216.png
 
 ---
 
@@ -1106,30 +1113,39 @@ Each set of 4 [Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864
 
 Q: How much does a HD video cost? How much does a HD video consume? How much does a High Definition video cost? How much does a High Definition video consume? How many GPU minutes for HD video? How much does a HD animation cost? How much does a HD animation consume? How much does a High Definition animation cost? How much does a High Definition animation consume? How many GPU minutes for HD animation? How many credits for HD video? How many credits for High Definition animation?
 
-Each set of 4 [Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video) in High Definition consumes about 26 GPU minutes.
+Each set of 4 [Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video) in High Definition (HD) consumes about 26 GPU minutes.
+
+**Note:** You can use the [Batch Size parameter](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01K2J07NWY2CTEWHAVCAPQJFZV) to run smaller sets of videos.
 
 ---
 
 Q: How many videos can we get in a month? How many videos per month?
 
-At the moment, generating a set of 4 [Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video) in Standard Definition consumes about 8 GPU minutes.
+Generating a set of 4 [Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video) in Standard Definition consumes about 8 GPU minutes.
 🔹 On Basic, 200 GPU minutes can generate about 25 sets of 4 videos.
 🔹 On Standard, 15 GPU hours can generate about 112 sets of 4 videos.
 Users with a Pro or Mega subscription can generate SD videos unlimitedly in Relax mode.
+
+**Note:** You can use the [Batch Size parameter](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01K2J07NWY2CTEWHAVCAPQJFZV) to run smaller sets of videos.
 
 ---
 
 Q: Roughly how many videos can I make with 1 hour of fast time?
 
-At the moment, generating a set of 4 [Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video) in Standard Definition consumes about 8 GPU minutes. So, with 1 GPU hour, you can generate about 7 sets of 4 SD videos.
+Generating a set of 4 [Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video) in Standard Definition consumes about 8 GPU minutes. So, with 1 GPU hour, you can generate about 7 sets of 4 SD videos.
+
+**Note:** You can use the [Batch Size parameter](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01K2J07NWY2CTEWHAVCAPQJFZV) to run smaller sets of videos.
 
 ---
 
-Q: Is it possible to only generate 1 video instead of 4? Just one video, not four?
+Q: Is it possible to only generate 1 video instead of 4? Just one video, not four? Can I make smaller batches of video? Video Batch size? Can I generate two videos rather than four?
 
-Currently, animating an image generates 4 videos. There isn’t an option to adjust how many are created.
+You can add the parameter `--bs` followed by a space and the value 1, 2 or 4 to determine how many videos will be in your set. For example: `a singing cat --bs 2`
+On the website, you'll find these options in your Settings, in the `More options` section.
 
-[Read more about creating Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video)
+**Note:** While we recommend using the default size of 4, a smaller batch is a good way to save your GPU time.
+[Read more about Batch Size for Video](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01K2J07NWY2CTEWHAVCAPQJFZV)
+%image=https://cdn.midjourney.com/u/ff03153e-6e8a-48b4-87d0-5acd0a123688/f5397e92e787c4fa1cca2ca8dd1a8b65159d6e67f99272d840f4ac5bea7b1216.png
 
 ---
 
@@ -1138,11 +1154,11 @@ Currently, animating an image generates 4 videos. There isn’t an option to adj
 Q: Is there any way to increase video resolution? How do I make HD videos? How do I make High Definition videos? Can I make High Definition quality animation? How to HD animations? How to use HD video? How to use High Definition animation? How to use HD animation? How to use High Definition video? How to make 720p? How to make 1080p?
 
 By default, videos are generated in Standard Definition (480p).
-Users with a Pro or Mega plan can generate videos in High Definition (720p) in Fast mode.
+In Fast mode, users can generate videos in High Definition (720p). Each set of 4 HD videos consumes about 26 GPU minutes:exclamation:
 
-Generate HD videos on the website by selecting “HD” in your settings.
+To generate High Definition videos on the website, select “HD” in your settings.
 
-**Note:** Each set of HD videos consumes about 26 GPU minutes.
+**Note:** HD videos are not available on the Basic plan.
 [Read more about Video Output](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01JXZZK6WR94XMKM9GXH2Y4XXQ)
 
 %image=https://cdn.midjourney.com/u/d6f915c1-a3b1-425d-9934-3fb714cd8b7b/d628c4be484dc1bfd81aa17f42c1a070946f4bf74f4ea9c15ff47199524d6860.png
@@ -1151,10 +1167,11 @@ Generate HD videos on the website by selecting “HD” in your settings.
 
 Q: Any plans to go above 480p for video? Will videos only be made in 480p? When will video resolution get higher than 480p? I need a 720p video? I need a 1080p video? When will 720p or 1080p resolution be available? Can videos be upscaled? What is High Definition Video? HD video? Can videos go up to 1080p? Videos only 480p? Are we able to upscale our videos higher than 480p? What resolution can videos be made at? What is the video output resolution?
 
-By default, videos are generated in Standard Definition (480p).
-Users with a Pro or Mega plan can generate videos in High Definition (720p) in Fast mode. Each set of HD videos consumes about 26 GPU minutes.
+By default, videos are generated in Standard Definition (480p).The details are quite high for 480p (so using an outside upscaler gives good results).
 
-**Note:** The details are quite high for 480p (so using an outside upscaler gives good results).
+In Fast mode, users can generate videos in High Definition (720p). Each set of 4 HD videos consumes about 26 GPU minutes:exclamation:
+
+**Note:** HD videos are not available on the Basic plan.
 [Read more about Video Output](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01JXZZK6WR94XMKM9GXH2Y4XXQ)
 
 ---
@@ -1170,7 +1187,7 @@ Q: What's the difference between downloading the video for Social and for Editin
 
 Q: How do I get a video of my grid generating?
 
-The legacy `--video` parameter, which previously recorded the image being generated, is no longer available.
+The legacy `--video` parameter, which previously created a gif of the image being generated, is no longer available.
 
 It is now used to animate your images into [videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video)!
 
@@ -2353,6 +2370,17 @@ You do not own images made by other members, even if you upscale their images.
 Q: If I buy a subscription, can members of my server use it? Can anyone else use my subscription? Can my friends use my subscription? Can I share my subscription? How can my friend use my account? How can my friend use my subscription?
 
 Currently, all subscription plans are linked to a single user. Each user needs their own account and subscription, any sharing is strictly prohibited by our [Terms of Service](https://docs.midjourney.com/hc/en-us/articles/32083055291277-Terms-of-Service).
+
+---
+
+Q: Copyright issue? Copyright error? Possible copyrighted? Can I post copyrighted content? Can I generate copyrighted content?
+
+Per the [Terms of Service](https://docs.midjourney.com/hc/en-us/articles/32083055291277-Terms-of-Service), you may not use Midjourney to try to violate the intellectual property rights of others, including copyright, patent, or trademark rights.
+Do not upload content, enter prompts, or use Editor or Video in any way that infringes or violates any third-party intellectual property or privacy rights.
+
+If you believe an image or prompt are incorrectly flagged, share them in [#ai-mod-bugs](https://discord.com/channels/662267976984297473/1100553606761041991).
+
+**Note:** Every image is filtered the same way, whether it's an uploaded image or an image created by Midjourney itself.
 
 ---
 
