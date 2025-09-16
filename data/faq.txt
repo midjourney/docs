@@ -154,7 +154,7 @@ Check out our [Quick Start Guide](https://docs.midjourney.com/hc/en-us/articles/
 
 Q: I'm having trouble using the bot - Why don’t I see the /imagine option as a slash command? I don’t see /imagine in my slash commands? My commands don’t work? Imagine doesn't work for me? I type the prompts and nothing appears? I type /imagine and nothing happens? It does not let me use /imagine? So just /imagine [prompt]? Where can I use /imagine? The /imagine command does not work?
 
-1️⃣ Be sure to use a bot channel like #newbies or #general - try <#981832774157762570>.
+1️⃣ Be sure to use a bot channel like #newbies 1-10 or #general - try <#981832774157762570>.
 2️⃣ Type `/imagine`
 3️⃣ Click the popup and type your text (prompt).
 
@@ -173,7 +173,20 @@ If you’re new, welcome! Check out our [Quick Start Guide](https://docs.midjour
 Participating in the server is limited to users with an active subscription. If your plan is active, **run the command </info:972289487818334209> to update your roles and access**.
 Organize your channels here: <id:browse>
 
+**Can’t use a newbies channel?** Newbies channels above 1-10 have been archived. You can also use a general channel such as <#989274745495240734> or send a direct message to the <@936929561302675456>.    
+
 **Note:** Some channels are view-only, they’re used by team members to communicate information.
+
+---
+
+Q: I can’t use the newbies anymore? Newbies channel? I cannot use the newbies rooms anymore? Newbies? Why are newbies locked?
+
+**The newbies channels have been archived**, only the first 10 can be used. If you don't see them, make sure you've selected them in <id:browse>.
+You can also use any of the general channels to continue generating with other users, such as <#989274745495240734>.
+
+Or, you can create images and videos in your own space:
+🔹 **[Send a Direct Message to the Bot](https://docs.midjourney.com/hc/en-us/articles/32637339216013-Discord-Direct-Messages)**: right-click on it here <@936929561302675456> and select `Message`.
+🔹 **[Add the Bot to your server](https://docs.midjourney.com/hc/en-us/articles/32637946450445-Add-Midjourney-to-Your-Discord-Server)**: create a Discord server, then [click here](https://discord.com/oauth2/authorize?client_id=936929561302675456) and select `Add to Server`.
 
 ---
 
@@ -318,6 +331,7 @@ Q: Do fast hours roll over? Do I keep my unused fast hours? Will my time get add
 **Note:** To create images, you need an active subscription.
 
 ---
+
 # - TURBO -
 
 Q: What is turbo mode? What does turbo mean? Turbo mode?
@@ -944,7 +958,7 @@ To modify the aspect ratio of an image, use the [Zoom Out](https://docs.midjourn
 
 ---
 
-Q: How do I make a looping video?
+Q: How do I make a looping video? How do you loop animation?
 
 Add the `--loop` parameter at the end of your video prompt for your video to end on the same image used to start.
 For example: `https://pic1.png a dancing pirate --video --loop`
@@ -1353,41 +1367,9 @@ Use the command </settings:1000850743479255081> if you’d like to make sure it�
 
 Q: Not compatible with --version 7?
 
-Certain parameters and features may not be compatible with Version 7. Keep an eye out on the [#announcements](https://discord.com/channels/662267976984297473/952771221915840552) channel for updates.
+Certain parameters and features may not be compatible with Version 7.
 
 [Click here](https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version#h_01JQSR0Q6H0AX8NCC8QGE6C2NZ) to view which features and parameters are currently available in V7.
-
----
-
-Q: V7 cref? Cref in Version 7? Cref in v7? --cref is not compatible with --version 7? --cref no longer compatible? --cref not working in version 7?
-
-In [Version 7](https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version#h_01JQSR0Q6H0AX8NCC8QGE6C2NZ), Midjourney allows you to have an **Omni Reference**. The reference can be a character, but it can also be an object.
-
-To use an image as an Omni Reference, add the `--oref` parameter at the end of your prompt, followed by a space and a link to your image.
-
-**Note:** It is not compatible with previous versions so make sure to use Version 7.
-[Read more about the Omni Reference parameter and how to use it on the website](https://docs.midjourney.com/hc/en-us/articles/36285124473997-Omni-Reference)
-
----
-
-Q: Oref? Omni reference?
-
-To reference a specific character or object, use the Omni Reference parameter `--oref` followed by a space and a link to your image.
-For example: `A hedgehog drinking coffee --oref https://pic.png`
-
-**Note:** It only works with [Version 7](https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version#h_01JQSR0Q6H0AX8NCC8QGE6C2NZ).
-
-[Read more about the Omni Reference parameter and how to use it on the website](https://docs.midjourney.com/hc/en-us/articles/36285124473997-Omni-Reference)
-
----
-
-Q: What is ow? --ow?
-
-The omni weight parameter `--ow` adjusts how much information is used in your omni reference. *You can only use the omni weight parameter if you have an omni reference.*
-
-The default value of the `--ow` parameter is 100. You can adjust it by adding the `--ow` parameter at the end of your prompt with a value from 0 to 1000.
-
-[Read more about the Omni Reference parameter and how to use it on the website](https://docs.midjourney.com/hc/en-us/articles/36285124473997-Omni-Reference)
 
 ---
 
@@ -1460,9 +1442,44 @@ Use the `--tile` parameter at the end of your prompt to create images which can 
 
 ---
 
+# - OMNI REFERENCE -
+
+Q: Oref? Omni reference? How to have the same character made but in different scenes? Can I keep the same character in my images? Is there an option to keep the same character? Can I add a character reference? How to get consistent characters? Where can I see how to have consistent characters? How do I use the same avatar? How do you generate a different image with the same face?
+
+To reference a specific character or object, use the Omni Reference parameter `--oref` followed by a space and a link to your image.
+For example: `A hedgehog drinking coffee --oref https://pic.png`
+
+**Note:** It only works with [Version 7](https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version#h_01JQSR0Q6H0AX8NCC8QGE6C2NZ).
+If you’re not in Relax mode, jobs with an Omni Reference run in Turbo mode, which consumes double the GPU time.
+
+[Read more about the Omni Reference parameter and how to use it on the website](https://docs.midjourney.com/hc/en-us/articles/36285124473997-Omni-Reference)
+
+---
+
+Q: What is ow? --ow?
+
+The omni weight parameter `--ow` adjusts how much information is used in your omni reference. *You can only use the omni weight parameter if you have an omni reference.*
+
+The default value of the `--ow` parameter is 100. You can adjust it by adding the `--ow` parameter at the end of your prompt with a value from 0 to 1000.
+
+[Read more about the Omni Reference parameter and how to use it on the website](https://docs.midjourney.com/hc/en-us/articles/36285124473997-Omni-Reference)
+
+---
+
+Q: V7 cref? Cref in Version 7? Cref in v7? --cref is not compatible with --version 7? --cref no longer compatible? --cref not working in version 7?
+
+In [Version 7](https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version#h_01JQSR0Q6H0AX8NCC8QGE6C2NZ), Midjourney allows you to have an **Omni Reference**. The reference can be a character, but it can also be an object.
+
+To use an image as an Omni Reference, add the `--oref` parameter at the end of your prompt, followed by a space and a link to your image.
+
+**Note:** It is not compatible with previous versions so make sure to use Version 7.
+[Read more about the Omni Reference parameter and how to use it on the website](https://docs.midjourney.com/hc/en-us/articles/36285124473997-Omni-Reference)
+
+---
+
 # - CHARACTER REFERENCE -
 
-Q: How to have the same character made but in different scenes? Can I keep the same character in my images? Is there an option to keep the same character? How to use --cref? Can I add a character reference? How to get consistent characters? Where can I see how to have consistent characters? How do i use the same avatar?
+Q:  How to use --cref?
 
 Use the Character Reference parameter `--cref` followed by a space and a link to your image for the characters in your results to be based on a specific image. You can add multiple links to have multiple character references, make sure to have a space between each link.
 You can add text, image prompts, and other parameters to guide the results.
@@ -1632,7 +1649,7 @@ If you want to upload an image and edit it using Midjourney, this is only possib
 
 ---
 
-Q: How can I upload a picture to edit it? Can I edit my own images? Can I edit my photos? I want to upload an image to recreate the same one? Is it possible to modify an external image? Can the AI add elements to my picture? I have an image I want to modify, is this possible? How to tell it to modify my existing image? How to upload an image to modify it? How can I have it recreate the exact same image? Where do I add an image for it create exactly the same elements? How to use an image without changing it? How to edit my pictures? I want to keep my image but add something, is it possible? Can I add my own image to make changes? Can I have AI edit a picture of me? Edit my image?
+Q: How can I upload a picture to edit it? Can I edit my own images? Can I edit my photos? I want to upload an image to recreate the same one? Is it possible to modify an external image? Can the AI add elements to my picture? I have an image I want to modify, is this possible? How to tell it to modify my existing image? How to upload an image to modify it? How can I have it recreate the exact same image? Where do I add an image for it create exactly the same elements? How to use an image without changing it? How to edit my pictures? I want to keep my image but add something, is it possible? Can I add my own image to make changes? Can I have AI edit a picture of me? Edit my image? How to edit an existing picture?
 
 With the website's [Editor](https://www.midjourney.com/editor/new), you can upload an image and select areas to edit through Midjourney. Or you can have it "retexture" your image, to keep the same overall shapes as your image while creating a new design.
 
@@ -1936,6 +1953,12 @@ This will also delete it from the Midjourney website.
 
 ---
 
+Q: :x: does not work to delete? :x: does not delete? The :x: reaction does not work? The :x: emoji does nothing, how to delete image? Problem with deleting image with :x:? Can't delete image with :x:? Can't delete video with :x:? Issues with deleting via :x:?
+
+If the :x: emoji reaction does not work, you can instead right click the image (or long tap on mobile), select `Apps` and click `Cancel Job`.
+
+---
+
 # - STYLE TUNER -
 
 Q: What is the Style Tuner? Style Tuner? Tune? How to tune style?
@@ -2006,7 +2029,8 @@ Keep in mind you need an active subscription to view users’ images.
 Q: How do I get my gallery link to share with friends?
 
 Find the link to your public gallery on your [`Account Settings` page](https://www.midjourney.com/profile-settings).
-Please note that members must have an active subscription to view other users’ images.
+
+**Note:** Users must be logged into the website to browse your gallery.
 
 ---
 
@@ -2225,7 +2249,7 @@ To add the Bot to your own Discord server, [click here](https://discord.com/oaut
 
 ---
 
-Q: Can I get my own private channel? How do I get a private channel? Does a subscriber have its own private channel not viewed by the public? Will I have a private channel if I subscribe? Can I generate images in a private channel? How do I start my own room for creating photos? How to create a private room?
+Q: Can I get my own private channel? How do I get a private channel? Does a subscriber have its own private channel not viewed by the public? Will I have a private channel if I subscribe? Can I generate images in a private channel? How do I start my own room for creating photos? How to create a private room? Is there a way to create privately rather than here?
 
 To add the Bot to your own Discord server, [click here](https://discord.com/oauth2/authorize?client_id=936929561302675456) and select `Add to Server`.
 [Here’s a step by step guide.](https://docs.midjourney.com/hc/en-us/articles/32637946450445-Add-Midjourney-to-Your-Discord-Server)
@@ -2344,8 +2368,8 @@ Q: How does commercial use work? Can I use images commercially? Can I sell image
 
 Paying members have commercial rights to all images they have made and may use them commercially even if they no longer have an active subscription.
 
-🔹If you are a company or any employee of a company with more than $1,000,000 USD a year in revenue, you must be subscribed to a Pro or Mega plan to own Your Assets.
-🔹You do not own images made by other members, even if you upscale their images.
+🔹 If you are a company or any employee of a company with more than $1,000,000 USD a year in revenue, you must be subscribed to a Pro or Mega plan to own Your Assets.
+🔹 You do not own images made by other members, even if you upscale their images.
 
 For complete details, see section 4 of [our Terms of Service](https://docs.midjourney.com/hc/en-us/articles/32083055291277-Terms-of-Service)
 
