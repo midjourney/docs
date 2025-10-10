@@ -873,10 +873,10 @@ To find the Job ID, open the image in [your archive](https://midjourney.com/arch
 
 Q: How can I delete an image? How to delete images from my feed? How can I remove an image? Delete image? How do we delete videos? How to delete an animation?
 
-Delete your generation by reacting to it with the :x: emoji, or through the menu by right-clicking (or long tap on mobile) > Apps > Cancel Job
-This will also delete it from the Midjourney website.
+Hide your generation in your gallery by reacting to it with the :x: emoji, or through the menu by right-clicking (or long tap on mobile) > Apps > Cancel Job
+This will delete it from Discord, and remove it from your `Organize` page on the website.
 
-**Can't find it in Discord?** Recall it with the [command `/show`](https://docs.midjourney.com/hc/en-us/articles/32635695384461-Show-Command), then delete it.
+**Note:** Hidden images and videos remain visible to other users on the website, unless you have [Stealth mode](https://docs.midjourney.com/hc/en-us/articles/32019750070669-Stealth-Mode) and unpublish them.
 
 [Read more about Organizing your gallery](https://docs.midjourney.com/hc/en-us/articles/33329462451469-Organizing-Your-Creations#h_01JHP66YYRKF988ABQBHXMFJ3K)
 
@@ -885,6 +885,8 @@ This will also delete it from the Midjourney website.
 Q: :x: does not work to delete? :x: does not delete? The :x: reaction does not work? The :x: emoji does nothing, how to delete image? Problem with deleting image with :x:? Can't delete image with :x:? Can't delete video with :x:? Issues with deleting via :x:?
 
 If the :x: emoji reaction does not work, you can instead right click the image (or long tap on mobile), select `Apps` and click `Cancel Job`.
+
+**Note:** :x: removes the generation from Discord, and hides it from you on the Midjourney website. It remains visible to other users on the website, unless you have [Stealth mode](https://docs.midjourney.com/hc/en-us/articles/32019750070669-Stealth-Mode) and unpublish them.
 
 ---
 
@@ -2329,7 +2331,7 @@ Send an email to `billing@midjourney.com` for further assistance.
 
 ---
 
-Q: Remove payment info? Remove credit cards? How do I remove payment information? Remove payment? How can I find my Midjourney's invoice? Where can I see my invoices? How to access invoices? Where can I get my receipts? I want to remove my credit card? How to change my payment method? How to change my card details? How to change the default payment method? How to update my default payment method? Can I modify my default payment method? How can I get the receipt? Where do I find the receipt? Where can I download past bills? How can I get an invoice after?
+Q: Remove payment info? Remove credit cards? How do I remove payment information? Remove payment? How can I find my Midjourney's invoice? Where can I see my invoices? How to access invoices? Where can I get my receipts? I want to remove my credit card? How to change my payment method? How to change my card details? How to change the default payment method? How to update my default payment method? Can I modify my default payment method? How can I get the receipt? Where do I find the receipt? Where can I download past bills? How can I get an invoice?
 
 🔹 If your subscription is **active**: Use the command </subscribe:987795925764280351> or go to your [`Manage Subscription` page](https://www.midjourney.com/account) on the website to view your plan details.
 Click `Edit Billing` to verify or modify your payment information. Click `View Invoices` to download previous invoices and receipts.
@@ -2585,10 +2587,10 @@ Q: Where to find images I liked? Where to find my favorites? How do I see my fav
 
 Q: Is there a way to save all my images at once? Can I batch download all of my images? How do I save my gallery? Download images? Batch download? Bulk download?
 
-You can batch download images quickly on [the website](https://midjourney.com/archive). Click on the ⊕︀ sign next to a date to select images from that day. At the bottom, you can then download your selection of images.
-You can also click and drag, or shift-click to select images.
+You can batch download images and videos quickly on [the website](https://midjourney.com/archive). Click on the ⊕︀ sign next to a date to select creations from that day. At the bottom, you can then download your selection.
+You can also click and drag, or shift-click to select images and videos.
 
-[Read more about Downloading and Organizing your images on the website](https://docs.midjourney.com/hc/en-us/articles/33329462451469-Organizing-Your-Creations#h_01JHP57GM2GHRFRQRP0ZNQ4423)
+[Read more about Downloading and Organizing your creations on the website](https://docs.midjourney.com/hc/en-us/articles/33329462451469-Organizing-Your-Creations#h_01JHP57GM2GHRFRQRP0ZNQ4423)
 
 %image=https://cdn.discordapp.com/attachments/1201909699793145876/1202263116243533854/bulkdownload.gif
 
@@ -2598,13 +2600,11 @@ You can also click and drag, or shift-click to select images.
 
 Q: How to hide images? What is hide? What does hide do on the website? Is hide the same as private mode? Hide images?
 
-[`Hide`](https://docs.midjourney.com/hc/en-us/articles/33329462451469-Organizing-Your-Creations#h_01JHP66YYRKF988ABQBHXMFJ3K) is used to organize [your own gallery](https://www.midjourney.com/archive) by hiding images you don’t like from your view. **Hidden only hides images from yourself**, not from other members.
+[`Hide`](https://docs.midjourney.com/hc/en-us/articles/33329462451469-Organizing-Your-Creations#h_01JHP66YYRKF988ABQBHXMFJ3K) is used to organize [your own gallery](https://www.midjourney.com/archive) by hiding images and videos you don’t like from your view. **It only hides creations from yourself**, not from other members.
 
-To hide images on the website, go to your [Archive](https://www.midjourney.com/archive), select the images you want to hide, and click `...More`, then hide/unhide.
+To hide your creations on the website, go to your [Archive](https://www.midjourney.com/archive), select the images you want to hide, and click `...More`, then hide/unhide.
 
 **Note:** To make your images private, you need the Pro or Mega plan; those plans allow you to unpublish images and use [Stealth mode](https://docs.midjourney.com/hc/en-us/articles/32019750070669-Stealth-Mode).
-To delete an image, open it on Discord (or bring it into Discord with the [command `/show`](https://docs.midjourney.com/hc/en-us/articles/32635695384461-Show-Command)) and react to it with the :x: emoji.
-%image=https://cdn.midjourney.com/u/ff03153e-6e8a-48b4-87d0-5acd0a123688/a03329f183e7164b0f43576c6f4be52f32c90d8bc263a120542d66de2e1e8bc9.png
 
 ---
 
