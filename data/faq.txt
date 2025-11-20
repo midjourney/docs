@@ -225,7 +225,7 @@ Q: What do the U1, V1, etc. buttons do? U, V buttons? What does U and V do? What
 
 **V** VARIATION: The V🔢 buttons create 4 [variations](https://docs.midjourney.com/hc/en-us/articles/32692978437005-Variations) of the selected image while keeping the style and composition.
 
-Clicking on U doesn't use GPU time in the current version 7 but upscales creative and subtle consume several GPU minutes. [Read more about upscales](https://docs.midjourney.com/hc/en-us/articles/32804058614669-Upscalers)
+Clicking on U doesn't use GPU time in the current version 7 but upscales creative and subtle consume several GPU minutes. [Learn more about upscales](https://docs.midjourney.com/hc/en-us/articles/32804058614669-Upscalers)
 Variations use GPU time.
 
 %image=https://cdn.discordapp.com/attachments/958191534208061450/1017592980053438494/1234.png
@@ -241,7 +241,7 @@ You can then **upscale the image to double the size**. *This uses about double t
 🔹 `Upscale (Creative)` adds the most detail when upscaling an image.
 Running the upscale again will give you a different result.
 
-[Read more about Upscalers](https://docs.midjourney.com/hc/en-us/articles/32804058614669-Upscalers)
+[Learn more about Upscalers](https://docs.midjourney.com/hc/en-us/articles/32804058614669-Upscalers)
 
 ---
 
@@ -252,7 +252,7 @@ Click on V🔢 buttons under a grid, or `Vary` (subtle or strong) under a single
 🔹 `Vary (Strong)` creates four new interpretations of your prompt, while referencing elements of the original.
 
 **Note:** Use the command </settings:1000850743479255081> to set the variation strength used for V🔢 buttons.
-[Read more about Variations](https://docs.midjourney.com/hc/en-us/articles/32692978437005-Variations)
+[Learn more about Variations](https://docs.midjourney.com/hc/en-us/articles/32692978437005-Variations)
 
 ---
 
@@ -260,7 +260,7 @@ Q: What does the ↻ button do? What does the recycle symbol do? What does the a
 
 The 🔄 button resubmits your request to generate a new set of four images using the same prompt and parameters. It’s like telling the bot to try again.
 
-[Read more about the Discord interface](https://docs.midjourney.com/hc/en-us/articles/32631709682573-Discord-Quick-Start)
+[Learn more about the Discord interface](https://docs.midjourney.com/hc/en-us/articles/32631709682573-Discord-Quick-Start)
 
 **Are you on the [Midjourney website](https://www.midjourney.com/imagine)?** [Click here to learn how to navigate the Create Page](https://docs.midjourney.com/hc/en-us/articles/33390732264589-Creating-on-Web)
 
@@ -276,7 +276,7 @@ Q: What is Vary (Region)? Vary region button? How do I use Vary (Region)? Inpain
 
 You cannot edit an image which has been upscaled; upscaling is the last step.
 **Note:** A larger selection provides more room for changes, while a smaller selection may result in more subtle modifications.
-[Read more about Vary Region](https://docs.midjourney.com/hc/en-us/articles/32794723105549-Vary-Region)
+[Learn more about Vary Region](https://docs.midjourney.com/hc/en-us/articles/32794723105549-Vary-Region)
 
 **Are you on the [Midjourney website](https://www.midjourney.com/imagine)?** [Click here to learn how to navigate the Editor](https://docs.midjourney.com/hc/en-us/articles/32696720371341-Editor)
 
@@ -300,7 +300,7 @@ Q: How can I enter a prompt for inpainting? How can I enter a prompt in vary (re
 
 **Vary (Region)** allows you to select and regenerate specific parts of an upscaled image. If you want to change the prompt, use the command </settings:1000850743479255081> and enable `Remix mode`.
 
-[Read more about Vary Region](https://docs.midjourney.com/hc/en-us/articles/32794723105549-Vary-Region)
+[Learn more about Vary Region](https://docs.midjourney.com/hc/en-us/articles/32794723105549-Vary-Region)
 
 ---
 
@@ -330,7 +330,7 @@ Check out our [Quick Start Guide](https://docs.midjourney.com/hc/en-us/articles/
 
 ---
 
-Q: I'm having trouble using the bot - Why don’t I see the /imagine option as a slash command? I don’t see /imagine in my slash commands? My commands don’t work? Imagine doesn't work for me? I type the prompts and nothing appears? I type /imagine and nothing happens? It does not let me use /imagine? So just /imagine [prompt]? Where can I use /imagine? The /imagine command does not work?
+Q: I'm having trouble using the bot? Why don’t I see the /imagine option as a slash command? I don’t see /imagine in my slash commands? My commands don’t work? Imagine doesn't work for me? I type the prompts and nothing appears? I type /imagine and nothing happens? It does not let me use /imagine? So just /imagine [prompt]? Where can I use /imagine? The /imagine command does not work?
 
 1️⃣ Be sure to use a bot channel like #newbies 1-10 or #general - try <#981832774157762570>.
 2️⃣ Type `/imagine`
@@ -355,7 +355,7 @@ To find your recent images and other messages addressed to you on Discord, open 
 🖥️ On desktop: Use the Inbox icon in the top right corner.
 📱 On mobile: Swipe right to see your channel list and look for the :bell: icon in the bottom menu.
 
-[Read more about how to Filter and Organize your images](https://docs.midjourney.com/hc/en-us/articles/33329462451469-Organizing-Your-Creations)
+[Learn more about how to Filter and Organize your images](https://docs.midjourney.com/hc/en-us/articles/33329462451469-Organizing-Your-Creations)
 
 ---
 
@@ -466,7 +466,7 @@ Q: Can I generate my images privately?
 
 Subscribers can use commands in Direct Messages (DMs) with the Bot. Right click here:  <@936929561302675456> and hit `Message`.
 
-By default, your prompts and images are public on the [Midjourney website](https://www.midjourney.com/explore). [Stealth mode](https://docs.midjourney.com/hc/en-us/articles/32019750070669-Stealth-Mode) is a feature of the Pro and Mega plans that allows you to make your images private (unpublished) so they cannot be viewed by others on the website.
+By default, your prompts and images are public on the [Midjourney website](https://www.midjourney.com/explore). [Stealth mode](https://docs.midjourney.com/hc/en-us/articles/32019750070669-Stealth-Mode) is a feature of the Pro and Mega plans that allows you to make your images private so they cannot be viewed by others on the website.
 
 To enable Stealth mode and keep all **new** images private on the Midjourney website: run the `/stealth` command.
 
@@ -519,7 +519,7 @@ With the default settings:
 
 **Note:** Jobs with an [Omni Reference](https://docs.midjourney.com/hc/en-us/articles/36285124473997-Omni-Reference) run in turbo mode, which consumes double the GPU time.
 The above costs are based on the default version (7), using older versions may use more GPU.
-[Read more about GPU and Speed modes](https://docs.midjourney.com/hc/en-us/articles/32016412137741-GPU-Speed-Fast-Relax-Turbo)
+[Learn more about GPU and Speed modes](https://docs.midjourney.com/hc/en-us/articles/32016412137741-GPU-Speed-Fast-Relax-Turbo)
 
 ---
 
@@ -598,7 +598,7 @@ To toggle between Relax, Fast and Turbo mode, use the commands `/relax`, `/fast`
 - Images made in Turbo mode are generated much faster but consume twice the cost of a `Fast` generation.
 
 **Note:** Relax mode for images is not available on the Basic plan. Relax mode for videos is only available on the Pro and Mega plans.
-[Read more about GPU time and Speed modes.](https://docs.midjourney.com/hc/en-us/articles/32016412137741-GPU-Speed-Fast-Relax-Turbo)
+[Learn more about GPU time and Speed modes.](https://docs.midjourney.com/hc/en-us/articles/32016412137741-GPU-Speed-Fast-Relax-Turbo)
 
 **Are you on the [Midjourney website](https://www.midjourney.com/imagine)?** [Click here to learn how to navigate the Create Page](https://docs.midjourney.com/hc/en-us/articles/33390732264589-Creating-on-Web)
 
@@ -643,7 +643,7 @@ There are three Speed modes to generate images. Use the commands `/relax`, `/fas
 Each plan comes with a limited amount of monthly GPU fast time. You can buy more on [your account page](https://www.midjourney.com/account/) on the website.
 The Basic plan does not include access to Relax mode. Relax mode for videos is only available on the Pro and Mega plans.
 
-[Read more about GPU time and Speed modes.](https://docs.midjourney.com/hc/en-us/articles/32016412137741-GPU-Speed-Fast-Relax-Turbo)
+[Learn more about GPU time and Speed modes.](https://docs.midjourney.com/hc/en-us/articles/32016412137741-GPU-Speed-Fast-Relax-Turbo)
 
 ---
 
@@ -666,7 +666,7 @@ Turbo mode is for extremely quick image generation. Jobs in Turbo mode are gener
 Switch to Turbo mode with the command `/turbo` or select ⚡Turbo mode in your </settings:1000850743479255081>.
 
 **Note:** If Turbo mode can’t be used, your job will run in Fast Mode instead.
-[Read more about Relax, Fast, and Turbo Modes](https://docs.midjourney.com/hc/en-us/articles/32016412137741-GPU-Speed-Fast-Relax-Turbo)
+[Learn more about Relax, Fast, and Turbo Modes](https://docs.midjourney.com/hc/en-us/articles/32016412137741-GPU-Speed-Fast-Relax-Turbo)
 
 ---
 
@@ -677,7 +677,7 @@ Switch to Turbo mode with the command `/turbo` or select ⚡Turbo mode in your <
 Q: Why do I have to pay for private mode? Pay for stealth mode? What if I don’t want my images to appear in the gallery?
 
 Midjourney is a community for sharing and exploration.
-If you prefer not to participate, you can subscribe to the Pro or Mega plan. These two plans include the [`Stealth` Mode](https://docs.midjourney.com/hc/en-us/articles/32019750070669-Stealth-Mode) feature that lets you choose what to publish and what to make private (unpublish) in [your gallery](https://www.midjourney.com/archive).
+If you prefer not to participate, you can subscribe to the Pro or Mega plan. These two plans include the [Stealth Mode](https://docs.midjourney.com/hc/en-us/articles/32019750070669-Stealth-Mode) feature to make your creations private.
 
 **Are you on the [Midjourney website](https://www.midjourney.com/imagine)?** [Click here to learn how to navigate the Create Page](https://docs.midjourney.com/hc/en-us/articles/33390732264589-Creating-on-Web)
 
@@ -692,38 +692,40 @@ Images created in Stealth mode can be viewed by our team for moderation purposes
 Q: What's private mode? What’s stealth mode? Private powers badge? I don't want people to see my images? How can I work privately? I don't want anyone to see my images and prompts? How do I go private? How do I go stealth? How much does private cost? How much does stealth cost? I can’t unpublish on the website? Stealth mode? How do I keep my images private? Are all my images private automatically? Will my gallery become private? Why can users still interact even though I bought private? Are all my images stealth automatically? Will my gallery be stealth? Why can users interact even though I have stealth mode enabled? How to unpublish images? What is publish and unpublish? Enable stealth mode? How to use stealth mode? Are my images private? Are my designs private? Can everyone see my images?
 
 **By default, your prompts and images are public on the [Midjourney website](https://www.midjourney.com/explore).**
-[Stealth mode](https://docs.midjourney.com/hc/en-us/articles/32019750070669-Stealth-Mode) is a feature of the Pro and Mega plans that allows you to make your images private (unpublished) so they cannot be viewed by others on the website.
+[Stealth mode](https://docs.midjourney.com/hc/en-us/articles/32019750070669-Stealth-Mode) is a feature of the Pro and Mega plans that allows you to make your images private so they cannot be viewed by others on the website.
 
-To enable Stealth mode and keep all **new** images private on the Midjourney website: run the `/stealth` command.
-To unpublish your public images, select them in [your gallery](https://www.midjourney.com/archive) and click `...More` next to Download to find the `Unpublish` button.
+To enable Stealth mode and keep all **new** generations private on the Midjourney website: run the `/stealth` command.
+To make your public creations private, select them in [your gallery](https://www.midjourney.com/archive) and click `...More` next to Download to find the `Make Private` button.
 
-**Note:** Images made in public channels are visible by anyone in those channels! To hide them on Discord, you need to [make them in Direct Messages](https://docs.midjourney.com/hc/en-us/articles/32637339216013-Discord-Direct-Messages) or [in a private server](https://docs.midjourney.com/hc/en-us/articles/32637946450445-Add-Midjourney-to-Your-Discord-Server).
+**Note:** Generations made in public channels are visible by anyone in those channels! To hide them on Discord, you need to [make them in Direct Messages](https://docs.midjourney.com/hc/en-us/articles/32637339216013-Discord-Direct-Messages) or [in a private server](https://docs.midjourney.com/hc/en-us/articles/32637946450445-Add-Midjourney-to-Your-Discord-Server).
 
-**Are you on the [Midjourney website](https://www.midjourney.com/imagine)?** [Click here to learn how to navigate the Create Page](https://docs.midjourney.com/hc/en-us/articles/33390732264589-Creating-on-Web)
-
----
-
-Q: Is private permanent? Does stealth last forever? If I cancel, are my images still private? Is stealth permanent? If I cancel switch plans are my images still stealth? Are unpublished images visible once my subscription ends?
-
-Any images unpublished using Stealth mode during your subscription will remain private even after your subscription ends, or if you downgrade your plan.
+**Are you on the [Midjourney website](https://www.midjourney.com/imagine)?** [Learn how to navigate the Create Page](https://docs.midjourney.com/hc/en-us/articles/33390732264589-Creating-on-Web)
 
 ---
 
-Q: I can’t use the stealth option in my web settings? I can’t see the unpublish button? I don’t see the unpublish button?
+Q: Is private permanent? Does stealth last forever? If I cancel, are my images still private? Is stealth permanent? If I cancel switch plans are my images still stealth? Are private images visible once my subscription ends?
 
-If you have the Pro or Mega plan but the `Stealth` toggle doesn’t appear, try signing out of [the website](https://www.midjourney.com/) and then signing back in.
-
-[Click here to learn more about how to organize your images](https://docs.midjourney.com/hc/en-us/articles/33329462451469-Organizing-Your-Creations#h_01JHP57GM2GHRFRQRP0ZNQ4423)
+Any generations made private while you had Stealth mode will remain private even after your subscription ends, or if you downgrade your plan.
 
 ---
 
-Q: How do I unpublish my images? Unpublish old images? Bulk unpublish? Unpublish already made images? Batch unpublish?
+Q: I can’t use the stealth option in my web settings? I can’t see the unpublish button? I don’t see the unpublish button? I don’t see the private button?
 
-Subscribers to the Pro and Mega plan can bulk unpublish their images from the website. To do this, go to your [Archive](https://www.midjourney.com/archive), select the images you want to unpublish, and click `...More` next to Download. You can then bulk publish/unpublish.
+If you have the Pro or Mega plan but the `Stealth` option doesn’t appear in your settings, try signing out of [the website](https://www.midjourney.com/) and then signing back in.
 
-[Click here to learn more about how to organize your images](https://docs.midjourney.com/hc/en-us/articles/33329462451469-Organizing-Your-Creations#h_01JHP57GM2GHRFRQRP0ZNQ4423)
+[Learn more about how to organize your images](https://docs.midjourney.com/hc/en-us/articles/33329462451469-Organizing-Your-Creations#h_01JHP57GM2GHRFRQRP0ZNQ4423)
 
-%image=https://cdn.midjourney.com/u/ff03153e-6e8a-48b4-87d0-5acd0a123688/ab7070557038542451740a70e1f242b252df9ed2835ee653e5f1e5ef314da207.png
+---
+
+Q: How do I unpublish my images? Unpublish old images? Bulk unpublish? Unpublish already made images? Batch unpublish? Bulk private?
+
+With a Pro or Mega plan, you can make your public creations private in your [Organize tab](https://www.midjourney.com/archive). Select the images and videos you want to make private, right click on one of them, and select `Make Private`.
+
+**Note:** Enable the `Public` filter in your Organize tab to only view creations which are currently visible to others. You may also want to enable the `In Trash` filter afterwards, in case you have Public creations in your trash.
+
+[Learn more about how to organize your images](https://docs.midjourney.com/hc/en-us/articles/33329462451469-Organizing-Your-Creations#h_01JHP57GM2GHRFRQRP0ZNQ4423)
+
+%image=https://cdn.midjourney.com/u/d6f915c1-a3b1-425d-9934-3fb714cd8b7b/ea3c78bbe58e7e8239507cd65eeede340b7f2a9a9f5018e87c9185a22e52d521.png
 
 ---
 
@@ -736,7 +738,7 @@ Q: How do I change my aspect ratio? How to change aspect ratio? How can I specif
 Change the aspect ratio of your image by including the `--ar` parameter at the end of your prompt, followed by the **width:height** ratio.
 For example: `a robot on a sailboat --ar 2:1`
 
-[Read more about Aspect Ratio](https://docs.midjourney.com/hc/en-us/articles/31894244298125-Aspect-Ratio)
+[Learn more about Aspect Ratio](https://docs.midjourney.com/hc/en-us/articles/31894244298125-Aspect-Ratio)
 
 **Are you on the [Midjourney website](https://www.midjourney.com/imagine)?** [Click here to learn how to navigate the Create Page](https://docs.midjourney.com/hc/en-us/articles/33390732264589-Creating-on-Web)
 
@@ -747,7 +749,7 @@ Q: How do I make 16:9?
 Change the aspect ratio of your image by including the `--ar` parameter at the end of your prompt.
 For example: `a robot on a sailboat --ar 16:9`
 
-[Read more about Aspect Ratio](https://docs.midjourney.com/hc/en-us/articles/31894244298125-Aspect-Ratio)
+[Learn more about Aspect Ratio](https://docs.midjourney.com/hc/en-us/articles/31894244298125-Aspect-Ratio)
 
 **Are you on the [Midjourney website](https://www.midjourney.com/imagine)?** [Click here to learn how to navigate the Create Page](https://docs.midjourney.com/hc/en-us/articles/33390732264589-Creating-on-Web)
 
@@ -759,7 +761,7 @@ Q: The upscale adds too much detail? How do I remove the noise from an upscaled 
 🔹`Upscale (Creative)` adds the most detail when upscaling an image.
 Running the upscale again will give you a different result.
 
-[Read more about Upscalers](https://docs.midjourney.com/hc/en-us/articles/32804058614669-Upscalers)
+[Learn more about Upscalers](https://docs.midjourney.com/hc/en-us/articles/32804058614669-Upscalers)
 
 ---
 
@@ -770,7 +772,7 @@ To double the size of your image, click on `Upscale (Subtle)` or `Upscale (Creat
 🔹`Upscale (Creative)` will adjust and/or add new details.
 Running Upscale again will give you a different result.
 
-[Read more about Upscalers](https://docs.midjourney.com/hc/en-us/articles/32804058614669-Upscalers)
+[Learn more about Upscalers](https://docs.midjourney.com/hc/en-us/articles/32804058614669-Upscalers)
 
 ---
 
@@ -778,7 +780,7 @@ Q: I don't see the Max Upscale option? No Max Upscale? Where is Max Upscale?
 
 The Max Upscaler is an upscaler for Version 3. If you are using a more recent version, this option will not be available. This feature is only available in `/fast` mode. You may not see an upscale option for some aspect ratios that would produce a file over the maximum size the bot can create. Check your upscaled image’s resolution: it may already be at the maximum resolution.
 
-[Read more about Upscaler Models](https://docs.midjourney.com/hc/en-us/articles/32804058614669-Upscalers)
+[Learn more about Upscaler Models](https://docs.midjourney.com/hc/en-us/articles/32804058614669-Upscalers)
 
 ---
 
@@ -786,7 +788,7 @@ Q: What is "Light Upscale Redo"? What is a light upscale? How do I use light ups
 
 Light upscale is an upscaler for Version 3 and 4. It uses a different algorithm that adds less detail, which may be better in some cases. You can use the `--uplight` parameter in a prompt, or hit the `Light Upscale Redo` button under v3 and v4 upscaled images.
 
-[Read more about Upscaler Models](https://docs.midjourney.com/hc/en-us/articles/32804058614669-Upscalers)
+[Learn more about Upscaler Models](https://docs.midjourney.com/hc/en-us/articles/32804058614669-Upscalers)
 
 ---
 
@@ -808,13 +810,13 @@ Custom aspect ratios set using `--ar` will change the width and height of the im
 If you need larger or higher resolution images, you can look into 3rd party upscale softwares.
 
 **Note:** Rolling a (Creative) or (Subtle) upscale another time will still produce a 2048 x 2048 px result.
-[Read more about resolution and upscalers](https://docs.midjourney.com/hc/en-us/articles/32804058614669-Upscalers)
+[Learn more about resolution and upscalers](https://docs.midjourney.com/hc/en-us/articles/32804058614669-Upscalers)
 
 ---
 
 Q: Where has the upscale 4x button gone? Upscale 2x and Upscale 4x do now show for me? Have you removed 4x upscale? 4x upscale? Upscale (4x)?
 
-At the moment, version 7 only has `Upscale (Subtle)` and `Upscale (Creative)` which are both Upscales 2x. [Read more about Upscalers](https://docs.midjourney.com/hc/en-us/articles/32804058614669-Upscalers)
+At the moment, version 7 only has `Upscale (Subtle)` and `Upscale (Creative)` which are both Upscales 2x. [Learn more about Upscalers](https://docs.midjourney.com/hc/en-us/articles/32804058614669-Upscalers)
 
 If you want an Upscale (4x) you need to go back to --v 5.2. Use the command </settings:1000850743479255081>, select Version 5.2 and create a new /imagine - new images will have the 4x Upscale button.
 
@@ -832,7 +834,7 @@ The `Remix` feature lets you edit your prompt. Use the command </settings:100085
 🔹 Clicking the `V` and `Vary` buttons will open a text box where you can make changes to the prompt to guide the variation.
 🔹 Clicking 🔄 will open a text box where you can adjust the prompt before submitting it again.
 
-[Read more about Remix](https://docs.midjourney.com/hc/en-us/articles/32799074515213-Remix)
+[Learn more about Remix](https://docs.midjourney.com/hc/en-us/articles/32799074515213-Remix)
 
 ---
 
@@ -854,7 +856,7 @@ The command `/describe` gives you four prompts inspired by your image.
 To use it, type `/describe`, select the command and click on:
 🔹`image` to upload an image from your device
 🔹`link` to paste the link to an image online
-[Read more about Describe and how to use it on the website](https://docs.midjourney.com/hc/en-us/articles/32497889043981-Describe)
+[Learn more about Describe and how to use it on the website](https://docs.midjourney.com/hc/en-us/articles/32497889043981-Describe)
 
 ---
 
@@ -863,7 +865,7 @@ To use it, type `/describe`, select the command and click on:
 Q: How to transfer an image to another channel? Can I move my image out of the newbies channel? Can I work with my old generations? My old generation is not responding to buttons? Can i upscale my old image from newbies channel? How to use /show? Show job?
 
 To transfer an image from the website to Discord, from one channel to another, or to “revive” a job you cannot interact with, use the [command `/show`](https://docs.midjourney.com/hc/en-us/articles/32635695384461-Show-Command) followed by the image’s job ID.
-To find the Job ID, open the image in [your archive](https://midjourney.com/archive). In the menu, click on `Copy` > `Job ID`.
+To find the Job ID, open the image in your [Organize tab](https://midjourney.com/archive). In the menu, click on `Copy` > `Job ID`.
 
 %image=https://cdn.midjourney.com/u/d6f915c1-a3b1-425d-9934-3fb714cd8b7b/1f95af2fa68b8b8840fe63c114f7ef352a6d9273c7c4684b07f773f41f917844.png
 
@@ -876,9 +878,9 @@ Q: How can I delete an image? How to delete images from my feed? How can I remov
 Hide your generation in your gallery by reacting to it with the :x: emoji, or through the menu by right-clicking (or long tap on mobile) > Apps > Cancel Job
 This will delete it from Discord, and remove it from your `Organize` page on the website.
 
-**Note:** Hidden images and videos remain visible to other users on the website, unless you have [Stealth mode](https://docs.midjourney.com/hc/en-us/articles/32019750070669-Stealth-Mode) and unpublish them.
+**Note:** Hidden images and videos remain visible to other users on the website, unless you have [Stealth mode](https://docs.midjourney.com/hc/en-us/articles/32019750070669-Stealth-Mode) and make them private.
 
-[Read more about Organizing your gallery](https://docs.midjourney.com/hc/en-us/articles/33329462451469-Organizing-Your-Creations#h_01JHP66YYRKF988ABQBHXMFJ3K)
+[Learn more about Organizing your gallery](https://docs.midjourney.com/hc/en-us/articles/33329462451469-Organizing-Your-Creations#h_01JHP66YYRKF988ABQBHXMFJ3K)
 
 ---
 
@@ -886,7 +888,7 @@ Q: :x: does not work to delete? :x: does not delete? The :x: reaction does not w
 
 If the :x: emoji reaction does not work, you can instead right click the image (or long tap on mobile), select `Apps` and click `Cancel Job`.
 
-**Note:** :x: removes the generation from Discord, and hides it from you on the Midjourney website. It remains visible to other users on the website, unless you have [Stealth mode](https://docs.midjourney.com/hc/en-us/articles/32019750070669-Stealth-Mode) and unpublish them.
+**Note:** :x: removes the generation from Discord, and hides it from you on the Midjourney website. It remains visible to other users on the website, unless you have [Stealth mode](https://docs.midjourney.com/hc/en-us/articles/32019750070669-Stealth-Mode) and make them private.
 
 ---
 
@@ -955,7 +957,7 @@ Q: Quality Buttons Disappeared from Settings? Quality Buttons? Quality Buttons G
 
 If you wish to lower the quality parameter or use higher values on older versions, you can use the quality parameter in your prompt or set a [custom suffix](https://docs.midjourney.com/hc/en-us/articles/32868982949517-Creation-Settings-in-Discord) to automatically add a custom quality parameter.
 
-[Read more about the Quality parameter](https://docs.midjourney.com/hc/en-us/articles/32176522101773-Quality)
+[Learn more about the Quality parameter](https://docs.midjourney.com/hc/en-us/articles/32176522101773-Quality)
 
 ---
 
@@ -965,7 +967,7 @@ The `--quality` parameter (`--q`) changes how much time is spent generating an i
 In Version 7, you can use the following values: `1`, `2` and `4`. The default value is 1.
 For example: `Blurry glitch art of a bat --q 2`
 
-[Read more about the Quality parameter](https://docs.midjourney.com/hc/en-us/articles/32176522101773-Quality)
+[Learn more about the Quality parameter](https://docs.midjourney.com/hc/en-us/articles/32176522101773-Quality)
 
 ---
 
@@ -978,7 +980,7 @@ The default value of the `--stylize` parameter is 100. You can adjust it by addi
 🔹Lower values will follow your prompt closely.
 🔹Higher values give the bot more freedom to interpret the prompt but may dismiss some specifics.
 
-[Read more about the Stylize parameter](https://docs.midjourney.com/hc/en-us/articles/32196176868109-Stylize)
+[Learn more about the Stylize parameter](https://docs.midjourney.com/hc/en-us/articles/32196176868109-Stylize)
 
 **Are you on the [Midjourney website](https://www.midjourney.com/imagine)?** [Click here to learn how to navigate the Create Page](https://docs.midjourney.com/hc/en-us/articles/33390732264589-Creating-on-Web)
 
@@ -992,7 +994,7 @@ Similar to how a photographer captures a raw image and then edits it to reflect 
 
 **Note:** The less influence Midjourney's aesthetic has, the more important your prompt becomes. Make sure your prompt is a detailed and specific visual description of the image you want.
 
-[Read more about Raw mode](https://docs.midjourney.com/hc/en-us/articles/32634113811853-Raw-Mode)
+[Learn more about Raw mode](https://docs.midjourney.com/hc/en-us/articles/32634113811853-Raw-Mode)
 
 ---
 
@@ -1002,7 +1004,7 @@ Q: What is chaos? What is –c? Why do I see prompts with s and c in them? What 
 
 The '--chaos' or '--c' parameter affects how different the images are from each other in the initial grid. The value goes from 0 to 100, 0 being the default.
 
-[Read more about the Chaos parameter](https://docs.midjourney.com/hc/en-us/articles/32099348346765-Chaos-Variety)
+[Learn more about the Chaos parameter](https://docs.midjourney.com/hc/en-us/articles/32099348346765-Chaos-Variety)
 
 **Are you on the [Midjourney website](https://www.midjourney.com/imagine)?** [Click here to learn how to navigate the Create Page](https://docs.midjourney.com/hc/en-us/articles/33390732264589-Creating-on-Web)
 
@@ -1014,7 +1016,7 @@ Q: Can I make a seamless pattern? Tile? What is the tile parameter? How to creat
 
 Use the `--tile` parameter at the end of your prompt to create images which can be used as a seamless tile pattern.
 
-[Read more about the Tile parameter](https://docs.midjourney.com/hc/en-us/articles/32197978340109-Tile)
+[Learn more about the Tile parameter](https://docs.midjourney.com/hc/en-us/articles/32197978340109-Tile)
 
 ---
 
@@ -1028,7 +1030,7 @@ For example: `A hedgehog drinking coffee --oref https://pic.png`
 **Note:** It only works with [Version 7](https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version#h_01JQSR0Q6H0AX8NCC8QGE6C2NZ).
 If you’re not in Relax mode, jobs with an Omni Reference run in Turbo mode, which consumes double the GPU time.
 
-[Read more about the Omni Reference parameter and how to use it on the website](https://docs.midjourney.com/hc/en-us/articles/36285124473997-Omni-Reference)
+[Learn more about the Omni Reference parameter and how to use it on the website](https://docs.midjourney.com/hc/en-us/articles/36285124473997-Omni-Reference)
 
 ---
 
@@ -1038,7 +1040,7 @@ The omni weight parameter `--ow` adjusts how much information is used in your om
 
 The default value of the `--ow` parameter is 100. You can adjust it by adding the `--ow` parameter at the end of your prompt with a value from 0 to 1000.
 
-[Read more about the Omni Reference parameter and how to use it on the website](https://docs.midjourney.com/hc/en-us/articles/36285124473997-Omni-Reference)
+[Learn more about the Omni Reference parameter and how to use it on the website](https://docs.midjourney.com/hc/en-us/articles/36285124473997-Omni-Reference)
 
 ---
 
@@ -1049,7 +1051,7 @@ In [Version 7](https://docs.midjourney.com/hc/en-us/articles/32199405667853-Vers
 To use an image as an Omni Reference, add the `--oref` parameter at the end of your prompt, followed by a space and a link to your image.
 
 **Note:** It is not compatible with previous versions so make sure to use Version 7.
-[Read more about the Omni Reference parameter and how to use it on the website](https://docs.midjourney.com/hc/en-us/articles/36285124473997-Omni-Reference)
+[Learn more about the Omni Reference parameter and how to use it on the website](https://docs.midjourney.com/hc/en-us/articles/36285124473997-Omni-Reference)
 
 ---
 
@@ -1063,7 +1065,7 @@ For example: `Short blond man holding a puppy --cref https://pic1.png https://pi
 
 **Note: Character references only work in Version 6.0 and 6.1**. In [Version 7](https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version#h_01JQSR0Q6H0AX8NCC8QGE6C2NZ), use the [Omni Reference](https://docs.midjourney.com/hc/en-us/articles/36285124473997-Omni-Reference) parameter `--oref`.
 
-[Read more about the Character Reference parameter and how to use it on the website](https://docs.midjourney.com/hc/en-us/articles/32162917505293-Character-Reference)
+[Learn more about the Character Reference parameter and how to use it on the website](https://docs.midjourney.com/hc/en-us/articles/32162917505293-Character-Reference)
 
 ---
 
@@ -1073,7 +1075,7 @@ The `--cref` parameter is used in a prompt, followed by one or more image links,
 
 **Note: Character references only work in Version 6.0 and 6.1**. In [Version 7](https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version#h_01JQSR0Q6H0AX8NCC8QGE6C2NZ), use the [Omni Reference](https://docs.midjourney.com/hc/en-us/articles/36285124473997-Omni-Reference) parameter `--oref`.
 
-[Read more about the Character Reference parameter and how to use it on the website](https://docs.midjourney.com/hc/en-us/articles/32162917505293-Character-Reference)
+[Learn more about the Character Reference parameter and how to use it on the website](https://docs.midjourney.com/hc/en-us/articles/32162917505293-Character-Reference)
 
 ---
 
@@ -1083,7 +1085,7 @@ The character weight parameter `--cw` adjusts how much information is used in yo
 
 `--cw 100` is the default and maximum value; it uses all of the information, from head to toe. Lowering the value gradually shifts focus from the full body to the face.
 
-[Read more about the Character Reference parameter and how to use it on the website](https://docs.midjourney.com/hc/en-us/articles/32162917505293-Character-Reference)
+[Learn more about the Character Reference parameter and how to use it on the website](https://docs.midjourney.com/hc/en-us/articles/32162917505293-Character-Reference)
 
 ---
 
@@ -1096,7 +1098,7 @@ For example: `Yellow ghost and pirate alien --sref https://pic1.png https://pic2
 
 **Note:** You can also use the style reference parameter with a number; each number represents a different random style. For example: `happy firefighter squid --sref 483`
 
-[Read more about the Style Reference parameter and how to use it on the website](https://docs.midjourney.com/hc/en-us/articles/32180011136653-Style-Reference)
+[Learn more about the Style Reference parameter and how to use it on the website](https://docs.midjourney.com/hc/en-us/articles/32180011136653-Style-Reference)
 
 ---
 
@@ -1104,7 +1106,7 @@ Q: What is sref? What is the sref parameter? What does sref do? What does the sr
 
 The `--sref` parameter is used in a prompt, followed by one or more image links, to add a **style reference**. You can also add numbers; each number has been randomly assigned a style.
 
-[Read more about the Style Reference parameter and how to use it on the website](https://docs.midjourney.com/hc/en-us/articles/32180011136653-Style-Reference)
+[Learn more about the Style Reference parameter and how to use it on the website](https://docs.midjourney.com/hc/en-us/articles/32180011136653-Style-Reference)
 
 ---
 
@@ -1132,7 +1134,7 @@ Q: Can I use someone else's personal style parameter? Can I use someone else's -
 When you use the Personalize parameter `--p`, your unique personal code is automatically added after it. You can share this code with other members as well as try one of their codes by pasting it after `--p`.
 
 **Note:** On Discord, you can also tag a user after `--p`, it will automatically turn into their personal code.
-[Read more about the Personalize parameter](https://docs.midjourney.com/hc/en-us/articles/32433330574221-Personalization)
+[Learn more about the Personalize parameter](https://docs.midjourney.com/hc/en-us/articles/32433330574221-Personalization)
 
 ---
 
@@ -1217,7 +1219,7 @@ You can use multiple image links, just make sure to have a space between each li
 
 Q: How do I upload an image? Can I send images to the AI? Is there a way to upload a photo? Is there a way to upload an image? Upload image? Can it generate something similar to an image I give to it? Can the AI generate something similar to an image I give to it?
 
-Send an image on Discord, click on it, and copy the media/image's link. You can then paste the link into your prompt to use it as an [image prompt](https://docs.midjourney.com/hc/en-us/articles/32040250122381-Image-Prompts), a [style reference](https://docs.midjourney.com/hc/en-us/articles/32180011136653-Style-Reference)  and/or a [character reference](https://docs.midjourney.com/hc/en-us/articles/32162917505293-Character-Reference).
+Send an image on Discord, click on it, and copy the media/image's link. You can then paste the link into your prompt to use it as an [image prompt](https://docs.midjourney.com/hc/en-us/articles/32040250122381-Image-Prompts), a [style reference](https://docs.midjourney.com/hc/en-us/articles/32180011136653-Style-Reference), a [character reference](https://docs.midjourney.com/hc/en-us/articles/32162917505293-Character-Reference) or a [starting point for a video](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video).
 
 If you want to upload an image and edit it using Midjourney, this is only possible through the website's [Editor](https://www.midjourney.com/editor/new).
 
@@ -1250,7 +1252,6 @@ You can use multiple image links, just make sure to have a space between each li
 
 **Do you want Midjourney to edit your own image?** This is only possible through the website's [Editor](https://www.midjourney.com/editor/new).
 
-
 **Are you on the [Midjourney website](https://www.midjourney.com/imagine)?** [Click here to learn how to use images](https://docs.midjourney.com/hc/en-us/articles/32040250122381-Image-Prompts)
 
 ---
@@ -1276,7 +1277,7 @@ Q: Is there a max iw? What’s the max iw? What is the max image weight? Is ther
 
 The maximum value for the image weight parameter `--iw` is 3.
 
-[Read more about Image Prompts](https://docs.midjourney.com/hc/en-us/articles/32040250122381-Image-Prompts)
+[Learn more about Image Prompts](https://docs.midjourney.com/hc/en-us/articles/32040250122381-Image-Prompts)
 
 ---
 
@@ -1284,7 +1285,7 @@ Q: Is there a way to mix two images. Can I combine images? Can I blend images?
 
 Use the command `/blend` to mix two or more images together.
 
-[Read more about Blend](https://docs.midjourney.com/hc/en-us/articles/32635189884557-Blend-Images-on-Discord)
+[Learn more about Blend](https://docs.midjourney.com/hc/en-us/articles/32635189884557-Blend-Images-on-Discord)
 
 **Are you on the [Midjourney website](https://www.midjourney.com/imagine)?** [Click here to learn how to use images](https://docs.midjourney.com/hc/en-us/articles/32040250122381-Image-Prompts)
 
@@ -1308,7 +1309,7 @@ In this example: `space:: ship::2`
 The prompt `space` has the default weight value of 1 while the prompt `ship` has a weight value of 2, giving it twice as much influence.
 
 **Note:** Multi-prompts work with model Versions 1, 2, 3, 4, Niji 4, 5, Niji 5, 6, Niji 6, and 6.1.
-[Read more about Multi-Prompts](https://docs.midjourney.com/hc/en-us/articles/32658968492557-Multi-Prompts-Weights)
+[Learn more about Multi-Prompts](https://docs.midjourney.com/hc/en-us/articles/32658968492557-Multi-Prompts-Weights)
 
 ---
 
@@ -1345,7 +1346,7 @@ Q: What is the length limit for prompts? How long of a prompt can I write? Is th
 
 Different versions of Midjourney have different limits. The current model, Version 7, is much better at understanding prompts, similarly to natural language. You can type a single word, emoji or character but you can also input full sentences, it’s up to you!
 
-[Read more about prompts](https://docs.midjourney.com/hc/en-us/articles/32023408776205-Prompt-Basics)
+[Learn more about prompts](https://docs.midjourney.com/hc/en-us/articles/32023408776205-Prompt-Basics)
 
 ---
 
@@ -1357,7 +1358,7 @@ The default value of the `--stylize` parameter is 100. You can adjust it by addi
 🔹 Lower values will follow your prompt closely.
 🔹 Higher values give the bot more freedom to interpret the prompt but may dismiss some specifics.
 
-[Read more about the Stylize parameter](https://docs.midjourney.com/hc/en-us/articles/32196176868109-Stylize)
+[Learn more about the Stylize parameter](https://docs.midjourney.com/hc/en-us/articles/32196176868109-Stylize)
 
 ---
 
@@ -1377,7 +1378,7 @@ Add the `--no` parameter followed by a space and a list of elements you do not w
 For example: `a bowl of fruits --no citrus, table`
 
 **Note:** The bot will try to exclude each individual word in your list. So avoid elements which include `clothes` or `clothing`.
-[Read more about the No parameter](https://docs.midjourney.com/hc/en-us/articles/32173351982093-No)
+[Learn more about the No parameter](https://docs.midjourney.com/hc/en-us/articles/32173351982093-No)
 
 ---
 
@@ -1385,10 +1386,10 @@ For example: `a bowl of fruits --no citrus, table`
 
 Q: How do I get the seed that was used for an image? No seed? Seed on upscale? Only grid seed? I can not get the seed? Can’t get the seed number? How can I find the seed? How do I retrieve the seed number of an image? How do I get the seed of an image? Where to find seed? Where is seed? How do i get seed number?
 
-To find an image’s seed number, open your image in [your archive](https://www.midjourney.com/archive) and in the image menu, click on `Copy` > `Seed`.
+To find an image’s seed number, open your image in your [Organize tab](https://www.midjourney.com/archive) and in the image menu, click on `Copy` > `Seed`.
 You can only copy the seed of your own images. You can only copy the seed of an initial grid image.
 
-**Note:** Seeds are not reliable and change over time. They have no effect on character consistency. [Read more about seeds](https://docs.midjourney.com/hc/en-us/articles/32604356340877-Seeds)
+**Note:** Seeds are not reliable and change over time. They have no effect on character consistency. [Learn more about seeds](https://docs.midjourney.com/hc/en-us/articles/32604356340877-Seeds)
 
 [Learn more about navigating image options](https://docs.midjourney.com/hc/en-us/articles/33390732264589-Creating-on-Web#h_01JHRA6416RDGTG5HCB5R9JFVS)
 
@@ -1400,10 +1401,10 @@ Q: When I react with the envelope nothing happens, I don’t get the seed?
 
 Right-click the Midjourney server icon > Privacy Settings > check if `Direct Messages` is green. If it’s already enabled, toggle it off and on again.
 
-You can also find the seed number on the Midjourney website instead: open your image in [your archive](https://www.midjourney.com/archive) and in the image menu, click on `Copy` > `Seed`.
+You can also find the seed number on the Midjourney website instead: open your image in your [Organize tab](https://www.midjourney.com/archive) and in the image menu, click on `Copy` > `Seed`.
 You can only copy the seed of your own images. You can only copy the seed of an initial grid image.
 
-**Note:** Seeds are not reliable and change over time. They have no effect on character consistency. [Read more about seeds](https://docs.midjourney.com/hc/en-us/articles/32604356340877-Seeds)
+**Note:** Seeds are not reliable and change over time. They have no effect on character consistency. [Learn more about seeds](https://docs.midjourney.com/hc/en-us/articles/32604356340877-Seeds)
 
 %image=https://cdn.discordapp.com/attachments/1259116844430655488/1259121654534111242/HowToDM.gif
 
@@ -1415,10 +1416,10 @@ Each set of four images made in Midjourney uses a random seed number as a starti
 Use the `--seed` parameter, with a value between 0 and 4294967295, to give the bot a specific starting point.
 If you use the same seed and prompt as another image, the bot will produce an identical or very similar set of four images. This is useful when using similar prompts to test how the changes affect the result.
 
-To find an image’s seed number, open your image in [your archive](https://www.midjourney.com/archive) and in the image menu, click on `Copy` > `Seed`. You can only copy the seed of your own images.
+To find an image’s seed number, open your image in your [Organize tab](https://www.midjourney.com/archive) and in the image menu, click on `Copy` > `Seed`. You can only copy the seed of your own images.
 
 **Note:** Seeds are not reliable and change over time. They have no effect on character consistency.
-[Read more about seeds](https://docs.midjourney.com/hc/en-us/articles/32604356340877-Seeds)
+[Learn more about seeds](https://docs.midjourney.com/hc/en-us/articles/32604356340877-Seeds)
 
 ---
 
@@ -1432,7 +1433,7 @@ In this example: `/imagine prompt: a baby red panda --stop 50`
 The grid will stop halfway (50%) through the process, resulting in a softer, less detailed image.
 
 **Note:** The stop parameter works with model Versions 1, 2, 3, 4, Niji 4, 5, Niji 5, 6, Niji 6, and 6.1. It does not work when upscaling an image.
-[Read more about the Stop parameter](https://docs.midjourney.com/hc/en-us/articles/32602768934925-Stop)
+[Learn more about the Stop parameter](https://docs.midjourney.com/hc/en-us/articles/32602768934925-Stop)
 
 ---
 
@@ -1453,7 +1454,7 @@ Use Permutations to change part of the prompt in each job. List your different v
 For example: `a {happy,sad} penguin` will run two jobs; one with the prompt `a happy penguin` and another with `a sad penguin`.
 
 The maximum number of jobs you can submit at once depends on your subscription tier; 4 with Basic, 10 with Standard, 40 with Pro and Mega.
-[Read more about Permutations](https://docs.midjourney.com/hc/en-us/articles/32761322355597-Permutations)
+[Learn more about Permutations](https://docs.midjourney.com/hc/en-us/articles/32761322355597-Permutations)
 
 **Note:** Using other tools to run prompts or automate Midjourney in any way is strictly prohibited by the [Terms of Service](https://docs.midjourney.com/docs/terms-of-service) and will result in a permanent ban.
 
@@ -1465,7 +1466,7 @@ Use the Repeat parameter `--r` to run the same job multiple times.
 For example: `a happy penguin --r 3` will create 3 different grids with the same prompt.
 
 The maximum number of jobs you can submit at once depends on your subscription tier; 4 with Basic, 10 with Standard, 40 with Pro and Mega.
-[Read more about the Repeat parameter](https://docs.midjourney.com/hc/en-us/articles/32757107922061-Repeat)
+[Learn more about the Repeat parameter](https://docs.midjourney.com/hc/en-us/articles/32757107922061-Repeat)
 
 **Note:** Using other tools to run prompts or automate Midjourney in any way is strictly prohibited by the [Terms of Service](https://docs.midjourney.com/docs/terms-of-service) and will result in a permanent ban.
 
@@ -1484,7 +1485,7 @@ Q: What is the Style Tuner? Style Tuner?
 The Style Tuner was a feature in Version 5.2. While you cannot generate new ones, you can continue using codes you previously made. Use the command `/list_tuners` to view all the style tuners you’ve made.
 New versions have more features and options to get specific styles. [You can explore more about them in our documentation.](https://docs.midjourney.com/hc/en-us/articles/32180011136653-Style-Reference)
 
-[Read more about the Style Tuner](https://docs.midjourney.com/hc/en-us/articles/33329788681101-Legacy-Features#h_01JHKCCT80N011NG85Y2RB1Z0Q)
+[Learn more about the Style Tuner](https://docs.midjourney.com/hc/en-us/articles/33329788681101-Legacy-Features#h_01JHKCCT80N011NG85Y2RB1Z0Q)
 
 ---
 
@@ -1509,7 +1510,7 @@ Yes, you can generate videos with Midjourney!
 
 **Note:** Make sure you have a space after your image link, and before your parameter.
 Activate `Remix mode` in your </settings:1000850743479255081> to edit the prompt when clicking `Animate`.
-[Read more about creating Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video)
+[Learn more about creating Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video)
 
 ---
 
@@ -1520,7 +1521,7 @@ Q: How can I make videos? How do you make videos? How to generate a video? I am 
 
 **Note:** Make sure you have a space after your image link, and before your parameter.
 Activate `Remix mode` in your </settings:1000850743479255081> to edit the prompt when clicking `Animate`.
-[Read more about creating Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video)
+[Learn more about creating Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video)
 
 ---
 
@@ -1532,7 +1533,7 @@ For example: `https://pic1.png the cat hides behind the penguin --video`
 Not sure how to get a link for your image? [Check out our step by step guide](https://docs.midjourney.com/hc/en-us/articles/32558957919117-Hosting-Images-on-Discord)
 
 **Note:** Make sure you have a space after your image link, and before your parameter.
-[Read more about creating Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video)
+[Learn more about creating Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video)
 
 ---
 
@@ -1541,7 +1542,7 @@ Q: Can I animate with no text?
 Yes! A text prompt is optional when animating an image.
 For example: `https://pic1.png --video`
 
-[Read more about creating Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video)
+[Learn more about creating Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video)
 
 ---
 
@@ -1555,7 +1556,7 @@ Q: How do I give instructions to Animate? Can I change the prompt when I click o
 
 To guide the animation, you can add a text description to your video prompt. Activate `Remix mode` in your </settings:1000850743479255081> to edit the prompt when clicking `Animate`.
 
-[Read more about creating Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video)
+[Learn more about creating Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video)
 
 ---
 
@@ -1564,7 +1565,7 @@ Q: How do you make videos of 10 seconds and not 5 seconds? What is the maximum l
 Animating an image generates a **5-second video**. Open the video and click the `Extend` buttons to add 4 more seconds. You can do this up to four times, so the maximum video length is **21 seconds** (5 + 4 + 4 + 4 + 4).
 
 **Note:** Each extension creates a set of 4 videos and consumes about 8 GPU minutes (in Standard Definition).
-[Read more about extending Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01JXWQAEH49B5MDC343ZXZT1MY)
+[Learn more about extending Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01JXWQAEH49B5MDC343ZXZT1MY)
 
 ---
 
@@ -1572,7 +1573,7 @@ Q: Can I change the prompt when extending a video?
 
 Activate `Remix mode` in your </settings:1000850743479255081> to edit the prompt when clicking `Extend`.
 
-[Read more about creating Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video)
+[Learn more about creating Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video)
 
 ---
 
@@ -1590,7 +1591,7 @@ Add the `--loop` parameter at the end of your video prompt for your video to end
 For example: `https://pic1.png a dancing pirate --video --loop`
 
 **Note:** Activate `Remix mode` in your </settings:1000850743479255081> to edit the prompt and add the `--loop` parameter when clicking `Animate`.
-[Read more about Looping Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01K0SV3TN33ZQ8T6F1EA03P56K)
+[Learn more about Looping Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01K0SV3TN33ZQ8T6F1EA03P56K)
 
 ---
 
@@ -1602,7 +1603,7 @@ For example: `https://pic1.png a dancing pirate --video --loop`
 You can then download the video as a gif in your [Organize](https://www.midjourney.com/archive) tab on the website. To do so, right click on the video and pick `Download as GIF`.
 
 **Note:** Activate `Remix mode` in your </settings:1000850743479255081> to edit the prompt and add the `--loop` parameter when clicking `Animate`.
-[Read more about Looping Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01K0SV3TN33ZQ8T6F1EA03P56K)
+[Learn more about Looping Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01K0SV3TN33ZQ8T6F1EA03P56K)
 
 ---
 
@@ -1611,7 +1612,7 @@ Q: How do I set an end frame for video? Can I use an end frame?
 When generating a video, add the parameter `--end` followed by a link to your end frame image.
 For example: `https://pic1.png the floor becomes lava --video --end https://pic2.png`
 
-[Read more about End Frames](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01K0SV3TN33ZQ8T6F1EA03P56K)
+[Learn more about End Frames](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01K0SV3TN33ZQ8T6F1EA03P56K)
 
 ---
 
@@ -1623,7 +1624,7 @@ Videos use the Speed and Visibility mode from your </settings:100085074347925508
 
 By default, the animation will use [`Low Motion`](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01JXZPK87W40NJP60VAR453XBZ). Add the parameter `--motion high` for more movement.
 
-[Read more about creating Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video)
+[Learn more about creating Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video)
 
 ---
 
@@ -1636,7 +1637,7 @@ On the [website](https://www.midjourney.com/imagine):
 
 On Discord, activate `Remix mode` in your </settings:1000850743479255081> to edit your prompt.
 
-[Read more about creating Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01JXN2Y764ZKTX1P9MTCVMTFF6)
+[Learn more about creating Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01JXN2Y764ZKTX1P9MTCVMTFF6)
 
 ---
 
@@ -1646,7 +1647,7 @@ Q: What’s the difference between low motion and high motion? Low or high motio
 🔹 Use `High Motion` for more **dynamic** movement and camera motion.
 
 **Note:** By default, videos use Low Motion. On Discord, add the parameter `--motion high` for more movement.
-[Read more about Video Motion](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01JXZPK87W40NJP60VAR453XBZ)
+[Learn more about Video Motion](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01JXZPK87W40NJP60VAR453XBZ)
 
 ---
 
@@ -1660,7 +1661,7 @@ You can now generate videos on Discord!
 
 **Note:** Make sure you have a space after your image link, and before your parameter.
 Activate `Remix mode` in your </settings:1000850743479255081> to edit the prompt when clicking `Animate`.
-[Read more about creating Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video)
+[Learn more about creating Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video)
 
 
 ---
@@ -1671,7 +1672,7 @@ Q: I don't see the "Animate" button?
 
 🔹 On the website: Make sure to log in with your subscribed **Discord** account to animate your images.
 
-[Read more about creating Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video)
+[Learn more about creating Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video)
 
 ---
 
@@ -1696,7 +1697,7 @@ You can generate videos on the website:
 🔹 To animate a **generated image**, open it in your [Organize](https://www.midjourney.com/archive) tab and click a button in the `Animate Image` section.
 🔹 To animate **your own image**, upload it in the `Imagine` bar as a `Starting Frame`.
 
-[Read more about creating Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video)
+[Learn more about creating Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video)
 %image=https://cdn.midjourney.com/u/ff03153e-6e8a-48b4-87d0-5acd0a123688/caa4209d5efaf5afd8359a10b0d1afcae9890d9ec43c271ce98024a57d50c606.png
 
 ---
@@ -1707,7 +1708,7 @@ On the website, you can set a Start frame and End frame in the `Imagine` bar:
 🔹 To animate a **generated image**, open it in your [Organize](https://www.midjourney.com/archive) tab and click `Animate Manually`. You can now add an End frame in the `Imagine` bar.
 🔹 To use **your own images**, upload an image in the `Imagine` bar as a `Starting Frame`, then add one in the `Ending Frame` section.
 
-[Read more about End Frames](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01K0SV3TN33ZQ8T6F1EA03P56K)
+[Learn more about End Frames](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01K0SV3TN33ZQ8T6F1EA03P56K)
 %image=https://cdn.midjourney.com/u/ff03153e-6e8a-48b4-87d0-5acd0a123688/fefe1fa129a253bb684b0bcb07d8a7e2d4b3d7c35e19f84cd7dc52d290c59879.png
 
 ---
@@ -1718,7 +1719,7 @@ You can create looping videos on the website as well:
 🔹 To loop an animation of a **generated image**, open it in your [Organize](https://www.midjourney.com/archive) tab and press one of the `Loop` buttons.
 🔹 To loop an animation of **your own image**, upload it in the `Imagine` bar as a `Starting Frame` and check the `Loop` box in the `Ending Frame` section.
 
-[Read more about Looping Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01K0SV3TN33ZQ8T6F1EA03P56K)
+[Learn more about Looping Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01K0SV3TN33ZQ8T6F1EA03P56K)
 
 ---
 
@@ -1738,7 +1739,7 @@ Q: How many fast minutes are used for a video render? How much GPU time does a v
 You can use the [Batch Size parameter](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01K2J07NWY2CTEWHAVCAPQJFZV) to run smaller sets of videos.
 
 **Note:** HD videos are not available on the Basic plan.
-[Read more about Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video)
+[Learn more about Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video)
 %image=https://cdn.midjourney.com/u/ff03153e-6e8a-48b4-87d0-5acd0a123688/f5397e92e787c4fa1cca2ca8dd1a8b65159d6e67f99272d840f4ac5bea7b1216.png
 
 ---
@@ -1762,8 +1763,8 @@ Each set of 4 [Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864
 Q: How many videos can we get in a month? How many videos per month?
 
 Generating a set of 4 [Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video) in Standard Definition consumes about 8 GPU minutes.
-🔹 On Basic, 200 GPU minutes can generate about 25 sets of 4 videos.
-🔹 On Standard, 15 GPU hours can generate about 112 sets of 4 videos.
+🔹 On Basic, 200 GPU minutes can generate about 25 sets of 4 SD videos.
+🔹 On Standard, 15 GPU hours can generate about 112 sets of 4 SD videos.
 Users with a Pro or Mega subscription can generate SD videos unlimitedly in Relax mode.
 
 **Note:** You can use the [Batch Size parameter](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01K2J07NWY2CTEWHAVCAPQJFZV) to run smaller sets of videos.
@@ -1784,7 +1785,7 @@ You can add the parameter `--bs` followed by a space and the value 1, 2 or 4 to 
 On the website, you'll find these options in your Settings, in the `More options` section.
 
 **Note:** While we recommend using the default size of 4, a smaller batch is a good way to save your GPU time.
-[Read more about Batch Size for Video](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01K2J07NWY2CTEWHAVCAPQJFZV)
+[Learn more about Batch Size for Video](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01K2J07NWY2CTEWHAVCAPQJFZV)
 %image=https://cdn.midjourney.com/u/ff03153e-6e8a-48b4-87d0-5acd0a123688/f5397e92e787c4fa1cca2ca8dd1a8b65159d6e67f99272d840f4ac5bea7b1216.png
 
 ---
@@ -1799,7 +1800,7 @@ In Fast mode, users can generate videos in High Definition (720p). Each set of 4
 To generate High Definition videos on the website, select “HD” in your settings.
 
 **Note:** HD videos are not available on the Basic plan.
-[Read more about Video Output](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01JXZZK6WR94XMKM9GXH2Y4XXQ)
+[Learn more about Video Output](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01JXZZK6WR94XMKM9GXH2Y4XXQ)
 
 %image=https://cdn.midjourney.com/u/d6f915c1-a3b1-425d-9934-3fb714cd8b7b/d628c4be484dc1bfd81aa17f42c1a070946f4bf74f4ea9c15ff47199524d6860.png
 
@@ -1812,7 +1813,7 @@ By default, videos are generated in Standard Definition (480p).The details are q
 In Fast mode, users can generate videos in High Definition (720p). Each set of 4 HD videos consumes about 26 GPU minutes:exclamation:
 
 **Note:** HD videos are not available on the Basic plan.
-[Read more about Video Output](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01JXZZK6WR94XMKM9GXH2Y4XXQ)
+[Learn more about Video Output](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01JXZZK6WR94XMKM9GXH2Y4XXQ)
 
 ---
 
@@ -1910,7 +1911,7 @@ Q: Ephemeral? What are ephemeral jobs? Why do my jobs disappear from Discord? My
 
 Some jobs may be temporary on Discord when using certain words or phrases in your prompt. The images are only visible to you and disappear when you close, refresh, or switch Discord pages. If the job is ephemeral, you’ll see the text `Only you can see this` at the bottom of the bot's message.
 
-Don't worry, all these images are in [your archive](https://www.midjourney.com/archive) on the Midjourney website. To bring them back on Discord:
+Don't worry, all these images are in your [Organize tab](https://www.midjourney.com/archive) on the Midjourney website. To bring them back on Discord:
 1️⃣ Open the image in the [Organize](https://www.midjourney.com/archive) tab on the website and copy the job ID.
 2️⃣ In Discord, type the [command `/show`](https://docs.midjourney.com/hc/en-us/articles/32635695384461-Show-Command) and paste the job ID.
 
@@ -1933,7 +1934,7 @@ Participate in our <#992207085146222713> community to discuss prompts with other
 Q: Why can’t I make a very realistic result? I ask for realistic but it doesn’t look real? How to make realistic?
 
 If you want an image which looks like a picture, make sure to prompt for a `photo`, or `photography` and use photographic terms. **Do not** use words such as `realistic` or `3D`.
-[Click here for more tips on how to create photographs](https://discord.com/channels/662267976984297473/1038487355360804985/1038487355360804985)
+[Learn more tips on how to create photographs](https://discord.com/channels/662267976984297473/1038487355360804985/1038487355360804985)
 
 Participate in our <#992207085146222713> community to discuss prompts with other users.
 
@@ -2091,7 +2092,7 @@ The values range from 0 to 1000, and the default value is 100.
 🔹 Lower values will follow your prompt closely.
 🔹 Higher values give the bot more freedom to interpret the prompt but may dismiss some specifics.
 
-[Read more about the Stylize parameter](https://docs.midjourney.com/hc/en-us/articles/32196176868109-Stylize)
+[Learn more about the Stylize parameter](https://docs.midjourney.com/hc/en-us/articles/32196176868109-Stylize)
 
 **Are you on the [Midjourney website](https://www.midjourney.com/imagine)?** [Click here to learn how to navigate the Create Page](https://docs.midjourney.com/hc/en-us/articles/33390732264589-Creating-on-Web)
 
@@ -2369,7 +2370,7 @@ Q: What’s the refund policy?
 
 You're eligible for a refund only if you've used less than 20 GPU minutes throughout the **lifetime** of your account. This includes both Fast/Turbo and Relax time.
 
-[Read more about it here](https://docs.midjourney.com/hc/en-us/articles/25386088618253-Requesting-a-Refund)
+[Learn more about it here](https://docs.midjourney.com/hc/en-us/articles/25386088618253-Requesting-a-Refund)
 
 ---
 
@@ -2523,21 +2524,6 @@ Include your User ID which you can find on your [`Account Settings` page](https:
 
 # - GALLERY -
 
-Q: How do I search for someone on the website? How do I find a user’s page?
-
-Users who want to share a link to their gallery can find the link to their public gallery on their [`Account Settings` page](https://www.midjourney.com/profile-settings).
-Keep in mind you need an active subscription to view users’ images.
-
----
-
-Q: How do I get my gallery link to share with friends?
-
-Find the link to your public gallery on your [`Account Settings` page](https://www.midjourney.com/profile-settings).
-
-**Note:** Users must be logged into the website to browse your gallery.
-
----
-
 Q: Where is my gallery? Archive? Where is the archive? Where is my image gallery on the website? Where can I see all my images?
 
 Sign into the Midjourney website with your Discord account and click on [Organize](https://www.midjourney.com/archive) to find your gallery with all the images you’ve generated.
@@ -2551,6 +2537,166 @@ Go to the [Explore](https://www.midjourney.com/explore) page to discover public 
 
 ---
 
+# - PROFILE PAGE -
+
+Q: How do I go to my Midjourney profile? Where is my Midjourney profile? How to access my profile?
+
+Log into the [Midjourney website](https://www.midjourney.com/) and click your name in the bottom left corner to open your Profile page.
+
+Are you on mobile? Tap `Menu` in the bottom left, and then `Profile`.
+
+You can also find and click the link to your Public Profile on your [Account Settings page](https://www.midjourney.com/profile-settings).
+
+---
+
+Q: How would you follow my profile? How do I share my profile? How do I get my gallery link to share with friends? How do I get my profile link to share with friends?
+
+Get the link to your Public Profile through your [Account Settings page](https://www.midjourney.com/profile-settings).
+Users can then press the `+ Follow` button on your profile to add you to their following list.
+
+**Note:** Users must be logged into the website to browse your gallery.
+
+[Read more about Profile pages](https://docs.midjourney.com/hc/en-us/articles/41117938447629-Profiles)
+
+---
+
+Q: How do I search for someone on the website? How do I find a user’s page? How can I find the profile of someone I know?
+
+If a user has shared their Midjourney username with you, add it after `https://www.midjourney.com/@` to view their profile.
+For example: `https://www.midjourney.com/@insert_username_here`
+
+They can also get you their link from the [Account Settings page](https://www.midjourney.com/profile-settings).
+
+**Note:** You must be logged into the website to browse someone’s profile.
+
+---
+
+Q: How can I change my Midjourney username on my profile? How can I change my Midjourney username for my profile? How can I change the link to my Midjourney profile? How to choose a Midjourney username? How to customize my Midjourney username?
+
+Log into the [Midjourney website](https://www.midjourney.com/) and click your name in the bottom left corner to open your profile page.
+Next to your Display name, click the pencil icon to edit your username and more.
+
+Are you on mobile? Tap `Menu` in the bottom left, and then `Profile`.
+
+[Read more about customizing your Profile page](https://docs.midjourney.com/hc/en-us/articles/41117938447629-Profiles)
+
+---
+
+Q: My username is already taken by another user?
+
+Midjourney usernames are unique. Unfortunately, if a different user has claimed the username you would like, you'll need to choose a different unique username for your profile.
+
+**Note:** Midjourney and Discord usernames can be different from each other. There is no guarantee that your Discord username is available as a Midjourney username.
+
+---
+
+Q: What is the difference between username and display name?
+
+🔹 Your Midjourney **username** is your unique account's identifier. Add it after `midjourney.com/@` for a direct link to your profile.
+🔹 Your Midjourney **display name** is the name shown to others next to your images and messages on the Midjourney website. It does not need to be unique.
+
+**Note:** Midjourney and Discord usernames can be different from each other. Your profile uses your Midjourney username.
+[Read more about customizing your Profile page](https://docs.midjourney.com/hc/en-us/articles/41117938447629-Profiles)
+
+---
+
+Q: If I change my profile username, will it impact my Discord?
+
+A Midjourney username is separate from Discord and can be different from your Discord username. It does not change your credentials or affect your Discord account in any way.
+
+---
+
+Q: Which images show up in your public profile? What images show up on your Midjourney profile? Which generations show up in your public profile? What creations show up on your Midjourney profile? 
+
+All your public creations which aren't in your [Trash](https://docs.midjourney.com/hc/en-us/articles/33329462451469-Organizing-Your-Creations#h_01JHP66YYRKF988ABQBHXMFJ3K) are displayed in your profile's Archive.
+Right click an image or video to showcase it in the Spotlight section of your profile.
+
+[Read more about customizing your Profile page](https://docs.midjourney.com/hc/en-us/articles/41117938447629-Profiles)
+
+---
+
+Q: Do the images we put as a profile or banner become public? Are our profile or banner images public? Do the videos we put as a profile or banner become public? Are our profile or banner videos public? Do the creations we put as a profile or banner become public? Are our profile or banner public?
+
+If you spotlight a private creation, or use it as your profile or banner image/video, it becomes public.
+
+**Note:** If it's a grid image (not upscaled), all four grid images are published.
+
+[Read more about customizing your Profile page](https://docs.midjourney.com/hc/en-us/articles/41117938447629-Profiles)
+
+---
+
+Q: Does sharing an image on my profile show the prompt? Can users see the prompt of images we post on our profile? Does sharing a video on my profile show the prompt? Can users see the prompt of videos we post on our profile? Does sharing a creation on my profile show the prompt? Can users see the prompt of creations we post on our profile? 
+
+Your public jobs display the full prompt.
+
+**Note:** If you spotlight a private creation, or use it as your profile or banner image/video, it becomes public. 
+
+[Read more about customizing your Profile page](https://docs.midjourney.com/hc/en-us/articles/41117938447629-Profiles)
+
+---
+
+Q: Is there a way to bulk remove images so they don't show up on my profile?
+
+To remove certain creations from your profile, you can move them to your [Trash](https://docs.midjourney.com/hc/en-us/articles/33329462451469-Organizing-Your-Creations#h_01JHP66YYRKF988ABQBHXMFJ3K), or make them private if you have access to [Stealth mode](https://docs.midjourney.com/hc/en-us/articles/32019750070669-Stealth-Mode).
+
+In your [Organize tab](https://www.midjourney.com/archive), shift click and drag to select the creations you would like to remove. Next, right click your selection:
+🔹 Press `Trash` to hide them from yourself in your Organize tab, and from others on your profile.
+If they're public, users can still find and see them on the [Explore page](https://www.midjourney.com/explore?tab=top). You can find them again by enabling the `In Trash` filter. 
+🔹 Press `Make Private` to hide them from other users, both on your profile and on the [Explore page](https://www.midjourney.com/explore?tab=top). This feature is available with a Pro or Mega plan.
+
+[Learn more about how to organize your images](https://docs.midjourney.com/hc/en-us/articles/33329462451469-Organizing-Your-Creations#h_01JHP57GM2GHRFRQRP0ZNQ4423)
+
+---
+
+Q: How can I make my profile private? How do I opt out of the public profile? Can I keep my profile secret? How to keep a profile private? Is there an option to not make my profile public? Is there a way to set your profile as private?
+
+Midjourney users with [Stealth mode](https://docs.midjourney.com/hc/en-us/articles/32019750070669-Stealth-Mode) can make their generations private to exclude them from their profile and from the [Explore page](https://www.midjourney.com/explore?tab=top).
+
+**To make your public generations private:** Go to your [Organize tab](https://www.midjourney.com/archive), shift click and drag to select images and videos you want to make private, right click on one of them, and press `Make Private`.
+
+**Note:** This update allows you to customize your profile. Midjourney users have always had a public profile displaying their public creations.
+Any private generation excluded from your earlier profile remains private.
+
+[Read more about customizing your Profile page](https://docs.midjourney.com/hc/en-us/articles/41117938447629-Profiles)
+
+---
+
+Q: Have new profiles made everything public? Can I disable the new profile?
+
+Midjourney users have always had a public profile displaying their public creations.
+While there’s no option to disable it, users with [Stealth mode](https://docs.midjourney.com/hc/en-us/articles/32019750070669-Stealth-Mode) can make their generations private to exclude them from their profile and from the [Explore page](https://www.midjourney.com/explore?tab=top). This privacy setting has not changed; any private generation excluded from your earlier profile remains private.
+
+This update now allows you to customize your profile page, the link to it, and to curate what others see on it. It does not change the visibility of your creations, and customization is optional.
+
+[Read more about customizing your Profile page](https://docs.midjourney.com/hc/en-us/articles/41117938447629-Profiles)
+
+---
+
+Q: How can we change the profile banner? How can I change the profile banner? How do I change the profile image?
+
+1️⃣ Log into the [Midjourney website](https://www.midjourney.com/) and click your name in the bottom left corner to open your profile page.
+2️⃣ Next to your Display name, click the pencil icon to customize your profile.
+3️⃣ Click the pencil again on the image you'd like to change; it will show all the images and videos which fit the requirements.
+4️⃣ Select the one you want, confirm, and press the `Update` button to save it.
+
+Are you on mobile? Tap `Menu` in the bottom left, and then `Profile`.
+
+**Note:** The eligible creations must use Version 7 or Niji 6, and use at least a personalization code, a moodboard, or a style reference. Your profile cover must use a 1:1 square aspect ratio, and your banner must use an 11:3 aspect ratio.
+
+[Read more about customizing your Profile page](https://docs.midjourney.com/hc/en-us/articles/41117938447629-Profiles)
+
+---
+
+Q: Can I use a video for my banner? Can I use a video for my profile? Can I use a video on my profile?
+
+[Animate](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video) an image which meets the requirements to be a profile image or a banner image. You'll then be able to use the animation as a profile or banner gif.
+
+The image you animate must use Version 7 or Niji 6, and use at least a personalization code, a moodboard, or a style reference. Your profile cover must use a 1:1 square aspect ratio, and your banner must use an 11:3 aspect ratio.
+
+[Read more about customizing your Profile page](https://docs.midjourney.com/hc/en-us/articles/41117938447629-Profiles)
+
+---
+
 # - EXPLORE -
 
 Q: Do I need a subscription for the community feed? Do I need a subscription to see the member gallery? Do I need a subscription to see other’s images?
@@ -2561,10 +2707,10 @@ You need an active subscription to have full access to the `Explore` page and ot
 
 Q: What is the Feed? What is the Explore page? What images are on the Explore page? Where can I find the members gallery? Where is the members gallery? Where is the community feed?
 
-`Explore` is the collection of public images from the community. All images created by members can be found on [the `Explore` page](https://www.midjourney.com/explore) unless they are set to private (unpublished).
-[Read more about the Explore page](https://docs.midjourney.com/hc/en-us/articles/33329460426765-Website-Overview)
+`Explore` is the collection of public images from the community. All images created by members can be found on [the `Explore` page](https://www.midjourney.com/explore) unless they are set to private.
+[Learn more about the Explore page](https://docs.midjourney.com/hc/en-us/articles/33329460426765-Website-Overview)
 
-**Note:** Only Pro and Mega users can unpublish their images, or activate [Stealth mode](https://docs.midjourney.com/hc/en-us/articles/32019750070669-Stealth-Mode) for new images to be unpublished by default.
+**Note:** Only Pro and Mega users can make their creations private, or activate [Stealth mode](https://docs.midjourney.com/hc/en-us/articles/32019750070669-Stealth-Mode) for new generations to be private by default.
 
 ---
 
@@ -2578,8 +2724,8 @@ Liking an image from another user adds the image to your [`Likes` page](https://
 
 Q: Where to find images I liked? Where to find my favorites? How do I see my favorite images? How do I see my likes?
 
-🔹Liking an image from another user adds the image to your [`Likes` page](https://www.midjourney.com/explore?tab=likes) in the `Explore` tab. 
-🔹To find your own images you liked, select the "Liked" filter in the [`Organize` tab](https://www.midjourney.com/archive).
+🔹 Liking an image from another user adds the image to your [`Likes` page](https://www.midjourney.com/explore?tab=likes) in the `Explore` tab. 
+🔹 To find your own images you liked, select the "Liked" filter in the [`Organize` tab](https://www.midjourney.com/archive).
 
 ---
 
@@ -2590,46 +2736,62 @@ Q: Is there a way to save all my images at once? Can I batch download all of my 
 You can batch download images and videos quickly on [the website](https://midjourney.com/archive). Click on the ⊕︀ sign next to a date to select creations from that day. At the bottom, you can then download your selection.
 You can also click and drag, or shift-click to select images and videos.
 
-[Read more about Downloading and Organizing your creations on the website](https://docs.midjourney.com/hc/en-us/articles/33329462451469-Organizing-Your-Creations#h_01JHP57GM2GHRFRQRP0ZNQ4423)
+[Learn more about Downloading and Organizing your creations on the website](https://docs.midjourney.com/hc/en-us/articles/33329462451469-Organizing-Your-Creations#h_01JHP57GM2GHRFRQRP0ZNQ4423)
 
 %image=https://cdn.discordapp.com/attachments/1201909699793145876/1202263116243533854/bulkdownload.gif
 
 ---
 
-# - HIDE -
+# - TRASH -
 
-Q: How to hide images? What is hide? What does hide do on the website? Is hide the same as private mode? Hide images?
+Q: How to trash images? What is trash? What does trash do on the website? Is trash the same as private mode? Trash images?
 
-[`Hide`](https://docs.midjourney.com/hc/en-us/articles/33329462451469-Organizing-Your-Creations#h_01JHP66YYRKF988ABQBHXMFJ3K) is used to organize [your own gallery](https://www.midjourney.com/archive) by hiding images and videos you don’t like from your view. **It only hides creations from yourself**, not from other members.
+Use [`Trash`](https://docs.midjourney.com/hc/en-us/articles/33329462451469-Organizing-Your-Creations#h_01JHP66YYRKF988ABQBHXMFJ3K) to hide generations from your [Organize tab](https://www.midjourney.com/archive) and from your public profile’s Archive.
+🔹 To trash your creations on Discord, react to it with the :x: emoji.
+🔹 To trash your creations on the website, go to your [Organize tab](https://www.midjourney.com/archive), select the images you want to trash, click `...More`, then select `Trash`.
 
-To hide your creations on the website, go to your [Archive](https://www.midjourney.com/archive), select the images you want to hide, and click `...More`, then hide/unhide.
-
-**Note:** To make your images private, you need the Pro or Mega plan; those plans allow you to unpublish images and use [Stealth mode](https://docs.midjourney.com/hc/en-us/articles/32019750070669-Stealth-Mode).
+**Note:** Public creations you set in your trash remain public on the [Explore page](https://www.midjourney.com/explore?tab=top). To make your creations private, you need [Stealth mode](https://docs.midjourney.com/hc/en-us/articles/32019750070669-Stealth-Mode), available on the Pro and Mega plans.
 
 ---
 
-Q: How to find "hidden" images from the website’s archive? How to see images I hide on the website?
+Q: How to find trash images from the website’s archive? How to see images I trashed on the website? How to find my trashed generations? How to find trash?
 
-To find images you've hidden, go to your [Archive](https://www.midjourney.com/archive) and in your `Filters` on the right side, check the `Hidden` box.
+To find images you've put in your trash, go to your [Organize tab](https://www.midjourney.com/archive) and in your `Filters` on the right side, check the `In Trash` box.
 
-[Read more about your Organize page’s filters](https://docs.midjourney.com/hc/en-us/articles/33329462451469-Organizing-Your-Creations#h_01JHP29NQRGDRGCR6Q3VCBX0WR)
+[Learn more about your Organize page’s filters](https://docs.midjourney.com/hc/en-us/articles/33329462451469-Organizing-Your-Creations#h_01JHP29NQRGDRGCR6Q3VCBX0WR)
+
+---
+
+Q: How long can trash be stored?
+
+Images and videos in your [Trash](https://docs.midjourney.com/hc/en-us/articles/33329462451469-Organizing-Your-Creations#h_01JHP66YYRKF988ABQBHXMFJ3K) are not deleted. You can access them by enabling the `In Trash` filter on your [Organize tab](https://www.midjourney.com/archive).
+
+**Note:** Public creations in your Trash remain public on the [Explore page](https://www.midjourney.com/explore?tab=top). To make your creations private, you need [Stealth mode](https://docs.midjourney.com/hc/en-us/articles/32019750070669-Stealth-Mode), available on the Pro and Mega plans.
 
 ---
 
 # - WEB CREATION -
 
-Q: How to access alpha? How to create on the website?
+Q: How to access alpha? 
+
+You need an active subscription to access the alpha website: [alpha.midjourney.com](https://alpha.midjourney.com/)
+
+Doesn't work? Use the regular website instead: [midjourney.com](https://www.midjourney.com/)
+
+---
+
+Q: How to create on the website?
 
 The creation tool on the [Midjourney website](https://www.midjourney.com/imagine) is open to all members. If you subscribed through Discord, **make sure to sign in using the same Discord account.**
 [Click here to discover how to create images on the website](https://docs.midjourney.com/hc/en-us/articles/33390732264589-Creating-on-Web)
 
-**Note:** You don't have to use public channels to create images on Discord. Right click here:  <@936929561302675456> and hit `Message` for a one on one chat with the Bot. You can also [create a server](https://support.discord.com/hc/en-us/articles/204849977-How-do-I-create-a-server) and [click here](https://discord.com/oauth2/authorize?client_id=936929561302675456) then `Add to Server` to organize your work.
+**Note:** You don't have to use public channels to create images on Discord. Right click on <@936929561302675456> and hit `Message` for a one on one chat with the Bot. You can also [create a server](https://support.discord.com/hc/en-us/articles/204849977-How-do-I-create-a-server) and [click here](https://discord.com/oauth2/authorize?client_id=936929561302675456) then `Add to Server` to organize your work.
 
 ---
 
 Q: Stealth mode on the website? Enable Stealth mode on alpha? Stealth mode on web?
 
-[`Stealth` mode](https://docs.midjourney.com/hc/en-us/articles/32019750070669-Stealth-Mode) is a feature of the Pro and Mega plans that allows you to make your images private (unpublished) in [your gallery](https://www.midjourney.com/archive). Unless created in shared rooms, unpublished images cannot be seen on the website by any members other than yourself.
+[Stealth mode](https://docs.midjourney.com/hc/en-us/articles/32019750070669-Stealth-Mode) is a feature of the Pro and Mega plans that allows you to make your images private in [your gallery](https://www.midjourney.com/archive). Unless created in shared rooms, private creations cannot be seen on the website by any members other than yourself.
 
 To enable Stealth mode on the website and keep all **new** images private, toggle the `Stealth` button in your settings to `On`. You can also add it to individual prompts by adding the `--stealth` parameter.
 
@@ -2668,7 +2830,7 @@ Instead of writing prompts, click the :speech_left:  **Conversational Mode** but
 
 Once you're happy with a **prompt**, click `Enhance` to generate a new set of images in Standard quality. Or, if you like a specific **image**, you can `Upscale` it to maximum resolution. 
 
-Conversational mode is only available on the Midjourney website. [Read more about Draft mode](https://docs.midjourney.com/hc/en-us/articles/35577175650957-Draft-Mode)
+Conversational mode is only available on the Midjourney website. [Learn more about Draft mode](https://docs.midjourney.com/hc/en-us/articles/35577175650957-Draft-Mode)
 
 ---
 
