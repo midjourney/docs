@@ -719,13 +719,14 @@ If you have the Pro or Mega plan but the `Stealth` option doesn’t appear in yo
 
 Q: How do I unpublish my images? Unpublish old images? Bulk unpublish? Unpublish already made images? Batch unpublish? Bulk private?
 
-With a Pro or Mega plan, you can make your public creations private in your [Organize tab](https://www.midjourney.com/archive). Select the images and videos you want to make private, right click on one of them, and select `Make Private`.
+With a Pro or Mega plan, you can make your public creations private in your [Organize tab](https://www.midjourney.com/archive).
+Select the images and videos you want to make private, right click your selection, and press `Make Private`.
 
 **Note:** Enable the `Public` filter in your Organize tab to only view creations which are currently visible to others. You may also want to enable the `In Trash` filter afterwards, in case you have Public creations in your trash.
 
 [Learn more about how to organize your images](https://docs.midjourney.com/hc/en-us/articles/33329462451469-Organizing-Your-Creations#h_01JHP57GM2GHRFRQRP0ZNQ4423)
 
-%image=https://cdn.midjourney.com/u/d6f915c1-a3b1-425d-9934-3fb714cd8b7b/ea3c78bbe58e7e8239507cd65eeede340b7f2a9a9f5018e87c9185a22e52d521.png
+%image=https://cdn.midjourney.com/u/ff03153e-6e8a-48b4-87d0-5acd0a123688/74a5548237561cd8c4ac5b7e31938bebb58f2503818001c08ad195e6e1f6b7a4.png
 
 ---
 
@@ -875,10 +876,10 @@ To find the Job ID, open the image in your [Organize tab](https://midjourney.com
 
 Q: How can I delete an image? How to delete images from my feed? How can I remove an image? Delete image? How do we delete videos? How to delete an animation?
 
-Hide your generation in your gallery by reacting to it with the :x: emoji, or through the menu by right-clicking (or long tap on mobile) > Apps > Cancel Job
-This will delete it from Discord, and remove it from your `Organize` page on the website.
+Move your creation to your Trash by reacting to it with the :x: emoji, or through the menu by right-clicking (or long tap on mobile) > Apps > Cancel Job
+This will delete it from Discord, and remove it from your default view on your [Organize tab](https://www.midjourney.com/archive).
 
-**Note:** Hidden images and videos remain visible to other users on the website, unless you have [Stealth mode](https://docs.midjourney.com/hc/en-us/articles/32019750070669-Stealth-Mode) and make them private.
+**Note:** Images and videos in your Trash remain visible to other users on the website, unless you have [Stealth mode](https://docs.midjourney.com/hc/en-us/articles/32019750070669-Stealth-Mode) and make them private.
 
 [Learn more about Organizing your gallery](https://docs.midjourney.com/hc/en-us/articles/33329462451469-Organizing-Your-Creations#h_01JHP66YYRKF988ABQBHXMFJ3K)
 
@@ -888,7 +889,7 @@ Q: :x: does not work to delete? :x: does not delete? The :x: reaction does not w
 
 If the :x: emoji reaction does not work, you can instead right click the image (or long tap on mobile), select `Apps` and click `Cancel Job`.
 
-**Note:** :x: removes the generation from Discord, and hides it from you on the Midjourney website. It remains visible to other users on the website, unless you have [Stealth mode](https://docs.midjourney.com/hc/en-us/articles/32019750070669-Stealth-Mode) and make them private.
+**Note:** :x: removes the generation from Discord, and moves it to your Trash filter on your [Organize tab](https://www.midjourney.com/archive). It remains visible to other users on the website, unless you have [Stealth mode](https://docs.midjourney.com/hc/en-us/articles/32019750070669-Stealth-Mode) and make them private.
 
 ---
 
@@ -1253,6 +1254,23 @@ You can use multiple image links, just make sure to have a space between each li
 **Do you want Midjourney to edit your own image?** This is only possible through the website's [Editor](https://www.midjourney.com/editor/new).
 
 **Are you on the [Midjourney website](https://www.midjourney.com/imagine)?** [Click here to learn how to use images](https://docs.midjourney.com/hc/en-us/articles/32040250122381-Image-Prompts)
+
+---
+
+Q: Image weight? What is an image weight? How do I set an image weight? Multiple image weight?
+
+To determine the strength of your image prompt, use the **Image Weight** parameter `--iw` followed by a number from 0 to 3. The default weight is 1. The higher it is, the more strength your image has as a reference.
+For example: `A cactus on a skateboard https://pic1.png --iw 2.5`
+
+If you use **multiple image prompts**, the image weight parameter adjusts the strength of them as a group against the rest of your prompt.
+
+**Only on Discord:** To adjust the strength of each image within that group, you can add an individual weight after each link.
+For example: `A cactus on a skateboard https://pic1.png::4 https://pic2.png::1 --iw 0.5`
+In this example, the first image will have more influence than the second image. However, both of them will have a low effect on the prompt, due to the image weight of 0.5.
+
+**Note:** The image weight parameter only determines the strength of your image prompt(s), not images used as a [style reference](https://docs.midjourney.com/hc/en-us/articles/32180011136653-Style-Reference), [character reference](https://docs.midjourney.com/hc/en-us/articles/32162917505293-Character-Reference), or [omni reference](https://docs.midjourney.com/hc/en-us/articles/36285124473997-Omni-Reference).
+
+[Learn more about Image Weight](https://docs.midjourney.com/hc/en-us/articles/32040250122381-Image-Prompts#h_01JD5G8C3RY38GSHNSFH6H7H31)
 
 ---
 
@@ -2661,7 +2679,7 @@ Any private generation excluded from your earlier profile remains private.
 
 ---
 
-Q: Have new profiles made everything public? Can I disable the new profile?
+Q: Have new profiles made everything public? Can I disable the new profile? I don’t want to have a public profile? Is there a way to turn off the public profile?
 
 Midjourney users have always had a public profile displaying their public creations.
 While there’s no option to disable it, users with [Stealth mode](https://docs.midjourney.com/hc/en-us/articles/32019750070669-Stealth-Mode) can make their generations private to exclude them from their profile and from the [Explore page](https://www.midjourney.com/explore?tab=top). This privacy setting has not changed; any private generation excluded from your earlier profile remains private.
@@ -2846,6 +2864,41 @@ This is ideal to test prompts and ideas ! Once you're happy with a **prompt**, r
 Q: Does Draft mode use Fast Hours? Is Draft mode free? How much does Draft images cost?
 
 When using Draft mode, images are made in Draft quality, meaning each set is much quicker to generate and costs **half** as much GPU time as usual (about 30 GPU seconds).
+
+---
+
+# - STYLE CREATOR -
+
+Q: Why do I get the error failed to submit when using the Style Creator? Style creator is not compatible with --sv 4?
+
+Activate Version 7 in your settings, and avoid any incompatible parameters in your prompt.
+
+[Learn more about the Style Creator prompts](https://docs.midjourney.com/hc/en-us/articles/41308374558221-Style-Creator#h_01KA1Q9RHW7KHTY1EDRY9VS79J)
+
+---
+
+Q: Does the Style Creator work with Niji?
+
+The Style Creator only generates images using Version 7. If you get an error, make sure to activate Version 7 in your settings, and avoid any incompatible parameters in your prompt.
+
+[Learn more about the Style Creator prompts](https://docs.midjourney.com/hc/en-us/articles/41308374558221-Style-Creator#h_01KA1Q9RHW7KHTY1EDRY9VS79J)
+
+---
+
+Q: I created a style in the Style Creator but cannot find the result? Where do I find the style I made in the Style Creator? How do I get the final code of the style I created?
+
+All the images you generated can be found in your [Create](https://www.midjourney.com/imagine) and [Organize](https://www.midjourney.com/organize) tabs.
+If you've finished creating your Style, head over to your Create tab to find the code from your latest image.
+
+[Learn more about the Style Creator](https://docs.midjourney.com/hc/en-us/articles/41308374558221-Style-Creator)
+
+---
+
+Q: Does the Style Creator mix sref codes? Does the Style Creator create our own sref code? What is the Style Creator?
+
+The Style Creator generates a new unique [style reference code](https://docs.midjourney.com/hc/en-us/articles/32180011136653-Style-Reference#h_01JDK11MKAANM6VRPRBKNW6WYX) (`--sref`), based on the images you've selected. Once generated, it can be reused by users like any existing sref code.
+
+[Learn more about the Style Creator](https://docs.midjourney.com/hc/en-us/articles/41308374558221-Style-Creator)
 
 ---
 
