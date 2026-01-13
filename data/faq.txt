@@ -123,7 +123,17 @@ Paying members have commercial rights to all images they have made and may use t
 🔹 If you are a company or any employee of a company with more than $1,000,000 USD a year in revenue, you must be subscribed to a Pro or Mega plan to own Your Assets.
 🔹 You do not own images made by other members, even if you upscale their images.
 
-For complete details, see section 4 of [our Terms of Service](https://docs.midjourney.com/hc/en-us/articles/32083055291277-Terms-of-Service)
+For complete details, see section 4 of our [Terms of Service](https://docs.midjourney.com/hc/en-us/articles/32083055291277-Terms-of-Service)
+
+---
+
+Q: If I upgrade to Pro, do I own rights to images created previously? If I upgrade to Pro, do I own images I already made? If I upgrade to Pro, do I own assets I already made? If I upgrade to Pro, do I own rights to assets created previously? If I upgrade to Pro, do I own rights to videos created previously? If I upgrade to Pro, do I own videos I already made? 
+
+If you are a company or any employee of a company with more than $1,000,000 USD a year in revenue, you own assets you've made on Midjourney if you subscribe to a Pro or Mega plan.
+
+**Note:** If the company does not meet the revenue threshold, you do not need a Pro or Mega plan to own your assets and use them commercially.
+
+For complete details, see section 4 of our [Terms of Service](https://docs.midjourney.com/hc/en-us/articles/32083055291277-Terms-of-Service)
 
 ---
 
@@ -143,20 +153,9 @@ You do not own images made by other members, even if you upscale their images.
 
 ---
 
-Q: If I buy a subscription, can members of my server use it? Can anyone else use my subscription? Can my friends use my subscription? Can I share my subscription? How can my friend use my account? How can my friend use my subscription?
+Q: If I buy a subscription, can members of my server use it? Can anyone else use my subscription? Can my friends use my subscription? Can I share my subscription? How can my friend use my account? How can my friend use my subscription? Is it possible to allow someone to use my account? Can I allow someone to use my account?
 
-Currently, all subscription plans are linked to a single user. Each user needs their own account and subscription, any sharing is strictly prohibited by our [Terms of Service](https://docs.midjourney.com/hc/en-us/articles/32083055291277-Terms-of-Service).
-
----
-
-Q: Copyright issue? Copyright error? Possible copyrighted? Can I post copyrighted content? Can I generate copyrighted content?
-
-Per the [Terms of Service](https://docs.midjourney.com/hc/en-us/articles/32083055291277-Terms-of-Service), you may not use Midjourney to try to violate the intellectual property rights of others, including copyright, patent, or trademark rights.
-Do not upload content, enter prompts, or use Editor or Video in any way that infringes or violates any third-party intellectual property or privacy rights.
-
-If you believe an image or prompt are incorrectly flagged, share them in <#1100553606761041991>.
-
-**Note:** Every image is filtered the same way, whether it's an uploaded image or an image created by Midjourney itself.
+All subscription plans are linked to a single user. Each user needs their own account and subscription, any sharing is strictly prohibited by our [Terms of Service](https://docs.midjourney.com/hc/en-us/articles/32083055291277-Terms-of-Service).
 
 ---
 
@@ -190,7 +189,7 @@ If you have an active subscription, you can try and win [free bonus fast time](h
 
 ---
 
-Q: Are there discount codes? Can I get a discount?
+Q: Are there discount codes? Can I get a discount? Student discount? Educational discount? Group discount?
 
 **Welcome!** The only discount available is the 20% discount when purchasing a Yearly billed plan which charges all 12 months up front.
 There are no available codes to enter at checkout.
@@ -332,7 +331,7 @@ Check out our [Quick Start Guide](https://docs.midjourney.com/hc/en-us/articles/
 
 Q: I'm having trouble using the bot? Why don’t I see the /imagine option as a slash command? I don’t see /imagine in my slash commands? My commands don’t work? Imagine doesn't work for me? I type the prompts and nothing appears? I type /imagine and nothing happens? It does not let me use /imagine? So just /imagine [prompt]? Where can I use /imagine? The /imagine command does not work?
 
-1️⃣ Be sure to use a bot channel like #newbies 1-10 or #general - try <#981832774157762570>.
+1️⃣ Be sure to use a bot channel, like <#981832774157762570>.
 2️⃣ Type `/imagine`
 3️⃣ Click the popup and type your text (prompt).
 
@@ -349,7 +348,7 @@ Discord Settings :gear: > `Accessibility` > `Use the legacy chat input` = `OFF`.
 
 Q: How can I find my images? It’s moving too fast, how can I see only my images? How to search for my images? Where can I see my images? How do I search for my creations? How do you find your previous prompts? Where are my images? How can I find images that I generated? Mentions? Mention? How do I see my mentions? Where are my mentions? How can I find my image in discord? I lost my image? Mentions? I can’t find my mentions? I can’t find my image? Where is my artwork?
 
-On the Midjourney website, click on [Organize](https://www.midjourney.com/archive) to find your gallery with all the images you’ve generated (make sure to Sign in with the same Discord account).
+On the Midjourney website, click on [Organize](https://www.midjourney.com/organize) to find your gallery with all the images you’ve generated (make sure to Sign in with the same Discord account).
 
 To find your recent images and other messages addressed to you on Discord, open your notifications.
 🖥️ On desktop: Use the Inbox icon in the top right corner.
@@ -385,6 +384,35 @@ You can also use any of the general channels to continue generating with other u
 Or, you can create images and videos in your own space:
 🔹 **[Send a Direct Message to the Bot](https://docs.midjourney.com/hc/en-us/articles/32637339216013-Discord-Direct-Messages)**: right-click on it here <@936929561302675456> and select `Message`.
 🔹 **[Add the Bot to your server](https://docs.midjourney.com/hc/en-us/articles/32637946450445-Add-Midjourney-to-Your-Discord-Server)**: create a Discord server, then [click here](https://discord.com/oauth2/authorize?client_id=936929561302675456) and select `Add to Server`.
+
+---
+
+Q: Do I need Newbies to start creating? Do I need to join a Newbies group?
+
+The newbies channels are not required. You can generate images and videos in any bot channel, and even in your own space!
+
+To create **outside** the Midjourney server:
+🔹 **[Send a Direct Message to the Bot](https://docs.midjourney.com/hc/en-us/articles/32637339216013-Discord-Direct-Messages)**: right-click on it here <@936929561302675456> and select `Message`.
+🔹 **[Add the Bot to your server](https://docs.midjourney.com/hc/en-us/articles/32637946450445-Add-Midjourney-to-Your-Discord-Server)**: create a Discord server, then [click here](https://discord.com/oauth2/authorize?client_id=936929561302675456) and select `Add to Server`.
+🔹 
+
+To create **inside** the Midjourney server:
+🔹 Use any channel in the `General Image Gen` category, such as <#984632520471633920>.
+🔹 Use any channel in the `Themed Image Gen` category and follow the theme, such as <#953413844183683082>.
+
+---
+
+Q: Where can I use the bot?
+
+You can generate images and videos in any bot channel, and even in your own space!
+
+To create **outside** the Midjourney server:
+🔹 **[Send a Direct Message to the Bot](https://docs.midjourney.com/hc/en-us/articles/32637339216013-Discord-Direct-Messages)**: right-click on it here <@936929561302675456> and select `Message`.
+🔹 **[Add the Bot to your server](https://docs.midjourney.com/hc/en-us/articles/32637946450445-Add-Midjourney-to-Your-Discord-Server)**: create a Discord server, then [click here](https://discord.com/oauth2/authorize?client_id=936929561302675456) and select `Add to Server`.
+
+To create **inside** the Midjourney server:
+🔹 Use any channel in the `General Image Gen` category, such as <#984632520471633920>.
+🔹 Use any channel in the `Themed Image Gen` category and follow the theme, such as <#953413844183683082>.
 
 ---
 
@@ -435,7 +463,7 @@ Click the `+` symbol on the left of the chat bar and select `Create Thread` to c
 Q: Where did my thread go? Where is my thread? Can you move threads? Can you help me move threads? Will my work disappear if I can’t find the thread? How can I find the thread? Where is my thread? Can you move my thread? Can I change roles? What is my group role? What is this role? Where did the channel go? Where did my channel go? Channel disappeared? Thread disappeared? Thread gone?
 
 We cannot change group role assignments or move threads.
-However, all your images can be found on the Midjourney website; sign in with your account and click on [Organize](https://www.midjourney.com/archive).
+However, all your images can be found on the Midjourney website; sign in with your account and click on [Organize](https://www.midjourney.com/organize).
 
 Use the command `/show` to move your work to a new location:
 1️⃣ Go to your gallery and copy the job ID.
@@ -676,7 +704,8 @@ Switch to Turbo mode with the command `/turbo` or select ⚡Turbo mode in your <
 
 Q: Why do I have to pay for private mode? Pay for stealth mode? What if I don’t want my images to appear in the gallery?
 
-Midjourney is a community for sharing and exploration.
+Midjourney is a community for sharing and exploration so by default, your prompts and images are public on the [Midjourney website](https://www.midjourney.com/explore).
+
 If you prefer not to participate, you can subscribe to the Pro or Mega plan. These two plans include the [Stealth Mode](https://docs.midjourney.com/hc/en-us/articles/32019750070669-Stealth-Mode) feature to make your creations private.
 
 **Are you on the [Midjourney website](https://www.midjourney.com/imagine)?** [Click here to learn how to navigate the Create Page](https://docs.midjourney.com/hc/en-us/articles/33390732264589-Creating-on-Web)
@@ -689,13 +718,13 @@ Images created in Stealth mode can be viewed by our team for moderation purposes
 
 ---
 
-Q: What's private mode? What’s stealth mode? Private powers badge? I don't want people to see my images? How can I work privately? I don't want anyone to see my images and prompts? How do I go private? How do I go stealth? How much does private cost? How much does stealth cost? I can’t unpublish on the website? Stealth mode? How do I keep my images private? Are all my images private automatically? Will my gallery become private? Why can users still interact even though I bought private? Are all my images stealth automatically? Will my gallery be stealth? Why can users interact even though I have stealth mode enabled? How to unpublish images? What is publish and unpublish? Enable stealth mode? How to use stealth mode? Are my images private? Are my designs private? Can everyone see my images?
+Q: What's private mode? What’s stealth mode? Private powers badge? I don't want people to see my images? How can I work privately? I don't want anyone to see my images and prompts? How do I go private? How do I go stealth? How much does private cost? How much does stealth cost? I can’t unpublish on the website? Stealth mode? How do I keep my images private? Are all my images private automatically? Will my gallery become private? Why can users still interact even though I bought private? Are all my images stealth automatically? Will my gallery be stealth? Why can users interact even though I have stealth mode enabled? How to unpublish images? What is publish and unpublish? Enable stealth mode? How to use stealth mode? Are my images private? Are my designs private? Can everyone see my images? Can I remove my images from showing up on the Explore page? Can the images I create here not show on Explore? Can the images I create here not show on the website?
 
 **By default, your prompts and images are public on the [Midjourney website](https://www.midjourney.com/explore).**
 [Stealth mode](https://docs.midjourney.com/hc/en-us/articles/32019750070669-Stealth-Mode) is a feature of the Pro and Mega plans that allows you to make your images private so they cannot be viewed by others on the website.
 
 To enable Stealth mode and keep all **new** generations private on the Midjourney website: run the `/stealth` command.
-To make your public creations private, select them in [your gallery](https://www.midjourney.com/archive) and click `...More` next to Download to find the `Make Private` button.
+To make your public creations private, select them in [your gallery](https://www.midjourney.com/organize) and click `...More` next to Download to find the `Make Private` button.
 
 **Note:** Generations made in public channels are visible by anyone in those channels! To hide them on Discord, you need to [make them in Direct Messages](https://docs.midjourney.com/hc/en-us/articles/32637339216013-Discord-Direct-Messages) or [in a private server](https://docs.midjourney.com/hc/en-us/articles/32637946450445-Add-Midjourney-to-Your-Discord-Server).
 
@@ -719,10 +748,10 @@ If you have the Pro or Mega plan but the `Stealth` option doesn’t appear in yo
 
 Q: How do I unpublish my images? Unpublish old images? Bulk unpublish? Unpublish already made images? Batch unpublish? Bulk private?
 
-With a Pro or Mega plan, you can make your public creations private in your [Organize tab](https://www.midjourney.com/archive).
+With a Pro or Mega plan, you can make your public creations private in your [Organize tab](https://www.midjourney.com/organize).
 Select the images and videos you want to make private, right click your selection, and press `Make Private`.
 
-**Note:** Enable the `Public` filter in your Organize tab to only view creations which are currently visible to others. You may also want to enable the `In Trash` filter afterwards, in case you have Public creations in your trash.
+**Tip:** Enable the `Public` filter in your Organize tab to only view creations which are currently visible to others. You may also want to enable the `In Trash` filter afterwards, in case you have Public creations in your trash.
 
 [Learn more about how to organize your images](https://docs.midjourney.com/hc/en-us/articles/33329462451469-Organizing-Your-Creations#h_01JHP57GM2GHRFRQRP0ZNQ4423)
 
@@ -801,7 +830,7 @@ Beta upscale is an upscaler for Version 3 and 4. It uses a different algorithm t
 
 ---
 
-Q: What is the maximum upscale resolution? What is the maximum resolution?  How can I set the resolution? Can I make a 4K image? Can I make a 300 DPI image? Can I make the resolution higher? Can I print my image? Is it possible to save my creations in high resolution, so I can print them out as posters? Is there a way to set the resolution to 2k and higher? How do I choose a resolution? How do I increase my image’s resolution? How can i make a 4k resolution? How do I make the quality higher? How do I get higher quality images?
+Q: What is the maximum upscale resolution? What is the maximum resolution?  How can I set the resolution? Can I make a 4K image? Can I make a 300 DPI image? Can I make the resolution higher? Can I print my image? Is it possible to save my creations in high resolution, so I can print them out as posters? Is there a way to set the resolution to 2k and higher? How do I choose a resolution? How do I increase my image’s resolution? How can i make a 4k resolution? How do I make the quality higher? How do I get higher quality images? Image DPI? Image resolution?
 
 For square images in the current version, the upscalers will produce the following:
 A grid upscale: 1024x1024 px
@@ -866,7 +895,7 @@ To use it, type `/describe`, select the command and click on:
 Q: How to transfer an image to another channel? Can I move my image out of the newbies channel? Can I work with my old generations? My old generation is not responding to buttons? Can i upscale my old image from newbies channel? How to use /show? Show job?
 
 To transfer an image from the website to Discord, from one channel to another, or to “revive” a job you cannot interact with, use the [command `/show`](https://docs.midjourney.com/hc/en-us/articles/32635695384461-Show-Command) followed by the image’s job ID.
-To find the Job ID, open the image in your [Organize tab](https://midjourney.com/archive). In the menu, click on `Copy` > `Job ID`.
+To find the Job ID, open the image in your [Organize tab](https://midjourney.com/organize). In the menu, click on `Copy` > `Job ID`.
 
 %image=https://cdn.midjourney.com/u/d6f915c1-a3b1-425d-9934-3fb714cd8b7b/1f95af2fa68b8b8840fe63c114f7ef352a6d9273c7c4684b07f773f41f917844.png
 
@@ -877,7 +906,7 @@ To find the Job ID, open the image in your [Organize tab](https://midjourney.com
 Q: How can I delete an image? How to delete images from my feed? How can I remove an image? Delete image? How do we delete videos? How to delete an animation?
 
 Move your creation to your Trash by reacting to it with the :x: emoji, or through the menu by right-clicking (or long tap on mobile) > Apps > Cancel Job
-This will delete it from Discord, and remove it from your default view on your [Organize tab](https://www.midjourney.com/archive).
+This will delete it from Discord, and remove it from your default view on your [Organize tab](https://www.midjourney.com/organize).
 
 **Note:** Images and videos in your Trash remain visible to other users on the website, unless you have [Stealth mode](https://docs.midjourney.com/hc/en-us/articles/32019750070669-Stealth-Mode) and make them private.
 
@@ -889,7 +918,7 @@ Q: :x: does not work to delete? :x: does not delete? The :x: reaction does not w
 
 If the :x: emoji reaction does not work, you can instead right click the image (or long tap on mobile), select `Apps` and click `Cancel Job`.
 
-**Note:** :x: removes the generation from Discord, and moves it to your Trash filter on your [Organize tab](https://www.midjourney.com/archive). It remains visible to other users on the website, unless you have [Stealth mode](https://docs.midjourney.com/hc/en-us/articles/32019750070669-Stealth-Mode) and make them private.
+**Note:** :x: removes the generation from Discord, and moves it to your Trash filter on your [Organize tab](https://www.midjourney.com/organize). It remains visible to other users on the website, unless you have [Stealth mode](https://docs.midjourney.com/hc/en-us/articles/32019750070669-Stealth-Mode) and make them private.
 
 ---
 
@@ -1058,7 +1087,7 @@ To use an image as an Omni Reference, add the `--oref` parameter at the end of y
 
 # - CHARACTER REFERENCE -
 
-Q:  How to use --cref?
+Q:  How to use --cref? 
 
 Use the Character Reference parameter `--cref` followed by a space and a link to your image for the characters in your results to be based on a specific image. You can add multiple links to have multiple character references, make sure to have a space between each link.
 You can add text, image prompts, and other parameters to guide the results.
@@ -1161,6 +1190,15 @@ You can see how many images you've rated at the top; the [personalization](https
 Q: How do I get all my personalization codes? Can I find an old personalization code? Can I find an old --p code? List personalize codes? Is there a list of my personalization codes?
 
 Every time your personalization is updated, you get a new code. You can find all your personalization codes with the command </list_personalize_codes:1267632559278526577>.
+
+---
+
+Q: What's a moodboard? What are moodboards?
+
+Upload images to a [moodboard](https://www.midjourney.com/moodboards) to create a unique personalization code, which can be used to generate images that match the aesthetic of your moodboard.
+
+**Note:** You can only create moodboards on the Midjourney website, but you can use the generated code anywhere.
+[Learn more about Moodboards](https://docs.midjourney.com/hc/en-us/articles/39193335040013-Moodboards)
 
 ---
 
@@ -1404,7 +1442,7 @@ For example: `a bowl of fruits --no citrus, table`
 
 Q: How do I get the seed that was used for an image? No seed? Seed on upscale? Only grid seed? I can not get the seed? Can’t get the seed number? How can I find the seed? How do I retrieve the seed number of an image? How do I get the seed of an image? Where to find seed? Where is seed? How do i get seed number?
 
-To find an image’s seed number, open your image in your [Organize tab](https://www.midjourney.com/archive) and in the image menu, click on `Copy` > `Seed`.
+To find an image’s seed number, open your image in your [Organize tab](https://www.midjourney.com/organize) and in the image menu, click on `Copy` > `Seed`.
 You can only copy the seed of your own images. You can only copy the seed of an initial grid image.
 
 **Note:** Seeds are not reliable and change over time. They have no effect on character consistency. [Learn more about seeds](https://docs.midjourney.com/hc/en-us/articles/32604356340877-Seeds)
@@ -1419,7 +1457,7 @@ Q: When I react with the envelope nothing happens, I don’t get the seed?
 
 Right-click the Midjourney server icon > Privacy Settings > check if `Direct Messages` is green. If it’s already enabled, toggle it off and on again.
 
-You can also find the seed number on the Midjourney website instead: open your image in your [Organize tab](https://www.midjourney.com/archive) and in the image menu, click on `Copy` > `Seed`.
+You can also find the seed number on the Midjourney website instead: open your image in your [Organize tab](https://www.midjourney.com/organize) and in the image menu, click on `Copy` > `Seed`.
 You can only copy the seed of your own images. You can only copy the seed of an initial grid image.
 
 **Note:** Seeds are not reliable and change over time. They have no effect on character consistency. [Learn more about seeds](https://docs.midjourney.com/hc/en-us/articles/32604356340877-Seeds)
@@ -1434,7 +1472,7 @@ Each set of four images made in Midjourney uses a random seed number as a starti
 Use the `--seed` parameter, with a value between 0 and 4294967295, to give the bot a specific starting point.
 If you use the same seed and prompt as another image, the bot will produce an identical or very similar set of four images. This is useful when using similar prompts to test how the changes affect the result.
 
-To find an image’s seed number, open your image in your [Organize tab](https://www.midjourney.com/archive) and in the image menu, click on `Copy` > `Seed`. You can only copy the seed of your own images.
+To find an image’s seed number, open your image in your [Organize tab](https://www.midjourney.com/organize) and in the image menu, click on `Copy` > `Seed`. You can only copy the seed of your own images.
 
 **Note:** Seeds are not reliable and change over time. They have no effect on character consistency.
 [Learn more about seeds](https://docs.midjourney.com/hc/en-us/articles/32604356340877-Seeds)
@@ -1618,7 +1656,7 @@ Q: Can I make a looping gif?
 Add the `--loop` parameter at the end of your video prompt for your video to end on the same image used to start.
 For example: `https://pic1.png a dancing pirate --video --loop`
 
-You can then download the video as a gif in your [Organize](https://www.midjourney.com/archive) tab on the website. To do so, right click on the video and pick `Download as GIF`.
+You can then download the video as a gif in your [Organize](https://www.midjourney.com/organize) tab on the website. To do so, right click on the video and pick `Download as GIF`.
 
 **Note:** Activate `Remix mode` in your </settings:1000850743479255081> to edit the prompt and add the `--loop` parameter when clicking `Animate`.
 [Learn more about Looping Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01K0SV3TN33ZQ8T6F1EA03P56K)
@@ -1712,7 +1750,7 @@ All plans offer access to Standard Definition (SD) [Videos](https://docs.midjour
 Q: Are videos available on the website? Can I make videos on the website? Do videos work on the website?
 
 You can generate videos on the website:
-🔹 To animate a **generated image**, open it in your [Organize](https://www.midjourney.com/archive) tab and click a button in the `Animate Image` section.
+🔹 To animate a **generated image**, open it in your [Organize](https://www.midjourney.com/organize) tab and click a button in the `Animate Image` section.
 🔹 To animate **your own image**, upload it in the `Imagine` bar as a `Starting Frame`.
 
 [Learn more about creating Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video)
@@ -1723,7 +1761,7 @@ You can generate videos on the website:
 Q: Can I use start and end frames on the website?
 
 On the website, you can set a Start frame and End frame in the `Imagine` bar:
-🔹 To animate a **generated image**, open it in your [Organize](https://www.midjourney.com/archive) tab and click `Animate Manually`. You can now add an End frame in the `Imagine` bar.
+🔹 To animate a **generated image**, open it in your [Organize](https://www.midjourney.com/organize) tab and click `Animate Manually`. You can now add an End frame in the `Imagine` bar.
 🔹 To use **your own images**, upload an image in the `Imagine` bar as a `Starting Frame`, then add one in the `Ending Frame` section.
 
 [Learn more about End Frames](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01K0SV3TN33ZQ8T6F1EA03P56K)
@@ -1734,7 +1772,7 @@ On the website, you can set a Start frame and End frame in the `Imagine` bar:
 Q: Is looping available on the website?
 
 You can create looping videos on the website as well:
-🔹 To loop an animation of a **generated image**, open it in your [Organize](https://www.midjourney.com/archive) tab and press one of the `Loop` buttons.
+🔹 To loop an animation of a **generated image**, open it in your [Organize](https://www.midjourney.com/organize) tab and press one of the `Loop` buttons.
 🔹 To loop an animation of **your own image**, upload it in the `Imagine` bar as a `Starting Frame` and check the `Loop` box in the `Ending Frame` section.
 
 [Learn more about Looping Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01K0SV3TN33ZQ8T6F1EA03P56K)
@@ -1852,20 +1890,6 @@ It is now used to animate your images into [videos](https://docs.midjourney.com/
 
 ---
 
-Q: My videos are getting flagged? Why are my videos blocked for violations? Blocked video? The AI moderator is unsure about my video? Every time I animate, the moderator is not sure? The AI moderator keeps flagging my video? The AI moderator keeps flagging my animation?
-
-The filter prevents abuse and content against the [Community Guidelines](https://docs.midjourney.com/hc/en-us/articles/32013696484109-Community-Guidelines) and the [Terms of Service](https://docs.midjourney.com/docs/terms-of-service). 
-For example:
-🔹 Do not create or use imagery of real people, famous or otherwise, that could be used to harass, abuse, defame, or otherwise harm.
-🔹 Do not create or attempt to create gore or adult content. Avoid making visually shocking or disturbing content.
-🔹 Do not upload content, enter prompts, or use Editor or Video in any way that infringes or violates any third-party intellectual property or privacy rights.
-
-If you believe the image and prompt are incorrectly flagged, share them in <#1100553606761041991>.
-
-**Note:** Every image is filtered the same way, whether it's an uploaded image or an image created by Midjourney itself.
-
----
-
 # -----------------
 # - MODERATION -
 # -----------------
@@ -1881,6 +1905,20 @@ Q: Is there a list of banned words? Where can I see the banned words?
 The current Midjourney models do not use a banned word list. Rather, the bot attempts to parse the context of the prompt. Sometimes, the bot may misinterpret the prompt, in which case you will need to reword it.
 
 **Note:** Repeatedly submitting blocked prompts may result in a temporary timeout for your account.
+
+---
+
+Q: My videos are getting flagged? Why are my videos blocked for violations? Blocked video? The AI moderator is unsure about my video? Every time I animate, the moderator is not sure? The AI moderator keeps flagging my video? The AI moderator keeps flagging my animation?
+
+The filter prevents abuse and content against the [Community Guidelines](https://docs.midjourney.com/hc/en-us/articles/32013696484109-Community-Guidelines) and the [Terms of Service](https://docs.midjourney.com/docs/terms-of-service). 
+For example:
+🔹 Do not create or use imagery of real people, famous or otherwise, that could be used to harass, abuse, defame, or otherwise harm.
+🔹 Do not create or attempt to create gore or adult content. Avoid making visually shocking or disturbing content.
+🔹 Do not upload content, enter prompts, or use Editor or Video in any way that infringes or violates any third-party intellectual property or privacy rights.
+
+If you believe the image and prompt are incorrectly flagged, share them in <#1100553606761041991>.
+
+**Note:** Every image is filtered the same way, whether it's an uploaded image or an image created by Midjourney itself.
 
 ---
 
@@ -1929,11 +1967,33 @@ Q: Ephemeral? What are ephemeral jobs? Why do my jobs disappear from Discord? My
 
 Some jobs may be temporary on Discord when using certain words or phrases in your prompt. The images are only visible to you and disappear when you close, refresh, or switch Discord pages. If the job is ephemeral, you’ll see the text `Only you can see this` at the bottom of the bot's message.
 
-Don't worry, all these images are in your [Organize tab](https://www.midjourney.com/archive) on the Midjourney website. To bring them back on Discord:
-1️⃣ Open the image in the [Organize](https://www.midjourney.com/archive) tab on the website and copy the job ID.
+Don't worry, all these images are in your [Organize tab](https://www.midjourney.com/organize) on the Midjourney website. To bring them back on Discord:
+1️⃣ Open the image in the [Organize](https://www.midjourney.com/organize) tab on the website and copy the job ID.
 2️⃣ In Discord, type the [command `/show`](https://docs.midjourney.com/hc/en-us/articles/32635695384461-Show-Command) and paste the job ID.
 
 **Note:** This does not happen when you create images in your [Direct Messages](https://docs.midjourney.com/hc/en-us/articles/32637339216013-Discord-Direct-Messages) with the bot.
+
+---
+
+# - COPYRIGHT/IP -
+
+Q: Our filters detected potential third party content, so we are keeping this generation private to you?
+
+Per the [Terms of Service](https://docs.midjourney.com/hc/en-us/articles/32083055291277-Terms-of-Service), you may not use Midjourney to try to violate the intellectual property rights of others, including copyright, patent, or trademark rights.
+Do not upload content, enter prompts, or use Editor or Video in any way that infringes or violates any third-party intellectual property or privacy rights.
+
+When unsure, the bot will make the result ephemeral so the result is only visible to you. On Discord, this means the message disappears when you close, refresh, or switch Discord pages. But don't worry, everything remains in your [Organize page](https://midjourney.com/organize) on the website.
+
+---
+
+Q: Copyright issue? Copyright error? Possible copyrighted? Can I post copyrighted content? Can I generate copyrighted content?
+
+Per the [Terms of Service](https://docs.midjourney.com/hc/en-us/articles/32083055291277-Terms-of-Service), you may not use Midjourney to try to violate the intellectual property rights of others, including copyright, patent, or trademark rights.
+Do not upload content, enter prompts, or use Editor or Video in any way that infringes or violates any third-party intellectual property or privacy rights.
+
+If you believe an image or prompt are incorrectly flagged, share them in <#1100553606761041991>.
+
+**Note:** Every image is filtered the same way, whether it's an uploaded image or an image created by Midjourney itself.
 
 ---
 
@@ -2118,7 +2178,7 @@ The values range from 0 to 1000, and the default value is 100.
 
 Q: My images won't finish? Stops at 93%? 93% bug? Stops at 62%? 62% bug?
 
-In some cases, the bot may fail to return the finished image in Discord. You can find the finished image in [your gallery](https://midjourney.com/archive) on the Midjourney website.
+In some cases, the bot may fail to return the finished image in Discord. You can find the finished image in [your gallery](https://midjourney.com/organize) on the Midjourney website.
 
 If you want to bring a job back into Discord:
 🔹Go to your gallery and copy the job ID.
@@ -2138,11 +2198,19 @@ If you get the error “504 Deadline Exceeded” when trying to use the command 
 
 # - PRE SUB INQUIRIES -
 
-Q: How do I subscribe? How to subscribe? How do I become a member? /subscribe? How does one become a member? How can I be a full member?  How can I subscribe to it? How to get the paid version? How do you get a subscription? Hello, where can I make the payment for the Standard plan? And how do I buy the 10$ plan? How do I buy it? How can I subscribe to Midjourney? Premium? How to subscribe to this bot? Subscribe? How to pay a subscription? How to buy a subscription?
+Q: How do I subscribe? How to subscribe? How do I become a member? How does one become a member? How can I be a full member?  How can I subscribe to it? How to get the paid version? How do you get a subscription? Hello, where can I make the payment for the Standard plan? And how do I buy the 10$ plan? How do I buy it? How can I subscribe to Midjourney? Premium? How to subscribe to this bot? Subscribe? How to pay a subscription? How to buy a subscription?
 
 Type </subscribe:987795925764280351>, select the command in the pop up above, and hit enter/click send. This will give you a unique link to your [`Manage Subscription` page](https://www.midjourney.com/account) on the website; don’t share the link with anyone!
 
 Choose between Yearly or Monthly billing and subscribe to the plan you want.
+
+---
+
+Q: /subscribe?
+
+Type </subscribe:987795925764280351>, select the command in the pop up above, and hit enter/click send. This will give you a unique link to your [`Manage Subscription` page](https://www.midjourney.com/account) on the website; don’t share the link with anyone!
+
+If you have an active subscription, you can manage it through that page, view your invoice history, etc.
 
 ---
 
@@ -2275,7 +2343,7 @@ Please send an email to `billing@midjourney.com` if you need further assistance 
 Q: Cancel with refund? Cancel and refund? How do I get a refund? How to refund? Can this be refunded? I would like to request a refund? I need a refund? How can I refund? How to get a refund? How to get a refund for a subscription? I want a refund?
 
 On your [Midjourney subscription page](https://midjourney.com/account), click `Cancel Plan`.
-If your account meets the [refund policy](https://docs.midjourney.com/hc/en-us/articles/25386088618253-Requesting-a-Refund) criteria, you’ll see the option to `Cancel immediately with refund`. Select that option, and confirm.
+If your account meets the [refund policy](https://docs.midjourney.com/hc/en-us/articles/25386088618253-Requesting-a-Refund) criteria, you’ll see the option to `Cancel now with refund`. Select that option, and confirm.
 
 **Don’t see a refund option or get an error?** Please send an email to `billing@midjourney.com`. We cannot help with payments in this chat.
 
@@ -2285,7 +2353,7 @@ If your account meets the [refund policy](https://docs.midjourney.com/hc/en-us/a
 
 Q: I accidentally subscribed to yearly? I originally intended to subscribe to monthly but it turned out to be annual?
 
-If you chose the yearly plan instead of the monthly plan, you can try to cancel your subscription now with a refund and then subscribe to the monthly plan. On the [Midjourney account page](https://midjourney.com/account), click `Cancel Plan` and select the option `Cancel immediately with refund`.
+If you chose the yearly plan instead of the monthly plan, you can try to cancel your subscription now with a refund and then subscribe to the monthly plan. On the [Midjourney account page](https://midjourney.com/account), click `Cancel Plan` and select the option `Cancel now with refund`.
 **If you do not get the refund option, send an email to `billing@midjourney.com` with your invoice number.**
 
 %image=https://cdn.discordapp.com/attachments/1201909699793145876/1228317951598530621/Cancel.png
@@ -2505,6 +2573,26 @@ The billing information on your subscription must match the information listed o
 
 ---
 
+Q: I need to change my VAT number? How to change VAT number?
+
+To edit or remove your VAT number on file, [click here](https://billing.stripe.com/p/login/aEUdRA5Wc8t25a03cc). Enter your billing email and follow the link to access and modify your personal information.
+
+If your subscription is active, you can go to your [Subscription page](https://www.midjourney.com/account) and click `Edit Billing`.
+
+Send an email to `billing@midjourney.com` if you encounter an issue or need further assistance.
+
+---
+
+Q: I need to change the VAT number at checkout? I need to change the VAT number in the checkout? How to change the VAT number at checkout? Remove VAT at checkout?
+
+To edit or remove your VAT number on file, [click here](https://billing.stripe.com/p/login/aEUdRA5Wc8t25a03cc). Enter your billing email and follow the link to access and modify your personal information.
+
+If you're having trouble at checkout with the business option, remove your VAT number through the above link, refresh the website and try subscribing again.
+
+Send an email to `billing@midjourney.com` if you encounter an issue or need further assistance.
+
+---
+
 Q: Can you set my account to reverse charge for VAT?
 
 To request your account to be set to reverse charge, send an email to `billing@midjourney.com` with the following information:
@@ -2514,6 +2602,29 @@ To request your account to be set to reverse charge, send an email to `billing@m
 - Your valid VAT number
 
 The billing information on your subscription must match the information associated with your VAT number. Once we’ve confirmed you’re eligible, we'll make the necessary adjustments to your account.
+
+---
+
+# - TEAM PLANS -
+
+Q: Student subscriptions? Can I buy subscriptions for my students? Student subscriptions for a workshop? Student subscriptions for a class? Multiple accounts for students? How to get access for multiple students? Are there school subscriptions for multiple students?
+
+There are currently no educational or group plans. Accounts and subscriptions are personal, so each student must set up their own account and their own subscription.
+
+[Read more about Student billing](https://docs.midjourney.com/hc/en-us/articles/42428820154765-Educational-Use-Student-Billing)
+
+---
+
+Q: Can I purchase multiple plans? Can I purchase multiple subscriptions? Are there plans for companies? Are there company plans? Can I subscribe for my employees? Multiple plans for a business? Are there team plans? How to set up a corporate account? Can I buy a team plan?
+
+Midjourney doesn't offer any group or shared plans at the moment. Per the [Terms of Service](https://docs.midjourney.com/hc/en-us/articles/32083055291277-Terms-of-Service), each account and subscription must remain strictly individual.
+
+🔹 If your company would like a **minimum of 50 Yearly or Mega plans**: Our team can assist with grouping the payments into a single transaction. You can learn more about it here: [Group Plans & Corporate Billing](https://docs.midjourney.com/hc/en-us/articles/27870607078285-Group-Plans-Corporate-Billing)
+🔹 If your company would like less subscriptions, lower tier plans or monthly billing: Each subscription must be purchased individually at checkout. You can learn more about it here: [Setting Up Multiple Accounts](https://docs.midjourney.com/hc/en-us/articles/27870607078285-Group-Plans-Corporate-Billing#h_01K07RYV8TP2RPDB07HDE1EMTE)
+
+For questions or issues related to your payments and subscription, don't hesitate to send an email  to `billing@midjourney.com` for additional information and assistance.
+
+**Note:** Accounts and subscriptions are personal; do not let others access your account, use your subscription, or change your login.
 
 ---
 
@@ -2544,13 +2655,13 @@ Include your User ID which you can find on your [`Account Settings` page](https:
 
 Q: Where is my gallery? Archive? Where is the archive? Where is my image gallery on the website? Where can I see all my images?
 
-Sign into the Midjourney website with your Discord account and click on [Organize](https://www.midjourney.com/archive) to find your gallery with all the images you’ve generated.
+Sign into the Midjourney website with your Discord account and click on [Organize](https://www.midjourney.com/organize) to find your gallery with all the images you’ve generated.
 
 ---
 
 Q: Where can I find the image gallery?
 
-Sign into the Midjourney website with your Discord account and click on [Organize](https://www.midjourney.com/archive) to find your gallery with all the images you’ve generated.
+Sign into the Midjourney website with your Discord account and click on [Organize](https://www.midjourney.com/organize) to find your gallery with all the images you’ve generated.
 Go to the [Explore](https://www.midjourney.com/explore) page to discover public images from other users.
 
 ---
@@ -2657,7 +2768,7 @@ Q: Is there a way to bulk remove images so they don't show up on my profile?
 
 To remove certain creations from your profile, you can move them to your [Trash](https://docs.midjourney.com/hc/en-us/articles/33329462451469-Organizing-Your-Creations#h_01JHP66YYRKF988ABQBHXMFJ3K), or make them private if you have access to [Stealth mode](https://docs.midjourney.com/hc/en-us/articles/32019750070669-Stealth-Mode).
 
-In your [Organize tab](https://www.midjourney.com/archive), shift click and drag to select the creations you would like to remove. Next, right click your selection:
+In your [Organize tab](https://www.midjourney.com/organize), shift click and drag to select the creations you would like to remove. Next, right click your selection:
 🔹 Press `Trash` to hide them from yourself in your Organize tab, and from others on your profile.
 If they're public, users can still find and see them on the [Explore page](https://www.midjourney.com/explore?tab=top). You can find them again by enabling the `In Trash` filter. 
 🔹 Press `Make Private` to hide them from other users, both on your profile and on the [Explore page](https://www.midjourney.com/explore?tab=top). This feature is available with a Pro or Mega plan.
@@ -2670,7 +2781,7 @@ Q: How can I make my profile private? How do I opt out of the public profile? Ca
 
 Midjourney users with [Stealth mode](https://docs.midjourney.com/hc/en-us/articles/32019750070669-Stealth-Mode) can make their generations private to exclude them from their profile and from the [Explore page](https://www.midjourney.com/explore?tab=top).
 
-**To make your public generations private:** Go to your [Organize tab](https://www.midjourney.com/archive), shift click and drag to select images and videos you want to make private, right click on one of them, and press `Make Private`.
+**To make your public generations private:** Go to your [Organize tab](https://www.midjourney.com/organize), shift click and drag to select images and videos you want to make private, right click on one of them, and press `Make Private`.
 
 **Note:** This update allows you to customize your profile. Midjourney users have always had a public profile displaying their public creations.
 Any private generation excluded from your earlier profile remains private.
@@ -2743,7 +2854,7 @@ Liking an image from another user adds the image to your [`Likes` page](https://
 Q: Where to find images I liked? Where to find my favorites? How do I see my favorite images? How do I see my likes?
 
 🔹 Liking an image from another user adds the image to your [`Likes` page](https://www.midjourney.com/explore?tab=likes) in the `Explore` tab. 
-🔹 To find your own images you liked, select the "Liked" filter in the [`Organize` tab](https://www.midjourney.com/archive).
+🔹 To find your own images you liked, select the "Liked" filter in the [`Organize` tab](https://www.midjourney.com/organize).
 
 ---
 
@@ -2751,7 +2862,7 @@ Q: Where to find images I liked? Where to find my favorites? How do I see my fav
 
 Q: Is there a way to save all my images at once? Can I batch download all of my images? How do I save my gallery? Download images? Batch download? Bulk download?
 
-You can batch download images and videos quickly on [the website](https://midjourney.com/archive). Click on the ⊕︀ sign next to a date to select creations from that day. At the bottom, you can then download your selection.
+You can batch download images and videos quickly on [the website](https://midjourney.com/organize). Click on the ⊕︀ sign next to a date to select creations from that day. At the bottom, you can then download your selection.
 You can also click and drag, or shift-click to select images and videos.
 
 [Learn more about Downloading and Organizing your creations on the website](https://docs.midjourney.com/hc/en-us/articles/33329462451469-Organizing-Your-Creations#h_01JHP57GM2GHRFRQRP0ZNQ4423)
@@ -2764,9 +2875,9 @@ You can also click and drag, or shift-click to select images and videos.
 
 Q: How to trash images? What is trash? What does trash do on the website? Is trash the same as private mode? Trash images?
 
-Use [`Trash`](https://docs.midjourney.com/hc/en-us/articles/33329462451469-Organizing-Your-Creations#h_01JHP66YYRKF988ABQBHXMFJ3K) to hide generations from your [Organize tab](https://www.midjourney.com/archive) and from your public profile’s Archive.
+Use [`Trash`](https://docs.midjourney.com/hc/en-us/articles/33329462451469-Organizing-Your-Creations#h_01JHP66YYRKF988ABQBHXMFJ3K) to hide generations from your [Organize tab](https://www.midjourney.com/organize) and from your public profile’s Archive.
 🔹 To trash your creations on Discord, react to it with the :x: emoji.
-🔹 To trash your creations on the website, go to your [Organize tab](https://www.midjourney.com/archive), select the images you want to trash, click `...More`, then select `Trash`.
+🔹 To trash your creations on the website, go to your [Organize tab](https://www.midjourney.com/organize), select the images you want to trash, click `...More`, then select `Trash`.
 
 **Note:** Public creations you set in your trash remain public on the [Explore page](https://www.midjourney.com/explore?tab=top). To make your creations private, you need [Stealth mode](https://docs.midjourney.com/hc/en-us/articles/32019750070669-Stealth-Mode), available on the Pro and Mega plans.
 
@@ -2774,7 +2885,7 @@ Use [`Trash`](https://docs.midjourney.com/hc/en-us/articles/33329462451469-Organ
 
 Q: How to find trash images from the website’s archive? How to see images I trashed on the website? How to find my trashed generations? How to find trash?
 
-To find images you've put in your trash, go to your [Organize tab](https://www.midjourney.com/archive) and in your `Filters` on the right side, check the `In Trash` box.
+To find images you've put in your trash, go to your [Organize tab](https://www.midjourney.com/organize) and in your `Filters` on the right side, check the `In Trash` box.
 
 [Learn more about your Organize page’s filters](https://docs.midjourney.com/hc/en-us/articles/33329462451469-Organizing-Your-Creations#h_01JHP29NQRGDRGCR6Q3VCBX0WR)
 
@@ -2782,7 +2893,7 @@ To find images you've put in your trash, go to your [Organize tab](https://www.m
 
 Q: How long can trash be stored?
 
-Images and videos in your [Trash](https://docs.midjourney.com/hc/en-us/articles/33329462451469-Organizing-Your-Creations#h_01JHP66YYRKF988ABQBHXMFJ3K) are not deleted. You can access them by enabling the `In Trash` filter on your [Organize tab](https://www.midjourney.com/archive).
+Images and videos in your [Trash](https://docs.midjourney.com/hc/en-us/articles/33329462451469-Organizing-Your-Creations#h_01JHP66YYRKF988ABQBHXMFJ3K) are not deleted. You can access them by enabling the `In Trash` filter on your [Organize tab](https://www.midjourney.com/organize).
 
 **Note:** Public creations in your Trash remain public on the [Explore page](https://www.midjourney.com/explore?tab=top). To make your creations private, you need [Stealth mode](https://docs.midjourney.com/hc/en-us/articles/32019750070669-Stealth-Mode), available on the Pro and Mega plans.
 
@@ -2809,7 +2920,7 @@ The creation tool on the [Midjourney website](https://www.midjourney.com/imagine
 
 Q: Stealth mode on the website? Enable Stealth mode on alpha? Stealth mode on web?
 
-[Stealth mode](https://docs.midjourney.com/hc/en-us/articles/32019750070669-Stealth-Mode) is a feature of the Pro and Mega plans that allows you to make your images private in [your gallery](https://www.midjourney.com/archive). Unless created in shared rooms, private creations cannot be seen on the website by any members other than yourself.
+[Stealth mode](https://docs.midjourney.com/hc/en-us/articles/32019750070669-Stealth-Mode) is a feature of the Pro and Mega plans that allows you to make your images private in [your gallery](https://www.midjourney.com/organize). Unless created in shared rooms, private creations cannot be seen on the website by any members other than yourself.
 
 To enable Stealth mode on the website and keep all **new** images private, toggle the `Stealth` button in your settings to `On`. You can also add it to individual prompts by adding the `--stealth` parameter.
 
