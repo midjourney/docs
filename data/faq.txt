@@ -189,7 +189,7 @@ If you have an active subscription, you can try and win [free bonus fast time](h
 
 ---
 
-Q: Are there discount codes? Can I get a discount? Student discount? Educational discount? Group discount?
+Q: Are there discount codes? Can I get a discount? Student discount? Educational discount? Group discount? Any discount? Discount? Discounts?
 
 **Welcome!** The only discount available is the 20% discount when purchasing a Yearly billed plan which charges all 12 months up front.
 There are no available codes to enter at checkout.
@@ -483,7 +483,7 @@ Subscribers can use commands in Direct Messages (DMs) with the Bot. Right click 
 
 ---
 
-Q: My chat bot disappeared, how do I find it? My chat bot disappeared, how do I get it back? I closed my chat with the bot, how do I get it back? I closed my chat with the bot, how do I find it? How do I get back to my personal chat with the bot? I closed my direct messages with the bot, how can I add it back?
+Q: My chat bot disappeared, how do I find it? My chat bot disappeared, how do I get it back? I closed my chat with the bot, how do I get it back? I closed my chat with the bot, how do I find it? How do I get back to my personal chat with the bot? I closed my direct messages with the bot, how can I add it back? Find back bot DM?
 
 To open your Direct Messages (DMs) with the Bot: click the Discord icon in the top left corner, then open your discussion with the Midjourney Bot.
 You can also right click here: <@936929561302675456> and hit `Message`.
@@ -618,14 +618,25 @@ If you are experiencing long wait times with jobs starting, please refer to [sta
 
 # - RELAX -
 
-Q: How do I go into Relax mode? How do I turn on Relax mode? How do I start Relax?  My images say "relaxed", how do I change this? Why are my images relaxed? How to get relaxed generation? Relax job? Relax generation? How to swap between relax and fast mode?
+Q: My images say "relaxed", how do I change this? Why are my images relaxed? How to swap between relax and fast mode?
 
-To toggle between Relax, Fast and Turbo mode, use the commands `/relax`, `/fast` or `/turbo`.
+To toggle between Relax, Fast and Turbo mode, use the commands </relax:972289487818334213>, </fast:972289487818334212> or </turbo:1124132684143271996>.
 - Images made in Relax mode take longer to complete but are unlimited.
 - Images made in Fast mode are quicker to start but use your limited GPU fast time.
 - Images made in Turbo mode are generated much faster but consume twice the cost of a `Fast` generation.
 
-**Note:** Relax mode for images is not available on the Basic plan. Relax mode for videos is only available on the Pro and Mega plans.
+**Note:** Relax mode for images is not available on the Basic plan. Relax mode for SD videos is only available on the Pro and Mega plans.
+[Learn more about GPU time and Speed modes.](https://docs.midjourney.com/hc/en-us/articles/32016412137741-GPU-Speed-Fast-Relax-Turbo)
+
+**Are you on the [Midjourney website](https://www.midjourney.com/imagine)?** [Click here to learn how to navigate the Create Page](https://docs.midjourney.com/hc/en-us/articles/33390732264589-Creating-on-Web)
+
+---
+
+Q: How to switch to relax mode? How do I activate relax mode? How can I switch to relax mode? How do I go into Relax mode? How do I turn on Relax mode? How do I start Relax? How to get relaxed generation? Relax job? Relax generation?
+
+Switch to [Relax mode](https://docs.midjourney.com/hc/en-us/articles/32016412137741-GPU-Speed-Fast-Relax-Turbo#h_01JD31XBDTV9HHVTHE3CX1NZ7W) with the command </relax:972289487818334213> or select :turtle:Relax mode in your </settings:1000850743479255081>.
+
+**Note:** Relax mode for images is not available on the Basic plan. Relax mode for SD videos is only available on the Pro and Mega plans.
 [Learn more about GPU time and Speed modes.](https://docs.midjourney.com/hc/en-us/articles/32016412137741-GPU-Speed-Fast-Relax-Turbo)
 
 **Are you on the [Midjourney website](https://www.midjourney.com/imagine)?** [Click here to learn how to navigate the Create Page](https://docs.midjourney.com/hc/en-us/articles/33390732264589-Creating-on-Web)
@@ -661,9 +672,17 @@ Batch jobs ([permutations](https://docs.midjourney.com/hc/en-us/articles/3276132
 
 # - FAST -
 
+Q: How to switch to fast mode? How do I activate fast mode? How can I switch to fast mode? How to toggle fast mode?
+
+Switch to [Fast mode](https://docs.midjourney.com/hc/en-us/articles/32016412137741-GPU-Speed-Fast-Relax-Turbo#h_01JD3524CXF11QC7WX0WHCX2PR) with the command </fast:972289487818334212> or select :rabbit2:Fast mode in your </settings:1000850743479255081>.
+
+**Are you on the [Midjourney website](https://www.midjourney.com/imagine)?** [Click here to learn how to navigate the Create Page](https://docs.midjourney.com/hc/en-us/articles/33390732264589-Creating-on-Web)
+
+---
+
 Q: What is fast mode? What does fast hours mean? Fast time? What is relax mode? In the plan it never said that I have limited fast hours? 
 
-There are three Speed modes to generate images. Use the commands `/relax`, `/fast` or `/turbo` to select the speed you want:
+There are three Speed modes to generate images. Use the commands </relax:972289487818334213>, </fast:972289487818334212> or </turbo:1124132684143271996> to select the speed you want:
 🔹 **Relax** mode adds your job to a dynamic queue, it can be slower but is unlimited.
 🔹 **Fast** mode starts your image right away but uses your limited GPU fast time.
 🔹 **Turbo** mode starts your job right away and processes it as fast as possible but consumes twice as much GPU time as in Fast mode.
@@ -691,10 +710,20 @@ Q: What is turbo mode? What does turbo mean? Turbo mode?
 
 Turbo mode is for extremely quick image generation. Jobs in Turbo mode are generated up to four times faster but also **consume twice as much fast GPU time** as a typical Fast mode job.
 
-Switch to Turbo mode with the command `/turbo` or select ⚡Turbo mode in your </settings:1000850743479255081>.
+Switch to Turbo mode with the command </turbo:1124132684143271996> or select ⚡Turbo mode in your </settings:1000850743479255081>.
 
 **Note:** If Turbo mode can’t be used, your job will run in Fast Mode instead.
 [Learn more about Relax, Fast, and Turbo Modes](https://docs.midjourney.com/hc/en-us/articles/32016412137741-GPU-Speed-Fast-Relax-Turbo)
+
+---
+
+Q: How to switch to turbo mode? How do I activate turbo mode? How can I switch to turn mode? How to toggle turbo mode?
+
+Switch to [Turbo mode](https://docs.midjourney.com/hc/en-us/articles/32016412137741-GPU-Speed-Fast-Relax-Turbo#h_01JD335ATZ6ZENSZ48Q1E2A649) with the command </turbo:1124132684143271996> or select ⚡Turbo mode in your </settings:1000850743479255081>.
+
+Jobs in Turbo mode are generated up to four times faster but also **consume twice as much fast GPU time** as a typical Fast mode job.
+
+**Are you on the [Midjourney website](https://www.midjourney.com/imagine)?** [Click here to learn how to navigate the Create Page](https://docs.midjourney.com/hc/en-us/articles/33390732264589-Creating-on-Web)
 
 ---
 
@@ -763,7 +792,7 @@ Select the images and videos you want to make private, right click your selectio
 # - UPSCALE & SIZE -
 # ----------------------------
 
-Q: How do I change my aspect ratio? How to change aspect ratio? How can I specify image width? How can I specify image height? How can I change the dimensions? How to make not square images? What is the prompt for width and height? Can I adjust the width and height? What is --ar? How do I make a desktop background?
+Q: How do I change my aspect ratio? How to change aspect ratio? How can I specify image width? How can I specify image height? How can I change the dimensions? How to make not square images? What is the prompt for width and height? Can I adjust the width and height? What is --ar? How do I make a desktop background? Image ratio? Aspect ratio? Ratio?
 
 Change the aspect ratio of your image by including the `--ar` parameter at the end of your prompt, followed by the **width:height** ratio.
 For example: `a robot on a sailboat --ar 2:1`
@@ -886,7 +915,7 @@ The command `/describe` gives you four prompts inspired by your image.
 To use it, type `/describe`, select the command and click on:
 🔹`image` to upload an image from your device
 🔹`link` to paste the link to an image online
-[Learn more about Describe and how to use it on the website](https://docs.midjourney.com/hc/en-us/articles/32497889043981-Describe)
+[Learn more about Describe](https://docs.midjourney.com/hc/en-us/articles/32497889043981-Describe)
 
 ---
 
@@ -934,13 +963,13 @@ Check out the [Midjourney Documentation](https://docs.midjourney.com/)
 
 Q: Where can I find all the commands? Is there a list of all the commands?
 
-Check out the [Midjourney Documentation](https://docs.midjourney.com/hc/en-us/articles/32894521590669-Discord-Command-List)
+Check out the list of Discord commands in our [Midjourney Documentation](https://docs.midjourney.com/hc/en-us/articles/32894521590669-Discord-Command-List)
 
 ---
 
 Q: Is there an exhaustive list of arguments somewhere we can look at? Where can I find a reference of the various parameters for imagine? What are all the suffixes I can use? What are all the parameters? Is there a list of all the parameters?
 
-Check out the [Midjourney Documentation](https://docs.midjourney.com/hc/en-us/articles/32859204029709-Parameter-List)
+Check out the list of parameters in our [Midjourney Documentation](https://docs.midjourney.com/hc/en-us/articles/32859204029709-Parameter-List)
 
 ---
 
@@ -1012,8 +1041,6 @@ The default value of the `--stylize` parameter is 100. You can adjust it by addi
 
 [Learn more about the Stylize parameter](https://docs.midjourney.com/hc/en-us/articles/32196176868109-Stylize)
 
-**Are you on the [Midjourney website](https://www.midjourney.com/imagine)?** [Click here to learn how to navigate the Create Page](https://docs.midjourney.com/hc/en-us/articles/33390732264589-Creating-on-Web)
-
 ---
 
 # - RAW -
@@ -1035,8 +1062,6 @@ Q: What is chaos? What is –c? Why do I see prompts with s and c in them? What 
 The '--chaos' or '--c' parameter affects how different the images are from each other in the initial grid. The value goes from 0 to 100, 0 being the default.
 
 [Learn more about the Chaos parameter](https://docs.midjourney.com/hc/en-us/articles/32099348346765-Chaos-Variety)
-
-**Are you on the [Midjourney website](https://www.midjourney.com/imagine)?** [Click here to learn how to navigate the Create Page](https://docs.midjourney.com/hc/en-us/articles/33390732264589-Creating-on-Web)
 
 ---
 
@@ -1060,7 +1085,7 @@ For example: `A hedgehog drinking coffee --oref https://pic.png`
 **Note:** It only works with [Version 7](https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version#h_01JQSR0Q6H0AX8NCC8QGE6C2NZ).
 If you’re not in Relax mode, jobs with an Omni Reference run in Turbo mode, which consumes double the GPU time.
 
-[Learn more about the Omni Reference parameter and how to use it on the website](https://docs.midjourney.com/hc/en-us/articles/36285124473997-Omni-Reference)
+[Learn more about the Omni Reference parameter](https://docs.midjourney.com/hc/en-us/articles/36285124473997-Omni-Reference)
 
 ---
 
@@ -1070,18 +1095,18 @@ The omni weight parameter `--ow` adjusts how much information is used in your om
 
 The default value of the `--ow` parameter is 100. You can adjust it by adding the `--ow` parameter at the end of your prompt with a value from 0 to 1000.
 
-[Learn more about the Omni Reference parameter and how to use it on the website](https://docs.midjourney.com/hc/en-us/articles/36285124473997-Omni-Reference)
+[Learn more about the Omni Reference parameter](https://docs.midjourney.com/hc/en-us/articles/36285124473997-Omni-Reference)
 
 ---
 
 Q: V7 cref? Cref in Version 7? Cref in v7? --cref is not compatible with --version 7? --cref no longer compatible? --cref not working in version 7?
 
-In [Version 7](https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version#h_01JQSR0Q6H0AX8NCC8QGE6C2NZ), Midjourney allows you to have an **Omni Reference**. The reference can be a character, but it can also be an object.
+In [Version 7](https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version#h_01JQSR0Q6H0AX8NCC8QGE6C2NZ), you can add an **Omni Reference**. The reference can be a character, but it can also be an object.
 
 To use an image as an Omni Reference, add the `--oref` parameter at the end of your prompt, followed by a space and a link to your image.
 
 **Note:** It is not compatible with previous versions so make sure to use Version 7.
-[Learn more about the Omni Reference parameter and how to use it on the website](https://docs.midjourney.com/hc/en-us/articles/36285124473997-Omni-Reference)
+[Learn more about the Omni Reference parameter](https://docs.midjourney.com/hc/en-us/articles/36285124473997-Omni-Reference)
 
 ---
 
@@ -1095,7 +1120,7 @@ For example: `Short blond man holding a puppy --cref https://pic1.png https://pi
 
 **Note: Character references only work in Version 6.0 and 6.1**. In [Version 7](https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version#h_01JQSR0Q6H0AX8NCC8QGE6C2NZ), use the [Omni Reference](https://docs.midjourney.com/hc/en-us/articles/36285124473997-Omni-Reference) parameter `--oref`.
 
-[Learn more about the Character Reference parameter and how to use it on the website](https://docs.midjourney.com/hc/en-us/articles/32162917505293-Character-Reference)
+[Learn more about the Character Reference parameter](https://docs.midjourney.com/hc/en-us/articles/32162917505293-Character-Reference)
 
 ---
 
@@ -1105,7 +1130,15 @@ The `--cref` parameter is used in a prompt, followed by one or more image links,
 
 **Note: Character references only work in Version 6.0 and 6.1**. In [Version 7](https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version#h_01JQSR0Q6H0AX8NCC8QGE6C2NZ), use the [Omni Reference](https://docs.midjourney.com/hc/en-us/articles/36285124473997-Omni-Reference) parameter `--oref`.
 
-[Learn more about the Character Reference parameter and how to use it on the website](https://docs.midjourney.com/hc/en-us/articles/32162917505293-Character-Reference)
+[Learn more about the Character Reference parameter](https://docs.midjourney.com/hc/en-us/articles/32162917505293-Character-Reference)
+
+---
+
+Q: Which version uses cref?
+
+[Character references](https://docs.midjourney.com/hc/en-us/articles/32162917505293-Character-Reference) (cref) can be used with Midjourney's Version 6, 6.1 and Niji 6.
+
+In [Version 7](https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version#h_01JQSR0Q6H0AX8NCC8QGE6C2NZ), you can add an [Omni Reference](https://docs.midjourney.com/hc/en-us/articles/36285124473997-Omni-Reference). This reference can be a character, but it can also be an object.
 
 ---
 
@@ -1115,7 +1148,7 @@ The character weight parameter `--cw` adjusts how much information is used in yo
 
 `--cw 100` is the default and maximum value; it uses all of the information, from head to toe. Lowering the value gradually shifts focus from the full body to the face.
 
-[Learn more about the Character Reference parameter and how to use it on the website](https://docs.midjourney.com/hc/en-us/articles/32162917505293-Character-Reference)
+[Learn more about the Character Reference parameter](https://docs.midjourney.com/hc/en-us/articles/32162917505293-Character-Reference)
 
 ---
 
@@ -1128,7 +1161,7 @@ For example: `Yellow ghost and pirate alien --sref https://pic1.png https://pic2
 
 **Note:** You can also use the style reference parameter with a number; each number represents a different random style. For example: `happy firefighter squid --sref 483`
 
-[Learn more about the Style Reference parameter and how to use it on the website](https://docs.midjourney.com/hc/en-us/articles/32180011136653-Style-Reference)
+[Learn more about the Style Reference parameter](https://docs.midjourney.com/hc/en-us/articles/32180011136653-Style-Reference)
 
 ---
 
@@ -1136,7 +1169,7 @@ Q: What is sref? What is the sref parameter? What does sref do? What does the sr
 
 The `--sref` parameter is used in a prompt, followed by one or more image links, to add a **style reference**. You can also add numbers; each number has been randomly assigned a style.
 
-[Learn more about the Style Reference parameter and how to use it on the website](https://docs.midjourney.com/hc/en-us/articles/32180011136653-Style-Reference)
+[Learn more about the Style Reference parameter](https://docs.midjourney.com/hc/en-us/articles/32180011136653-Style-Reference)
 
 ---
 
@@ -1783,11 +1816,11 @@ You can create looping videos on the website as well:
 
 Q: Is video unlimited? Video generation only works with fast hours? Video not on relax? Is Video only used with fast hours? Generating a video costs fast GPU? Can I use animation unlimitedly? Can I animate in relax? Which subscription plan allows unlimited video generation?
 
-Unlimited Relax mode is available for [Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video) with a Pro or Mega subscription. With Basic and Standard, you can only use Fast mode.
+Unlimited Relax mode is available for SD [Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video) with a Pro or Mega subscription. With Basic and Standard, you can only use Fast mode.
 
 ---
 
-Q: How many fast minutes are used for a video render? How much GPU time does a video consume? How many credits for a video? How much fast time does a video use? 
+Q: How many fast minutes are used for a video render? How much GPU time does a video consume? How many credits for a video? How much fast time does a video use? How much does a video cost? How much does a video consume? How much does a video cost? How much does a video consume? How many GPU minutes for video? How much does an animation cost? How much does an animation consume? How much does an animation cost? How much does an animation consume? How many GPU minutes for an animation? How many credits for a video? How many credits for an animation?
 
 🔹 Generating a set of 4 Videos in **Standard Definition (SD)** consumes about **8** GPU minutes.
 🔹 Generating a set of 4 Videos in **High Definition (HD)** consumes about **26** GPU minutes.
@@ -1813,6 +1846,7 @@ Q: How much does a HD video cost? How much does a HD video consume? How much doe
 Each set of 4 [Videos](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video) in High Definition (HD) consumes about 26 GPU minutes.
 
 **Note:** You can use the [Batch Size parameter](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01K2J07NWY2CTEWHAVCAPQJFZV) to run smaller sets of videos.
+%image=https://cdn.midjourney.com/u/ff03153e-6e8a-48b4-87d0-5acd0a123688/f5397e92e787c4fa1cca2ca8dd1a8b65159d6e67f99272d840f4ac5bea7b1216.png
 
 ---
 
@@ -1977,7 +2011,7 @@ Don't worry, all these images are in your [Organize tab](https://www.midjourney.
 
 # - COPYRIGHT/IP -
 
-Q: Our filters detected potential third party content, so we are keeping this generation private to you?
+Q: Our filters detected potential third party content, so we are keeping this generation private to you? Third party content? 3rd party content?
 
 Per the [Terms of Service](https://docs.midjourney.com/hc/en-us/articles/32083055291277-Terms-of-Service), you may not use Midjourney to try to violate the intellectual property rights of others, including copyright, patent, or trademark rights.
 Do not upload content, enter prompts, or use Editor or Video in any way that infringes or violates any third-party intellectual property or privacy rights.
@@ -2630,11 +2664,44 @@ For questions or issues related to your payments and subscription, don't hesitat
 
 # - GOOGLE LOGIN -
 
-Q: Help linking Discord and Google to my account? This Discord login is already linked to a different account? I am unable to connect my Discord login with my Google login? DT1043? At this time, linking such accounts is not supported?
+Q: Help linking Discord and Google to my account? This Discord login is already linked to a different account? I am unable to connect my Discord login with my Google login? At this time, linking such accounts is not supported?
 
 When you log in with Google and purchase a subscription, you can only add a Discord account which has never been used for Midjourney before. Otherwise, the two galleries cannot be merged. [Click here for more information and possible solutions](https://docs.midjourney.com/hc/en-us/articles/33390994570509-Logging-In-Connecting-Accounts#h_01JHK4K8B881M2GPSNEDGB0PCQ)
 
 Send an email to `billing@midjourney.com` for further assistance with your subscription.
+
+---
+
+Q: DT1041?
+
+Each Midjourney account is associated with a Discord and/or Google login method. If you are trying to add another login method, it needs to be a Discord or Google which you haven't used for Midjourney before. Otherwise, **the two galleries of images and videos cannot be merged together**.
+
+If your subscription is on the wrong account, or if you would like one of the two galleries to be deleted to connect the two login methods to a single Midjourney account, email `billing@midjourney.com` with your </userid:1136041075614683196>.
+
+**Note:** If you recently subscribed on the wrong account, you may be eligible for a refund directly through the website. Go to your [Manage subscription](https://www.midjourney.com/account) page, click `Cancel Plan` and select the `Cancel now with refund` option, if available.
+You can then log out to resubscribe on the right account.
+
+---
+
+Q: DT1042?
+
+This error appears when you have two active subscriptions on two different Midjourney accounts, one linked to your Discord login, and the other one linked to your Google login. The two subscriptions cannot be merged.
+
+If you recently activated the second subscription by accident, you may be eligible for a refund directly through the website. Go to your [Manage subscription](https://www.midjourney.com/account) page, click `Cancel Plan` and select the `Cancel now with refund` option, if available.
+You'll then be able to log out and back in with your other login method.
+
+If you don't get the refund option or if you have trouble with either subscriptions, email `billing@midjourney.com` with your </userid:1136041075614683196>. If possible, include both invoice or receipt numbers.
+
+---
+
+Q: DT1043?
+
+Each Midjourney account is associated with a Discord and/or Google login method. If you are trying to add another login method, it needs to be a Discord or Google which you haven't used for Midjourney before. Otherwise, your new subscription cannot be merged with the gallery from your previous account.
+
+If you recently subscribed on the wrong account, you may be eligible for a refund directly through the website. Go to your [Manage subscription](https://www.midjourney.com/account) page, click `Cancel Plan` and select the `Cancel now with refund` option, if available.
+You can then log out to resubscribe on the right account.
+
+If you subscribed on the wrong account and don't get the refund option, email `billing@midjourney.com` with your </userid:1136041075614683196>. If possible, include your invoice or receipt number.
 
 ---
 
