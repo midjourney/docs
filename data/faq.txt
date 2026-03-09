@@ -116,7 +116,7 @@ Please note that, per the [Terms of Service](https://docs.midjourney.com/hc/en-u
 
 # - USAGE RIGHTS -
 
-Q: How does commercial use work? Can I use images commercially? Can I sell images I generated? Are there royalties? Can we use images for commercial projects? What are the commercial terms? Can I sell my images? What’s the license for my images? Commercial use for images? Can I use the images I generated before subscribing commercially? If I am a trial member but become a paid member, can I relicense already generated images done while I was a trial member? Do I have commercial rights to images on Midjourney?
+Q: How does commercial use work? Can I use images commercially? Can I sell images I generated? Are there royalties? Can we use images for commercial projects? What are the commercial terms? Can I sell my images? What’s the license for my images? Commercial use for images? Can I use the images I generated before subscribing commercially? If I am a trial member but become a paid member, can I relicense already generated images done while I was a trial member? Do I have commercial rights to images on Midjourney? Commercial rights?
 
 Paying members have commercial rights to all images they have made and may use them commercially even if they no longer have an active subscription.
 
@@ -416,6 +416,17 @@ To create **inside** the Midjourney server:
 
 ---
 
+Q: Help?
+
+For technical questions or issues, ask for help in the [#support](https://discord.com/channels/662267976984297473/958069758211797092) channel.
+To report an error, share as many details about it as possible in the [#bug-reporting](https://discord.com/channels/662267976984297473/1100553646162317332) channel.
+
+For help building prompts, use the [#prompt-craft](https://discord.com/channels/662267976984297473/992207085146222713) channel. Be sure to share what you've tried!
+
+For matters related to your subscription or payments, send an email to `billing@midjourney.com`. **We cannot assist with payment issues through Discord**.
+
+---
+
 # - ROLES -
 
 Q: How to get access to the 5000 club? How to get access to the 10000 club? Why do I not see the 5000 channel? How do I unlock the 25000 club?
@@ -468,6 +479,16 @@ However, all your images can be found on the Midjourney website; sign in with yo
 Use the command `/show` to move your work to a new location:
 1️⃣ Go to your gallery and copy the job ID.
 2️⃣ In Discord, use the [command `/show`](https://docs.midjourney.com/hc/en-us/articles/32635695384461-Show-Command) followed by the job ID.
+
+**Note:** Update your Discord roles using the </info:972289487818334209> command in the Midjourney server.
+
+---
+
+Q: Update roles?
+
+Use the </info:972289487818334209> command in the Midjourney server to update your roles and access.
+
+**Note:** If most channels are locked but you have a subscription, go to a Newbies channel 1-10 to run the command.
 
 ---
 
@@ -1882,7 +1903,7 @@ On the website, you'll find these options in your Settings, in the `More options
 
 # - QUALITY -
 
-Q: Is there any way to increase video resolution? How do I make HD videos? How do I make High Definition videos? Can I make High Definition quality animation? How to HD animations? How to use HD video? How to use High Definition animation? How to use HD animation? How to use High Definition video? How to make 720p? How to make 1080p?
+Q: How do I make HD videos? How do I make High Definition videos? Can I make High Definition quality animation? How to HD animations? How to use HD video? How to use High Definition animation? How to use HD animation? How to use High Definition video? How to make 720p? How to make 1080p?
 
 By default, videos are generated in Standard Definition (480p).
 In Fast mode, users can generate videos in High Definition (720p). Each set of 4 HD videos consumes about 26 GPU minutes:exclamation:
@@ -1896,9 +1917,22 @@ To generate High Definition videos on the website, select “HD” in your setti
 
 ---
 
-Q: Any plans to go above 480p for video? Will videos only be made in 480p? When will video resolution get higher than 480p? I need a 720p video? I need a 1080p video? When will 720p or 1080p resolution be available? Can videos be upscaled? What is High Definition Video? HD video? Can videos go up to 1080p? Videos only 480p? Are we able to upscale our videos higher than 480p? What resolution can videos be made at? What is the video output resolution?
+Q: Can videos be upscaled? Are we able to upscale our videos higher than 480p? Is there any way to increase video resolution?
 
-By default, videos are generated in Standard Definition (480p).The details are quite high for 480p (so using an outside upscaler gives good results).
+Videos cannot be upscaled in Midjourney.
+
+By default, videos are generated in Standard Definition (480p). The details are quite high for 480p, so using an outside upscaler gives good results.
+
+In Fast mode, users can generate videos in High Definition (720p). Standard Definition videos cannot be upgraded to High Definition in Midjourney, you can only generate a new set.
+
+**Note:** HD videos consume more GPU time and are not available on the Basic plan.
+[Learn more about Video Output](https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video#h_01JXZZK6WR94XMKM9GXH2Y4XXQ)
+
+---
+
+Q: I need a 720p video? I need a 1080p video? What is High Definition Video? HD video? Can videos go up to 1080p? Videos only 480p? What resolution can videos be made at? What is the video output resolution?
+
+By default, videos are generated in Standard Definition (480p). The details are quite high for 480p (so using an outside upscaler gives good results).
 
 In Fast mode, users can generate videos in High Definition (720p). Each set of 4 HD videos consumes about 26 GPU minutes:exclamation:
 
@@ -3045,11 +3079,20 @@ When using Draft mode, images are made in Draft quality, meaning each set is muc
 
 ---
 
+Q: Does Niji work in Draft mode? Does Version 6 work in Draft mode? Is Niji compatible with Draft mode?
+
+Draft mode only works with Version 7.
+When activating Draft mode, your settings will automatically update to Version 7.
+
+[Learn more about Draft mode](https://docs.midjourney.com/hc/en-us/articles/35577175650957-Draft-Conversational-Modes)
+
+---
+
 # - STYLE CREATOR -
 
 Q: Why do I get the error failed to submit when using the Style Creator? Style creator is not compatible with --sv 4?
 
-Activate Version 7 in your settings, and avoid any incompatible parameters in your prompt.
+Activate Version 7 or Niji 7 in your settings, and avoid any incompatible parameters in your prompt.
 
 [Learn more about the Style Creator prompts](https://docs.midjourney.com/hc/en-us/articles/41308374558221-Style-Creator#h_01KA1Q9RHW7KHTY1EDRY9VS79J)
 
@@ -3057,9 +3100,8 @@ Activate Version 7 in your settings, and avoid any incompatible parameters in yo
 
 Q: Does the Style Creator work with Niji?
 
-The Style Creator only generates images using Version 7. If you get an error, make sure to activate Version 7 in your settings, and avoid any incompatible parameters in your prompt.
-
-[Learn more about the Style Creator prompts](https://docs.midjourney.com/hc/en-us/articles/41308374558221-Style-Creator#h_01KA1Q9RHW7KHTY1EDRY9VS79J)
+The Style Creator works with Niji 7.
+[Learn more about the Style Creator](https://docs.midjourney.com/hc/en-us/articles/41308374558221-Style-Creator)
 
 ---
 
