@@ -317,13 +317,16 @@ Right click here: <@936929561302675456> and hit `Message` to use the command wit
 
 Q: How do I generate images? How to use it? How do I use the bot? How does the bot work? How do I use it? How do I make art? How do I use Midjourney? How do I prompt? How can I ask the AI to create an image? How do I get started? Where can I start? How do I use the AI? Register? How do I use this? Where do I prompt?
 
+To use Midjourney on Discord:
 1️⃣ Right click here: <@936929561302675456> and hit `Message`.
 2️⃣ Type `/imagine`
 3️⃣ Click the popup above and type a description of the image you want - that’s the prompt.
 4️⃣ Hit enter or press send to submit your prompt.
 
 Check out our [Quick Start Guide](https://docs.midjourney.com/hc/en-us/articles/32631709682573-Discord-Quick-Start) for a step by step walkthrough.
-**Note:** You can also create images with other members in this server in bot channels like <#981832774157762570>.
+You can also generate images directly on [midjourney.com](http://midjourney.com/), [click here to find out how](https://docs.midjourney.com/hc/en-us/articles/33390732264589-Creating-on-Web).
+
+**Note:** You can create images with other members in this server in bot channels like <#981832774157762570>.
 
 %image=https://cdn.discordapp.com/attachments/958069758211797092/1110755514691891260/MJ_ImagineCommand.gif
 
@@ -418,12 +421,30 @@ To create **inside** the Midjourney server:
 
 Q: Help?
 
-For technical questions or issues, ask for help in the [#support](https://discord.com/channels/662267976984297473/958069758211797092) channel.
-To report an error, share as many details about it as possible in the [#bug-reporting](https://discord.com/channels/662267976984297473/1100553646162317332) channel.
+For technical questions or issues, ask for help in the <#958069758211797092> channel.
+To report an error, share as many details about it as possible in the <#1100553646162317332> channel.
 
-For help building prompts, use the [#prompt-craft](https://discord.com/channels/662267976984297473/992207085146222713) channel. Be sure to share what you've tried!
+For help building prompts, use the <#992207085146222713> channel. Be sure to share what you've tried!
 
 For matters related to your subscription or payments, send an email to `billing@midjourney.com`. **We cannot assist with payment issues through Discord**.
+
+---
+
+Q: Where is the suggestion channel? Where can I give feedback?
+
+You can post ideas, suggestions, and constructive feedback to the team in the <#989270517401911316> channel.
+For feedback about the automatic moderation filter or incorrectly flagged prompts, please share your full prompt including any images and parameters in <#1100553606761041991>.
+
+**Note: The channels are not for venting, arguing, advertising or complaining.** Please be respectful and constructive.
+Keep discussions to the channels from the `Chat` category, such as <#938713143759216720>.
+
+---
+
+Q: Where is the place to report bugs? Is this the place to report a bug?
+
+If you encounter a bug with the Midjourney bot or on the website, you can report it to our team of developers by posting in the <#1100553646162317332> channel. Please share as much details as possible (steps to reproduce, error trace codes, job IDs, etc.).
+
+For help adjusting a prompt, you can ask the community in <#992207085146222713>. Be sure to share what you've tried!
 
 ---
 
@@ -448,8 +469,8 @@ Use this link to invite someone to the Midjourney server: https://discord.gg/mid
 
 Q: Where is the chat for the Office Hours? Where to ask questions during the Office Hours?
 
-The live chat during Office Hours happens in [#vc-text](https://discord.com/channels/662267976984297473/959962985655320616).
-You can find summaries from users in [#Office Hours Notes](https://discord.com/channels/662267976984297473/1037743153471553618).
+The live chat during Office Hours happens in <#959962985655320616>.
+You can find summaries from users in <#1037743153471553618>.
 
 ---
 
@@ -457,7 +478,7 @@ You can find summaries from users in [#Office Hours Notes](https://discord.com/c
 
 Q: Why do I keep getting daily theme pings? How do I turn off daily theme pings? How do I mute daily theme notifications? How do I mute daily theme pings? How do I silence daily theme pings? Daily theme
 
-You can opt-out of [#daily-theme](https://discord.com/channels/662267976984297473/945077390839787570) pings by using the `/daily_theme` command setting your participation to “No”.
+You can opt-out of <#945077390839787570> pings by using the `/daily_theme` command, and setting your participation to “No”.
 
 ---
 
@@ -504,9 +525,9 @@ Subscribers can use commands in Direct Messages (DMs) with the Bot. Right click 
 
 ---
 
-Q: My chat bot disappeared, how do I find it? My chat bot disappeared, how do I get it back? I closed my chat with the bot, how do I get it back? I closed my chat with the bot, how do I find it? How do I get back to my personal chat with the bot? I closed my direct messages with the bot, how can I add it back? Find back bot DM?
+Q: My chat bot disappeared, how do I find it? My chat bot disappeared, how do I get it back? I closed my chat with the bot, how do I get it back? I closed my chat with the bot, how do I find it? How do I get back to my personal chat with the bot? I closed my direct messages with the bot, how can I add it back? Find back bot DM? How do I get back to my Midjourney bot?
 
-To open your Direct Messages (DMs) with the Bot: click the Discord icon in the top left corner, then open your discussion with the Midjourney Bot.
+To open your Direct Messages (DMs) with the Bot: click the Discord icon in the top left corner, then open your discussion with the `Midjourney Bot`.
 You can also right click here: <@936929561302675456> and hit `Message`.
 
 ---
@@ -629,7 +650,7 @@ To cancel running jobs, you can either:
 
 Can't find the job? Use </info:972289487818334209> to get a link to its location. Remember, you can only cancel jobs which are currently running, not those queued.
 
-If you are experiencing long wait times with jobs starting, please refer to [status.midjourney.com](https://status.midjourney.com/) for estimated queue times or [#status](https://discord.com/channels/662267976984297473/942231458918064148) for current bot updates. If there’s an issue, it's often best to wait for your job to start rather than to cancel and restart it.
+If you are experiencing long wait times with jobs starting, please refer to [status.midjourney.com](https://status.midjourney.com/) for estimated queue times or <#942231458918064148> for current bot updates. If there’s an issue, it's often best to wait for your job to start rather than to cancel and restart it.
 
 ---
 
@@ -790,7 +811,7 @@ Any generations made private while you had Stealth mode will remain private even
 
 Q: I can’t use the stealth option in my web settings? I can’t see the unpublish button? I don’t see the unpublish button? I don’t see the private button?
 
-If you have the Pro or Mega plan but the `Stealth` option doesn’t appear in your settings, try signing out of [the website](https://www.midjourney.com/) and then signing back in.
+If you have the Pro or Mega plan but the `Stealth` option doesn’t appear in your settings, try signing out of [midjourney.com](https://www.midjourney.com/) website and then signing back in.
 
 [Learn more about how to organize your images](https://docs.midjourney.com/hc/en-us/articles/33329462451469-Organizing-Your-Creations#h_01JHP57GM2GHRFRQRP0ZNQ4423)
 
@@ -976,9 +997,9 @@ If the :x: emoji reaction does not work, you can instead right click the image (
 # - PARAMETERS -
 # ------------------------
 
-Q: Is there documentation? Is there documentation? Can anyone help me with the commands syntax please? Can I have the user manual? Where do I find documentation?
+Q: Is there documentation? Can anyone help me with the commands syntax please? Can I have the user manual? Where do I find documentation? Docs link? Docs?
 
-Check out the [Midjourney Documentation](https://docs.midjourney.com/)
+Check out the Midjourney Documentation on [https://docs.midjourney.com/](https://docs.midjourney.com/).
 
 ---
 
@@ -1014,6 +1035,44 @@ Q: /settings? Change settings? Where are the bot settings? Can I change the defa
 
 ---
 
+Q: Custom options? Can I make my own custom parameters? Custom parameter?
+
+You can create a custom --parameter name which will automatically be replaced by the text and/or parameter(s) you set up.
+To create your own parameter, use the command </prefer option set:984273800587776053>. In the `option` field, type the name of your parameter, and in the `value` field, enter what it will be a shortcut to.
+
+For example, you can create the parameters `--pablo` and `--pic` with the following commands:
+`/prefer option set option: pablo value: a young man with big blue eyes, wearing an orange hoodie,`
+`/prefer option set option: pic value: --ar 3:2 --raw`.
+This way, when you submit `--pablo playing basketball --pic`, it will run the prompt `a young man with big blue eyes, wearing an orange hoodie, playing basketball --ar 3:2 --raw`
+
+[Learn more about Creation Settings in Discord](https://docs.midjourney.com/hc/en-us/articles/32868982949517-Creation-Settings-in-Discord#h_01JFGHS2KP8XMH13FP8DFV5Y1D)
+
+---
+
+# - VERSION 8 -
+
+Q: How to upscale in V8? How to upscale in Version 8? Version 8 upscale? Can I upscale in V8? Can I upscale in Version 8?
+
+At this time, Version 8 does not have an upscaler. 
+You can run or rerun a prompt with `--hd` to generate images in a higher resolution. If you click `Run as HD` on a generated image, it will create a new set of 4 images in HD, using the same exact prompt and seed. The same seed helps with keeping a similar composition.
+
+**Note:** A set of 4 HD images in Version 8.1 consumes about 1.33 GPU minutes, compared to about 1 GPU minute for a set of 4 SD images.
+A set of 4 HD images in Version 8.0 consumes about 4 times more GPU time than a SD set. If using both `--hd` and `--q 4`, it will consume about 16 GPU minutes.
+
+[Learn more about Version 8.1 and its alpha 8.0](https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version#h_01JQSR0Q6H0AX8NCC8QGE6C2NZ)
+
+---
+
+Q: Is there a way to get consistent characters in version 8?
+
+There is currently no way to reference a character when using V 8.
+With V 7, you can use an [Omni reference](https://docs.midjourney.com/hc/en-us/articles/36285124473997-Omni-Reference).
+With V 6 and Niji 6, you can use a [Character reference](https://docs.midjourney.com/hc/en-us/articles/32162917505293-Character-Reference).
+
+[Click here](https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version#h_01JQSVRYHH9QQJW7QMG1X06NJV) to view which features and parameters are compatible with V 8.
+
+---
+
 # - VERSION 7 -
 
 Q: How to use version 7? How to switch to v7? I want to turn on v7?
@@ -1027,7 +1086,7 @@ Q: Not compatible with --version 7?
 
 Certain parameters and features may not be compatible with Version 7.
 
-[Click here](https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version#h_01JQSR0Q6H0AX8NCC8QGE6C2NZ) to view which features and parameters are currently available in V7.
+[Click here](https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version#h_01JQSVRYHH9QQJW7QMG1X06NJV) to view which features and parameters are compatible with V 7.
 
 ---
 
@@ -1061,6 +1120,19 @@ The default value of the `--stylize` parameter is 100. You can adjust it by addi
 🔹Higher values give the bot more freedom to interpret the prompt but may dismiss some specifics.
 
 [Learn more about the Stylize parameter](https://docs.midjourney.com/hc/en-us/articles/32196176868109-Stylize)
+
+---
+
+# - EXP -
+
+Q: --exp? What is exp? Exp parameter? What is the exp parameter?
+
+Similar to the [--stylize parameter](https://docs.midjourney.com/hc/en-us/articles/32196176868109-Stylize), the `--exp` parameter adjusts the image aesthetic.
+
+The default value of the `--exp` parameter is 0. You can adjust it by adding the `--exp` parameter at the end of your prompt with a value from 0 to 100.
+Higher values may create more detailed, dynamic, creative images, but will reduce prompt accuracy.
+
+**Note:** It is an experimental parameter. We recommend lower values if you're using other parameters.
 
 ---
 
@@ -1103,7 +1175,7 @@ Q: Oref? Omni reference? How to have the same character made but in different sc
 To reference a specific character or object, use the Omni Reference parameter `--oref` followed by a space and a link to your image.
 For example: `A hedgehog drinking coffee --oref https://pic.png`
 
-**Note:** It only works with [Version 7](https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version#h_01JQSR0Q6H0AX8NCC8QGE6C2NZ).
+**Note:** It only works with [Version 7](https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version#h_01KKEKYXC5MBVM2G6SEN4TQ82G).
 If you’re not in Relax mode, jobs with an Omni Reference run in Turbo mode, which consumes double the GPU time.
 
 [Learn more about the Omni Reference parameter](https://docs.midjourney.com/hc/en-us/articles/36285124473997-Omni-Reference)
@@ -1122,7 +1194,7 @@ The default value of the `--ow` parameter is 100. You can adjust it by adding th
 
 Q: V7 cref? Cref in Version 7? Cref in v7? --cref is not compatible with --version 7? --cref no longer compatible? --cref not working in version 7?
 
-In [Version 7](https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version#h_01JQSR0Q6H0AX8NCC8QGE6C2NZ), you can add an **Omni Reference**. The reference can be a character, but it can also be an object.
+In [Version 7](https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version#h_01KKEKYXC5MBVM2G6SEN4TQ82G), you can add an **Omni Reference**. The reference can be a character, but it can also be an object.
 
 To use an image as an Omni Reference, add the `--oref` parameter at the end of your prompt, followed by a space and a link to your image.
 
@@ -1139,7 +1211,7 @@ Use the Character Reference parameter `--cref` followed by a space and a link to
 You can add text, image prompts, and other parameters to guide the results.
 For example: `Short blond man holding a puppy --cref https://pic1.png https://pic2.png`
 
-**Note: Character references only work in Version 6.0 and 6.1**. In [Version 7](https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version#h_01JQSR0Q6H0AX8NCC8QGE6C2NZ), use the [Omni Reference](https://docs.midjourney.com/hc/en-us/articles/36285124473997-Omni-Reference) parameter `--oref`.
+**Note: Character references only work in Version 6.0 and 6.1**. In [Version 7](https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version#h_01KKEKYXC5MBVM2G6SEN4TQ82G), use the [Omni Reference](https://docs.midjourney.com/hc/en-us/articles/36285124473997-Omni-Reference) parameter `--oref`.
 
 [Learn more about the Character Reference parameter](https://docs.midjourney.com/hc/en-us/articles/32162917505293-Character-Reference)
 
@@ -1149,7 +1221,7 @@ Q: What is cref? What is the cref parameter? What does cref do? What does the cr
 
 The `--cref` parameter is used in a prompt, followed by one or more image links, to add a **character reference**.
 
-**Note: Character references only work in Version 6.0 and 6.1**. In [Version 7](https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version#h_01JQSR0Q6H0AX8NCC8QGE6C2NZ), use the [Omni Reference](https://docs.midjourney.com/hc/en-us/articles/36285124473997-Omni-Reference) parameter `--oref`.
+**Note: Character references only work in Version 6.0 and 6.1**. In [Version 7](https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version#h_01KKEKYXC5MBVM2G6SEN4TQ82G), use the [Omni Reference](https://docs.midjourney.com/hc/en-us/articles/36285124473997-Omni-Reference) parameter `--oref`.
 
 [Learn more about the Character Reference parameter](https://docs.midjourney.com/hc/en-us/articles/32162917505293-Character-Reference)
 
@@ -1159,7 +1231,7 @@ Q: Which version uses cref?
 
 [Character references](https://docs.midjourney.com/hc/en-us/articles/32162917505293-Character-Reference) (cref) can be used with Midjourney's Version 6, 6.1 and Niji 6.
 
-In [Version 7](https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version#h_01JQSR0Q6H0AX8NCC8QGE6C2NZ), you can add an [Omni Reference](https://docs.midjourney.com/hc/en-us/articles/36285124473997-Omni-Reference). This reference can be a character, but it can also be an object.
+In [Version 7](https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version#h_01KKEKYXC5MBVM2G6SEN4TQ82G), you can add an [Omni Reference](https://docs.midjourney.com/hc/en-us/articles/36285124473997-Omni-Reference). This reference can be a character, but it can also be an object.
 
 ---
 
@@ -1962,7 +2034,7 @@ It is now used to animate your images into [videos](https://docs.midjourney.com/
 # - MODERATION -
 # -----------------
 
-Q: You have been blocked from accessing Midjourney. This happens on repeated or serious ToS violations? My account shows "You have been blocked from accessing Midjourney. This happens on repeated or serious ToS violations", please help me? You have been blocked from accessing Midjourney?
+Q: You have been blocked from accessing Midjourney. This happens on repeated or serious ToS violations? My account shows "You have been blocked from accessing Midjourney. This happens on repeated or serious ToS violations", please help me? You have been blocked from accessing Midjourney? I have been banned? Why am I banned?
 
 Bans will not be discussed in this chat. You can email billing@midjourney.com for questions about your subscription status.
 
@@ -1976,7 +2048,7 @@ The current Midjourney models do not use a banned word list. Rather, the bot att
 
 ---
 
-Q: My videos are getting flagged? Why are my videos blocked for violations? Blocked video? The AI moderator is unsure about my video? Every time I animate, the moderator is not sure? The AI moderator keeps flagging my video? The AI moderator keeps flagging my animation?
+Q: My videos are getting flagged? Why are my videos blocked for violations? Blocked video? The AI moderator is unsure about my video? Every time I animate, the moderator is not sure? The AI moderator keeps flagging my video? The AI moderator keeps flagging my animation? Creation failed, while the prompt you entered was deemed safe, the generated image may fall outside our community guidelines?
 
 The filter prevents abuse and content against the [Community Guidelines](https://docs.midjourney.com/hc/en-us/articles/32013696484109-Community-Guidelines) and the [Terms of Service](https://docs.midjourney.com/docs/terms-of-service). 
 For example:
@@ -1987,6 +2059,7 @@ For example:
 If you believe the image and prompt are incorrectly flagged, share them in <#1100553606761041991>.
 
 **Note:** Every image is filtered the same way, whether it's an uploaded image or an image created by Midjourney itself.
+No GPU time is deducted if a prompt or result is blocked by the filter.
 
 ---
 
@@ -2000,7 +2073,7 @@ Here are some things to avoid in image prompts:
 You can adjust the image or use text instead. Ask our <#992207085146222713> community if you have trouble finding the right words.
 
 **Note:** The origin of the image does not matter. Every image is filtered the same way, whether it's an uploaded image or an image created by Midjourney itself.
-The filter is automated and can occasionally misinterpret the content.
+The filter is automated and can occasionally misinterpret the content. If you believe it is mistaken, please share the image, prompt and parameters in the <#1100553606761041991> channel.
 
 ---
 
@@ -2080,7 +2153,7 @@ Participate in our <#992207085146222713> community to discuss prompts with other
 Q: Why can’t I make a very realistic result? I ask for realistic but it doesn’t look real? How to make realistic?
 
 If you want an image which looks like a picture, make sure to prompt for a `photo`, or `photography` and use photographic terms. **Do not** use words such as `realistic` or `3D`.
-[Learn more tips on how to create photographs](https://discord.com/channels/662267976984297473/1038487355360804985/1038487355360804985)
+[More tips on how to create photographs](https://discord.com/channels/662267976984297473/1038487355360804985/1038487355360804985)
 
 Participate in our <#992207085146222713> community to discuss prompts with other users.
 
@@ -2217,7 +2290,7 @@ Q: Bot down? Status? Is the bot down?
 
 You can check our [**status page**](https://status.midjourney.com/) and read the  <#942231458918064148> channel for updates.
 
-If you’re experiencing an issue not covered on the status page or channel, reach out for help in [#support](https://discord.com/channels/662267976984297473/958069758211797092).
+If you’re experiencing an issue not covered on the status page or channel, reach out for help in <#958069758211797092>.
 
 ---
 
@@ -2419,6 +2492,14 @@ If your account meets the [refund policy](https://docs.midjourney.com/hc/en-us/a
 
 ---
 
+Q: It did not give me the option for refund?
+
+We cannot help with payments in this chat. **Send an email to `billing@midjourney.com`for help.**
+
+To help speed up the process, include your User ID which you can find with the command </userid:1136041075614683196> and, if possible, provide your receipt number or invoice number which was sent to your billing email.
+
+---
+
 Q: I accidentally subscribed to yearly? I originally intended to subscribe to monthly but it turned out to be annual?
 
 If you chose the yearly plan instead of the monthly plan, you can try to cancel your subscription now with a refund and then subscribe to the monthly plan. On the [Midjourney account page](https://midjourney.com/account), click `Cancel Plan` and select the option `Cancel now with refund`.
@@ -2430,7 +2511,7 @@ If you chose the yearly plan instead of the monthly plan, you can try to cancel 
 
 Q: When I unsubscribe will I still have access to my website gallery? If I cancel, will I still be able to see my images in the gallery? If I cancel my subscription can I still see my images?
 
-Even without an active plan, you can view and download your own images in your gallery. However, member features and access won’t be available.
+Even without an active plan, you can view and download your own images in [your gallery](https://www.midjourney.com/organize). However, member features and access won’t be available.
 
 ---
 
@@ -2752,18 +2833,43 @@ Include your User ID which you can find on your [`Account Settings` page](https:
 # - WEBSITE -
 # -----------------
 
+---
+
+Q: Are there hotkeys on the website? Shortcuts on the website?
+
+There are some keyboard shortcuts on the [midjourney.com](http://midjourney.com/) website.
+
+When in the prompt bar:
+:arrow_up: - Fill with your previous prompt (press again to go back further).
+Shift and drag an image from one reference field to another to duplicate it.
+
+When you open any image or video:
+`L` - Like
+
+When you open your own image or video:
+`H` - Trash
+`1`/`2`/`3` - V8 rating
+
+When [ranking V 8.1 images](https://www.midjourney.com/rank-v8-1):
+`1`/`2` - Image 1/2
+`3` - Skip
+
+When you start a [Style Creator](https://www.midjourney.com/style-creator) session: click the finger icon to enable hotkeys for image selection.
+
+---
+
 # - GALLERY -
 
 Q: Where is my gallery? Archive? Where is the archive? Where is my image gallery on the website? Where can I see all my images?
 
-Sign into the Midjourney website with your Discord account and click on [Organize](https://www.midjourney.com/organize) to find your gallery with all the images you’ve generated.
+Sign into the [midjourney.com](http://midjourney.com/) website with your Discord account and click on [Organize](https://www.midjourney.com/organize) to find your gallery with all the images and videos you’ve generated.
 
 ---
 
 Q: Where can I find the image gallery?
 
-Sign into the Midjourney website with your Discord account and click on [Organize](https://www.midjourney.com/organize) to find your gallery with all the images you’ve generated.
-Go to the [Explore](https://www.midjourney.com/explore) page to discover public images from other users.
+Sign into the [midjourney.com](http://midjourney.com/) website with your Discord account and click on [Organize](https://www.midjourney.com/organize) to find your gallery with all the images and videos you’ve generated.
+Click [Explore](https://www.midjourney.com/explore) to discover public images and videos from other users.
 
 ---
 
@@ -2771,7 +2877,7 @@ Go to the [Explore](https://www.midjourney.com/explore) page to discover public 
 
 Q: How do I go to my Midjourney profile? Where is my Midjourney profile? How to access my profile?
 
-Log into the [Midjourney website](https://www.midjourney.com/) and click your name in the bottom left corner to open your Profile page.
+Log into the [midjourney.com](https://www.midjourney.com/) website and click your name in the bottom left corner to open your Profile page.
 
 Are you on mobile? Tap `Menu` in the bottom left, and then `Profile`.
 
@@ -2803,7 +2909,7 @@ They can also get you their link from the [Account Settings page](https://www.mi
 
 Q: How can I change my Midjourney username on my profile? How can I change my Midjourney username for my profile? How can I change the link to my Midjourney profile? How to choose a Midjourney username? How to customize my Midjourney username?
 
-Log into the [Midjourney website](https://www.midjourney.com/) and click your name in the bottom left corner to open your profile page.
+Log into the [midjourney.com](https://www.midjourney.com/) website and click your name in the bottom left corner to open your profile page.
 Next to your Display name, click the pencil icon to edit your username and more.
 
 Are you on mobile? Tap `Menu` in the bottom left, and then `Profile`.
@@ -2904,7 +3010,7 @@ This update now allows you to customize your profile page, the link to it, and t
 
 Q: How can we change the profile banner? How can I change the profile banner? How do I change the profile image?
 
-1️⃣ Log into the [Midjourney website](https://www.midjourney.com/) and click your name in the bottom left corner to open your profile page.
+1️⃣ Log into the [midjourney.com](https://www.midjourney.com/) website and click your name in the bottom left corner to open your profile page.
 2️⃣ Next to your Display name, click the pencil icon to customize your profile.
 3️⃣ Click the pencil again on the image you'd like to change; it will show all the images and videos which fit the requirements.
 4️⃣ Select the one you want, confirm, and press the `Update` button to save it.
@@ -3041,7 +3147,7 @@ On the [Midjourney website](https://www.midjourney.com/imagine), open your setti
 
 Q: How can I access the new edit page? How can I access the new editor? Can I use the new edit mode? Can I use the new edit? Can I use the new editor? How do I get the full editor? Where is the link to the image editor? Where is the link to the full editor?
 
-The [Editor](https://docs.midjourney.com/hc/en-us/articles/32764383466893-Editor) is available on the [Midjourney website](https://www.midjourney.com/editor/new), in the `Edit` page.
+The [Editor](https://docs.midjourney.com/hc/en-us/articles/32764383466893-Editor) is available on the [Midjourney website](https://www.midjourney.com/editor/new), on the `Edit` page.
 If you’re having trouble loading the page, log out and make sure you log back in with your account with an active subscription.
 
 ---
@@ -3049,6 +3155,15 @@ If you’re having trouble loading the page, log out and make sure you log back 
 Q: Can I use the new image editor on mobile? Can I use the full editor on mobile? Can I use the external editor on mobile? Is it possible to use the full editor through Discord? Is it possible to use the external editor through Discord?
 
 The [Editor](https://docs.midjourney.com/hc/en-us/articles/32764383466893-Editor) is only available on the desktop version of the Midjourney website.
+
+---
+
+Q: Retexture? How to retexture an image?
+
+Create an image while keeping the structure of an uploaded image using the Retexture tool. The Retexture tool is available on the [Midjourney website](https://www.midjourney.com/editor/new), on the `Edit` page.
+If you’re having trouble loading the page, log out and make sure you log back in with your account with an active subscription.
+
+[Learn more about the Retexture tool](https://docs.midjourney.com/hc/en-us/articles/32764383466893-Editor#h_01JF8WA5WZ615RTPESWCCXNS2G)
 
 ---
 
