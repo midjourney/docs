@@ -999,7 +999,7 @@ If the :x: emoji reaction does not work, you can instead right click the image (
 
 Q: Is there documentation? Can anyone help me with the commands syntax please? Can I have the user manual? Where do I find documentation? Docs link? Docs?
 
-Check out the Midjourney Documentation on [https://docs.midjourney.com/](https://docs.midjourney.com/).
+Check out the Midjourney Documentation on [docs.midjourney.com](https://docs.midjourney.com).
 
 ---
 
