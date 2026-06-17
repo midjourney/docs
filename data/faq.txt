@@ -29,7 +29,7 @@
 # `code block`
 # **bold**
 # [Link Text](https://docs.midjourney.com/)
-# :emoji:  	ex: :envelope:
+# :emoji:      ex: :envelope:
 # <@userIDnumber>
 
 
@@ -588,7 +588,7 @@ With the default settings:
 - Set of 4 Videos in HD: consume about 26 GPU minutes
 
 **Note:** Jobs with an [Omni Reference](https://docs.midjourney.com/hc/en-us/articles/36285124473997-Omni-Reference) run in turbo mode, which consumes double the GPU time.
-The above costs are based on the default version (7), using older versions may use more GPU.
+The above costs are based on the default version (8.1), using older versions may use more GPU.
 [Learn more about GPU and Speed modes](https://docs.midjourney.com/hc/en-us/articles/32016412137741-GPU-Speed-Fast-Relax-Turbo)
 
 ---
@@ -1053,13 +1053,17 @@ This way, when you submit `--pablo playing basketball --pic`, it will run the pr
 
 Q: How to upscale in V8? How to upscale in Version 8? Version 8 upscale? Can I upscale in V8? Can I upscale in Version 8?
 
-At this time, Version 8 does not have an upscaler. 
-You can run or rerun a prompt with `--hd` to generate images in a higher resolution. If you click `Run as HD` on a generated image, it will create a new set of 4 images in HD, using the same exact prompt and seed. The same seed helps with keeping a similar composition.
+Images created in SD resolution in Version 8.1 can be upscaled.
+In HD, images already have the resolution of an upscaled image, so they do not get the option.
 
-**Note:** A set of 4 HD images in Version 8.1 consumes about 1.33 GPU minutes, compared to about 1 GPU minute for a set of 4 SD images.
-A set of 4 HD images in Version 8.0 consumes about 4 times more GPU time than a SD set. If using both `--hd` and `--q 4`, it will consume about 16 GPU minutes.
+You can click `Run as HD` on a Standard Definition (SD) image to create a similar set of 4 images in High Definition. It will use the same prompt and seed to keep the composition close to your original SD results.
 
-[Learn more about Version 8.1 and its alpha 8.0](https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version#h_01JQSR0Q6H0AX8NCC8QGE6C2NZ)
+With a 1:1 square ratio:
+🔹SD images are 1024 x 1024 pixels
+🔹Upscaled (Subtle or Creative) are 2048 x 2048 pixels
+🔹HD images are 2048 x 2048 pixels
+
+[Learn more about Upscalers](https://docs.midjourney.com/hc/en-us/articles/32804058614669-Upscalers)
 
 ---
 
@@ -1074,13 +1078,6 @@ With V 6 and Niji 6, you can use a [Character reference](https://docs.midjourney
 ---
 
 # - VERSION 7 -
-
-Q: How to use version 7? How to switch to v7? I want to turn on v7?
-
-Midjourney’s Version 7 is now the default model !
-Use the command </settings:1000850743479255081> if you’d like to make sure it’s toggled on for you.
-
----
 
 Q: Not compatible with --version 7?
 
@@ -1103,8 +1100,10 @@ If you wish to lower the quality parameter or use higher values on older version
 Q: What does quality do? How do you use --q? How do you use quality? What is --q?
 
 The `--quality` parameter (`--q`) changes how much time is spent generating an image.
+
+Version 8.1 is not compatible with this parameter. [View compatibility chart](https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version#h_01JQSVRYHH9QQJW7QMG1X06NJV)
 In Version 7, you can use the following values: `1`, `2` and `4`. The default value is 1.
-For example: `Blurry glitch art of a bat --q 2`
+For example: `Blurry glitch art of a bat --q 2 --v 7`
 
 [Learn more about the Quality parameter](https://docs.midjourney.com/hc/en-us/articles/32176522101773-Quality)
 
@@ -1440,7 +1439,7 @@ In this example, the first image will have more influence than the second image.
 
 Q: Can an image prompt have a negative weight?
 
-In the default version of Midjourney (Version 7), you cannot assign a negative weight to an image prompt. The value for the image weight parameter, `--iw`, must be between 0 and 3.
+In the default version of Midjourney (Version 8.1), you cannot assign a negative weight to an image prompt. The value for the image weight parameter, `--iw`, must be between 0 and 3.
 
 ---
 
@@ -2756,7 +2755,7 @@ The billing information on your subscription must match the information associat
 
 # - TEAM PLANS -
 
-Q: Student subscriptions? Can I buy subscriptions for my students? Student subscriptions for a workshop? Student subscriptions for a class? Multiple accounts for students? How to get access for multiple students? Are there school subscriptions for multiple students?
+Q: Student subscriptions? Can I buy subscriptions for my students? Student subscriptions for a workshop? Student subscriptions for a class? Multiple accounts for students? How to get access for multiple students? Are there school subscriptions for multiple students? 
 
 There are currently no educational or group plans. Accounts and subscriptions are personal, so each student must set up their own account and their own subscription.
 
@@ -2764,7 +2763,7 @@ There are currently no educational or group plans. Accounts and subscriptions ar
 
 ---
 
-Q: Can I purchase multiple plans? Can I purchase multiple subscriptions? Are there plans for companies? Are there company plans? Can I subscribe for my employees? Multiple plans for a business? Are there team plans? How to set up a corporate account? Can I buy a team plan?
+Q: Can I purchase multiple plans? Can I purchase multiple subscriptions? Are there plans for companies? Are there company plans? Can I subscribe for my employees? Multiple plans for a business? Are there team plans? How to set up a corporate account? Can I buy a team plan? Any group prices? Are there group prices?
 
 Midjourney doesn't offer any group or shared plans at the moment. Per the [Terms of Service](https://docs.midjourney.com/hc/en-us/articles/32083055291277-Terms-of-Service), each account and subscription must remain strictly individual.
 
@@ -3173,31 +3172,37 @@ Q: How to use conversational mode? What is conversational mode?
 
 Instead of writing prompts, click the :speech_left:  **Conversational Mode** button on [the website's `Imagine` bar](https://www.midjourney.com/imagine) to discuss your vision and shape prompts with the bot. Describe to it what you want (by voice or text), and how to adjust the results; the bot handles the prompt-writing for you.
 
-Once you're happy with a **prompt**, click `Enhance` to generate a new set of images in Standard quality. Or, if you like a specific **image**, you can `Upscale` it to maximum resolution. 
-
-Conversational mode is only available on the Midjourney website. [Learn more about Draft mode](https://docs.midjourney.com/hc/en-us/articles/35577175650957-Draft-Mode)
+Conversational mode is only available on the Midjourney website. [Learn more about Conversational mode](https://docs.midjourney.com/hc/en-us/articles/35577175650957-Draft-Conversational-Modes#h_01JRV2QPETCNWKVX7C0S28PEB1)
 
 ---
 
 Q: Draft quality? Draft mode?
 
-You can run a prompt in `Draft` mode by adding the `--draft` parameter to your prompt.
-Draft quality generates images quickly and at half the cost.
+**In Version 8.1**, use `Draft` mode :zap: on the website to generate 24 images half the size of an SD image. The entire set of 24 draft images (512 x 512 px) consumes 0.4 GPU minute, while a set of 4 SD images (1024 x 1024 px) consumes about 1 GPU minute. This is ideal to test prompts and ideas !
 
-This is ideal to test prompts and ideas ! Once you're happy with a **prompt**, run it without the `--draft` parameter to create a new set of images in Standard quality. Or, if you like a specific **image**, you can `Upscale` it to maximum resolution. 
+To get a higher resolution of an image, use the `Vary` or `Remix` buttons to generate a set of 4 variations using your default settings (SD or HD).
+
+**In Version 7**, add `--draft` to your prompt or use `Draft` mode on the website to generate draft quality images quickly, and at half the cost.
+
+[Learn more about Draft mode](https://docs.midjourney.com/hc/en-us/articles/35577175650957-Draft-Conversational-Modes)
 
 ---
 
 Q: Does Draft mode use Fast Hours? Is Draft mode free? How much does Draft images cost?
 
-When using Draft mode, images are made in Draft quality, meaning each set is much quicker to generate and costs **half** as much GPU time as usual (about 30 GPU seconds).
+Draft mode can be used in Fast or Relax mode.
+
+**In Version 8.1**, Draft mode generates a set of 24 images half the size of an SD image, and consumes about **0.4 GPU minutes** (24 seconds) per set.
+
+**In Version 7**, Draft mode generates a set of 4 images with a slightly lower quality, and consumes about **0.5 GPU minutes** (30 seconds) per set.
+
+[Learn more about Draft mode](https://docs.midjourney.com/hc/en-us/articles/35577175650957-Draft-Conversational-Modes)
 
 ---
 
 Q: Does Niji work in Draft mode? Does Version 6 work in Draft mode? Is Niji compatible with Draft mode?
 
-Draft mode only works with Version 7.
-When activating Draft mode, your settings will automatically update to Version 7.
+Draft mode only works with Version 7 and Version 8.1
 
 [Learn more about Draft mode](https://docs.midjourney.com/hc/en-us/articles/35577175650957-Draft-Conversational-Modes)
 
@@ -3291,3 +3296,5 @@ Q: Nitro?
 [Discord Nitro](https://discord.com/nitro) is a service provided by Discord to customize your Discord profile, emojis, etc. You do **not** need Discord Nitro to use Midjourney.
 
 ---
+
+
