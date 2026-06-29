@@ -64,19 +64,18 @@ Reach out to press@midjourney.com
 
 Q: What's the business model for what we're using here?  Where does your funding come from? How are you funded? Are you taking investment? Are you taking investors?
 
-We're figuring things out, but our goal is to allow as many people access to these technologies as possible.
+Midjourney has no investors. We are funded by our community.
+
+Once subscribed, you can submit ideas and vote for them on the [publicly voted feature chart](https://www.midjourney.com/ideas), you can join the weekly office hours via Discord or Twitter, and you can participate in various channels on the Discord server. Feedback, ideas, suggestions, and discussion are always welcome!
 
 ---
 
-Q: Are you hiring? Can I apply for a job? Can I apply for a job?
+Q: Are you hiring? Can I apply for a job? Can I apply for a job? Who/where can I contact for jobs at Midjourney?
 
-Yes ! We're always on the lookout for great people to join Midjourney. If you're interested, please reach out to `careers@midjourney.com` with the subject “Exceptional Candidate: {your name}” and include a description of work that demonstrates your aptitude and capabilities.
+We're always on the lookout for great people to join Midjourney!
+Check out our [https://www.midjourney.com/careers](https://www.midjourney.com/careers) page for more information.
 
----
-
-Q: Who/where can I contact for jobs at Midjourney?
-
-If you're interested in joining the Midjourney team, please reach out to `careers@midjourney.com` with the subject “Exceptional Candidate: {your name}” and include a description of work that demonstrates your aptitude and capabilities.
+If you're interested, send an email to `careers@midjourney.com` with your portfolio and details to get in touch.
 
 ---
 
@@ -877,30 +876,6 @@ Running Upscale again will give you a different result.
 
 ---
 
-Q: I don't see the Max Upscale option? No Max Upscale? Where is Max Upscale?
-
-The Max Upscaler is an upscaler for Version 3. If you are using a more recent version, this option will not be available. This feature is only available in `/fast` mode. You may not see an upscale option for some aspect ratios that would produce a file over the maximum size the bot can create. Check your upscaled image’s resolution: it may already be at the maximum resolution.
-
-[Learn more about Upscaler Models](https://docs.midjourney.com/hc/en-us/articles/32804058614669-Upscalers)
-
----
-
-Q: What is "Light Upscale Redo"? What is a light upscale? How do I use light upscale? What is uplight?
-
-Light upscale is an upscaler for Version 3 and 4. It uses a different algorithm that adds less detail, which may be better in some cases. You can use the `--uplight` parameter in a prompt, or hit the `Light Upscale Redo` button under v3 and v4 upscaled images.
-
-[Learn more about Upscaler Models](https://docs.midjourney.com/hc/en-us/articles/32804058614669-Upscalers)
-
----
-
-Q: What is "Beta Upscale Redo"? What is a beta upscale? How do I use beta upscale? What is "beta Upscale Redo"? What is a beta upscale? How do I use beta upscale? What is upbeta?
-
-Beta upscale is an upscaler for Version 3 and 4. It uses a different algorithm that adds flat textured smooth detail, which may be better in some cases. You can use the `--upbeta` parameter in a prompt, or hit the `Beta Upscale Redo` button under v3 and v4 upscaled images.
-
-[More about Upscaler Models](https://docs.midjourney.com/hc/en-us/articles/32804058614669-Upscalers)
-
----
-
 Q: What is the maximum upscale resolution? What is the maximum resolution?  How can I set the resolution? Can I make a 4K image? Can I make a 300 DPI image? Can I make the resolution higher? Can I print my image? Is it possible to save my creations in high resolution, so I can print them out as posters? Is there a way to set the resolution to 2k and higher? How do I choose a resolution? How do I increase my image’s resolution? How can i make a 4k resolution? How do I make the quality higher? How do I get higher quality images? Image DPI? Image resolution?
 
 For square images in the current version, the upscalers will produce the following:
@@ -912,14 +887,6 @@ If you need larger or higher resolution images, you can look into 3rd party upsc
 
 **Note:** Rolling a (Creative) or (Subtle) upscale another time will still produce a 2048 x 2048 px result.
 [Learn more about resolution and upscalers](https://docs.midjourney.com/hc/en-us/articles/32804058614669-Upscalers)
-
----
-
-Q: Where has the upscale 4x button gone? Upscale 2x and Upscale 4x do now show for me? Have you removed 4x upscale? 4x upscale? Upscale (4x)?
-
-At the moment, version 7 only has `Upscale (Subtle)` and `Upscale (Creative)` which are both Upscales 2x. [Learn more about Upscalers](https://docs.midjourney.com/hc/en-us/articles/32804058614669-Upscalers)
-
-If you want an Upscale (4x) you need to go back to --v 5.2. Use the command </settings:1000850743479255081>, select Version 5.2 and create a new /imagine - new images will have the 4x Upscale button.
 
 ---
 
@@ -1051,9 +1018,9 @@ This way, when you submit `--pablo playing basketball --pic`, it will run the pr
 
 # - VERSION 8 -
 
-Q: How to upscale in V8? How to upscale in Version 8? Version 8 upscale? Can I upscale in V8? Can I upscale in Version 8?
+Q: How to upscale in V8? How to upscale in Version 8? Version 8 upscale? Can I upscale in V8? Can I upscale in Version 8? Where is the upscale function? I don’t see the upscale button? Where is the upscale button?
 
-Images created in SD resolution in Version 8.1 can be upscaled.
+Only images created in SD resolution in Version 8.1 can be upscaled.
 In HD, images already have the resolution of an upscaled image, so they do not get the option.
 
 You can click `Run as HD` on a Standard Definition (SD) image to create a similar set of 4 images in High Definition. It will use the same prompt and seed to keep the composition close to your original SD results.
@@ -2103,6 +2070,14 @@ Midjourney uses a moderation system that combines automated AI filters, communit
 
 ---
 
+Q: Can I generate adult content? Is there an NSFW mode? How to make NSFW? Can I make NSFW content? Can I generate NSFW content? 
+
+To keep the platform accessible and welcoming to everyone, content must be “Safe For Work” (SFW).
+Please refer to our [Community Guidelines](https://docs.midjourney.com/hc/en-us/articles/32013696484109-Community-Guidelines) for detailed rules and moderation policies.
+
+
+---
+
 Q: Ephemeral? What are ephemeral jobs? Why do my jobs disappear from Discord? My images are disappearing?
 
 Some jobs may be temporary on Discord when using certain words or phrases in your prompt. The images are only visible to you and disappear when you close, refresh, or switch Discord pages. If the job is ephemeral, you’ll see the text `Only you can see this` at the bottom of the bot's message.
@@ -2566,12 +2541,33 @@ Send an email to `billing@midjourney.com` for further assistance.
 
 ---
 
-Q: Remove payment info? Remove credit cards? How do I remove payment information? Remove payment? How can I find my Midjourney's invoice? Where can I see my invoices? How to access invoices? Where can I get my receipts? I want to remove my credit card? How to change my payment method? How to change my card details? How to change the default payment method? How to update my default payment method? Can I modify my default payment method? How can I get the receipt? Where do I find the receipt? Where can I download past bills? How can I get an invoice?
+Q: How to change my payment method? How to change my card details? How to change the default payment method? How to update my default payment method? Can I modify my default payment method? Change billing information? How to change billing info?
 
 🔹 If your subscription is **active**: Use the command </subscribe:987795925764280351> or go to your [`Manage Subscription` page](https://www.midjourney.com/account) on the website to view your plan details.
-Click `Edit Billing` to verify or modify your payment information. Click `View Invoices` to download previous invoices and receipts.
+Click `Edit Billing` to verify or modify your payment information. If you have multiple payment methods on file, make sure to set your preferred one as default.
 
 🔹 If your subscription is **inactive**: Access [this link](https://billing.stripe.com/p/login/aEUdRA5Wc8t25a03cc) using your billing email to find your invoices and update your payment information.
+
+Send an email to `billing@midjourney.com` for further assistance.
+
+---
+
+Q: Remove payment info? Remove credit cards? How do I remove payment information? Remove payment? I want to remove my credit card?
+
+🔹 If your subscription is **active**: Use the command </subscribe:987795925764280351> or go to your [`Manage Subscription` page](https://www.midjourney.com/account), then click `Edit Billing` to modify your payment information. While your plan is active, there must remain at least one payment method on file.
+
+🔹 If your subscription is **inactive**: Access [this link](https://billing.stripe.com/p/login/aEUdRA5Wc8t25a03cc) using your billing email to remove any payment method on file.
+
+Send an email to `billing@midjourney.com` for further assistance.
+
+---
+
+Q: How can I find my Midjourney's invoice? Where can I see my invoices? How to access invoices? Where can I get my receipts? How can I get the receipt? Where do I find the receipt? Where can I download past bills? How can I get an invoice?
+
+🔹 If your subscription is **active**: Use the command </subscribe:987795925764280351> or go to your [`Manage Subscription` page](https://www.midjourney.com/account) on the website to view your plan details.
+Click `View Invoices` to download previous invoices and receipts.
+
+🔹 If your subscription is **inactive**: Access [this link](https://billing.stripe.com/p/login/aEUdRA5Wc8t25a03cc) using your billing email to find your past invoices and receipts.
 
 Send an email to `billing@midjourney.com` for further assistance.
 
@@ -2624,9 +2620,15 @@ We cannot help with payments in this chat. **Send an email to `billing@midjourne
 
 # - CHANGE EMAIL -
 
-Q: I need to change my email address? I want to change the email address? Please change the email address for my subscription? How to change the billing email address? I want to change my email? How can I change my registered email address? How can i change my email in the payment page? I need to change the email on the payment page? How to change my account email address? How can I change my contact email?
+Q: I need to change my email address? I want to change the email address? Please change the email address for my subscription? I want to change my email? How can I change my registered email address? How to change my account email address? How can I change my contact email?
 
 To modify your **Discord email** used to sign in, follow this guide: [How to change your Discord account's email address](https://support.discord.com/hc/en-us/articles/4423385681175-How-to-Change-Your-Account-s-Email-Address).
+
+To modify your **Midjourney billing email** where you receive invoices and receipts, send an email to `billing@midjourney.com` with your User ID which you can find with the command </userid:1136041075614683196>. If possible, provide your receipt number or invoice number.
+
+---
+
+Q: How to change the billing email address? How can I change my email on the payment page? I need to change the email on the payment page? 
 
 To modify your **Midjourney billing email** where you receive invoices and receipts, send an email to `billing@midjourney.com` with your User ID which you can find with the command </userid:1136041075614683196>. If possible, provide your receipt number or invoice number.
 
@@ -3178,11 +3180,21 @@ Conversational mode is only available on the Midjourney website. [Learn more abo
 
 Q: Draft quality? Draft mode?
 
-**In Version 8.1**, use `Draft` mode :zap: on the website to generate 24 images half the size of an SD image. The entire set of 24 draft images (512 x 512 px) consumes 0.4 GPU minute, while a set of 4 SD images (1024 x 1024 px) consumes about 1 GPU minute. This is ideal to test prompts and ideas !
+**In Version 8.1**, use `Draft` mode :zap: on the [website](https://www.midjourney.com/imagine) to generate 24 images half the size of an SD image. The entire set of 24 draft images (512 x 512 px) consumes 0.4 GPU minute, while a set of 4 SD images (1024 x 1024 px) consumes about 1 GPU minute. This is ideal to test prompts and ideas !
 
 To get a higher resolution of an image, use the `Vary` or `Remix` buttons to generate a set of 4 variations using your default settings (SD or HD).
 
 **In Version 7**, add `--draft` to your prompt or use `Draft` mode on the website to generate draft quality images quickly, and at half the cost.
+
+[Learn more about Draft mode](https://docs.midjourney.com/hc/en-us/articles/35577175650957-Draft-Conversational-Modes)
+
+---
+
+Q: Draft mode on mobile? Can you use draft mode on mobile? How to use draft mode on mobile?
+
+**In Version 8.1**, add `--draft` at the end of your prompt on the [website](https://www.midjourney.com/imagine) to generate 24 images half the size of an SD image. You cannot use it on Discord.
+
+**In Version 7**, add `--draft` to your prompt on either Discord or [midjourney.com](https://www.midjourney.com/imagine) to generate draft quality images quickly, and at half the cost.
 
 [Learn more about Draft mode](https://docs.midjourney.com/hc/en-us/articles/35577175650957-Draft-Conversational-Modes)
 
@@ -3254,13 +3266,17 @@ Q: How to bind Niji app? Can I bind my Niji app subscription? Bind my Niji journ
 
 Are you getting an error? [Click here and follow this chart.](https://cdn.midjourney.com/u/ff03153e-6e8a-48b4-87d0-5acd0a123688/b31a72db57789ee5a5d6c8ecc1bd4899cb3ae32cab06cb167daf3362b415344b.png)
 
+Join the [Niji server](https://discord.gg/nijijourney) if you have more questions about it.
+
 ---
 
 Q: Niji app subscription? Niji app? Niji journey?
 
-[Niji・journey](https://discord.gg/nijijourney) is a magical collaboration between Midjourney and Spellbrush. You can download the mobile app from [the iOS App Store](https://apps.apple.com/us/app/niji-journey/id6446376937) or from [Google Play](https://play.google.com/store/apps/details?id=com.spellbrush.nijijourney).
+[Niji・journey](https://nijijourney.com/) is a magical collaboration between Midjourney and Spellbrush. You can download the mobile app from [the iOS App Store](https://apps.apple.com/us/app/niji-journey/id6446376937) or from [Google Play](https://play.google.com/store/apps/details?id=com.spellbrush.nijijourney).
 
-**Do you already have a subscription?** [Click here to find how to link it to both your Discord account and your Niji app](https://nijijourney.com/help-center/how-do-i-bind-my-niji-journey-and-midjourney-accounts).
+[Click here to join the Niji server!](https://discord.gg/nijijourney)
+
+**Do you already have a subscription?** [Follow this guide on how to link it to both your Discord account and your Niji app](https://nijijourney.com/help-center/how-do-i-bind-my-niji-journey-and-midjourney-accounts).
 
 ---
 
