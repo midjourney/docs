@@ -587,7 +587,7 @@ With the default settings:
 - Set of 4 Videos in HD: consume about 26 GPU minutes
 
 **Note:** Jobs with an [Omni Reference](https://docs.midjourney.com/hc/en-us/articles/36285124473997-Omni-Reference) run in turbo mode, which consumes double the GPU time.
-The above costs are based on the default version (8.1), using older versions may use more GPU.
+The above costs are based on the default version (8.2), using older versions may use more GPU.
 [Learn more about GPU and Speed modes](https://docs.midjourney.com/hc/en-us/articles/32016412137741-GPU-Speed-Fast-Relax-Turbo)
 
 ---
@@ -1018,12 +1018,10 @@ This way, when you submit `--pablo playing basketball --pic`, it will run the pr
 
 # - VERSION 8 -
 
-Q: How to upscale in V8? How to upscale in Version 8? Version 8 upscale? Can I upscale in V8? Can I upscale in Version 8? Where is the upscale function? I don’t see the upscale button? Where is the upscale button?
+Q: How to upscale in V8? How to upscale in Version 8? Version 8 upscale? Can I upscale in V8? Can I upscale in Version 8? Where is the upscale function? I don’t see the upscale button? Where is the upscale button? Where is the upscale?
 
-Only images created in SD resolution in Version 8.1 can be upscaled.
-In HD, images already have the resolution of an upscaled image, so they do not get the option.
-
-You can click `Run as HD` on a Standard Definition (SD) image to create a similar set of 4 images in High Definition. It will use the same prompt and seed to keep the composition close to your original SD results.
+Only images created in SD resolution in Version 8 can be upscaled.
+**In HD, images already have the resolution of an upscaled image, so they do not get the option.**
 
 With a 1:1 square ratio:
 🔹SD images are 1024 x 1024 pixels
@@ -1031,6 +1029,15 @@ With a 1:1 square ratio:
 🔹HD images are 2048 x 2048 pixels
 
 [Learn more about Upscalers](https://docs.midjourney.com/hc/en-us/articles/32804058614669-Upscalers)
+
+---
+
+Q: Why is it using version 7 when I’m in 8.2? Why is it using V 7 when I’m in 8.2? Why is it using V7 when I’m in 8.2? All my prompts are changed to V7? All my prompts are changed to V 7? All my prompts are changed to Version 7? V7 is being used no matter what? V 7 is being used no matter what? Version 7 is being used no matter what? It uses V7 even when I ask for 8.2? It uses Version 7 even when I ask for 8.2? It uses V 7 even when I ask for 8.2?
+
+[Omni reference](https://docs.midjourney.com/hc/en-us/articles/36285124473997-Omni-Reference) is only compatible with Version 7.
+**When you add an omni reference to your prompt, it will automatically run in Version 7.**
+
+[Click here](https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version#h_01JQSVRYHH9QQJW7QMG1X06NJV) to view which features and parameters are compatible with V 8.
 
 ---
 
@@ -1068,7 +1075,7 @@ Q: What does quality do? How do you use --q? How do you use quality? What is --q
 
 The `--quality` parameter (`--q`) changes how much time is spent generating an image.
 
-Version 8.1 is not compatible with this parameter. [View compatibility chart](https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version#h_01JQSVRYHH9QQJW7QMG1X06NJV)
+Version 8 is not compatible with this parameter. [View compatibility chart](https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version#h_01JQSVRYHH9QQJW7QMG1X06NJV)
 In Version 7, you can use the following values: `1`, `2` and `4`. The default value is 1.
 For example: `Blurry glitch art of a bat --q 2 --v 7`
 
@@ -1129,6 +1136,8 @@ The '--chaos' or '--c' parameter affects how different the images are from each 
 Q: Can I make a seamless pattern? Tile? What is the tile parameter? How to create tiles? Can I make a pattern? How to make a pattern? Can I make a tile to create a pattern?
 
 Use the `--tile` parameter at the end of your prompt to create images which can be used as a seamless tile pattern.
+
+**Note:** At the moment, `--tile` works better with Version 7. The team is aware of issues with tiling in Version 8.2 and is working to resolve them in the future Version 9.
 
 [Learn more about the Tile parameter](https://docs.midjourney.com/hc/en-us/articles/32197978340109-Tile)
 
@@ -1319,8 +1328,8 @@ Are you on mobile? Tap and hold on the image in the chat to `Copy Media Link`.
 Q: How to use an image link? How to use image links? Where do I use image links?
 
 Paste an image link at the start of your prompt to use it as an image prompt.
-To use the image as a [style reference](https://docs.midjourney.com/hc/en-us/articles/32180011136653-Style-Reference) (sref) or [character reference](https://docs.midjourney.com/hc/en-us/articles/32162917505293-Character-Reference) (cref), add the parameter `--sref` or `--cref` followed by a space and the link at the end of your prompt.
-For example: `A man with a glowing bat --sref image1.png --cref image2.png`
+To use the image as a [style reference](https://docs.midjourney.com/hc/en-us/articles/32180011136653-Style-Reference) (sref), add the parameter `--sref` followed by a space and the link at the end of your prompt.
+For example: `A man with a glowing bat --sref image1.png`
 
 **Note:** If you're only using one image prompt, you must add text.
 If you use multiple images, make sure to have a space between each link.
@@ -1338,7 +1347,7 @@ You can add image links in your prompt, see [here](https://docs.midjourney.com/h
 2️⃣ Right-click and **copy the link to the image** or media (ending in .jpg, .png, or .webp). If you don’t see this option, left-click on the image to open it, then right-click to copy the link.
 3️⃣ **Type `/imagine`** and click the popup.
 4️⃣ **Paste the link** at the start of your prompt to use it as an image prompt.
-To use the image as a [style reference](https://docs.midjourney.com/hc/en-us/articles/32180011136653-Style-Reference) (sref) or [character reference](https://docs.midjourney.com/hc/en-us/articles/32162917505293-Character-Reference) (cref), add the parameter `--sref` or `--cref` followed by a space and the link at the end of your prompt.
+To use the image as a [style reference](https://docs.midjourney.com/hc/en-us/articles/32180011136653-Style-Reference) (sref), add the parameter `--sref` followed by a space and the link at the end of your prompt.
 5️⃣ Add your text prompt and parameters.
 
 **Note:** If you're only using one image prompt, you must add text.
@@ -1375,7 +1384,7 @@ You can add image links in your prompt, see [here](https://docs.midjourney.com/h
 2️⃣ Right-click and **copy the link to the image** or media (ending in .jpg, .png, or .webp). If you don’t see this option, left-click on the image to open it, then right-click to copy the link.
 3️⃣ **Type `/imagine`** and click the popup.
 4️⃣ **Paste the link** at the start of your prompt to use it as an image prompt.
-To use the image as a [style reference](https://docs.midjourney.com/hc/en-us/articles/32180011136653-Style-Reference) (sref) or [character reference](https://docs.midjourney.com/hc/en-us/articles/32162917505293-Character-Reference) (cref), add the parameter `--sref` or `--cref` followed by a space and the link at the end of your prompt.
+To use the image as a [style reference](https://docs.midjourney.com/hc/en-us/articles/32180011136653-Style-Reference) (sref), add the parameter `--sref` followed by a space and the link at the end of your prompt.
 5️⃣ Add your text prompt and parameters.
 
 **Note:** If you're only using one image prompt, you must add text.
@@ -1406,7 +1415,7 @@ In this example, the first image will have more influence than the second image.
 
 Q: Can an image prompt have a negative weight?
 
-In the default version of Midjourney (Version 8.1), you cannot assign a negative weight to an image prompt. The value for the image weight parameter, `--iw`, must be between 0 and 3.
+In the default version of Midjourney (Version 8.2), you cannot assign a negative weight to an image prompt. The value for the image weight parameter, `--iw`, must be between 0 and 3.
 
 ---
 
@@ -2183,8 +2192,8 @@ Participate in our <#992207085146222713> community to discuss prompts with other
 
 Q: How do I get text or words in an image? How can I add text to my images? Is it possible to get text on images? How do I get text in an image? How do I add words to the image? How to create text?
 
-[Add text to your image](https://docs.midjourney.com/hc/en-us/articles/32502277092109-Text-Generation) by typing it in "quotes". This currently works better with Version 6.1.
-For example: `Sci-fi movie poster with title text "Aliens!" --v 6.1`
+[Add text to your image](https://docs.midjourney.com/hc/en-us/articles/32502277092109-Text-Generation) by typing it in "quotes".
+For example: `Sci-fi movie poster with title text "Aliens!"`
 
 Participate in our <#992207085146222713> community to discuss prompts with other users.
 
@@ -2562,7 +2571,7 @@ Send an email to `billing@midjourney.com` for further assistance.
 
 ---
 
-Q: How can I find my Midjourney's invoice? Where can I see my invoices? How to access invoices? Where can I get my receipts? How can I get the receipt? Where do I find the receipt? Where can I download past bills? How can I get an invoice?
+Q: How can I find my Midjourney's invoice? Where can I see my invoices? How to access invoices? Where can I get my receipts? How can I get the receipt? Where do I find the receipt? Where can I download past bills? How can I get an invoice? Where can I download my invoices? I want to download my invoices?
 
 🔹 If your subscription is **active**: Use the command </subscribe:987795925764280351> or go to your [`Manage Subscription` page](https://www.midjourney.com/account) on the website to view your plan details.
 Click `View Invoices` to download previous invoices and receipts.
@@ -2851,7 +2860,7 @@ When you open your own image or video:
 `H` - Trash
 `1`/`2`/`3` - V8 rating
 
-When [ranking V 8.1 images](https://www.midjourney.com/rank-v8-1):
+When [ranking V8.2 images](https://www.midjourney.com/rank-v8-2):
 `1`/`2` - Image 1/2
 `3` - Skip
 
@@ -3180,7 +3189,7 @@ Conversational mode is only available on the Midjourney website. [Learn more abo
 
 Q: Draft quality? Draft mode?
 
-**In Version 8.1**, use `Draft` mode :zap: on the [website](https://www.midjourney.com/imagine) to generate 24 images half the size of an SD image. The entire set of 24 draft images (512 x 512 px) consumes 0.4 GPU minute, while a set of 4 SD images (1024 x 1024 px) consumes about 1 GPU minute. This is ideal to test prompts and ideas !
+**In Version 8**, use `Draft` mode :zap: on the [website](https://www.midjourney.com/imagine) to generate 24 images half the size of an SD image. The entire set of 24 draft images (512 x 512 px) consumes 0.4 GPU minute, while a set of 4 SD images (1024 x 1024 px) consumes about 1 GPU minute. This is ideal to test prompts and ideas !
 
 To get a higher resolution of an image, use the `Vary` or `Remix` buttons to generate a set of 4 variations using your default settings (SD or HD).
 
@@ -3192,7 +3201,7 @@ To get a higher resolution of an image, use the `Vary` or `Remix` buttons to gen
 
 Q: Draft mode on mobile? Can you use draft mode on mobile? How to use draft mode on mobile?
 
-**In Version 8.1**, add `--draft` at the end of your prompt on the [website](https://www.midjourney.com/imagine) to generate 24 images half the size of an SD image. You cannot use it on Discord.
+**In Version 8**, add `--draft` at the end of your prompt on the [website](https://www.midjourney.com/imagine) to generate 24 images half the size of an SD image. You cannot use it on Discord.
 
 **In Version 7**, add `--draft` to your prompt on either Discord or [midjourney.com](https://www.midjourney.com/imagine) to generate draft quality images quickly, and at half the cost.
 
@@ -3204,7 +3213,7 @@ Q: Does Draft mode use Fast Hours? Is Draft mode free? How much does Draft image
 
 Draft mode can be used in Fast or Relax mode.
 
-**In Version 8.1**, Draft mode generates a set of 24 images half the size of an SD image, and consumes about **0.4 GPU minutes** (24 seconds) per set.
+**In Version 8**, Draft mode generates a set of 24 images half the size of an SD image, and consumes about **0.4 GPU minutes** (24 seconds) per set.
 
 **In Version 7**, Draft mode generates a set of 4 images with a slightly lower quality, and consumes about **0.5 GPU minutes** (30 seconds) per set.
 
@@ -3214,7 +3223,7 @@ Draft mode can be used in Fast or Relax mode.
 
 Q: Does Niji work in Draft mode? Does Version 6 work in Draft mode? Is Niji compatible with Draft mode?
 
-Draft mode only works with Version 7 and Version 8.1
+Draft mode only works with Version 7 and Version 8.
 
 [Learn more about Draft mode](https://docs.midjourney.com/hc/en-us/articles/35577175650957-Draft-Conversational-Modes)
 
